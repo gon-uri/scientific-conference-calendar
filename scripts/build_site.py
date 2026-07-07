@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-from datetime import timezone
+from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 from typing import Any
@@ -18,6 +18,21 @@ from validate import (
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
+
+MONTHS = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+]
 
 
 def _attr(value: Any) -> str:
@@ -47,17 +62,70 @@ def _deadline_source_url(
 
 
 def _source_link(url: str) -> str:
-    return f'<a href="{_attr(url)}">Source</a>'
+    return f'<a class="source-link" href="{_attr(url)}">Source</a>'
+
+
+def _format_date(value: datetime) -> str:
+    return f"{MONTHS[value.month - 1]} {value.day}, {value.year}"
+
+
+def _format_time(value: datetime) -> str:
+    hour = value.hour % 12 or 12
+    suffix = "AM" if value.hour < 12 else "PM"
+    return f"{hour}:{value.minute:02d} {suffix}"
+
+
+def _format_offset(value: datetime) -> str:
+    offset = value.utcoffset()
+    if offset is None:
+        return "UTC"
+    total_minutes = int(offset.total_seconds() // 60)
+    if total_minutes == 0:
+        return "UTC"
+    sign = "+" if total_minutes > 0 else "-"
+    total_minutes = abs(total_minutes)
+    hours, minutes = divmod(total_minutes, 60)
+    if minutes:
+        return f"UTC{sign}{hours:02d}:{minutes:02d}"
+    return f"UTC{sign}{hours}"
+
+
+def _deadline_iso_utc(value: Any) -> str:
+    parsed = parse_datetime(value)
+    if parsed.tzinfo is None or parsed.utcoffset() is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    return parsed.astimezone(timezone.utc).isoformat().replace("+00:00", "Z")
 
 
 def _display_deadline_datetime(value: Any) -> str:
-    if isinstance(value, str):
-        return escape(value.replace("T", " "))
     parsed = parse_datetime(value)
-    if parsed.tzinfo is not None and parsed.utcoffset() is not None:
-        parsed = parsed.astimezone(timezone.utc)
-        return parsed.strftime("%Y-%m-%d %H:%M UTC")
-    return parsed.strftime("%Y-%m-%d %H:%M")
+    return f"{_format_date(parsed)}, {_format_time(parsed)} {_format_offset(parsed)}"
+
+
+def _display_deadline_label(label: str) -> str:
+    cleaned = label.strip()
+    suffix = " deadline"
+    if cleaned.lower().endswith(suffix):
+        cleaned = cleaned[: -len(suffix)].rstrip()
+    return cleaned
+
+
+def _display_conference_dates(start_value: Any, end_value: Any) -> str:
+    start = parse_date(start_value)
+    end = parse_date(end_value)
+    if start == end:
+        return f"{MONTHS[start.month - 1]} {start.day}, {start.year}"
+    if start.year == end.year and start.month == end.month:
+        return f"{MONTHS[start.month - 1]} {start.day}-{end.day}, {start.year}"
+    if start.year == end.year:
+        return (
+            f"{MONTHS[start.month - 1]} {start.day} - "
+            f"{MONTHS[end.month - 1]} {end.day}, {start.year}"
+        )
+    return (
+        f"{MONTHS[start.month - 1]} {start.day}, {start.year} - "
+        f"{MONTHS[end.month - 1]} {end.day}, {end.year}"
+    )
 
 
 def _deadline_sort_key(item: tuple[dict[str, Any], dict[str, Any]]):
@@ -97,14 +165,18 @@ def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
     )
     for conference, deadline in items:
         source_url = _deadline_source_url(conference, deadline)
+        label = _display_deadline_label(deadline["label"])
         search_text = _search_text(
-            conference, [deadline["label"], deadline["type"], source_url]
+            conference, [label, deadline["type"], source_url]
         )
+        deadline_utc = _deadline_iso_utc(deadline["datetime"])
         rows.append(
             f'<tr data-filter-row data-search="{_attr(search_text)}" '
             f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}">'
-            f"<td>{_display_deadline_datetime(deadline['datetime'])}</td>"
-            f"<td>{escape(deadline['label'])}</td>"
+            f"<td><time datetime=\"{_attr(deadline_utc)}\">"
+            f"{escape(_display_deadline_datetime(deadline['datetime']))}</time></td>"
+            f"<td><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
+            f"<td>{escape(label)}</td>"
             f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td>{_topic_labels(conference.get('topics', []))}</td>"
             f"<td>{_source_link(source_url)}</td>"
@@ -120,14 +192,12 @@ def _conference_rows(conferences: list[dict[str, Any]]) -> str:
         conferences,
         key=lambda item: (parse_date(item["conference_start"]), item["id"]),
     ):
-        start = parse_date(conference["conference_start"]).isoformat()
-        end = parse_date(conference["conference_end"]).isoformat()
         source_url = _conference_source_url(conference)
         search_text = _search_text(conference, [source_url])
         rows.append(
             f'<tr data-filter-row data-search="{_attr(search_text)}" '
             f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}">'
-            f"<td>{escape(start)} to {escape(end)}</td>"
+            f"<td>{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}</td>"
             f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td>{escape(conference.get('location', 'TBD'))}</td>"
             f"<td>{_topic_labels(conference.get('topics', []))}</td>"
@@ -140,7 +210,10 @@ def _conference_rows(conferences: list[dict[str, Any]]) -> str:
 
 def _max_last_checked(conferences: list[dict[str, Any]]) -> str:
     dates = [parse_date(conference["last_checked"]) for conference in conferences]
-    return max(dates).isoformat() if dates else "unknown"
+    if not dates:
+        return "unknown"
+    latest = max(dates)
+    return f"{MONTHS[latest.month - 1]} {latest.day}, {latest.year}"
 
 
 def _topics(conferences: list[dict[str, Any]]) -> list[str]:
@@ -153,16 +226,10 @@ def _topics(conferences: list[dict[str, Any]]) -> list[str]:
 def _topic_options(conferences: list[dict[str, Any]]) -> str:
     options = ['<option value="">All topics</option>']
     for topic in _topics(conferences):
-        options.append(f'<option value="{_attr(stable_slug(topic))}">{escape(topic)}</option>')
+        options.append(
+            f'<option value="{_attr(stable_slug(topic))}">{escape(topic)}</option>'
+        )
     return "\n".join(options)
-
-
-def _topic_feed_links(conferences: list[dict[str, Any]]) -> str:
-    links = []
-    for topic in _topics(conferences):
-        slug = stable_slug(topic)
-        links.append(f'<li><a href="tags/{_attr(slug)}.ics">{escape(topic)}</a></li>')
-    return "\n".join(links)
 
 
 def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
@@ -184,13 +251,16 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
   <style>
     :root {{
       color-scheme: light;
-      --text: #17202a;
-      --muted: #5d6975;
-      --line: #d8dee6;
-      --surface: #f6f8fb;
-      --accent: #005f73;
-      --tag: #e7f0ea;
-      --tag-text: #1f5f3b;
+      --text: #18212f;
+      --muted: #5f6c7b;
+      --line: #d7dde6;
+      --line-strong: #b8c2cf;
+      --surface: #f7f9fc;
+      --surface-strong: #edf3f8;
+      --accent: #0b6b78;
+      --accent-dark: #064e58;
+      --tag: #e8f3ec;
+      --tag-text: #1c5d3a;
       --warn: #7a4f00;
       --warn-bg: #fff5d6;
     }}
@@ -202,52 +272,76 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #ffffff;
     }}
     main {{
-      width: min(1160px, calc(100% - 32px));
+      width: min(1180px, calc(100% - 32px));
       margin: 0 auto;
-      padding: 32px 0 48px;
+      padding: 34px 0 50px;
     }}
     header {{
       border-bottom: 1px solid var(--line);
       margin-bottom: 24px;
-      padding-bottom: 18px;
+      padding-bottom: 22px;
     }}
     h1 {{
       margin: 0 0 8px;
-      font-size: clamp(2rem, 3vw, 3rem);
-      line-height: 1.1;
+      font-size: clamp(2rem, 3vw, 2.85rem);
+      line-height: 1.08;
     }}
     h2 {{
-      margin-top: 34px;
-      font-size: 1.35rem;
+      margin: 34px 0 12px;
+      font-size: 1.25rem;
+      line-height: 1.2;
     }}
     p {{
-      max-width: 760px;
+      max-width: 800px;
       color: var(--muted);
+      margin: 0;
     }}
     a {{
       color: var(--accent);
     }}
-    .feeds {{
+    .eyebrow {{
+      margin: 0 0 8px;
+      color: var(--accent-dark);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }}
+    .subhead {{
+      font-size: 1.02rem;
+    }}
+    .calendar-action {{
       display: flex;
       flex-wrap: wrap;
+      align-items: center;
       gap: 10px;
-      margin: 16px 0 0;
-      padding: 0;
-      list-style: none;
+      margin-top: 18px;
     }}
-    .feeds a {{
+    .calendar-button {{
       display: inline-block;
-      border: 1px solid var(--line);
-      padding: 7px 10px;
-      text-decoration: none;
-      background: var(--surface);
+      border: 1px solid var(--accent);
       border-radius: 6px;
+      background: var(--accent);
+      color: #ffffff;
+      padding: 6px 10px;
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 650;
+      line-height: 1.2;
+    }}
+    .calendar-note {{
+      color: var(--muted);
+      font-size: 0.9rem;
     }}
     .controls {{
       display: grid;
-      grid-template-columns: minmax(220px, 1fr) minmax(180px, 260px);
+      grid-template-columns: minmax(240px, 1fr) minmax(180px, 260px);
       gap: 12px;
       margin: 22px 0 8px;
+      padding: 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--surface);
     }}
     label {{
       display: grid;
@@ -259,12 +353,17 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     select {{
       width: 100%;
       box-sizing: border-box;
-      border: 1px solid var(--line);
+      border: 1px solid var(--line-strong);
       border-radius: 6px;
       color: var(--text);
       background: #ffffff;
       padding: 9px 10px;
       font: inherit;
+    }}
+    input:focus,
+    select:focus {{
+      outline: 2px solid rgba(11, 107, 120, 0.18);
+      border-color: var(--accent);
     }}
     .table-wrap {{
       overflow-x: auto;
@@ -274,26 +373,43 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     table {{
       width: 100%;
       border-collapse: collapse;
-      min-width: 900px;
+      min-width: 980px;
     }}
     th,
     td {{
       border-bottom: 1px solid var(--line);
-      padding: 10px 12px;
+      padding: 11px 12px;
       text-align: left;
       vertical-align: top;
     }}
     th {{
-      background: var(--surface);
-      font-size: 0.85rem;
+      background: var(--surface-strong);
+      color: #394657;
+      font-size: 0.78rem;
       text-transform: uppercase;
       letter-spacing: 0;
+      white-space: nowrap;
     }}
     tr:last-child td {{
       border-bottom: 0;
     }}
     tr[hidden] {{
       display: none;
+    }}
+    time {{
+      font-weight: 650;
+      color: #1e2a38;
+    }}
+    .remaining {{
+      display: inline-block;
+      min-width: 5.5rem;
+      color: #1e2a38;
+      font-weight: 650;
+      white-space: nowrap;
+    }}
+    .remaining-past {{
+      color: var(--muted);
+      font-weight: 500;
     }}
     .tag,
     .confidence {{
@@ -309,7 +425,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       color: var(--tag-text);
     }}
     .confidence {{
-      background: var(--surface);
+      background: #ffffff;
       color: var(--muted);
       border: 1px solid var(--line);
     }}
@@ -320,14 +436,26 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       border-color: #ead388;
       color: var(--warn);
     }}
+    .source-link {{
+      font-weight: 600;
+      text-decoration-thickness: 1px;
+      text-underline-offset: 3px;
+    }}
     footer {{
       margin-top: 34px;
       color: var(--muted);
       font-size: 0.92rem;
     }}
-    @media (max-width: 720px) {{
+    @media (max-width: 760px) {{
+      main {{
+        width: min(100% - 24px, 1180px);
+      }}
       .controls {{
         grid-template-columns: 1fr;
+      }}
+      .calendar-action {{
+        align-items: flex-start;
+        flex-direction: column;
       }}
     }}
   </style>
@@ -335,22 +463,19 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 <body>
   <main>
     <header>
+      <p class="eyebrow">Static scientific calendar</p>
       <h1>Scientific Conference Calendar</h1>
-      <p>Static conference deadline and date feeds for ML, AI, neuroscience, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.</p>
-      <ul class="feeds" aria-label="Calendar feeds">
-        <li><a href="calendar-all.ics">All events</a></li>
-        <li><a href="deadlines.ics">Deadlines</a></li>
-        <li><a href="conferences.ics">Conference dates</a></li>
-      </ul>
-      <ul class="feeds" aria-label="Topic calendar feeds">
-        {_topic_feed_links(conferences)}
-      </ul>
+      <p class="subhead">Conference deadlines and dates for ML, AI, neuroscience, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.</p>
+      <div class="calendar-action">
+        <a class="calendar-button" href="calendar-all.ics" download>Download all events (.ics)</a>
+        <span class="calendar-note">Static calendar file with every deadline and conference date.</span>
+      </div>
     </header>
 
     <div class="controls">
       <label>
         Search
-        <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, deadline">
+        <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
       </label>
       <label>
         Topic
@@ -366,8 +491,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         <table>
           <thead>
             <tr>
-              <th>Date and time</th>
-              <th>Deadline</th>
+              <th>Date</th>
+              <th>Remaining</th>
+              <th>Milestone</th>
               <th>Conference</th>
               <th>Topics</th>
               <th>Source</th>
@@ -403,13 +529,14 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     </section>
 
     <footer>
-      Data last checked through {escape(last_checked)}. Subscribe to any .ics link from a calendar app that supports public feeds.
+      Data last checked through {escape(last_checked)}. Edit data/conferences.yml and rebuild to update this static page and calendar feed.
     </footer>
   </main>
   <script>
     const search = document.querySelector("#search");
     const topicFilter = document.querySelector("#topic-filter");
     const rows = [...document.querySelectorAll("[data-filter-row]")];
+    const remainingItems = [...document.querySelectorAll("[data-deadline]")];
 
     function applyFilters() {{
       const query = search.value.trim().toLowerCase();
@@ -424,8 +551,38 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       }});
     }}
 
+    function formatRemaining(deadline) {{
+      const diff = deadline - Date.now();
+      if (diff <= 0) {{
+        return "Passed";
+      }}
+
+      const hour = 60 * 60 * 1000;
+      const day = 24 * hour;
+      const days = Math.floor(diff / day);
+      const hours = Math.floor((diff % day) / hour);
+
+      if (days > 0) {{
+        return `${{days}}d ${{hours}}h`;
+      }}
+      if (hours > 0) {{
+        return `${{hours}}h`;
+      }}
+      return "<1h";
+    }}
+
+    function updateRemaining() {{
+      remainingItems.forEach((item) => {{
+        const deadline = Date.parse(item.dataset.deadline);
+        item.textContent = Number.isNaN(deadline) ? "Unknown" : formatRemaining(deadline);
+        item.classList.toggle("remaining-past", item.textContent === "Passed");
+      }});
+    }}
+
     search.addEventListener("input", applyFilters);
     topicFilter.addEventListener("change", applyFilters);
+    updateRemaining();
+    setInterval(updateRemaining, 60 * 1000);
   </script>
 </body>
 </html>

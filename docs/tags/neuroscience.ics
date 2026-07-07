@@ -20,20 +20,6 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
 URL:https://www.cosyne.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261216T115900Z
-DTEND:20261216T125900Z
-SUMMARY:[Neuroscience][Medical] OHBM 2027 - Abstract submission deadline
-DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://www.humanbrainmapping.org/\nSource URL: https://
- www.humanbrainmapping.org/\nLocation: TBD\nTopics: Neuroscience\, Medical
- \, Signal Processing\nConfidence: estimated\nLast checked date: 2026-07-0
- 7\nNotes: Initial skeleton placeholder. Dates are estimated and must be c
- hecked against the official conference site.
-URL:https://www.humanbrainmapping.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270304
@@ -46,21 +32,6 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  eholder. Dates are estimated and must be checked against the official con
  ference site.
 URL:https://www.cosyne.org/
-LOCATION:TBD
-END:VEVENT
-BEGIN:VEVENT
-UID:ohbm-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270620
-DTEND;VALUE=DATE:20270625
-SUMMARY:[Neuroscience][Medical] OHBM 2027 - Conference
-DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://www.humanbrainmapping.org/\nSource URL: https://
- www.humanbrainmapping.org/\nLocation: TBD\nTopics: Neuroscience\, Medical
- \, Signal Processing\nConfidence: estimated\nLast checked date: 2026-07-0
- 7\nNotes: Initial skeleton placeholder. Dates are estimated and must be c
- hecked against the official conference site.
-URL:https://www.humanbrainmapping.org/
 LOCATION:TBD
 END:VEVENT
 END:VCALENDAR

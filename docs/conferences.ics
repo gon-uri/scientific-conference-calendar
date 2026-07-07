@@ -49,36 +49,6 @@ URL:https://facctconference.org/
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
-UID:ohbm-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270620
-DTEND;VALUE=DATE:20270625
-SUMMARY:[Neuroscience][Medical] OHBM 2027 - Conference
-DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://www.humanbrainmapping.org/\nSource URL: https://
- www.humanbrainmapping.org/\nLocation: TBD\nTopics: Neuroscience\, Medical
- \, Signal Processing\nConfidence: estimated\nLast checked date: 2026-07-0
- 7\nNotes: Initial skeleton placeholder. Dates are estimated and must be c
- hecked against the official conference site.
-URL:https://www.humanbrainmapping.org/
-LOCATION:TBD
-END:VEVENT
-BEGIN:VEVENT
-UID:embc-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270711
-DTEND;VALUE=DATE:20270716
-SUMMARY:[Medical][Signal Processing] EMBC 2027 - Conference
-DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
- erence\nWebsite: https://www.embs.org/embc/\nSource URL: https://www.embs
- .org/embc/\nLocation: TBD\nTopics: Medical\, Signal Processing\, Healthca
- re\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Initial 
- skeleton placeholder. Dates are estimated and must be checked against the
-  official conference site.
-URL:https://www.embs.org/embc/
-LOCATION:TBD
-END:VEVENT
-BEGIN:VEVENT
 UID:icml-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270718
