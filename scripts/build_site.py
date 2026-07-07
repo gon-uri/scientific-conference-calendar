@@ -65,27 +65,6 @@ def _format_date(value: datetime) -> str:
     return f"{MONTHS[value.month - 1]} {value.day}, {value.year}"
 
 
-def _format_time(value: datetime) -> str:
-    hour = value.hour % 12 or 12
-    suffix = "AM" if value.hour < 12 else "PM"
-    return f"{hour}:{value.minute:02d} {suffix}"
-
-
-def _format_offset(value: datetime) -> str:
-    offset = value.utcoffset()
-    if offset is None:
-        return "UTC"
-    total_minutes = int(offset.total_seconds() // 60)
-    if total_minutes == 0:
-        return "UTC"
-    sign = "+" if total_minutes > 0 else "-"
-    total_minutes = abs(total_minutes)
-    hours, minutes = divmod(total_minutes, 60)
-    if minutes:
-        return f"UTC{sign}{hours:02d}:{minutes:02d}"
-    return f"UTC{sign}{hours}"
-
-
 def _deadline_iso_utc(value: Any) -> str:
     parsed = parse_datetime(value)
     if parsed.tzinfo is None or parsed.utcoffset() is None:
@@ -95,7 +74,7 @@ def _deadline_iso_utc(value: Any) -> str:
 
 def _display_deadline_datetime(value: Any) -> str:
     parsed = parse_datetime(value)
-    return f"{_format_date(parsed)}, {_format_time(parsed)} {_format_offset(parsed)}"
+    return _format_date(parsed)
 
 
 def _display_deadline_label(label: str) -> str:
@@ -189,7 +168,6 @@ def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
             f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td>{_metadata_label(conference.get('size', ''))}</td>"
             f"<td>{_metadata_label(conference.get('difficulty', ''))}</td>"
-            f"<td>{escape(conference.get('submission_type', ''))}</td>"
             f"<td>{_topic_labels(conference.get('topics', []))}</td>"
             f"<td>{_confidence_label(conference['confidence'])}</td>"
             "</tr>"
@@ -567,7 +545,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
               <th>Conference</th>
               <th>Size</th>
               <th>Difficulty</th>
-              <th>Submission Type</th>
               <th>Topics</th>
               <th>Confidence</th>
             </tr>
