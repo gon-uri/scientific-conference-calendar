@@ -23,6 +23,9 @@ REQUIRED_FIELDS = {
     "conference_start",
     "conference_end",
     "topics",
+    "size",
+    "difficulty",
+    "submission_type",
     "deadlines",
     "last_checked",
     "confidence",
@@ -127,7 +130,15 @@ def validate_conferences(
                 errors.append(f"{label}: duplicate id")
             seen_ids.add(conference["id"])
 
-        for field in ("series", "title", "short_title", "website"):
+        for field in (
+            "series",
+            "title",
+            "short_title",
+            "website",
+            "size",
+            "difficulty",
+            "submission_type",
+        ):
             if field in conference and not _non_empty_string(conference[field]):
                 errors.append(f"{label}: {field} must be a non-empty string")
 

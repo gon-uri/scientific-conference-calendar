@@ -1,0 +1,136 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: BCI & Neurotechnology
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260204T045900Z
+DTEND:20260204T055900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T035900Z
+DTEND:20260416T045900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - 1-pa
+ ge poster submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260731
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Conf
+ erence
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
+ I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
+ nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
+ lied venue\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 
+ Official EMBC page confirms conference dates. Submission dates were alrea
+ dy marked closed on the official key-dates page\, so the deadline is a pr
+ oxy and should be backfilled when archival CFP data is available.
+URL:https://embc.embs.org/2026/
+LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - P
+ aper submission deadline
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
+  Meeting 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
+ g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
+ ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
+ EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
+ on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
+ ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
+ nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
+ bstract deadline are estimates from prior meeting cycles.
+URL:https://bcisociety.org/bci-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270502
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
+ onference
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:international-bci-meeting-2027-conference@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270601
+DTEND;VALUE=DATE:20270606
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
+  Meeting 2027 - Conference
+DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
+ g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
+ ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
+ EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
+ on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
+ ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
+ nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
+ bstract deadline are estimates from prior meeting cycles.
+URL:https://bcisociety.org/bci-meeting/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,314 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Signal Processing
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260204T045900Z
+DTEND:20260204T055900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T035900Z
+DTEND:20260416T045900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - 1-pa
+ ge poster submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260501T115900Z
+DTEND:20260501T125900Z
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 6 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
+ s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
+ l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
+ sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
+  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
+ n the workbook\, but exact dates/deadlines were not reliably extracted. V
+ alues are estimates and should be checked.
+URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260613T115900Z
+DTEND:20260613T125900Z
+SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2026 - Conference p
+ aper submission deadline
+DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
+ ng for Signal Processing\nWebsite: https://mlsp26.ieeesps.org/\nSource UR
+ L: https://signalprocessingsociety.org/event-names/mlsp\nLocation: Atlant
+ a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
+ ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
+  Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
+ nConfidence: confirmed\nLast checked date: 2026-07-07\nNotes: IEEE Signal
+  Processing Society MLSP page lists dates\, location\, website\, and pape
+ r submission deadline.
+URL:https://signalprocessingsociety.org/event-names/mlsp
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260731
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Conf
+ erence
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
+ I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
+ nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
+ lied venue\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 
+ Official EMBC page confirms conference dates. Submission dates were alrea
+ dy marked closed on the official key-dates page\, so the deadline is a pr
+ oxy and should be backfilled when archival CFP data is available.
+URL:https://embc.embs.org/2026/
+LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:ts4h-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260820T115900Z
+DTEND:20260820T125900Z
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
+  - Submission deadline
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
+ es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
+ lainability & Interpretability\nSize: S/focused\nDifficulty: Moderate-har
+ d\nSubmission type: Workshop / paper-based\nConfidence: estimated\nLast c
+ hecked date: 2026-07-07\nNotes: Official TS4H page confirms NeurIPS 2026 
+ workshop and submission deadline\, but exact workshop day was listed only
+  as December 2026\; Dec 11 is a proxy from NeurIPS workshop dates.
+URL:https://timeseries4health.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 6 - Conference
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
+ s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
+ l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
+ sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
+  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
+ n the workbook\, but exact dates/deadlines were not reliably extracted. V
+ alues are estimates and should be checked.
+URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+LOCATION:China
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260918T115900Z
+DTEND:20260918T125900Z
+SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Paper submissio
+ n deadline
+DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
+ Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
+ urce URL: https://ieeeicassp.org/\nLocation: Toronto\, Canada\nTopics: Si
+ gnal Processing\, Machine Learning\, Time Series & Sequential Data\, EEG/
+ MEG & Neural Signals\nSize: XL\nDifficulty: Moderate-hard\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-07-07\nNot
+ es: ICASSP site confirms Toronto and May 16\, 2027. End date and submissi
+ on deadline are estimated from the normal six-day conference pattern and 
+ prior ICASSP timelines.
+URL:https://ieeeicassp.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261002
+SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2026 - Conference
+DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
+ ng for Signal Processing\nWebsite: https://mlsp26.ieeesps.org/\nSource UR
+ L: https://signalprocessingsociety.org/event-names/mlsp\nLocation: Atlant
+ a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
+ ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
+  Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
+ nConfidence: confirmed\nLast checked date: 2026-07-07\nNotes: IEEE Signal
+  Processing Society MLSP page lists dates\, location\, website\, and pape
+ r submission deadline.
+URL:https://signalprocessingsociety.org/event-names/mlsp
+LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261114T115900Z
+DTEND:20261114T125900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
+ dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
+ cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
+ ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-07-07\nNotes: ISBI 2026 pag
+ e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
+ nes were not found. Dates are estimated from the 2026 schedule.
+URL:https://biomedicalimaging.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:ts4h-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261128T115900Z
+DTEND:20261128T125900Z
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
+  - Camera-ready deadline
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
+ es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
+ lainability & Interpretability\nSize: S/focused\nDifficulty: Moderate-har
+ d\nSubmission type: Workshop / paper-based\nConfidence: estimated\nLast c
+ hecked date: 2026-07-07\nNotes: Official TS4H page confirms NeurIPS 2026 
+ workshop and submission deadline\, but exact workshop day was listed only
+  as December 2026\; Dec 11 is a proxy from NeurIPS workshop dates.
+URL:https://timeseries4health.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:ts4h-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
+  - Conference
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
+ es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
+ lainability & Interpretability\nSize: S/focused\nDifficulty: Moderate-har
+ d\nSubmission type: Workshop / paper-based\nConfidence: estimated\nLast c
+ hecked date: 2026-07-07\nNotes: Official TS4H page confirms NeurIPS 2026 
+ workshop and submission deadline\, but exact workshop day was listed only
+  as December 2026\; Dec 11 is a proxy from NeurIPS workshop dates.
+URL:https://timeseries4health.github.io/
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - P
+ aper submission deadline
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270120T115900Z
+DTEND:20270120T125900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 1-page abstract
+  submission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
+ dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
+ cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
+ ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-07-07\nNotes: ISBI 2026 pag
+ e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
+ nes were not found. Dates are estimated from the 2026 schedule.
+URL:https://biomedicalimaging.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270407
+DTEND;VALUE=DATE:20270411
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
+ dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
+ cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
+ ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-07-07\nNotes: ISBI 2026 pag
+ e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
+ nes were not found. Dates are estimated from the 2026 schedule.
+URL:https://biomedicalimaging.org/2026/
+LOCATION:Lausanne\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270502
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
+ onference
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:icassp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270516
+DTEND;VALUE=DATE:20270522
+SUMMARY:[Signal Processing][Machine Learning] ICASSP 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Acoustics\, 
+ Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
+ urce URL: https://ieeeicassp.org/\nLocation: Toronto\, Canada\nTopics: Si
+ gnal Processing\, Machine Learning\, Time Series & Sequential Data\, EEG/
+ MEG & Neural Signals\nSize: XL\nDifficulty: Moderate-hard\nSubmission typ
+ e: Paper-based\nConfidence: estimated\nLast checked date: 2026-07-07\nNot
+ es: ICASSP site confirms Toronto and May 16\, 2027. End date and submissi
+ on deadline are estimated from the normal six-day conference pattern and 
+ prior ICASSP timelines.
+URL:https://ieeeicassp.org/
+LOCATION:Toronto\, Canada
+END:VEVENT
+END:VCALENDAR

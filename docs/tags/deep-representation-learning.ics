@@ -1,0 +1,440 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Deep Representation Learning
+BEGIN:VEVENT
+UID:midl-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251204T115900Z
+DTEND:20251204T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251211T115900Z
+DTEND:20251211T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260124T115900Z
+DTEND:20260124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260129T115900Z
+DTEND:20260129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260214T115900Z
+DTEND:20260214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Workshop application deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260220T115900Z
+DTEND:20260220T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2026 - Abstra
+ ct submission deadline
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2026/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
+ maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
+ maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
+ r-based\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Con
+ ference dates are listed by MICCAI/Society pages\; submission deadline is
+  estimated from the typical MICCAI annual timeline and should be verified
+ .
+URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260227T115900Z
+DTEND:20260227T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2026 - Full p
+ aper submission deadline
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2026/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
+ maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
+ maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
+ r-based\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Con
+ ference dates are listed by MICCAI/Society pages\; submission deadline is
+  estimated from the typical MICCAI annual timeline and should be verified
+ .
+URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T115900Z
+DTEND:20260416T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Shor
+ t paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260419T115900Z
+DTEND:20260419T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
+ ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
+ arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
+ ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
+ acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ ng edition details were not found in the crawled page. Dates and deadline
+  are proxy estimates and should be verified against the current CCN site.
+URL:https://ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260505T115900Z
+DTEND:20260505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260507T115900Z
+DTEND:20260507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260607T115900Z
+DTEND:20260607T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Wor
+ kshop application deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260711
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/\nLocation: Taipe
+ i\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learning\, H
+ ealthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-07\nN
+ otes: Official MIDL 2026 pages list conference dates\, location\, and pap
+ er deadlines.
+URL:https://2026.midl.io/
+LOCATION:Taipei\, Taiwan
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260816
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
+ ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
+ arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
+ ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
+ acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ ng edition details were not found in the crawled page. Dates and deadline
+  are proxy estimates and should be verified against the current CCN site.
+URL:https://ccneuro.org/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260911T115900Z
+DTEND:20260911T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Paper subm
+ ission deadline
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
+ \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
+  Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
+ 7\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ paper deadline.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260919T115900Z
+DTEND:20260919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
+ ct submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
+ ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
+ ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 2027 edit
+ ion was not found as announced. Dates and deadlines are estimated from th
+ e official ICLR 2026 schedule.
+URL:https://iclr.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260924T115900Z
+DTEND:20260924T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
+ ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
+ ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 2027 edit
+ ion was not found as announced. Dates and deadlines are estimated from th
+ e official ICLR 2026 schedule.
+URL:https://iclr.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260927
+DTEND;VALUE=DATE:20261002
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2026 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://conferences.m
+ iccai.org/2026/en/default.asp\nSource URL: https://conferences.miccai.org
+ /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
+ maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
+ maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
+ r-based\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Con
+ ference dates are listed by MICCAI/Society pages\; submission deadline is
+  estimated from the typical MICCAI annual timeline and should be verified
+ .
+URL:https://conferences.miccai.org/2026/en/default.asp
+LOCATION:Strasbourg\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261108T115900Z
+DTEND:20261108T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Camera-rea
+ dy deadline
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
+ \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
+  Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
+ 7\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ paper deadline.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261113T115900Z
+DTEND:20261113T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
+ - Abstract submission deadline
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
+ estimated from prior COSYNE cycles.
+URL:https://www.cosyne.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261208
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Conference
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/\nLocation: Sy
+ dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
+ ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nDif
+ ficulty: Moderate-hard\nSubmission type: Proceedings + findings tracks\nC
+ onfidence: confirmed\nLast checked date: 2026-07-07\nNotes: Official ML4H
+  2026 pages list symposium dates\, location\, and paper deadline.
+URL:https://ml4h.ahli.cc/
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Con
+ ference
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270317
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
+ - Conference
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
+ estimated from prior COSYNE cycles.
+URL:https://www.cosyne.org/
+LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270427
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
+ es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
+ ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
+ ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
+ w\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 2027 edit
+ ion was not found as announced. Dates and deadlines are estimated from th
+ e official ICLR 2026 schedule.
+URL:https://iclr.cc/Conferences/2026/Dates
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

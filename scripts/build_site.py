@@ -61,10 +61,6 @@ def _deadline_source_url(
     return deadline.get("source_url") or _conference_source_url(conference)
 
 
-def _source_link(url: str) -> str:
-    return f'<a class="source-link" href="{_attr(url)}">Source</a>'
-
-
 def _format_date(value: datetime) -> str:
     return f"{MONTHS[value.month - 1]} {value.day}, {value.year}"
 
@@ -142,6 +138,9 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
         conference["short_title"],
         conference.get("location", ""),
         conference.get("confidence", ""),
+        conference.get("size", ""),
+        conference.get("difficulty", ""),
+        conference.get("submission_type", ""),
         " ".join(conference.get("topics", [])),
     ]
     if extra:
@@ -151,6 +150,14 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
 
 def _topic_slugs(topics: list[str]) -> str:
     return " ".join(stable_slug(topic) for topic in topics)
+
+
+def _value_slug(value: Any) -> str:
+    return stable_slug(str(value))
+
+
+def _metadata_label(value: Any) -> str:
+    return f'<span class="meta-pill">{escape(str(value))}</span>'
 
 
 def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
@@ -172,14 +179,18 @@ def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
         deadline_utc = _deadline_iso_utc(deadline["datetime"])
         rows.append(
             f'<tr data-filter-row data-search="{_attr(search_text)}" '
-            f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}">'
+            f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
+            f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
+            f'data-difficulty="{_attr(_value_slug(conference.get("difficulty", "")))}">'
             f"<td><time datetime=\"{_attr(deadline_utc)}\">"
             f"{escape(_display_deadline_datetime(deadline['datetime']))}</time></td>"
             f"<td><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
             f"<td>{escape(label)}</td>"
             f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
+            f"<td>{_metadata_label(conference.get('size', ''))}</td>"
+            f"<td>{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td>{escape(conference.get('submission_type', ''))}</td>"
             f"<td>{_topic_labels(conference.get('topics', []))}</td>"
-            f"<td>{_source_link(source_url)}</td>"
             f"<td>{_confidence_label(conference['confidence'])}</td>"
             "</tr>"
         )
@@ -196,12 +207,16 @@ def _conference_rows(conferences: list[dict[str, Any]]) -> str:
         search_text = _search_text(conference, [source_url])
         rows.append(
             f'<tr data-filter-row data-search="{_attr(search_text)}" '
-            f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}">'
+            f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
+            f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
+            f'data-difficulty="{_attr(_value_slug(conference.get("difficulty", "")))}">'
             f"<td>{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}</td>"
             f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td>{escape(conference.get('location', 'TBD'))}</td>"
+            f"<td>{_metadata_label(conference.get('size', ''))}</td>"
+            f"<td>{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td>{escape(conference.get('submission_type', ''))}</td>"
             f"<td>{_topic_labels(conference.get('topics', []))}</td>"
-            f"<td>{_source_link(source_url)}</td>"
             f"<td>{_confidence_label(conference['confidence'])}</td>"
             "</tr>"
         )
@@ -223,13 +238,34 @@ def _topics(conferences: list[dict[str, Any]]) -> list[str]:
     )
 
 
-def _topic_options(conferences: list[dict[str, Any]]) -> str:
-    options = ['<option value="">All topics</option>']
-    for topic in _topics(conferences):
-        options.append(
-            f'<option value="{_attr(stable_slug(topic))}">{escape(topic)}</option>'
+def _unique_values(conferences: list[dict[str, Any]], field: str) -> list[str]:
+    return sorted(
+        {
+            str(conference[field])
+            for conference in conferences
+            if str(conference.get(field, "")).strip()
+        },
+        key=lambda value: value.casefold(),
+    )
+
+
+def _checkbox_group(label: str, group: str, values: list[str], slug_values: bool = True) -> str:
+    boxes = []
+    for value in values:
+        filter_value = stable_slug(value) if slug_values else value
+        boxes.append(
+            "<label class=\"check-option\">"
+            f"<input type=\"checkbox\" data-filter-group=\"{_attr(group)}\" "
+            f"value=\"{_attr(filter_value)}\">"
+            f"<span>{escape(value)}</span>"
+            "</label>"
         )
-    return "\n".join(options)
+    return (
+        "<fieldset class=\"filter-group\">"
+        f"<legend>{escape(label)}</legend>"
+        f"<div class=\"check-list\">{''.join(boxes)}</div>"
+        "</fieldset>"
+    )
 
 
 def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
@@ -335,10 +371,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     }}
     .controls {{
       display: grid;
-      grid-template-columns: minmax(240px, 1fr) minmax(180px, 260px);
-      gap: 12px;
+      grid-template-columns: minmax(240px, 1.2fr) repeat(3, minmax(180px, 1fr));
+      gap: 14px;
       margin: 22px 0 8px;
-      padding: 14px;
+      padding: 16px;
       border: 1px solid var(--line);
       border-radius: 8px;
       background: var(--surface);
@@ -365,6 +401,43 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       outline: 2px solid rgba(11, 107, 120, 0.18);
       border-color: var(--accent);
     }}
+    fieldset {{
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }}
+    legend {{
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }}
+    .check-list {{
+      max-height: 13rem;
+      overflow: auto;
+      display: grid;
+      gap: 4px;
+      padding: 8px;
+      border: 1px solid var(--line-strong);
+      border-radius: 6px;
+      background: #ffffff;
+    }}
+    .check-option {{
+      display: flex;
+      grid-template-columns: none;
+      align-items: flex-start;
+      gap: 7px;
+      color: var(--text);
+      font-size: 0.86rem;
+      line-height: 1.25;
+    }}
+    .check-option input {{
+      width: auto;
+      margin: 2px 0 0;
+      padding: 0;
+      flex: 0 0 auto;
+      accent-color: var(--accent);
+    }}
     .table-wrap {{
       overflow-x: auto;
       border: 1px solid var(--line);
@@ -373,7 +446,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     table {{
       width: 100%;
       border-collapse: collapse;
-      min-width: 980px;
+      min-width: 1240px;
     }}
     th,
     td {{
@@ -412,6 +485,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       font-weight: 500;
     }}
     .tag,
+    .meta-pill,
     .confidence {{
       display: inline-block;
       margin: 0 5px 5px 0;
@@ -424,6 +498,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: var(--tag);
       color: var(--tag-text);
     }}
+    .meta-pill {{
+      background: #eef2f6;
+      color: #344255;
+    }}
     .confidence {{
       background: #ffffff;
       color: var(--muted);
@@ -435,11 +513,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: var(--warn-bg);
       border-color: #ead388;
       color: var(--warn);
-    }}
-    .source-link {{
-      font-weight: 600;
-      text-decoration-thickness: 1px;
-      text-underline-offset: 3px;
     }}
     footer {{
       margin-top: 34px;
@@ -477,12 +550,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         Search
         <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
       </label>
-      <label>
-        Topic
-        <select id="topic-filter">
-          {_topic_options(conferences)}
-        </select>
-      </label>
+      {_checkbox_group("Topics", "topics", _topics(conferences))}
+      {_checkbox_group("Size", "size", _unique_values(conferences, "size"))}
+      {_checkbox_group("Difficulty", "difficulty", _unique_values(conferences, "difficulty"))}
     </div>
 
     <section>
@@ -495,8 +565,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
               <th>Remaining</th>
               <th>Milestone</th>
               <th>Conference</th>
+              <th>Size</th>
+              <th>Difficulty</th>
+              <th>Submission Type</th>
               <th>Topics</th>
-              <th>Source</th>
               <th>Confidence</th>
             </tr>
           </thead>
@@ -516,8 +588,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
               <th>Dates</th>
               <th>Conference</th>
               <th>Location</th>
+              <th>Size</th>
+              <th>Difficulty</th>
+              <th>Submission Type</th>
               <th>Topics</th>
-              <th>Source</th>
               <th>Confidence</th>
             </tr>
           </thead>
@@ -534,20 +608,37 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
   </main>
   <script>
     const search = document.querySelector("#search");
-    const topicFilter = document.querySelector("#topic-filter");
+    const filters = [...document.querySelectorAll("[data-filter-group]")];
     const rows = [...document.querySelectorAll("[data-filter-row]")];
     const remainingItems = [...document.querySelectorAll("[data-deadline]")];
 
+    function selectedValues(group) {{
+      return filters
+        .filter((input) => input.dataset.filterGroup === group && input.checked)
+        .map((input) => input.value);
+    }}
+
+    function matchesGroup(row, group, selected) {{
+      if (!selected.length) {{
+        return true;
+      }}
+      const values = (row.dataset[group] || "").split(" ").filter(Boolean);
+      return selected.some((value) => values.includes(value));
+    }}
+
     function applyFilters() {{
       const query = search.value.trim().toLowerCase();
-      const topic = topicFilter.value;
+      const selectedTopics = selectedValues("topics");
+      const selectedSizes = selectedValues("size");
+      const selectedDifficulties = selectedValues("difficulty");
 
       rows.forEach((row) => {{
         const haystack = row.dataset.search.toLowerCase();
-        const topics = row.dataset.topics.split(" ");
         const matchesSearch = !query || haystack.includes(query);
-        const matchesTopic = !topic || topics.includes(topic);
-        row.hidden = !(matchesSearch && matchesTopic);
+        const matchesTopic = matchesGroup(row, "topics", selectedTopics);
+        const matchesSize = matchesGroup(row, "size", selectedSizes);
+        const matchesDifficulty = matchesGroup(row, "difficulty", selectedDifficulties);
+        row.hidden = !(matchesSearch && matchesTopic && matchesSize && matchesDifficulty);
       }});
     }}
 
@@ -580,8 +671,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     }}
 
     search.addEventListener("input", applyFilters);
-    topicFilter.addEventListener("change", applyFilters);
+    filters.forEach((input) => input.addEventListener("change", applyFilters));
     updateRemaining();
+    applyFilters();
     setInterval(updateRemaining, 60 * 1000);
   </script>
 </body>

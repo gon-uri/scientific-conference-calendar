@@ -56,6 +56,9 @@ Required fields:
 - `conference_start`
 - `conference_end`
 - `topics`
+- `size`
+- `difficulty`
+- `submission_type`
 - `deadlines`
 - `last_checked`
 - `confidence`

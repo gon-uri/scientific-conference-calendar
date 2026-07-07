@@ -1,183 +1,1151 @@
-- id: neurips-2027
-  series: NeurIPS
-  year: 2027
-  title: Conference on Neural Information Processing Systems
-  short_title: NeurIPS 2027
-  website: https://neurips.cc/
-  cfp_url: https://neurips.cc/
+- id: "neurips-2026"
+  series: "NeurIPS"
+  year: 2026
+  title: "Conference on Neural Information Processing Systems"
+  short_title: "NeurIPS 2026"
+  website: "https://neurips.cc/Conferences/2026"
+  cfp_url: "https://neurips.cc/Conferences/2026/CallForPapers"
   source_urls:
-    - https://neurips.cc/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-12-06"
-  conference_end: "2027-12-12"
-  timezone: Etc/GMT+12
+    - "https://neurips.cc/Conferences/2026/Dates"
+  location: "Sydney, Australia"
+  mode: "in-person"
+  conference_start: "2026-12-06"
+  conference_end: "2026-12-12"
+  timezone: "Etc/GMT+12"
   topics:
-    - ML
-    - AI
-    - LLMs
-  relevance: high
+    - "Machine Learning"
+    - "Deep Representation Learning"
+    - "Time Series & Sequential Data"
+    - "Explainability & Interpretability"
+  size: "XXL"
+  difficulty: "Very hard"
+  submission_type: "Paper-based"
+  relevance: "high"
   deadlines:
-    - type: abstract
-      label: Abstract submission deadline
-      datetime: "2027-05-11T23:59:00-12:00"
-      source_url: https://neurips.cc/
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2027-05-15T23:59:00-12:00"
-      source_url: https://neurips.cc/
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-05-04T23:59:00-12:00"
+      source_url: "https://neurips.cc/Conferences/2026/Dates"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-05-06T23:59:00-12:00"
+      source_url: "https://neurips.cc/Conferences/2026/Dates"
+    - type: "workshop"
+      label: "Workshop application deadline"
+      datetime: "2026-06-06T23:59:00-12:00"
+      source_url: "https://neurips.cc/Conferences/2026/Dates"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "confirmed"
+  notes: "Official NeurIPS 2026 dates page lists meeting dates and main paper submission deadlines."
 
-- id: icml-2027
-  series: ICML
-  year: 2027
-  title: International Conference on Machine Learning
-  short_title: ICML 2027
-  website: https://icml.cc/
-  cfp_url: https://icml.cc/
+- id: "icml-2026"
+  series: "ICML"
+  year: 2026
+  title: "International Conference on Machine Learning"
+  short_title: "ICML 2026"
+  website: "https://icml.cc/Conferences/2026"
+  cfp_url: "https://icml.cc/Conferences/2026/CallForPapers"
   source_urls:
-    - https://icml.cc/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-07-18"
-  conference_end: "2027-07-24"
-  timezone: Etc/GMT+12
+    - "https://icml.cc/Conferences/2026/Dates"
+  location: "Seoul, South Korea"
+  mode: "in-person"
+  conference_start: "2026-07-06"
+  conference_end: "2026-07-11"
+  timezone: "Etc/GMT+12"
   topics:
-    - ML
-    - AI
-    - Data Science
-  relevance: high
+    - "Machine Learning"
+    - "Learning Theory & Statistical Foundations"
+    - "Deep Representation Learning"
+    - "Time Series & Sequential Data"
+  size: "XXL"
+  difficulty: "Very hard"
+  submission_type: "Paper-based"
+  relevance: "high"
   deadlines:
-    - type: abstract
-      label: Abstract submission deadline
-      datetime: "2027-01-21T23:59:00-12:00"
-      source_url: https://icml.cc/
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2027-01-28T23:59:00-12:00"
-      source_url: https://icml.cc/
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-01-23T23:59:00-12:00"
+      source_url: "https://icml.cc/Conferences/2026/Dates"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-01-28T23:59:00-12:00"
+      source_url: "https://icml.cc/Conferences/2026/Dates"
+    - type: "workshop"
+      label: "Workshop application deadline"
+      datetime: "2026-02-13T23:59:00-12:00"
+      source_url: "https://icml.cc/Conferences/2026/Dates"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "confirmed"
+  notes: "Official ICML 2026 dates page lists tutorials, main conference, workshops, and paper deadlines."
 
-- id: iclr-2027
-  series: ICLR
+- id: "iclr-2027"
+  series: "ICLR"
   year: 2027
-  title: International Conference on Learning Representations
-  short_title: ICLR 2027
-  website: https://iclr.cc/
-  cfp_url: https://iclr.cc/
+  title: "International Conference on Learning Representations"
+  short_title: "ICLR 2027"
+  website: "https://iclr.cc/"
+  cfp_url: "https://iclr.cc/"
   source_urls:
-    - https://iclr.cc/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-04-25"
-  conference_end: "2027-04-29"
-  timezone: Etc/GMT+12
+    - "https://iclr.cc/Conferences/2026/Dates"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-04-22"
+  conference_end: "2027-04-26"
+  timezone: "Etc/GMT+12"
   topics:
-    - ML
-    - AI
-    - LLMs
-  relevance: high
+    - "Deep Representation Learning"
+    - "Machine Learning"
+    - "Explainability & Interpretability"
+    - "EEG/MEG & Neural Signals"
+  size: "XXL"
+  difficulty: "Hard"
+  submission_type: "Paper-based / OpenReview"
+  relevance: "high"
   deadlines:
-    - type: abstract
-      label: Abstract submission deadline
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-09-18T23:59:00-12:00"
+      source_url: "https://iclr.cc/Conferences/2026/Dates"
+    - type: "full_paper"
+      label: "Paper submission deadline"
       datetime: "2026-09-23T23:59:00-12:00"
-      source_url: https://iclr.cc/
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2026-09-30T23:59:00-12:00"
-      source_url: https://iclr.cc/
+      source_url: "https://iclr.cc/Conferences/2026/Dates"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "estimated"
+  notes: "2027 edition was not found as announced. Dates and deadlines are estimated from the official ICLR 2026 schedule."
 
-- id: miccai-2027
-  series: MICCAI
+- id: "aistats-2027"
+  series: "AISTATS"
   year: 2027
-  title: Medical Image Computing and Computer Assisted Intervention
-  short_title: MICCAI 2027
-  website: https://www.miccai.org/
-  cfp_url: https://www.miccai.org/
+  title: "International Conference on Artificial Intelligence and Statistics"
+  short_title: "AISTATS 2027"
+  website: "https://aistats.org/"
+  cfp_url: "https://aistats.org/"
   source_urls:
-    - https://www.miccai.org/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-09-26"
-  conference_end: "2027-09-30"
-  timezone: Etc/GMT+12
+    - "https://aistats.org/aistats2026/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-05-01"
+  conference_end: "2027-05-04"
+  timezone: "Etc/GMT+12"
   topics:
-    - Medical
-    - Vision
-    - AI
-  relevance: high
+    - "Learning Theory & Statistical Foundations"
+    - "Machine Learning"
+    - "Probabilistic, Causal & Uncertainty ML"
+    - "Time Series & Sequential Data"
+  size: "L"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
   deadlines:
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2027-03-03T23:59:00-12:00"
-      source_url: https://www.miccai.org/
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-10-02T23:59:00-12:00"
+      source_url: "https://aistats.org/aistats2026/"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-10-09T23:59:00-12:00"
+      source_url: "https://aistats.org/aistats2026/"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "estimated"
+  notes: "2027 edition was not found as announced. Dates are estimated from AISTATS 2026, which was held May 2-5, 2026."
 
-- id: cosyne-2027
-  series: Cosyne
-  year: 2027
-  title: Computational and Systems Neuroscience
-  short_title: Cosyne 2027
-  website: https://www.cosyne.org/
-  cfp_url: https://www.cosyne.org/
+- id: "uai-2026"
+  series: "UAI"
+  year: 2026
+  title: "Conference on Uncertainty in Artificial Intelligence"
+  short_title: "UAI 2026"
+  website: "https://www.auai.org/uai2026/"
+  cfp_url: "https://www.auai.org/uai2026/call_for_papers"
   source_urls:
-    - https://www.cosyne.org/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-03-04"
-  conference_end: "2027-03-09"
-  timezone: Etc/GMT+12
+    - "https://www.auai.org/uai2026/"
+    - "https://www.auai.org/uai2026/important_dates"
+  location: "Amsterdam, Netherlands"
+  mode: "in-person"
+  conference_start: "2026-08-17"
+  conference_end: "2026-08-21"
+  timezone: "Etc/GMT+12"
   topics:
-    - Neuroscience
-    - Computational Neuroscience
-    - ML
-  relevance: high
+    - "Probabilistic, Causal & Uncertainty ML"
+    - "Machine Learning"
+    - "Healthcare & Clinical AI"
+    - "Fairness & Responsible AI"
+  size: "M/L"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
   deadlines:
-    - type: abstract
-      label: Abstract submission deadline
-      datetime: "2026-11-08T23:59:00-12:00"
-      source_url: https://www.cosyne.org/
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-02-25T23:59:00-12:00"
+      source_url: "https://www.auai.org/uai2026/important_dates"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-07-08T23:59:00-12:00"
+      source_url: "https://www.auai.org/uai2026/important_dates"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "confirmed"
+  notes: "Official UAI 2026 pages list tutorials, main conference, workshops, and paper submission deadline."
 
-- id: facct-2027
-  series: FAccT
+- id: "colt-2027"
+  series: "COLT"
   year: 2027
-  title: ACM Conference on Fairness, Accountability, and Transparency
-  short_title: FAccT 2027
-  website: https://facctconference.org/
-  cfp_url: https://facctconference.org/
+  title: "Conference on Learning Theory"
+  short_title: "COLT 2027"
+  website: "https://learningtheory.org/"
+  cfp_url: "https://learningtheory.org/"
   source_urls:
-    - https://facctconference.org/
-  location: TBD
-  mode: in-person
+    - "https://learningtheory.org/colt2026/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-06-28"
+  conference_end: "2027-07-02"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Learning Theory & Statistical Foundations"
+    - "Machine Learning"
+  size: "M"
+  difficulty: "Very hard"
+  submission_type: "Paper-based / theory-focused"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Submission deadline"
+      datetime: "2027-02-03T23:59:00-12:00"
+      source_url: "https://learningtheory.org/colt2026/"
+    - type: "workshop"
+      label: "Workshop/tutorial/community proposal deadline"
+      datetime: "2027-05-06T23:59:00-12:00"
+      source_url: "https://learningtheory.org/colt2026/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "COLT 2027 dates were not found as announced. Proxy dates are shifted from the official COLT 2026 schedule."
+
+- id: "ecml-pkdd-2026"
+  series: "ECML PKDD"
+  year: 2026
+  title: "European Conference on Machine Learning and Principles and Practice of Knowledge Discovery in Databases"
+  short_title: "ECML PKDD 2026"
+  website: "https://ecmlpkdd.org/2026/"
+  cfp_url: "https://ecmlpkdd.org/2026/"
+  source_urls:
+    - "https://ecmlpkdd.org/2026/"
+  location: "Naples, Italy"
+  mode: "in-person"
+  conference_start: "2026-09-07"
+  conference_end: "2026-09-11"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Machine Learning"
+    - "Data Mining & Data Science"
+    - "Time Series & Sequential Data"
+    - "Healthcare & Clinical AI"
+  size: "L"
+  difficulty: "Hard"
+  submission_type: "Paper-based / mixed tracks"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-03-29T23:59:00-12:00"
+      source_url: "https://ecmlpkdd.org/2026/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Official site confirms conference dates and location; submission deadline is estimated because it was not found on the crawled page."
+
+- id: "kdd-2026"
+  series: "KDD"
+  year: 2026
+  title: "ACM SIGKDD Conference on Knowledge Discovery and Data Mining"
+  short_title: "KDD 2026"
+  website: "https://kdd2026.kdd.org/"
+  cfp_url: "https://kdd2026.kdd.org/research-track-call-for-papers/"
+  source_urls:
+    - "https://www.kdd.org/conferences"
+    - "https://kdd2026.kdd.org/research-track-call-for-papers/"
+  location: "Jeju, Korea"
+  mode: "in-person"
+  conference_start: "2026-08-09"
+  conference_end: "2026-08-13"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Data Mining & Data Science"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "Fairness & Responsible AI"
+  size: "XL"
+  difficulty: "Very hard"
+  submission_type: "Paper-based / mixed tracks"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-02-01T23:59:00-12:00"
+      source_url: "https://kdd2026.kdd.org/research-track-call-for-papers/"
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-02-08T23:59:00-12:00"
+      source_url: "https://kdd2026.kdd.org/research-track-call-for-papers/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official SIGKDD and KDD 2026 pages list conference dates and research-track Cycle 2 deadlines."
+
+- id: "icdm-2026"
+  series: "ICDM"
+  year: 2026
+  title: "IEEE International Conference on Data Mining"
+  short_title: "ICDM 2026"
+  website: "https://icdm2026.neu.edu.cn/"
+  cfp_url: "https://icdm2026.neu.edu.cn/"
+  source_urls:
+    - "https://icdm2026.neu.edu.cn/"
+  location: "Shenyang, China"
+  mode: "in-person"
+  conference_start: "2026-11-12"
+  conference_end: "2026-11-15"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Data Mining & Data Science"
+    - "Time Series & Sequential Data"
+    - "Machine Learning"
+    - "Healthcare & Clinical AI"
+  size: "M/L"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Main conference full paper submission"
+      datetime: "2026-06-06T23:59:00-12:00"
+      source_url: "https://icdm2026.neu.edu.cn/"
+    - type: "workshop_paper"
+      label: "Workshop paper submission"
+      datetime: "2026-08-20T23:59:00-12:00"
+      source_url: "https://icdm2026.neu.edu.cn/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official ICDM 2026 page lists conference dates, location, and main conference deadline."
+
+- id: "sdm-2026"
+  series: "SDM"
+  year: 2026
+  title: "SIAM International Conference on Data Mining"
+  short_title: "SDM 2026"
+  website: "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+  cfp_url: "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+  source_urls:
+    - "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+  location: "Salt Lake City, Utah, USA"
+  mode: "in-person"
+  conference_start: "2026-11-19"
+  conference_end: "2026-11-20"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Data Mining & Data Science"
+    - "Time Series & Sequential Data"
+    - "Explainability & Interpretability"
+    - "Machine Learning"
+  size: "M"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-04-10T23:59:00-12:00"
+      source_url: "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-04-17T23:59:00-12:00"
+      source_url: "https://www.siam.org/conferences-events/siam-conferences/sdm26/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official SIAM SDM26 page lists event details and submission deadlines."
+
+- id: "dsaa-2026"
+  series: "DSAA"
+  year: 2026
+  title: "IEEE International Conference on Data Science and Advanced Analytics"
+  short_title: "DSAA 2026"
+  website: "https://dsaa-2026.vercel.app/"
+  cfp_url: "https://dsaa-2026.vercel.app/key-dates"
+  source_urls:
+    - "https://dsaa.co/dsaa2026-calls-for-papers/"
+    - "https://dsaa-2026.vercel.app/key-dates"
+  location: "New Delhi, India"
+  mode: "in-person"
+  conference_start: "2026-10-06"
+  conference_end: "2026-10-09"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Data Mining & Data Science"
+    - "Machine Learning"
+    - "Healthcare & Clinical AI"
+    - "Human-AI Interaction & Deployment"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based / applied tracks"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-06-07T23:59:00-12:00"
+      source_url: "https://dsaa-2026.vercel.app/key-dates"
+    - type: "special_session_paper"
+      label: "Special session paper submission"
+      datetime: "2026-06-07T23:59:00-12:00"
+      source_url: "https://dsaa-2026.vercel.app/key-dates"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "DSAA 2026 site lists conference dates, venue, and extended paper deadline."
+
+- id: "mlhc-2026"
+  series: "MLHC"
+  year: 2026
+  title: "Machine Learning for Healthcare Conference"
+  short_title: "MLHC 2026"
+  website: "https://mlhc.org/"
+  cfp_url: "https://mlhc.org/"
+  source_urls:
+    - "https://mlhc.org/"
+  location: "Baltimore, Maryland, USA"
+  mode: "in-person"
+  conference_start: "2026-08-12"
+  conference_end: "2026-08-14"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "Explainability & Interpretability"
+  size: "M"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Full submission deadline"
+      datetime: "2026-04-17T23:59:00-12:00"
+      source_url: "https://mlhc.org/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official MLHC page lists conference dates, location, and full submission deadline."
+
+- id: "chil-2026"
+  series: "CHIL"
+  year: 2026
+  title: "Conference on Health, Inference, and Learning"
+  short_title: "CHIL 2026"
+  website: "https://chil.ahli.cc/"
+  cfp_url: "https://chil.ahli.cc/submit/call-for-papers/"
+  source_urls:
+    - "https://chil.ahli.cc/"
+    - "https://chil.ahli.cc/submit/call-for-papers/"
+  location: "Seattle, Washington, USA"
+  mode: "in-person"
+  conference_start: "2026-06-28"
+  conference_end: "2026-06-30"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Probabilistic, Causal & Uncertainty ML"
+    - "Fairness & Responsible AI"
+    - "Machine Learning"
+  size: "M"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Submissions due"
+      datetime: "2026-02-04T23:59:00-12:00"
+      source_url: "https://chil.ahli.cc/submit/call-for-papers/"
+    - type: "doctoral_symposium"
+      label: "Doctoral symposium application"
+      datetime: "2026-03-13T23:59:00-12:00"
+      source_url: "https://chil.ahli.cc/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official CHIL pages list conference dates, location, and submission timeline."
+
+- id: "ml4h-2026"
+  series: "ML4H"
+  year: 2026
+  title: "Machine Learning for Health Symposium"
+  short_title: "ML4H 2026"
+  website: "https://ml4h.ahli.cc/"
+  cfp_url: "https://ml4h.ahli.cc/submit/call-for-papers/"
+  source_urls:
+    - "https://ml4h.ahli.cc/"
+    - "https://ml4h.ahli.cc/submit/call-for-papers/"
+  location: "Sydney, Australia"
+  mode: "in-person"
+  conference_start: "2026-12-06"
+  conference_end: "2026-12-07"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "Deep Representation Learning"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Proceedings + findings tracks"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-09-10T23:59:00-12:00"
+      source_url: "https://ml4h.ahli.cc/submit/call-for-papers/"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-11-07T23:59:00-12:00"
+      source_url: "https://ml4h.ahli.cc/submit/call-for-papers/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official ML4H 2026 pages list symposium dates, location, and paper deadline."
+
+- id: "ts4h-2026"
+  series: "TS4H"
+  year: 2026
+  title: "Learning from Time Series for Health Workshop"
+  short_title: "TS4H 2026"
+  website: "https://timeseries4health.github.io/"
+  cfp_url: "https://timeseries4health.github.io/#cfp"
+  source_urls:
+    - "https://timeseries4health.github.io/"
+  location: "Sydney, Australia"
+  mode: "in-person"
+  conference_start: "2026-12-11"
+  conference_end: "2026-12-11"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Time Series & Sequential Data"
+    - "Healthcare & Clinical AI"
+    - "Signal Processing"
+    - "Explainability & Interpretability"
+  size: "S/focused"
+  difficulty: "Moderate-hard"
+  submission_type: "Workshop / paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "short_paper"
+      label: "Submission deadline"
+      datetime: "2026-08-19T23:59:00-12:00"
+      source_url: "https://timeseries4health.github.io/"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-11-27T23:59:00-12:00"
+      source_url: "https://timeseries4health.github.io/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Official TS4H page confirms NeurIPS 2026 workshop and submission deadline, but exact workshop day was listed only as December 2026; Dec 11 is a proxy from NeurIPS workshop dates."
+
+- id: "miccai-2026"
+  series: "MICCAI"
+  year: 2026
+  title: "International Conference on Medical Image Computing and Computer Assisted Intervention"
+  short_title: "MICCAI 2026"
+  website: "https://conferences.miccai.org/2026/en/default.asp"
+  cfp_url: "https://conferences.miccai.org/2026/en/default.asp"
+  source_urls:
+    - "https://conferences.miccai.org/2026/en/default.asp"
+  location: "Strasbourg, France"
+  mode: "in-person"
+  conference_start: "2026-09-27"
+  conference_end: "2026-10-01"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Biomedical Imaging"
+    - "Healthcare & Clinical AI"
+    - "Deep Representation Learning"
+    - "Neuroimaging & Brain Mapping"
+  size: "XL"
+  difficulty: "Hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-02-19T23:59:00-12:00"
+      source_url: "https://conferences.miccai.org/2026/en/default.asp"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-02-26T23:59:00-12:00"
+      source_url: "https://conferences.miccai.org/2026/en/default.asp"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Conference dates are listed by MICCAI/Society pages; submission deadline is estimated from the typical MICCAI annual timeline and should be verified."
+
+- id: "midl-2026"
+  series: "MIDL"
+  year: 2026
+  title: "Medical Imaging with Deep Learning"
+  short_title: "MIDL 2026"
+  website: "https://2026.midl.io/"
+  cfp_url: "https://2026.midl.io/dates"
+  source_urls:
+    - "https://2026.midl.io/"
+    - "https://2026.midl.io/dates"
+  location: "Taipei, Taiwan"
+  mode: "in-person"
+  conference_start: "2026-07-08"
+  conference_end: "2026-07-10"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Biomedical Imaging"
+    - "Deep Representation Learning"
+    - "Healthcare & Clinical AI"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Full paper registration deadline"
+      datetime: "2025-12-03T23:59:00-12:00"
+      source_url: "https://2026.midl.io/dates"
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2025-12-10T23:59:00-12:00"
+      source_url: "https://2026.midl.io/dates"
+    - type: "short_paper"
+      label: "Short paper submission deadline"
+      datetime: "2026-04-15T23:59:00-12:00"
+      source_url: "https://2026.midl.io/dates"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official MIDL 2026 pages list conference dates, location, and paper deadlines."
+
+- id: "isbi-2027"
+  series: "ISBI"
+  year: 2027
+  title: "IEEE International Symposium on Biomedical Imaging"
+  short_title: "ISBI 2027"
+  website: "https://biomedicalimaging.org/"
+  cfp_url: "https://biomedicalimaging.org/2026/"
+  source_urls:
+    - "https://biomedicalimaging.org/2026/"
+  location: "Lausanne, Switzerland"
+  mode: "in-person"
+  conference_start: "2027-04-07"
+  conference_end: "2027-04-10"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Biomedical Imaging"
+    - "Signal Processing"
+    - "Healthcare & Clinical AI"
+    - "Machine Learning"
+  size: "L"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "4-page paper submission deadline"
+      datetime: "2026-11-13T23:59:00-12:00"
+      source_url: "https://biomedicalimaging.org/2026/"
+    - type: "abstract"
+      label: "1-page abstract submission deadline"
+      datetime: "2027-01-19T23:59:00-12:00"
+      source_url: "https://biomedicalimaging.org/2026/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "ISBI 2026 page points attendees to ISBI 2027 in Lausanne, but exact 2027 dates/deadlines were not found. Dates are estimated from the 2026 schedule."
+
+- id: "ieee-bhi-2026"
+  series: "IEEE BHI"
+  year: 2026
+  title: "IEEE EMBS International Conference on Biomedical and Health Informatics"
+  short_title: "IEEE BHI 2026"
+  website: "https://bhi.embs.org/2026/"
+  cfp_url: "https://bhi.embs.org/2026/contributors/papers/"
+  source_urls:
+    - "https://bhi.embs.org/2026/"
+    - "https://bhi.embs.org/2026/contributors/papers/"
+  location: "Hong Kong, China"
+  mode: "in-person"
+  conference_start: "2026-12-12"
+  conference_end: "2026-12-15"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Data Mining & Data Science"
+    - "Machine Learning"
+    - "Human-AI Interaction & Deployment"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "regular_paper"
+      label: "Regular paper submission"
+      datetime: "2026-07-03T23:59:00-08:00"
+      source_url: "https://bhi.embs.org/2026/contributors/papers/"
+    - type: "abstract"
+      label: "1-page abstract submission"
+      datetime: "2026-07-31T23:59:00-08:00"
+      source_url: "https://bhi.embs.org/2026/contributors/papers/"
+    - type: "late_abstract"
+      label: "Late abstract submission"
+      datetime: "2026-10-02T23:59:00-08:00"
+      source_url: "https://bhi.embs.org/2026/contributors/papers/"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "Official BHI 2026 pages list conference dates, location, and submission deadlines."
+
+- id: "ieee-embc-2026"
+  series: "IEEE EMBC"
+  year: 2026
+  title: "IEEE Engineering in Medicine and Biology Conference"
+  short_title: "IEEE EMBC 2026"
+  website: "https://embc.embs.org/2026/"
+  cfp_url: "https://embc.embs.org/2026/key-dates/"
+  source_urls:
+    - "https://embc.embs.org/2026/"
+    - "https://embc.embs.org/2026/key-dates/"
+  location: "Toronto, Canada"
+  mode: "in-person"
+  conference_start: "2026-07-26"
+  conference_end: "2026-07-30"
+  timezone: "America/Toronto"
+  topics:
+    - "Healthcare & Clinical AI"
+    - "Signal Processing"
+    - "EEG/MEG & Neural Signals"
+    - "BCI & Neurotechnology"
+  size: "XL"
+  difficulty: "Moderate"
+  submission_type: "Paper-based / broad applied venue"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-02-03T23:59:00-05:00"
+      source_url: "https://embc.embs.org/2026/key-dates/"
+    - type: "poster"
+      label: "1-page poster submission deadline"
+      datetime: "2026-04-15T23:59:00-04:00"
+      source_url: "https://embc.embs.org/2026/key-dates/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Official EMBC page confirms conference dates. Submission dates were already marked closed on the official key-dates page, so the deadline is a proxy and should be backfilled when archival CFP data is available."
+
+- id: "icassp-2027"
+  series: "ICASSP"
+  year: 2027
+  title: "IEEE International Conference on Acoustics, Speech, and Signal Processing"
+  short_title: "ICASSP 2027"
+  website: "https://2027.ieeeicassp.org/"
+  cfp_url: "https://2027.ieeeicassp.org/"
+  source_urls:
+    - "https://ieeeicassp.org/"
+  location: "Toronto, Canada"
+  mode: "in-person"
+  conference_start: "2027-05-16"
+  conference_end: "2027-05-21"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Signal Processing"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "EEG/MEG & Neural Signals"
+  size: "XL"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-09-17T23:59:00-12:00"
+      source_url: "https://ieeeicassp.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "ICASSP site confirms Toronto and May 16, 2027. End date and submission deadline are estimated from the normal six-day conference pattern and prior ICASSP timelines."
+
+- id: "ieee-mlsp-2026"
+  series: "IEEE MLSP"
+  year: 2026
+  title: "IEEE International Workshop on Machine Learning for Signal Processing"
+  short_title: "IEEE MLSP 2026"
+  website: "https://mlsp26.ieeesps.org/"
+  cfp_url: "https://signalprocessingsociety.org/event-names/mlsp"
+  source_urls:
+    - "https://signalprocessingsociety.org/event-names/mlsp"
+  location: "Atlanta, Georgia, USA"
+  mode: "in-person"
+  conference_start: "2026-09-28"
+  conference_end: "2026-10-01"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Machine Learning"
+    - "Signal Processing"
+    - "Time Series & Sequential Data"
+    - "EEG/MEG & Neural Signals"
+  size: "S/M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based / workshop-style conference"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Conference paper submission deadline"
+      datetime: "2026-06-12T23:59:00-12:00"
+      source_url: "https://signalprocessingsociety.org/event-names/mlsp"
+  last_checked: "2026-07-07"
+  confidence: "confirmed"
+  notes: "IEEE Signal Processing Society MLSP page lists dates, location, website, and paper submission deadline."
+
+- id: "cosyne-2027"
+  series: "COSYNE"
+  year: 2027
+  title: "Computational and Systems Neuroscience"
+  short_title: "COSYNE 2027"
+  website: "https://www.cosyne.org/"
+  cfp_url: "https://www.cosyne.org/abstract-submission"
+  source_urls:
+    - "https://www.cosyne.org/"
+  location: "Montreal, Canada"
+  mode: "in-person"
+  conference_start: "2027-03-11"
+  conference_end: "2027-03-16"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Computational Neuroscience"
+    - "EEG/MEG & Neural Signals"
+    - "Machine Learning"
+    - "Deep Representation Learning"
+  size: "L"
+  difficulty: "Hard"
+  submission_type: "Abstract-based / talks highly selective"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-11-12T23:59:00-12:00"
+      source_url: "https://www.cosyne.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Official COSYNE page confirms 2027 save-the-date and location. Abstract deadline is estimated from prior COSYNE cycles."
+
+- id: "ccn-2026"
+  series: "CCN"
+  year: 2026
+  title: "Conference on Cognitive Computational Neuroscience"
+  short_title: "CCN 2026"
+  website: "https://ccneuro.org/"
+  cfp_url: "https://ccneuro.org/"
+  source_urls:
+    - "https://ccneuro.org/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2026-08-12"
+  conference_end: "2026-08-15"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Computational Neuroscience"
+    - "Deep Representation Learning"
+    - "Neuroimaging & Brain Mapping"
+    - "Machine Learning"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Mixed: proceedings + extended abstracts"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-04-18T23:59:00-12:00"
+      source_url: "https://ccneuro.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Upcoming edition details were not found in the crawled page. Dates and deadline are proxy estimates and should be verified against the current CCN site."
+
+- id: "bernstein-conference-2026"
+  series: "Bernstein Conference"
+  year: 2026
+  title: "Bernstein Conference"
+  short_title: "Bernstein Conference 2026"
+  website: "https://bernstein-network.de/en/bernstein-conference/"
+  cfp_url: "https://bernstein-network.de/en/bernstein-conference/"
+  source_urls:
+    - "https://bernstein-network.de/en/bernstein-conference/"
+  location: "Frankfurt am Main, Germany"
+  mode: "in-person"
+  conference_start: "2026-09-29"
+  conference_end: "2026-10-02"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Computational Neuroscience"
+    - "EEG/MEG & Neural Signals"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+  size: "M"
+  difficulty: "Moderate"
+  submission_type: "Abstract-based / talks selective"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-05-07T23:59:00-12:00"
+      source_url: "https://bernstein-network.de/en/bernstein-conference/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Conference dates and deadline are proxy estimates from the annual Bernstein schedule and should be verified against the official conference page."
+
+- id: "cns-2026"
+  series: "CNS*"
+  year: 2026
+  title: "Computational Neuroscience Annual Meeting"
+  short_title: "CNS* 2026"
+  website: "https://www.cnsorg.org/"
+  cfp_url: "https://www.cnsorg.org/"
+  source_urls:
+    - "https://www.cnsorg.org/"
+  location: "Halifax, Canada"
+  mode: "in-person"
+  conference_start: "2026-07-25"
+  conference_end: "2026-07-29"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Computational Neuroscience"
+    - "Time Series & Sequential Data"
+    - "Machine Learning"
+  size: "M"
+  difficulty: "Moderate"
+  submission_type: "Abstract-based"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-04-07T23:59:00-12:00"
+      source_url: "https://www.cnsorg.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "CNS* 2026 was identified as the current edition, but exact deadlines were not found in the crawl. Dates and deadline should be reviewed."
+
+- id: "ohbm-2027"
+  series: "OHBM"
+  year: 2027
+  title: "Organization for Human Brain Mapping Annual Meeting"
+  short_title: "OHBM 2027"
+  website: "https://humanbrainmapping.org/"
+  cfp_url: "https://humanbrainmapping.org/"
+  source_urls:
+    - "https://humanbrainmapping.org/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-06-26"
+  conference_end: "2027-06-30"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Neuroimaging & Brain Mapping"
+    - "EEG/MEG & Neural Signals"
+    - "Healthcare & Clinical AI"
+    - "Computational Neuroscience"
+  size: "L/XL"
+  difficulty: "Moderate"
+  submission_type: "Abstract-based / talks selective"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-12-15T23:59:00-12:00"
+      source_url: "https://humanbrainmapping.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Next OHBM schedule and abstract timeline were not reliably extracted. Dates and deadline are estimates from typical OHBM timing."
+
+- id: "ieee-ner-2027"
+  series: "IEEE NER"
+  year: 2027
+  title: "International IEEE EMBS Conference on Neural Engineering"
+  short_title: "IEEE NER 2027"
+  website: "https://ieee-ner.org/"
+  cfp_url: "https://ieee-ner.org/"
+  source_urls:
+    - "https://ieee-ner.org/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-04-28"
+  conference_end: "2027-05-01"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "BCI & Neurotechnology"
+    - "EEG/MEG & Neural Signals"
+    - "Signal Processing"
+    - "Healthcare & Clinical AI"
+  size: "M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based / engineering-focused"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2027-01-15T23:59:00-12:00"
+      source_url: "https://ieee-ner.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "NER is biennial and the 2027 edition details were not found in the crawl. Dates and deadline are estimates and should be verified."
+
+- id: "international-bci-meeting-2027"
+  series: "International BCI Meeting"
+  year: 2027
+  title: "International Brain-Computer Interface Meeting"
+  short_title: "International BCI Meeting 2027"
+  website: "https://bcisociety.org/bci-meeting/"
+  cfp_url: "https://bcisociety.org/bci-meeting/"
+  source_urls:
+    - "https://bcisociety.org/bci-meeting/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-06-01"
+  conference_end: "2027-06-05"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "BCI & Neurotechnology"
+    - "EEG/MEG & Neural Signals"
+    - "Computational Neuroscience"
+    - "Human-AI Interaction & Deployment"
+  size: "S/M"
+  difficulty: "Moderate"
+  submission_type: "Abstract/community-based"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2027-01-31T23:59:00-12:00"
+      source_url: "https://bcisociety.org/bci-meeting/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "Next BCI Meeting details were not found in the crawl. Dates and abstract deadline are estimates from prior meeting cycles."
+
+- id: "biomag-2026"
+  series: "BIOMAG"
+  year: 2026
+  title: "International Conference on Biomagnetism"
+  short_title: "BIOMAG 2026"
+  website: "https://biomag2026.scimeeting.cn/en/web/index/31426"
+  cfp_url: "https://biomag2026.scimeeting.cn/en/web/index/31426"
+  source_urls:
+    - "https://biomag2026.scimeeting.cn/en/web/index/31426"
+  location: "China"
+  mode: "in-person"
+  conference_start: "2026-08-24"
+  conference_end: "2026-08-28"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "EEG/MEG & Neural Signals"
+    - "Neuroimaging & Brain Mapping"
+    - "Computational Neuroscience"
+    - "Signal Processing"
+  size: "M"
+  difficulty: "Moderate"
+  submission_type: "Abstract-based / specialist venue"
+  relevance: "high"
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-04-30T23:59:00-12:00"
+      source_url: "https://biomag2026.scimeeting.cn/en/web/index/31426"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "BIOMAG 2026 official page was present in the workbook, but exact dates/deadlines were not reliably extracted. Values are estimates and should be checked."
+
+- id: "acm-facct-2027"
+  series: "ACM FAccT"
+  year: 2027
+  title: "ACM Conference on Fairness, Accountability, and Transparency"
+  short_title: "ACM FAccT 2027"
+  website: "https://facctconference.org/"
+  cfp_url: "https://facctconference.org/"
+  source_urls:
+    - "https://facctconference.org/"
+  location: "TBD"
+  mode: "in-person"
   conference_start: "2027-06-07"
   conference_end: "2027-06-10"
-  timezone: Etc/GMT+12
+  timezone: "Etc/GMT+12"
   topics:
-    - AI
-    - ML
-    - Explainable AI
-  relevance: medium
+    - "Fairness & Responsible AI"
+    - "Explainability & Interpretability"
+    - "Healthcare & Clinical AI"
+    - "Human-AI Interaction & Deployment"
+  size: "M"
+  difficulty: "Hard"
+  submission_type: "Paper-based / interdisciplinary"
+  relevance: "high"
   deadlines:
-    - type: abstract
-      label: Abstract submission deadline
-      datetime: "2026-12-09T23:59:00-12:00"
-      source_url: https://facctconference.org/
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2026-12-16T23:59:00-12:00"
-      source_url: https://facctconference.org/
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-10-15T23:59:00-12:00"
+      source_url: "https://facctconference.org/"
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-10-22T23:59:00-12:00"
+      source_url: "https://facctconference.org/"
   last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+  confidence: "estimated"
+  notes: "FAccT 2027 schedule was not found in the crawl. Dates and deadlines are estimates from prior annual timing."
+
+- id: "aies-2026"
+  series: "AIES"
+  year: 2026
+  title: "AAAI/ACM Conference on AI, Ethics, and Society"
+  short_title: "AIES 2026"
+  website: "https://www.aies-conference.com/2026/"
+  cfp_url: "https://www.aies-conference.com/2026/"
+  source_urls:
+    - "https://www.aies-conference.com/2026/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2026-10-21"
+  conference_end: "2026-10-23"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Fairness & Responsible AI"
+    - "Human-AI Interaction & Deployment"
+    - "Machine Learning"
+    - "Healthcare & Clinical AI"
+  size: "S/M"
+  difficulty: "Moderate-hard"
+  submission_type: "Paper-based / interdisciplinary"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-05-15T23:59:00-12:00"
+      source_url: "https://www.aies-conference.com/2026/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "AIES 2026 page was listed in the workbook, but exact dates/deadlines were not reliably extracted. Values are estimates and should be reviewed."
+
+- id: "chi-2027"
+  series: "CHI"
+  year: 2027
+  title: "ACM CHI Conference on Human Factors in Computing Systems"
+  short_title: "CHI 2027"
+  website: "https://chi2027.acm.org/"
+  cfp_url: "https://chi2027.acm.org/"
+  source_urls:
+    - "https://chi2026.acm.org/"
+  location: "TBD"
+  mode: "in-person"
+  conference_start: "2027-04-24"
+  conference_end: "2027-04-29"
+  timezone: "Etc/GMT+12"
+  topics:
+    - "Human-AI Interaction & Deployment"
+    - "Explainability & Interpretability"
+    - "Fairness & Responsible AI"
+    - "Healthcare & Clinical AI"
+  size: "XL"
+  difficulty: "Hard"
+  submission_type: "Paper-based / HCI-focused"
+  relevance: "high"
+  deadlines:
+    - type: "full_paper"
+      label: "Papers deadline"
+      datetime: "2026-09-10T23:59:00-12:00"
+      source_url: "https://chi2026.acm.org/"
+  last_checked: "2026-07-07"
+  confidence: "estimated"
+  notes: "CHI 2027 details were not found in the crawl. Dates and paper deadline are estimates from typical CHI timing and the 2026 source page in the workbook."

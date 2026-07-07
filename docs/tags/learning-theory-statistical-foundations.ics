@@ -1,0 +1,178 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Learning Theory & Statistical Foundati
+ ons
+BEGIN:VEVENT
+UID:icml-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260124T115900Z
+DTEND:20260124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260129T115900Z
+DTEND:20260129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260214T115900Z
+DTEND:20260214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Workshop application deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-07-07\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+ conference\, workshops\, and paper deadlines.
+URL:https://icml.cc/Conferences/2026/Dates
+LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261003T115900Z
+DTEND:20261003T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261010T115900Z
+DTEND:20261010T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270204T115900Z
+DTEND:20270204T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Submission deadline
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
+ nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
+ ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
+  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-07\n
+ Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
+ ed from the official COLT 2026 schedule.
+URL:https://learningtheory.org/colt2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270505
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Workshop/tutorial/community proposal deadline
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
+ nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
+ ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
+  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-07\n
+ Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
+ ed from the official COLT 2026 schedule.
+URL:https://learningtheory.org/colt2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270703
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Conference
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
+ nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
+ ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
+  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-07\n
+ Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
+ ed from the official COLT 2026 schedule.
+URL:https://learningtheory.org/colt2026/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

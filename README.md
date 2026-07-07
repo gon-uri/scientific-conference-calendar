@@ -38,9 +38,9 @@ Edit conference data in:
 data/conferences.yml
 ```
 
-The seed dataset contains estimated placeholder dates for an initial project
-skeleton. Treat these as examples until they are checked against official
-conference pages.
+Each conference entry includes normalized topics, size, acceptance difficulty,
+and submission type. Confirmed dates should include official source URLs; proxy
+dates should remain marked as `estimated` with a note.
 
 ## GitHub Pages
 
