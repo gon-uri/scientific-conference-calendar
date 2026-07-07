@@ -94,34 +94,6 @@
   confidence: estimated
   notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
 
-- id: ohbm-2027
-  series: OHBM
-  year: 2027
-  title: Organization for Human Brain Mapping Annual Meeting
-  short_title: OHBM 2027
-  website: https://www.humanbrainmapping.org/
-  cfp_url: https://www.humanbrainmapping.org/
-  source_urls:
-    - https://www.humanbrainmapping.org/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-06-20"
-  conference_end: "2027-06-24"
-  timezone: Etc/GMT+12
-  topics:
-    - Neuroscience
-    - Medical
-    - Signal Processing
-  relevance: high
-  deadlines:
-    - type: abstract
-      label: Abstract submission deadline
-      datetime: "2026-12-15T23:59:00-12:00"
-      source_url: https://www.humanbrainmapping.org/
-  last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
-
 - id: miccai-2027
   series: MICCAI
   year: 2027
@@ -146,34 +118,6 @@
       label: Full paper submission deadline
       datetime: "2027-03-03T23:59:00-12:00"
       source_url: https://www.miccai.org/
-  last_checked: "2026-07-07"
-  confidence: estimated
-  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
-
-- id: embc-2027
-  series: EMBC
-  year: 2027
-  title: IEEE Engineering in Medicine and Biology Conference
-  short_title: EMBC 2027
-  website: https://www.embs.org/embc/
-  cfp_url: https://www.embs.org/embc/
-  source_urls:
-    - https://www.embs.org/embc/
-  location: TBD
-  mode: in-person
-  conference_start: "2027-07-11"
-  conference_end: "2027-07-15"
-  timezone: Etc/GMT+12
-  topics:
-    - Medical
-    - Signal Processing
-    - Healthcare
-  relevance: medium
-  deadlines:
-    - type: full_paper
-      label: Full paper submission deadline
-      datetime: "2027-02-10T23:59:00-12:00"
-      source_url: https://www.embs.org/embc/
   last_checked: "2026-07-07"
   confidence: estimated
   notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
