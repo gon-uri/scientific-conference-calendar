@@ -1,0 +1,239 @@
+- id: neurips-2027
+  series: NeurIPS
+  year: 2027
+  title: Conference on Neural Information Processing Systems
+  short_title: NeurIPS 2027
+  website: https://neurips.cc/
+  cfp_url: https://neurips.cc/
+  source_urls:
+    - https://neurips.cc/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-12-06"
+  conference_end: "2027-12-12"
+  timezone: Etc/GMT+12
+  topics:
+    - ML
+    - AI
+    - LLMs
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2027-05-11T23:59:00-12:00"
+      source_url: https://neurips.cc/
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2027-05-15T23:59:00-12:00"
+      source_url: https://neurips.cc/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: icml-2027
+  series: ICML
+  year: 2027
+  title: International Conference on Machine Learning
+  short_title: ICML 2027
+  website: https://icml.cc/
+  cfp_url: https://icml.cc/
+  source_urls:
+    - https://icml.cc/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-07-18"
+  conference_end: "2027-07-24"
+  timezone: Etc/GMT+12
+  topics:
+    - ML
+    - AI
+    - Data Science
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2027-01-21T23:59:00-12:00"
+      source_url: https://icml.cc/
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2027-01-28T23:59:00-12:00"
+      source_url: https://icml.cc/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: iclr-2027
+  series: ICLR
+  year: 2027
+  title: International Conference on Learning Representations
+  short_title: ICLR 2027
+  website: https://iclr.cc/
+  cfp_url: https://iclr.cc/
+  source_urls:
+    - https://iclr.cc/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-04-25"
+  conference_end: "2027-04-29"
+  timezone: Etc/GMT+12
+  topics:
+    - ML
+    - AI
+    - LLMs
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2026-09-23T23:59:00-12:00"
+      source_url: https://iclr.cc/
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2026-09-30T23:59:00-12:00"
+      source_url: https://iclr.cc/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: ohbm-2027
+  series: OHBM
+  year: 2027
+  title: Organization for Human Brain Mapping Annual Meeting
+  short_title: OHBM 2027
+  website: https://www.humanbrainmapping.org/
+  cfp_url: https://www.humanbrainmapping.org/
+  source_urls:
+    - https://www.humanbrainmapping.org/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-06-20"
+  conference_end: "2027-06-24"
+  timezone: Etc/GMT+12
+  topics:
+    - Neuroscience
+    - Medical
+    - Signal Processing
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2026-12-15T23:59:00-12:00"
+      source_url: https://www.humanbrainmapping.org/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: miccai-2027
+  series: MICCAI
+  year: 2027
+  title: Medical Image Computing and Computer Assisted Intervention
+  short_title: MICCAI 2027
+  website: https://www.miccai.org/
+  cfp_url: https://www.miccai.org/
+  source_urls:
+    - https://www.miccai.org/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-09-26"
+  conference_end: "2027-09-30"
+  timezone: Etc/GMT+12
+  topics:
+    - Medical
+    - Vision
+    - AI
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2027-03-03T23:59:00-12:00"
+      source_url: https://www.miccai.org/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: embc-2027
+  series: EMBC
+  year: 2027
+  title: IEEE Engineering in Medicine and Biology Conference
+  short_title: EMBC 2027
+  website: https://www.embs.org/embc/
+  cfp_url: https://www.embs.org/embc/
+  source_urls:
+    - https://www.embs.org/embc/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-07-11"
+  conference_end: "2027-07-15"
+  timezone: Etc/GMT+12
+  topics:
+    - Medical
+    - Signal Processing
+    - Healthcare
+  relevance: medium
+  deadlines:
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2027-02-10T23:59:00-12:00"
+      source_url: https://www.embs.org/embc/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: cosyne-2027
+  series: Cosyne
+  year: 2027
+  title: Computational and Systems Neuroscience
+  short_title: Cosyne 2027
+  website: https://www.cosyne.org/
+  cfp_url: https://www.cosyne.org/
+  source_urls:
+    - https://www.cosyne.org/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-03-04"
+  conference_end: "2027-03-09"
+  timezone: Etc/GMT+12
+  topics:
+    - Neuroscience
+    - Computational Neuroscience
+    - ML
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2026-11-08T23:59:00-12:00"
+      source_url: https://www.cosyne.org/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.
+
+- id: facct-2027
+  series: FAccT
+  year: 2027
+  title: ACM Conference on Fairness, Accountability, and Transparency
+  short_title: FAccT 2027
+  website: https://facctconference.org/
+  cfp_url: https://facctconference.org/
+  source_urls:
+    - https://facctconference.org/
+  location: TBD
+  mode: in-person
+  conference_start: "2027-06-07"
+  conference_end: "2027-06-10"
+  timezone: Etc/GMT+12
+  topics:
+    - AI
+    - ML
+    - Explainable AI
+  relevance: medium
+  deadlines:
+    - type: abstract
+      label: Abstract submission deadline
+      datetime: "2026-12-09T23:59:00-12:00"
+      source_url: https://facctconference.org/
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: "2026-12-16T23:59:00-12:00"
+      source_url: https://facctconference.org/
+  last_checked: "2026-07-07"
+  confidence: estimated
+  notes: Initial skeleton placeholder. Dates are estimated and must be checked against the official conference site.

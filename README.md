@@ -1,138 +1,56 @@
 # Scientific Conference Calendar
 
-A public, shareable calendar of scientific conference deadlines and conference dates, focused on machine learning, data science, AI, neuroscience, EEG/MEG, BCI, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.
+A public, static calendar of scientific conferences relevant to machine
+learning, data science, AI, neuroscience, EEG/MEG, BCI, medical AI, vision,
+LLMs, time-series analysis, and biomedical signal processing.
 
-The project publishes:
+The source of truth is `data/conferences.yml`. Generated website and calendar
+files are written to `docs/` for GitHub Pages.
 
-- A human-readable conference database in YAML.
-- Calendar feeds in `.ics` format.
-- A simple GitHub Pages website.
+## Outputs
 
-## Calendar feeds
+The build creates:
 
-After GitHub Pages is enabled, the main feeds will be available as:
+- `docs/index.html`
+- `docs/calendar-all.ics`
+- `docs/deadlines.ics`
+- `docs/conferences.ics`
+- `docs/tags/*.ics`
 
-```text
-calendar-all.ics
-deadlines.ics
-conferences.ics
-```
-
-The project may also generate topic-specific feeds such as:
-
-```text
-tags/ml.ics
-tags/eeg.ics
-tags/medical.ics
-tags/vision.ics
-tags/llms.ics
-```
-
-## Data source
-
-The source of truth is:
-
-```text
-data/conferences.yml
-```
-
-Generated files live in:
-
-```text
-docs/
-```
-
-Do not manually edit generated files unless absolutely necessary. Instead, edit `data/conferences.yml` and rebuild.
-
-## Local setup
-
-Install dependencies:
+## Local Setup
 
 ```bash
 pip install -r requirements.txt
+python scripts/build_all.py
 ```
 
-Validate the data:
+Run validation only:
 
 ```bash
 python scripts/validate.py
 ```
 
-Build all outputs:
+## Data
 
-```bash
-python scripts/build_all.py
-```
-
-## Adding a conference
-
-Add a new entry to:
+Edit conference data in:
 
 ```text
 data/conferences.yml
 ```
 
-Each conference edition should include:
+The seed dataset contains estimated placeholder dates for an initial project
+skeleton. Treat these as examples until they are checked against official
+conference pages.
 
-- Conference name.
-- Year.
-- Website.
-- Conference dates.
-- Submission deadlines.
-- Topic labels.
-- Source URLs.
-- Last checked date.
-- Confidence level.
+## GitHub Pages
 
-Use official sources whenever possible.
+After pushing the repository to GitHub:
 
-## Confidence levels
+1. Open the repository settings.
+2. Go to **Pages**.
+3. Set the source to **Deploy from a branch**.
+4. Select the `main` branch and the `/docs` folder.
+5. Save.
 
-Use one of:
-
-```text
-confirmed
-estimated
-announced_no_deadlines
-not_yet_announced
-stale
-```
-
-Do not invent exact dates. If a date is inferred from prior years, mark it as `estimated`.
-
-## Topic labels
-
-Suggested topics include:
-
-```text
-ML
-AI
-Data Science
-Neuroscience
-Computational Neuroscience
-EEG
-MEG
-BCI
-Medical
-Vision
-LLMs
-NLP
-Time Series
-Signal Processing
-Healthcare
-Robotics
-Statistics
-Explainable AI
-```
-
-## Sharing
-
-The preferred sharing method is the GitHub Pages website plus public `.ics` feeds.
-
-People can subscribe to the `.ics` feeds from Google Calendar, Apple Calendar, Outlook, or other calendar apps.
-
-## Monthly update workflow
-
-Once per month, use ChatGPT or Codex to check the latest official conference pages and propose updates to `data/conferences.yml`.
-
-The update process should be human-reviewed. The agent should not silently overwrite uncertain data.
+The site will publish `docs/index.html`, and the `.ics` files in `docs/` can be
+used as public calendar subscription feeds.

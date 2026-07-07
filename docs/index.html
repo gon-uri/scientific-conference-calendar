@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Scientific Conference Calendar</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --text: #17202a;
+      --muted: #5d6975;
+      --line: #d8dee6;
+      --surface: #f6f8fb;
+      --accent: #005f73;
+      --tag: #e7f0ea;
+      --tag-text: #1f5f3b;
+      --warn: #7a4f00;
+      --warn-bg: #fff5d6;
+    }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      line-height: 1.5;
+      background: #ffffff;
+    }
+    main {
+      width: min(1160px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 32px 0 48px;
+    }
+    header {
+      border-bottom: 1px solid var(--line);
+      margin-bottom: 24px;
+      padding-bottom: 18px;
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2rem, 3vw, 3rem);
+      line-height: 1.1;
+    }
+    h2 {
+      margin-top: 34px;
+      font-size: 1.35rem;
+    }
+    p {
+      max-width: 760px;
+      color: var(--muted);
+    }
+    a {
+      color: var(--accent);
+    }
+    .feeds {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin: 16px 0 0;
+      padding: 0;
+      list-style: none;
+    }
+    .feeds a {
+      display: inline-block;
+      border: 1px solid var(--line);
+      padding: 7px 10px;
+      text-decoration: none;
+      background: var(--surface);
+      border-radius: 6px;
+    }
+    .controls {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) minmax(180px, 260px);
+      gap: 12px;
+      margin: 22px 0 8px;
+    }
+    label {
+      display: grid;
+      gap: 5px;
+      color: var(--muted);
+      font-size: 0.9rem;
+    }
+    input,
+    select {
+      width: 100%;
+      box-sizing: border-box;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--text);
+      background: #ffffff;
+      padding: 9px 10px;
+      font: inherit;
+    }
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 900px;
+    }
+    th,
+    td {
+      border-bottom: 1px solid var(--line);
+      padding: 10px 12px;
+      text-align: left;
+      vertical-align: top;
+    }
+    th {
+      background: var(--surface);
+      font-size: 0.85rem;
+      text-transform: uppercase;
+      letter-spacing: 0;
+    }
+    tr:last-child td {
+      border-bottom: 0;
+    }
+    tr[hidden] {
+      display: none;
+    }
+    .tag,
+    .confidence {
+      display: inline-block;
+      margin: 0 5px 5px 0;
+      padding: 2px 7px;
+      border-radius: 999px;
+      font-size: 0.82rem;
+      white-space: nowrap;
+    }
+    .tag {
+      background: var(--tag);
+      color: var(--tag-text);
+    }
+    .confidence {
+      background: var(--surface);
+      color: var(--muted);
+      border: 1px solid var(--line);
+    }
+    .confidence-estimated,
+    .confidence-stale,
+    .confidence-not-yet-announced {
+      background: var(--warn-bg);
+      border-color: #ead388;
+      color: var(--warn);
+    }
+    footer {
+      margin-top: 34px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+    @media (max-width: 720px) {
+      .controls {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Scientific Conference Calendar</h1>
+      <p>Static conference deadline and date feeds for ML, AI, neuroscience, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.</p>
+      <ul class="feeds" aria-label="Calendar feeds">
+        <li><a href="calendar-all.ics">All events</a></li>
+        <li><a href="deadlines.ics">Deadlines</a></li>
+        <li><a href="conferences.ics">Conference dates</a></li>
+      </ul>
+      <ul class="feeds" aria-label="Topic calendar feeds">
+        <li><a href="tags/ai.ics">AI</a></li>
+<li><a href="tags/computational-neuroscience.ics">Computational Neuroscience</a></li>
+<li><a href="tags/data-science.ics">Data Science</a></li>
+<li><a href="tags/explainable-ai.ics">Explainable AI</a></li>
+<li><a href="tags/healthcare.ics">Healthcare</a></li>
+<li><a href="tags/llms.ics">LLMs</a></li>
+<li><a href="tags/medical.ics">Medical</a></li>
+<li><a href="tags/ml.ics">ML</a></li>
+<li><a href="tags/neuroscience.ics">Neuroscience</a></li>
+<li><a href="tags/signal-processing.ics">Signal Processing</a></li>
+<li><a href="tags/vision.ics">Vision</a></li>
+      </ul>
+    </header>
+
+    <div class="controls">
+      <label>
+        Search
+        <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, deadline">
+      </label>
+      <label>
+        Topic
+        <select id="topic-filter">
+          <option value="">All topics</option>
+<option value="ai">AI</option>
+<option value="computational-neuroscience">Computational Neuroscience</option>
+<option value="data-science">Data Science</option>
+<option value="explainable-ai">Explainable AI</option>
+<option value="healthcare">Healthcare</option>
+<option value="llms">LLMs</option>
+<option value="medical">Medical</option>
+<option value="ml">ML</option>
+<option value="neuroscience">Neuroscience</option>
+<option value="signal-processing">Signal Processing</option>
+<option value="vision">Vision</option>
+        </select>
+      </label>
+    </div>
+
+    <section>
+      <h2>Upcoming Deadlines</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Date and time</th>
+              <th>Deadline</th>
+              <th>Conference</th>
+              <th>Topics</th>
+              <th>Source</th>
+              <th>Confidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-filter-row data-search="ICLR International Conference on Learning Representations ICLR 2027 TBD estimated ML AI LLMs Abstract submission deadline abstract https://iclr.cc/" data-topics="ml ai llms"><td>2026-09-23 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://iclr.cc/">ICLR 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://iclr.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="ICLR International Conference on Learning Representations ICLR 2027 TBD estimated ML AI LLMs Full paper submission deadline full_paper https://iclr.cc/" data-topics="ml ai llms"><td>2026-09-30 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://iclr.cc/">ICLR 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://iclr.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="Cosyne Computational and Systems Neuroscience Cosyne 2027 TBD estimated Neuroscience Computational Neuroscience ML Abstract submission deadline abstract https://www.cosyne.org/" data-topics="neuroscience computational-neuroscience ml"><td>2026-11-08 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://www.cosyne.org/">Cosyne 2027</a></td><td><span class="tag">Neuroscience</span> <span class="tag">Computational Neuroscience</span> <span class="tag">ML</span></td><td><a href="https://www.cosyne.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="FAccT ACM Conference on Fairness, Accountability, and Transparency FAccT 2027 TBD estimated AI ML Explainable AI Abstract submission deadline abstract https://facctconference.org/" data-topics="ai ml explainable-ai"><td>2026-12-09 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://facctconference.org/">FAccT 2027</a></td><td><span class="tag">AI</span> <span class="tag">ML</span> <span class="tag">Explainable AI</span></td><td><a href="https://facctconference.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="OHBM Organization for Human Brain Mapping Annual Meeting OHBM 2027 TBD estimated Neuroscience Medical Signal Processing Abstract submission deadline abstract https://www.humanbrainmapping.org/" data-topics="neuroscience medical signal-processing"><td>2026-12-15 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://www.humanbrainmapping.org/">OHBM 2027</a></td><td><span class="tag">Neuroscience</span> <span class="tag">Medical</span> <span class="tag">Signal Processing</span></td><td><a href="https://www.humanbrainmapping.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="FAccT ACM Conference on Fairness, Accountability, and Transparency FAccT 2027 TBD estimated AI ML Explainable AI Full paper submission deadline full_paper https://facctconference.org/" data-topics="ai ml explainable-ai"><td>2026-12-16 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://facctconference.org/">FAccT 2027</a></td><td><span class="tag">AI</span> <span class="tag">ML</span> <span class="tag">Explainable AI</span></td><td><a href="https://facctconference.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2027 TBD estimated ML AI Data Science Abstract submission deadline abstract https://icml.cc/" data-topics="ml ai data-science"><td>2027-01-21 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://icml.cc/">ICML 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">Data Science</span></td><td><a href="https://icml.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2027 TBD estimated ML AI Data Science Full paper submission deadline full_paper https://icml.cc/" data-topics="ml ai data-science"><td>2027-01-28 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://icml.cc/">ICML 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">Data Science</span></td><td><a href="https://icml.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="EMBC IEEE Engineering in Medicine and Biology Conference EMBC 2027 TBD estimated Medical Signal Processing Healthcare Full paper submission deadline full_paper https://www.embs.org/embc/" data-topics="medical signal-processing healthcare"><td>2027-02-10 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://www.embs.org/embc/">EMBC 2027</a></td><td><span class="tag">Medical</span> <span class="tag">Signal Processing</span> <span class="tag">Healthcare</span></td><td><a href="https://www.embs.org/embc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="MICCAI Medical Image Computing and Computer Assisted Intervention MICCAI 2027 TBD estimated Medical Vision AI Full paper submission deadline full_paper https://www.miccai.org/" data-topics="medical vision ai"><td>2027-03-03 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://www.miccai.org/">MICCAI 2027</a></td><td><span class="tag">Medical</span> <span class="tag">Vision</span> <span class="tag">AI</span></td><td><a href="https://www.miccai.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="NeurIPS Conference on Neural Information Processing Systems NeurIPS 2027 TBD estimated ML AI LLMs Abstract submission deadline abstract https://neurips.cc/" data-topics="ml ai llms"><td>2027-05-11 23:59:00-12:00</td><td>Abstract submission deadline</td><td><a href="https://neurips.cc/">NeurIPS 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://neurips.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="NeurIPS Conference on Neural Information Processing Systems NeurIPS 2027 TBD estimated ML AI LLMs Full paper submission deadline full_paper https://neurips.cc/" data-topics="ml ai llms"><td>2027-05-15 23:59:00-12:00</td><td>Full paper submission deadline</td><td><a href="https://neurips.cc/">NeurIPS 2027</a></td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://neurips.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section>
+      <h2>Upcoming Conferences</h2>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Dates</th>
+              <th>Conference</th>
+              <th>Location</th>
+              <th>Topics</th>
+              <th>Source</th>
+              <th>Confidence</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr data-filter-row data-search="Cosyne Computational and Systems Neuroscience Cosyne 2027 TBD estimated Neuroscience Computational Neuroscience ML https://www.cosyne.org/" data-topics="neuroscience computational-neuroscience ml"><td>2027-03-04 to 2027-03-09</td><td><a href="https://www.cosyne.org/">Cosyne 2027</a></td><td>TBD</td><td><span class="tag">Neuroscience</span> <span class="tag">Computational Neuroscience</span> <span class="tag">ML</span></td><td><a href="https://www.cosyne.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="ICLR International Conference on Learning Representations ICLR 2027 TBD estimated ML AI LLMs https://iclr.cc/" data-topics="ml ai llms"><td>2027-04-25 to 2027-04-29</td><td><a href="https://iclr.cc/">ICLR 2027</a></td><td>TBD</td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://iclr.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="FAccT ACM Conference on Fairness, Accountability, and Transparency FAccT 2027 TBD estimated AI ML Explainable AI https://facctconference.org/" data-topics="ai ml explainable-ai"><td>2027-06-07 to 2027-06-10</td><td><a href="https://facctconference.org/">FAccT 2027</a></td><td>TBD</td><td><span class="tag">AI</span> <span class="tag">ML</span> <span class="tag">Explainable AI</span></td><td><a href="https://facctconference.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="OHBM Organization for Human Brain Mapping Annual Meeting OHBM 2027 TBD estimated Neuroscience Medical Signal Processing https://www.humanbrainmapping.org/" data-topics="neuroscience medical signal-processing"><td>2027-06-20 to 2027-06-24</td><td><a href="https://www.humanbrainmapping.org/">OHBM 2027</a></td><td>TBD</td><td><span class="tag">Neuroscience</span> <span class="tag">Medical</span> <span class="tag">Signal Processing</span></td><td><a href="https://www.humanbrainmapping.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="EMBC IEEE Engineering in Medicine and Biology Conference EMBC 2027 TBD estimated Medical Signal Processing Healthcare https://www.embs.org/embc/" data-topics="medical signal-processing healthcare"><td>2027-07-11 to 2027-07-15</td><td><a href="https://www.embs.org/embc/">EMBC 2027</a></td><td>TBD</td><td><span class="tag">Medical</span> <span class="tag">Signal Processing</span> <span class="tag">Healthcare</span></td><td><a href="https://www.embs.org/embc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2027 TBD estimated ML AI Data Science https://icml.cc/" data-topics="ml ai data-science"><td>2027-07-18 to 2027-07-24</td><td><a href="https://icml.cc/">ICML 2027</a></td><td>TBD</td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">Data Science</span></td><td><a href="https://icml.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="MICCAI Medical Image Computing and Computer Assisted Intervention MICCAI 2027 TBD estimated Medical Vision AI https://www.miccai.org/" data-topics="medical vision ai"><td>2027-09-26 to 2027-09-30</td><td><a href="https://www.miccai.org/">MICCAI 2027</a></td><td>TBD</td><td><span class="tag">Medical</span> <span class="tag">Vision</span> <span class="tag">AI</span></td><td><a href="https://www.miccai.org/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+<tr data-filter-row data-search="NeurIPS Conference on Neural Information Processing Systems NeurIPS 2027 TBD estimated ML AI LLMs https://neurips.cc/" data-topics="ml ai llms"><td>2027-12-06 to 2027-12-12</td><td><a href="https://neurips.cc/">NeurIPS 2027</a></td><td>TBD</td><td><span class="tag">ML</span> <span class="tag">AI</span> <span class="tag">LLMs</span></td><td><a href="https://neurips.cc/">Source</a></td><td><span class="confidence confidence-estimated">estimated</span></td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer>
+      Data last checked through 2026-07-07. Subscribe to any .ics link from a calendar app that supports public feeds.
+    </footer>
+  </main>
+  <script>
+    const search = document.querySelector("#search");
+    const topicFilter = document.querySelector("#topic-filter");
+    const rows = [...document.querySelectorAll("[data-filter-row]")];
+
+    function applyFilters() {
+      const query = search.value.trim().toLowerCase();
+      const topic = topicFilter.value;
+
+      rows.forEach((row) => {
+        const haystack = row.dataset.search.toLowerCase();
+        const topics = row.dataset.topics.split(" ");
+        const matchesSearch = !query || haystack.includes(query);
+        const matchesTopic = !topic || topics.includes(topic);
+        row.hidden = !(matchesSearch && matchesTopic);
+      });
+    }
+
+    search.addEventListener("input", applyFilters);
+    topicFilter.addEventListener("change", applyFilters);
+  </script>
+</body>
+</html>

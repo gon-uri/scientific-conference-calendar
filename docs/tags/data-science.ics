@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Data Science
+BEGIN:VEVENT
+UID:icml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270122T115900Z
+DTEND:20270122T125900Z
+SUMMARY:[ML][AI] ICML 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/\nSource URL: https://icml.cc/\nLocation: TBD\n
+ Topics: ML\, AI\, Data Science\nConfidence: estimated\nLast checked date:
+  2026-07-07\nNotes: Initial skeleton placeholder. Dates are estimated and
+  must be checked against the official conference site.
+URL:https://icml.cc/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[ML][AI] ICML 2027 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/\nSource URL: https://icml.cc/\nLocation: TBD\n
+ Topics: ML\, AI\, Data Science\nConfidence: estimated\nLast checked date:
+  2026-07-07\nNotes: Initial skeleton placeholder. Dates are estimated and
+  must be checked against the official conference site.
+URL:https://icml.cc/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270725
+SUMMARY:[ML][AI] ICML 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/\nSource URL: https://icml.cc/\nLocation: TBD\n
+ Topics: ML\, AI\, Data Science\nConfidence: estimated\nLast checked date:
+  2026-07-07\nNotes: Initial skeleton placeholder. Dates are estimated and
+  must be checked against the official conference site.
+URL:https://icml.cc/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR
