@@ -158,6 +158,44 @@
       flex: 0 0 auto;
       accent-color: var(--accent);
     }
+    .tab-shell {
+      margin-top: 30px;
+    }
+    .table-tabs {
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin: 0 0 -1px;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      border-radius: 8px 8px 0 0;
+      background: var(--surface);
+      padding: 4px;
+    }
+    .tab-button {
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.94rem;
+      font-weight: 650;
+      line-height: 1.2;
+      padding: 8px 12px;
+    }
+    .tab-button[aria-selected="true"] {
+      background: #ffffff;
+      color: var(--accent-dark);
+      box-shadow: 0 0 0 1px var(--line);
+    }
+    .tab-button:focus {
+      outline: 2px solid rgba(11, 107, 120, 0.22);
+      outline-offset: 2px;
+    }
+    .tab-panel[hidden] {
+      display: none;
+    }
     .table-wrap {
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -254,6 +292,22 @@
         align-items: flex-start;
         flex-direction: column;
       }
+      .tab-shell {
+        margin-top: 24px;
+      }
+      .table-tabs {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid var(--line);
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }
+      .tab-button {
+        width: 100%;
+        text-align: left;
+      }
       .table-wrap {
         border: 0;
       }
@@ -325,25 +379,30 @@
       <fieldset class="filter-group"><legend>Difficulty</legend><div class="check-list"><label class="check-option"><input type="checkbox" data-filter-group="difficulty" value="hard"><span>Hard</span></label><label class="check-option"><input type="checkbox" data-filter-group="difficulty" value="moderate"><span>Moderate</span></label><label class="check-option"><input type="checkbox" data-filter-group="difficulty" value="moderate-hard"><span>Moderate-hard</span></label><label class="check-option"><input type="checkbox" data-filter-group="difficulty" value="very-hard"><span>Very hard</span></label></div></fieldset>
     </div>
 
-    <section>
-      <h2>Upcoming Deadlines</h2>
-      <div class="table-wrap">
-        <table>
-          <colgroup><col style="width: 11%"><col style="width: 8%"><col style="width: 14%"><col style="width: 10%"><col style="width: 6%"><col style="width: 9%"><col style="width: 32%"><col style="width: 10%"></colgroup>
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Remaining</th>
-              <th>Milestone</th>
-              <th>Conference</th>
-              <th>Size</th>
-              <th>Difficulty</th>
-              <th>Topics</th>
-              <th>Confidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr data-filter-row data-search="MIDL Medical Imaging with Deep Learning MIDL 2026 Taipei, Taiwan confirmed M Moderate-hard Paper-based Biomedical Imaging Deep Representation Learning Healthcare &amp; Clinical AI Full paper registration abstract https://2026.midl.io/dates" data-topics="biomedical-imaging deep-representation-learning healthcare-clinical-ai" data-size="m" data-difficulty="moderate-hard"><td data-label="Date"><time datetime="2025-12-04T11:59:00Z">December 3, 2025</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2025-12-04T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Full paper registration</td><td data-label="Conference"><a href="https://2026.midl.io/">MIDL 2026</a></td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate-hard</span></td><td data-label="Topics"><span class="tag">Biomedical Imaging</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Healthcare &amp; Clinical AI</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
+    <section class="tab-shell" aria-label="Conference calendar tables">
+      <div class="table-tabs" role="tablist" aria-label="Table view">
+        <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
+        <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Upcoming Conferences</button>
+      </div>
+
+      <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
+        <div class="table-wrap">
+          <table>
+            <colgroup><col style="width: 11%"><col style="width: 8%"><col style="width: 14%"><col style="width: 10%"><col style="width: 6%"><col style="width: 9%"><col style="width: 32%"><col style="width: 10%"></colgroup>
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Remaining</th>
+                <th>Milestone</th>
+                <th>Conference</th>
+                <th>Size</th>
+                <th>Difficulty</th>
+                <th>Topics</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-filter-row data-search="MIDL Medical Imaging with Deep Learning MIDL 2026 Taipei, Taiwan confirmed M Moderate-hard Paper-based Biomedical Imaging Deep Representation Learning Healthcare &amp; Clinical AI Full paper registration abstract https://2026.midl.io/dates" data-topics="biomedical-imaging deep-representation-learning healthcare-clinical-ai" data-size="m" data-difficulty="moderate-hard"><td data-label="Date"><time datetime="2025-12-04T11:59:00Z">December 3, 2025</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2025-12-04T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Full paper registration</td><td data-label="Conference"><a href="https://2026.midl.io/">MIDL 2026</a></td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate-hard</span></td><td data-label="Topics"><span class="tag">Biomedical Imaging</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Healthcare &amp; Clinical AI</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="MIDL Medical Imaging with Deep Learning MIDL 2026 Taipei, Taiwan confirmed M Moderate-hard Paper-based Biomedical Imaging Deep Representation Learning Healthcare &amp; Clinical AI Full paper submission full_paper https://2026.midl.io/dates" data-topics="biomedical-imaging deep-representation-learning healthcare-clinical-ai" data-size="m" data-difficulty="moderate-hard"><td data-label="Date"><time datetime="2025-12-11T11:59:00Z">December 10, 2025</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2025-12-11T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Full paper submission</td><td data-label="Conference"><a href="https://2026.midl.io/">MIDL 2026</a></td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate-hard</span></td><td data-label="Topics"><span class="tag">Biomedical Imaging</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Healthcare &amp; Clinical AI</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2026 Seoul, South Korea confirmed XXL Very hard Paper-based Machine Learning Learning Theory &amp; Statistical Foundations Deep Representation Learning Time Series &amp; Sequential Data Abstract submission abstract https://icml.cc/Conferences/2026/Dates" data-topics="machine-learning learning-theory-statistical-foundations deep-representation-learning time-series-sequential-data" data-size="xxl" data-difficulty="very-hard"><td data-label="Date"><time datetime="2026-01-24T11:59:00Z">January 23, 2026</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2026-01-24T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Abstract submission</td><td data-label="Conference"><a href="https://icml.cc/Conferences/2026">ICML 2026</a></td><td data-label="Size"><span class="meta-pill">XXL</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Topics"><span class="tag">Machine Learning</span> <span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Time Series &amp; Sequential Data</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2026 Seoul, South Korea confirmed XXL Very hard Paper-based Machine Learning Learning Theory &amp; Statistical Foundations Deep Representation Learning Time Series &amp; Sequential Data Full paper submission full_paper https://icml.cc/Conferences/2026/Dates" data-topics="machine-learning learning-theory-statistical-foundations deep-representation-learning time-series-sequential-data" data-size="xxl" data-difficulty="very-hard"><td data-label="Date"><time datetime="2026-01-29T11:59:00Z">January 28, 2026</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2026-01-29T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Full paper submission</td><td data-label="Conference"><a href="https://icml.cc/Conferences/2026">ICML 2026</a></td><td data-label="Size"><span class="meta-pill">XXL</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Topics"><span class="tag">Machine Learning</span> <span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Time Series &amp; Sequential Data</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
@@ -403,30 +462,29 @@
 <tr data-filter-row data-search="International BCI Meeting International Brain-Computer Interface Meeting International BCI Meeting 2027 TBD estimated S/M Moderate Abstract/community-based BCI &amp; Neurotechnology EEG/MEG &amp; Neural Signals Computational Neuroscience Human-AI Interaction &amp; Deployment Abstract submission abstract https://bcisociety.org/bci-meeting/" data-topics="bci-neurotechnology eeg-meg-neural-signals computational-neuroscience human-ai-interaction-deployment" data-size="s-m" data-difficulty="moderate"><td data-label="Date"><time datetime="2027-02-01T11:59:00Z">January 31, 2027</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2027-02-01T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Abstract submission</td><td data-label="Conference"><a href="https://bcisociety.org/bci-meeting/">International BCI Meeting 2027</a></td><td data-label="Size"><span class="meta-pill">S/M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate</span></td><td data-label="Topics"><span class="tag">BCI &amp; Neurotechnology</span> <span class="tag">EEG/MEG &amp; Neural Signals</span> <span class="tag">Computational Neuroscience</span> <span class="tag">Human-AI Interaction &amp; Deployment</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
 <tr data-filter-row data-search="COLT Conference on Learning Theory COLT 2027 TBD estimated M Very hard Paper-based / theory-focused Learning Theory &amp; Statistical Foundations Machine Learning Submission full_paper https://learningtheory.org/colt2026/" data-topics="learning-theory-statistical-foundations machine-learning" data-size="m" data-difficulty="very-hard"><td data-label="Date"><time datetime="2027-02-04T11:59:00Z">February 3, 2027</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2027-02-04T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Submission</td><td data-label="Conference"><a href="https://learningtheory.org/">COLT 2027</a></td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Topics"><span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
 <tr data-filter-row data-search="COLT Conference on Learning Theory COLT 2027 TBD estimated M Very hard Paper-based / theory-focused Learning Theory &amp; Statistical Foundations Machine Learning Workshop/tutorial/community proposal workshop https://learningtheory.org/colt2026/" data-topics="learning-theory-statistical-foundations machine-learning" data-size="m" data-difficulty="very-hard"><td data-label="Date"><time datetime="2027-05-07T11:59:00Z">May 6, 2027</time></td><td data-label="Remaining"><span class="remaining" data-deadline="2027-05-07T11:59:00Z">Calculating...</span></td><td data-label="Milestone">Workshop/tutorial/community proposal</td><td data-label="Conference"><a href="https://learningtheory.org/">COLT 2027</a></td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Topics"><span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
       </div>
-    </section>
 
-    <section>
-      <h2>Upcoming Conferences</h2>
-      <div class="table-wrap">
-        <table>
-          <colgroup><col style="width: 12%"><col style="width: 10%"><col style="width: 12%"><col style="width: 6%"><col style="width: 9%"><col style="width: 17%"><col style="width: 25%"><col style="width: 9%"></colgroup>
-          <thead>
-            <tr>
-              <th>Dates</th>
-              <th>Conference</th>
-              <th>Location</th>
-              <th>Size</th>
-              <th>Difficulty</th>
-              <th>Submission Type</th>
-              <th>Topics</th>
-              <th>Confidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr data-filter-row data-search="CHIL Conference on Health, Inference, and Learning CHIL 2026 Seattle, Washington, USA confirmed M Hard Paper-based Healthcare &amp; Clinical AI Probabilistic, Causal &amp; Uncertainty ML Fairness &amp; Responsible AI Machine Learning https://chil.ahli.cc/" data-topics="healthcare-clinical-ai probabilistic-causal-uncertainty-ml fairness-responsible-ai machine-learning" data-size="m" data-difficulty="hard"><td data-label="Dates">June 28-30, 2026</td><td data-label="Conference"><a href="https://chil.ahli.cc/">CHIL 2026</a></td><td data-label="Location">Seattle, Washington, USA</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Hard</span></td><td data-label="Submission Type">Paper-based</td><td data-label="Topics"><span class="tag">Healthcare &amp; Clinical AI</span> <span class="tag">Probabilistic, Causal &amp; Uncertainty ML</span> <span class="tag">Fairness &amp; Responsible AI</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
+      <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
+        <div class="table-wrap">
+          <table>
+            <colgroup><col style="width: 12%"><col style="width: 10%"><col style="width: 12%"><col style="width: 6%"><col style="width: 9%"><col style="width: 17%"><col style="width: 25%"><col style="width: 9%"></colgroup>
+            <thead>
+              <tr>
+                <th>Dates</th>
+                <th>Conference</th>
+                <th>Location</th>
+                <th>Size</th>
+                <th>Difficulty</th>
+                <th>Submission Type</th>
+                <th>Topics</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr data-filter-row data-search="CHIL Conference on Health, Inference, and Learning CHIL 2026 Seattle, Washington, USA confirmed M Hard Paper-based Healthcare &amp; Clinical AI Probabilistic, Causal &amp; Uncertainty ML Fairness &amp; Responsible AI Machine Learning https://chil.ahli.cc/" data-topics="healthcare-clinical-ai probabilistic-causal-uncertainty-ml fairness-responsible-ai machine-learning" data-size="m" data-difficulty="hard"><td data-label="Dates">June 28-30, 2026</td><td data-label="Conference"><a href="https://chil.ahli.cc/">CHIL 2026</a></td><td data-label="Location">Seattle, Washington, USA</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Hard</span></td><td data-label="Submission Type">Paper-based</td><td data-label="Topics"><span class="tag">Healthcare &amp; Clinical AI</span> <span class="tag">Probabilistic, Causal &amp; Uncertainty ML</span> <span class="tag">Fairness &amp; Responsible AI</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="ICML International Conference on Machine Learning ICML 2026 Seoul, South Korea confirmed XXL Very hard Paper-based Machine Learning Learning Theory &amp; Statistical Foundations Deep Representation Learning Time Series &amp; Sequential Data https://icml.cc/Conferences/2026/Dates" data-topics="machine-learning learning-theory-statistical-foundations deep-representation-learning time-series-sequential-data" data-size="xxl" data-difficulty="very-hard"><td data-label="Dates">July 6-11, 2026</td><td data-label="Conference"><a href="https://icml.cc/Conferences/2026">ICML 2026</a></td><td data-label="Location">Seoul, South Korea</td><td data-label="Size"><span class="meta-pill">XXL</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Submission Type">Paper-based</td><td data-label="Topics"><span class="tag">Machine Learning</span> <span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Time Series &amp; Sequential Data</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="MIDL Medical Imaging with Deep Learning MIDL 2026 Taipei, Taiwan confirmed M Moderate-hard Paper-based Biomedical Imaging Deep Representation Learning Healthcare &amp; Clinical AI https://2026.midl.io/" data-topics="biomedical-imaging deep-representation-learning healthcare-clinical-ai" data-size="m" data-difficulty="moderate-hard"><td data-label="Dates">July 8-10, 2026</td><td data-label="Conference"><a href="https://2026.midl.io/">MIDL 2026</a></td><td data-label="Location">Taipei, Taiwan</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate-hard</span></td><td data-label="Submission Type">Paper-based</td><td data-label="Topics"><span class="tag">Biomedical Imaging</span> <span class="tag">Deep Representation Learning</span> <span class="tag">Healthcare &amp; Clinical AI</span></td><td data-label="Confidence"><span class="confidence confidence-confirmed">confirmed</span></td></tr>
 <tr data-filter-row data-search="CNS* Computational Neuroscience Annual Meeting CNS* 2026 Halifax, Canada estimated M Moderate Abstract-based Computational Neuroscience Time Series &amp; Sequential Data Machine Learning https://www.cnsorg.org/" data-topics="computational-neuroscience time-series-sequential-data machine-learning" data-size="m" data-difficulty="moderate"><td data-label="Dates">July 25-29, 2026</td><td data-label="Conference"><a href="https://www.cnsorg.org/">CNS* 2026</a></td><td data-label="Location">Halifax, Canada</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate</span></td><td data-label="Submission Type">Abstract-based</td><td data-label="Topics"><span class="tag">Computational Neuroscience</span> <span class="tag">Time Series &amp; Sequential Data</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
@@ -460,8 +518,9 @@
 <tr data-filter-row data-search="ACM FAccT ACM Conference on Fairness, Accountability, and Transparency ACM FAccT 2027 TBD estimated M Hard Paper-based / interdisciplinary Fairness &amp; Responsible AI Explainability &amp; Interpretability Healthcare &amp; Clinical AI Human-AI Interaction &amp; Deployment https://facctconference.org/" data-topics="fairness-responsible-ai explainability-interpretability healthcare-clinical-ai human-ai-interaction-deployment" data-size="m" data-difficulty="hard"><td data-label="Dates">June 7-10, 2027</td><td data-label="Conference"><a href="https://facctconference.org/">ACM FAccT 2027</a></td><td data-label="Location">TBD</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Hard</span></td><td data-label="Submission Type">Paper-based / interdisciplinary</td><td data-label="Topics"><span class="tag">Fairness &amp; Responsible AI</span> <span class="tag">Explainability &amp; Interpretability</span> <span class="tag">Healthcare &amp; Clinical AI</span> <span class="tag">Human-AI Interaction &amp; Deployment</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
 <tr data-filter-row data-search="OHBM Organization for Human Brain Mapping Annual Meeting OHBM 2027 TBD estimated L/XL Moderate Abstract-based / talks selective Neuroimaging &amp; Brain Mapping EEG/MEG &amp; Neural Signals Healthcare &amp; Clinical AI Computational Neuroscience https://humanbrainmapping.org/" data-topics="neuroimaging-brain-mapping eeg-meg-neural-signals healthcare-clinical-ai computational-neuroscience" data-size="l-xl" data-difficulty="moderate"><td data-label="Dates">June 26-30, 2027</td><td data-label="Conference"><a href="https://humanbrainmapping.org/">OHBM 2027</a></td><td data-label="Location">TBD</td><td data-label="Size"><span class="meta-pill">L/XL</span></td><td data-label="Difficulty"><span class="meta-pill">Moderate</span></td><td data-label="Submission Type">Abstract-based / talks selective</td><td data-label="Topics"><span class="tag">Neuroimaging &amp; Brain Mapping</span> <span class="tag">EEG/MEG &amp; Neural Signals</span> <span class="tag">Healthcare &amp; Clinical AI</span> <span class="tag">Computational Neuroscience</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
 <tr data-filter-row data-search="COLT Conference on Learning Theory COLT 2027 TBD estimated M Very hard Paper-based / theory-focused Learning Theory &amp; Statistical Foundations Machine Learning https://learningtheory.org/colt2026/" data-topics="learning-theory-statistical-foundations machine-learning" data-size="m" data-difficulty="very-hard"><td data-label="Dates">June 28 - July 2, 2027</td><td data-label="Conference"><a href="https://learningtheory.org/">COLT 2027</a></td><td data-label="Location">TBD</td><td data-label="Size"><span class="meta-pill">M</span></td><td data-label="Difficulty"><span class="meta-pill">Very hard</span></td><td data-label="Submission Type">Paper-based / theory-focused</td><td data-label="Topics"><span class="tag">Learning Theory &amp; Statistical Foundations</span> <span class="tag">Machine Learning</span></td><td data-label="Confidence"><span class="confidence confidence-estimated">estimated</span></td></tr>
-          </tbody>
-        </table>
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -474,6 +533,8 @@
     const filters = [...document.querySelectorAll("[data-filter-group]")];
     const rows = [...document.querySelectorAll("[data-filter-row]")];
     const remainingItems = [...document.querySelectorAll("[data-deadline]")];
+    const tabButtons = [...document.querySelectorAll("[data-tab-target]")];
+    const tabPanels = [...document.querySelectorAll("[data-tab-panel]")];
 
     function selectedValues(group) {
       return filters
@@ -532,6 +593,31 @@
         item.classList.toggle("remaining-past", item.textContent === "Passed");
       });
     }
+
+    function activateTab(tabId) {
+      tabButtons.forEach((button) => {
+        const selected = button.dataset.tabTarget === tabId;
+        button.setAttribute("aria-selected", String(selected));
+        button.tabIndex = selected ? 0 : -1;
+      });
+      tabPanels.forEach((panel) => {
+        panel.hidden = panel.dataset.tabPanel !== tabId;
+      });
+    }
+
+    tabButtons.forEach((button, index) => {
+      button.addEventListener("click", () => activateTab(button.dataset.tabTarget));
+      button.addEventListener("keydown", (event) => {
+        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) {
+          return;
+        }
+        event.preventDefault();
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        const nextIndex = (index + direction + tabButtons.length) % tabButtons.length;
+        tabButtons[nextIndex].focus();
+        activateTab(tabButtons[nextIndex].dataset.tabTarget);
+      });
+    });
 
     search.addEventListener("input", applyFilters);
     filters.forEach((input) => input.addEventListener("change", applyFilters));

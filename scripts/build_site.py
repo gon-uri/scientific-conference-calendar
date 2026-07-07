@@ -421,6 +421,44 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       flex: 0 0 auto;
       accent-color: var(--accent);
     }}
+    .tab-shell {{
+      margin-top: 30px;
+    }}
+    .table-tabs {{
+      display: inline-flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      margin: 0 0 -1px;
+      border: 1px solid var(--line);
+      border-bottom: 0;
+      border-radius: 8px 8px 0 0;
+      background: var(--surface);
+      padding: 4px;
+    }}
+    .tab-button {{
+      border: 0;
+      border-radius: 6px;
+      background: transparent;
+      color: var(--muted);
+      cursor: pointer;
+      font: inherit;
+      font-size: 0.94rem;
+      font-weight: 650;
+      line-height: 1.2;
+      padding: 8px 12px;
+    }}
+    .tab-button[aria-selected="true"] {{
+      background: #ffffff;
+      color: var(--accent-dark);
+      box-shadow: 0 0 0 1px var(--line);
+    }}
+    .tab-button:focus {{
+      outline: 2px solid rgba(11, 107, 120, 0.22);
+      outline-offset: 2px;
+    }}
+    .tab-panel[hidden] {{
+      display: none;
+    }}
     .table-wrap {{
       border: 1px solid var(--line);
       border-radius: 8px;
@@ -517,6 +555,22 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         align-items: flex-start;
         flex-direction: column;
       }}
+      .tab-shell {{
+        margin-top: 24px;
+      }}
+      .table-tabs {{
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 100%;
+        box-sizing: border-box;
+        border-bottom: 1px solid var(--line);
+        border-radius: 8px;
+        margin-bottom: 10px;
+      }}
+      .tab-button {{
+        width: 100%;
+        text-align: left;
+      }}
       .table-wrap {{
         border: 0;
       }}
@@ -588,51 +642,56 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       {_checkbox_group("Difficulty", "difficulty", _unique_values(conferences, "difficulty"))}
     </div>
 
-    <section>
-      <h2>Upcoming Deadlines</h2>
-      <div class="table-wrap">
-        <table>
-          {_colgroup(["11%", "8%", "14%", "10%", "6%", "9%", "32%", "10%"])}
-          <thead>
-            <tr>
-              <th>Date</th>
-              <th>Remaining</th>
-              <th>Milestone</th>
-              <th>Conference</th>
-              <th>Size</th>
-              <th>Difficulty</th>
-              <th>Topics</th>
-              <th>Confidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            {_deadline_rows(conferences)}
-          </tbody>
-        </table>
+    <section class="tab-shell" aria-label="Conference calendar tables">
+      <div class="table-tabs" role="tablist" aria-label="Table view">
+        <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
+        <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Upcoming Conferences</button>
       </div>
-    </section>
 
-    <section>
-      <h2>Upcoming Conferences</h2>
-      <div class="table-wrap">
-        <table>
-          {_colgroup(["12%", "10%", "12%", "6%", "9%", "17%", "25%", "9%"])}
-          <thead>
-            <tr>
-              <th>Dates</th>
-              <th>Conference</th>
-              <th>Location</th>
-              <th>Size</th>
-              <th>Difficulty</th>
-              <th>Submission Type</th>
-              <th>Topics</th>
-              <th>Confidence</th>
-            </tr>
-          </thead>
-          <tbody>
-            {_conference_rows(conferences)}
-          </tbody>
-        </table>
+      <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
+        <div class="table-wrap">
+          <table>
+            {_colgroup(["11%", "8%", "14%", "10%", "6%", "9%", "32%", "10%"])}
+            <thead>
+              <tr>
+                <th>Date</th>
+                <th>Remaining</th>
+                <th>Milestone</th>
+                <th>Conference</th>
+                <th>Size</th>
+                <th>Difficulty</th>
+                <th>Topics</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              {_deadline_rows(conferences)}
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
+        <div class="table-wrap">
+          <table>
+            {_colgroup(["12%", "10%", "12%", "6%", "9%", "17%", "25%", "9%"])}
+            <thead>
+              <tr>
+                <th>Dates</th>
+                <th>Conference</th>
+                <th>Location</th>
+                <th>Size</th>
+                <th>Difficulty</th>
+                <th>Submission Type</th>
+                <th>Topics</th>
+                <th>Confidence</th>
+              </tr>
+            </thead>
+            <tbody>
+              {_conference_rows(conferences)}
+            </tbody>
+          </table>
+        </div>
       </div>
     </section>
 
@@ -645,6 +704,8 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     const filters = [...document.querySelectorAll("[data-filter-group]")];
     const rows = [...document.querySelectorAll("[data-filter-row]")];
     const remainingItems = [...document.querySelectorAll("[data-deadline]")];
+    const tabButtons = [...document.querySelectorAll("[data-tab-target]")];
+    const tabPanels = [...document.querySelectorAll("[data-tab-panel]")];
 
     function selectedValues(group) {{
       return filters
@@ -703,6 +764,31 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         item.classList.toggle("remaining-past", item.textContent === "Passed");
       }});
     }}
+
+    function activateTab(tabId) {{
+      tabButtons.forEach((button) => {{
+        const selected = button.dataset.tabTarget === tabId;
+        button.setAttribute("aria-selected", String(selected));
+        button.tabIndex = selected ? 0 : -1;
+      }});
+      tabPanels.forEach((panel) => {{
+        panel.hidden = panel.dataset.tabPanel !== tabId;
+      }});
+    }}
+
+    tabButtons.forEach((button, index) => {{
+      button.addEventListener("click", () => activateTab(button.dataset.tabTarget));
+      button.addEventListener("keydown", (event) => {{
+        if (!["ArrowLeft", "ArrowRight"].includes(event.key)) {{
+          return;
+        }}
+        event.preventDefault();
+        const direction = event.key === "ArrowRight" ? 1 : -1;
+        const nextIndex = (index + direction + tabButtons.length) % tabButtons.length;
+        tabButtons[nextIndex].focus();
+        activateTab(tabButtons[nextIndex].dataset.tabTarget);
+      }});
+    }});
 
     search.addEventListener("input", applyFilters);
     filters.forEach((input) => input.addEventListener("change", applyFilters));
