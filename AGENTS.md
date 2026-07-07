@@ -1,23 +1,23 @@
-AGENTS.md
+# AGENTS.md
 
-Project overview
+## Project overview
 
 This repository maintains a public, shareable scientific conference calendar focused on machine learning, data science, artificial intelligence, neuroscience, computational neuroscience, biomedical signal processing, EEG/MEG, BCI, vision, time-series analysis, and medical AI.
 
 The project has three main outputs:
 
 1. A structured conference database stored in YAML.
-2. Generated .ics calendar feeds that people can subscribe to.
+2. Generated `.ics` calendar feeds that people can subscribe to.
 3. A simple static website published with GitHub Pages.
 
 The calendar should include both:
 
-* Submission-related deadlines, such as abstract, full paper, workshop, poster, camera-ready, rebuttal, notification, and early registration deadlines.
-* The actual conference dates.
+- Submission-related deadlines, such as abstract, full paper, workshop, poster, camera-ready, rebuttal, notification, and early registration deadlines.
+- The actual conference dates.
 
-The source of truth must be the YAML data files, not generated HTML or generated .ics files.
+The source of truth must be the YAML data files, not generated HTML or generated `.ics` files.
 
-Main design goals
+## Main design goals
 
 Prioritize:
 
@@ -39,10 +39,11 @@ Avoid:
 6. Silent overwriting of manually curated data.
 7. Any dependency that requires paid hosting.
 
-Expected repository structure
+## Expected repository structure
 
 Use this structure unless there is a strong reason to change it:
 
+```text
 scientific-conference-calendar/
   AGENTS.md
   README.md
@@ -70,19 +71,23 @@ scientific-conference-calendar/
   .github/
     workflows/
       build.yml
+```
 
-The docs/ directory is the GitHub Pages output directory.
+The `docs/` directory is the GitHub Pages output directory.
 
-Data model
+## Data model
 
 The canonical conference data should live in:
 
+```text
 data/conferences.yml
+```
 
 Each entry should represent one edition of one conference.
 
 Use this schema:
 
+```yaml
 - id: neurips-2027
   series: NeurIPS
   year: 2027
@@ -113,49 +118,55 @@ Use this schema:
   last_checked: 2026-07-07
   confidence: confirmed
   notes: ""
+```
 
 Required fields:
 
-* id
-* series
-* year
-* title
-* short_title
-* website
-* conference_start
-* conference_end
-* topics
-* deadlines
-* last_checked
-* confidence
+- `id`
+- `series`
+- `year`
+- `title`
+- `short_title`
+- `website`
+- `conference_start`
+- `conference_end`
+- `topics`
+- `deadlines`
+- `last_checked`
+- `confidence`
 
 Recommended fields:
 
-* cfp_url
-* source_urls
-* location
-* mode
-* timezone
-* relevance
-* notes
+- `cfp_url`
+- `source_urls`
+- `location`
+- `mode`
+- `timezone`
+- `relevance`
+- `notes`
 
 Allowed confidence values:
 
+```text
 confirmed
 estimated
 announced_no_deadlines
 not_yet_announced
 stale
+```
 
 Allowed relevance values:
 
+```text
 high
 medium
 low
 watch
+```
 
 Allowed topic examples:
 
+```text
 ML
 AI
 Data Science
@@ -174,68 +185,85 @@ Healthcare
 Robotics
 Statistics
 Explainable AI
+```
 
 Do not over-normalize topics at the beginning. Keep them human-readable.
 
-Calendar generation rules
+## Calendar generation rules
 
 Generate at least three calendar files:
 
+```text
 docs/calendar-all.ics
 docs/deadlines.ics
 docs/conferences.ics
+```
 
 Also generate topic-specific calendars when possible:
 
+```text
 docs/tags/eeg.ics
 docs/tags/medical.ics
 docs/tags/ml.ics
+```
 
 Calendar event title format:
 
 For deadlines:
 
+```text
 [Topic1][Topic2] ShortTitle — Deadline label
+```
 
 Example:
 
+```text
 [ML][LLMs] NeurIPS 2027 — Full paper submission deadline
+```
 
 For conference dates:
 
+```text
 [Topic1][Topic2] ShortTitle — Conference
+```
 
 Example:
 
+```text
 [Neuroscience][Medical] OHBM 2027 — Conference
+```
 
 Calendar event descriptions should include:
 
-* Full conference title.
-* Website.
-* CFP URL if available.
-* Source URL for the date.
-* Location.
-* Topics.
-* Confidence.
-* Last checked date.
-* Notes if present.
+- Full conference title.
+- Website.
+- CFP URL if available.
+- Source URL for the date.
+- Location.
+- Topics.
+- Confidence.
+- Last checked date.
+- Notes if present.
 
-Use stable event UIDs derived from the conference id and event type.
+Use stable event UIDs derived from the conference `id` and event type.
 
 Examples:
 
+```text
 neurips-2027-deadline-abstract@scientific-conference-calendar
 neurips-2027-deadline-full-paper@scientific-conference-calendar
 neurips-2027-conference@scientific-conference-calendar
+```
 
 Never generate random UIDs because that can create duplicate calendar events for subscribers.
 
-Website requirements
+## Website requirements
 
 Generate a simple static website in:
 
+```text
 docs/index.html
+```
 
 The website should include:
 
@@ -246,23 +274,25 @@ The website should include:
 5. A search box.
 6. Links to calendar feeds.
 7. A visible “last generated” timestamp.
-8. A short explanation of how to subscribe to the .ics feeds.
+8. A short explanation of how to subscribe to the `.ics` feeds.
 
 Keep the website simple. Use plain HTML, CSS, and minimal JavaScript. Do not introduce a frontend framework unless explicitly requested.
 
-Validation requirements
+## Validation requirements
 
 Create a validation script:
 
+```text
 scripts/validate.py
+```
 
 It should check:
 
 1. Required fields are present.
 2. Conference IDs are unique.
 3. Dates are parseable.
-4. conference_end is not before conference_start.
-5. Each deadline has a type, label, and datetime.
+4. `conference_end` is not before `conference_start`.
+5. Each deadline has a `type`, `label`, and `datetime`.
 6. Deadlines have stable event UID components.
 7. Topics are non-empty.
 8. Confidence values are valid.
@@ -270,34 +300,38 @@ It should check:
 
 Validation should fail loudly with useful error messages.
 
-Build requirements
+## Build requirements
 
 Create a single command that validates data and builds all outputs:
 
+```bash
 python scripts/build_all.py
+```
 
 This command should:
 
 1. Validate the YAML data.
-2. Generate .ics calendar files.
+2. Generate `.ics` calendar files.
 3. Generate the static website.
 4. Print a short summary of generated outputs.
 
-Dependency rules
+## Dependency rules
 
 Prefer Python standard library when reasonable.
 
 Allowed dependencies:
 
+```text
 PyYAML
 ics
 python-dateutil
+```
 
-Keep requirements.txt minimal.
+Keep `requirements.txt` minimal.
 
 Do not add heavy dependencies unless necessary.
 
-GitHub Actions
+## GitHub Actions
 
 Add a GitHub Actions workflow that runs on push and pull request.
 
@@ -310,17 +344,21 @@ It should:
 
 If practical, the workflow may also commit generated files, but the first version can simply check that generated files can be built.
 
-Conference data policy
+## Conference data policy
 
 For every conference date or deadline, include at least one source URL whenever possible.
 
 When information is not yet announced, use:
 
+```yaml
 confidence: not_yet_announced
+```
 
 Do not invent exact dates. If a date is estimated based on prior years, mark it as:
 
+```yaml
 confidence: estimated
+```
 
 and add a note explaining that it is estimated.
 
@@ -328,7 +366,7 @@ When updating conferences, prefer official conference pages over third-party agg
 
 Use third-party sources only as secondary evidence.
 
-Monthly update workflow
+## Monthly update workflow
 
 The preferred update workflow is human-in-the-loop.
 
@@ -339,29 +377,34 @@ When asked to update conference dates:
 3. Compare with the current YAML entry.
 4. Propose a diff.
 5. Add or update source URLs.
-6. Update last_checked.
+6. Update `last_checked`.
 7. Do not silently delete old editions unless requested.
-8. Mark uncertain information as estimated, not_yet_announced, or stale.
+8. Mark uncertain information as `estimated`, `not_yet_announced`, or `stale`.
 
 The agent should produce a summary like:
 
+```text
 Updated:
 - NeurIPS 2027: added full paper deadline and conference dates.
 - ICML 2027: dates not yet announced; marked as not_yet_announced.
 - OHBM 2027: conference dates confirmed, submission deadline still missing.
+
 Needs human review:
 - MICCAI 2027: found dates on a third-party site only.
+```
 
-Testing expectations
+## Testing expectations
 
 Before declaring work complete, run:
 
+```bash
 python scripts/validate.py
 python scripts/build_all.py
+```
 
 If tests or validation fail, fix the issues before finalizing.
 
-Style expectations
+## Style expectations
 
 Keep code readable and boring.
 
@@ -371,13 +414,13 @@ Add comments only where they explain non-obvious decisions.
 
 Keep generated files deterministic so that diffs are easy to review.
 
-Done definition
+## Done definition
 
 A task is done only when:
 
 1. Data validates.
 2. Calendar files build.
 3. Website builds.
-4. Generated files are in docs/.
+4. Generated files are in `docs/`.
 5. The result can be served by GitHub Pages.
 6. The final response explains what changed and how to verify it.
