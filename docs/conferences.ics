@@ -402,6 +402,24 @@ URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270224
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Confer
+ ence
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/\nLocation: Montreal\, Canada\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Data Mining & Data Science
+ \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-07\nNotes: Official AAAI-27 pages list the conference dates\, 
+ OpenReview timetable\, and main technical track deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/
+LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270311

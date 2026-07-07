@@ -139,6 +139,11 @@ def _metadata_label(value: Any) -> str:
     return f'<span class="meta-pill">{escape(str(value))}</span>'
 
 
+def _colgroup(widths: list[str]) -> str:
+    columns = "".join(f'<col style="width: {width}">' for width in widths)
+    return f"<colgroup>{columns}</colgroup>"
+
+
 def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
     rows = []
     items = sorted(
@@ -161,15 +166,15 @@ def _deadline_rows(conferences: list[dict[str, Any]]) -> str:
             f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
             f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
             f'data-difficulty="{_attr(_value_slug(conference.get("difficulty", "")))}">'
-            f"<td><time datetime=\"{_attr(deadline_utc)}\">"
+            f"<td data-label=\"Date\"><time datetime=\"{_attr(deadline_utc)}\">"
             f"{escape(_display_deadline_datetime(deadline['datetime']))}</time></td>"
-            f"<td><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
-            f"<td>{escape(label)}</td>"
-            f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
-            f"<td>{_metadata_label(conference.get('size', ''))}</td>"
-            f"<td>{_metadata_label(conference.get('difficulty', ''))}</td>"
-            f"<td>{_topic_labels(conference.get('topics', []))}</td>"
-            f"<td>{_confidence_label(conference['confidence'])}</td>"
+            f"<td data-label=\"Remaining\"><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
+            f"<td data-label=\"Milestone\">{escape(label)}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
+            f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
+            f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
+            f"<td data-label=\"Confidence\">{_confidence_label(conference['confidence'])}</td>"
             "</tr>"
         )
     return "\n".join(rows)
@@ -188,14 +193,14 @@ def _conference_rows(conferences: list[dict[str, Any]]) -> str:
             f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
             f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
             f'data-difficulty="{_attr(_value_slug(conference.get("difficulty", "")))}">'
-            f"<td>{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}</td>"
-            f"<td><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
-            f"<td>{escape(conference.get('location', 'TBD'))}</td>"
-            f"<td>{_metadata_label(conference.get('size', ''))}</td>"
-            f"<td>{_metadata_label(conference.get('difficulty', ''))}</td>"
-            f"<td>{escape(conference.get('submission_type', ''))}</td>"
-            f"<td>{_topic_labels(conference.get('topics', []))}</td>"
-            f"<td>{_confidence_label(conference['confidence'])}</td>"
+            f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}</td>"
+            f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
+            f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
+            f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
+            f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td data-label=\"Submission Type\">{escape(conference.get('submission_type', ''))}</td>"
+            f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
+            f"<td data-label=\"Confidence\">{_confidence_label(conference['confidence'])}</td>"
             "</tr>"
         )
     return "\n".join(rows)
@@ -286,7 +291,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #ffffff;
     }}
     main {{
-      width: min(1180px, calc(100% - 32px));
+      width: min(1320px, calc(100% - 28px));
       margin: 0 auto;
       padding: 34px 0 50px;
     }}
@@ -417,29 +422,33 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       accent-color: var(--accent);
     }}
     .table-wrap {{
-      overflow-x: auto;
       border: 1px solid var(--line);
       border-radius: 8px;
+      overflow: visible;
     }}
     table {{
       width: 100%;
       border-collapse: collapse;
-      min-width: 1240px;
+      min-width: 0;
+      table-layout: fixed;
     }}
     th,
     td {{
       border-bottom: 1px solid var(--line);
-      padding: 11px 12px;
+      padding: 8px 9px;
       text-align: left;
       vertical-align: top;
+      font-size: 0.9rem;
+      line-height: 1.35;
+      overflow-wrap: anywhere;
     }}
     th {{
       background: var(--surface-strong);
       color: #394657;
-      font-size: 0.78rem;
+      font-size: 0.72rem;
       text-transform: uppercase;
       letter-spacing: 0;
-      white-space: nowrap;
+      white-space: normal;
     }}
     tr:last-child td {{
       border-bottom: 0;
@@ -453,10 +462,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     }}
     .remaining {{
       display: inline-block;
-      min-width: 5.5rem;
+      min-width: 0;
       color: #1e2a38;
       font-weight: 650;
-      white-space: nowrap;
     }}
     .remaining-past {{
       color: var(--muted);
@@ -466,11 +474,12 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     .meta-pill,
     .confidence {{
       display: inline-block;
-      margin: 0 5px 5px 0;
-      padding: 2px 7px;
+      margin: 0 3px 4px 0;
+      padding: 2px 6px;
       border-radius: 999px;
-      font-size: 0.82rem;
-      white-space: nowrap;
+      font-size: 0.75rem;
+      line-height: 1.25;
+      overflow-wrap: normal;
     }}
     .tag {{
       background: var(--tag);
@@ -499,7 +508,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     }}
     @media (max-width: 760px) {{
       main {{
-        width: min(100% - 24px, 1180px);
+        width: min(100% - 24px, 1320px);
       }}
       .controls {{
         grid-template-columns: 1fr;
@@ -507,6 +516,52 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       .calendar-action {{
         align-items: flex-start;
         flex-direction: column;
+      }}
+      .table-wrap {{
+        border: 0;
+      }}
+      table,
+      colgroup,
+      thead,
+      tbody,
+      tr,
+      th,
+      td {{
+        display: block;
+        width: 100%;
+      }}
+      thead {{
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+      }}
+      tr {{
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border: 1px solid var(--line);
+        border-radius: 8px;
+        background: #ffffff;
+      }}
+      td {{
+        box-sizing: border-box;
+        display: grid;
+        grid-template-columns: minmax(7rem, 34%) 1fr;
+        gap: 10px;
+        border-bottom: 1px solid var(--line);
+        padding: 8px 10px;
+      }}
+      td::before {{
+        content: attr(data-label);
+        color: var(--muted);
+        font-size: 0.74rem;
+        font-weight: 700;
+        text-transform: uppercase;
+      }}
+      tr:last-child td,
+      td:last-child {{
+        border-bottom: 0;
       }}
     }}
   </style>
@@ -537,6 +592,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <h2>Upcoming Deadlines</h2>
       <div class="table-wrap">
         <table>
+          {_colgroup(["11%", "8%", "14%", "10%", "6%", "9%", "32%", "10%"])}
           <thead>
             <tr>
               <th>Date</th>
@@ -560,6 +616,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <h2>Upcoming Conferences</h2>
       <div class="table-wrap">
         <table>
+          {_colgroup(["12%", "10%", "12%", "6%", "9%", "17%", "25%", "9%"])}
           <thead>
             <tr>
               <th>Dates</th>

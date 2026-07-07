@@ -467,6 +467,23 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260722T115900Z
+DTEND:20260722T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Abstra
+ ct submission deadline
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/\nLocation: Montreal\, Canada\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Data Mining & Data Science
+ \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-07\nNotes: Official AAAI-27 pages list the conference dates\, 
+ OpenReview timetable\, and main technical track deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:cns-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260725
@@ -485,6 +502,23 @@ URL:https://www.cnsorg.org/
 LOCATION:Halifax\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260729T115900Z
+DTEND:20260729T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Full p
+ aper submission deadline
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/\nLocation: Montreal\, Canada\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Data Mining & Data Science
+ \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-07\nNotes: Official AAAI-27 pages list the conference dates\, 
+ OpenReview timetable\, and main technical track deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260801T075900Z
@@ -500,6 +534,24 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260801T115900Z
+DTEND:20260801T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Supple
+ mentary material and code deadline
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/main-technical-track-call/\nLocation: Mont
+ real\, Canada\nTopics: Machine Learning\, Deep Representation Learning\, 
+ Data Mining & Data Science\, Fairness & Responsible AI\nSize: XXL\nDiffic
+ ulty: Very hard\nSubmission type: Paper-based / OpenReview\nConfidence: c
+ onfirmed\nLast checked date: 2026-07-07\nNotes: Official AAAI-27 pages li
+ st the conference dates\, OpenReview timetable\, and main technical track
+  deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2026-conference@scientific-conference-calendar
@@ -939,6 +991,23 @@ URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261215T115900Z
+DTEND:20261215T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Camera
+ -ready deadline
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/\nLocation: Montreal\, Canada\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Data Mining & Data Science
+ \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-07\nNotes: Official AAAI-27 pages list the conference dates\, 
+ OpenReview timetable\, and main technical track deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
 UID:isbi-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270120T115900Z
@@ -970,6 +1039,24 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
  ed from the official COLT 2026 schedule.
 URL:https://learningtheory.org/colt2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270224
+SUMMARY:[Machine Learning][Deep Representation Learning] AAAI 2027 - Confer
+ ence
+DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
+ ebsite: https://aaai.org/conference/aaai/aaai-27/\nSource URL: https://aa
+ ai.org/conference/aaai/aaai-27/\nLocation: Montreal\, Canada\nTopics: Mac
+ hine Learning\, Deep Representation Learning\, Data Mining & Data Science
+ \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-07\nNotes: Official AAAI-27 pages list the conference dates\, 
+ OpenReview timetable\, and main technical track deadlines.
+URL:https://aaai.org/conference/aaai/aaai-27/
+LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar

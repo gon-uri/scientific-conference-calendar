@@ -1,5 +1,7 @@
 # Scientific Conference Calendar
 
+[Published website](https://gon-uri.github.io/scientific-conference-calendar/)
+
 A public, static calendar of scientific conferences relevant to machine
 learning, data science, AI, neuroscience, EEG/MEG, BCI, medical AI, vision,
 LLMs, time-series analysis, and biomedical signal processing.
