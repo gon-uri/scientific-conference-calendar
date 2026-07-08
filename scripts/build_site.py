@@ -5,6 +5,8 @@ from html import escape
 from pathlib import Path
 from typing import Any
 
+import yaml
+
 from validate import (
     DATA_PATH,
     load_conferences,
@@ -18,6 +20,7 @@ from validate import (
 
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
+METADATA_PATH = ROOT / "data" / "metadata.yml"
 
 MONTHS = [
     "January",
@@ -43,9 +46,27 @@ def _topic_labels(topics: list[str]) -> str:
     return " ".join(f'<span class="tag">{escape(topic)}</span>' for topic in topics)
 
 
+CONFIDENCE_HELP = {
+    "confirmed": "Confirmed dates come from an official conference source.",
+    "estimated": (
+        "Estimated dates use the previous edition as a proxy because organizers "
+        "have not yet disclosed the next official dates."
+    ),
+    "announced_no_deadlines": (
+        "The conference has been announced, but deadline details are not yet available."
+    ),
+    "not_yet_announced": "The next edition has not yet been officially announced.",
+    "stale": "This entry needs review because the source information may be outdated.",
+}
+
+
 def _confidence_label(confidence: str) -> str:
     class_name = f"confidence confidence-{stable_slug(confidence)}"
-    return f'<span class="{_attr(class_name)}">{escape(confidence)}</span>'
+    title = CONFIDENCE_HELP.get(confidence, f"Confidence: {confidence}")
+    return (
+        f'<span class="{_attr(class_name)}" title="{_attr(title)}">'
+        f"{escape(confidence)}</span>"
+    )
 
 
 def _conference_source_url(conference: dict[str, Any]) -> str:
@@ -144,10 +165,15 @@ def _conference_calendar_href(conference: dict[str, Any]) -> str:
 
 
 def _conference_calendar_link(conference: dict[str, Any]) -> str:
+    title = (
+        f"Download an ICS calendar file for {conference['short_title']} with "
+        "conference dates and deadlines."
+    )
     return (
         f'<a class="row-calendar-button" href="{_attr(_conference_calendar_href(conference))}" '
-        f'download aria-label="Download calendar for {_attr(conference["short_title"])}">'
-        "ICS"
+        f'download title="{_attr(title)}" '
+        f'aria-label="Download calendar for {_attr(conference["short_title"])}">'
+        "ICS <span aria-hidden=\"true\">&#8595;</span>"
         "</a>"
     )
 
@@ -285,6 +311,24 @@ def _max_last_checked(conferences: list[dict[str, Any]]) -> str:
     return f"{MONTHS[latest.month - 1]} {latest.day}, {latest.year}"
 
 
+def _load_metadata(path: Path = METADATA_PATH) -> dict[str, Any]:
+    if not path.exists():
+        return {}
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle) or {}
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a YAML mapping")
+    return data
+
+
+def _dataset_last_updated(conferences: list[dict[str, Any]]) -> str:
+    metadata = _load_metadata()
+    if metadata.get("last_updated"):
+        updated = parse_date(metadata["last_updated"])
+        return f"{MONTHS[updated.month - 1]} {updated.day}, {updated.year}"
+    return _max_last_checked(conferences)
+
+
 def _topics(conferences: list[dict[str, Any]]) -> list[str]:
     return sorted(
         {topic for conference in conferences for topic in conference.get("topics", [])},
@@ -330,7 +374,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 
     docs_dir.mkdir(parents=True, exist_ok=True)
     output = docs_dir / "index.html"
-    last_checked = _max_last_checked(conferences)
+    last_updated = _dataset_last_updated(conferences)
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -438,6 +482,17 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       gap: 5px;
       color: var(--muted);
       font-size: 0.9rem;
+      line-height: 1.25;
+    }}
+    .search-control {{
+      display: block;
+    }}
+    .control-label {{
+      display: block;
+      margin: 0 0 5px;
+      color: var(--muted);
+      font-size: 0.9rem;
+      line-height: 1.25;
     }}
     input,
     select {{
@@ -465,6 +520,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       margin: 0 0 5px;
       color: var(--muted);
       font-size: 0.9rem;
+      line-height: 1.25;
     }}
     .check-list {{
       max-height: 13rem;
@@ -571,6 +627,11 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     .deadline-group-row.is-expanded td {{
       border-bottom-color: var(--line-strong);
     }}
+    .deadline-group-row.is-expanded [data-group-date-time],
+    .deadline-group-row.is-expanded [data-group-remaining],
+    .deadline-group-row.is-expanded [data-group-milestone] {{
+      display: none;
+    }}
     .deadline-toggle {{
       width: 1.55rem;
       height: 1.55rem;
@@ -596,15 +657,39 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       transform: rotate(90deg);
     }}
     .deadline-detail-row td {{
-      background: #fbfcfe;
+      background: #f1f7f5;
       color: #344255;
     }}
-    .deadline-detail-row.next-deadline-detail td {{
-      background: #fff8dc;
+    .deadline-detail-row.next-deadline-detail td:nth-child(-n+3),
+    .deadline-detail-row.next-deadline-detail time,
+    .deadline-detail-row.next-deadline-detail .remaining {{
+      color: #162235;
+      font-weight: 750;
     }}
     .detail-indent {{
+      position: relative;
       display: inline-block;
       width: 2rem;
+      height: 1.2rem;
+      vertical-align: middle;
+    }}
+    .detail-indent::before {{
+      content: "";
+      position: absolute;
+      top: -1.15rem;
+      bottom: -1.15rem;
+      left: 0.76rem;
+      border-left: 2px solid #b4c3bb;
+    }}
+    .detail-indent::after {{
+      content: "";
+      position: absolute;
+      top: 0.42rem;
+      left: 0.52rem;
+      width: 0.52rem;
+      height: 0.52rem;
+      border-radius: 999px;
+      background: var(--accent);
     }}
     .detail-fill {{
       color: var(--muted);
@@ -612,6 +697,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     time {{
       font-weight: 650;
       color: #1e2a38;
+      white-space: nowrap;
     }}
     .remaining {{
       display: inline-block;
@@ -752,7 +838,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       .detail-fill {{
         display: none;
       }}
-      .detail-indent {{
+      .detail-indent,
+      .detail-indent::before,
+      .detail-indent::after {{
         display: none;
       }}
     }}
@@ -761,7 +849,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 <body>
   <main>
     <header>
-      <p class="eyebrow">Static scientific calendar</p>
       <h1>Scientific Conference Calendar</h1>
       <p class="subhead">Conference deadlines and dates for ML, AI, neuroscience, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.</p>
       <div class="calendar-action">
@@ -771,8 +858,8 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     </header>
 
     <div class="controls">
-      <label>
-        Search
+      <label class="search-control">
+        <span class="control-label">Search</span>
         <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
       </label>
       {_checkbox_group("Topics", "topics", _topics(conferences))}
@@ -789,7 +876,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
         <div class="table-wrap">
           <table>
-            {_colgroup(["11%", "8%", "14%", "10%", "6%", "9%", "26%", "8%", "8%"])}
+            {_colgroup(["15%", "8%", "13%", "10%", "5%", "8%", "24%", "9%", "8%"])}
             <thead>
               <tr>
                 <th>Date</th>
@@ -813,7 +900,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <div class="table-wrap">
           <table>
-            {_colgroup(["12%", "10%", "12%", "6%", "9%", "16%", "24%", "7%", "4%"])}
+            {_colgroup(["14%", "10%", "12%", "5%", "8%", "15%", "22%", "7%", "7%"])}
             <thead>
               <tr>
                 <th>Dates</th>
@@ -836,7 +923,8 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     </section>
 
     <footer>
-      Data last checked through {escape(last_checked)}. Edit data/conferences.yml and rebuild to update this static page and calendar feed.
+      <strong>Database last updated {escape(last_updated)}.</strong>
+      The calendar is reviewed regularly as organizers publish new schedules. Entries marked {_confidence_label("estimated")} use prior-edition timing as a proxy because the next official dates or deadlines have not been disclosed yet.
     </footer>
   </main>
   <script>
