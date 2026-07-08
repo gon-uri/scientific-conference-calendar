@@ -12,14 +12,14 @@ DTEND:20260408T125900Z
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  26 - Abstract submission deadline
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
- tion: Halifax\, Canada\nTopics: Computational Neuroscience\, Time Series 
- & Sequential Data\, Machine Learning\nSize: M\nDifficulty: Moderate\nSubm
- ission type: Abstract-based\nConfidence: estimated\nLast checked date: 20
- 26-07-07\nNotes: CNS* 2026 was identified as the current edition\, but ex
- act deadlines were not found in the crawl. Dates and deadline should be r
- eviewed.
-URL:https://www.cnsorg.org/
+ bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
+ g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
+ e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
+ : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
+ checked date: 2026-07-08\nNotes: Official CNS* 2026 page confirms Halifax
+  and July 11-15\, 2026. Abstract deadline remains from imported data unti
+ l the dedicated important-dates page is rechecked.
+URL:https://www.cnsorg.org/cns-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ccn-2026-deadline-abstract@scientific-conference-calendar
@@ -33,7 +33,7 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
  ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
  arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
  ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ acts\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Upcomi
  ng edition details were not found in the crawled page. Dates and deadline
   are proxy estimates and should be verified against the current CCN site.
 URL:https://ccneuro.org/
@@ -47,13 +47,13 @@ SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
  6 - Abstract submission deadline
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
- tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
- s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
- l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
- sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
-  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
- n the workbook\, but exact dates/deadlines were not reliably extracted. V
- alues are estimates and should be checked.
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: Beijing\, Ch
+ ina\nTopics: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Co
+ mputational Neuroscience\, Signal Processing\nSize: M\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / specialist venue\nConfidence: estim
+ ated\nLast checked date: 2026-07-08\nNotes: Official BIOMAG 2026 page con
+ firms Beijing and Aug 23-25\, 2026. Abstract deadline remains an estimate
+  until the submission page is rechecked.
 URL:https://biomag2026.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
@@ -70,27 +70,28 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-07\nNotes: Conference dates and deadline are 
- proxy estimates from the annual Bernstein schedule and should be verified
-  against the official conference page.
+ nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
+ mains a proxy estimate until the dedicated important-dates page is rechec
+ ked.
 URL:https://bernstein-network.de/en/bernstein-conference/
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260725
-DTEND;VALUE=DATE:20260730
+DTSTART;VALUE=DATE:20260711
+DTEND;VALUE=DATE:20260716
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  26 - Conference
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
- bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
- tion: Halifax\, Canada\nTopics: Computational Neuroscience\, Time Series 
- & Sequential Data\, Machine Learning\nSize: M\nDifficulty: Moderate\nSubm
- ission type: Abstract-based\nConfidence: estimated\nLast checked date: 20
- 26-07-07\nNotes: CNS* 2026 was identified as the current edition\, but ex
- act deadlines were not found in the crawl. Dates and deadline should be r
- eviewed.
-URL:https://www.cnsorg.org/
+ bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
+ g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
+ e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
+ : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
+ checked date: 2026-07-08\nNotes: Official CNS* 2026 page confirms Halifax
+  and July 11-15\, 2026. Abstract deadline remains from imported data unti
+ l the dedicated important-dates page is rechecked.
+URL:https://www.cnsorg.org/cns-2026
 LOCATION:Halifax\, Canada
 END:VEVENT
 BEGIN:VEVENT
@@ -105,7 +106,7 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
  ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
  arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
  ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ acts\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Upcomi
  ng edition details were not found in the crawled page. Dates and deadline
   are proxy estimates and should be verified against the current CCN site.
 URL:https://ccneuro.org/
@@ -114,27 +115,27 @@ END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260824
-DTEND;VALUE=DATE:20260829
+DTSTART;VALUE=DATE:20260823
+DTEND;VALUE=DATE:20260826
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
  6 - Conference
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
- tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
- s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
- l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
- sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
-  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
- n the workbook\, but exact dates/deadlines were not reliably extracted. V
- alues are estimates and should be checked.
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: Beijing\, Ch
+ ina\nTopics: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Co
+ mputational Neuroscience\, Signal Processing\nSize: M\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / specialist venue\nConfidence: estim
+ ated\nLast checked date: 2026-07-08\nNotes: Official BIOMAG 2026 page con
+ firms Beijing and Aug 23-25\, 2026. Abstract deadline remains an estimate
+  until the submission page is rechecked.
 URL:https://biomag2026.scimeeting.cn/en/web/index/31426
-LOCATION:China
+LOCATION:Beijing\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20261003
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261002
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
  nference 2026 - Conference
 DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
@@ -143,9 +144,10 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-07\nNotes: Conference dates and deadline are 
- proxy estimates from the annual Bernstein schedule and should be verified
-  against the official conference page.
+ nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
+ mains a proxy estimate until the dedicated important-dates page is rechec
+ ked.
 URL:https://bernstein-network.de/en/bernstein-conference/
 LOCATION:Frankfurt am Main\, Germany
 END:VEVENT
@@ -161,7 +163,7 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
  al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
  fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
  SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
  estimated from prior COSYNE cycles.
 URL:https://www.cosyne.org/
@@ -179,7 +181,7 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
   EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
  oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
  ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 7\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
+ 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
  acted. Dates and deadline are estimates from typical OHBM timing.
 URL:https://humanbrainmapping.org/
 END:VEVENT
@@ -187,18 +189,19 @@ BEGIN:VEVENT
 UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270201T115900Z
-DTEND:20270201T125900Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
   Meeting 2027 - Abstract submission deadline
 DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
- ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
- EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
- on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
- ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
- nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
- bstract deadline are estimates from prior meeting cycles.
+ ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
+ technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
+ n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
+ n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
+ l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
 END:VEVENT
 BEGIN:VEVENT
@@ -213,7 +216,7 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
  al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
  fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
  SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
  estimated from prior COSYNE cycles.
 URL:https://www.cosyne.org/
@@ -223,20 +226,21 @@ BEGIN:VEVENT
 UID:international-bci-meeting-2027-conference@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270606
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270611
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
   Meeting 2027 - Conference
 DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
- ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
- EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
- on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
- ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
- nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
- bstract deadline are estimates from prior meeting cycles.
+ ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
+ technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
+ n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
+ n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
+ l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
-LOCATION:TBD
+LOCATION:Sibenik\, Croatia
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-conference@scientific-conference-calendar
@@ -251,7 +255,7 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
   EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
  oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
  ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 7\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
+ 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
  acted. Dates and deadline are estimates from typical OHBM timing.
 URL:https://humanbrainmapping.org/
 LOCATION:TBD

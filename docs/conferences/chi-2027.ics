@@ -13,32 +13,30 @@ SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
  ty] CHI 2027 - Papers deadline
 DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
- 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
- xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
-  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
- / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
- s: CHI 2027 details were not found in the crawl. Dates and paper deadline
-  are estimates from typical CHI timing and the 2026 source page in the wo
- rkbook.
-URL:https://chi2026.acm.org/
+ 27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
+ Interaction & Deployment\, Explainability & Interpretability\, Fairness &
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ May 10-14\, 2027 conference dates and the full paper deadline.
+URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270430
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
 SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
  ty] CHI 2027 - Conference
 DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
- 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
- xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
-  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
- / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
- s: CHI 2027 details were not found in the crawl. Dates and paper deadline
-  are estimates from typical CHI timing and the 2026 source page in the wo
- rkbook.
-URL:https://chi2026.acm.org/
-LOCATION:TBD
+ 27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
+ Interaction & Deployment\, Explainability & Interpretability\, Fairness &
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ May 10-14\, 2027 conference dates and the full paper deadline.
+URL:https://chi2027.acm.org/
+LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
 END:VCALENDAR

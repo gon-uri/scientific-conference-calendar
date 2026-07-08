@@ -7,53 +7,53 @@ X-WR-CALNAME:ACM FAccT 2027 Calendar
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
+DTSTART:20261028T115900Z
+DTEND:20261028T125900Z
 SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
  FAccT 2027 - Abstract submission deadline
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261023T115900Z
-DTEND:20261023T125900Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
 SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
  FAccT 2027 - Paper submission deadline
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270607
-DTEND;VALUE=DATE:20270611
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
 SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
  FAccT 2027 - Conference
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
 END:VCALENDAR

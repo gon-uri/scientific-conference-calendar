@@ -5,22 +5,40 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Human-AI Interaction & Deployment
 BEGIN:VEVENT
+UID:aies-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260515T115900Z
+DTEND:20260515T125900Z
+SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
+  2026 - Abstract registration deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
+ achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
+ te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
+ nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
+ on deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:aies-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260516T115900Z
-DTEND:20260516T125900Z
+DTSTART:20260522T115900Z
+DTEND:20260522T125900Z
 SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
   2026 - Paper submission deadline
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
- ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
- e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
-  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
-  dates/deadlines were not reliably extracted. Values are estimates and sh
- ould be reviewed.
-URL:https://www.aies-conference.com/2026/
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
+ achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
+ te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
+ nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
+ on deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:dsaa-2026-deadline-full-paper@scientific-conference-calendar
@@ -35,7 +53,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -52,7 +70,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -69,7 +87,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -86,7 +104,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -99,14 +117,13 @@ SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
  ty] CHI 2027 - Papers deadline
 DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
- 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
- xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
-  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
- / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
- s: CHI 2027 details were not found in the crawl. Dates and paper deadline
-  are estimates from typical CHI timing and the 2026 source page in the wo
- rkbook.
-URL:https://chi2026.acm.org/
+ 27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
+ Interaction & Deployment\, Explainability & Interpretability\, Fairness &
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ May 10-14\, 2027 conference dates and the full paper deadline.
+URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
@@ -121,7 +138,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -138,63 +155,62 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  ia\nTopics: Data Mining & Data Science\, Machine Learning\, Healthcare & 
  Clinical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Mod
  erate-hard\nSubmission type: Paper-based / applied tracks\nConfidence: co
- nfirmed\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists confe
+ nfirmed\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists confe
  rence dates\, venue\, and extended paper deadline.
 URL:https://dsaa.co/dsaa2026-calls-for-papers/
 LOCATION:New Delhi\, India
 END:VEVENT
 BEGIN:VEVENT
-UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261016T115900Z
-DTEND:20261016T125900Z
-SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
- FAccT 2027 - Abstract submission deadline
-DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
-  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:aies-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
 SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
   2026 - Conference
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
- ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
- e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
-  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
-  dates/deadlines were not reliably extracted. Values are estimates and sh
- ould be reviewed.
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Fairness
+  & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
+ , Healthcare & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based / interdisciplinary\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official AIES 2026 pages list Malmo\, Oct 
+ 12-14\, 2026 conference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/
-LOCATION:TBD
+LOCATION:Malmo\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261028T115900Z
+DTEND:20261028T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261023T115900Z
-DTEND:20261023T125900Z
+DTSTART:20261104T115900Z
+DTEND:20261104T125900Z
 SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
  FAccT 2027 - Paper submission deadline
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-conference@scientific-conference-calendar
@@ -209,7 +225,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nDifficulty: Moderate-hard\nSubm
  ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
- 07-07\nNotes: Official BHI 2026 pages list conference dates\, location\, 
+ 07-08\nNotes: Official BHI 2026 pages list conference dates\, location\, 
  and submission deadlines.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
@@ -218,74 +234,75 @@ BEGIN:VEVENT
 UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
  calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270201T115900Z
-DTEND:20270201T125900Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
   Meeting 2027 - Abstract submission deadline
 DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
- ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
- EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
- on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
- ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
- nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
- bstract deadline are estimates from prior meeting cycles.
+ ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
+ technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
+ n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
+ n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
+ l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270424
-DTEND;VALUE=DATE:20270430
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
 SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
  ty] CHI 2027 - Conference
 DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
- 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
- xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
-  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
- / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
- s: CHI 2027 details were not found in the crawl. Dates and paper deadline
-  are estimates from typical CHI timing and the 2026 source page in the wo
- rkbook.
-URL:https://chi2026.acm.org/
-LOCATION:TBD
+ 27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
+ Interaction & Deployment\, Explainability & Interpretability\, Fairness &
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ May 10-14\, 2027 conference dates and the full paper deadline.
+URL:https://chi2027.acm.org/
+LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:international-bci-meeting-2027-conference@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270601
-DTEND;VALUE=DATE:20270606
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270611
 SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] International BCI
   Meeting 2027 - Conference
 DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
- ociety.org/bci-meeting/\nLocation: TBD\nTopics: BCI & Neurotechnology\, E
- EG/MEG & Neural Signals\, Computational Neuroscience\, Human-AI Interacti
- on & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmission type: Abstra
- ct/community-based\nConfidence: estimated\nLast checked date: 2026-07-07\
- nNotes: Next BCI Meeting details were not found in the crawl. Dates and a
- bstract deadline are estimates from prior meeting cycles.
+ ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
+ technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
+ n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
+ n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
+ l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
-LOCATION:TBD
+LOCATION:Sibenik\, Croatia
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270607
-DTEND;VALUE=DATE:20270611
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270625
 SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
  FAccT 2027 - Conference
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
- AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
- -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
-  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
- e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
- es and deadlines are estimates from prior annual timing.
-URL:https://facctconference.org/
+ ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
+  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
+ mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
+ t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ sts conference dates and abstract/paper submission deadlines.
+URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
 END:VCALENDAR

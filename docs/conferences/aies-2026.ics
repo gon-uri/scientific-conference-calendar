@@ -5,40 +5,57 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:AIES 2026 Calendar
 BEGIN:VEVENT
+UID:aies-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260515T115900Z
+DTEND:20260515T125900Z
+SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
+  2026 - Abstract registration deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
+ achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
+ te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
+ nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
+ on deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:aies-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260516T115900Z
-DTEND:20260516T125900Z
+DTSTART:20260522T115900Z
+DTEND:20260522T125900Z
 SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
   2026 - Paper submission deadline
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
- ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
- e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
-  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
-  dates/deadlines were not reliably extracted. Values are estimates and sh
- ould be reviewed.
-URL:https://www.aies-conference.com/2026/
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
+ achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
+ te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
+ nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
+ on deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261024
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
 SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
   2026 - Conference
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
- ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
- e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
-  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
-  dates/deadlines were not reliably extracted. Values are estimates and sh
- ould be reviewed.
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Fairness
+  & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
+ , Healthcare & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based / interdisciplinary\nConfidence: confirmed\nLast ch
+ ecked date: 2026-07-08\nNotes: Official AIES 2026 pages list Malmo\, Oct 
+ 12-14\, 2026 conference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/
-LOCATION:TBD
+LOCATION:Malmo\, Sweden
 END:VEVENT
 END:VCALENDAR

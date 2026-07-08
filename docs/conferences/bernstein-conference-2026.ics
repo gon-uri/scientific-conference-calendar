@@ -18,16 +18,17 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-07\nNotes: Conference dates and deadline are 
- proxy estimates from the annual Bernstein schedule and should be verified
-  against the official conference page.
+ nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
+ mains a proxy estimate until the dedicated important-dates page is rechec
+ ked.
 URL:https://bernstein-network.de/en/bernstein-conference/
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20261003
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20261002
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
  nference 2026 - Conference
 DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
@@ -36,9 +37,10 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-07\nNotes: Conference dates and deadline are 
- proxy estimates from the annual Bernstein schedule and should be verified
-  against the official conference page.
+ nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
+ mains a proxy estimate until the dedicated important-dates page is rechec
+ ked.
 URL:https://bernstein-network.de/en/bernstein-conference/
 LOCATION:Frankfurt am Main\, Germany
 END:VEVENT

@@ -7,7 +7,7 @@ Last synchronized: 2026-07-08
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata.
+- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata. The core list was comprehensively refreshed on 2026-07-08 against `data/core_conferences_normalized_tags.xlsx` and official conference websites.
 - Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/topics.yml`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
@@ -34,7 +34,7 @@ Last synchronized: 2026-07-08
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates `docs/index.html`, a static GitHub Pages site with searchable/filterable deadline and conference tables, confidence labels, per-conference ICS downloads, and client-side countdowns.
+- Brief description: Generates `docs/index.html`, a static GitHub Pages site with searchable/filterable deadline and conference tables, confidence labels, per-conference ICS downloads, and client-side countdowns. The current presentation uses compact size labels, a slightly wider conference confidence column, and clarified estimated-entry wording.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI.
 - Remaining work: Add browser or HTML regression checks before large UI changes.

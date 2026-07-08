@@ -49,8 +49,9 @@ def _topic_labels(topics: list[str]) -> str:
 CONFIDENCE_HELP = {
     "confirmed": "Confirmed dates come from an official conference source.",
     "estimated": (
-        "Estimated dates use the previous edition as a proxy because organizers "
-        "have not yet disclosed the next official dates."
+        "Estimated entries include at least one date we have not fully confirmed; "
+        "some use prior-edition timing because organizers have not yet disclosed "
+        "the next official schedule."
     ),
     "announced_no_deadlines": (
         "The conference has been announced, but deadline details are not yet available."
@@ -893,7 +894,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <div class="table-wrap">
           <table>
-            {_colgroup(["14%", "10%", "12%", "5%", "8%", "15%", "22%", "7%", "7%"])}
+            {_colgroup(["14%", "10%", "12%", "5%", "8%", "15%", "21%", "8%", "7%"])}
             <thead>
               <tr>
                 <th>Dates</th>
@@ -917,7 +918,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 
     <footer>
       <strong>Database last updated {escape(last_updated)}.</strong>
-      The calendar is reviewed regularly as organizers publish new schedules. Entries marked {_confidence_label("estimated")} use prior-edition timing as a proxy because the next official dates or deadlines have not been disclosed yet.
+      The calendar is reviewed regularly as organizers publish new schedules. Entries are marked {_confidence_label("estimated")} when we are not fully certain about a particular scraped or researched date. In some cases, prior-edition timing is used as a proxy because the next official dates or deadlines have not yet been disclosed.
     </footer>
   </main>
   <script>
