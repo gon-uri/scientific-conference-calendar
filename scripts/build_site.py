@@ -192,42 +192,31 @@ def _filter_attributes(conference: dict[str, Any], search_text: str) -> str:
     )
 
 
-def _deadline_cell_entries(deadlines: list[dict[str, Any]], role: str) -> str:
-    entries = []
+def _deadline_grid_rows(deadlines: list[dict[str, Any]]) -> str:
+    rows = []
     for index, deadline in enumerate(deadlines):
         deadline_utc = _deadline_iso_utc(deadline["datetime"])
-        classes = "deadline-cell-entry"
-        if role == "remaining":
-            classes += " remaining"
+        row_hidden = "" if index == 0 else " hidden"
+        date_classes = "deadline-cell-entry"
+        remaining_classes = "deadline-cell-entry remaining"
+        milestone_classes = "deadline-cell-entry"
         if index == 0:
-            classes += " is-summary"
-        hidden = "" if index == 0 else " hidden"
-        common = (
-            f'class="{_attr(classes)}" data-deadline-entry '
-            f'data-entry-role="{_attr(role)}" data-entry-index="{index}" '
-            f'data-entry-at="{_attr(deadline_utc)}"{hidden}'
+            date_classes += " is-summary"
+            remaining_classes += " is-summary"
+            milestone_classes += " is-summary"
+        common = f'data-deadline-entry data-entry-index="{index}" data-entry-at="{_attr(deadline_utc)}"'
+        rows.append(
+            f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}"{row_hidden}>'
+            f'<time class="{_attr(date_classes)}" {common} data-entry-role="date" '
+            f'datetime="{_attr(deadline_utc)}">'
+            f"{escape(_display_deadline_datetime(deadline['datetime']))}</time>"
+            f'<span class="{_attr(remaining_classes)}" {common} data-entry-role="remaining" '
+            f'data-deadline="{_attr(deadline_utc)}">Calculating...</span>'
+            f'<span class="{_attr(milestone_classes)}" {common} data-entry-role="milestone">'
+            f"{escape(_display_deadline_label(deadline['label']))}</span>"
+            "</div>"
         )
-        if role == "date":
-            entries.append(
-                f'<time {common} datetime="{_attr(deadline_utc)}">'
-                f"{escape(_display_deadline_datetime(deadline['datetime']))}</time>"
-            )
-        elif role == "remaining":
-            entries.append(
-                f'<span {common} data-deadline="{_attr(deadline_utc)}">'
-                "Calculating...</span>"
-            )
-        elif role == "milestone":
-            entries.append(
-                f"<span {common}>"
-                f"{escape(_display_deadline_label(deadline['label']))}</span>"
-            )
-        else:
-            raise ValueError(f"unsupported deadline cell role: {role}")
-    return (
-        f'<div class="deadline-cell-stack" data-deadline-stack="{_attr(role)}">'
-        f"{''.join(entries)}</div>"
-    )
+    return f'<div class="deadline-grid" data-deadline-grid>{"".join(rows)}</div>'
 
 
 def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
@@ -272,9 +261,7 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td class=\"expand-cell\" data-label=\"\">{toggle_html}</td>"
-            f"<td class=\"deadline-list-cell\" data-label=\"Date\">{_deadline_cell_entries(deadlines, 'date')}</td>"
-            f"<td class=\"deadline-list-cell\" data-label=\"Remaining\">{_deadline_cell_entries(deadlines, 'remaining')}</td>"
-            f"<td class=\"deadline-list-cell\" data-label=\"Milestone\">{_deadline_cell_entries(deadlines, 'milestone')}</td>"
+            f"<td class=\"deadline-combined-cell\" data-label=\"Deadlines\" colspan=\"3\">{_deadline_grid_rows(deadlines)}</td>"
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
@@ -681,10 +668,23 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       color: var(--muted);
       font-weight: 500;
     }}
-    .deadline-cell-stack {{
+    .deadline-combined-cell {{
+      padding-top: 10px;
+      padding-bottom: 10px;
+    }}
+    .deadline-grid {{
       display: grid;
-      gap: 6px;
       align-content: center;
+      row-gap: 8px;
+    }}
+    .deadline-grid-row {{
+      display: grid;
+      grid-template-columns: minmax(8.8rem, 15fr) minmax(5.4rem, 8fr) minmax(11rem, 13fr);
+      column-gap: 16px;
+      align-items: start;
+    }}
+    .deadline-grid-row[hidden] {{
+      display: none;
     }}
     .deadline-cell-entry {{
       display: block;
@@ -692,9 +692,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       color: #344255;
       font-weight: 500;
       line-height: 1.35;
-    }}
-    .deadline-cell-entry[hidden] {{
-      display: none;
     }}
     .deadline-cell-entry.is-summary,
     .deadline-cell-entry.is-next {{
@@ -829,6 +826,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       }}
       .expand-cell::before {{
         content: "";
+      }}
+      .deadline-grid-row {{
+        grid-template-columns: 1fr;
+        row-gap: 3px;
       }}
       tr:last-child td,
       td:last-child {{
@@ -995,6 +996,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
             at: entry.dataset.entryAt,
             elements: [],
             index,
+            row: entry.closest("[data-deadline-row]"),
             time: Date.parse(entry.dataset.entryAt),
           }});
         }}
@@ -1043,8 +1045,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
           const isSummary = !expanded && detail === summaryDetail;
           const isNext = expanded && detail === nextDetail;
           const isVisible = showGroup && (expanded || isSummary);
+          if (detail.row) {{
+            detail.row.hidden = !isVisible;
+          }}
           detail.elements.forEach((entry) => {{
-            entry.hidden = !isVisible;
             entry.classList.toggle("is-summary", isSummary);
             entry.classList.toggle("is-next", isNext);
           }});
