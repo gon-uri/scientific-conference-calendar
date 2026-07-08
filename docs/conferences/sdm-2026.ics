@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SDM 2026 Calendar
+BEGIN:VEVENT
+UID:sdm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260411T115900Z
+DTEND:20260411T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Abstract submission deadline
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-07-07\nNotes: Offici
+ al SIAM SDM26 page lists event details and submission deadlines.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260418T115900Z
+DTEND:20260418T125900Z
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Full paper submission deadline
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-07-07\nNotes: Offici
+ al SIAM SDM26 page lists event details and submission deadlines.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:sdm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] SDM 202
+ 6 - Conference
+DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
+ nWebsite: https://www.siam.org/conferences-events/siam-conferences/sdm26/
+ \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
+ m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-07-07\nNotes: Offici
+ al SIAM SDM26 page lists event details and submission deadlines.
+URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+END:VCALENDAR

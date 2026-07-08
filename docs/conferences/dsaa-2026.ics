@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:DSAA 2026 Calendar
+BEGIN:VEVENT
+UID:dsaa-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260608T115900Z
+DTEND:20260608T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
+ ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
+ e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
+ med\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists conferenc
+ e dates\, venue\, and extended paper deadline.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2026-deadline-special-session-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260608T115900Z
+DTEND:20260608T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Special 
+ session paper submission
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
+ ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
+ e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
+ med\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists conferenc
+ e dates\, venue\, and extended paper deadline.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261010
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa.co/dsaa2026-calls-for-papers/\nLocation: New Delhi\, Ind
+ ia\nTopics: Data Mining & Data Science\, Machine Learning\, Healthcare & 
+ Clinical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Mod
+ erate-hard\nSubmission type: Paper-based / applied tracks\nConfidence: co
+ nfirmed\nLast checked date: 2026-07-07\nNotes: DSAA 2026 site lists confe
+ rence dates\, venue\, and extended paper deadline.
+URL:https://dsaa.co/dsaa2026-calls-for-papers/
+LOCATION:New Delhi\, India
+END:VEVENT
+END:VCALENDAR

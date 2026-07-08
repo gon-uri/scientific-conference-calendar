@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACM FAccT 2027 Calendar
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
+ AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
+ -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
+  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
+ e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
+ es and deadlines are estimates from prior annual timing.
+URL:https://facctconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261023T115900Z
+DTEND:20261023T125900Z
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Paper submission deadline
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
+ AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
+ -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
+  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
+ e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
+ es and deadlines are estimates from prior annual timing.
+URL:https://facctconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acm-facct-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270607
+DTEND;VALUE=DATE:20270611
+SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
+ FAccT 2027 - Conference
+DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
+  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
+ ps://facctconference.org/\nLocation: TBD\nTopics: Fairness & Responsible 
+ AI\, Explainability & Interpretability\, Healthcare & Clinical AI\, Human
+ -AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSubmission type:
+  Paper-based / interdisciplinary\nConfidence: estimated\nLast checked dat
+ e: 2026-07-07\nNotes: FAccT 2027 schedule was not found in the crawl. Dat
+ es and deadlines are estimates from prior annual timing.
+URL:https://facctconference.org/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

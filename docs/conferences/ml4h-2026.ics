@@ -1,0 +1,57 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ML4H 2026 Calendar
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260911T115900Z
+DTEND:20260911T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Paper subm
+ ission deadline
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
+ \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
+  Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
+ 7\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ paper deadline.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261108T115900Z
+DTEND:20261108T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Camera-rea
+ dy deadline
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/submit/call-fo
+ r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
+ \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
+  Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
+ 7\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ paper deadline.
+URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ml4h-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261208
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] ML4H 2026 - Conference
+DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
+ e: https://ml4h.ahli.cc/\nSource URL: https://ml4h.ahli.cc/\nLocation: Sy
+ dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
+ ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nDif
+ ficulty: Moderate-hard\nSubmission type: Proceedings + findings tracks\nC
+ onfidence: confirmed\nLast checked date: 2026-07-07\nNotes: Official ML4H
+  2026 pages list symposium dates\, location\, and paper deadline.
+URL:https://ml4h.ahli.cc/
+LOCATION:Sydney\, Australia
+END:VEVENT
+END:VCALENDAR

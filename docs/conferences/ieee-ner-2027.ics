@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE NER 2027 Calendar
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270116T115900Z
+DTEND:20270116T125900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - P
+ aper submission deadline
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270428
+DTEND;VALUE=DATE:20270502
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
+ onference
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
+ gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
+ idence: estimated\nLast checked date: 2026-07-07\nNotes: NER is biennial 
+ and the 2027 edition details were not found in the crawl. Dates and deadl
+ ine are estimates and should be verified.
+URL:https://ieee-ner.org/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

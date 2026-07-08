@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE EMBC 2026 Calendar
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260204T045900Z
+DTEND:20260204T055900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T035900Z
+DTEND:20260416T045900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - 1-pa
+ ge poster submission deadline
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
+ Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
+ echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
+ 7\nNotes: Official EMBC page confirms conference dates. Submission dates 
+ were already marked closed on the official key-dates page\, so the deadli
+ ne is a proxy and should be backfilled when archival CFP data is availabl
+ e.
+URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260726
+DTEND;VALUE=DATE:20260731
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Conf
+ erence
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
+ bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
+ I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
+ nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
+ lied venue\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: 
+ Official EMBC page confirms conference dates. Submission dates were alrea
+ dy marked closed on the official key-dates page\, so the deadline is a pr
+ oxy and should be backfilled when archival CFP data is available.
+URL:https://embc.embs.org/2026/
+LOCATION:Toronto\, Canada
+END:VEVENT
+END:VCALENDAR

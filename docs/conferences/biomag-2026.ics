@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:BIOMAG 2026 Calendar
+BEGIN:VEVENT
+UID:biomag-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260501T115900Z
+DTEND:20260501T125900Z
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 6 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
+ s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
+ l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
+ sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
+  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
+ n the workbook\, but exact dates/deadlines were not reliably extracted. V
+ alues are estimates and should be checked.
+URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260829
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 6 - Conference
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
+ tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: China\nTopic
+ s: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computationa
+ l Neuroscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmis
+ sion type: Abstract-based / specialist venue\nConfidence: estimated\nLast
+  checked date: 2026-07-07\nNotes: BIOMAG 2026 official page was present i
+ n the workbook\, but exact dates/deadlines were not reliably extracted. V
+ alues are estimates and should be checked.
+URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+LOCATION:China
+END:VEVENT
+END:VCALENDAR

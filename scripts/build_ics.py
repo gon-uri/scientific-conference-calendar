@@ -260,6 +260,24 @@ def _write_topic_feeds(conferences: list[dict[str, Any]], tags_dir: Path) -> lis
     return outputs
 
 
+def _write_conference_feeds(
+    conferences: list[dict[str, Any]], feeds_dir: Path
+) -> list[Path]:
+    feeds_dir.mkdir(parents=True, exist_ok=True)
+    for old_feed in sorted(feeds_dir.glob("*.ics")):
+        old_feed.unlink()
+
+    outputs: list[Path] = []
+    for conference in sorted(conferences, key=lambda item: item["id"]):
+        path = feeds_dir / f"{conference['id']}.ics"
+        path.write_text(
+            _calendar(f"{conference['short_title']} Calendar", _all_events([conference])),
+            encoding="utf-8",
+        )
+        outputs.append(path)
+    return outputs
+
+
 def build_calendars(
     data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR
 ) -> list[Path]:
@@ -291,6 +309,7 @@ def build_calendars(
         paths.append(path)
 
     paths.extend(_write_topic_feeds(conferences, docs_dir / "tags"))
+    paths.extend(_write_conference_feeds(conferences, docs_dir / "conferences"))
     return paths
 
 

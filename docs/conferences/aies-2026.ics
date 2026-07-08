@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AIES 2026 Calendar
+BEGIN:VEVENT
+UID:aies-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T115900Z
+DTEND:20260516T125900Z
+SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
+  2026 - Paper submission deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
+ ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
+ e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
+ aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
+  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
+  dates/deadlines were not reliably extracted. Values are estimates and sh
+ ould be reviewed.
+URL:https://www.aies-conference.com/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261024
+SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
+  2026 - Conference
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/\nLocation: TBD\nTopics: Fairness & Responsi
+ ble AI\, Human-AI Interaction & Deployment\, Machine Learning\, Healthcar
+ e & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmission type: P
+ aper-based / interdisciplinary\nConfidence: estimated\nLast checked date:
+  2026-07-07\nNotes: AIES 2026 page was listed in the workbook\, but exact
+  dates/deadlines were not reliably extracted. Values are estimates and sh
+ ould be reviewed.
+URL:https://www.aies-conference.com/2026/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

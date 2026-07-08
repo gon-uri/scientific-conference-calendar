@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ECML PKDD 2026 Calendar
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260330T115900Z
+DTEND:20260330T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
+  Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
+ Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
+ ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
+ mated\nLast checked date: 2026-07-07\nNotes: Official site confirms confe
+ rence dates and location\; submission deadline is estimated because it wa
+ s not found on the crawled page.
+URL:https://ecmlpkdd.org/2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260912
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Con
+ ference
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
+  Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
+ Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
+ ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
+ mated\nLast checked date: 2026-07-07\nNotes: Official site confirms confe
+ rence dates and location\; submission deadline is estimated because it wa
+ s not found on the crawled page.
+URL:https://ecmlpkdd.org/2026/
+LOCATION:Naples\, Italy
+END:VEVENT
+END:VCALENDAR

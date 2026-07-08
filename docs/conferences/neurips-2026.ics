@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:NeurIPS 2026 Calendar
+BEGIN:VEVENT
+UID:neurips-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260505T115900Z
+DTEND:20260505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260507T115900Z
+DTEND:20260507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260607T115900Z
+DTEND:20260607T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Wor
+ kshop application deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Con
+ ference
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-07-07\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ tes and main paper submission deadlines.
+URL:https://neurips.cc/Conferences/2026/Dates
+LOCATION:Sydney\, Australia
+END:VEVENT
+END:VCALENDAR

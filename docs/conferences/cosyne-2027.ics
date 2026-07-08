@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:COSYNE 2027 Calendar
+BEGIN:VEVENT
+UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261113T115900Z
+DTEND:20261113T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
+ - Abstract submission deadline
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
+ estimated from prior COSYNE cycles.
+URL:https://www.cosyne.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cosyne-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270311
+DTEND;VALUE=DATE:20270317
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
+ - Conference
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Official CO
+ SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
+ estimated from prior COSYNE cycles.
+URL:https://www.cosyne.org/
+LOCATION:Montreal\, Canada
+END:VEVENT
+END:VCALENDAR

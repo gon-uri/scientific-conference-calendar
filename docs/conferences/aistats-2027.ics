@@ -1,0 +1,59 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AISTATS 2027 Calendar
+BEGIN:VEVENT
+UID:aistats-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261003T115900Z
+DTEND:20261003T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261010T115900Z
+DTEND:20261010T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:aistats-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270501
+DTEND;VALUE=DATE:20270505
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] AISTA
+ TS 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence and Statistics\nWebsite: https://aistats.org/\nSource URL: https:/
+ /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
+ stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
+ nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
+ -07\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ from AISTATS 2026\, which was held May 2-5\, 2026.
+URL:https://aistats.org/aistats2026/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

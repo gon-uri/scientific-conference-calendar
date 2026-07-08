@@ -1,0 +1,44 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CHI 2027 Calendar
+BEGIN:VEVENT
+UID:chi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260911T115900Z
+DTEND:20260911T125900Z
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Papers deadline
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
+ xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
+  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
+ / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
+ s: CHI 2027 details were not found in the crawl. Dates and paper deadline
+  are estimates from typical CHI timing and the 2026 source page in the wo
+ rkbook.
+URL:https://chi2026.acm.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:chi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270430
+SUMMARY:[Human-AI Interaction & Deployment][Explainability & Interpretabili
+ ty] CHI 2027 - Conference
+DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
+ ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
+ 26.acm.org/\nLocation: TBD\nTopics: Human-AI Interaction & Deployment\, E
+ xplainability & Interpretability\, Fairness & Responsible AI\, Healthcare
+  & Clinical AI\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based 
+ / HCI-focused\nConfidence: estimated\nLast checked date: 2026-07-07\nNote
+ s: CHI 2027 details were not found in the crawl. Dates and paper deadline
+  are estimates from typical CHI timing and the 2026 source page in the wo
+ rkbook.
+URL:https://chi2026.acm.org/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

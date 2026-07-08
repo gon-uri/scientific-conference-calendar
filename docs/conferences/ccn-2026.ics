@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCN 2026 Calendar
+BEGIN:VEVENT
+UID:ccn-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260419T115900Z
+DTEND:20260419T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
+ ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
+ arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
+ ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
+ acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ ng edition details were not found in the crawled page. Dates and deadline
+  are proxy estimates and should be verified against the current CCN site.
+URL:https://ccneuro.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260816
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
+ ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
+ arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
+ ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
+ acts\nConfidence: estimated\nLast checked date: 2026-07-07\nNotes: Upcomi
+ ng edition details were not found in the crawled page. Dates and deadline
+  are proxy estimates and should be verified against the current CCN site.
+URL:https://ccneuro.org/
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,39 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MLHC 2026 Calendar
+BEGIN:VEVENT
+UID:mlhc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260418T115900Z
+DTEND:20260418T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] MLHC 2026 - Full submi
+ ssion deadline
+DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
+ ebsite: https://mlhc.org/\nSource URL: https://mlhc.org/\nLocation: Balti
+ more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
+ g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
+ ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
+ med\nLast checked date: 2026-07-07\nNotes: Official MLHC page lists confe
+ rence dates\, location\, and full submission deadline.
+URL:https://mlhc.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:mlhc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260812
+DTEND;VALUE=DATE:20260815
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] MLHC 2026 - Conference
+DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
+ ebsite: https://mlhc.org/\nSource URL: https://mlhc.org/\nLocation: Balti
+ more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
+ g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
+ ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
+ med\nLast checked date: 2026-07-07\nNotes: Official MLHC page lists confe
+ rence dates\, location\, and full submission deadline.
+URL:https://mlhc.org/
+LOCATION:Baltimore\, Maryland\, USA
+END:VEVENT
+END:VCALENDAR

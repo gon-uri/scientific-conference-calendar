@@ -17,6 +17,7 @@ The build creates:
 - `docs/calendar-all.ics`
 - `docs/deadlines.ics`
 - `docs/conferences.ics`
+- `docs/conferences/*.ics`
 - `docs/tags/*.ics`
 
 ## Local Setup

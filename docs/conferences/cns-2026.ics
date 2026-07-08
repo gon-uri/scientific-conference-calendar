@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CNS* 2026 Calendar
+BEGIN:VEVENT
+UID:cns-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260408T115900Z
+DTEND:20260408T125900Z
+SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
+ 26 - Abstract submission deadline
+DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
+ tion: Halifax\, Canada\nTopics: Computational Neuroscience\, Time Series 
+ & Sequential Data\, Machine Learning\nSize: M\nDifficulty: Moderate\nSubm
+ ission type: Abstract-based\nConfidence: estimated\nLast checked date: 20
+ 26-07-07\nNotes: CNS* 2026 was identified as the current edition\, but ex
+ act deadlines were not found in the crawl. Dates and deadline should be r
+ eviewed.
+URL:https://www.cnsorg.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260725
+DTEND;VALUE=DATE:20260730
+SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
+ 26 - Conference
+DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/\nLoca
+ tion: Halifax\, Canada\nTopics: Computational Neuroscience\, Time Series 
+ & Sequential Data\, Machine Learning\nSize: M\nDifficulty: Moderate\nSubm
+ ission type: Abstract-based\nConfidence: estimated\nLast checked date: 20
+ 26-07-07\nNotes: CNS* 2026 was identified as the current edition\, but ex
+ act deadlines were not found in the crawl. Dates and deadline should be r
+ eviewed.
+URL:https://www.cnsorg.org/
+LOCATION:Halifax\, Canada
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE BHI 2026 Calendar
+BEGIN:VEVENT
+UID:ieee-bhi-2026-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260704T075900Z
+DTEND:20260704T085900Z
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - Regular paper submission
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
+  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
+ achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
+  Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  dates\, location\, and submission deadlines.
+URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260801T075900Z
+DTEND:20260801T085900Z
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - 1-page abstract submission
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
+  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
+ achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
+  Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  dates\, location\, and submission deadlines.
+URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261003T075900Z
+DTEND:20261003T085900Z
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - Late abstract submission
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/contributors/papers/\nLocation: Hong Kong\,
+  China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
+ achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
+  Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-07-07\nNotes: Official BHI 2026 pages list conference
+  dates\, location\, and submission deadlines.
+URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bhi-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261216
+SUMMARY:[Healthcare & Clinical AI][Data Mining & Data Science] IEEE BHI 202
+ 6 - Conference
+DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
+ cal and Health Informatics\nWebsite: https://bhi.embs.org/2026/\nSource U
+ RL: https://bhi.embs.org/2026/\nLocation: Hong Kong\, China\nTopics: Heal
+ thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
+ man-AI Interaction & Deployment\nSize: M\nDifficulty: Moderate-hard\nSubm
+ ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
+ 07-07\nNotes: Official BHI 2026 pages list conference dates\, location\, 
+ and submission deadlines.
+URL:https://bhi.embs.org/2026/
+LOCATION:Hong Kong\, China
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,72 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MIDL 2026 Calendar
+BEGIN:VEVENT
+UID:midl-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251204T115900Z
+DTEND:20251204T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251211T115900Z
+DTEND:20251211T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T115900Z
+DTEND:20260416T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Shor
+ t paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
+ 07\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ d paper deadlines.
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260711
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/\nLocation: Taipe
+ i\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learning\, H
+ ealthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-07\nN
+ otes: Official MIDL 2026 pages list conference dates\, location\, and pap
+ er deadlines.
+URL:https://2026.midl.io/
+LOCATION:Taipei\, Taiwan
+END:VEVENT
+END:VCALENDAR
