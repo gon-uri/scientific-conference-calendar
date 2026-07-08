@@ -192,6 +192,44 @@ def _filter_attributes(conference: dict[str, Any], search_text: str) -> str:
     )
 
 
+def _deadline_cell_entries(deadlines: list[dict[str, Any]], role: str) -> str:
+    entries = []
+    for index, deadline in enumerate(deadlines):
+        deadline_utc = _deadline_iso_utc(deadline["datetime"])
+        classes = "deadline-cell-entry"
+        if role == "remaining":
+            classes += " remaining"
+        if index == 0:
+            classes += " is-summary"
+        hidden = "" if index == 0 else " hidden"
+        common = (
+            f'class="{_attr(classes)}" data-deadline-entry '
+            f'data-entry-role="{_attr(role)}" data-entry-index="{index}" '
+            f'data-entry-at="{_attr(deadline_utc)}"{hidden}'
+        )
+        if role == "date":
+            entries.append(
+                f'<time {common} datetime="{_attr(deadline_utc)}">'
+                f"{escape(_display_deadline_datetime(deadline['datetime']))}</time>"
+            )
+        elif role == "remaining":
+            entries.append(
+                f'<span {common} data-deadline="{_attr(deadline_utc)}">'
+                "Calculating...</span>"
+            )
+        elif role == "milestone":
+            entries.append(
+                f"<span {common}>"
+                f"{escape(_display_deadline_label(deadline['label']))}</span>"
+            )
+        else:
+            raise ValueError(f"unsupported deadline cell role: {role}")
+    return (
+        f'<div class="deadline-cell-stack" data-deadline-stack="{_attr(role)}">'
+        f"{''.join(entries)}</div>"
+    )
+
+
 def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
     rows = []
     grouped = []
@@ -211,9 +249,6 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             item[0]["id"],
         ),
     ):
-        first_deadline = deadlines[0]
-        first_label = _display_deadline_label(first_deadline["label"])
-        first_deadline_utc = _deadline_iso_utc(first_deadline["datetime"])
         search_extras = []
         for deadline in deadlines:
             search_extras.extend(
@@ -229,7 +264,6 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
         if len(deadlines) > 1:
             toggle_html = (
                 f"<button class=\"deadline-toggle\" type=\"button\" aria-expanded=\"false\" "
-                f"aria-controls=\"deadline-details-{_attr(group_id)}\" "
                 f"aria-label=\"Show deadlines for {_attr(conference['short_title'])}\">"
                 "<span class=\"expand-icon\" aria-hidden=\"true\">&#9656;</span>"
                 "</button>"
@@ -238,11 +272,9 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td class=\"expand-cell\" data-label=\"\">{toggle_html}</td>"
-            f"<td data-label=\"Date\">"
-            f"<time data-group-date-time datetime=\"{_attr(first_deadline_utc)}\">"
-            f"{escape(_display_deadline_datetime(first_deadline['datetime']))}</time></td>"
-            f"<td data-label=\"Remaining\"><span class=\"remaining\" data-group-remaining data-deadline=\"{_attr(first_deadline_utc)}\">Calculating...</span></td>"
-            f"<td data-label=\"Milestone\"><span data-group-milestone>{escape(first_label)}</span></td>"
+            f"<td class=\"deadline-list-cell\" data-label=\"Date\">{_deadline_cell_entries(deadlines, 'date')}</td>"
+            f"<td class=\"deadline-list-cell\" data-label=\"Remaining\">{_deadline_cell_entries(deadlines, 'remaining')}</td>"
+            f"<td class=\"deadline-list-cell\" data-label=\"Milestone\">{_deadline_cell_entries(deadlines, 'milestone')}</td>"
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
@@ -251,38 +283,6 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             f"<td data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
             "</tr>"
         )
-        for index, deadline in enumerate(deadlines):
-            detail_id = (
-                f"deadline-details-{group_id}"
-                if index == 0
-                else f"deadline-details-{group_id}-{index + 1}"
-            )
-            source_url = _deadline_source_url(conference, deadline)
-            label = _display_deadline_label(deadline["label"])
-            search_text = _search_text(
-                conference, [label, deadline["type"], source_url]
-            )
-            deadline_utc = _deadline_iso_utc(deadline["datetime"])
-            detail_classes = "deadline-detail-row"
-            if index == 0:
-                detail_classes += " next-deadline-detail"
-            rows.append(
-                f'<tr class="{_attr(detail_classes)}" {_filter_attributes(conference, search_text)} '
-                f'id="{_attr(detail_id)}" '
-                f'data-deadline-detail data-detail-for="{_attr(group_id)}" '
-                f'data-deadline-at="{_attr(deadline_utc)}" '
-                f'data-date-display="{_attr(_display_deadline_datetime(deadline["datetime"]))}" '
-                f'data-deadline-label="{_attr(label)}" hidden>'
-                "<td class=\"detail-marker-cell\" data-label=\"\">"
-                "<span class=\"detail-dot\" aria-hidden=\"true\"></span></td>"
-                f"<td data-label=\"Date\">"
-                f"<time datetime=\"{_attr(deadline_utc)}\">"
-                f"{escape(_display_deadline_datetime(deadline['datetime']))}</time></td>"
-                f"<td data-label=\"Remaining\"><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
-                f"<td data-label=\"Milestone\">{escape(label)}</td>"
-                "<td class=\"detail-fill\" colspan=\"6\"></td>"
-                "</tr>"
-            )
     return "\n".join(rows)
 
 
@@ -609,7 +609,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       border-bottom: 1px solid var(--line);
       padding: 8px 9px;
       text-align: left;
-      vertical-align: top;
+      vertical-align: middle;
       font-size: 0.9rem;
       line-height: 1.35;
       overflow-wrap: anywhere;
@@ -632,24 +632,12 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #ffffff;
     }}
     .expand-header,
-    .expand-cell,
-    .detail-marker-cell {{
+    .expand-cell {{
       text-align: center;
       vertical-align: middle;
     }}
     .deadline-group-row.is-expanded td {{
       border-bottom-color: var(--line-strong);
-    }}
-    .deadline-group-row [data-group-date-time],
-    .deadline-group-row [data-group-remaining],
-    .deadline-group-row [data-group-milestone] {{
-      color: #162235;
-      font-weight: 750;
-    }}
-    .deadline-group-row.is-expanded [data-group-date-time],
-    .deadline-group-row.is-expanded [data-group-remaining],
-    .deadline-group-row.is-expanded [data-group-milestone] {{
-      display: none;
     }}
     .deadline-toggle {{
       width: 1.55rem;
@@ -678,32 +666,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     .deadline-toggle[aria-expanded="true"] .expand-icon {{
       transform: rotate(90deg);
     }}
-    .deadline-detail-row td {{
-      background: #f1f7f5;
-      color: #344255;
-    }}
-    .deadline-detail-row time,
-    .deadline-detail-row .remaining {{
-      color: #344255;
-      font-weight: 500;
-    }}
-    .deadline-detail-row.next-deadline-detail td:nth-child(n+2):nth-child(-n+4),
-    .deadline-detail-row.next-deadline-detail time,
-    .deadline-detail-row.next-deadline-detail .remaining {{
-      color: #162235;
-      font-weight: 750;
-    }}
-    .detail-dot {{
-      display: inline-block;
-      width: 0.5rem;
-      height: 0.5rem;
-      border-radius: 999px;
-      background: var(--accent);
-      vertical-align: middle;
-    }}
-    .detail-fill {{
-      color: var(--muted);
-    }}
     time {{
       font-weight: 650;
       color: #1e2a38;
@@ -716,6 +678,30 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       font-weight: 650;
     }}
     .remaining-past {{
+      color: var(--muted);
+      font-weight: 500;
+    }}
+    .deadline-cell-stack {{
+      display: grid;
+      gap: 6px;
+      align-content: center;
+    }}
+    .deadline-cell-entry {{
+      display: block;
+      min-width: 0;
+      color: #344255;
+      font-weight: 500;
+      line-height: 1.35;
+    }}
+    .deadline-cell-entry[hidden] {{
+      display: none;
+    }}
+    .deadline-cell-entry.is-summary,
+    .deadline-cell-entry.is-next {{
+      color: #162235;
+      font-weight: 750;
+    }}
+    .deadline-cell-entry.remaining-past:not(.is-summary):not(.is-next) {{
       color: var(--muted);
       font-weight: 500;
     }}
@@ -841,19 +827,12 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         font-weight: 700;
         text-transform: uppercase;
       }}
-      .expand-cell::before,
-      .detail-marker-cell::before {{
+      .expand-cell::before {{
         content: "";
       }}
       tr:last-child td,
       td:last-child {{
         border-bottom: 0;
-      }}
-      .detail-fill {{
-        display: none;
-      }}
-      .detail-marker-cell {{
-        display: none;
       }}
     }}
   </style>
@@ -949,7 +928,6 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     const tabPanels = [...document.querySelectorAll("[data-tab-panel]")];
     const deadlinesBody = document.querySelector("#deadlines-body");
     const deadlineGroups = [...document.querySelectorAll("[data-deadline-group]")];
-    const deadlineDetails = [...document.querySelectorAll("[data-deadline-detail]")];
     const conferenceRows = [...document.querySelectorAll("[data-conference-row]")];
 
     function selectedValues(group) {{
@@ -1008,20 +986,26 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       }});
     }}
 
-    function detailsForGroup(groupId) {{
-      return deadlineDetails
-        .filter((row) => row.dataset.detailFor === groupId)
-        .sort((left, right) => Date.parse(left.dataset.deadlineAt) - Date.parse(right.dataset.deadlineAt));
-    }}
+    function detailsForGroup(group) {{
+      const details = new Map();
+      group.querySelectorAll("[data-deadline-entry]").forEach((entry) => {{
+        const index = entry.dataset.entryIndex;
+        if (!details.has(index)) {{
+          details.set(index, {{
+            at: entry.dataset.entryAt,
+            elements: [],
+            index,
+            time: Date.parse(entry.dataset.entryAt),
+          }});
+        }}
+        const detail = details.get(index);
+        detail[entry.dataset.entryRole] = entry;
+        detail.elements.push(entry);
+      }});
 
-    function updateGroupSummary(group, nextDetail) {{
-      const time = group.querySelector("[data-group-date-time]");
-      const remaining = group.querySelector("[data-group-remaining]");
-      const milestone = group.querySelector("[data-group-milestone]");
-      time.dateTime = nextDetail.dataset.deadlineAt;
-      time.textContent = nextDetail.dataset.dateDisplay;
-      remaining.dataset.deadline = nextDetail.dataset.deadlineAt;
-      milestone.textContent = nextDetail.dataset.deadlineLabel;
+      return [...details.values()]
+        .filter((detail) => !Number.isNaN(detail.time))
+        .sort((left, right) => left.time - right.time || Number(left.index) - Number(right.index));
     }}
 
     function renderDeadlineGroups() {{
@@ -1030,10 +1014,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 
       deadlineGroups.forEach((group) => {{
         const groupId = group.dataset.deadlineGroup;
-        const details = detailsForGroup(groupId);
-        const upcomingDetails = details.filter((row) => Date.parse(row.dataset.deadlineAt) > now);
-        const matchingDetails = details.filter((row) => row.dataset.filterMatch === "true");
-        const groupMatches = group.dataset.filterMatch === "true" || matchingDetails.length > 0;
+        const details = detailsForGroup(group);
+        const upcomingDetails = details.filter((detail) => detail.time > now);
+        const groupMatches = group.dataset.filterMatch === "true";
         const nextDetail = upcomingDetails[0];
         const summaryDetail = nextDetail || details[details.length - 1];
         const showGroup = Boolean(summaryDetail) && groupMatches;
@@ -1056,22 +1039,24 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         group.hidden = !showGroup;
         group.classList.toggle("is-expanded", showGroup && expanded);
 
-        if (summaryDetail) {{
-          updateGroupSummary(group, summaryDetail);
-        }}
-
         details.forEach((detail) => {{
-          detail.classList.toggle("next-deadline-detail", detail === nextDetail);
-          detail.hidden = !(showGroup && expanded);
+          const isSummary = !expanded && detail === summaryDetail;
+          const isNext = expanded && detail === nextDetail;
+          const isVisible = showGroup && (expanded || isSummary);
+          detail.elements.forEach((entry) => {{
+            entry.hidden = !isVisible;
+            entry.classList.toggle("is-summary", isSummary);
+            entry.classList.toggle("is-next", isNext);
+          }});
         }});
 
         if (showGroup) {{
           const hasUpcoming = Boolean(nextDetail);
           blocks.push({{
             sortBucket: hasUpcoming ? 0 : 1,
-            sortTime: Date.parse(summaryDetail.dataset.deadlineAt),
+            sortTime: summaryDetail.time,
             id: groupId,
-            rows: [group, ...details],
+            row: group,
           }});
         }}
       }});
@@ -1087,7 +1072,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
           return timeSort || left.id.localeCompare(right.id);
         }})
         .forEach((block) => {{
-          block.rows.forEach((row) => deadlinesBody.appendChild(row));
+          deadlinesBody.appendChild(block.row);
         }});
     }}
 
