@@ -682,6 +682,11 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #f1f7f5;
       color: #344255;
     }}
+    .deadline-detail-row time,
+    .deadline-detail-row .remaining {{
+      color: #344255;
+      font-weight: 500;
+    }}
     .deadline-detail-row.next-deadline-detail td:nth-child(n+2):nth-child(-n+4),
     .deadline-detail-row.next-deadline-detail time,
     .deadline-detail-row.next-deadline-detail .remaining {{
@@ -1027,11 +1032,12 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         const groupId = group.dataset.deadlineGroup;
         const details = detailsForGroup(groupId);
         const upcomingDetails = details.filter((row) => Date.parse(row.dataset.deadlineAt) > now);
-        const matchingDetails = upcomingDetails.filter((row) => row.dataset.filterMatch === "true");
+        const matchingDetails = details.filter((row) => row.dataset.filterMatch === "true");
         const groupMatches = group.dataset.filterMatch === "true" || matchingDetails.length > 0;
         const nextDetail = upcomingDetails[0];
-        const showGroup = Boolean(nextDetail) && groupMatches;
-        const canExpand = upcomingDetails.length > 1;
+        const summaryDetail = nextDetail || details[details.length - 1];
+        const showGroup = Boolean(summaryDetail) && groupMatches;
+        const canExpand = details.length > 1;
         const button = group.querySelector(".deadline-toggle");
 
         if (button) {{
@@ -1050,19 +1056,20 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         group.hidden = !showGroup;
         group.classList.toggle("is-expanded", showGroup && expanded);
 
-        if (nextDetail) {{
-          updateGroupSummary(group, nextDetail);
+        if (summaryDetail) {{
+          updateGroupSummary(group, summaryDetail);
         }}
 
         details.forEach((detail) => {{
-          const isUpcoming = Date.parse(detail.dataset.deadlineAt) > now;
           detail.classList.toggle("next-deadline-detail", detail === nextDetail);
-          detail.hidden = !(showGroup && expanded && isUpcoming);
+          detail.hidden = !(showGroup && expanded);
         }});
 
         if (showGroup) {{
+          const hasUpcoming = Boolean(nextDetail);
           blocks.push({{
-            sortTime: Date.parse(nextDetail.dataset.deadlineAt),
+            sortBucket: hasUpcoming ? 0 : 1,
+            sortTime: Date.parse(summaryDetail.dataset.deadlineAt),
             id: groupId,
             rows: [group, ...details],
           }});
@@ -1070,7 +1077,15 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       }});
 
       blocks
-        .sort((left, right) => left.sortTime - right.sortTime || left.id.localeCompare(right.id))
+        .sort((left, right) => {{
+          if (left.sortBucket !== right.sortBucket) {{
+            return left.sortBucket - right.sortBucket;
+          }}
+          const timeSort = left.sortBucket === 0
+            ? left.sortTime - right.sortTime
+            : right.sortTime - left.sortTime;
+          return timeSort || left.id.localeCompare(right.id);
+        }})
         .forEach((block) => {{
           block.rows.forEach((row) => deadlinesBody.appendChild(row));
         }});
