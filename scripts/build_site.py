@@ -225,19 +225,24 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             )
         search_text = _search_text(conference, search_extras)
         group_id = stable_slug(conference["id"])
+        toggle_html = ""
+        if len(deadlines) > 1:
+            toggle_html = (
+                f"<button class=\"deadline-toggle\" type=\"button\" aria-expanded=\"false\" "
+                f"aria-controls=\"deadline-details-{_attr(group_id)}\" "
+                f"aria-label=\"Show deadlines for {_attr(conference['short_title'])}\">"
+                "<span class=\"expand-icon\" aria-hidden=\"true\">&#9656;</span>"
+                "</button>"
+            )
         rows.append(
             f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
+            f"<td class=\"expand-cell\" data-label=\"\">{toggle_html}</td>"
             f"<td data-label=\"Date\">"
-            f"<button class=\"deadline-toggle\" type=\"button\" aria-expanded=\"false\" "
-            f"aria-controls=\"deadline-details-{_attr(group_id)}\" "
-            f"aria-label=\"Show deadlines for {_attr(conference['short_title'])}\">"
-            "<span class=\"expand-icon\" aria-hidden=\"true\">&#9656;</span>"
-            "</button>"
             f"<time data-group-date-time datetime=\"{_attr(first_deadline_utc)}\">"
             f"{escape(_display_deadline_datetime(first_deadline['datetime']))}</time></td>"
             f"<td data-label=\"Remaining\"><span class=\"remaining\" data-group-remaining data-deadline=\"{_attr(first_deadline_utc)}\">Calculating...</span></td>"
-            f"<td data-label=\"Milestone\" data-group-milestone>{escape(first_label)}</td>"
+            f"<td data-label=\"Milestone\"><span data-group-milestone>{escape(first_label)}</span></td>"
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
@@ -268,7 +273,9 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
                 f'data-deadline-at="{_attr(deadline_utc)}" '
                 f'data-date-display="{_attr(_display_deadline_datetime(deadline["datetime"]))}" '
                 f'data-deadline-label="{_attr(label)}" hidden>'
-                f"<td data-label=\"Date\"><span class=\"detail-indent\"></span>"
+                "<td class=\"detail-marker-cell\" data-label=\"\">"
+                "<span class=\"detail-dot\" aria-hidden=\"true\"></span></td>"
+                f"<td data-label=\"Date\">"
                 f"<time datetime=\"{_attr(deadline_utc)}\">"
                 f"{escape(_display_deadline_datetime(deadline['datetime']))}</time></td>"
                 f"<td data-label=\"Remaining\"><span class=\"remaining\" data-deadline=\"{_attr(deadline_utc)}\">Calculating...</span></td>"
@@ -624,8 +631,20 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     .deadline-group-row {{
       background: #ffffff;
     }}
+    .expand-header,
+    .expand-cell,
+    .detail-marker-cell {{
+      text-align: center;
+      vertical-align: middle;
+    }}
     .deadline-group-row.is-expanded td {{
       border-bottom-color: var(--line-strong);
+    }}
+    .deadline-group-row [data-group-date-time],
+    .deadline-group-row [data-group-remaining],
+    .deadline-group-row [data-group-milestone] {{
+      color: #162235;
+      font-weight: 750;
     }}
     .deadline-group-row.is-expanded [data-group-date-time],
     .deadline-group-row.is-expanded [data-group-remaining],
@@ -635,7 +654,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     .deadline-toggle {{
       width: 1.55rem;
       height: 1.55rem;
-      margin: -2px 5px 0 0;
+      margin: 0;
       border: 1px solid var(--line-strong);
       border-radius: 999px;
       background: #ffffff;
@@ -643,6 +662,9 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       cursor: pointer;
       line-height: 1;
       vertical-align: middle;
+    }}
+    .deadline-toggle[hidden] {{
+      display: none;
     }}
     .deadline-toggle:focus {{
       outline: 2px solid rgba(11, 107, 120, 0.22);
@@ -660,36 +682,19 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #f1f7f5;
       color: #344255;
     }}
-    .deadline-detail-row.next-deadline-detail td:nth-child(-n+3),
+    .deadline-detail-row.next-deadline-detail td:nth-child(n+2):nth-child(-n+4),
     .deadline-detail-row.next-deadline-detail time,
     .deadline-detail-row.next-deadline-detail .remaining {{
       color: #162235;
       font-weight: 750;
     }}
-    .detail-indent {{
-      position: relative;
+    .detail-dot {{
       display: inline-block;
-      width: 2rem;
-      height: 1.2rem;
-      vertical-align: middle;
-    }}
-    .detail-indent::before {{
-      content: "";
-      position: absolute;
-      top: -1.15rem;
-      bottom: -1.15rem;
-      left: 0.76rem;
-      border-left: 2px solid #b4c3bb;
-    }}
-    .detail-indent::after {{
-      content: "";
-      position: absolute;
-      top: 0.42rem;
-      left: 0.52rem;
-      width: 0.52rem;
-      height: 0.52rem;
+      width: 0.5rem;
+      height: 0.5rem;
       border-radius: 999px;
       background: var(--accent);
+      vertical-align: middle;
     }}
     .detail-fill {{
       color: var(--muted);
@@ -831,6 +836,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         font-weight: 700;
         text-transform: uppercase;
       }}
+      .expand-cell::before,
+      .detail-marker-cell::before {{
+        content: "";
+      }}
       tr:last-child td,
       td:last-child {{
         border-bottom: 0;
@@ -838,9 +847,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       .detail-fill {{
         display: none;
       }}
-      .detail-indent,
-      .detail-indent::before,
-      .detail-indent::after {{
+      .detail-marker-cell {{
         display: none;
       }}
     }}
@@ -876,9 +883,10 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
         <div class="table-wrap">
           <table>
-            {_colgroup(["15%", "8%", "13%", "10%", "5%", "8%", "24%", "9%", "8%"])}
+            {_colgroup(["3%", "15%", "8%", "13%", "10%", "5%", "8%", "23%", "8%", "7%"])}
             <thead>
               <tr>
+                <th class="expand-header" aria-label="Expand"></th>
                 <th>Date</th>
                 <th>Remaining</th>
                 <th>Milestone</th>
@@ -1023,7 +1031,21 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
         const groupMatches = group.dataset.filterMatch === "true" || matchingDetails.length > 0;
         const nextDetail = upcomingDetails[0];
         const showGroup = Boolean(nextDetail) && groupMatches;
-        const expanded = group.dataset.expanded === "true";
+        const canExpand = upcomingDetails.length > 1;
+        const button = group.querySelector(".deadline-toggle");
+
+        if (button) {{
+          button.hidden = !canExpand;
+          button.disabled = !canExpand;
+          if (!canExpand) {{
+            button.setAttribute("aria-expanded", "false");
+          }}
+        }}
+        if (!canExpand) {{
+          group.dataset.expanded = "false";
+        }}
+
+        const expanded = canExpand && group.dataset.expanded === "true";
 
         group.hidden = !showGroup;
         group.classList.toggle("is-expanded", showGroup && expanded);
@@ -1092,7 +1114,13 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
 
     deadlineGroups.forEach((group) => {{
       const button = group.querySelector(".deadline-toggle");
+      if (!button) {{
+        return;
+      }}
       button.addEventListener("click", () => {{
+        if (button.disabled || button.hidden) {{
+          return;
+        }}
         const expanded = group.dataset.expanded === "true";
         group.dataset.expanded = String(!expanded);
         button.setAttribute("aria-expanded", String(!expanded));
