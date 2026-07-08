@@ -9,6 +9,9 @@ LLMs, time-series analysis, and biomedical signal processing.
 The source of truth is `data/conferences.yml`. Generated website and calendar
 files are written to `docs/` for GitHub Pages.
 
+Maintained project-state documentation lives in `project_docs/`. The `docs/`
+folder is reserved for generated public site and calendar files.
+
 ## Outputs
 
 The build creates:
