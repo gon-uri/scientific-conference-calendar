@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CIKM 2026 Calendar
+BEGIN:VEVENT
+UID:cikm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260517T115900Z
+DTEND:20260517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
+  submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260524T115900Z
+DTEND:20260524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
+ er submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261031
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
+LOCATION:Rome\, Italy
+END:VEVENT
+END:VCALENDAR

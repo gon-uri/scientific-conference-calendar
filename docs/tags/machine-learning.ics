@@ -5,6 +5,23 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Machine Learning
 BEGIN:VEVENT
+UID:icpr-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260101T115900Z
+DTEND:20260101T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
+ ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
+ ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
+  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
+ confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
+ able in the current official schedule.
+URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+END:VEVENT
+BEGIN:VEVENT
 UID:icml-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260124T115900Z
@@ -17,7 +34,7 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  rning\, Learning Theory & Statistical Foundations\, Deep Representation L
  earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+  2026-08-20\nNotes: Official ICML 2026 dates page lists tutorials\, main 
  conference\, workshops\, and paper deadlines.
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
@@ -34,7 +51,7 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  rning\, Learning Theory & Statistical Foundations\, Deep Representation L
  earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+  2026-08-20\nNotes: Official ICML 2026 dates page lists tutorials\, main 
  conference\, workshops\, and paper deadlines.
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
@@ -51,7 +68,7 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
  ential Data\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very hard\
  nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official SIGKDD and KDD 2026 pages list
+  checked date: 2026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list
   conference dates and research-track Cycle 2 deadlines.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
@@ -67,7 +84,7 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  it/call-for-papers/\nLocation: Seattle\, Washington\, USA\nTopics: Health
  care & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness &
   Responsible AI\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08\
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\
  nNotes: Official CHIL pages list conference dates\, location\, and submis
  sion timeline.
 URL:https://chil.ahli.cc/submit/call-for-papers/
@@ -85,9 +102,25 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
  ential Data\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very hard\
  nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official SIGKDD and KDD 2026 pages list
+  checked date: 2026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list
   conference dates and research-track Cycle 2 deadlines.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T225900Z
+DTEND:20260213T235900Z
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference pap
+ er submission deadline
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/submissi
+ ons/\nLocation: Bruges\, Belgium\nTopics: Signal Processing\, Machine Lea
+ rning\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: X
+ L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confirmed\
+ nLast checked date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list B
+ ruges\, Aug 31-Sep 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2026-deadline-workshop@scientific-conference-calendar
@@ -102,7 +135,7 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  rning\, Learning Theory & Statistical Foundations\, Deep Representation L
  earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+  2026-08-20\nNotes: Official ICML 2026 dates page lists tutorials\, main 
  conference\, workshops\, and paper deadlines.
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
@@ -119,9 +152,45 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
  re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official UAI 2026 pages list tutorials\, main confere
+  2026-08-20\nNotes: Official UAI 2026 pages list tutorials\, main confere
  nce\, workshops\, and paper submission deadline.
 URL:https://www.auai.org/uai2026/important_dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
+ linical AI\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: O
+ fficial ECML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-tr
+ ack abstract and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260313T115900Z
+DTEND:20260313T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
+ linical AI\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: O
+ fficial ECML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-tr
+ ack abstract and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2026-deadline-doctoral-symposium@scientific-conference-calendar
@@ -135,27 +204,26 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  cation: Seattle\, Washington\, USA\nTopics: Healthcare & Clinical AI\, Pr
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based\nCon
- fidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official CHIL p
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHIL p
  ages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
 END:VEVENT
 BEGIN:VEVENT
-UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
+UID:icann-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260330T115900Z
-DTEND:20260330T125900Z
-SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
- l paper submission deadline
-DESCRIPTION:Conference title: European Conference on Machine Learning and P
- rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
- s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
-  Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
- Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
- ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
- mated\nLast checked date: 2026-07-08\nNotes: Official site confirms confe
- rence dates and location\; submission deadline is estimated because it wa
- s not found on the crawled page.
-URL:https://ecmlpkdd.org/2026/
+DTSTART:20260317T115900Z
+DTEND:20260317T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICANN 2026 - Full 
+ paper and abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Neural
+  Networks\nWebsite: https://e-nns.org/icann2026/\nSource URL: https://e-n
+ ns.org/icann2026/\nLocation: Padua\, Italy\nTopics: Machine Learning\, De
+ ep Representation Learning\, Computational Neuroscience\, Signal Processi
+ ng\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nCon
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ENNS I
+ CANN 2026 page lists Padua\, Sep 14-17\, and the full-paper/abstract dead
+ line.
+URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:cns-2026-deadline-abstract@scientific-conference-calendar
@@ -169,7 +237,7 @@ DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
  e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
  : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
- checked date: 2026-07-08\nNotes: Official CNS* 2026 page confirms Halifax
+ checked date: 2026-08-20\nNotes: Official CNS* 2026 page confirms Halifax
   and July 11-15\, 2026. Abstract deadline remains from imported data unti
  l the dedicated important-dates page is rechecked.
 URL:https://www.cnsorg.org/cns-2026
@@ -187,7 +255,7 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
@@ -203,7 +271,7 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 END:VEVENT
@@ -220,7 +288,7 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
@@ -236,7 +304,7 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
  ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
  arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
  ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Upcomi
+ acts\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: Upcomi
  ng edition details were not found in the crawled page. Dates and deadline
   are proxy estimates and should be verified against the current CCN site.
 URL:https://ccneuro.org/
@@ -254,7 +322,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
@@ -271,7 +339,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
@@ -289,7 +357,7 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+ nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
   confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
  mains a proxy estimate until the dedicated important-dates page is rechec
  ked.
@@ -308,10 +376,46 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
  achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
  te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official AIES 2026 pages l
  ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
  on deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-icmla-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T065900Z
+DTEND:20260516T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE ICMLA 2026 - 
+ Main conference paper submission deadline
+DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
+ ning and Applications\nWebsite: https://www.icmla-conference.org/icmla26/
+ \nSource URL: https://www.icmla-conference.org/icmla26/callforpapers.html
+ \nLocation: Rochester\, Michigan\, USA\nTopics: Machine Learning\, Deep R
+ epresentation Learning\, Data Mining & Data Science\, Time Series & Seque
+ ntial Data\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Paper-ba
+ sed / special sessions\nConfidence: confirmed\nLast checked date: 2026-08
+ -20\nNotes: Official ICMLA 2026 CFP lists Rochester\, Oct 5-7\, and the m
+ ain-conference paper deadline.
+URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260517T115900Z
+DTEND:20260517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
+  submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:aies-2026-deadline-full-paper@scientific-conference-calendar
@@ -326,10 +430,45 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
  achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
  te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official AIES 2026 pages l
  ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
  on deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260524T115900Z
+DTEND:20260524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
+ er submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260531T135900Z
+DTEND:20260531T145900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Pape
+ r submission deadline
+DESCRIPTION:Conference title: International Conference on Neural Informatio
+ n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
+ ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
+  Processing\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al ICONIP 2026 site lists Melbourne\, Nov 23-27\, and the extended paper 
+ deadline.
+URL:https://www.iconip2026.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icdm-2026-deadline-full-paper@scientific-conference-calendar
@@ -343,7 +482,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 END:VEVENT
@@ -360,7 +499,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
@@ -377,7 +516,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -394,7 +533,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -411,7 +550,7 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
  ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
- nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: IEEE Signal
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: IEEE Signal
   Processing Society MLSP page lists dates\, location\, website\, and pape
  r submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
@@ -428,7 +567,7 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  cation: Seattle\, Washington\, USA\nTopics: Healthcare & Clinical AI\, Pr
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based\nCon
- fidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official CHIL p
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHIL p
  ages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
 LOCATION:Seattle\, Washington\, USA
@@ -446,7 +585,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -463,10 +602,27 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  rning\, Learning Theory & Statistical Foundations\, Deep Representation L
  earning\, Time Series & Sequential Data\nSize: XXL\nDifficulty: Very hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official ICML 2026 dates page lists tutorials\, main 
+  2026-08-20\nNotes: Official ICML 2026 dates page lists tutorials\, main 
  conference\, workshops\, and paper deadlines.
 URL:https://icml.cc/Conferences/2026/Dates
 LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Deep Representation Learning\, Learning Theory & Statistical Found
+ ations\, Explainability & Interpretability\nSize: L\nDifficulty: Hard\nSu
+ bmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast chec
+ ked date: 2026-08-20\nNotes: Official ACML 2026 pages list Melbourne\, De
+ c 1-4\, and the revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2026-deadline-camera-ready@scientific-conference-calendar
@@ -481,7 +637,7 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
  re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official UAI 2026 pages list tutorials\, main confere
+  2026-08-20\nNotes: Official UAI 2026 pages list tutorials\, main confere
  nce\, workshops\, and paper submission deadline.
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
@@ -497,7 +653,7 @@ DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
  e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
  : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
- checked date: 2026-07-08\nNotes: Official CNS* 2026 page confirms Halifax
+ checked date: 2026-08-20\nNotes: Official CNS* 2026 page confirms Halifax
   and July 11-15\, 2026. Abstract deadline remains from imported data unti
  l the dedicated important-dates page is rechecked.
 URL:https://www.cnsorg.org/cns-2026
@@ -516,7 +672,7 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  hine Learning\, Deep Representation Learning\, Data Mining & Data Science
  \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official AAAI-27 pages list the conference dates\, 
+ e: 2026-08-20\nNotes: Official AAAI-27 pages list the conference dates\, 
  OpenReview timetable\, and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
@@ -533,9 +689,26 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  hine Learning\, Deep Representation Learning\, Data Mining & Data Science
  \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official AAAI-27 pages list the conference dates\, 
+ e: 2026-08-20\nNotes: Official AAAI-27 pages list the conference dates\, 
  OpenReview timetable\, and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260731T155900Z
+DTEND:20260731T165900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Industry
+  and special-session paper deadline
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-abstract@scientific-conference-calendar
@@ -550,7 +723,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -567,7 +740,7 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  real\, Canada\nTopics: Machine Learning\, Deep Representation Learning\, 
  Data Mining & Data Science\, Fairness & Responsible AI\nSize: XXL\nDiffic
  ulty: Very hard\nSubmission type: Paper-based / OpenReview\nConfidence: c
- onfirmed\nLast checked date: 2026-07-08\nNotes: Official AAAI-27 pages li
+ onfirmed\nLast checked date: 2026-08-20\nNotes: Official AAAI-27 pages li
  st the conference dates\, OpenReview timetable\, and main technical track
   deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
@@ -584,11 +757,31 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
  a Science\, Machine Learning\, Time Series & Sequential Data\, Fairness &
   Responsible AI\nSize: XL\nDifficulty: Very hard\nSubmission type: Paper-
- based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
- 8\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and re
+ based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-08-2
+ 0\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and re
  search-track Cycle 2 deadlines.
 URL:https://www.kdd.org/conferences
 LOCATION:Jeju\, Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260811T115900Z
+DTEND:20260811T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - F
+ ull and short paper submission deadline
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
+ ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
+ tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
+ e Learning\, Deep Representation Learning\, Learning Theory & Statistical
+  Foundations\, Fairness & Responsible AI\nSize: L\nDifficulty: Moderate-h
+ ard\nSubmission type: Paper-based / symposium series\nConfidence: confirm
+ ed\nLast checked date: 2026-08-20\nNotes: Official IEEE SSCI 2027 materia
+ ls list the Gold Coast meeting\, Feb 14-17\, and the Aug 10 full/short-pa
+ per deadline.
+URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
+ ons/
 END:VEVENT
 BEGIN:VEVENT
 UID:ccn-2026-conference@scientific-conference-calendar
@@ -602,7 +795,7 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
  ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
  arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
  ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Upcomi
+ acts\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: Upcomi
  ng edition details were not found in the crawled page. Dates and deadline
   are proxy estimates and should be verified against the current CCN site.
 URL:https://ccneuro.org/
@@ -619,10 +812,48 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 LOCATION:Baltimore\, Maryland\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-ecai-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260822
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 - 
+ Conference
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence and European Conference on Artificial Intelligence\nWebsite:
+  https://www.ijcai.org/\nSource URL: https://www.ijcai.org/\nLocation: Br
+ emen\, Germany\nTopics: Machine Learning\, Deep Representation Learning\,
+  Learning Theory & Statistical Foundations\, Fairness & Responsible AI\nS
+ ize: XL\nDifficulty: Very hard\nSubmission type: Paper-based\nConfidence:
+  announced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official I
+ JCAI and EurAI pages confirm the joint IJCAI-ECAI 2026 meeting in Bremen\
+ , Aug 15-21\; the current official pages did not expose a deadline timeli
+ ne.
+URL:https://www.ijcai.org/
+LOCATION:Bremen\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260822
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
+ ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
+ ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
+ ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
+  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
+ confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
+ able in the current official schedule.
+URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+LOCATION:Lyon\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2026-conference@scientific-conference-calendar
@@ -636,11 +867,28 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  auai.org/uai2026/\nLocation: Amsterdam\, Netherlands\nTopics: Probabilist
  ic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Clinical A
  I\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard\nSubmission ty
- pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08\nNo
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNo
  tes: Official UAI 2026 pages list tutorials\, main conference\, workshops
  \, and paper submission deadline.
 URL:https://www.auai.org/uai2026/
 LOCATION:Amsterdam\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260818T115900Z
+DTEND:20260818T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Abstract
+  submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cffp.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nDifficulty: 
+ Very hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast chec
+ ked date: 2026-08-20\nNotes: Official WSDM 2027 pages list Hong Kong\, Fe
+ b 15-19\, and the abstract/paper deadlines.
+URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:icdm-2026-deadline-workshop-paper@scientific-conference-calendar
@@ -654,9 +902,62 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
+END:VEVENT
+BEGIN:VEVENT
+UID:ssspr-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260827
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf\nLocation:
+  Bern\, Switzerland\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Data Mining & Data Science\, Signal Processing\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / workshop-style conference
+ \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-20\nNote
+ s: Official S+SSPR 2026 schedule confirms Bern\, Aug 24-26\; the submissi
+ on phase is complete and no current deadline is published.
+URL:https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf
+LOCATION:Bern\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260825T115900Z
+DTEND:20260825T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Paper su
+ bmission deadline
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/cffp.html\nLocation: Hong Kong\, C
+ hina\nTopics: Data Mining & Data Science\, Machine Learning\, Fairness & 
+ Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nDifficulty: 
+ Very hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast chec
+ ked date: 2026-08-20\nNotes: Official WSDM 2027 pages list Hong Kong\, Fe
+ b 15-19\, and the abstract/paper deadlines.
+URL:https://www.wsdm-conference.org/2027/cffp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260905
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/\nLocati
+ on: Bruges\, Belgium\nTopics: Signal Processing\, Machine Learning\, Time
+  Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nDifficult
+ y: Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checke
+ d date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 
+ 31-Sep 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/
+LOCATION:Bruges\, Belgium
 END:VEVENT
 BEGIN:VEVENT
 UID:ecml-pkdd-2026-conference@scientific-conference-calendar
@@ -670,11 +971,30 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
   Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
  Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
- ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
- mated\nLast checked date: 2026-07-08\nNotes: Official site confirms confe
- rence dates and location\; submission deadline is estimated because it wa
- s not found on the crawled page.
+ ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: conf
+ irmed\nLast checked date: 2026-08-20\nNotes: Official ECML PKDD 2026 page
+ s list Naples\, Sep 7-11\, and the research-track abstract and paper dead
+ lines.
 URL:https://ecmlpkdd.org/2026/
+LOCATION:Naples\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 026 - Conference
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
+  URL: https://ecml-aaltd.github.io/aaltd2026/\nLocation: Naples\, Italy\n
+ Topics: Time Series & Sequential Data\, Data Mining & Data Science\, Mach
+ ine Learning\, Explainability & Interpretability\nSize: S\nDifficulty: Mo
+ derate-hard\nSubmission type: Workshop / paper-based\nConfidence: announc
+ ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official AALTD and
+  ECML PKDD workshop pages confirm the co-located Naples workshop on Sep 1
+ 1\; the current schedule does not list a submission deadline.
+URL:https://ecml-aaltd.github.io/aaltd2026/
 LOCATION:Naples\, Italy
 END:VEVENT
 BEGIN:VEVENT
@@ -689,10 +1009,28 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
- gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
- 8\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-08-2
+ 0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260918
+SUMMARY:[Machine Learning][Deep Representation Learning] ICANN 2026 - Confe
+ rence
+DESCRIPTION:Conference title: International Conference on Artificial Neural
+  Networks\nWebsite: https://e-nns.org/icann2026/\nSource URL: https://e-n
+ ns.org/icann2026/\nLocation: Padua\, Italy\nTopics: Machine Learning\, De
+ ep Representation Learning\, Computational Neuroscience\, Signal Processi
+ ng\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nCon
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ENNS I
+ CANN 2026 page lists Padua\, Sep 14-17\, and the full-paper/abstract dead
+ line.
+URL:https://e-nns.org/icann2026/
+LOCATION:Padua\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
@@ -707,7 +1045,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
  equential Data\, EEG/MEG & Neural Signals\nSize: XL\nDifficulty: Moderate
  -hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked 
- date: 2026-07-08\nNotes: Official ICASSP 2027 pages list Toronto\, May 16
+ date: 2026-08-20\nNotes: Official ICASSP 2027 pages list Toronto\, May 16
  -21\, 2027 conference dates\, and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/call-for-papers/
 END:VEVENT
@@ -719,31 +1057,50 @@ DTEND:20260919T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
  ct submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:lod-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260924
+SUMMARY:[Machine Learning][Data Mining & Data Science] LOD 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ , Optimization\, and Data Science\nWebsite: https://lodconference.org/\nS
+ ource URL: https://lodconference.org/\nLocation: TBD\nTopics: Machine Lea
+ rning\, Data Mining & Data Science\, Learning Theory & Statistical Founda
+ tions\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard
+ \nSubmission type: Paper-based / Springer proceedings\nConfidence: not_ye
+ t_announced\nLast checked date: 2026-08-20\nNotes: No official LOD 2026 e
+ vent page was discoverable. The September placeholder follows the 2025 an
+ nual cycle and must be replaced when organizers publish the next edition.
+URL:https://lodconference.org/
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260924T115900Z
-DTEND:20260924T125900Z
+DTSTART:20260926T115900Z
+DTEND:20260926T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2026-conference@scientific-conference-calendar
@@ -758,7 +1115,7 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+ nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
   confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
  mains a proxy estimate until the dedicated important-dates page is rechec
  ked.
@@ -777,11 +1134,28 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
  ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
- nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: IEEE Signal
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: IEEE Signal
   Processing Society MLSP page lists dates\, location\, website\, and pape
  r submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
 LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260930T215900Z
+DTEND:20260930T225900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 26 - Late-breaking abstract deadline
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/\nLocation: Mainz\, Germany\nTopics: Data Mining & Data Scien
+ ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
+ Series & Sequential Data\nSize: M\nDifficulty: Hard\nSubmission type: Pap
+ er-based / research forum\nConfidence: confirmed\nLast checked date: 2026
+ -08-20\nNotes: Official Discovery Science 2026 site lists Mainz\, Oct 5-9
+ \, and the Sep 30 late-breaking abstract deadline.
+URL:https://discovery-science.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-late-abstract@scientific-conference-calendar
@@ -796,7 +1170,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -812,10 +1186,47 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
- sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
- -08\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
+ -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:discovery-science-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261010
+SUMMARY:[Data Mining & Data Science][Machine Learning] Discovery Science 20
+ 26 - Conference
+DESCRIPTION:Conference title: International Conference on Discovery Science
+ \nWebsite: https://discovery-science.org/\nSource URL: https://discovery-
+ science.org/\nLocation: Mainz\, Germany\nTopics: Data Mining & Data Scien
+ ce\, Machine Learning\, Learning Theory & Statistical Foundations\, Time 
+ Series & Sequential Data\nSize: M\nDifficulty: Hard\nSubmission type: Pap
+ er-based / research forum\nConfidence: confirmed\nLast checked date: 2026
+ -08-20\nNotes: Official Discovery Science 2026 site lists Mainz\, Oct 5-9
+ \, and the Sep 30 late-breaking abstract deadline.
+URL:https://discovery-science.org/
+LOCATION:Mainz\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-icmla-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261008
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE ICMLA 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
+ ning and Applications\nWebsite: https://www.icmla-conference.org/icmla26/
+ \nSource URL: https://www.icmla-conference.org/icmla26/callforpapers.html
+ \nLocation: Rochester\, Michigan\, USA\nTopics: Machine Learning\, Deep R
+ epresentation Learning\, Data Mining & Data Science\, Time Series & Seque
+ ntial Data\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Paper-ba
+ sed / special sessions\nConfidence: confirmed\nLast checked date: 2026-08
+ -20\nNotes: Official ICMLA 2026 CFP lists Rochester\, Oct 5-7\, and the m
+ ain-conference paper deadline.
+URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+LOCATION:Rochester\, Michigan\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:dsaa-2026-conference@scientific-conference-calendar
@@ -830,7 +1241,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  ia\nTopics: Data Mining & Data Science\, Machine Learning\, Healthcare & 
  Clinical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Mod
  erate-hard\nSubmission type: Paper-based / applied tracks\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists confe
+ nfirmed\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists confe
  rence dates\, venue\, and extended paper deadline.
 URL:https://dsaa.co/dsaa2026-calls-for-papers/
 LOCATION:New Delhi\, India
@@ -847,8 +1258,8 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
- sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
- -08\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
+ -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
 END:VEVENT
@@ -865,10 +1276,46 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
   & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
  , Healthcare & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmiss
  ion type: Paper-based / interdisciplinary\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official AIES 2026 pages list Malmo\, Oct 
+ ecked date: 2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 
  12-14\, 2026 conference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261026
+DTEND;VALUE=DATE:20261031
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
+  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
+ ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
+ ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
+ Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
+ 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
+ al 2026 event page was not discoverable. Rome dates and submission milest
+ ones are retained as estimates pending the host site.
+URL:https://www.cikmconference.org/
+LOCATION:Rome\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261027T035900Z
+DTEND:20261027T045900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
@@ -882,8 +1329,8 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
- gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
- 8\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-08-2
+ 0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
@@ -899,10 +1346,28 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 LOCATION:Shenyang\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
+LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
@@ -912,31 +1377,51 @@ DTEND:20261113T125900Z
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Abstract submission deadline
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
- n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
- al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
- fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
- SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
- estimated from prior COSYNE cycles.
-URL:https://www.cosyne.org/
+ te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
+ g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
+ ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
+  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
+ alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
+ 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ the abstract deadline remains an estimated prior-cycle proxy.
+URL:https://www.cosyne.org/cosyne-home
 END:VEVENT
 BEGIN:VEVENT
-UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261114T115900Z
-DTEND:20261114T125900Z
-SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
- bmission deadline
-DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
+DTSTART:20261116T115900Z
+DTEND:20261116T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Paper s
+ ubmission deadline
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd.org/\nSource URL: https://pakdd
+ .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
+ ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
+ tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
+ e: estimated\nLast checked date: 2026-08-20\nNotes: PAKDD's official seri
+ es page currently publishes only the 2026 edition. The 2027 conference wi
+ ndow and deadline are provisional annual-cycle placeholders pending an of
+ ficial host announcement.
+URL:https://pakdd.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Confere
+ nce
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/\nLocation: Manchester\, United Kin
+ gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
+ entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nD
+ ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: annou
+ nced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official IDEAL 2
+ 026 site confirms Manchester and Nov 19-21\; its current page does not pu
+ blish a submission timeline.
+URL:https://www.ideal2026.org/
+LOCATION:Manchester\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2026-conference@scientific-conference-calendar
@@ -951,10 +1436,46 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:iconip-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261123
+DTEND;VALUE=DATE:20261128
+SUMMARY:[Machine Learning][Deep Representation Learning] ICONIP 2026 - Conf
+ erence
+DESCRIPTION:Conference title: International Conference on Neural Informatio
+ n Processing\nWebsite: https://www.iconip2026.org/\nSource URL: https://w
+ ww.iconip2026.org/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Deep Representation Learning\, Computational Neuroscience\, Signal
+  Processing\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al ICONIP 2026 site lists Melbourne\, Nov 23-27\, and the extended paper 
+ deadline.
+URL:https://www.iconip2026.org/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Deep R
+ epresentation Learning\, Learning Theory & Statistical Foundations\, Expl
+ ainability & Interpretability\nSize: L\nDifficulty: Hard\nSubmission type
+ : Paper-based / OpenReview\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and t
+ he revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-conference@scientific-conference-calendar
@@ -967,7 +1488,7 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
  ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nDif
  ficulty: Moderate-hard\nSubmission type: Proceedings + findings tracks\nC
- onfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official ML4H
+ onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H
   2026 pages list symposium dates\, location\, and paper deadline.
 URL:https://ml4h.ahli.cc/
 LOCATION:Sydney\, Australia
@@ -985,7 +1506,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 LOCATION:Sydney\, Australia
@@ -1003,10 +1524,28 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nDifficulty: Moderate-hard\nSubm
  ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
- 07-08\nNotes: Official BHI 2026 pages list conference dates\, location\, 
+ 08-20\nNotes: Official BHI 2026 pages list conference dates\, location\, 
  and submission deadlines.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, H
+ ealthcare & Clinical AI\nSize: L\nDifficulty: Moderate-hard\nSubmission t
+ ype: Paper-based / mixed tracks\nConfidence: announced_no_deadlines\nLast
+  checked date: 2026-08-20\nNotes: Official IEEE BigData 2026 site confirm
+ s Phoenix and Dec 14-17\; it says CFP-specific deadlines are forthcoming.
+URL:https://bigdataieee.org/BigData2026/
+LOCATION:Phoenix\, Arizona\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1021,26 +1560,43 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  hine Learning\, Deep Representation Learning\, Data Mining & Data Science
  \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official AAAI-27 pages list the conference dates\, 
+ e: 2026-08-20\nNotes: Official AAAI-27 pages list the conference dates\, 
  OpenReview timetable\, and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Regul
+ ar paper submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ \nLocation: Cape Town\, South Africa\nTopics: Machine Learning\, Deep Rep
+ resentation Learning\, Learning Theory & Statistical Foundations\, Signal
+  Processing\nSize: XL\nDifficulty: Moderate-hard\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offic
+ ial IJCNN 2027 site lists Cape Town\, Jun 14-18\, and the regular-paper d
+ eadline.
+URL:https://ijcnn.org/2027
+END:VEVENT
+BEGIN:VEVENT
 UID:isbi-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270120T115900Z
-DTEND:20270120T125900Z
+DTSTART:20270202T045900Z
+DTEND:20270202T055900Z
 SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 1-page abstract
   submission deadline
 DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:colt-2027-deadline-full-paper@scientific-conference-calendar
@@ -1050,13 +1606,53 @@ DTEND:20270204T125900Z
 SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
  2027 - Submission deadline
 DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
- ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
- nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
- ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
-  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-08\n
- Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
- ed from the official COLT 2026 schedule.
-URL:https://learningtheory.org/colt2026/
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / theory-focused\nConfidence: estimated\nLast checked
+  date: 2026-08-20\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
+ 28-Jul 2\, 2027\; submission milestones remain estimates until the curren
+ t CFP publishes them.
+URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270214
+DTEND;VALUE=DATE:20270218
+SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - C
+ onference
+DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
+ igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
+ ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
+ tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
+ e Learning\, Deep Representation Learning\, Learning Theory & Statistical
+  Foundations\, Fairness & Responsible AI\nSize: L\nDifficulty: Moderate-h
+ ard\nSubmission type: Paper-based / symposium series\nConfidence: confirm
+ ed\nLast checked date: 2026-08-20\nNotes: Official IEEE SSCI 2027 materia
+ ls list the Gold Coast meeting\, Feb 14-17\, and the Aug 10 full/short-pa
+ per deadline.
+URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
+ ons/
+LOCATION:Gold Coast\, Queensland\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:wsdm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270220
+SUMMARY:[Data Mining & Data Science][Machine Learning] WSDM 2027 - Conferen
+ ce
+DESCRIPTION:Conference title: ACM International Conference on Web Search an
+ d Data Mining\nWebsite: https://www.wsdm-conference.org/2027/\nSource URL
+ : https://www.wsdm-conference.org/2027/\nLocation: Hong Kong\, China\nTop
+ ics: Data Mining & Data Science\, Machine Learning\, Fairness & Responsib
+ le AI\, Human-AI Interaction & Deployment\nSize: L\nDifficulty: Very hard
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-08-20\nNotes: Official WSDM 2027 pages list Hong Kong\, Feb 15-19\,
+  and the abstract/paper deadlines.
+URL:https://www.wsdm-conference.org/2027/
+LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-conference@scientific-conference-calendar
@@ -1071,7 +1667,7 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  hine Learning\, Deep Representation Learning\, Data Mining & Data Science
  \, Fairness & Responsible AI\nSize: XXL\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / OpenReview\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official AAAI-27 pages list the conference dates\, 
+ e: 2026-08-20\nNotes: Official AAAI-27 pages list the conference dates\, 
  OpenReview timetable\, and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
@@ -1084,50 +1680,71 @@ DTEND;VALUE=DATE:20270317
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Conference
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
- n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
- al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
- fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
- SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
- estimated from prior COSYNE cycles.
-URL:https://www.cosyne.org/
+ te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
+ g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
+ ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
+  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
+ alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
+ 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ the abstract deadline remains an estimated prior-cycle proxy.
+URL:https://www.cosyne.org/cosyne-home
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:isbi-2027-conference@scientific-conference-calendar
+UID:esann-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270407
-DTEND;VALUE=DATE:20270411
-SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
-DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
-LOCATION:Lausanne\, Switzerland
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270424
+SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Confe
+ rence
+DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
+ rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
+ ww.esann.org/node/160\nSource URL: https://www.esann.org/node/160\nLocati
+ on: Bruges\, Belgium\nTopics: Machine Learning\, Deep Representation Lear
+ ning\, Learning Theory & Statistical Foundations\, Signal Processing\nSiz
+ e: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: announc
+ ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official ESANN ann
+ ouncement confirms Bruges\, Apr 21-23\, 2027\; the CFP schedule is not ye
+ t published.
+URL:https://www.esann.org/node/160
+LOCATION:Bruges\, Belgium
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270421
+DTEND;VALUE=DATE:20270424
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://www.i
+ da-society.org/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Scien
+ ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
+ ries & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission ty
+ pe: Paper-based / interdisciplinary\nConfidence: estimated\nLast checked 
+ date: 2026-08-20\nNotes: IDA's official site currently lists the complete
+ d 2026 Leiden edition. Pisa and the Apr 2027 window are provisional next-
+ edition information awaiting an official IDA 2027 page.
+URL:https://www.ida-society.org/
+LOCATION:Pisa\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270427
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
-LOCATION:TBD
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:aistats-2027-conference@scientific-conference-calendar
@@ -1141,8 +1758,8 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  /aistats.org/aistats2026/\nLocation: TBD\nTopics: Learning Theory & Stati
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
- sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-07
- -08\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
+ -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
 LOCATION:TBD
@@ -1155,13 +1772,14 @@ DTEND:20270507T125900Z
 SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
  2027 - Workshop/tutorial/community proposal deadline
 DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
- ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
- nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
- ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
-  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-08\n
- Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
- ed from the official COLT 2026 schedule.
-URL:https://learningtheory.org/colt2026/
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / theory-focused\nConfidence: estimated\nLast checked
+  date: 2026-08-20\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
+ 28-Jul 2\, 2027\; submission milestones remain estimates until the curren
+ t CFP publishes them.
+URL:https://learningtheory.org/colt2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-conference@scientific-conference-calendar
@@ -1174,11 +1792,86 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  urce URL: https://2027.ieeeicassp.org/\nLocation: Toronto\, Canada\nTopic
  s: Signal Processing\, Machine Learning\, Time Series & Sequential Data\,
   EEG/MEG & Neural Signals\nSize: XL\nDifficulty: Moderate-hard\nSubmissio
- n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20
  \nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027 confe
  rence dates\, and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270529
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
+LOCATION:Lausanne\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270608
+DTEND;VALUE=DATE:20270612
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Confere
+ nce
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd.org/\nSource URL: https://pakdd
+ .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
+ ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
+ tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
+ e: estimated\nLast checked date: 2026-08-20\nNotes: PAKDD's official seri
+ es page currently publishes only the 2026 edition. The 2027 conference wi
+ ndow and deadline are provisional annual-cycle placeholders pending an of
+ ficial host announcement.
+URL:https://pakdd.org/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcnn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270614
+DTEND;VALUE=DATE:20270619
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCNN 2027 - Confe
+ rence
+DESCRIPTION:Conference title: International Joint Conference on Neural Netw
+ orks\nWebsite: https://ijcnn.org/2027\nSource URL: https://ijcnn.org/2027
+ \nLocation: Cape Town\, South Africa\nTopics: Machine Learning\, Deep Rep
+ resentation Learning\, Learning Theory & Statistical Foundations\, Signal
+  Processing\nSize: XL\nDifficulty: Moderate-hard\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offic
+ ial IJCNN 2027 site lists Cape Town\, Jun 14-18\, and the regular-paper d
+ eadline.
+URL:https://ijcnn.org/2027
+LOCATION:Cape Town\, South Africa
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270620
+DTEND;VALUE=DATE:20270624
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Conference
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://signalprocessingsociety.org/events/call-proposals-statis
+ tical-signal-processing-ssp-2027\nSource URL: https://signalprocessingsoc
+ iety.org/events/call-proposals-statistical-signal-processing-ssp-2027\nLo
+ cation: TBD\nTopics: Signal Processing\, Machine Learning\, Time Series &
+  Sequential Data\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDiff
+ iculty: Hard\nSubmission type: Paper-based / specialist workshop\nConfide
+ nce: not_yet_announced\nLast checked date: 2026-08-20\nNotes: IEEE SPS ha
+ s called for organizers for a four-day SSP 2027 workshop\, but has not ye
+ t published host\, dates\, or CFP. The June placeholder is intentionally 
+ provisional.
+URL:https://signalprocessingsociety.org/events/call-proposals-statistical-s
+ ignal-processing-ssp-2027
+LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 UID:colt-2027-conference@scientific-conference-calendar
@@ -1188,13 +1881,51 @@ DTEND;VALUE=DATE:20270703
 SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
  2027 - Conference
 DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
- ://learningtheory.org/\nSource URL: https://learningtheory.org/colt2026/\
- nLocation: TBD\nTopics: Learning Theory & Statistical Foundations\, Machi
- ne Learning\nSize: M\nDifficulty: Very hard\nSubmission type: Paper-based
-  / theory-focused\nConfidence: estimated\nLast checked date: 2026-07-08\n
- Notes: COLT 2027 dates were not found as announced. Proxy dates are shift
- ed from the official COLT 2026 schedule.
-URL:https://learningtheory.org/colt2026/
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nDifficulty: Very hard\nSubmissio
+ n type: Paper-based / theory-focused\nConfidence: estimated\nLast checked
+  date: 2026-08-20\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
+ 28-Jul 2\, 2027\; submission milestones remain estimates until the curren
+ t CFP publishes them.
+URL:https://learningtheory.org/colt2027/
+LOCATION:Tokyo\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:itise-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Conf
+ erence
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/\nSource URL: https://itise.ugr
+ .es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Series & Seq
+ uential Data\, Machine Learning\, Data Mining & Data Science\, Learning T
+ heory & Statistical Foundations\nSize: M\nDifficulty: Moderate-hard\nSubm
+ ission type: Paper-based / forecasting-focused\nConfidence: estimated\nLa
+ st checked date: 2026-08-20\nNotes: Official ITISE sources list the compl
+ eted 2026 Gran Canaria edition. The 2027 date and location are annual-cyc
+ le estimates pending an official ITISE 2027 announcement.
+URL:https://itise.ugr.es/index.html
+LOCATION:Gran Canaria\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:acpr-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271112
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://link.springer.com/conference/
+ acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
+ Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
+  date: 2026-08-20\nNotes: The latest official proceedings are for ACPR 20
+ 25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
+ R host announcement is published.
+URL:https://link.springer.com/conference/acpr
 LOCATION:TBD
 END:VEVENT
 END:VCALENDAR

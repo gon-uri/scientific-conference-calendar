@@ -15,8 +15,8 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
  Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
  g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
- ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
- 08\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-
+ 20\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
  d paper deadlines.
 URL:https://2026.midl.io/dates
 END:VEVENT
@@ -31,8 +31,8 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
  Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
  g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
- ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
- 08\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-
+ 20\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
  d paper deadlines.
 URL:https://2026.midl.io/dates
 END:VEVENT
@@ -48,8 +48,8 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
+ 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
@@ -67,28 +67,27 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  it/call-for-papers/\nLocation: Seattle\, Washington\, USA\nTopics: Health
  care & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness &
   Responsible AI\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission
-  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08\
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\
  nNotes: Official CHIL pages list conference dates\, location\, and submis
  sion timeline.
 URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
-UID:miccai-2026-deadline-abstract@scientific-conference-calendar
+UID:miccai-2026-deadline-registration@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260220T115900Z
-DTEND:20260220T125900Z
-SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2026 - Abstra
- ct submission deadline
+DTSTART:20260213T115900Z
+DTEND:20260213T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2026 - Paper 
+ registration deadline
 DESCRIPTION:Conference title: International Conference on Medical Image Com
  puting and Computer Assisted Intervention\nWebsite: https://conferences.m
  iccai.org/2026/en/default.asp\nSource URL: https://conferences.miccai.org
  /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
  maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
  maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
- r-based\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Con
- ference dates are listed by MICCAI/Society pages\; submission deadline is
-  estimated from the typical MICCAI annual timeline and should be verified
- .
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial MICCAI Society pages list the relocated Strasbourg venue\, Sep 27-O
+ ct 1 dates\, and paper registration/submission deadlines.
 URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
@@ -104,7 +103,7 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
  re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official UAI 2026 pages list tutorials\, main confere
+  2026-08-20\nNotes: Official UAI 2026 pages list tutorials\, main confere
  nce\, workshops\, and paper submission deadline.
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
@@ -121,11 +120,46 @@ DESCRIPTION:Conference title: International Conference on Medical Image Com
  /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
  maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
  maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
- r-based\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Con
- ference dates are listed by MICCAI/Society pages\; submission deadline is
-  estimated from the typical MICCAI annual timeline and should be verified
- .
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial MICCAI Society pages list the relocated Strasbourg venue\, Sep 27-O
+ ct 1 dates\, and paper registration/submission deadlines.
 URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
+ linical AI\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: O
+ fficial ECML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-tr
+ ack abstract and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260313T115900Z
+DTEND:20260313T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
+ linical AI\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: O
+ fficial ECML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-tr
+ ack abstract and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2026-deadline-doctoral-symposium@scientific-conference-calendar
@@ -139,27 +173,9 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  cation: Seattle\, Washington\, USA\nTopics: Healthcare & Clinical AI\, Pr
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based\nCon
- fidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official CHIL p
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHIL p
  ages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
-END:VEVENT
-BEGIN:VEVENT
-UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260330T115900Z
-DTEND:20260330T125900Z
-SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
- l paper submission deadline
-DESCRIPTION:Conference title: European Conference on Machine Learning and P
- rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
- s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
-  Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
- Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
- ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
- mated\nLast checked date: 2026-07-08\nNotes: Official site confirms confe
- rence dates and location\; submission deadline is estimated because it wa
- s not found on the crawled page.
-URL:https://ecmlpkdd.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
@@ -173,8 +189,8 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
+ 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
@@ -191,8 +207,8 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
  Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
  g\, Healthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmiss
- ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-
- 08\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-
+ 20\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
  d paper deadlines.
 URL:https://2026.midl.io/dates
 END:VEVENT
@@ -208,7 +224,7 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 END:VEVENT
@@ -225,7 +241,7 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
  achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
  te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official AIES 2026 pages l
  ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
  on deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
@@ -243,7 +259,7 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
  achine Learning\, Healthcare & Clinical AI\nSize: S/M\nDifficulty: Modera
  te-hard\nSubmission type: Paper-based / interdisciplinary\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: Official AIES 2026 pages l
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official AIES 2026 pages l
  ist Malmo\, Oct 12-14\, 2026 conference dates and abstract/paper submissi
  on deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
@@ -260,7 +276,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 END:VEVENT
@@ -277,7 +293,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -294,7 +310,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
  ical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Moderat
  e-hard\nSubmission type: Paper-based / applied tracks\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists conferenc
+ med\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists conferenc
  e dates\, venue\, and extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
@@ -310,7 +326,7 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  cation: Seattle\, Washington\, USA\nTopics: Healthcare & Clinical AI\, Pr
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based\nCon
- fidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official CHIL p
+ fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHIL p
  ages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
 LOCATION:Seattle\, Washington\, USA
@@ -328,7 +344,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -343,7 +359,7 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  https://2026.midl.io/\nSource URL: https://2026.midl.io/\nLocation: Taipe
  i\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learning\, H
  ealthcare & Clinical AI\nSize: M\nDifficulty: Moderate-hard\nSubmission t
- ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08\nN
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
  otes: Official MIDL 2026 pages list conference dates\, location\, and pap
  er deadlines.
 URL:https://2026.midl.io/
@@ -362,7 +378,7 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
  re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard
  \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
-  2026-07-08\nNotes: Official UAI 2026 pages list tutorials\, main confere
+  2026-08-20\nNotes: Official UAI 2026 pages list tutorials\, main confere
  nce\, workshops\, and paper submission deadline.
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
@@ -378,7 +394,7 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
  I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
  nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
- lied venue\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 
+ lied venue\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: 
  Official EMBC page confirms conference dates. Submission dates were alrea
  dy marked closed on the official key-dates page\, so the deadline is a pr
  oxy and should be backfilled when archival CFP data is available.
@@ -398,7 +414,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -413,7 +429,7 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 LOCATION:Baltimore\, Maryland\, USA
@@ -430,7 +446,7 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  auai.org/uai2026/\nLocation: Amsterdam\, Netherlands\nTopics: Probabilist
  ic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Clinical A
  I\, Fairness & Responsible AI\nSize: M/L\nDifficulty: Hard\nSubmission ty
- pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08\nNo
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNo
  tes: Official UAI 2026 pages list tutorials\, main conference\, workshops
  \, and paper submission deadline.
 URL:https://www.auai.org/uai2026/
@@ -449,7 +465,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -467,7 +483,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 END:VEVENT
@@ -483,10 +499,10 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
   Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
  Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nDiffic
- ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: esti
- mated\nLast checked date: 2026-07-08\nNotes: Official site confirms confe
- rence dates and location\; submission deadline is estimated because it wa
- s not found on the crawled page.
+ ulty: Hard\nSubmission type: Paper-based / mixed tracks\nConfidence: conf
+ irmed\nLast checked date: 2026-08-20\nNotes: Official ECML PKDD 2026 page
+ s list Naples\, Sep 7-11\, and the research-track abstract and paper dead
+ lines.
 URL:https://ecmlpkdd.org/2026/
 LOCATION:Naples\, Italy
 END:VEVENT
@@ -503,7 +519,7 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
   Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
  ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
  May 10-14\, 2027 conference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
@@ -519,8 +535,8 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
- gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
- 8\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-08-2
+ 0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
@@ -537,10 +553,9 @@ DESCRIPTION:Conference title: International Conference on Medical Image Com
  /2026/en/default.asp\nLocation: Strasbourg\, France\nTopics: Biomedical I
  maging\, Healthcare & Clinical AI\, Deep Representation Learning\, Neuroi
  maging & Brain Mapping\nSize: XL\nDifficulty: Hard\nSubmission type: Pape
- r-based\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Con
- ference dates are listed by MICCAI/Society pages\; submission deadline is
-  estimated from the typical MICCAI annual timeline and should be verified
- .
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial MICCAI Society pages list the relocated Strasbourg venue\, Sep 27-O
+ ct 1 dates\, and paper registration/submission deadlines.
 URL:https://conferences.miccai.org/2026/en/default.asp
 LOCATION:Strasbourg\, France
 END:VEVENT
@@ -557,7 +572,7 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
   China\nTopics: Healthcare & Clinical AI\, Data Mining & Data Science\, M
  achine Learning\, Human-AI Interaction & Deployment\nSize: M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-07-08\nNotes: Official BHI 2026 pages list conference
+  checked date: 2026-08-20\nNotes: Official BHI 2026 pages list conference
   dates\, location\, and submission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
 END:VEVENT
@@ -574,7 +589,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
  ia\nTopics: Data Mining & Data Science\, Machine Learning\, Healthcare & 
  Clinical AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Mod
  erate-hard\nSubmission type: Paper-based / applied tracks\nConfidence: co
- nfirmed\nLast checked date: 2026-07-08\nNotes: DSAA 2026 site lists confe
+ nfirmed\nLast checked date: 2026-08-20\nNotes: DSAA 2026 site lists confe
  rence dates\, venue\, and extended paper deadline.
 URL:https://dsaa.co/dsaa2026-calls-for-papers/
 LOCATION:New Delhi\, India
@@ -592,10 +607,27 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
   & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
  , Healthcare & Clinical AI\nSize: S/M\nDifficulty: Moderate-hard\nSubmiss
  ion type: Paper-based / interdisciplinary\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official AIES 2026 pages list Malmo\, Oct 
+ ecked date: 2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 
  12-14\, 2026 conference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261027T035900Z
+DTEND:20261027T045900Z
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -610,7 +642,7 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
@@ -627,7 +659,7 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
@@ -643,8 +675,8 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  r-papers/\nLocation: Sydney\, Australia\nTopics: Healthcare & Clinical AI
  \, Machine Learning\, Time Series & Sequential Data\, Deep Representation
   Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Proceedin
- gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-07-0
- 8\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
+ gs + findings tracks\nConfidence: confirmed\nLast checked date: 2026-08-2
+ 0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
@@ -660,27 +692,10 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
   Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
   AI\nSize: M/L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-07-08\nNotes: Official ICDM 2026 pa
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICDM 2026 pa
  ge lists conference dates\, location\, and main conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 LOCATION:Shenyang\, China
-END:VEVENT
-BEGIN:VEVENT
-UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261114T115900Z
-DTEND:20261114T125900Z
-SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 4-page paper su
- bmission deadline
-DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:ts4h-2026-deadline-camera-ready@scientific-conference-calendar
@@ -695,7 +710,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -712,7 +727,7 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  dney\, Australia\nTopics: Healthcare & Clinical AI\, Machine Learning\, T
  ime Series & Sequential Data\, Deep Representation Learning\nSize: M\nDif
  ficulty: Moderate-hard\nSubmission type: Proceedings + findings tracks\nC
- onfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Official ML4H
+ onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H
   2026 pages list symposium dates\, location\, and paper deadline.
 URL:https://ml4h.ahli.cc/
 LOCATION:Sydney\, Australia
@@ -730,7 +745,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -750,10 +765,28 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  thcare & Clinical AI\, Data Mining & Data Science\, Machine Learning\, Hu
  man-AI Interaction & Deployment\nSize: M\nDifficulty: Moderate-hard\nSubm
  ission type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-
- 07-08\nNotes: Official BHI 2026 pages list conference dates\, location\, 
+ 08-20\nNotes: Official BHI 2026 pages list conference dates\, location\, 
  and submission deadlines.
 URL:https://bhi.embs.org/2026/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, H
+ ealthcare & Clinical AI\nSize: L\nDifficulty: Moderate-hard\nSubmission t
+ ype: Paper-based / mixed tracks\nConfidence: announced_no_deadlines\nLast
+  checked date: 2026-08-20\nNotes: Official IEEE BigData 2026 site confirm
+ s Phoenix and Dec 14-17\; it says CFP-specific deadlines are forthcoming.
+URL:https://bigdataieee.org/BigData2026/
+LOCATION:Phoenix\, Arizona\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
@@ -763,14 +796,15 @@ DTEND:20261216T125900Z
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
  - Abstract submission deadline
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://humanbrainmapping.org/\nSource URL: https://huma
- nbrainmapping.org/\nLocation: TBD\nTopics: Neuroimaging & Brain Mapping\,
-  EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
- oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
- ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
- acted. Dates and deadline are estimates from typical OHBM timing.
-URL:https://humanbrainmapping.org/
+ eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
+ tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
+ s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
+  Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
+ ted\nLast checked date: 2026-08-20\nNotes: Official OHBM 2027 page confir
+ ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
+ s December 2026\, so the exact deadline remains estimated.
+URL:https://humanbrainmapping.org/ohbm-2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
@@ -784,7 +818,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
  gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-07-08\nNotes: NER is biennial 
+ idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
  and the 2027 edition details were not found in the crawl. Dates and deadl
  ine are estimates and should be verified.
 URL:https://ieee-ner.org/
@@ -792,36 +826,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:isbi-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270120T115900Z
-DTEND:20270120T125900Z
+DTSTART:20270202T045900Z
+DTEND:20270202T055900Z
 SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - 1-page abstract
   submission deadline
 DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
-END:VEVENT
-BEGIN:VEVENT
-UID:isbi-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270407
-DTEND;VALUE=DATE:20270411
-SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
-DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
- aging\nWebsite: https://biomedicalimaging.org/\nSource URL: https://biome
- dicalimaging.org/2026/\nLocation: Lausanne\, Switzerland\nTopics: Biomedi
- cal Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine Lear
- ning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nC
- onfidence: estimated\nLast checked date: 2026-07-08\nNotes: ISBI 2026 pag
- e points attendees to ISBI 2027 in Lausanne\, but exact 2027 dates/deadli
- nes were not found. Dates are estimated from the 2026 schedule.
-URL:https://biomedicalimaging.org/2026/
-LOCATION:Lausanne\, Switzerland
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
@@ -835,7 +852,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
  gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-07-08\nNotes: NER is biennial 
+ idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
  and the 2027 edition details were not found in the crawl. Dates and deadl
  ine are estimates and should be verified.
 URL:https://ieee-ner.org/
@@ -854,10 +871,27 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
   Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
  ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
  May 10-14\, 2027 conference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:isbi-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270525
+DTEND;VALUE=DATE:20270529
+SUMMARY:[Biomedical Imaging][Signal Processing] ISBI 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
+ aging\nWebsite: https://biomedicalimaging.org/2027/\nSource URL: https://
+ biomedicalimaging.org/2027/\nLocation: Lausanne\, Switzerland\nTopics: Bi
+ omedical Imaging\, Signal Processing\, Healthcare & Clinical AI\, Machine
+  Learning\nSize: L\nDifficulty: Moderate-hard\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official
+  ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
+ one-page abstract deadlines.
+URL:https://biomedicalimaging.org/2027/
+LOCATION:Lausanne\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-conference@scientific-conference-calendar
@@ -872,7 +906,7 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
@@ -885,14 +919,15 @@ DTEND;VALUE=DATE:20270701
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
  - Conference
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://humanbrainmapping.org/\nSource URL: https://huma
- nbrainmapping.org/\nLocation: TBD\nTopics: Neuroimaging & Brain Mapping\,
-  EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
- oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
- ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
- acted. Dates and deadline are estimates from typical OHBM timing.
-URL:https://humanbrainmapping.org/
-LOCATION:TBD
+ eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
+ tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
+ s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
+  Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
+ ted\nLast checked date: 2026-08-20\nNotes: Official OHBM 2027 page confir
+ ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
+ s December 2026\, so the exact deadline remains estimated.
+URL:https://humanbrainmapping.org/ohbm-2027/
+LOCATION:Toronto\, Canada
 END:VEVENT
 END:VCALENDAR

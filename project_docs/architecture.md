@@ -1,6 +1,6 @@
 # Architecture
 
-Last synchronized: 2026-07-08
+Last synchronized: 2026-08-20
 
 ## System Diagram
 
@@ -29,7 +29,7 @@ data/
   conferences.yml                 canonical conference records
   metadata.yml                    site-level metadata such as last_updated
   topics.yml                      controlled topic vocabulary
-  core_conferences_normalized_tags.xlsx
+  core_conferences_normalized_tags.xlsx  synchronized catalog-reference workbook
 scripts/
   validate.py                     schema and consistency checks
   build_ics.py                    ICS feed generation

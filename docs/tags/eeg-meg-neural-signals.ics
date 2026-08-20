@@ -16,12 +16,28 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
+ 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
 URL:https://embc.embs.org/2026/key-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T225900Z
+DTEND:20260213T235900Z
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference pap
+ er submission deadline
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/submissi
+ ons/\nLocation: Bruges\, Belgium\nTopics: Signal Processing\, Machine Lea
+ rning\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: X
+ L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confirmed\
+ nLast checked date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list B
+ ruges\, Aug 31-Sep 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
@@ -35,8 +51,8 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
+ 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
@@ -50,15 +66,15 @@ DTEND:20260501T125900Z
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
  6 - Abstract submission deadline
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
- site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
- tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: Beijing\, Ch
- ina\nTopics: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Co
- mputational Neuroscience\, Signal Processing\nSize: M\nDifficulty: Modera
- te\nSubmission type: Abstract-based / specialist venue\nConfidence: estim
- ated\nLast checked date: 2026-07-08\nNotes: Official BIOMAG 2026 page con
- firms Beijing and Aug 23-25\, 2026. Abstract deadline remains an estimate
-  until the submission page is rechecked.
-URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+ site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
+ .scimeeting.cn/en/web/index/31426\nLocation: Beijing\, China\nTopics: EEG
+ /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
+ oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
+ ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
+ ed date: 2026-08-20\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
+ ssion page is rechecked.
+URL:https://mm.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2026-deadline-abstract@scientific-conference-calen
@@ -74,7 +90,7 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+ nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
   confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
  mains a proxy estimate until the dedicated important-dates page is rechec
  ked.
@@ -93,7 +109,7 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
  ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
- nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: IEEE Signal
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: IEEE Signal
   Processing Society MLSP page lists dates\, location\, website\, and pape
  r submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
@@ -110,7 +126,7 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
  I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
  nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
- lied venue\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 
+ lied venue\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: 
  Official EMBC page confirms conference dates. Submission dates were alrea
  dy marked closed on the official key-dates page\, so the deadline is a pr
  oxy and should be backfilled when archival CFP data is available.
@@ -125,16 +141,32 @@ DTEND;VALUE=DATE:20260826
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
  6 - Conference
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
- site: https://biomag2026.scimeeting.cn/en/web/index/31426\nSource URL: ht
- tps://biomag2026.scimeeting.cn/en/web/index/31426\nLocation: Beijing\, Ch
- ina\nTopics: EEG/MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Co
- mputational Neuroscience\, Signal Processing\nSize: M\nDifficulty: Modera
- te\nSubmission type: Abstract-based / specialist venue\nConfidence: estim
- ated\nLast checked date: 2026-07-08\nNotes: Official BIOMAG 2026 page con
- firms Beijing and Aug 23-25\, 2026. Abstract deadline remains an estimate
-  until the submission page is rechecked.
-URL:https://biomag2026.scimeeting.cn/en/web/index/31426
+ site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
+ .scimeeting.cn/en/web/index/31426\nLocation: Beijing\, China\nTopics: EEG
+ /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
+ oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
+ ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
+ ed date: 2026-08-20\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
+ ssion page is rechecked.
+URL:https://mm.scimeeting.cn/en/web/index/31426
 LOCATION:Beijing\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260831
+DTEND;VALUE=DATE:20260905
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/\nLocati
+ on: Bruges\, Belgium\nTopics: Signal Processing\, Machine Learning\, Time
+  Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nDifficult
+ y: Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checke
+ d date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 
+ 31-Sep 4\, and the extended conference-paper deadline.
+URL:https://eusipco2026.org/
+LOCATION:Bruges\, Belgium
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
@@ -149,7 +181,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
  equential Data\, EEG/MEG & Neural Signals\nSize: XL\nDifficulty: Moderate
  -hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked 
- date: 2026-07-08\nNotes: Official ICASSP 2027 pages list Toronto\, May 16
+ date: 2026-08-20\nNotes: Official ICASSP 2027 pages list Toronto\, May 16
  -21\, 2027 conference dates\, and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/call-for-papers/
 END:VEVENT
@@ -161,31 +193,31 @@ DTEND:20260919T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
  ct submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260924T115900Z
-DTEND:20260924T125900Z
+DTSTART:20260926T115900Z
+DTEND:20260926T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:bernstein-conference-2026-conference@scientific-conference-calendar
@@ -200,7 +232,7 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
  Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-07-08\nNotes: Official Bernstein Conference page
+ nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
   confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
  mains a proxy estimate until the dedicated important-dates page is rechec
  ked.
@@ -219,7 +251,7 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
  ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nDifficulty:
   Moderate-hard\nSubmission type: Paper-based / workshop-style conference\
- nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: IEEE Signal
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: IEEE Signal
   Processing Society MLSP page lists dates\, location\, website\, and pape
  r submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
@@ -233,14 +265,14 @@ DTEND:20261113T125900Z
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Abstract submission deadline
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
- n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
- al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
- fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
- SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
- estimated from prior COSYNE cycles.
-URL:https://www.cosyne.org/
+ te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
+ g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
+ ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
+  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
+ alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
+ 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ the abstract deadline remains an estimated prior-cycle proxy.
+URL:https://www.cosyne.org/cosyne-home
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
@@ -250,14 +282,15 @@ DTEND:20261216T125900Z
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
  - Abstract submission deadline
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://humanbrainmapping.org/\nSource URL: https://huma
- nbrainmapping.org/\nLocation: TBD\nTopics: Neuroimaging & Brain Mapping\,
-  EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
- oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
- ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
- acted. Dates and deadline are estimates from typical OHBM timing.
-URL:https://humanbrainmapping.org/
+ eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
+ tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
+ s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
+  Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
+ ted\nLast checked date: 2026-08-20\nNotes: Official OHBM 2027 page confir
+ ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
+ s December 2026\, so the exact deadline remains estimated.
+URL:https://humanbrainmapping.org/ohbm-2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
@@ -271,7 +304,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
  gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-07-08\nNotes: NER is biennial 
+ idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
  and the 2027 edition details were not found in the crawl. Dates and deadl
  ine are estimates and should be verified.
 URL:https://ieee-ner.org/
@@ -290,7 +323,7 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
  n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
  n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ e: 2026-08-20\nNotes: Official BCI Society page lists the 12th Internatio
  nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
  l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
@@ -303,33 +336,33 @@ DTEND;VALUE=DATE:20270317
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Conference
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
- n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
- al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
- fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
- nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: Official CO
- SYNE page confirms 2027 save-the-date and location. Abstract deadline is 
- estimated from prior COSYNE cycles.
-URL:https://www.cosyne.org/
+ te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
+ g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
+ ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
+  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
+ alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
+ 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ the abstract deadline remains an estimated prior-cycle proxy.
+URL:https://www.cosyne.org/cosyne-home
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270427
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
-LOCATION:TBD
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
@@ -343,7 +376,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
  gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-07-08\nNotes: NER is biennial 
+ idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
  and the 2027 edition details were not found in the crawl. Dates and deadl
  ine are estimates and should be verified.
 URL:https://ieee-ner.org/
@@ -360,7 +393,7 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  urce URL: https://2027.ieeeicassp.org/\nLocation: Toronto\, Canada\nTopic
  s: Signal Processing\, Machine Learning\, Time Series & Sequential Data\,
   EEG/MEG & Neural Signals\nSize: XL\nDifficulty: Moderate-hard\nSubmissio
- n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-07-08
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20
  \nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027 confe
  rence dates\, and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/
@@ -380,7 +413,7 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
  n-AI Interaction & Deployment\nSize: S/M\nDifficulty: Moderate\nSubmissio
  n type: Abstract/community-based\nConfidence: confirmed\nLast checked dat
- e: 2026-07-08\nNotes: Official BCI Society page lists the 12th Internatio
+ e: 2026-08-20\nNotes: Official BCI Society page lists the 12th Internatio
  nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
  l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
@@ -394,14 +427,15 @@ DTEND;VALUE=DATE:20270701
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
  - Conference
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
- eeting\nWebsite: https://humanbrainmapping.org/\nSource URL: https://huma
- nbrainmapping.org/\nLocation: TBD\nTopics: Neuroimaging & Brain Mapping\,
-  EEG/MEG & Neural Signals\, Healthcare & Clinical AI\, Computational Neur
- oscience\nSize: L/XL\nDifficulty: Moderate\nSubmission type: Abstract-bas
- ed / talks selective\nConfidence: estimated\nLast checked date: 2026-07-0
- 8\nNotes: Next OHBM schedule and abstract timeline were not reliably extr
- acted. Dates and deadline are estimates from typical OHBM timing.
-URL:https://humanbrainmapping.org/
-LOCATION:TBD
+ eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
+ tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
+ s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
+  Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
+ te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
+ ted\nLast checked date: 2026-08-20\nNotes: Official OHBM 2027 page confir
+ ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
+ s December 2026\, so the exact deadline remains estimated.
+URL:https://humanbrainmapping.org/ohbm-2027/
+LOCATION:Toronto\, Canada
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ADMA 2026 Calendar
+BEGIN:VEVENT
+UID:adma-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260731T155900Z
+DTEND:20260731T165900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Industry
+  and special-session paper deadline
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
+LOCATION:Hong Kong\, China
+END:VEVENT
+END:VCALENDAR

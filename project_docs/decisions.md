@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-07-08
+Last synchronized: 2026-08-20
 
 ## ADR-001: Keep the Project Static
 
@@ -65,3 +65,11 @@ Last synchronized: 2026-07-08
 - Decision: Keep `AGENTS.md`, reduce it to concise onboarding instructions, and point agents to `project_docs/` for durable status, roadmap, architecture, decisions, and session history.
 - Alternatives considered: Delete `AGENTS.md`; keep the full duplicated project specification in `AGENTS.md`.
 - Consequences: Future agents still get immediate repository-specific guidance, while long-lived project knowledge has a single maintained home in `project_docs/`.
+
+## ADR-009: Represent Joint Conference Editions Once
+
+- Date: 2026-08-20
+- Context: IJCAI and ECAI are holding a joint 2026 event. Separate records would create duplicate public site and calendar entries for the same dates and venue.
+- Decision: Model the edition as one `ijcai-ecai-2026` conference record, retaining both organizations in its name, sources, topics, and search coverage.
+- Alternatives considered: Duplicate the joint event as individual IJCAI and ECAI records; omit one conference from the catalog.
+- Consequences: Subscribers receive one accurate event. Future editions can use individual records when the conferences resume separate schedules.

@@ -17,7 +17,7 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
@@ -33,7 +33,7 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 END:VEVENT
@@ -50,7 +50,7 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
@@ -67,7 +67,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
@@ -84,7 +84,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
@@ -101,9 +101,43 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Deep Representation Learning\, Learning Theory & Statistical Found
+ ations\, Explainability & Interpretability\nSize: L\nDifficulty: Hard\nSu
+ bmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast chec
+ ked date: 2026-08-20\nNotes: Official ACML 2026 pages list Melbourne\, De
+ c 1-4\, and the revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260731T155900Z
+DTEND:20260731T165900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Industry
+  and special-session paper deadline
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlhc-2026-conference@scientific-conference-calendar
@@ -116,7 +150,7 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
  ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-07-08\nNotes: Official MLHC page lists confe
+ med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
  rence dates\, location\, and full submission deadline.
 URL:https://mlhc.org/
 LOCATION:Baltimore\, Maryland\, USA
@@ -134,11 +168,30 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
 URL:https://timeseries4health.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:aaltd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 026 - Conference
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
+  URL: https://ecml-aaltd.github.io/aaltd2026/\nLocation: Naples\, Italy\n
+ Topics: Time Series & Sequential Data\, Data Mining & Data Science\, Mach
+ ine Learning\, Explainability & Interpretability\nSize: S\nDifficulty: Mo
+ derate-hard\nSubmission type: Workshop / paper-based\nConfidence: announc
+ ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official AALTD and
+  ECML PKDD workshop pages confirm the co-located Naples workshop on Sep 1
+ 1\; the current schedule does not list a submission deadline.
+URL:https://ecml-aaltd.github.io/aaltd2026/
+LOCATION:Naples\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-deadline-full-paper@scientific-conference-calendar
@@ -153,7 +206,7 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
   Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
  ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
  May 10-14\, 2027 conference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
@@ -165,31 +218,31 @@ DTEND:20260919T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
  ct submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260924T115900Z
-DTEND:20260924T125900Z
+DTSTART:20260926T115900Z
+DTEND:20260926T125900Z
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -204,7 +257,7 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
@@ -221,9 +274,27 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:adma-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261116
+SUMMARY:[Data Mining & Data Science][Machine Learning] ADMA 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: International Conference on Advanced Data Min
+ ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
+ ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
+ xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
+ mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
+ \, Nov 13-15\, and the extended industry/special-session deadline.
+URL:https://adma2026.github.io/
+LOCATION:Hong Kong\, China
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2026-conference@scientific-conference-calendar
@@ -238,7 +309,7 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
  y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-07-08\nNotes: Offici
+ ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 LOCATION:Salt Lake City\, Utah\, USA
@@ -256,11 +327,29 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
 URL:https://timeseries4health.github.io/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Deep R
+ epresentation Learning\, Learning Theory & Statistical Foundations\, Expl
+ ainability & Interpretability\nSize: L\nDifficulty: Hard\nSubmission type
+ : Paper-based / OpenReview\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and t
+ he revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-conference@scientific-conference-calendar
@@ -275,7 +364,7 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
  al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
  hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-07-08\nNotes: Official NeurIPS 2026 dates page lists meeting da
+ ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 LOCATION:Sydney\, Australia
@@ -293,7 +382,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-07-08\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -303,20 +392,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270427
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
 SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Learning Represen
- tations\nWebsite: https://iclr.cc/\nSource URL: https://iclr.cc/Conferenc
- es/2026/Dates\nLocation: TBD\nTopics: Deep Representation Learning\, Mach
- ine Learning\, Explainability & Interpretability\, EEG/MEG & Neural Signa
- ls\nSize: XXL\nDifficulty: Hard\nSubmission type: Paper-based / OpenRevie
- w\nConfidence: estimated\nLast checked date: 2026-07-08\nNotes: 2027 edit
- ion was not found as announced. Dates and deadlines are estimated from th
- e official ICLR 2026 schedule.
-URL:https://iclr.cc/Conferences/2026/Dates
-LOCATION:TBD
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
+ ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
+ cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
+ t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
@@ -331,7 +420,7 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
   Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
  ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-07-08\nNotes: Official CHI 2027 page lists Pittsburgh\, 
+ ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
  May 10-14\, 2027 conference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
@@ -349,7 +438,7 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
  al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
  mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-07-08\nNotes: Official FAccT 2027 call for papers li
+ t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
  sts conference dates and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD

@@ -1,5 +1,32 @@
 # Session Log
 
+## 2026-08-20
+
+- Objective: Expand and refresh the conference catalog requested for ML/AI, data mining, pattern recognition, signal processing, and time-series research.
+- Tasks completed:
+  - Audited the requested 39 conference labels against the canonical YAML catalog and synchronized spreadsheet, expanding the catalog from 34 to 58 records.
+  - Added 24 missing records with normalized topics, difficulty, size, relevance, source URLs, confirmation states, review notes, and deterministic calendar IDs.
+  - Recorded the joint IJCAI-ECAI 2026 edition once so the public site and calendar feeds do not duplicate the shared event.
+  - Reviewed official organizer sites and refreshed newly published upcoming-edition details for existing and added conferences, including ICLR, ECML PKDD, MICCAI, ISBI, WSDM, ACML, ICANN, ICONIP, EUSIPCO, and IEEE conference series.
+  - Kept entries marked `estimated` or `not_yet_announced` whenever an official future date or deadline was unavailable.
+  - Synchronized `data/core_conferences_normalized_tags.xlsx` with the canonical 58-record catalog while preserving its table formatting.
+- Files modified:
+  - `data/conferences.yml`
+  - `data/core_conferences_normalized_tags.xlsx`
+  - `data/metadata.yml`
+  - `project_docs/implementation_status.md`
+  - `project_docs/roadmap.md`
+  - `project_docs/architecture.md`
+  - `project_docs/decisions.md`
+  - `project_docs/session_log.md`
+- Tests run:
+  - `python3 -B scripts/validate.py` passed and validated 58 conferences.
+  - `python3 -B scripts/build_all.py` passed, regenerated `docs/index.html`, and regenerated aggregate, topic, and per-conference ICS feeds.
+  - YAML integrity checks confirmed unique IDs, fresh review dates, and coverage of every requested label; IJCAI and ECAI resolve to the joint 2026 record.
+- Remaining tasks:
+  - Continue reviewing intentionally non-confirmed entries as organizers publish official details.
+- Suggested next step: Continue periodic official-source reviews for entries intentionally awaiting organizer announcements.
+
 ## 2026-07-08
 
 - Objective: Establish persistent project-state documentation so future Codex sessions can recover current state from the repository.

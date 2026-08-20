@@ -1,0 +1,27 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:S+SSPR 2026 Calendar
+BEGIN:VEVENT
+UID:ssspr-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260824
+DTEND;VALUE=DATE:20260827
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf\nLocation:
+  Bern\, Switzerland\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Data Mining & Data Science\, Signal Processing\nSize: M\nDifficulty
+ : Moderate-hard\nSubmission type: Paper-based / workshop-style conference
+ \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-20\nNote
+ s: Official S+SSPR 2026 schedule confirms Bern\, Aug 24-26\; the submissi
+ on phase is complete and no current deadline is published.
+URL:https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf
+LOCATION:Bern\, Switzerland
+END:VEVENT
+END:VCALENDAR

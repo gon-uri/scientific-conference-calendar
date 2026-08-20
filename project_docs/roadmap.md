@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-07-08
+Last synchronized: 2026-08-20
 
 ## Milestones
 
@@ -22,7 +22,7 @@ Last synchronized: 2026-07-08
 
 ### Topic Coverage
 
-- Goal: Maintain useful topic tags for ML, AI, neuroscience, EEG/MEG, BCI, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.
+- Goal: Maintain useful topic tags for ML, AI, data mining, pattern recognition, signal processing, neuroscience, EEG/MEG, BCI, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.
 - Priority: Medium
 - Dependencies: `data/topics.yml`, validation, per-topic ICS generation.
 - Estimated complexity: Low

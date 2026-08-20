@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE BigData 2026 Calendar
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, H
+ ealthcare & Clinical AI\nSize: L\nDifficulty: Moderate-hard\nSubmission t
+ ype: Paper-based / mixed tracks\nConfidence: announced_no_deadlines\nLast
+  checked date: 2026-08-20\nNotes: Official IEEE BigData 2026 site confirm
+ s Phoenix and Dec 14-17\; it says CFP-specific deadlines are forthcoming.
+URL:https://bigdataieee.org/BigData2026/
+LOCATION:Phoenix\, Arizona\, USA
+END:VEVENT
+END:VCALENDAR

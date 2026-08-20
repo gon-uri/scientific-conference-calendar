@@ -1,0 +1,25 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACPR 2027 Calendar
+BEGIN:VEVENT
+UID:acpr-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271108
+DTEND;VALUE=DATE:20271112
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://link.springer.com/conference/
+ acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
+ ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
+ Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
+  date: 2026-08-20\nNotes: The latest official proceedings are for ACPR 20
+ 25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
+ R host announcement is published.
+URL:https://link.springer.com/conference/acpr
+LOCATION:TBD
+END:VEVENT
+END:VCALENDAR

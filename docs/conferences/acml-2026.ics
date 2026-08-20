@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ACML 2026 Calendar
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Deep Representation Learning\, Learning Theory & Statistical Found
+ ations\, Explainability & Interpretability\nSize: L\nDifficulty: Hard\nSu
+ bmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast chec
+ ked date: 2026-08-20\nNotes: Official ACML 2026 pages list Melbourne\, De
+ c 1-4\, and the revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
+ ence
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Deep R
+ epresentation Learning\, Learning Theory & Statistical Foundations\, Expl
+ ainability & Interpretability\nSize: L\nDifficulty: Hard\nSubmission type
+ : Paper-based / OpenReview\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and t
+ he revised conference-track submission deadline.
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+END:VCALENDAR

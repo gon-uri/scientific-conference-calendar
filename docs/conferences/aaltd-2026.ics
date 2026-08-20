@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:AALTD 2026 Calendar
+BEGIN:VEVENT
+UID:aaltd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260911
+DTEND;VALUE=DATE:20260912
+SUMMARY:[Time Series & Sequential Data][Data Mining & Data Science] AALTD 2
+ 026 - Conference
+DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
+ n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
+  URL: https://ecml-aaltd.github.io/aaltd2026/\nLocation: Naples\, Italy\n
+ Topics: Time Series & Sequential Data\, Data Mining & Data Science\, Mach
+ ine Learning\, Explainability & Interpretability\nSize: S\nDifficulty: Mo
+ derate-hard\nSubmission type: Workshop / paper-based\nConfidence: announc
+ ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official AALTD and
+  ECML PKDD workshop pages confirm the co-located Naples workshop on Sep 1
+ 1\; the current schedule does not list a submission deadline.
+URL:https://ecml-aaltd.github.io/aaltd2026/
+LOCATION:Naples\, Italy
+END:VEVENT
+END:VCALENDAR

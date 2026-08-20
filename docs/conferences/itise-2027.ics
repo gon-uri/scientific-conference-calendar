@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ITISE 2027 Calendar
+BEGIN:VEVENT
+UID:itise-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Conf
+ erence
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/\nSource URL: https://itise.ugr
+ .es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Series & Seq
+ uential Data\, Machine Learning\, Data Mining & Data Science\, Learning T
+ heory & Statistical Foundations\nSize: M\nDifficulty: Moderate-hard\nSubm
+ ission type: Paper-based / forecasting-focused\nConfidence: estimated\nLa
+ st checked date: 2026-08-20\nNotes: Official ITISE sources list the compl
+ eted 2026 Gran Canaria edition. The 2027 date and location are annual-cyc
+ le estimates pending an official ITISE 2027 announcement.
+URL:https://itise.ugr.es/index.html
+LOCATION:Gran Canaria\, Spain
+END:VEVENT
+END:VCALENDAR

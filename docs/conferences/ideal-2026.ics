@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IDEAL 2026 Calendar
+BEGIN:VEVENT
+UID:ideal-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261122
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Confere
+ nce
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/\nLocation: Manchester\, United Kin
+ gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
+ entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nD
+ ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: annou
+ nced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official IDEAL 2
+ 026 site confirms Manchester and Nov 19-21\; its current page does not pu
+ blish a submission timeline.
+URL:https://www.ideal2026.org/
+LOCATION:Manchester\, United Kingdom
+END:VEVENT
+END:VCALENDAR
