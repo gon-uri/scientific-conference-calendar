@@ -5,6 +5,42 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IJCAI-ECAI 2026 Calendar
 BEGIN:VEVENT
+UID:ijcai-ecai-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260113T115900Z
+DTEND:20260113T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 - 
+ Abstract submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence and European Conference on Artificial Intelligence\nWebsite:
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/ijcai-ecai-2
+ 026-call-for-papers-main-track/\nLocation: Bremen\, Germany\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Learning Theory & Statistic
+ al Foundations\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very ha
+ rd\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-31\nNotes: Official IJCAI-ECAI 2026 pages confirm Bremen\, Aug
+  15-21\, and the Jan 12 abstract and Jan 19 full-paper deadlines.
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-ecai-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260120T115900Z
+DTEND:20260120T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 - 
+ Full paper submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence and European Conference on Artificial Intelligence\nWebsite:
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/ijcai-ecai-2
+ 026-call-for-papers-main-track/\nLocation: Bremen\, Germany\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Learning Theory & Statistic
+ al Foundations\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very ha
+ rd\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-31\nNotes: Official IJCAI-ECAI 2026 pages confirm Bremen\, Aug
+  15-21\, and the Jan 12 abstract and Jan 19 full-paper deadlines.
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-ecai-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -13,15 +49,14 @@ SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 -
  Conference
 DESCRIPTION:Conference title: International Joint Conference on Artificial 
  Intelligence and European Conference on Artificial Intelligence\nWebsite:
-  https://www.ijcai.org/\nSource URL: https://www.ijcai.org/\nLocation: Br
- emen\, Germany\nTopics: Machine Learning\, Deep Representation Learning\,
-  Learning Theory & Statistical Foundations\, Fairness & Responsible AI\nS
- ize: XL\nDifficulty: Very hard\nSubmission type: Paper-based\nConfidence:
-  announced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official I
- JCAI and EurAI pages confirm the joint IJCAI-ECAI 2026 meeting in Bremen\
- , Aug 15-21\; the current official pages did not expose a deadline timeli
- ne.
-URL:https://www.ijcai.org/
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/\nLocation: 
+ Bremen\, Germany\nTopics: Machine Learning\, Deep Representation Learning
+ \, Learning Theory & Statistical Foundations\, Fairness & Responsible AI\
+ nSize: XL\nDifficulty: Very hard\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-08-31\nNotes: Official IJCAI-ECAI 2
+ 026 pages confirm Bremen\, Aug 15-21\, and the Jan 12 abstract and Jan 19
+  full-paper deadlines.
+URL:https://2026.ijcai.org/
 LOCATION:Bremen\, Germany
 END:VEVENT
 END:VCALENDAR

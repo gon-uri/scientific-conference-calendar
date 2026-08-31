@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EACL 2027 Calendar
+BEGIN:VEVENT
+UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260804T115900Z
+DTEND:20260804T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ ARR long and short paper submission deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
+  & Deployment\nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based
+  / ACL Rolling Review\nConfidence: confirmed\nLast checked date: 2026-08-
+ 31\nNotes: Official EACL 2027 pages confirm the hybrid Athens meeting\, M
+ ar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T115900Z
+DTEND:20261012T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ EACL commitment deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
+  & Deployment\nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based
+  / ACL Rolling Review\nConfidence: confirmed\nLast checked date: 2026-08-
+ 31\nNotes: Official EACL 2027 pages confirm the hybrid Athens meeting\, M
+ ar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270315
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ Conference
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
+ tural Language Processing & LLMs\, Machine Learning\, Deep Representation
+  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
+ \nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based / ACL Rollin
+ g Review\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Of
+ ficial EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and
+  the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+END:VCALENDAR

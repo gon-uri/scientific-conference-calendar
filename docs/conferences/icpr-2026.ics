@@ -12,31 +12,31 @@ DTEND:20260101T125900Z
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://iapr.org/docs/new
+ sletters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine L
+ earning\, Deep Representation Learning\, Signal Processing\, Biomedical I
+ maging\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfide
+ nce: estimated\nLast checked date: 2026-08-31\nNotes: Official ICPR 2026 
+ pages confirm Lyon\, Aug 17-22. The main-paper deadline is retained as an
+  estimate because a current official CFP schedule was not available.
 URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:icpr-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
-URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: Lyon\, France\nTopics: Machine Learning\, Deep Representation Lea
+ rning\, Signal Processing\, Biomedical Imaging\nSize: XL\nDifficulty: Har
+ d\nSubmission type: Paper-based\nConfidence: estimated\nLast checked date
+ : 2026-08-31\nNotes: Official ICPR 2026 pages confirm Lyon\, Aug 17-22. T
+ he main-paper deadline is retained as an estimate because a current offic
+ ial CFP schedule was not available.
+URL:https://icpr2026.org/
 LOCATION:Lyon\, France
 END:VEVENT
 END:VCALENDAR

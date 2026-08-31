@@ -12,13 +12,13 @@ DTEND:20260101T125900Z
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://iapr.org/docs/new
+ sletters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine L
+ earning\, Deep Representation Learning\, Signal Processing\, Biomedical I
+ maging\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfide
+ nce: estimated\nLast checked date: 2026-08-31\nNotes: Official ICPR 2026 
+ pages confirm Lyon\, Aug 17-22. The main-paper deadline is retained as an
+  estimate because a current official CFP schedule was not available.
 URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
 END:VEVENT
 BEGIN:VEVENT
@@ -33,8 +33,8 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
- 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-3
+ 1\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
@@ -85,8 +85,8 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
  Clinical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurot
  echnology\nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based /
-  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-2
- 0\nNotes: Official EMBC page confirms conference dates. Submission dates 
+  broad applied venue\nConfidence: estimated\nLast checked date: 2026-08-3
+ 1\nNotes: Official EMBC page confirms conference dates. Submission dates 
  were already marked closed on the official key-dates page\, so the deadli
  ne is a proxy and should be backfilled when archival CFP data is availabl
  e.
@@ -105,7 +105,7 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
  ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
- ed date: 2026-08-20\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ ed date: 2026-08-31\nNotes: Official BIOMAG 2026 page confirms Beijing an
  d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
  ssion page is rechecked.
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -157,7 +157,7 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
  I\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\
  nSize: XL\nDifficulty: Moderate\nSubmission type: Paper-based / broad app
- lied venue\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: 
+ lied venue\nConfidence: estimated\nLast checked date: 2026-08-31\nNotes: 
  Official EMBC page confirms conference dates. Submission dates were alrea
  dy marked closed on the official key-dates page\, so the deadline is a pr
  oxy and should be backfilled when archival CFP data is available.
@@ -168,18 +168,18 @@ BEGIN:VEVENT
 UID:icpr-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
-URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: Lyon\, France\nTopics: Machine Learning\, Deep Representation Lea
+ rning\, Signal Processing\, Biomedical Imaging\nSize: XL\nDifficulty: Har
+ d\nSubmission type: Paper-based\nConfidence: estimated\nLast checked date
+ : 2026-08-31\nNotes: Official ICPR 2026 pages confirm Lyon\, Aug 17-22. T
+ he main-paper deadline is retained as an estimate because a current offic
+ ial CFP schedule was not available.
+URL:https://icpr2026.org/
 LOCATION:Lyon\, France
 END:VEVENT
 BEGIN:VEVENT
@@ -195,7 +195,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -214,7 +214,7 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
  ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
- ed date: 2026-08-20\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ ed date: 2026-08-31\nNotes: Official BIOMAG 2026 page confirms Beijing an
  d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
  ssion page is rechecked.
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -234,7 +234,7 @@ DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
   Bern\, Switzerland\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Data Mining & Data Science\, Signal Processing\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / workshop-style conference
- \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-20\nNote
+ \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-31\nNote
  s: Official S+SSPR 2026 schedule confirms Bern\, Aug 24-26\; the submissi
  on phase is complete and no current deadline is published.
 URL:https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf
@@ -327,6 +327,23 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:esann-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261118T225900Z
+DTEND:20261118T235900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Paper
+  submission deadline
+DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
+ rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
+ ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
+ gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
+ Theory & Statistical Foundations\, Signal Processing\nSize: M\nDifficulty
+ : Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked
+  date: 2026-08-31\nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 
+ 21-23\, 2027\, and the Nov 18\, 2026 submission deadline.
+URL:https://www.esann.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:iconip-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261123
@@ -357,7 +374,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -376,29 +393,12 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
 URL:https://timeseries4health.github.io/
 LOCATION:Sydney\, Australia
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270116T115900Z
-DTEND:20270116T125900Z
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - P
- aper submission deadline
-DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
- .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
- gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
- : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
- and the 2027 edition details were not found in the crawl. Dates and deadl
- ine are estimates and should be verified.
-URL:https://ieee-ner.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
@@ -435,6 +435,23 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270207T225900Z
+DTEND:20270207T235900Z
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Paper submiss
+ ion deadline
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/call-for-papers/\nLocation: Annecy\, France\nTopics: Signal Processing\
+ , Machine Learning\, Time Series & Sequential Data\, Probabilistic\, Caus
+ al & Uncertainty ML\nSize: M\nDifficulty: Hard\nSubmission type: Paper-ba
+ sed / specialist workshop\nConfidence: confirmed\nLast checked date: 2026
+ -08-31\nNotes: Official IEEE SSP 2027 pages confirm Annecy\, Jun 28-Jul 1
+ \, 2027\, and the Feb 7 paper-submission deadline.
+URL:https://ssp27.ieeesps.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:esann-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
@@ -443,33 +460,14 @@ SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Confe
  rence
 DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
- ww.esann.org/node/160\nSource URL: https://www.esann.org/node/160\nLocati
- on: Bruges\, Belgium\nTopics: Machine Learning\, Deep Representation Lear
- ning\, Learning Theory & Statistical Foundations\, Signal Processing\nSiz
- e: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: announc
- ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official ESANN ann
- ouncement confirms Bruges\, Apr 21-23\, 2027\; the CFP schedule is not ye
- t published.
-URL:https://www.esann.org/node/160
+ ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
+ gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
+ Theory & Statistical Foundations\, Signal Processing\nSize: M\nDifficulty
+ : Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked
+  date: 2026-08-31\nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 
+ 21-23\, 2027\, and the Nov 18\, 2026 submission deadline.
+URL:https://www.esann.org/
 LOCATION:Bruges\, Belgium
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-ner-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270428
-DTEND;VALUE=DATE:20270502
-SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
- onference
-DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
- Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
- .org/\nLocation: TBD\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Si
- gnals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nDifficulty
- : Moderate-hard\nSubmission type: Paper-based / engineering-focused\nConf
- idence: estimated\nLast checked date: 2026-08-20\nNotes: NER is biennial 
- and the 2027 edition details were not found in the crawl. Dates and deadl
- ine are estimates and should be verified.
-URL:https://ieee-ner.org/
-LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-conference@scientific-conference-calendar
@@ -526,23 +524,37 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270620
-DTEND;VALUE=DATE:20270624
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270702
 SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Conference
 DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
- Website: https://signalprocessingsociety.org/events/call-proposals-statis
- tical-signal-processing-ssp-2027\nSource URL: https://signalprocessingsoc
- iety.org/events/call-proposals-statistical-signal-processing-ssp-2027\nLo
- cation: TBD\nTopics: Signal Processing\, Machine Learning\, Time Series &
-  Sequential Data\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDiff
- iculty: Hard\nSubmission type: Paper-based / specialist workshop\nConfide
- nce: not_yet_announced\nLast checked date: 2026-08-20\nNotes: IEEE SPS ha
- s called for organizers for a four-day SSP 2027 workshop\, but has not ye
- t published host\, dates\, or CFP. The June placeholder is intentionally 
- provisional.
-URL:https://signalprocessingsociety.org/events/call-proposals-statistical-s
- ignal-processing-ssp-2027
-LOCATION:TBD
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/\nLocation: Annecy\, France\nTopics: Signal Processing\, Machine Learni
+ ng\, Time Series & Sequential Data\, Probabilistic\, Causal & Uncertainty
+  ML\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based / specialist
+  workshop\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: O
+ fficial IEEE SSP 2027 pages confirm Annecy\, Jun 28-Jul 1\, 2027\, and th
+ e Feb 7 paper-submission deadline.
+URL:https://ssp27.ieeesps.org/
+LOCATION:Annecy\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270907
+DTEND;VALUE=DATE:20270911
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - C
+ onference
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
+ .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
+  Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
+ Difficulty: Moderate-hard\nSubmission type: Paper-based / engineering-foc
+ used\nConfidence: announced_no_deadlines\nLast checked date: 2026-08-31\n
+ Notes: The official IEEE EMBS announcement confirms Milan\, Sep 7-10\, 20
+ 27. A conference CFP and submission schedule are not yet published.
+URL:https://ieee-ner.org/
+LOCATION:Milan\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:acpr-2027-conference@scientific-conference-calendar
@@ -556,7 +568,7 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
  Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
-  date: 2026-08-20\nNotes: The latest official proceedings are for ACPR 20
+  date: 2026-08-31\nNotes: The latest official proceedings are for ACPR 20
  25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
  R host announcement is published.
 URL:https://link.springer.com/conference/acpr

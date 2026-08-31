@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-08-20
+Last synchronized: 2026-08-31
 
 ## ADR-001: Keep the Project Static
 
@@ -73,3 +73,11 @@ Last synchronized: 2026-08-20
 - Decision: Model the edition as one `ijcai-ecai-2026` conference record, retaining both organizations in its name, sources, topics, and search coverage.
 - Alternatives considered: Duplicate the joint event as individual IJCAI and ECAI records; omit one conference from the catalog.
 - Consequences: Subscribers receive one accurate event. Future editions can use individual records when the conferences resume separate schedules.
+
+## ADR-010: Add a Dedicated NLP and LLM Topic
+
+- Date: 2026-08-31
+- Context: EACL is a core computational-linguistics venue. The controlled vocabulary had no topic that could accurately represent NLP and language-model research.
+- Decision: Add `Natural Language Processing & LLMs` to `data/topics.yml` and the synchronized workbook vocabulary, then tag EACL with it alongside its relevant ML and responsible-AI topics.
+- Alternatives considered: Tag EACL only as generic machine learning; add an EACL-specific tag; defer EACL until a later taxonomy revision.
+- Consequences: The public site and generated ICS feeds gain a focused NLP/LLM subscription filter while retaining reusable, controlled taxonomy terms.

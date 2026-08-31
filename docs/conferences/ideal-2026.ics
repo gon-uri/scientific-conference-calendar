@@ -5,6 +5,24 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IDEAL 2026 Calendar
 BEGIN:VEVENT
+UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260701T225900Z
+DTEND:20260701T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Paper s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: Manchest
+ er\, United Kingdom\nTopics: Machine Learning\, Data Mining & Data Scienc
+ e\, Deep Representation Learning\, Learning Theory & Statistical Foundati
+ ons\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Official IDEAL
+  2026 pages confirm Manchester\, Nov 19-21\, and the Jul 1 paper-submissi
+ on deadline.
+URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ideal-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261119
@@ -16,10 +34,9 @@ DESCRIPTION:Conference title: International Conference on Intelligent Data
  Source URL: https://www.ideal2026.org/\nLocation: Manchester\, United Kin
  gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
  entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nD
- ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: annou
- nced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official IDEAL 2
- 026 site confirms Manchester and Nov 19-21\; its current page does not pu
- blish a submission timeline.
+ ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-08-31\nNotes: Official IDEAL 2026 pages con
+ firm Manchester\, Nov 19-21\, and the Jul 1 paper-submission deadline.
 URL:https://www.ideal2026.org/
 LOCATION:Manchester\, United Kingdom
 END:VEVENT

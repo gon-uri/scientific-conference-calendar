@@ -44,14 +44,50 @@ DTEND:20260101T125900Z
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://iapr.org/docs/new
+ sletters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine L
+ earning\, Deep Representation Learning\, Signal Processing\, Biomedical I
+ maging\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfide
+ nce: estimated\nLast checked date: 2026-08-31\nNotes: Official ICPR 2026 
+ pages confirm Lyon\, Aug 17-22. The main-paper deadline is retained as an
+  estimate because a current official CFP schedule was not available.
 URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-ecai-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260113T115900Z
+DTEND:20260113T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 - 
+ Abstract submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence and European Conference on Artificial Intelligence\nWebsite:
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/ijcai-ecai-2
+ 026-call-for-papers-main-track/\nLocation: Bremen\, Germany\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Learning Theory & Statistic
+ al Foundations\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very ha
+ rd\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-31\nNotes: Official IJCAI-ECAI 2026 pages confirm Bremen\, Aug
+  15-21\, and the Jan 12 abstract and Jan 19 full-paper deadlines.
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-ecai-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260120T115900Z
+DTEND:20260120T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 - 
+ Full paper submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence and European Conference on Artificial Intelligence\nWebsite:
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/ijcai-ecai-2
+ 026-call-for-papers-main-track/\nLocation: Bremen\, Germany\nTopics: Mach
+ ine Learning\, Deep Representation Learning\, Learning Theory & Statistic
+ al Foundations\, Fairness & Responsible AI\nSize: XL\nDifficulty: Very ha
+ rd\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-31\nNotes: Official IJCAI-ECAI 2026 pages confirm Bremen\, Aug
+  15-21\, and the Jan 12 abstract and Jan 19 full-paper deadlines.
+URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2026-deadline-abstract@scientific-conference-calendar
@@ -86,6 +122,42 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
   2026-08-20\nNotes: Official ICML 2026 dates page lists tutorials\, main 
  conference\, workshops\, and paper deadlines.
 URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260210T115900Z
+DTEND:20260210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page paper abstract deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nDifficulty: Moderate-hard\n
+ Submission type: Mixed: proceedings + extended abstracts\nConfidence: con
+ firmed\nLast checked date: 2026-08-31\nNotes: Official CCN 2026 pages con
+ firm New York University\, Aug 3-6\, and the two submission-track deadlin
+ es.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T115900Z
+DTEND:20260213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page full paper submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nDifficulty: Moderate-hard\n
+ Submission type: Mixed: proceedings + extended abstracts\nConfidence: con
+ firmed\nLast checked date: 2026-08-31\nNotes: Official CCN 2026 pages con
+ firm New York University\, Aug 3-6\, and the two submission-track deadlin
+ es.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
 END:VEVENT
 BEGIN:VEVENT
 UID:miccai-2026-deadline-registration@scientific-conference-calendar
@@ -158,6 +230,24 @@ DESCRIPTION:Conference title: International Conference on Artificial Neural
 URL:https://e-nns.org/icann2026/
 END:VEVENT
 BEGIN:VEVENT
+UID:ccn-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260403T115900Z
+DTEND:20260403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 2-page extended abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nDifficulty: Moderate-hard\n
+ Submission type: Mixed: proceedings + extended abstracts\nConfidence: con
+ firmed\nLast checked date: 2026-08-31\nNotes: Official CCN 2026 pages con
+ firm New York University\, Aug 3-6\, and the two submission-track deadlin
+ es.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
 UID:midl-2026-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260416T115900Z
@@ -172,23 +262,6 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  20\nNotes: Official MIDL 2026 pages list conference dates\, location\, an
  d paper deadlines.
 URL:https://2026.midl.io/dates
-END:VEVENT
-BEGIN:VEVENT
-UID:ccn-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260419T115900Z
-DTEND:20260419T125900Z
-SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
-  - Abstract submission deadline
-DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
- ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
- ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
- arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
- ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: Upcomi
- ng edition details were not found in the crawled page. Dates and deadline
-  are proxy estimates and should be verified against the current CCN site.
-URL:https://ccneuro.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
@@ -275,6 +348,24 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
  tes and main paper submission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260701T225900Z
+DTEND:20260701T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] IDEAL 2026 - Paper s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Intelligent Data 
+ Engineering and Automated Learning\nWebsite: https://www.ideal2026.org/\n
+ Source URL: https://www.ideal2026.org/calls/key-dates\nLocation: Manchest
+ er\, United Kingdom\nTopics: Machine Learning\, Data Mining & Data Scienc
+ e\, Deep Representation Learning\, Learning Theory & Statistical Foundati
+ ons\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Official IDEAL
+  2026 pages confirm Manchester\, Nov 19-21\, and the Jul 1 paper-submissi
+ on deadline.
+URL:https://www.ideal2026.org/calls/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2026-conference@scientific-conference-calendar
@@ -381,6 +472,42 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
 URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
 END:VEVENT
 BEGIN:VEVENT
+UID:ccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260807
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/\nLocation: New York\, New York\, USA\nTopics: Computational Neuro
+ science\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, M
+ achine Learning\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Mix
+ ed: proceedings + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-08-31\nNotes: Official CCN 2026 pages confirm New York Univer
+ sity\, Aug 3-6\, and the two submission-track deadlines.
+URL:https://2026.ccneuro.org/
+LOCATION:New York\, New York\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260804T115900Z
+DTEND:20260804T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ ARR long and short paper submission deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
+  & Deployment\nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based
+  / ACL Rolling Review\nConfidence: confirmed\nLast checked date: 2026-08-
+ 31\nNotes: Official EACL 2027 pages confirm the hybrid Athens meeting\, M
+ ar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ssci-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260811T115900Z
@@ -401,24 +528,6 @@ URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
  ons/
 END:VEVENT
 BEGIN:VEVENT
-UID:ccn-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260812
-DTEND;VALUE=DATE:20260816
-SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
-  - Conference
-DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
- ience\nWebsite: https://ccneuro.org/\nSource URL: https://ccneuro.org/\nL
- ocation: TBD\nTopics: Computational Neuroscience\, Deep Representation Le
- arning\, Neuroimaging & Brain Mapping\, Machine Learning\nSize: M\nDiffic
- ulty: Moderate-hard\nSubmission type: Mixed: proceedings + extended abstr
- acts\nConfidence: estimated\nLast checked date: 2026-08-20\nNotes: Upcomi
- ng edition details were not found in the crawled page. Dates and deadline
-  are proxy estimates and should be verified against the current CCN site.
-URL:https://ccneuro.org/
-LOCATION:TBD
-END:VEVENT
-BEGIN:VEVENT
 UID:ijcai-ecai-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -427,33 +536,32 @@ SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI-ECAI 2026 -
  Conference
 DESCRIPTION:Conference title: International Joint Conference on Artificial 
  Intelligence and European Conference on Artificial Intelligence\nWebsite:
-  https://www.ijcai.org/\nSource URL: https://www.ijcai.org/\nLocation: Br
- emen\, Germany\nTopics: Machine Learning\, Deep Representation Learning\,
-  Learning Theory & Statistical Foundations\, Fairness & Responsible AI\nS
- ize: XL\nDifficulty: Very hard\nSubmission type: Paper-based\nConfidence:
-  announced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official I
- JCAI and EurAI pages confirm the joint IJCAI-ECAI 2026 meeting in Bremen\
- , Aug 15-21\; the current official pages did not expose a deadline timeli
- ne.
-URL:https://www.ijcai.org/
+  https://2026.ijcai.org/\nSource URL: https://2026.ijcai.org/\nLocation: 
+ Bremen\, Germany\nTopics: Machine Learning\, Deep Representation Learning
+ \, Learning Theory & Statistical Foundations\, Fairness & Responsible AI\
+ nSize: XL\nDifficulty: Very hard\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-08-31\nNotes: Official IJCAI-ECAI 2
+ 026 pages confirm Bremen\, Aug 15-21\, and the Jan 12 abstract and Jan 19
+  full-paper deadlines.
+URL:https://2026.ijcai.org/
 LOCATION:Bremen\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:icpr-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
+DTEND;VALUE=DATE:20260823
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Confer
  ence
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://iapr.org/\nSource URL: https://iapr.org/docs/newslet
- ters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine Learn
- ing\, Deep Representation Learning\, Signal Processing\, Biomedical Imagi
- ng\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence:
-  estimated\nLast checked date: 2026-08-20\nNotes: IAPR's meeting planner 
- confirms Lyon and Aug 17-21\, 2026\; the exact CFP deadline was not avail
- able in the current official schedule.
-URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: Lyon\, France\nTopics: Machine Learning\, Deep Representation Lea
+ rning\, Signal Processing\, Biomedical Imaging\nSize: XL\nDifficulty: Har
+ d\nSubmission type: Paper-based\nConfidence: estimated\nLast checked date
+ : 2026-08-31\nNotes: Official ICPR 2026 pages confirm Lyon\, Aug 17-22. T
+ he main-paper deadline is retained as an estimate because a current offic
+ ial CFP schedule was not available.
+URL:https://icpr2026.org/
 LOCATION:Lyon\, France
 END:VEVENT
 BEGIN:VEVENT
@@ -470,7 +578,7 @@ DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
   Bern\, Switzerland\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Data Mining & Data Science\, Signal Processing\nSize: M\nDifficulty
  : Moderate-hard\nSubmission type: Paper-based / workshop-style conference
- \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-20\nNote
+ \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-31\nNote
  s: Official S+SSPR 2026 schedule confirms Bern\, Aug 24-26\; the submissi
  on phase is complete and no current deadline is published.
 URL:https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf
@@ -584,6 +692,24 @@ URL:https://www.icmla-conference.org/icmla26/callforpapers.html
 LOCATION:Rochester\, Michigan\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:eacl-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T115900Z
+DTEND:20261012T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ EACL commitment deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
+  & Deployment\nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based
+  / ACL Rolling Review\nConfidence: confirmed\nLast checked date: 2026-08-
+ 31\nNotes: Official EACL 2027 pages confirm the hybrid Athens meeting\, M
+ ar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261108T115900Z
@@ -613,9 +739,26 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
   Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
  alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
  the abstract deadline remains an estimated prior-cycle proxy.
 URL:https://www.cosyne.org/cosyne-home
+END:VEVENT
+BEGIN:VEVENT
+UID:esann-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261118T225900Z
+DTEND:20261118T235900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Paper
+  submission deadline
+DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
+ rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
+ ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
+ gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
+ Theory & Statistical Foundations\, Signal Processing\nSize: M\nDifficulty
+ : Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked
+  date: 2026-08-31\nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 
+ 21-23\, 2027\, and the Nov 18\, 2026 submission deadline.
+URL:https://www.esann.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ideal-2026-conference@scientific-conference-calendar
@@ -629,10 +772,9 @@ DESCRIPTION:Conference title: International Conference on Intelligent Data
  Source URL: https://www.ideal2026.org/\nLocation: Manchester\, United Kin
  gdom\nTopics: Machine Learning\, Data Mining & Data Science\, Deep Repres
  entation Learning\, Learning Theory & Statistical Foundations\nSize: M\nD
- ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: annou
- nced_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official IDEAL 2
- 026 site confirms Manchester and Nov 19-21\; its current page does not pu
- blish a submission timeline.
+ ifficulty: Moderate-hard\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-08-31\nNotes: Official IDEAL 2026 pages con
+ firm Manchester\, Nov 19-21\, and the Jul 1 paper-submission deadline.
 URL:https://www.ideal2026.org/
 LOCATION:Manchester\, United Kingdom
 END:VEVENT
@@ -780,6 +922,25 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:eacl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270315
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ Conference
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
+ tural Language Processing & LLMs\, Machine Learning\, Deep Representation
+  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
+ \nSize: L/XL\nDifficulty: Hard\nSubmission type: Paper-based / ACL Rollin
+ g Review\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Of
+ ficial EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and
+  the ARR Aug 3 submission and Oct 11 commitment deadlines.
+URL:https://2027.eacl.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270311
@@ -792,7 +953,7 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
   Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
  alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 20\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
+ 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
  the abstract deadline remains an estimated prior-cycle proxy.
 URL:https://www.cosyne.org/cosyne-home
 LOCATION:Montreal\, Canada
@@ -806,14 +967,13 @@ SUMMARY:[Machine Learning][Deep Representation Learning] ESANN 2027 - Confe
  rence
 DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  rks\, Computational Intelligence and Machine Learning\nWebsite: https://w
- ww.esann.org/node/160\nSource URL: https://www.esann.org/node/160\nLocati
- on: Bruges\, Belgium\nTopics: Machine Learning\, Deep Representation Lear
- ning\, Learning Theory & Statistical Foundations\, Signal Processing\nSiz
- e: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: announc
- ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official ESANN ann
- ouncement confirms Bruges\, Apr 21-23\, 2027\; the CFP schedule is not ye
- t published.
-URL:https://www.esann.org/node/160
+ ww.esann.org/\nSource URL: https://www.esann.org/\nLocation: Bruges\, Bel
+ gium\nTopics: Machine Learning\, Deep Representation Learning\, Learning 
+ Theory & Statistical Foundations\, Signal Processing\nSize: M\nDifficulty
+ : Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked
+  date: 2026-08-31\nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 
+ 21-23\, 2027\, and the Nov 18\, 2026 submission deadline.
+URL:https://www.esann.org/
 LOCATION:Bruges\, Belgium
 END:VEVENT
 BEGIN:VEVENT
@@ -864,7 +1024,7 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
  Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
-  date: 2026-08-20\nNotes: The latest official proceedings are for ACPR 20
+  date: 2026-08-31\nNotes: The latest official proceedings are for ACPR 20
  25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
  R host announcement is published.
 URL:https://link.springer.com/conference/acpr

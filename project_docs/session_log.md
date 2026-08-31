@@ -1,5 +1,32 @@
 # Session Log
 
+## 2026-08-31
+
+- Objective: Verify the IJCAI-ECAI and EACL catalog coverage and refresh incomplete upcoming-edition information from organizer sources.
+- Tasks completed:
+  - Confirmed that IJCAI-ECAI 2026 was already represented as one joint record and added its official main-track CFP dates.
+  - Added EACL 2027 in Athens with its official ARR submission and EACL commitment dates, conference metadata, and per-conference calendar identity.
+  - Added the controlled `Natural Language Processing & LLMs` topic and synchronized it to the workbook vocabulary sheet.
+  - Refreshed available facts for incomplete records, including corrected CCN 2026 dates and location, CIKM 2026 dates and CFP, CNS* and Bernstein deadlines, ESANN 2027, IDEAL 2026, IEEE NER 2027, IEEE SSP 2027, and ICPR 2026 dates.
+  - Rechecked every remaining provisional record against its official series or event page and preserved `estimated`, `announced_no_deadlines`, or `not_yet_announced` where organizers still have not published sufficient future information.
+  - Synchronized `data/core_conferences_normalized_tags.xlsx` with all 59 canonical records and visually verified the conference and vocabulary sheets.
+- Files modified:
+  - `data/conferences.yml`
+  - `data/topics.yml`
+  - `data/metadata.yml`
+  - `data/core_conferences_normalized_tags.xlsx`
+  - `project_docs/implementation_status.md`
+  - `project_docs/roadmap.md`
+  - `project_docs/architecture.md`
+  - `project_docs/decisions.md`
+  - `project_docs/session_log.md`
+- Tests run:
+  - `python3 -B scripts/validate.py` passed and validated 59 conferences before output generation.
+  - `python3 -B scripts/build_all.py` passed and regenerated `docs/index.html` plus aggregate, topic, and per-conference ICS feeds.
+- Remaining tasks:
+  - Continue periodic reviews of the intentionally provisional future editions.
+- Suggested next step: Recheck the intentionally provisional future editions as their organizers publish official calls.
+
 ## 2026-08-20
 
 - Objective: Expand and refresh the conference catalog requested for ML/AI, data mining, pattern recognition, signal processing, and time-series research.

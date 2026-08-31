@@ -144,19 +144,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cns-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260408T115900Z
-DTEND:20260408T125900Z
+DTSTART:20260319T115900Z
+DTEND:20260319T125900Z
 SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
  26 - Abstract submission deadline
 DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
- g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
- e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
- : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
- checked date: 2026-08-20\nNotes: Official CNS* 2026 page confirms Halifax
-  and July 11-15\, 2026. Abstract deadline remains from imported data unti
- l the dedicated important-dates page is rechecked.
-URL:https://www.cnsorg.org/cns-2026
+ g/cns-2026-dates\nLocation: Halifax\, Canada\nTopics: Computational Neuro
+ science\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDiff
+ iculty: Moderate\nSubmission type: Abstract-based\nConfidence: confirmed\
+ nLast checked date: 2026-08-31\nNotes: Official CNS* 2026 dates page conf
+ irms Halifax\, Jul 11-15\, and the Mar 18 extended abstract deadline.
+URL:https://www.cnsorg.org/cns-2026-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2026-deadline-abstract@scientific-conference-calendar
@@ -243,26 +242,6 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
-UID:bernstein-conference-2026-deadline-abstract@scientific-conference-calen
- dar
-DTSTAMP:19700101T000000Z
-DTSTART:20260508T115900Z
-DTEND:20260508T125900Z
-SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
- nference 2026 - Abstract submission deadline
-DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
- ein-network.de/en/bernstein-conference/\nSource URL: https://bernstein-ne
- twork.de/en/bernstein-conference/\nLocation: Frankfurt am Main\, Germany\
- nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
- Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
- Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
-  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
- mains a proxy estimate until the dedicated important-dates page is rechec
- ked.
-URL:https://bernstein-network.de/en/bernstein-conference/
-END:VEVENT
-BEGIN:VEVENT
 UID:ieee-icmla-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260516T065900Z
@@ -288,15 +267,14 @@ DTEND:20260517T125900Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
   submission deadline
 DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
-  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
- ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
- ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
- Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
- 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
- al 2026 event page was not discoverable. Rome dates and submission milest
- ones are retained as estimates pending the host site.
-URL:https://www.cikmconference.org/
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
+ ial Data\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-08-31\nNotes: Official CIKM 2026 materials confirm Rome\, Nov 7
+ -11\, and the May 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
@@ -306,15 +284,14 @@ DTEND:20260524T125900Z
 SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
  er submission deadline
 DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
-  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
- ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
- ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
- Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
- 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
- al 2026 event page was not discoverable. Rome dates and submission milest
- ones are retained as estimates pending the host site.
-URL:https://www.cikmconference.org/
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
+ ial Data\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-08-31\nNotes: Official CIKM 2026 materials confirm Rome\, Nov 7
+ -11\, and the May 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
 UID:icdm-2026-deadline-full-paper@scientific-conference-calendar
@@ -368,6 +345,26 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
 BEGIN:VEVENT
+UID:bernstein-conference-2026-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20260701T130000Z
+DTEND:20260701T140000Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
+ nference 2026 - Abstract submission deadline
+DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
+ ein-network.de/en/bernstein-conference/\nSource URL: https://bernstein-ne
+ twork.de/en/bernstein-conference/general-information/important-dates-faq/
+ \nLocation: Frankfurt am Main\, Germany\nTopics: Computational Neuroscien
+ ce\, EEG/MEG & Neural Signals\, Machine Learning\, Time Series & Sequenti
+ al Data\nSize: M\nDifficulty: Moderate\nSubmission type: Abstract-based /
+  talks selective\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official Bernstein Conference information confirms Frankfurt am Mai
+ n\, Sep 28-Oct 1\, and the Jul 1 contributed-abstract deadline.
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
 UID:icml-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260706
@@ -396,10 +393,9 @@ DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
  bsite: https://www.cnsorg.org/cns-2026\nSource URL: https://www.cnsorg.or
  g/cns-2026\nLocation: Halifax\, Canada\nTopics: Computational Neuroscienc
  e\, Time Series & Sequential Data\, Machine Learning\nSize: M\nDifficulty
- : Moderate\nSubmission type: Abstract-based\nConfidence: estimated\nLast 
- checked date: 2026-08-20\nNotes: Official CNS* 2026 page confirms Halifax
-  and July 11-15\, 2026. Abstract deadline remains from imported data unti
- l the dedicated important-dates page is rechecked.
+ : Moderate\nSubmission type: Abstract-based\nConfidence: confirmed\nLast 
+ checked date: 2026-08-31\nNotes: Official CNS* 2026 dates page confirms H
+ alifax\, Jul 11-15\, and the Mar 18 extended abstract deadline.
 URL:https://www.cnsorg.org/cns-2026
 LOCATION:Halifax\, Canada
 END:VEVENT
@@ -467,7 +463,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -537,7 +533,7 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
  Topics: Time Series & Sequential Data\, Data Mining & Data Science\, Mach
  ine Learning\, Explainability & Interpretability\nSize: S\nDifficulty: Mo
  derate-hard\nSubmission type: Workshop / paper-based\nConfidence: announc
- ed_no_deadlines\nLast checked date: 2026-08-20\nNotes: Official AALTD and
+ ed_no_deadlines\nLast checked date: 2026-08-31\nNotes: Official AALTD and
   ECML PKDD workshop pages confirm the co-located Naples workshop on Sep 1
  1\; the current schedule does not list a submission deadline.
 URL:https://ecml-aaltd.github.io/aaltd2026/
@@ -590,7 +586,7 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  rning\, Data Mining & Data Science\, Learning Theory & Statistical Founda
  tions\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard
  \nSubmission type: Paper-based / Springer proceedings\nConfidence: not_ye
- t_announced\nLast checked date: 2026-08-20\nNotes: No official LOD 2026 e
+ t_announced\nLast checked date: 2026-08-31\nNotes: No official LOD 2026 e
  vent page was discoverable. The September placeholder follows the 2025 an
  nual cycle and must be replaced when organizers publish the next edition.
 URL:https://lodconference.org/
@@ -608,11 +604,10 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
  twork.de/en/bernstein-conference/\nLocation: Frankfurt am Main\, Germany\
  nTopics: Computational Neuroscience\, EEG/MEG & Neural Signals\, Machine 
  Learning\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate\n
- Submission type: Abstract-based / talks selective\nConfidence: estimated\
- nLast checked date: 2026-08-20\nNotes: Official Bernstein Conference page
-  confirms Frankfurt am Main and Sep 28-Oct 1\, 2026. Abstract deadline re
- mains a proxy estimate until the dedicated important-dates page is rechec
- ked.
+ Submission type: Abstract-based / talks selective\nConfidence: confirmed\
+ nLast checked date: 2026-08-31\nNotes: Official Bernstein Conference info
+ rmation confirms Frankfurt am Main\, Sep 28-Oct 1\, and the Jul 1 contrib
+ uted-abstract deadline.
 URL:https://bernstein-network.de/en/bernstein-conference/
 LOCATION:Frankfurt am Main\, Germany
 END:VEVENT
@@ -664,7 +659,7 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
  sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
- -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ -31\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
 END:VEVENT
@@ -718,27 +713,26 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
  sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
- -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ -31\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261026
-DTEND;VALUE=DATE:20261031
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261112
 SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
  ce
 DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://www.cikmconference.org/\nSource
-  URL: https://www.cikmconference.org/\nLocation: Rome\, Italy\nTopics: Da
- ta Mining & Data Science\, Machine Learning\, Time Series & Sequential Da
- ta\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very hard\n
- Submission type: Paper-based\nConfidence: estimated\nLast checked date: 2
- 026-08-20\nNotes: The CIKM series page was checked\, but a current offici
- al 2026 event page was not discoverable. Rome dates and submission milest
- ones are retained as estimates pending the host site.
-URL:https://www.cikmconference.org/
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
+ ial Data\, Human-AI Interaction & Deployment\nSize: XL\nDifficulty: Very 
+ hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
+ ate: 2026-08-31\nNotes: Official CIKM 2026 materials confirm Rome\, Nov 7
+ -11\, and the May 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
@@ -805,7 +799,7 @@ DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
  .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
  ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
  tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-08-20\nNotes: PAKDD's official seri
+ e: estimated\nLast checked date: 2026-08-31\nNotes: PAKDD's official seri
  es page currently publishes only the 2026 edition. The 2027 conference wi
  ndow and deadline are provisional annual-cycle placeholders pending an of
  ficial host announcement.
@@ -842,7 +836,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -895,7 +889,7 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
  lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
  ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-08-20\nNotes: Official TS4H page confirms the NeurIPS 2026 work
+ ate: 2026-08-31\nNotes: Official TS4H page confirms the NeurIPS 2026 work
  shop\, Sydney location\, and submission deadlines\; exact workshop day is
   listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
  rkshop dates.
@@ -915,10 +909,27 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, H
  ealthcare & Clinical AI\nSize: L\nDifficulty: Moderate-hard\nSubmission t
  ype: Paper-based / mixed tracks\nConfidence: announced_no_deadlines\nLast
-  checked date: 2026-08-20\nNotes: Official IEEE BigData 2026 site confirm
+  checked date: 2026-08-31\nNotes: Official IEEE BigData 2026 site confirm
  s Phoenix and Dec 14-17\; it says CFP-specific deadlines are forthcoming.
 URL:https://bigdataieee.org/BigData2026/
 LOCATION:Phoenix\, Arizona\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270207T225900Z
+DTEND:20270207T235900Z
+SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Paper submiss
+ ion deadline
+DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/call-for-papers/\nLocation: Annecy\, France\nTopics: Signal Processing\
+ , Machine Learning\, Time Series & Sequential Data\, Probabilistic\, Caus
+ al & Uncertainty ML\nSize: M\nDifficulty: Hard\nSubmission type: Paper-ba
+ sed / specialist workshop\nConfidence: confirmed\nLast checked date: 2026
+ -08-31\nNotes: Official IEEE SSP 2027 pages confirm Annecy\, Jun 28-Jul 1
+ \, 2027\, and the Feb 7 paper-submission deadline.
+URL:https://ssp27.ieeesps.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
@@ -933,7 +944,7 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
  ries & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission ty
  pe: Paper-based / interdisciplinary\nConfidence: estimated\nLast checked 
- date: 2026-08-20\nNotes: IDA's official site currently lists the complete
+ date: 2026-08-31\nNotes: IDA's official site currently lists the complete
  d 2026 Leiden edition. Pisa and the Apr 2027 window are provisional next-
  edition information awaiting an official IDA 2027 page.
 URL:https://www.ida-society.org/
@@ -952,7 +963,7 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  stical Foundations\, Machine Learning\, Probabilistic\, Causal & Uncertai
  nty ML\, Time Series & Sequential Data\nSize: L\nDifficulty: Hard\nSubmis
  sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-08
- -20\nNotes: 2027 edition was not found as announced. Dates are estimated 
+ -31\nNotes: 2027 edition was not found as announced. Dates are estimated 
  from AISTATS 2026\, which was held May 2-5\, 2026.
 URL:https://aistats.org/aistats2026/
 LOCATION:TBD
@@ -986,7 +997,7 @@ DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
  .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
  ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
  tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-08-20\nNotes: PAKDD's official seri
+ e: estimated\nLast checked date: 2026-08-31\nNotes: PAKDD's official seri
  es page currently publishes only the 2026 edition. The 2027 conference wi
  ndow and deadline are provisional annual-cycle placeholders pending an of
  ficial host announcement.
@@ -996,23 +1007,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270620
-DTEND;VALUE=DATE:20270624
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270702
 SUMMARY:[Signal Processing][Machine Learning] IEEE SSP 2027 - Conference
 DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
- Website: https://signalprocessingsociety.org/events/call-proposals-statis
- tical-signal-processing-ssp-2027\nSource URL: https://signalprocessingsoc
- iety.org/events/call-proposals-statistical-signal-processing-ssp-2027\nLo
- cation: TBD\nTopics: Signal Processing\, Machine Learning\, Time Series &
-  Sequential Data\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDiff
- iculty: Hard\nSubmission type: Paper-based / specialist workshop\nConfide
- nce: not_yet_announced\nLast checked date: 2026-08-20\nNotes: IEEE SPS ha
- s called for organizers for a four-day SSP 2027 workshop\, but has not ye
- t published host\, dates\, or CFP. The June placeholder is intentionally 
- provisional.
-URL:https://signalprocessingsociety.org/events/call-proposals-statistical-s
- ignal-processing-ssp-2027
-LOCATION:TBD
+ Website: https://ssp27.ieeesps.org/\nSource URL: https://ssp27.ieeesps.or
+ g/\nLocation: Annecy\, France\nTopics: Signal Processing\, Machine Learni
+ ng\, Time Series & Sequential Data\, Probabilistic\, Causal & Uncertainty
+  ML\nSize: M\nDifficulty: Hard\nSubmission type: Paper-based / specialist
+  workshop\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: O
+ fficial IEEE SSP 2027 pages confirm Annecy\, Jun 28-Jul 1\, 2027\, and th
+ e Feb 7 paper-submission deadline.
+URL:https://ssp27.ieeesps.org/
+LOCATION:Annecy\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:itise-2027-conference@scientific-conference-calendar
@@ -1027,7 +1034,7 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
  uential Data\, Machine Learning\, Data Mining & Data Science\, Learning T
  heory & Statistical Foundations\nSize: M\nDifficulty: Moderate-hard\nSubm
  ission type: Paper-based / forecasting-focused\nConfidence: estimated\nLa
- st checked date: 2026-08-20\nNotes: Official ITISE sources list the compl
+ st checked date: 2026-08-31\nNotes: Official ITISE sources list the compl
  eted 2026 Gran Canaria edition. The 2027 date and location are annual-cyc
  le estimates pending an official ITISE 2027 announcement.
 URL:https://itise.ugr.es/index.html
