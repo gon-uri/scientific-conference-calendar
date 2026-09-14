@@ -104,7 +104,7 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
  ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
- ed date: 2026-08-31\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ ed date: 2026-09-14\nNotes: Official BIOMAG 2026 page confirms Beijing an
  d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
  ssion page is rechecked.
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -194,7 +194,7 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
  oscience\, Signal Processing\nSize: M\nDifficulty: Moderate\nSubmission t
  ype: Abstract-based / specialist venue\nConfidence: estimated\nLast check
- ed date: 2026-08-31\nNotes: Official BIOMAG 2026 page confirms Beijing an
+ ed date: 2026-09-14\nNotes: Official BIOMAG 2026 page confirms Beijing an
  d Aug 23-25\, 2026. Abstract deadline remains an estimate until the submi
  ssion page is rechecked.
 URL:https://mm.scimeeting.cn/en/web/index/31426
@@ -240,19 +240,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261113T115900Z
-DTEND:20261113T125900Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Abstract submission deadline
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
- g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
- ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
-  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
- alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
- the abstract deadline remains an estimated prior-cycle proxy.
-URL:https://www.cosyne.org/cosyne-home
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/abstracts
+ -submission\nLocation: Montreal\, Canada\nTopics: Computational Neuroscie
+ nce\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation L
+ earning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / tal
+ ks highly selective\nConfidence: confirmed\nLast checked date: 2026-09-14
+ \nNotes: Official COSYNE 2027 pages confirm Montreal\, Mar 11-16\, and th
+ e Oct 18 abstract submission deadline.
+URL:https://www.cosyne.org/abstracts-submission
 END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-conference@scientific-conference-calendar
@@ -285,7 +285,7 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
  te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
- ted\nLast checked date: 2026-08-31\nNotes: Official OHBM 2027 page confir
+ ted\nLast checked date: 2026-09-14\nNotes: Official OHBM 2027 page confir
  ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
  s December 2026\, so the exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
@@ -317,14 +317,14 @@ DTEND;VALUE=DATE:20270317
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Conference
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
- g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
- ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
-  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
- alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
- the abstract deadline remains an estimated prior-cycle proxy.
-URL:https://www.cosyne.org/cosyne-home
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes: Official CO
+ SYNE 2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract su
+ bmission deadline.
+URL:https://www.cosyne.org/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
@@ -360,7 +360,7 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
  te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
- ted\nLast checked date: 2026-08-31\nNotes: Official OHBM 2027 page confir
+ ted\nLast checked date: 2026-09-14\nNotes: Official OHBM 2027 page confir
  ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
  s December 2026\, so the exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/

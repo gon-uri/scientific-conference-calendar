@@ -39,19 +39,18 @@ END:VEVENT
 BEGIN:VEVENT
 UID:icpr-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20260101T115900Z
-DTEND:20260101T125900Z
+DTSTART:20251221T115900Z
+DTEND:20251221T125900Z
 SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2026 - Paper 
  submission deadline
 DESCRIPTION:Conference title: International Conference on Pattern Recogniti
- on\nWebsite: https://icpr2026.org/\nSource URL: https://iapr.org/docs/new
- sletters/2025-Vol-47-No-3.pdf\nLocation: Lyon\, France\nTopics: Machine L
- earning\, Deep Representation Learning\, Signal Processing\, Biomedical I
- maging\nSize: XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfide
- nce: estimated\nLast checked date: 2026-08-31\nNotes: Official ICPR 2026 
- pages confirm Lyon\, Aug 17-22. The main-paper deadline is retained as an
-  estimate because a current official CFP schedule was not available.
-URL:https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/file
+ s/flyerCallFP.pdf\nLocation: Lyon\, France\nTopics: Machine Learning\, De
+ ep Representation Learning\, Signal Processing\, Biomedical Imaging\nSize
+ : XL\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confirm
+ ed\nLast checked date: 2026-09-14\nNotes: Official ICPR 2026 CFP confirms
+  Lyon\, Aug 17-22\, and the Dec 20\, 2025 main-paper submission deadline.
+URL:https://icpr2026.org/files/flyerCallFP.pdf
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-ecai-2026-deadline-abstract@scientific-conference-calendar
@@ -316,6 +315,25 @@ DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
 URL:https://www.icmla-conference.org/icmla26/callforpapers.html
 END:VEVENT
 BEGIN:VEVENT
+UID:ssspr-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260525T215900Z
+DTEND:20260525T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2026 - Pape
+ r submission deadline
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: Bern\, Switzerland\nTopics: Machi
+ ne Learning\, Deep Representation Learning\, Data Mining & Data Science\,
+  Signal Processing\nSize: M\nDifficulty: Moderate-hard\nSubmission type: 
+ Paper-based / workshop-style conference\nConfidence: confirmed\nLast chec
+ ked date: 2026-09-14\nNotes: Official S+SSPR 2026 pages confirm Bern\, Au
+ g 24-26\, the final May 25 paper deadline\, and the Jul 15 camera-ready d
+ eadline.
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260531T135900Z
@@ -418,6 +436,25 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
  er deadlines.
 URL:https://2026.midl.io/
 LOCATION:Taipei\, Taiwan
+END:VEVENT
+BEGIN:VEVENT
+UID:ssspr-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260715T215900Z
+DTEND:20260715T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2026 - Came
+ ra-ready deadline
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: Bern\, Switzerland\nTopics: Machi
+ ne Learning\, Deep Representation Learning\, Data Mining & Data Science\,
+  Signal Processing\nSize: M\nDifficulty: Moderate-hard\nSubmission type: 
+ Paper-based / workshop-style conference\nConfidence: confirmed\nLast chec
+ ked date: 2026-09-14\nNotes: Official S+SSPR 2026 pages confirm Bern\, Au
+ g 24-26\, the final May 25 paper deadline\, and the Jul 15 camera-ready d
+ eadline.
+URL:https://ssspr2026.inf.unibe.ch/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-abstract@scientific-conference-calendar
@@ -557,10 +594,9 @@ DESCRIPTION:Conference title: International Conference on Pattern Recogniti
  on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
  cation: Lyon\, France\nTopics: Machine Learning\, Deep Representation Lea
  rning\, Signal Processing\, Biomedical Imaging\nSize: XL\nDifficulty: Har
- d\nSubmission type: Paper-based\nConfidence: estimated\nLast checked date
- : 2026-08-31\nNotes: Official ICPR 2026 pages confirm Lyon\, Aug 17-22. T
- he main-paper deadline is retained as an estimate because a current offic
- ial CFP schedule was not available.
+ d\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date
+ : 2026-09-14\nNotes: Official ICPR 2026 CFP confirms Lyon\, Aug 17-22\, a
+ nd the Dec 20\, 2025 main-paper submission deadline.
 URL:https://icpr2026.org/
 LOCATION:Lyon\, France
 END:VEVENT
@@ -574,14 +610,14 @@ SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2026 - Conf
 DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
  ical Techniques in Pattern Recognition and Structural and Syntactic Patte
  rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
- ps://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf\nLocation:
-  Bern\, Switzerland\nTopics: Machine Learning\, Deep Representation Learn
- ing\, Data Mining & Data Science\, Signal Processing\nSize: M\nDifficulty
- : Moderate-hard\nSubmission type: Paper-based / workshop-style conference
- \nConfidence: announced_no_deadlines\nLast checked date: 2026-08-31\nNote
- s: Official S+SSPR 2026 schedule confirms Bern\, Aug 24-26\; the submissi
- on phase is complete and no current deadline is published.
-URL:https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf
+ ps://ssspr2026.inf.unibe.ch/\nLocation: Bern\, Switzerland\nTopics: Machi
+ ne Learning\, Deep Representation Learning\, Data Mining & Data Science\,
+  Signal Processing\nSize: M\nDifficulty: Moderate-hard\nSubmission type: 
+ Paper-based / workshop-style conference\nConfidence: confirmed\nLast chec
+ ked date: 2026-09-14\nNotes: Official S+SSPR 2026 pages confirm Bern\, Au
+ g 24-26\, the final May 25 paper deadline\, and the Jul 15 camera-ready d
+ eadline.
+URL:https://ssspr2026.inf.unibe.ch/
 LOCATION:Bern\, Switzerland
 END:VEVENT
 BEGIN:VEVENT
@@ -710,6 +746,23 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
+ - Abstract submission deadline
+DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/abstracts
+ -submission\nLocation: Montreal\, Canada\nTopics: Computational Neuroscie
+ nce\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation L
+ earning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / tal
+ ks highly selective\nConfidence: confirmed\nLast checked date: 2026-09-14
+ \nNotes: Official COSYNE 2027 pages confirm Montreal\, Mar 11-16\, and th
+ e Oct 18 abstract submission deadline.
+URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261108T115900Z
@@ -725,23 +778,6 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261113T115900Z
-DTEND:20261113T125900Z
-SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
- - Abstract submission deadline
-DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
- g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
- ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
-  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
- alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
- the abstract deadline remains an estimated prior-cycle proxy.
-URL:https://www.cosyne.org/cosyne-home
 END:VEVENT
 BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
@@ -948,14 +984,14 @@ DTEND;VALUE=DATE:20270317
 SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] COSYNE 2027 
  - Conference
 DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
- te: https://www.cosyne.org/cosyne-home\nSource URL: https://www.cosyne.or
- g/cosyne-home\nLocation: Montreal\, Canada\nTopics: Computational Neurosc
- ience\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation
-  Learning\nSize: L\nDifficulty: Hard\nSubmission type: Abstract-based / t
- alks highly selective\nConfidence: estimated\nLast checked date: 2026-08-
- 31\nNotes: Official COSYNE page confirms Montreal and Mar 11-16\, 2027\; 
- the abstract deadline remains an estimated prior-cycle proxy.
-URL:https://www.cosyne.org/cosyne-home
+ te: https://www.cosyne.org/\nSource URL: https://www.cosyne.org/\nLocatio
+ n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
+ al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nDi
+ fficulty: Hard\nSubmission type: Abstract-based / talks highly selective\
+ nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes: Official CO
+ SYNE 2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract su
+ bmission deadline.
+URL:https://www.cosyne.org/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
@@ -1024,7 +1060,7 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
  Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
-  date: 2026-08-31\nNotes: The latest official proceedings are for ACPR 20
+  date: 2026-09-14\nNotes: The latest official proceedings are for ACPR 20
  25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
  R host announcement is published.
 URL:https://link.springer.com/conference/acpr

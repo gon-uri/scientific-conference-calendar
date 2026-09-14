@@ -165,14 +165,15 @@
   year: 2027
   title: "International Conference on Artificial Intelligence and Statistics"
   short_title: "AISTATS 2027"
-  website: "https://aistats.org/"
-  cfp_url: "https://aistats.org/"
+  website: "https://aistats.org/aistats2027/index.html"
+  cfp_url: "https://aistats.org/aistats2027/dates.html"
   source_urls:
-    - "https://aistats.org/aistats2026/"
-  location: "TBD"
+    - "https://aistats.org/aistats2027/index.html"
+    - "https://aistats.org/aistats2027/dates.html"
+  location: "Montreal, Quebec, Canada"
   mode: "in-person"
-  conference_start: "2027-05-01"
-  conference_end: "2027-05-04"
+  conference_start: "2027-05-03"
+  conference_end: "2027-05-06"
   timezone: "Etc/GMT+12"
   topics:
     - "Learning Theory & Statistical Foundations"
@@ -186,15 +187,15 @@
   deadlines:
     - type: "abstract"
       label: "Abstract submission deadline"
-      datetime: "2026-10-02T23:59:00-12:00"
-      source_url: "https://aistats.org/aistats2026/"
+      datetime: "2026-09-29T23:59:00-12:00"
+      source_url: "https://aistats.org/aistats2027/dates.html"
     - type: "full_paper"
       label: "Full paper submission deadline"
-      datetime: "2026-10-09T23:59:00-12:00"
-      source_url: "https://aistats.org/aistats2026/"
-  last_checked: "2026-08-31"
-  confidence: "estimated"
-  notes: "2027 edition was not found as announced. Dates are estimated from AISTATS 2026, which was held May 2-5, 2026."
+      datetime: "2026-10-06T23:59:00-12:00"
+      source_url: "https://aistats.org/aistats2027/dates.html"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official AISTATS 2027 pages confirm Montreal, May 3-6, 2027, and the Sep 29 abstract and Oct 6 full-paper deadlines (AoE)."
 
 - id: "uai-2026"
   series: "UAI"
@@ -263,7 +264,7 @@
       label: "Workshop/tutorial/community proposal deadline"
       datetime: "2027-05-06T23:59:00-12:00"
       source_url: "https://learningtheory.org/colt2027/"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2, 2027; submission milestones remain estimates until the current CFP publishes them."
 
@@ -588,7 +589,7 @@
       label: "Camera-ready deadline"
       datetime: "2026-11-27T23:59:00-12:00"
       source_url: "https://timeseries4health.github.io/"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official TS4H page confirms the NeurIPS 2026 workshop, Sydney location, and submission deadlines; exact workshop day is listed only as December 2026, so Dec 11 remains a proxy from NeurIPS workshop dates."
 
@@ -778,7 +779,7 @@
       label: "1-page poster submission deadline"
       datetime: "2026-04-15T23:59:00-04:00"
       source_url: "https://embc.embs.org/2026/key-dates/"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official EMBC page confirms conference dates. Submission dates were already marked closed on the official key-dates page, so the deadline is a proxy and should be backfilled when archival CFP data is available."
 
@@ -853,10 +854,11 @@
   year: 2027
   title: "Computational and Systems Neuroscience"
   short_title: "COSYNE 2027"
-  website: "https://www.cosyne.org/cosyne-home"
-  cfp_url: "https://www.cosyne.org/abstract-submission"
+  website: "https://www.cosyne.org/"
+  cfp_url: "https://www.cosyne.org/abstracts-submission"
   source_urls:
-    - "https://www.cosyne.org/cosyne-home"
+    - "https://www.cosyne.org/"
+    - "https://www.cosyne.org/abstracts-submission"
   location: "Montreal, Canada"
   mode: "in-person"
   conference_start: "2027-03-11"
@@ -874,11 +876,11 @@
   deadlines:
     - type: "abstract"
       label: "Abstract submission deadline"
-      datetime: "2026-11-12T23:59:00-12:00"
-      source_url: "https://www.cosyne.org/cosyne-home"
-  last_checked: "2026-08-31"
-  confidence: "estimated"
-  notes: "Official COSYNE page confirms Montreal and Mar 11-16, 2027; the abstract deadline remains an estimated prior-cycle proxy."
+      datetime: "2026-10-18T23:59:00-12:00"
+      source_url: "https://www.cosyne.org/abstracts-submission"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official COSYNE 2027 pages confirm Montreal, Mar 11-16, and the Oct 18 abstract submission deadline."
 
 - id: "ccn-2026"
   series: "CCN"
@@ -1015,7 +1017,7 @@
       label: "Abstract submission deadline"
       datetime: "2026-12-15T23:59:00-12:00"
       source_url: "https://humanbrainmapping.org/ohbm-2027/"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official OHBM 2027 page confirms Toronto and Jun 26-30, 2027; it publishes the abstract window only as December 2026, so the exact deadline remains estimated."
 
@@ -1044,7 +1046,7 @@
   submission_type: "Paper-based / engineering-focused"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "announced_no_deadlines"
   notes: "The official IEEE EMBS announcement confirms Milan, Sep 7-10, 2027. A conference CFP and submission schedule are not yet published."
 
@@ -1108,7 +1110,7 @@
       label: "Abstract submission deadline"
       datetime: "2026-04-30T23:59:00-12:00"
       source_url: "https://mm.scimeeting.cn/en/web/index/31426"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official BIOMAG 2026 page confirms Beijing and Aug 23-25, 2026. Abstract deadline remains an estimate until the submission page is rechecked."
 
@@ -1315,7 +1317,7 @@
       label: "Paper submission deadline"
       datetime: "2026-11-15T23:59:00-12:00"
       source_url: "https://pakdd.org/"
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "PAKDD's official series page currently publishes only the 2026 edition. The 2027 conference window and deadline are provisional annual-cycle placeholders pending an official host announcement."
 
@@ -1398,9 +1400,11 @@
   title: "IEEE International Conference on Big Data"
   short_title: "IEEE BigData 2026"
   website: "https://bigdataieee.org/BigData2026/"
-  cfp_url: "https://bigdataieee.org/BigData2026/"
+  cfp_url: "https://bigdataieee.org/BigData2026/calls/papers/"
   source_urls:
     - "https://bigdataieee.org/BigData2026/"
+    - "https://bigdataieee.org/BigData2026/calls/papers/"
+    - "https://bigdataieee.org/BigData2026/important-dates/"
   location: "Phoenix, Arizona, USA"
   mode: "in-person"
   conference_start: "2026-12-14"
@@ -1415,10 +1419,18 @@
   difficulty: "Moderate-hard"
   submission_type: "Paper-based / mixed tracks"
   relevance: "high"
-  deadlines: []
-  last_checked: "2026-08-31"
-  confidence: "announced_no_deadlines"
-  notes: "Official IEEE BigData 2026 site confirms Phoenix and Dec 14-17; it says CFP-specific deadlines are forthcoming."
+  deadlines:
+    - type: "full_paper"
+      label: "Full paper submission deadline"
+      datetime: "2026-08-21T23:59:00-07:00"
+      source_url: "https://bigdataieee.org/BigData2026/important-dates/"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-11-14T23:59:00-07:00"
+      source_url: "https://bigdataieee.org/BigData2026/important-dates/"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official IEEE BigData 2026 CFP confirms Phoenix, Dec 14-17, the Aug 21 full-paper deadline, and the Nov 14 camera-ready deadline."
 
 - id: "discovery-science-2026"
   series: "Discovery Science"
@@ -1476,7 +1488,7 @@
   submission_type: "Paper-based / interdisciplinary"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "IDA's official site currently lists the completed 2026 Leiden edition. Pisa and the Apr 2027 window are provisional next-edition information awaiting an official IDA 2027 page."
 
@@ -1646,9 +1658,10 @@
   title: "International Conference on Pattern Recognition"
   short_title: "ICPR 2026"
   website: "https://icpr2026.org/"
-  cfp_url: "https://icpr2026.org/"
+  cfp_url: "https://icpr2026.org/files/flyerCallFP.pdf"
   source_urls:
     - "https://icpr2026.org/"
+    - "https://icpr2026.org/files/flyerCallFP.pdf"
   location: "Lyon, France"
   mode: "in-person"
   conference_start: "2026-08-17"
@@ -1666,11 +1679,11 @@
   deadlines:
     - type: "full_paper"
       label: "Paper submission deadline"
-      datetime: "2025-12-31T23:59:00-12:00"
-      source_url: "https://iapr.org/docs/newsletters/2025-Vol-47-No-3.pdf"
-  last_checked: "2026-08-31"
-  confidence: "estimated"
-  notes: "Official ICPR 2026 pages confirm Lyon, Aug 17-22. The main-paper deadline is retained as an estimate because a current official CFP schedule was not available."
+      datetime: "2025-12-20T23:59:00-12:00"
+      source_url: "https://icpr2026.org/files/flyerCallFP.pdf"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official ICPR 2026 CFP confirms Lyon, Aug 17-22, and the Dec 20, 2025 main-paper submission deadline."
 
 - id: "acpr-2027"
   series: "ACPR"
@@ -1696,7 +1709,7 @@
   submission_type: "Paper-based"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "not_yet_announced"
   notes: "The latest official proceedings are for ACPR 2025. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACPR host announcement is published."
 
@@ -1708,7 +1721,7 @@
   website: "https://ssspr2026.inf.unibe.ch/"
   cfp_url: "https://ssspr2026.inf.unibe.ch/"
   source_urls:
-    - "https://ssspr2026.inf.unibe.ch/download/S%2BSSPR_Schedule_0.4.pdf"
+    - "https://ssspr2026.inf.unibe.ch/"
   location: "Bern, Switzerland"
   mode: "in-person"
   conference_start: "2026-08-24"
@@ -1723,10 +1736,18 @@
   difficulty: "Moderate-hard"
   submission_type: "Paper-based / workshop-style conference"
   relevance: "high"
-  deadlines: []
-  last_checked: "2026-08-31"
-  confidence: "announced_no_deadlines"
-  notes: "Official S+SSPR 2026 schedule confirms Bern, Aug 24-26; the submission phase is complete and no current deadline is published."
+  deadlines:
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-05-25T23:59:00+02:00"
+      source_url: "https://ssspr2026.inf.unibe.ch/"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-07-15T23:59:00+02:00"
+      source_url: "https://ssspr2026.inf.unibe.ch/"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official S+SSPR 2026 pages confirm Bern, Aug 24-26, the final May 25 paper deadline, and the Jul 15 camera-ready deadline."
 
 - id: "ieee-icmla-2026"
   series: "IEEE ICMLA"
@@ -1849,7 +1870,7 @@
   submission_type: "Paper-based / Springer proceedings"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "not_yet_announced"
   notes: "No official LOD 2026 event page was discoverable. The September placeholder follows the 2025 annual cycle and must be replaced when organizers publish the next edition."
 
@@ -1926,9 +1947,10 @@
   title: "Workshop on Advanced Analytics and Learning on Temporal Data"
   short_title: "AALTD 2026"
   website: "https://ecml-aaltd.github.io/aaltd2026/"
-  cfp_url: "https://ecml-aaltd.github.io/aaltd2026/"
+  cfp_url: "https://ecml-aaltd.github.io/aaltd2026/dates.html"
   source_urls:
     - "https://ecml-aaltd.github.io/aaltd2026/"
+    - "https://ecml-aaltd.github.io/aaltd2026/dates.html"
     - "https://ecmlpkdd.org/2026/workshops-tutorials/"
   location: "Naples, Italy"
   mode: "in-person"
@@ -1944,10 +1966,22 @@
   difficulty: "Moderate-hard"
   submission_type: "Workshop / paper-based"
   relevance: "high"
-  deadlines: []
-  last_checked: "2026-08-31"
-  confidence: "announced_no_deadlines"
-  notes: "Official AALTD and ECML PKDD workshop pages confirm the co-located Naples workshop on Sep 11; the current schedule does not list a submission deadline."
+  deadlines:
+    - type: "abstract"
+      label: "Abstract submission deadline"
+      datetime: "2026-06-05T23:59:00-07:00"
+      source_url: "https://ecml-aaltd.github.io/aaltd2026/dates.html"
+    - type: "full_paper"
+      label: "Paper submission deadline"
+      datetime: "2026-06-12T23:59:00-07:00"
+      source_url: "https://ecml-aaltd.github.io/aaltd2026/dates.html"
+    - type: "camera_ready"
+      label: "Camera-ready deadline"
+      datetime: "2026-08-17T23:59:00-07:00"
+      source_url: "https://ecml-aaltd.github.io/aaltd2026/dates.html"
+  last_checked: "2026-09-14"
+  confidence: "confirmed"
+  notes: "Official AALTD 2026 pages confirm the Sep 11 Naples workshop and its Jun 5 abstract, Jun 12 paper, and Aug 17 camera-ready milestones (Pacific Time)."
 
 - id: "itise-2027"
   series: "ITISE"
@@ -1973,7 +2007,7 @@
   submission_type: "Paper-based / forecasting-focused"
   relevance: "high"
   deadlines: []
-  last_checked: "2026-08-31"
+  last_checked: "2026-09-14"
   confidence: "estimated"
   notes: "Official ITISE sources list the completed 2026 Gran Canaria edition. The 2027 date and location are annual-cycle estimates pending an official ITISE 2027 announcement."
 

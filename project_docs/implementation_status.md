@@ -1,14 +1,14 @@
 # Implementation Status
 
-Last synchronized: 2026-08-31
+Last synchronized: 2026-09-14
 
 ## Feature Checklist
 
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata. The 59-record catalog was refreshed on 2026-08-31 against `data/core_conferences_normalized_tags.xlsx` and official conference websites, adding EACL and newly published details for incomplete editions.
-- Files modified: `data/conferences.yml`, `data/core_conferences_normalized_tags.xlsx`, `data/metadata.yml`, `data/topics.yml`
+- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata. The 59-record catalog was refreshed on 2026-09-14 against official organizer websites, promoting six formerly provisional records when their schedules became available and rechecking every remaining provisional edition.
+- Files modified: `data/conferences.yml`, `data/metadata.yml`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
 - Known issues: Many future editions are intentionally marked `estimated`; they need periodic review and source confirmation.

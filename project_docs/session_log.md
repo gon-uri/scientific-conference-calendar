@@ -1,5 +1,28 @@
 # Session Log
 
+## 2026-09-14
+
+- Objective: Refresh canonical upcoming-edition data from official organizer sources and publish the rebuilt static calendar.
+- Tasks completed:
+  - Rechecked all 17 records that were previously marked provisional against their official event or series pages.
+  - Promoted AISTATS 2027, COSYNE 2027, IEEE BigData 2026, ICPR 2026, S+SSPR 2026, and AALTD 2026 to `confirmed` after organizers published their schedules and submission milestones.
+  - Corrected dates, locations, CFP URLs, source URLs, and deadlines where official material superseded prior-cycle estimates.
+  - Preserved 11 entries as `estimated`, `announced_no_deadlines`, or `not_yet_announced` where organizers still have not published sufficient future information, while updating their `last_checked` review metadata.
+- Files modified:
+  - `data/conferences.yml`
+  - `data/metadata.yml`
+  - `project_docs/implementation_status.md`
+  - `project_docs/roadmap.md`
+  - `project_docs/architecture.md`
+  - `project_docs/session_log.md`
+- Tests run:
+  - `python3 -B scripts/validate.py` passed and validated 59 conferences before output generation.
+  - `python3 -B scripts/build_all.py` passed and regenerated `docs/index.html` plus all aggregate, topic, and per-conference ICS feeds.
+  - An integrity check confirmed the six newly verified records are `confirmed` and all 11 remaining provisional records were reviewed on 2026-09-14.
+- Remaining tasks:
+  - Continue periodic reviews of the 11 intentionally provisional future editions.
+- Suggested next step: Continue periodic official-source reviews for the 11 intentionally provisional entries.
+
 ## 2026-08-31
 
 - Objective: Verify the IJCAI-ECAI and EACL catalog coverage and refresh incomplete upcoming-edition information from organizer sources.
