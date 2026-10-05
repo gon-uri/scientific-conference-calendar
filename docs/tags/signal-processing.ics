@@ -5,6 +5,25 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Signal Processing
 BEGIN:VEVENT
+UID:ts4h-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2025
+  - Conference
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
+  Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
+ sing\, Explainability & Interpretability\nSize: S\nDifficulty: Moderate-h
+ ard\nSubmission type: Workshop / paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-10-05\nNotes: Official TS4H page describes the comple
+ ted NeurIPS 2025 workshop. No TS4H 2026 edition appears on the official N
+ eurIPS 2026 workshop list\; the former 2026 placeholder has been retired.
+URL:https://timeseries4health.github.io/
+LOCATION:San Diego\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:icpr-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20251221T115900Z
@@ -219,25 +238,6 @@ URL:https://icpr2026.org/
 LOCATION:Lyon\, France
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260820T115900Z
-DTEND:20260820T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Submission deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:biomag-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260823
@@ -398,45 +398,6 @@ URL:https://www.iconip2026.org/
 LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261128T115900Z
-DTEND:20261128T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Camera-ready deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-END:VEVENT
-BEGIN:VEVENT
-UID:ts4h-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Conference
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-LOCATION:Sydney\, Australia
-END:VEVENT
-BEGIN:VEVENT
 UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115900Z
@@ -586,7 +547,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
   Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
  Difficulty: Moderate-hard\nSubmission type: Paper-based / engineering-foc
- used\nConfidence: announced_no_deadlines\nLast checked date: 2026-09-14\n
+ used\nConfidence: announced_no_deadlines\nLast checked date: 2026-10-05\n
  Notes: The official IEEE EMBS announcement confirms Milan\, Sep 7-10\, 20
  27. A conference CFP and submission schedule are not yet published.
 URL:https://ieee-ner.org/
@@ -604,7 +565,7 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
  Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
-  date: 2026-09-14\nNotes: The latest official proceedings are for ACPR 20
+  date: 2026-10-05\nNotes: The latest official proceedings are for ACPR 20
  25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
  R host announcement is published.
 URL:https://link.springer.com/conference/acpr

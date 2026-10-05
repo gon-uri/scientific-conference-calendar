@@ -5,6 +5,40 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conference Deadlines
 BEGIN:VEVENT
+UID:ida-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251122T115959Z
+DTEND:20251122T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251129T115959Z
+DTEND:20251129T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Regular p
+ aper submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:midl-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20251204T115900Z
@@ -174,6 +208,23 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  nNotes: Official CHIL pages list conference dates\, location\, and submis
  sion timeline.
 URL:https://chil.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260207T115959Z
+DTEND:20260207T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
@@ -1067,25 +1118,6 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260820T115900Z
-DTEND:20260820T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Submission deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:icdm-2026-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260821T115900Z
@@ -1169,6 +1201,26 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  0\nNotes: Official ML4H 2026 pages list symposium dates\, location\, and 
  paper deadline.
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Workshop paper submission deadline
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
+  Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
+ ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
+ e: S\nDifficulty: Moderate-hard\nSubmission type: Workshop / non-archival
+  short paper\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes
+ : Confirmed one-day NeurIPS 2026 workshop. NeurIPS will assign either Dec
+  11 or Dec 12\; Dec 11 is a calendar placeholder\, not a confirmed worksh
+ op day. The Nov 6 camera-ready date is tentative and is not listed as a d
+ eadline.
+URL:https://fmts-workshop.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:icassp-2027-deadline-full-paper@scientific-conference-calendar
@@ -1413,24 +1465,6 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
-UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261116T115900Z
-DTEND:20261116T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Paper s
- ubmission deadline
-DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
- y and Data Mining\nWebsite: https://pakdd.org/\nSource URL: https://pakdd
- .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
- ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
- tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-09-14\nNotes: PAKDD's official seri
- es page currently publishes only the 2026 edition. The 2027 conference wi
- ndow and deadline are provisional annual-cycle placeholders pending an of
- ficial host announcement.
-URL:https://pakdd.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261118T225900Z
@@ -1448,23 +1482,22 @@ DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
 URL:https://www.esann.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-camera-ready@scientific-conference-calendar
+UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20261128T115900Z
-DTEND:20261128T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Camera-ready deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
+DTSTART:20261121T115900Z
+DTEND:20261121T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Paper s
+ ubmission deadline
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd2027.org/\nSource URL: https://p
+ akdd2027.org/pages/calls/research\nLocation: Wellington\, New Zealand\nTo
+ pics: Data Mining & Data Science\, Machine Learning\, Time Series & Seque
+ ntial Data\, Learning Theory & Statistical Foundations\nSize: L\nDifficul
+ ty: Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast check
+ ed date: 2026-10-05\nNotes: Official PAKDD 2027 site confirms Wellington\
+ , Jun 29-Jul 2\, and Nov 20 research-track submission and Mar 19 camera-r
+ eady deadlines\, all AoE.
+URL:https://pakdd2027.org/pages/calls/research
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
@@ -1496,10 +1529,29 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
  te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
- ted\nLast checked date: 2026-09-14\nNotes: Official OHBM 2027 page confir
+ ted\nLast checked date: 2026-10-05\nNotes: Official OHBM 2027 page confir
  ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
  s December 2026\, so the exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:itise-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270115T235900Z
+DTEND:20270116T005900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
+ r or abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
+ /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
+ ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
+ Learning Theory & Statistical Foundations\nSize: M\nDifficulty: Moderate-
+ hard\nSubmission type: Paper-based / forecasting-focused\nConfidence: est
+ imated\nLast checked date: 2026-10-05\nNotes: Official ITISE 2027 page co
+ nfirms Gran Canaria\, Jul 14-16\, and a Jan 15 paper/abstract submission 
+ date. The site does not specify the cutoff hour or timezone\; 23:59 Canar
+ y time is a calendar proxy\, so this entry remains estimated.
+URL:https://itise.ugr.es/index.html
 END:VEVENT
 BEGIN:VEVENT
 UID:international-bci-meeting-2027-deadline-abstract@scientific-conference-
@@ -1519,6 +1571,24 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  nal BCI Meeting in Sibenik\, Croatia\, June 7-10\, 2027\, with poster/ora
  l abstract submission due Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Abstract s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
@@ -1566,7 +1636,7 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
  Foundations\, Machine Learning\nSize: M\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / theory-focused\nConfidence: estimated\nLast checked
-  date: 2026-09-14\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
+  date: 2026-10-05\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
  28-Jul 2\, 2027\; submission milestones remain estimates until the curren
  t CFP publishes them.
 URL:https://learningtheory.org/colt2027/
@@ -1589,6 +1659,60 @@ DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
 URL:https://ssp27.ieeesps.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Full paper
+  submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Camera-
+ ready deadline
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd2027.org/\nSource URL: https://p
+ akdd2027.org/pages/dates\nLocation: Wellington\, New Zealand\nTopics: Dat
+ a Mining & Data Science\, Machine Learning\, Time Series & Sequential Dat
+ a\, Learning Theory & Statistical Foundations\nSize: L\nDifficulty: Hard\
+ nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-05\nNotes: Official PAKDD 2027 site confirms Wellington\, Jun 29-
+ Jul 2\, and Nov 20 research-track submission and Mar 19 camera-ready dead
+ lines\, all AoE.
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Camera-rea
+ dy submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270507T115900Z
@@ -1600,7 +1724,7 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
  Foundations\, Machine Learning\nSize: M\nDifficulty: Very hard\nSubmissio
  n type: Paper-based / theory-focused\nConfidence: estimated\nLast checked
-  date: 2026-09-14\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
+  date: 2026-10-05\nNotes: Official COLT 2027 page confirms Tokyo and Jun 
  28-Jul 2\, 2027\; submission milestones remain estimates until the curren
  t CFP publishes them.
 URL:https://learningtheory.org/colt2027/

@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-09-14
+Last synchronized: 2026-10-05
 
 ## Milestones
 
@@ -35,6 +35,14 @@ Last synchronized: 2026-09-14
 - Dependencies: `scripts/build_site.py`, generated `docs/index.html`, committed ICS feeds.
 - Estimated complexity: Medium
 - Completion status: Completed for current scope
+
+### Conference Ranking Column
+
+- Goal: Show a sourced conference-series ranking after Difficulty without implying that workshops or unlisted venues inherit a parent conference's rank.
+- Priority: Medium
+- Dependencies: User selection of a ranking source; series-level mapping, source/year metadata, and a blank state for uncovered venues.
+- Estimated complexity: Medium
+- Completion status: Proposed; ICORE 2026 recommended, awaiting user decision.
 
 ### Calendar Feed Reliability
 

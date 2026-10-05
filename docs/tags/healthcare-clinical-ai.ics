@@ -21,6 +21,25 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
 URL:https://2026.midl.io/dates
 END:VEVENT
 BEGIN:VEVENT
+UID:ts4h-2025-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20251207
+DTEND;VALUE=DATE:20251208
+SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2025
+  - Conference
+DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
+ \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
+ series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
+  Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
+ sing\, Explainability & Interpretability\nSize: S\nDifficulty: Moderate-h
+ ard\nSubmission type: Workshop / paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-10-05\nNotes: Official TS4H page describes the comple
+ ted NeurIPS 2025 workshop. No TS4H 2026 edition appears on the official N
+ eurIPS 2026 workshop list\; the former 2026 placeholder has been retired.
+URL:https://timeseries4health.github.io/
+LOCATION:San Diego\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:midl-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20251211T115900Z
@@ -453,25 +472,6 @@ URL:https://www.auai.org/uai2026/
 LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-short-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260820T115900Z
-DTEND:20260820T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Submission deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:icdm-2026-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260821T115900Z
@@ -734,25 +734,6 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
-UID:ts4h-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261128T115900Z
-DTEND:20261128T125900Z
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Camera-ready deadline
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
-END:VEVENT
-BEGIN:VEVENT
 UID:ml4h-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261206
@@ -766,26 +747,6 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
  onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ML4H
   2026 pages list symposium dates\, location\, and paper deadline.
 URL:https://ml4h.ahli.cc/
-LOCATION:Sydney\, Australia
-END:VEVENT
-BEGIN:VEVENT
-UID:ts4h-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261211
-DTEND;VALUE=DATE:20261212
-SUMMARY:[Time Series & Sequential Data][Healthcare & Clinical AI] TS4H 2026
-  - Conference
-DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
- \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
- series4health.github.io/\nLocation: Sydney\, Australia\nTopics: Time Seri
- es & Sequential Data\, Healthcare & Clinical AI\, Signal Processing\, Exp
- lainability & Interpretability\nSize: S\nDifficulty: Moderate-hard\nSubmi
- ssion type: Workshop / paper-based\nConfidence: estimated\nLast checked d
- ate: 2026-09-14\nNotes: Official TS4H page confirms the NeurIPS 2026 work
- shop\, Sydney location\, and submission deadlines\; exact workshop day is
-  listed only as December 2026\, so Dec 11 remains a proxy from NeurIPS wo
- rkshop dates.
-URL:https://timeseries4health.github.io/
 LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
@@ -838,10 +799,28 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
  te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
- ted\nLast checked date: 2026-09-14\nNotes: Official OHBM 2027 page confir
+ ted\nLast checked date: 2026-10-05\nNotes: Official OHBM 2027 page confir
  ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
  s December 2026\, so the exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Abstract s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:isbi-2027-deadline-abstract@scientific-conference-calendar
@@ -859,6 +838,42 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
   ISBI 2027 page lists Lausanne\, May 25-28\, and the four-page paper and 
  one-page abstract deadlines.
 URL:https://biomedicalimaging.org/2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Full paper
+  submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Camera-rea
+ dy submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
@@ -926,11 +941,29 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
   Clinical AI\, Computational Neuroscience\nSize: L/XL\nDifficulty: Modera
  te\nSubmission type: Abstract-based / talks selective\nConfidence: estima
- ted\nLast checked date: 2026-09-14\nNotes: Official OHBM 2027 page confir
+ ted\nLast checked date: 2026-10-05\nNotes: Official OHBM 2027 page confir
  ms Toronto and Jun 26-30\, 2027\; it publishes the abstract window only a
  s December 2026\, so the exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
 LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270709
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/\nLocation: Amsterdam\, Netherlands\nTopi
+ cs: Healthcare & Clinical AI\, Machine Learning\, Biomedical Imaging\, Pr
+ obabilistic\, Causal & Uncertainty ML\nSize: M\nDifficulty: Moderate-hard
+ \nSubmission type: Paper-based / clinical AI\nConfidence: confirmed\nLast
+  checked date: 2026-10-05\nNotes: Official AIME 2027 pages confirm Amster
+ dam\, Jul 5-8 (main conference Jul 6-7)\, and the abstract\, paper\, and 
+ camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/
+LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
@@ -944,7 +977,7 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
   Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
  Difficulty: Moderate-hard\nSubmission type: Paper-based / engineering-foc
- used\nConfidence: announced_no_deadlines\nLast checked date: 2026-09-14\n
+ used\nConfidence: announced_no_deadlines\nLast checked date: 2026-10-05\n
  Notes: The official IEEE EMBS announcement confirms Milan\, Sep 7-10\, 20
  27. A conference CFP and submission schedule are not yet published.
 URL:https://ieee-ner.org/

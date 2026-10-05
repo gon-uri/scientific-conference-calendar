@@ -1,5 +1,17 @@
 # Session Log
 
+## 2026-10-05
+
+- Objective: Add IDA, AIME, and FMTS editions; refresh the conference calendar; research ranking sources for a possible website column.
+- Tasks completed:
+  - Added official IDA 2026, AIME 2027, and FMTS @ NeurIPS 2026 records with source URLs, topics, metadata, and submission deadlines.
+  - Corrected PAKDD 2027 dates, venue, submission and camera-ready deadlines from its official site; updated ITISE 2027 with its announced dates and a date-only submission deadline whose hour remains estimated.
+  - Rechecked the incomplete upcoming COLT, OHBM, IEEE NER, IDA 2027, ACPR, and TS4H entries. The first five remain incomplete; the TS4H 2026 record was replaced with the documented 2025 edition because no 2026 workshop was announced.
+  - Synchronized the series-level workbook, updated site metadata, and researched ICORE, CCF, and Google Scholar Metrics. Recommended ICORE 2026 for a future column, pending user selection.
+- Tests run: `python3 -B scripts/validate.py` and `python3 -B scripts/build_all.py`; checked generated site and ICS outputs and workbook rendering.
+- Remaining tasks: Recheck FMTS's exact workshop day, IDA 2027's exact dates, and the provisional upcoming deadlines as organizers publish them. Add a ranking column only after the user selects a source.
+
+
 ## 2026-09-14
 
 - Objective: Refresh canonical upcoming-edition data from official organizer sources and publish the rebuilt static calendar.

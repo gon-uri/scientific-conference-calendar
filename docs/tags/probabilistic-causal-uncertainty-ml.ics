@@ -6,6 +6,40 @@ METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Probabilistic\, Causal & Uncertainty M
  L
 BEGIN:VEVENT
+UID:ida-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251122T115959Z
+DTEND:20251122T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251129T115959Z
+DTEND:20251129T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Regular p
+ aper submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:chil-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260205T115900Z
@@ -21,6 +55,23 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  nNotes: Official CHIL pages list conference dates\, location\, and submis
  sion timeline.
 URL:https://chil.ahli.cc/submit/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260207T115959Z
+DTEND:20260207T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2026-deadline-full-paper@scientific-conference-calendar
@@ -54,6 +105,24 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  fidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHIL p
  ages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260425
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/\
+ nLocation: Leiden\, Netherlands\nTopics: Data Mining & Data Science\, Mac
+ hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
+ equential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-10-05\nNotes: Official IDA 2026 regular track confirms Leiden\, Apr 22
+ -24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/
+LOCATION:Leiden\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2026-conference@scientific-conference-calendar
@@ -108,6 +177,26 @@ URL:https://www.auai.org/uai2026/
 LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
+UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Workshop paper submission deadline
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
+  Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
+ ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
+ e: S\nDifficulty: Moderate-hard\nSubmission type: Workshop / non-archival
+  short paper\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes
+ : Confirmed one-day NeurIPS 2026 workshop. NeurIPS will assign either Dec
+  11 or Dec 12\; Dec 11 is a calendar placeholder\, not a confirmed worksh
+ op day. The Nov 6 camera-ready date is tentative and is not listed as a d
+ eadline.
+URL:https://fmts-workshop.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
 UID:aistats-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260930T115900Z
@@ -144,6 +233,44 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
 URL:https://aistats.org/aistats2027/dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:fmts-neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Conference
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
+ ia\nTopics: Time Series & Sequential Data\, Machine Learning\, Deep Repre
+ sentation Learning\, Probabilistic\, Causal & Uncertainty ML\nSize: S\nDi
+ fficulty: Moderate-hard\nSubmission type: Workshop / non-archival short p
+ aper\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes: Confir
+ med one-day NeurIPS 2026 workshop. NeurIPS will assign either Dec 11 or D
+ ec 12\; Dec 11 is a calendar placeholder\, not a confirmed workshop day. 
+ The Nov 6 camera-ready date is tentative and is not listed as a deadline.
+URL:https://fmts-workshop.github.io/
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Abstract s
+ ubmission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ssp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270207T225900Z
@@ -161,6 +288,24 @@ DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
 URL:https://ssp27.ieeesps.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270208T115900Z
+DTEND:20270208T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Full paper
+  submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
@@ -173,9 +318,9 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
  ries & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission ty
  pe: Paper-based / interdisciplinary\nConfidence: estimated\nLast checked 
- date: 2026-09-14\nNotes: IDA's official site currently lists the complete
- d 2026 Leiden edition. Pisa and the Apr 2027 window are provisional next-
- edition information awaiting an official IDA 2027 page.
+ date: 2026-10-05\nNotes: The official IDA Society site confirms Pisa\, It
+ aly\, in April 2027\, but does not yet give exact days or a CFP. Apr 21-2
+ 3 is a provisional calendar placeholder.
 URL:https://www.ida-society.org/
 LOCATION:Pisa\, Italy
 END:VEVENT
@@ -199,6 +344,24 @@ URL:https://aistats.org/aistats2027/index.html
 LOCATION:Montreal\, Quebec\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:aime-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Camera-rea
+ dy submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/call-for-papers/\nLocation: Amsterdam\, N
+ etherlands\nTopics: Healthcare & Clinical AI\, Machine Learning\, Biomedi
+ cal Imaging\, Probabilistic\, Causal & Uncertainty ML\nSize: M\nDifficult
+ y: Moderate-hard\nSubmission type: Paper-based / clinical AI\nConfidence:
+  confirmed\nLast checked date: 2026-10-05\nNotes: Official AIME 2027 page
+ s confirm Amsterdam\, Jul 5-8 (main conference Jul 6-7)\, and the abstrac
+ t\, paper\, and camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ssp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270628
@@ -214,5 +377,23 @@ DESCRIPTION:Conference title: IEEE Statistical Signal Processing Workshop\n
  e Feb 7 paper-submission deadline.
 URL:https://ssp27.ieeesps.org/
 LOCATION:Annecy\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:aime-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270709
+SUMMARY:[Healthcare & Clinical AI][Machine Learning] AIME 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Intell
+ igence in Medicine\nWebsite: https://aime27.aimedicine.info/\nSource URL:
+  https://aime27.aimedicine.info/\nLocation: Amsterdam\, Netherlands\nTopi
+ cs: Healthcare & Clinical AI\, Machine Learning\, Biomedical Imaging\, Pr
+ obabilistic\, Causal & Uncertainty ML\nSize: M\nDifficulty: Moderate-hard
+ \nSubmission type: Paper-based / clinical AI\nConfidence: confirmed\nLast
+  checked date: 2026-10-05\nNotes: Official AIME 2027 pages confirm Amster
+ dam\, Jul 5-8 (main conference Jul 6-7)\, and the abstract\, paper\, and 
+ camera-ready dates\, all AoE.
+URL:https://aime27.aimedicine.info/
+LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 END:VCALENDAR

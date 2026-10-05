@@ -1,14 +1,14 @@
 # Implementation Status
 
-Last synchronized: 2026-09-14
+Last synchronized: 2026-10-05
 
 ## Feature Checklist
 
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata. The 59-record catalog was refreshed on 2026-09-14 against official organizer websites, promoting six formerly provisional records when their schedules became available and rechecking every remaining provisional edition.
-- Files modified: `data/conferences.yml`, `data/metadata.yml`
+- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, topics, source URLs, confidence, relevance, and review metadata. The 62-record catalog was refreshed on 2026-10-05: IDA 2026, AIME 2027, and FMTS 2026 were added; PAKDD and ITISE 2027 were updated from organizer sites; and an unsupported TS4H 2026 placeholder was corrected to the documented 2025 workshop.
+- Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/core_conferences_normalized_tags.xlsx`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
 - Known issues: Many future editions are intentionally marked `estimated`; they need periodic review and source confirmation.
@@ -43,7 +43,7 @@ Last synchronized: 2026-09-14
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines the controlled topic vocabulary, and `data/metadata.yml` provides the site-level `last_updated` date.
+- Brief description: `data/topics.yml` defines the controlled topic vocabulary, `data/metadata.yml` provides the site-level `last_updated` date, and the 61-series workbook is a synchronized catalog reference.
 - Files modified: `data/topics.yml`, `data/metadata.yml`, `scripts/validate.py`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.

@@ -5,6 +5,40 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Data Mining & Data Science
 BEGIN:VEVENT
+UID:ida-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251122T115959Z
+DTEND:20251122T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251129T115959Z
+DTEND:20251129T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Regular p
+ aper submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260202T115900Z
@@ -20,6 +54,23 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
   checked date: 2026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list
   conference dates and research-track Cycle 2 deadlines.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260207T115959Z
+DTEND:20260207T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
@@ -107,6 +158,24 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260425
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/\
+ nLocation: Leiden\, Netherlands\nTopics: Data Mining & Data Science\, Mac
+ hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
+ equential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-10-05\nNotes: Official IDA 2026 regular track confirms Leiden\, Apr 22
+ -24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/
+LOCATION:Leiden\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-icmla-2026-deadline-full-paper@scientific-conference-calendar
@@ -747,24 +816,6 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
-UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261116T115900Z
-DTEND:20261116T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Paper s
- ubmission deadline
-DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
- y and Data Mining\nWebsite: https://pakdd.org/\nSource URL: https://pakdd
- .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
- ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
- tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-09-14\nNotes: PAKDD's official seri
- es page currently publishes only the 2026 edition. The 2027 conference wi
- ndow and deadline are provisional annual-cycle placeholders pending an of
- ficial host announcement.
-URL:https://pakdd.org/
-END:VEVENT
-BEGIN:VEVENT
 UID:ideal-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261119
@@ -799,6 +850,24 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  al SIAM SDM26 page lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261121T115900Z
+DTEND:20261121T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Paper s
+ ubmission deadline
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd2027.org/\nSource URL: https://p
+ akdd2027.org/pages/calls/research\nLocation: Wellington\, New Zealand\nTo
+ pics: Data Mining & Data Science\, Machine Learning\, Time Series & Seque
+ ntial Data\, Learning Theory & Statistical Foundations\nSize: L\nDifficul
+ ty: Hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast check
+ ed date: 2026-10-05\nNotes: Official PAKDD 2027 site confirms Wellington\
+ , Jun 29-Jul 2\, and Nov 20 research-track submission and Mar 19 camera-r
+ eady deadlines\, all AoE.
+URL:https://pakdd2027.org/pages/calls/research
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-conference@scientific-conference-calendar
@@ -855,6 +924,25 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
 URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
+UID:itise-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270115T235900Z
+DTEND:20270116T005900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
+ r or abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Time Series and F
+ orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
+ /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
+ ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
+ Learning Theory & Statistical Foundations\nSize: M\nDifficulty: Moderate-
+ hard\nSubmission type: Paper-based / forecasting-focused\nConfidence: est
+ imated\nLast checked date: 2026-10-05\nNotes: Official ITISE 2027 page co
+ nfirms Gran Canaria\, Jul 14-16\, and a Jan 15 paper/abstract submission 
+ date. The site does not specify the cutoff hour or timezone\; 23:59 Canar
+ y time is a calendar proxy\, so this entry remains estimated.
+URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
 UID:wsdm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270215
@@ -891,6 +979,24 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:pakdd-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270320T115900Z
+DTEND:20270320T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Camera-
+ ready deadline
+DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
+ y and Data Mining\nWebsite: https://pakdd2027.org/\nSource URL: https://p
+ akdd2027.org/pages/dates\nLocation: Wellington\, New Zealand\nTopics: Dat
+ a Mining & Data Science\, Machine Learning\, Time Series & Sequential Dat
+ a\, Learning Theory & Statistical Foundations\nSize: L\nDifficulty: Hard\
+ nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-05\nNotes: Official PAKDD 2027 site confirms Wellington\, Jun 29-
+ Jul 2\, and Nov 20 research-track submission and Mar 19 camera-ready dead
+ lines\, all AoE.
+URL:https://pakdd2027.org/pages/dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
@@ -903,30 +1009,30 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
  ries & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission ty
  pe: Paper-based / interdisciplinary\nConfidence: estimated\nLast checked 
- date: 2026-09-14\nNotes: IDA's official site currently lists the complete
- d 2026 Leiden edition. Pisa and the Apr 2027 window are provisional next-
- edition information awaiting an official IDA 2027 page.
+ date: 2026-10-05\nNotes: The official IDA Society site confirms Pisa\, It
+ aly\, in April 2027\, but does not yet give exact days or a CFP. Apr 21-2
+ 3 is a provisional calendar placeholder.
 URL:https://www.ida-society.org/
 LOCATION:Pisa\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:pakdd-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270608
-DTEND;VALUE=DATE:20270612
+DTSTART;VALUE=DATE:20270629
+DTEND;VALUE=DATE:20270703
 SUMMARY:[Data Mining & Data Science][Machine Learning] PAKDD 2027 - Confere
  nce
 DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
- y and Data Mining\nWebsite: https://pakdd.org/\nSource URL: https://pakdd
- .org/\nLocation: TBD\nTopics: Data Mining & Data Science\, Machine Learni
- ng\, Time Series & Sequential Data\, Learning Theory & Statistical Founda
- tions\nSize: L\nDifficulty: Hard\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-09-14\nNotes: PAKDD's official seri
- es page currently publishes only the 2026 edition. The 2027 conference wi
- ndow and deadline are provisional annual-cycle placeholders pending an of
- ficial host announcement.
-URL:https://pakdd.org/
-LOCATION:TBD
+ y and Data Mining\nWebsite: https://pakdd2027.org/\nSource URL: https://p
+ akdd2027.org/\nLocation: Wellington\, New Zealand\nTopics: Data Mining & 
+ Data Science\, Machine Learning\, Time Series & Sequential Data\, Learnin
+ g Theory & Statistical Foundations\nSize: L\nDifficulty: Hard\nSubmission
+  type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-05\
+ nNotes: Official PAKDD 2027 site confirms Wellington\, Jun 29-Jul 2\, and
+  Nov 20 research-track submission and Mar 19 camera-ready deadlines\, all
+  AoE.
+URL:https://pakdd2027.org/
+LOCATION:Wellington\, New Zealand
 END:VEVENT
 BEGIN:VEVENT
 UID:itise-2027-conference@scientific-conference-calendar
@@ -936,14 +1042,15 @@ DTEND;VALUE=DATE:20270717
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Conf
  erence
 DESCRIPTION:Conference title: International Conference on Time Series and F
- orecasting\nWebsite: https://itise.ugr.es/\nSource URL: https://itise.ugr
- .es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Series & Seq
- uential Data\, Machine Learning\, Data Mining & Data Science\, Learning T
- heory & Statistical Foundations\nSize: M\nDifficulty: Moderate-hard\nSubm
- ission type: Paper-based / forecasting-focused\nConfidence: estimated\nLa
- st checked date: 2026-09-14\nNotes: Official ITISE sources list the compl
- eted 2026 Gran Canaria edition. The 2027 date and location are annual-cyc
- le estimates pending an official ITISE 2027 announcement.
+ orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
+ /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
+ ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
+ Learning Theory & Statistical Foundations\nSize: M\nDifficulty: Moderate-
+ hard\nSubmission type: Paper-based / forecasting-focused\nConfidence: est
+ imated\nLast checked date: 2026-10-05\nNotes: Official ITISE 2027 page co
+ nfirms Gran Canaria\, Jul 14-16\, and a Jan 15 paper/abstract submission 
+ date. The site does not specify the cutoff hour or timezone\; 23:59 Canar
+ y time is a calendar proxy\, so this entry remains estimated.
 URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
 END:VEVENT

@@ -81,3 +81,11 @@ Last synchronized: 2026-08-31
 - Decision: Add `Natural Language Processing & LLMs` to `data/topics.yml` and the synchronized workbook vocabulary, then tag EACL with it alongside its relevant ML and responsible-AI topics.
 - Alternatives considered: Tag EACL only as generic machine learning; add an EACL-specific tag; defer EACL until a later taxonomy revision.
 - Consequences: The public site and generated ICS feeds gain a focused NLP/LLM subscription filter while retaining reusable, controlled taxonomy terms.
+
+## ADR-011: Do Not Publish Unverified Workshop Editions as Current Events
+
+- Date: 2026-10-05
+- Context: The TS4H site still documents its 2025 workshop, and the official NeurIPS 2026 workshop list does not include TS4H. FMTS 2026 is on that list but its one-day slot is still either Dec 11 or Dec 12.
+- Decision: Keep TS4H as a documented 2025 edition instead of a fabricated 2026 event. Track FMTS 2026 using Dec 11 as an explicitly estimated one-day calendar placeholder until NeurIPS assigns the exact day.
+- Alternatives considered: Retain the unsupported TS4H 2026 dates; represent FMTS as a two-day event even though it lasts one day.
+- Consequences: Calendar subscribers are not shown a false TS4H 2026 workshop. FMTS remains discoverable with visible date uncertainty and must be revisited when the day is announced.

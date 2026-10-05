@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IDA 2026 Calendar
+BEGIN:VEVENT
+UID:ida-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251122T115959Z
+DTEND:20251122T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251129T115959Z
+DTEND:20251129T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Regular p
+ aper submission deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260207T115959Z
+DTEND:20260207T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Camera-re
+ ady deadline
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/r
+ egular-paper-track/\nLocation: Leiden\, Netherlands\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nDifficulty: Moderate-hard\nS
+ ubmission type: Paper-based / interdisciplinary\nConfidence: confirmed\nL
+ ast checked date: 2026-10-05\nNotes: Official IDA 2026 regular track conf
+ irms Leiden\, Apr 22-24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260422
+DTEND;VALUE=DATE:20260425
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://ida2026.org/\nSource URL: https://ida2026.org/\
+ nLocation: Leiden\, Netherlands\nTopics: Data Mining & Data Science\, Mac
+ hine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Series & S
+ equential Data\nSize: M\nDifficulty: Moderate-hard\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-10-05\nNotes: Official IDA 2026 regular track confirms Leiden\, Apr 22
+ -24\, 2026\, and AoE submission deadlines.
+URL:https://ida2026.org/
+LOCATION:Leiden\, Netherlands
+END:VEVENT
+END:VCALENDAR

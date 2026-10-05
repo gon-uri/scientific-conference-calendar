@@ -656,6 +656,26 @@ URL:https://e-nns.org/icann2026/
 LOCATION:Padua\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Workshop paper submission deadline
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
+  Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
+ ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
+ e: S\nDifficulty: Moderate-hard\nSubmission type: Workshop / non-archival
+  short paper\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes
+ : Confirmed one-day NeurIPS 2026 workshop. NeurIPS will assign either Dec
+  11 or Dec 12\; Dec 11 is a calendar placeholder\, not a confirmed worksh
+ op day. The Nov 6 camera-ready date is tentative and is not listed as a d
+ eadline.
+URL:https://fmts-workshop.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
 UID:iclr-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260919T115900Z
@@ -885,6 +905,26 @@ URL:https://neurips.cc/Conferences/2026/Dates
 LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:fmts-neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Conference
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
+ ia\nTopics: Time Series & Sequential Data\, Machine Learning\, Deep Repre
+ sentation Learning\, Probabilistic\, Causal & Uncertainty ML\nSize: S\nDi
+ fficulty: Moderate-hard\nSubmission type: Workshop / non-archival short p
+ aper\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes: Confir
+ med one-day NeurIPS 2026 workshop. NeurIPS will assign either Dec 11 or D
+ ec 12\; Dec 11 is a calendar placeholder\, not a confirmed workshop day. 
+ The Nov 6 camera-ready date is tentative and is not listed as a deadline.
+URL:https://fmts-workshop.github.io/
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
 UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261215T115900Z
@@ -1060,7 +1100,7 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nDifficulty: Hard\n
  Submission type: Paper-based\nConfidence: not_yet_announced\nLast checked
-  date: 2026-09-14\nNotes: The latest official proceedings are for ACPR 20
+  date: 2026-10-05\nNotes: The latest official proceedings are for ACPR 20
  25. The 2027 entry uses a biennial-calendar placeholder until an IAPR/ACP
  R host announcement is published.
 URL:https://link.springer.com/conference/acpr
