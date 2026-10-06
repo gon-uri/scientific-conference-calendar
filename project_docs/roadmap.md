@@ -14,7 +14,7 @@ Last synchronized: 2026-10-06
 
 ### Data Quality and Freshness
 
-- Goal: Keep conference dates, deadlines, confidence labels, and source URLs accurate as organizers update schedules.
+- Goal: Compare all provisional meeting and submission dates with current organizer schedules about monthly, preserving uncertainty until evidence is published.
 - Priority: High
 - Dependencies: `data/conferences.yml`, official conference pages, validation rules.
 - Estimated complexity: Ongoing
@@ -46,7 +46,7 @@ Last synchronized: 2026-10-06
 
 ### Submission Opportunities And Acceptance Evidence
 
-- Goal: Show whether a new paper can still be submitted, with prerequisite gates, an open-only filter, historical acceptance bands, and a source-linked percentage when available.
+- Goal: Show whether a new paper can still be submitted, with prerequisite gates, an opportunities filter that includes future and estimated routes, historical acceptance bands, and a source-linked percentage when available.
 - Priority: High
 - Dependencies: `gate_for` deadline metadata, historical rate evidence, site generation, validation, browser checks.
 - Estimated complexity: Medium
@@ -54,9 +54,9 @@ Last synchronized: 2026-10-06
 
 ### Repeatable Data Refresh
 
-- Goal: Keep an actionable source-linked queue for edition reviews and historical acceptance evidence.
+- Goal: Keep an actionable monthly source-linked queue for edition reviews and historical acceptance evidence, plus cadence-aware next-edition projections that never imply official confirmation.
 - Priority: High
-- Dependencies: `scripts/maintenance_report.py`, official organizer pages, documented review procedure.
+- Dependencies: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, official organizer pages, documented review procedure.
 - Estimated complexity: Ongoing
 - Completion status: Completed tooling and procedure; reviews remain recurring work.
 

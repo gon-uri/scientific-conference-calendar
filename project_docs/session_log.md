@@ -1,5 +1,18 @@
 # Session Log
 
+## 2026-10-06 (milestone ordering and recurring editions)
+
+- Objective: Make the submission calendar chronological without confusing post-acceptance steps with paper opportunities, refresh future editions, and establish a monthly estimate-review workflow.
+- Tasks completed:
+  - Reworked the deadline table around each edition's next milestone, including conference start; moved ongoing/past meetings to a separate table. Submission status now distinguishes verified open, upcoming, estimated, closed, and unannounced routes independently of sorting. The opportunities checkbox includes upcoming and estimated routes, not only portals open now.
+  - Removed the Confidence columns, widened Next milestone, changed the heading to `Accept. rate`, placed the result count beside the checkbox, and made mobile filters collapsible. A green marker identifies verified open-now submissions.
+  - Added a cadence-aware, idempotent rollover tool and 18 projected next editions. Replaced 11 projected meeting dates with official announcements and added sourced, explicitly estimated deadlines for IDA, ACPR, and IEEE NER.
+  - Added official IJCAI and ECAI 2027 as separate editions, with direct ICORE/CCF mappings and a sourced IJCAI 2024 acceptance rate. Corrected LOD 2026 to its organizer-announced AIS name, dates, and location; added a provisional AIS 2027 successor.
+  - Expanded sourced acceptance-rate coverage to 22 series, including clearly marked qualitative-only estimates, and synchronized the 63-series catalog workbook.
+  - Changed maintenance review to a 30-day default, documented monthly source comparison, and added focused tests for projections, status, and review queues.
+- Tests run: YAML validation, Python unit tests, full HTML/ICS build, workbook preview/error check, and desktop/mobile Chrome interaction and overflow checks.
+- Remaining tasks: Keep provisional editions and qualitative estimates under monthly review; add automated browser/ICS snapshot checks if interface or feed complexity grows.
+
 ## 2026-10-06 (submission opportunities and acceptance)
 
 - Objective: Make the calendar reliable for finding the next real paper-submission opportunity, add complementary CCF ranks and sourced acceptance evidence, and make routine data refreshes repeatable.

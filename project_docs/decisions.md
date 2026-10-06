@@ -102,7 +102,7 @@ Last synchronized: 2026-10-06
 
 - Date: 2026-10-06
 - Context: A future camera-ready, workshop-proposal, or commitment deadline can make a conference appear open even when a new paper can no longer be submitted. A past mandatory abstract or registration gate can also close a paper route ahead of its paper deadline.
-- Decision: Keep one compact expandable deadline row per edition, but derive submission status and countdown from future paper/abstract/poster routes. Link mandatory earlier steps to their target with `gate_for`. Show only confirmed routes under the open-only filter; estimated and unannounced dates remain distinct. Retain passed milestones in the expanded list with muted red-grey styling.
+- Decision: Keep one compact expandable deadline row per edition, but derive submission status from future paper/abstract/poster routes. Link mandatory earlier steps to their target with `gate_for`. Retain passed milestones in the expanded list with muted red-grey styling. The later opportunities filter includes confirmed and estimated future routes; a portal is Open now only with evidence of its opening.
 - Alternatives considered: Show every milestone as a separate top-level row; use the chronologically next milestone as the countdown; hide all passed milestones.
 - Consequences: Users can quickly identify where a paper can still go. Maintainers must record mandatory gates accurately, and unknown/estimated routes never masquerade as confirmed openings.
 
@@ -121,3 +121,35 @@ Last synchronized: 2026-10-06
 - Decision: Add `scripts/maintenance_report.py` with distinct edition and acceptance-evidence queues, plus `project_docs/data_maintenance.md`. A maintainer checks official sources, edits YAML, validates, rebuilds, reviews, and commits.
 - Alternatives considered: Live browser scraping on page load; a backend database; automatic scheduled mutations.
 - Consequences: The static architecture and reviewable provenance remain intact. Regular manual review is still required.
+
+## ADR-016: Order Milestones Chronologically And Separate Past Editions
+
+- Date: 2026-10-06
+- Context: A closed paper route may still have a future camera-ready date, while another conference has a later paper deadline. Submission status and time ordering need to answer different questions.
+- Decision: Order deadline-table rows by the next future milestone, including the conference start. Show submission status independently as Open, Upcoming, Upcoming (estimated), Closed to new submissions, or Deadline unannounced. Remove the redundant Confidence column and label estimated dates in the milestone itself. Keep the expanded deadline list for details. Move ongoing and past meetings into a separate conferences table.
+- Alternatives considered: Sort by only actionable paper deadlines; hide all rows with closed submissions; keep a Confidence column and a separate countdown.
+- Consequences: A camera-ready milestone can place a closed edition among upcoming events without suggesting new submissions are possible. The submission-opportunities checkbox includes open, upcoming, and estimated paper routes and removes closed editions.
+
+## ADR-017: Project Recurring Editions Conservatively
+
+- Date: 2026-10-06
+- Context: Once a conference passes, the calendar should surface its next annual or biennial opportunity even if the organizer has not published exact dates.
+- Decision: Materialize a next edition only for explicitly supported recurring series, preserving the established cadence and prior lead times. Set projected meeting and deadline dates to estimated, leave unknown locations unannounced, and keep deadline-level confidence separate from meeting confidence when only one has been confirmed. The projection tool is idempotent and does not overwrite reviewed editions.
+- Alternatives considered: Add one year to every record; leave all unannounced future editions absent; present inferred dates as confirmed.
+- Consequences: The static site remains useful between organizer announcements. Monthly source reviews must compare every estimate with official CFPs and revise dates without changing stable event identifiers.
+
+## ADR-018: Allow Sourced Qualitative Acceptance Estimates
+
+- Date: 2026-10-06
+- Context: Many smaller conferences and workshops lack a recent published acceptance percentage, but some have reliable historical evidence supporting a selectivity band.
+- Decision: Keep sourced numeric historical rates when available. Permit a qualitative-only band marked `(estimated)` when direct organizer or proceedings evidence supports it; otherwise show Unknown. Never infer a band from ICORE, CCF, or the retired Difficulty field.
+- Alternatives considered: Fill every missing rate from rank or reputation; leave all qualitative gaps blank.
+- Consequences: Coverage improves without fabricating numerical precision, and each estimated band remains auditable from its source.
+
+## ADR-019: Preserve Series Identity Across A Rename And A Joint Edition
+
+- Date: 2026-10-06
+- Context: The LOD organizer renamed its annual conference AIS in 2026, while IJCAI-ECAI 2026 was a joint edition followed by separate IJCAI and ECAI events in 2027.
+- Decision: Keep the existing `lod-2026` ID and `LOD` series key for stable calendar subscriptions and workbook continuity, but display the official AIS name and use organizer-confirmed 2026 facts. Add a distinct estimated AIS 2027 edition under that series. Add IJCAI and ECAI 2027 under their own series, with directly sourced ranks; do not transfer those ranks to the joint 2026 event.
+- Alternatives considered: Silently keep the outdated LOD title and dates; rename the existing edition ID; treat the joint and standalone IJCAI editions as one series with inherited ranks.
+- Consequences: Search for LOD still finds the successor, existing subscriptions keep their UIDs, and ranking provenance stays accurate.

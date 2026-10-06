@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICPR 2028 Calendar
+BEGIN:VEVENT
+UID:icpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271221T115900Z
+DTEND:20271221T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/file
+ s/flyerCallFP.pdf\nLocation: To be announced\nTopics: Machine Learning\, 
+ Deep Representation Learning\, Signal Processing\, Biomedical Imaging\nSi
+ ze: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-06\nNotes: Provisional 2-year cadence projection from ICPR
+  2026. Meeting dates\, location\, and deadlines require organizer confirm
+ ation\; website and source links refer to the prior edition.
+URL:https://icpr2026.org/files/flyerCallFP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280817
+DTEND;VALUE=DATE:20280823
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: To be announced\nTopics: Machine Learning\, Deep Representation L
+ earning\, Signal Processing\, Biomedical Imaging\nSize: XL\nSubmission ty
+ pe: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-06\nNo
+ tes: Provisional 2-year cadence projection from ICPR 2026. Meeting dates\
+ , location\, and deadlines require organizer confirmation\; website and s
+ ource links refer to the prior edition.
+URL:https://icpr2026.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

@@ -10,7 +10,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20260204T045900Z
 DTEND:20260204T055900Z
 SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Full
-  paper submission deadline
+  paper submission deadline (estimated)
 DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
@@ -44,7 +44,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20260416T035900Z
 DTEND:20260416T045900Z
 SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - 1-pa
- ge poster submission deadline
+ ge poster submission deadline (estimated)
 DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
  bs.org/2026/key-dates/\nLocation: Toronto\, Canada\nTopics: Healthcare & 
@@ -62,7 +62,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20260501T115900Z
 DTEND:20260501T125900Z
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
- 6 - Abstract submission deadline
+ 6 - Abstract submission deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
  .scimeeting.cn/en/web/index/31426\nLocation: Beijing\, China\nTopics: EEG
@@ -117,7 +117,7 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260726
 DTEND;VALUE=DATE:20260731
 SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2026 - Conf
- erence
+ erence (estimated)
 DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  erence\nWebsite: https://embc.embs.org/2026/\nSource URL: https://embc.em
  bs.org/2026/\nLocation: Toronto\, Canada\nTopics: Healthcare & Clinical A
@@ -136,7 +136,7 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260823
 DTEND;VALUE=DATE:20260826
 SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
- 6 - Conference
+ 6 - Conference (estimated)
 DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
  .scimeeting.cn/en/web/index/31426\nLocation: Beijing\, China\nTopics: EEG
@@ -264,9 +264,9 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  -submission\nLocation: Montreal\, Canada\nTopics: Computational Neuroscie
  nce\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation L
  earning\nSize: L\nSubmission type: Abstract-based / talks highly selectiv
- e\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes: Official 
+ e\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Official 
  COSYNE 2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract 
- submission deadline.
+ submission deadline. The abstract submission link was live on Oct 6.
 URL:https://www.cosyne.org/abstracts-submission
 END:VEVENT
 BEGIN:VEVENT
@@ -275,7 +275,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20261216T115900Z
 DTEND:20261216T125900Z
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Abstract submission deadline
+ - Abstract submission deadline (estimated)
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
@@ -307,6 +307,41 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
 URL:https://bcisociety.org/bci-meeting/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-embc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270125T115900Z
+DTEND:20270125T125900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - Full
+  paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/important-dates/\nLocation: Singapore\nTopics: Healthcare & C
+ linical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurote
+ chnology\nSize: XL\nSubmission type: Paper-based / broad applied venue\nC
+ onfidence: estimated\nLast checked date: 2026-10-06\nNotes: Organizer con
+ firms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlin
+ es. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional ca
+ lendar time\, so the edition remains estimated.
+URL:https://embc.embs.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270206T225900Z
+DTEND:20270206T235900Z
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference pap
+ er submission deadline (estimated)
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
+ : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
+ e Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmissi
+ on type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-0
+ 6\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 pape
+ r deadline. The cutoff hour/timezone is unspecified\; 23:59 local is only
+  a calendar proxy.
+URL:https://eusipco2027.de/
+END:VEVENT
+BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270311
@@ -318,10 +353,48 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
  al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nSu
  bmission type: Abstract-based / talks highly selective\nConfidence: confi
- rmed\nLast checked date: 2026-09-14\nNotes: Official COSYNE 2027 pages co
+ rmed\nLast checked date: 2026-10-06\nNotes: Official COSYNE 2027 pages co
  nfirm Montreal\, Mar 11-16\, and the Oct 18 abstract submission deadline.
+  The abstract submission link was live on Oct 6.
 URL:https://www.cosyne.org/
 LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270324T065900Z
+DTEND:20270324T075900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - F
+ ull paper submission deadline (estimated)
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
+ bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
+ ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
+ ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
+ Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
+ P lead times before the meeting\; the 2027 CFP is not yet published.
+URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
+ -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270424T115900Z
+DTEND:20270424T125900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - 1-pa
+ ge poster submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/important-dates/\nLocation: Singapore\nTopics: Healthcare & C
+ linical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurote
+ chnology\nSize: XL\nSubmission type: Paper-based / broad applied venue\nC
+ onfidence: estimated\nLast checked date: 2026-10-06\nNotes: Organizer con
+ firms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlin
+ es. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional ca
+ lendar time\, so the edition remains estimated.
+URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:iclr-2027-conference@scientific-conference-calendar
@@ -359,6 +432,25 @@ URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270525T065900Z
+DTEND:20270525T075900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - L
+ ate-breaking abstract deadline (estimated)
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
+ bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
+ ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
+ ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
+ Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
+ P lead times before the meeting\; the 2027 CFP is not yet published.
+URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
+ -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
 UID:international-bci-meeting-2027-conference@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
@@ -379,12 +471,30 @@ URL:https://bcisociety.org/bci-meeting/
 LOCATION:Sibenik\, Croatia
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-mlsp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270613T115900Z
+DTEND:20270613T125900Z
+SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2027 - Conference p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
+ ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
+ gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/event-names
+ /mlsp\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proc
+ essing\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: 
+ S/M\nSubmission type: Paper-based / workshop-style conference\nConfidence
+ : estimated\nLast checked date: 2026-10-06\nNotes: IEEE SPS confirms Upps
+ ala\, Sep 13-16. Paper deadline remains an estimated 2026 timing proxy un
+ til the 2027 CFP appears.
+URL:https://signalprocessingsociety.org/event-names/mlsp
+END:VEVENT
+BEGIN:VEVENT
 UID:ohbm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270626
 DTEND;VALUE=DATE:20270701
 SUMMARY:[Neuroimaging & Brain Mapping][EEG/MEG & Neural Signals] OHBM 2027 
- - Conference
+ - Conference (estimated)
 DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
@@ -398,6 +508,62 @@ URL:https://humanbrainmapping.org/ohbm-2027/
 LOCATION:Toronto\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:bernstein-conference-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270701T130000Z
+DTEND:20270701T140000Z
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
+ nference 2027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
+ ein-network.de/bernstein-conference/bernstein-conference-2027/\nSource UR
+ L: https://bernstein-network.de/en/bernstein-conference/general-informati
+ on/important-dates-faq/\nLocation: Lausanne\, Switzerland\nTopics: Comput
+ ational Neuroscience\, EEG/MEG & Neural Signals\, Machine Learning\, Time
+  Series & Sequential Data\nSize: M\nSubmission type: Abstract-based / tal
+ ks selective\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes
+ : Bernstein Network confirms Lausanne\, Sep 15-18. Abstract date is a pri
+ or-edition timing estimate until the 2027 call appears.
+URL:https://bernstein-network.de/en/bernstein-conference/general-informatio
+ n/important-dates-faq/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270716
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - Conf
+ erence
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/\nLocation: Singapore\nTopics: Healthcare & Clinical AI\, Sig
+ nal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\nSize: 
+ XL\nSubmission type: Paper-based / broad applied venue\nConfidence: confi
+ rmed\nLast checked date: 2026-10-06\nNotes: Organizer confirms Singapore\
+ , Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlines. Cutoff hour/
+ timezone is not specified\; 23:59 AoE is a provisional calendar time\, so
+  the edition remains estimated.
+URL:https://embc.embs.org/2027/
+LOCATION:Singapore
+END:VEVENT
+BEGIN:VEVENT
+UID:eusipco-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference
+DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
+ e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
+ : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
+ e Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmissi
+ on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-0
+ 6\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 pape
+ r deadline. The cutoff hour/timezone is unspecified\; 23:59 local is only
+  a calendar proxy.
+URL:https://eusipco2027.de/
+LOCATION:Darmstadt\, Germany
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270907
@@ -408,11 +574,87 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
  .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
   Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
- Submission type: Paper-based / engineering-focused\nConfidence: announced
- _no_deadlines\nLast checked date: 2026-10-05\nNotes: The official IEEE EM
- BS announcement confirms Milan\, Sep 7-10\, 2027. A conference CFP and su
- bmission schedule are not yet published.
+ Submission type: Paper-based / engineering-focused\nConfidence: confirmed
+ \nLast checked date: 2026-10-06\nNotes: The official IEEE EMBS announceme
+ nt confirms Milan\, Sep 7-10\, 2027. Submission dates are estimates using
+  the 2025 CFP lead times before the meeting\; the 2027 CFP is not yet pub
+ lished.
 URL:https://ieee-ner.org/
 LOCATION:Milan\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-mlsp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270917
+SUMMARY:[Machine Learning][Signal Processing] IEEE MLSP 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
+ ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
+ gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/tags/mlsp-2
+ 027\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proces
+ sing\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/
+ M\nSubmission type: Paper-based / workshop-style conference\nConfidence: 
+ confirmed\nLast checked date: 2026-10-06\nNotes: IEEE SPS confirms Uppsal
+ a\, Sep 13-16. Paper deadline remains an estimated 2026 timing proxy unti
+ l the 2027 CFP appears.
+URL:https://signalprocessingsociety.org/tags/mlsp-2027
+LOCATION:Uppsala\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:bernstein-conference-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270915
+DTEND;VALUE=DATE:20270919
+SUMMARY:[Computational Neuroscience][EEG/MEG & Neural Signals] Bernstein Co
+ nference 2027 - Conference
+DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
+ ein-network.de/bernstein-conference/bernstein-conference-2027/\nSource UR
+ L: https://bernstein-network.de/bernstein-conference/bernstein-conference
+ -2027/\nLocation: Lausanne\, Switzerland\nTopics: Computational Neuroscie
+ nce\, EEG/MEG & Neural Signals\, Machine Learning\, Time Series & Sequent
+ ial Data\nSize: M\nSubmission type: Abstract-based / talks selective\nCon
+ fidence: confirmed\nLast checked date: 2026-10-06\nNotes: Bernstein Netwo
+ rk confirms Lausanne\, Sep 15-18. Abstract date is a prior-edition timing
+  estimate until the 2027 call appears.
+URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
+ 2027/
+LOCATION:Lausanne\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280501T115900Z
+DTEND:20280501T125900Z
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 8 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
+ .scimeeting.cn/en/web/index/31426\nLocation: To be announced\nTopics: EEG
+ /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
+ oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
+ specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
+ otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
+ es\, location\, and deadlines require organizer confirmation\; website an
+ d source links refer to the prior edition.
+URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:biomag-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280823
+DTEND;VALUE=DATE:20280826
+SUMMARY:[EEG/MEG & Neural Signals][Neuroimaging & Brain Mapping] BIOMAG 202
+ 8 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
+ site: https://mm.scimeeting.cn/en/web/index/31426\nSource URL: https://mm
+ .scimeeting.cn/en/web/index/31426\nLocation: To be announced\nTopics: EEG
+ /MEG & Neural Signals\, Neuroimaging & Brain Mapping\, Computational Neur
+ oscience\, Signal Processing\nSize: M\nSubmission type: Abstract-based / 
+ specialist venue\nConfidence: estimated\nLast checked date: 2026-10-06\nN
+ otes: Provisional 2-year cadence projection from BIOMAG 2026. Meeting dat
+ es\, location\, and deadlines require organizer confirmation\; website an
+ d source links refer to the prior edition.
+URL:https://mm.scimeeting.cn/en/web/index/31426
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

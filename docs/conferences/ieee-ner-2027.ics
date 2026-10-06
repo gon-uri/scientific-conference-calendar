@@ -5,6 +5,44 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IEEE NER 2027 Calendar
 BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270324T065900Z
+DTEND:20270324T075900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - F
+ ull paper submission deadline (estimated)
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
+ bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
+ ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
+ ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
+ Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
+ P lead times before the meeting\; the 2027 CFP is not yet published.
+URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
+ -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270525T065900Z
+DTEND:20270525T075900Z
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] IEEE NER 2027 - L
+ ate-breaking abstract deadline (estimated)
+DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural 
+ Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://neuro.em
+ bs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25-CFPv.6.pdf\nLocat
+ ion: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Healthcare & Clinical AI\nSize: M\nSubmission t
+ ype: Paper-based / engineering-focused\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: The official IEEE EMBS announcement confirms 
+ Milan\, Sep 7-10\, 2027. Submission dates are estimates using the 2025 CF
+ P lead times before the meeting\; the 2027 CFP is not yet published.
+URL:https://neuro.embs.org/2025/wp-content/uploads/sites/113/2025/04/NER-25
+ -CFPv.6.pdf
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ner-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270907
@@ -15,10 +53,11 @@ DESCRIPTION:Conference title: International IEEE EMBS Conference on Neural
  Engineering\nWebsite: https://ieee-ner.org/\nSource URL: https://ieee-ner
  .org/\nLocation: Milan\, Italy\nTopics: BCI & Neurotechnology\, EEG/MEG &
   Neural Signals\, Signal Processing\, Healthcare & Clinical AI\nSize: M\n
- Submission type: Paper-based / engineering-focused\nConfidence: announced
- _no_deadlines\nLast checked date: 2026-10-05\nNotes: The official IEEE EM
- BS announcement confirms Milan\, Sep 7-10\, 2027. A conference CFP and su
- bmission schedule are not yet published.
+ Submission type: Paper-based / engineering-focused\nConfidence: confirmed
+ \nLast checked date: 2026-10-06\nNotes: The official IEEE EMBS announceme
+ nt confirms Milan\, Sep 7-10\, 2027. Submission dates are estimates using
+  the 2025 CFP lead times before the meeting\; the 2027 CFP is not yet pub
+ lished.
 URL:https://ieee-ner.org/
 LOCATION:Milan\, Italy
 END:VEVENT

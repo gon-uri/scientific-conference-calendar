@@ -27,11 +27,16 @@ def review_queue(
         if upcoming:
             if item["confidence"] != "confirmed":
                 reasons.append(item["confidence"].replace("_", " "))
+            if any(
+                deadline.get("confidence", item["confidence"]) != "confirmed"
+                for deadline in item.get("deadlines", [])
+            ):
+                reasons.append("estimated deadline(s): compare with official CFP")
             if age > max_age_days:
                 reasons.append(f"last checked {age} days ago")
             if not item.get("deadlines"):
                 reasons.append("no submission deadline recorded")
-        elif latest_by_series[item["series"]] is item:
+        elif latest_by_series[item["series"]] is item and item["series"] != "IJCAI-ECAI":
             reasons.append("next edition not tracked")
         if reasons:
             source = (item.get("source_urls") or [item.get("cfp_url") or item["website"]])[0]
@@ -54,7 +59,7 @@ def acceptance_queue(conferences: list[dict], rates: dict, as_of: date) -> list[
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--as-of", type=date.fromisoformat, default=date.today())
-    parser.add_argument("--max-age-days", type=int, default=60)
+    parser.add_argument("--max-age-days", type=int, default=30)
     args = parser.parse_args()
     if args.max_age_days < 0:
         parser.error("--max-age-days must be non-negative")

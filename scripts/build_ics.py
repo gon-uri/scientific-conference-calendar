@@ -89,7 +89,7 @@ def _deadline_source_url(
     return deadline.get("source_url") or _conference_source_url(conference)
 
 
-def _description(conference: dict[str, Any], source_url: str) -> str:
+def _description(conference: dict[str, Any], source_url: str, confidence: str) -> str:
     lines = [
         f"Conference title: {conference['title']}",
         f"Website: {conference['website']}",
@@ -98,7 +98,7 @@ def _description(conference: dict[str, Any], source_url: str) -> str:
         f"Topics: {', '.join(conference.get('topics', []))}",
         f"Size: {conference.get('size', '')}",
         f"Submission type: {conference.get('submission_type', '')}",
-        f"Confidence: {conference['confidence']}",
+        f"Confidence: {confidence}",
         f"Last checked date: {conference['last_checked']}",
         f"Notes: {conference.get('notes') or ''}",
     ]
@@ -109,8 +109,10 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
     start = parse_datetime(deadline["datetime"])
     end = start + timedelta(hours=1)
     deadline_key = stable_slug(deadline["type"])
+    confidence = deadline.get("confidence", conference["confidence"])
     summary = (
         f"{_topic_prefix(conference)} {conference['short_title']} - {deadline['label']}"
+        f'{" (estimated)" if confidence != "confirmed" else ""}'
     )
     source_url = _deadline_source_url(conference, deadline)
 
@@ -123,7 +125,7 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
         f"DTSTART:{_format_datetime(start)}",
         f"DTEND:{_format_datetime(end)}",
         *_property("SUMMARY", summary),
-        *_property("DESCRIPTION", _description(conference, source_url)),
+        *_property("DESCRIPTION", _description(conference, source_url, confidence)),
         *_property("URL", source_url),
         "END:VEVENT",
     ]
@@ -132,7 +134,10 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
 def _conference_event(conference: dict[str, Any]) -> list[str]:
     start = parse_date(conference["conference_start"])
     end = parse_date(conference["conference_end"]) + timedelta(days=1)
-    summary = f"{_topic_prefix(conference)} {conference['short_title']} - Conference"
+    summary = (
+        f"{_topic_prefix(conference)} {conference['short_title']} - Conference"
+        f'{" (estimated)" if conference["confidence"] != "confirmed" else ""}'
+    )
     source_url = _conference_source_url(conference)
 
     lines = [
@@ -142,7 +147,7 @@ def _conference_event(conference: dict[str, Any]) -> list[str]:
         f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
         f"DTEND;VALUE=DATE:{end.strftime('%Y%m%d')}",
         *_property("SUMMARY", summary),
-        *_property("DESCRIPTION", _description(conference, source_url)),
+        *_property("DESCRIPTION", _description(conference, source_url, conference["confidence"])),
         *_property("URL", source_url),
     ]
     if conference.get("location"):

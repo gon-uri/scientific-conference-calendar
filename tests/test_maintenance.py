@@ -34,6 +34,26 @@ class MaintenanceTests(unittest.TestCase):
         }
         self.assertEqual(review_queue([item], date(2026, 10, 6), 60), [])
 
+    def test_confirmed_meeting_with_estimated_deadline_is_queued(self) -> None:
+        item = {
+            "id": "sample-2027", "short_title": "Sample 2027", "series": "Sample", "year": 2027,
+            "last_checked": "2026-10-06", "confidence": "confirmed",
+            "conference_end": "2027-05-01", "deadlines": [{"type": "full_paper", "confidence": "estimated"}],
+            "website": "https://example.org",
+        }
+        result = review_queue([item], date(2026, 10, 6), 30)
+        self.assertIn("compare with official CFP", result[0][2])
+
+    def test_joint_edition_does_not_require_same_named_successor(self) -> None:
+        joint = {
+            "id": "ijcai-ecai-2026", "short_title": "IJCAI-ECAI 2026",
+            "series": "IJCAI-ECAI", "year": 2026,
+            "last_checked": "2026-10-06", "confidence": "confirmed",
+            "conference_end": "2026-08-21", "deadlines": [],
+            "website": "https://2026.ijcai.org/",
+        }
+        self.assertEqual(review_queue([joint], date(2026, 10, 6), 30), [])
+
 
 if __name__ == "__main__":
     unittest.main()

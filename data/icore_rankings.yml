@@ -13,6 +13,7 @@ rankings:
   "COLT": {rank: "A*", portal_id: 124}
   "Discovery Science": {rank: "B", portal_id: 2191}
   "DSAA": {rank: "B", portal_id: 2237}
+  "ECAI": {rank: "A", portal_id: 473}
   "EACL": {rank: "A", portal_id: 468}
   "ECML PKDD": {rank: "A", portal_id: 491}
   "ESANN": {rank: "B", portal_id: 512}
@@ -27,6 +28,7 @@ rankings:
   "IEEE BigData": {rank: "B", portal_id: 2274}
   "IEEE ICMLA": {rank: "C", portal_id: 1122}
   "IJCNN": {rank: "B", portal_id: 685}
+  "IJCAI": {rank: "A*", portal_id: 1313}
   "KDD": {rank: "A*", portal_id: 26}
   "MICCAI": {rank: "A", portal_id: 1607}
   "NeurIPS": {rank: "A*", portal_id: 98}

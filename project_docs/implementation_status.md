@@ -7,7 +7,7 @@ Last synchronized: 2026-10-06
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is the canonical source of truth for one edition of one conference per item. It includes conference dates, deadlines, prerequisite `gate_for` links, topics, source URLs, confidence, relevance, and review metadata. The 62-record catalog was refreshed on 2026-10-05: IDA 2026, AIME 2027, and FMTS 2026 were added; PAKDD and ITISE 2027 were updated from organizer sites; and an unsupported TS4H 2026 placeholder was corrected to the documented 2025 workshop. The old subjective Difficulty field was removed.
+- Brief description: `data/conferences.yml` is the canonical source of truth for one edition per item, with dates, prerequisites, topics, sources, confidence, and review metadata. The catalog now has 83 editions across 63 series. Eighteen cadence-based next editions were added as estimates; 11 of those meeting dates were subsequently verified from organizer pages. IJCAI and ECAI 2027 were added as distinct officially announced successors to the joint 2026 event, and the former LOD series was corrected to AIS 2026 with a provisional AIS 2027 successor. IDA, ACPR, and IEEE NER have separately marked estimated submission dates based on earlier calls. The former subjective Difficulty field remains removed.
 - Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/core_conferences_normalized_tags.xlsx`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
@@ -16,7 +16,7 @@ Last synchronized: 2026-10-06
 ### ICORE Rankings
 
 - Current status: Completed
-- Brief description: `data/icore_rankings.yml` holds 32 verified ICORE 2026 A*/A/B/C ranks at the conference-series level, with official portal IDs and export provenance. Unlisted venues, satellite workshops, and the joint IJCAI-ECAI record intentionally have no inferred rank. The synchronized workbook carries the rank and its direct ICORE source link.
+- Brief description: `data/icore_rankings.yml` holds 34 verified ICORE 2026 A*/A/B/C ranks at the conference-series level, with official portal IDs and export provenance. Unlisted venues, satellite workshops, and the joint IJCAI-ECAI record intentionally have no inferred rank; standalone IJCAI and ECAI 2027 have their direct mappings. The synchronized workbook carries the rank and its direct ICORE source link.
 - Files modified: `data/icore_rankings.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`, `tests/test_icore.py`
 - Tests implemented: Rank schema and workshop exclusion in validation; targeted rendering and validation tests in `tests/test_icore.py`.
 - Remaining work: Re-audit against the next ICORE release when published.
@@ -25,7 +25,7 @@ Last synchronized: 2026-10-06
 ### CCF Rankings And Historical Acceptance
 
 - Current status: Completed for sourced coverage
-- Brief description: `data/ccf_rankings.yml` maps 25 directly matched main-track series to the official CCF 2026 seventh-edition catalog, adding ICASSP coverage beyond ICORE. `data/acceptance_rates.yml` stores 13 sourced historical year/track-specific percentages; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
+- Brief description: `data/ccf_rankings.yml` maps 27 directly matched main-track series to the official CCF 2026 seventh-edition catalog, adding ICASSP coverage beyond ICORE and separate B mappings for IJCAI and ECAI. `data/acceptance_rates.yml` now covers 22 series with historical percentages or source-grounded qualitative-only estimates; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
 - Files modified: `data/ccf_rankings.yml`, `data/acceptance_rates.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`
 - Tests implemented: Mapping/schema checks in validation and rendering tests; workbook sample inspection and visual preview.
 - Remaining work: Add reliable rate evidence as organizers publish statistics; revisit rankings only on new releases.
@@ -34,7 +34,7 @@ Last synchronized: 2026-10-06
 ### Data Validation
 
 - Current status: Completed
-- Brief description: Validation checks required fields, IDs, date formats, topic taxonomy membership, confidence and relevance values, source URL requirements for confirmed data, prerequisite deadline links, duplicate deadline UID keys, both ranking releases and workshop exclusions, and historical acceptance evidence.
+- Brief description: Validation checks required fields, IDs, date formats, topic taxonomy membership, edition- and deadline-level confidence, optional submission-opening evidence, source URLs, prerequisite deadline links, duplicate deadline UID keys, both ranking releases and workshop exclusions, and historical acceptance evidence.
 - Files modified: `scripts/validate.py`
 - Tests implemented: `python scripts/validate.py`; also run in `.github/workflows/build.yml`.
 - Remaining work: Consider enforcing freshness in CI if review cadence becomes a hard publication requirement; the maintenance report currently flags stale checks without blocking builds.
@@ -52,7 +52,7 @@ Last synchronized: 2026-10-06
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates `docs/index.html` with compact expandable deadline rows ordered by actionable paper opportunities; a submission status and a countdown to the next required step; an open-only checkbox; tighter search/topic/size controls; historical acceptance bands and percentages; separate ICORE/CCF ranks in both tabs; and source-linked confidence and ICS downloads. Passed milestones use muted red-grey.
+- Brief description: Generates `docs/index.html` with one compact expandable row per edition ordered by the next chronological milestone, including conference start. Submission status distinguishes verified open, upcoming, estimated, closed, and unannounced routes; the opportunities checkbox includes open, upcoming, and estimated submission routes. The Confidence column is removed; date uncertainty appears in the status and milestone. Upcoming conferences are separated from ongoing/past editions. The result count sits beside the checkbox, and both tables use `Accept. rate` with sourced bands/percentages. Rankings, filters, and ICS downloads remain available.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI.
 - Remaining work: Add automated browser regression checks before further large UI changes.
@@ -61,7 +61,7 @@ Last synchronized: 2026-10-06
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines the controlled topic vocabulary, `data/metadata.yml` provides the site-level `last_updated` date, and the 61-series workbook is a synchronized catalog reference.
+- Brief description: `data/topics.yml` defines the controlled topic vocabulary, `data/metadata.yml` provides the site-level `last_updated` date, and the 63-series workbook is a synchronized catalog reference.
 - Files modified: `data/topics.yml`, `data/metadata.yml`, `scripts/validate.py`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.
@@ -88,8 +88,8 @@ Last synchronized: 2026-10-06
 ### Regular Data Maintenance
 
 - Current status: Completed tooling; ongoing editorial review
-- Brief description: `scripts/maintenance_report.py` prints separate source-linked queues for upcoming/overdue edition checks and missing/stale historical acceptance evidence. `project_docs/data_maintenance.md` records the full review and publication routine.
-- Files modified: `scripts/maintenance_report.py`, `tests/test_maintenance.py`, `project_docs/data_maintenance.md`, `README.md`
+- Brief description: `scripts/maintenance_report.py` defaults to a 30-day review window and flags inferred submission dates even when a meeting date is confirmed. `scripts/rollover_editions.py` provides idempotent cadence-aware projections for selected annual and biennial series. `project_docs/data_maintenance.md` records the monthly source comparison and publication routine.
+- Files modified: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, `tests/test_maintenance.py`, `tests/test_rollover_and_site.py`, `project_docs/data_maintenance.md`, `README.md`
 - Tests implemented: Unit tests for queue classification; CLI run against the full catalog.
 - Remaining work: Run the report regularly and review organizer sources. It does not automatically scrape or publish unverified updates.
 - Known issues: Acceptance evidence remains sparse for workshops and some smaller venues.

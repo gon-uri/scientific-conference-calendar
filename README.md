@@ -48,19 +48,26 @@ Each conference entry includes normalized topics, size, submission type, and
 source-backed dates. Confirmed dates should include official source URLs; proxy
 dates should remain marked as `estimated` with a note. A prerequisite such as
 abstract registration uses `gate_for` to name the later paper deadline it gates.
+Submission deadlines can have their own `confidence` when the meeting dates
+are official but the submission schedule is inferred. The site's
+`Show submission opportunities` checkbox includes confirmed upcoming and
+estimated future paper routes, not only portals open today; a green status
+marker identifies a verified open-now portal.
 
 `data/icore_rankings.yml` and `data/ccf_rankings.yml` contain independent
 series-level ranks, shown together on the website. A blank rank means no direct
 match was verified; workshops do not inherit parent-conference ranks.
 `data/acceptance_rates.yml` contains sourced rates for named historical tracks
 and editions. The qualitative band is derived from the percentage, and absent
-evidence appears as Unknown, not as a guessed rate. The workbook in `data/`
-mirrors these values for catalog review.
+evidence appears as Unknown, not as a guessed numeric rate. A sourced
+qualitative-only estimate is explicitly marked `(estimated)`. The workbook in
+`data/` mirrors these values for catalog review.
 
 To review upcoming editions and rate-evidence gaps:
 
 ```bash
-python scripts/maintenance_report.py --max-age-days 60
+python scripts/maintenance_report.py --max-age-days 30
+python scripts/rollover_editions.py --as-of YYYY-MM-DD
 ```
 
 See [data maintenance](project_docs/data_maintenance.md) for the source-check,

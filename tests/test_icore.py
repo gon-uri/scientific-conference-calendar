@@ -46,9 +46,10 @@ class IcoreTests(unittest.TestCase):
             _conference_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
             _deadline_group_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
         ):
-            self.assertLess(rendered.index('data-label="Topics"'), rendered.index('data-label="Acceptance rate"'))
-            self.assertLess(rendered.index('data-label="Acceptance rate"'), rendered.index('data-label="ICORE / CCF"'))
+            self.assertLess(rendered.index('data-label="Topics"'), rendered.index('data-label="Accept. rate"'))
+            self.assertLess(rendered.index('data-label="Accept. rate"'), rendered.index('data-label="ICORE / CCF"'))
             self.assertNotIn('data-label="Difficulty"', rendered)
+            self.assertNotIn('data-label="Confidence"', rendered)
 
     def test_validator_rejects_workshop_inheritance(self) -> None:
         data = deepcopy(self.data)

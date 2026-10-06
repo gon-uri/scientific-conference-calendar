@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE EMBC 2027 Calendar
+BEGIN:VEVENT
+UID:ieee-embc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270125T115900Z
+DTEND:20270125T125900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - Full
+  paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/important-dates/\nLocation: Singapore\nTopics: Healthcare & C
+ linical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurote
+ chnology\nSize: XL\nSubmission type: Paper-based / broad applied venue\nC
+ onfidence: estimated\nLast checked date: 2026-10-06\nNotes: Organizer con
+ firms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlin
+ es. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional ca
+ lendar time\, so the edition remains estimated.
+URL:https://embc.embs.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270424T115900Z
+DTEND:20270424T125900Z
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - 1-pa
+ ge poster submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/important-dates/\nLocation: Singapore\nTopics: Healthcare & C
+ linical AI\, Signal Processing\, EEG/MEG & Neural Signals\, BCI & Neurote
+ chnology\nSize: XL\nSubmission type: Paper-based / broad applied venue\nC
+ onfidence: estimated\nLast checked date: 2026-10-06\nNotes: Organizer con
+ firms Singapore\, Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlin
+ es. Cutoff hour/timezone is not specified\; 23:59 AoE is a provisional ca
+ lendar time\, so the edition remains estimated.
+URL:https://embc.embs.org/2027/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-embc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270711
+DTEND;VALUE=DATE:20270716
+SUMMARY:[Healthcare & Clinical AI][Signal Processing] IEEE EMBC 2027 - Conf
+ erence
+DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
+ erence\nWebsite: https://embc.embs.org/2027/\nSource URL: https://embc.em
+ bs.org/2027/\nLocation: Singapore\nTopics: Healthcare & Clinical AI\, Sig
+ nal Processing\, EEG/MEG & Neural Signals\, BCI & Neurotechnology\nSize: 
+ XL\nSubmission type: Paper-based / broad applied venue\nConfidence: confi
+ rmed\nLast checked date: 2026-10-06\nNotes: Organizer confirms Singapore\
+ , Jul 11-15\, and Jan 24 full-paper/Apr 23 poster deadlines. Cutoff hour/
+ timezone is not specified\; 23:59 AoE is a provisional calendar time\, so
+  the edition remains estimated.
+URL:https://embc.embs.org/2027/
+LOCATION:Singapore
+END:VEVENT
+END:VCALENDAR

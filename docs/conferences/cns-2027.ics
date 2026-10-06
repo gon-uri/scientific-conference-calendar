@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CNS* 2027 Calendar
+BEGIN:VEVENT
+UID:cns-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270319T115900Z
+DTEND:20270319T125900Z
+SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
+ 27 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/cns-20
+ 26-dates\nLocation: Gran Canaria\, Spain\nTopics: Computational Neuroscie
+ nce\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmissi
+ on type: Abstract-based\nConfidence: estimated\nLast checked date: 2026-1
+ 0-06\nNotes: OCNS confirms Gran Canaria\, Jul 10-14. Abstract deadline re
+ mains a prior-edition timing estimate.
+URL:https://www.cnsorg.org/cns-2026-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:cns-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270710
+DTEND;VALUE=DATE:20270715
+SUMMARY:[Computational Neuroscience][Time Series & Sequential Data] CNS* 20
+ 27 - Conference
+DESCRIPTION:Conference title: Computational Neuroscience Annual Meeting\nWe
+ bsite: https://www.cnsorg.org/\nSource URL: https://www.cnsorg.org/index.
+ php?Itemid=135&id=54&option=com_content&view=article\nLocation: Gran Cana
+ ria\, Spain\nTopics: Computational Neuroscience\, Time Series & Sequentia
+ l Data\, Machine Learning\nSize: M\nSubmission type: Abstract-based\nConf
+ idence: confirmed\nLast checked date: 2026-10-06\nNotes: OCNS confirms Gr
+ an Canaria\, Jul 10-14. Abstract deadline remains a prior-edition timing 
+ estimate.
+URL:https://www.cnsorg.org/index.php?Itemid=135&id=54&option=com_content&vi
+ ew=article
+LOCATION:Gran Canaria\, Spain
+END:VEVENT
+END:VCALENDAR

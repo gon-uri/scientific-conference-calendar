@@ -295,6 +295,21 @@ def validate_conferences(
                     ):
                         errors.append(f"{deadline_label}: source_url must be non-empty")
 
+                    if "confidence" in deadline and deadline["confidence"] not in {"confirmed", "estimated"}:
+                        errors.append(f"{deadline_label}: confidence must be confirmed or estimated")
+
+                    for field in ("opens_at", "open_observed_on"):
+                        if field not in deadline:
+                            continue
+                        try:
+                            opening = parse_datetime(deadline[field]) if field == "opens_at" else parse_date(deadline[field])
+                            closing = parse_datetime(deadline["datetime"])
+                            opening_day = opening.date() if isinstance(opening, datetime) else opening
+                            if opening_day > closing.date():
+                                errors.append(f"{deadline_label}: {field} is after deadline")
+                        except (KeyError, TypeError, ValueError) as exc:
+                            errors.append(f"{deadline_label}: {field} is invalid: {exc}")
+
                     if (
                         conference.get("confidence") == "confirmed"
                         and not _non_empty_string(deadline.get("source_url"))

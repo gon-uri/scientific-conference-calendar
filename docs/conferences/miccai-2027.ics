@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MICCAI 2027 Calendar
+BEGIN:VEVENT
+UID:miccai-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115900Z
+DTEND:20270213T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Paper 
+ registration deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
+ efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
+ , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
+ & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
+ mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
+ pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
+ nannounced\; February dates are prior-edition proxies.
+URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270227T115900Z
+DTEND:20270227T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
+ efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
+ , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
+ & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
+ mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
+ pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
+ nannounced\; February dates are prior-edition proxies.
+URL:https://conferences.miccai.org/2026/en/default.asp
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20271002
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://miccai.org/upcoming-conferences/
+ \nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\, Healthca
+ re & Clinical AI\, Deep Representation Learning\, Neuroimaging & Brain Ma
+ pping\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
+ t checked date: 2026-10-06\nNotes: The current MICCAI Society upcoming-co
+ nferences page gives Auckland\, Sep 26-Oct 1. Paper dates are unannounced
+ \; February dates are prior-edition proxies.
+URL:https://miccai.org/upcoming-conferences/
+LOCATION:Auckland\, New Zealand
+END:VEVENT
+END:VCALENDAR

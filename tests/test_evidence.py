@@ -29,10 +29,14 @@ class EvidenceTests(unittest.TestCase):
 
     def test_ccf_mapping_and_coverage(self) -> None:
         self.assertEqual(validate_ccf_rankings(self.conferences, self.ccf), [])
-        self.assertEqual(len(self.ccf["rankings"]), 25)
+        self.assertEqual(len(self.ccf["rankings"]), 27)
         self.assertIn("ICASSP", self.ccf["rankings"])
         self.assertNotIn("ICASSP", self.icore["rankings"])
         self.assertNotIn("IJCAI-ECAI", self.ccf["rankings"])
+        self.assertEqual(self.ccf["rankings"]["IJCAI"]["rank"], "B")
+        self.assertEqual(self.icore["rankings"]["IJCAI"]["rank"], "A*")
+        self.assertEqual(self.ccf["rankings"]["ECAI"]["rank"], "B")
+        self.assertEqual(self.icore["rankings"]["ECAI"]["rank"], "A")
 
     def test_ccf_rejects_malformed_rank_and_workshop(self) -> None:
         data = deepcopy(self.ccf)

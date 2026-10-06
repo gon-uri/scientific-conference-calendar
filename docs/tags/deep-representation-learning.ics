@@ -643,7 +643,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20260916T115900Z
 DTEND:20260916T125900Z
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Workshop paper submission deadline
+ 26 (day TBA) - Workshop paper submission deadline (estimated)
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
  nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
@@ -758,9 +758,9 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  -submission\nLocation: Montreal\, Canada\nTopics: Computational Neuroscie
  nce\, EEG/MEG & Neural Signals\, Machine Learning\, Deep Representation L
  earning\nSize: L\nSubmission type: Abstract-based / talks highly selectiv
- e\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes: Official 
+ e\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Official 
  COSYNE 2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract 
- submission deadline.
+ submission deadline. The abstract submission link was live on Oct 6.
 URL:https://www.cosyne.org/abstracts-submission
 END:VEVENT
 BEGIN:VEVENT
@@ -850,6 +850,40 @@ URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:midl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ml4h-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261206
@@ -889,7 +923,7 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261211
 DTEND;VALUE=DATE:20261212
 SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
- 26 (day TBA) - Conference
+ 26 (day TBA) - Conference (estimated)
 DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
  Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
  nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
@@ -921,6 +955,78 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
 URL:https://aaai.org/conference/aaai/aaai-27/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcai-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270105T115900Z
+DTEND:20270105T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Abstr
+ act submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270112T115900Z
+DTEND:20270112T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Full 
+ paper submission deadline
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270124T115900Z
+DTEND:20270124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcnn-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115900Z
@@ -935,6 +1041,58 @@ DESCRIPTION:Conference title: International Joint Conference on Neural Netw
  d\nLast checked date: 2026-08-20\nNotes: Official IJCNN 2027 site lists C
  ape Town\, Jun 14-18\, and the regular-paper deadline.
 URL:https://ijcnn.org/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270210T115900Z
+DTEND:20270210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page paper abstract deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115900Z
+DTEND:20270213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page full paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2027-deadline-registration@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115900Z
+DTEND:20270213T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Paper 
+ registration deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
+ efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
+ , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
+ & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
+ mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
+ pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
+ nannounced\; February dates are prior-edition proxies.
+URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssci-2027-conference@scientific-conference-calendar
@@ -957,6 +1115,24 @@ URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
 LOCATION:Gold Coast\, Queensland\, Australia
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270214T115900Z
+DTEND:20270214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Workshop application deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:aaai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270216
@@ -973,6 +1149,24 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270227T115900Z
+DTEND:20270227T125900Z
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://conferences.miccai.org/2026/en/d
+ efault.asp\nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\
+ , Healthcare & Clinical AI\, Deep Representation Learning\, Neuroimaging 
+ & Brain Mapping\nSize: XL\nSubmission type: Paper-based\nConfidence: esti
+ mated\nLast checked date: 2026-10-06\nNotes: The current MICCAI Society u
+ pcoming-conferences page gives Auckland\, Sep 26-Oct 1. Paper dates are u
+ nannounced\; February dates are prior-edition proxies.
+URL:https://conferences.miccai.org/2026/en/default.asp
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-conference@scientific-conference-calendar
@@ -1005,10 +1199,80 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  n: Montreal\, Canada\nTopics: Computational Neuroscience\, EEG/MEG & Neur
  al Signals\, Machine Learning\, Deep Representation Learning\nSize: L\nSu
  bmission type: Abstract-based / talks highly selective\nConfidence: confi
- rmed\nLast checked date: 2026-09-14\nNotes: Official COSYNE 2027 pages co
+ rmed\nLast checked date: 2026-10-06\nNotes: Official COSYNE 2027 pages co
  nfirm Montreal\, Mar 11-16\, and the Oct 18 abstract submission deadline.
+  The abstract submission link was live on Oct 6.
 URL:https://www.cosyne.org/
 LOCATION:Montreal\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Came
+ ra-ready deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270317T115900Z
+DTEND:20270317T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICANN 2027 - Full 
+ paper and abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Neural
+  Networks\nWebsite: https://e-nns.org/icann2026/\nSource URL: https://e-n
+ ns.org/icann2026/\nLocation: To be announced\nTopics: Machine Learning\, 
+ Deep Representation Learning\, Computational Neuroscience\, Signal Proces
+ sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
+ om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
+  confirmation\; website and source links refer to the prior edition.
+URL:https://e-nns.org/icann2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270403T115900Z
+DTEND:20270403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 2-page extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T115900Z
+DTEND:20270415T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ECAI 2027 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
+ e\nWebsite: https://ecai2027.org/\nSource URL: https://ecai2027.org/\nLoc
+ ation: Athens\, Greece\nTopics: Machine Learning\, Deep Representation Le
+ arning\, Learning Theory & Statistical Foundations\, Fairness & Responsib
+ le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLas
+ t checked date: 2026-10-06\nNotes: Official ECAI 2027 site confirms Athen
+ s\, Oct 2-7 (main conference Oct 4-7)\, and an Apr 14 full-paper submissi
+ on date. The cutoff hour/time zone is not published\, so 23:59 AoE is an 
+ explicitly estimated placeholder.
+URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:esann-2027-conference@scientific-conference-calendar
@@ -1047,6 +1311,42 @@ URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:acpr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T065900Z
+DTEND:20270602T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://www.acpr2025.com/date\nLocati
+ on: TBD\nTopics: Machine Learning\, Deep Representation Learning\, Signal
+  Processing\, Biomedical Imaging\nSize: M\nSubmission type: Paper-based\n
+ Confidence: estimated\nLast checked date: 2026-10-06\nNotes: The latest o
+ fficial proceedings are for ACPR 2025. The 2027 meeting is a biennial-cal
+ endar placeholder\; submission estimates use the original (pre-extension)
+  2025 CFP lead times and weekdays so an earlier gate is not missed. Verif
+ y against an official 2027 announcement.
+URL:https://www.acpr2025.com/date
+END:VEVENT
+BEGIN:VEVENT
+UID:acpr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270609T065900Z
+DTEND:20270609T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://www.acpr2025.com/date\nLocati
+ on: TBD\nTopics: Machine Learning\, Deep Representation Learning\, Signal
+  Processing\, Biomedical Imaging\nSize: M\nSubmission type: Paper-based\n
+ Confidence: estimated\nLast checked date: 2026-10-06\nNotes: The latest o
+ fficial proceedings are for ACPR 2025. The 2027 meeting is a biennial-cal
+ endar placeholder\; submission estimates use the original (pre-extension)
+  2025 CFP lead times and weekdays so an earlier gate is not missed. Verif
+ y against an official 2027 announcement.
+URL:https://www.acpr2025.com/date
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcnn-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270614
@@ -1064,21 +1364,245 @@ URL:https://ijcnn.org/2027
 LOCATION:Cape Town\, South Africa
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/FutureMeetings\nLocation: South America (city to be 
+ announced)\nTopics: Machine Learning\, Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\, Time Series & Sequential Data\nS
+ ize: XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: ICML confirms the 2027 region as South Americ
+ a but has not published dates or deadlines. Dates use the 2026 edition as
+  an annual-cadence proxy.
+URL:https://icml.cc/Conferences/FutureMeetings
+LOCATION:South America (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+LOCATION:Porto\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270730
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: 
+ CCN confirms Edinburgh\, Jul 26-29. Submission dates remain prior-edition
+  timing estimates until the 2027 CFP is released.
+URL:https://2027.ccneuro.org/
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270807
+DTEND;VALUE=DATE:20270814
+SUMMARY:[Machine Learning][Deep Representation Learning] IJCAI 2027 - Confe
+ rence
+DESCRIPTION:Conference title: International Joint Conference on Artificial 
+ Intelligence\nWebsite: https://2027.ijcai.org/\nSource URL: https://2027.
+ ijcai.org/\nLocation: Kyoto\, Japan\nTopics: Machine Learning\, Deep Repr
+ esentation Learning\, Learning Theory & Statistical Foundations\, Fairnes
+ s & Responsible AI\nSize: XL\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-06\nNotes: Official IJCAI 2027 site 
+ confirms the Kyoto main meeting Aug 7-13 and Jan 4 abstract/Jan 11 paper 
+ deadlines\, all 23:59 AoE. A separate Hengqin satellite event is not dupl
+ icated as a main conference.
+URL:https://2027.ijcai.org/
+LOCATION:Kyoto\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:icann-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270914
+DTEND;VALUE=DATE:20270918
+SUMMARY:[Machine Learning][Deep Representation Learning] ICANN 2027 - Confe
+ rence (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Neural
+  Networks\nWebsite: https://e-nns.org/icann2026/\nSource URL: https://e-n
+ ns.org/icann2026/\nLocation: To be announced\nTopics: Machine Learning\, 
+ Deep Representation Learning\, Computational Neuroscience\, Signal Proces
+ sing\nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Provisional 1-year cadence projection fr
+ om ICANN 2026. Meeting dates\, location\, and deadlines require organizer
+  confirmation\; website and source links refer to the prior edition.
+URL:https://e-nns.org/icann2026/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:miccai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270926
+DTEND;VALUE=DATE:20271002
+SUMMARY:[Biomedical Imaging][Healthcare & Clinical AI] MICCAI 2027 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Medical Image Com
+ puting and Computer Assisted Intervention\nWebsite: https://miccai.org/up
+ coming-conferences/\nSource URL: https://miccai.org/upcoming-conferences/
+ \nLocation: Auckland\, New Zealand\nTopics: Biomedical Imaging\, Healthca
+ re & Clinical AI\, Deep Representation Learning\, Neuroimaging & Brain Ma
+ pping\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
+ t checked date: 2026-10-06\nNotes: The current MICCAI Society upcoming-co
+ nferences page gives Auckland\, Sep 26-Oct 1. Paper dates are unannounced
+ \; February dates are prior-edition proxies.
+URL:https://miccai.org/upcoming-conferences/
+LOCATION:Auckland\, New Zealand
+END:VEVENT
+BEGIN:VEVENT
+UID:ecai-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271008
+SUMMARY:[Machine Learning][Deep Representation Learning] ECAI 2027 - Confer
+ ence
+DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
+ e\nWebsite: https://ecai2027.org/\nSource URL: https://ecai2027.org/\nLoc
+ ation: Athens\, Greece\nTopics: Machine Learning\, Deep Representation Le
+ arning\, Learning Theory & Statistical Foundations\, Fairness & Responsib
+ le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
+ t checked date: 2026-10-06\nNotes: Official ECAI 2027 site confirms Athen
+ s\, Oct 2-7 (main conference Oct 4-7)\, and an Apr 14 full-paper submissi
+ on date. The cutoff hour/time zone is not published\, so 23:59 AoE is an 
+ explicitly estimated placeholder.
+URL:https://ecai2027.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
 UID:acpr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271108
 DTEND;VALUE=DATE:20271112
 SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Confer
- ence
+ ence (estimated)
 DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  ite: https://iapr.org/\nSource URL: https://link.springer.com/conference/
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nSubmission type: P
- aper-based\nConfidence: not_yet_announced\nLast checked date: 2026-10-05\
- nNotes: The latest official proceedings are for ACPR 2025. The 2027 entry
-  uses a biennial-calendar placeholder until an IAPR/ACPR host announcemen
- t is published.
+ aper-based\nConfidence: not_yet_announced\nLast checked date: 2026-10-06\
+ nNotes: The latest official proceedings are for ACPR 2025. The 2027 meeti
+ ng is a biennial-calendar placeholder\; submission estimates use the orig
+ inal (pre-extension) 2025 CFP lead times and weekdays so an earlier gate 
+ is not missed. Verify against an official 2027 announcement.
 URL:https://link.springer.com/conference/acpr
 LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271221T115900Z
+DTEND:20271221T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2028 - Paper 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/file
+ s/flyerCallFP.pdf\nLocation: To be announced\nTopics: Machine Learning\, 
+ Deep Representation Learning\, Signal Processing\, Biomedical Imaging\nSi
+ ze: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-06\nNotes: Provisional 2-year cadence projection from ICPR
+  2026. Meeting dates\, location\, and deadlines require organizer confirm
+ ation\; website and source links refer to the prior edition.
+URL:https://icpr2026.org/files/flyerCallFP.pdf
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280525T215900Z
+DTEND:20280525T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Pape
+ r submission deadline (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280715T215900Z
+DTEND:20280715T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Came
+ ra-ready deadline (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:icpr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280817
+DTEND;VALUE=DATE:20280823
+SUMMARY:[Machine Learning][Deep Representation Learning] ICPR 2028 - Confer
+ ence (estimated)
+DESCRIPTION:Conference title: International Conference on Pattern Recogniti
+ on\nWebsite: https://icpr2026.org/\nSource URL: https://icpr2026.org/\nLo
+ cation: To be announced\nTopics: Machine Learning\, Deep Representation L
+ earning\, Signal Processing\, Biomedical Imaging\nSize: XL\nSubmission ty
+ pe: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-06\nNo
+ tes: Provisional 2-year cadence projection from ICPR 2026. Meeting dates\
+ , location\, and deadlines require organizer confirmation\; website and s
+ ource links refer to the prior edition.
+URL:https://icpr2026.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280824
+DTEND;VALUE=DATE:20280827
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Conf
+ erence (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

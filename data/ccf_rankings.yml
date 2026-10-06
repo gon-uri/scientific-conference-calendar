@@ -10,6 +10,7 @@ rankings:
   "CIKM": {rank: "B", page: 36}
   "COLT": {rank: "B", page: 58}
   "DSAA": {rank: "C", page: 43}
+  "ECAI": {rank: "B", page: 58}
   "ECML PKDD": {rank: "B", page: 36}
   "ICANN": {rank: "C", page: 59}
   "ICASSP": {rank: "B", page: 48}
@@ -20,6 +21,7 @@ rankings:
   "ICPR": {rank: "C", page: 60}
   "IDA": {rank: "C", page: 55}
   "IJCNN": {rank: "C", page: 60}
+  "IJCAI": {rank: "B", page: 58}
   "KDD": {rank: "A", page: 35}
   "MICCAI": {rank: "B", page: 71}
   "NeurIPS": {rank: "A", page: 57}

@@ -334,6 +334,25 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
 URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:lod-2026-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260624T115900Z
+DTEND:20260624T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - First-batch paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
 UID:ideal-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260701T225900Z
@@ -524,6 +543,25 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
+UID:lod-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260818T225900Z
+DTEND:20260818T235900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - Second-batch paper submission deadline
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
 UID:icdm-2026-deadline-workshop-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260821T115900Z
@@ -632,21 +670,22 @@ END:VEVENT
 BEGIN:VEVENT
 UID:lod-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260920
-DTEND;VALUE=DATE:20260924
-SUMMARY:[Machine Learning][Data Mining & Data Science] LOD 2026 - Conferenc
- e
-DESCRIPTION:Conference title: International Conference on Machine Learning\
- , Optimization\, and Data Science\nWebsite: https://lodconference.org/\nS
- ource URL: https://lodconference.org/\nLocation: TBD\nTopics: Machine Lea
- rning\, Data Mining & Data Science\, Learning Theory & Statistical Founda
- tions\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-ba
- sed / Springer proceedings\nConfidence: not_yet_announced\nLast checked d
- ate: 2026-09-14\nNotes: No official LOD 2026 event page was discoverable.
-  The September placeholder follows the 2025 annual cycle and must be repl
- aced when organizers publish the next edition.
-URL:https://lodconference.org/
-LOCATION:TBD
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260925
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2026 (formerly L
+ OD) - Conference
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: Castiglione della Pescaia\, Italy\nTopics: Machine
+  Learning\, Data Mining & Data Science\, Learning Theory & Statistical Fo
+ undations\, Time Series & Sequential Data\nSize: M\nSubmission type: Pape
+ r-based / Springer proceedings\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: The organizer says LOD was renamed AIS in 2026 and co
+ nfirms Sep 21-24 in Tuscany. Its page lists a Jun 23 first batch and an e
+ xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
+ for stable calendar subscriptions.
+URL:https://ais2026.icas.events/
+LOCATION:Castiglione della Pescaia\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:discovery-science-2026-deadline-abstract@scientific-conference-calendar
@@ -862,6 +901,44 @@ DESCRIPTION:Conference title: Pacific-Asia Conference on Knowledge Discover
 URL:https://pakdd2027.org/pages/calls/research
 END:VEVENT
 BEGIN:VEVENT
+UID:ida-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261121T115959Z
+DTEND:20261121T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Abstract 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://ida20
+ 26.org/regular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-based
+  / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10-0
+ 6\nNotes: The official IDA Society site confirms Pisa\, Italy\, in April 
+ 2027\, but does not yet give exact days or a CFP. Apr 21-23 is a provisio
+ nal calendar placeholder. Submission dates are estimates preserving the 2
+ 026 CFP lead time and weekday\; verify against the 2027 CFP.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ida-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261128T115959Z
+DTEND:20261128T125959Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: International Symposium on Intelligent Data A
+ nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://ida20
+ 26.org/regular-paper-track/\nLocation: Pisa\, Italy\nTopics: Data Mining 
+ & Data Science\, Machine Learning\, Probabilistic\, Causal & Uncertainty 
+ ML\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-based
+  / interdisciplinary\nConfidence: estimated\nLast checked date: 2026-10-0
+ 6\nNotes: The official IDA Society site confirms Pisa\, Italy\, in April 
+ 2027\, but does not yet give exact days or a CFP. Apr 21-23 is a provisio
+ nal calendar placeholder. Submission dates are estimates preserving the 2
+ 026 CFP lead time and weekday\; verify against the 2027 CFP.
+URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-bhi-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261212
@@ -919,7 +996,7 @@ DTSTAMP:19700101T000000Z
 DTSTART:20270115T235900Z
 DTEND:20270116T005900Z
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
- r or abstract submission deadline
+ r or abstract submission deadline (estimated)
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
@@ -931,6 +1008,44 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
  cify the cutoff hour or timezone\; 23:59 Canary time is a calendar proxy\
  , so this entry remains estimated.
 URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Abstract 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
+ ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
+  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
+ first research-track cycle closed in July 2026. A February 2027 cycle is 
+ announced but exact dates are still TBA\; the February abstract/paper dat
+ es here are estimated from 2026.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270209T115900Z
+DTEND:20270209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
+ ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
+  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
+ first research-track cycle closed in July 2026. A February 2027 cycle is 
+ announced but exact dates are still TBA\; the February abstract/paper dat
+ es here are estimated from 2026.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-conference@scientific-conference-calendar
@@ -969,6 +1084,42 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:ecml-pkdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270306T115900Z
+DTEND:20270306T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Healt
+ hcare & Clinical AI\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Official 2
+ 027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines are provisi
+ onal 2026 timing proxies and need CFP confirmation.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Healt
+ hcare & Clinical AI\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Official 2
+ 027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines are provisi
+ onal 2026 timing proxies and need CFP confirmation.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
 UID:pakdd-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270320T115900Z
@@ -991,18 +1142,37 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
 DTEND;VALUE=DATE:20270424
 SUMMARY:[Data Mining & Data Science][Machine Learning] IDA 2027 - Conferenc
- e
+ e (estimated)
 DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  nalysis\nWebsite: https://www.ida-society.org/\nSource URL: https://www.i
  da-society.org/\nLocation: Pisa\, Italy\nTopics: Data Mining & Data Scien
  ce\, Machine Learning\, Probabilistic\, Causal & Uncertainty ML\, Time Se
  ries & Sequential Data\nSize: M\nSubmission type: Paper-based / interdisc
- iplinary\nConfidence: estimated\nLast checked date: 2026-10-05\nNotes: Th
+ iplinary\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Th
  e official IDA Society site confirms Pisa\, Italy\, in April 2027\, but d
  oes not yet give exact days or a CFP. Apr 21-23 is a provisional calendar
-  placeholder.
+  placeholder. Submission dates are estimates preserving the 2026 CFP lead
+  time and weekday\; verify against the 2027 CFP.
 URL:https://www.ida-society.org/
 LOCATION:Pisa\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270623T115900Z
+DTEND:20270623T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - First-batch paper submission deadline (estimated)
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: TBD\nTopics: Machine Learning\, Data Mining & Data
+  Science\, Learning Theory & Statistical Foundations\, Time Series & Sequ
+ ential Data\nSize: M\nSubmission type: Paper-based / Springer proceedings
+ \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: AIS's offi
+ cial 2026 site describes the renamed series as annual. The 2027 meeting a
+ nd submission dates are estimates preserving the 2026 weekdays and early 
+ batch lead times\; no 2027 CFP or venue is yet published.
+URL:https://ais2026.icas.events/
 END:VEVENT
 BEGIN:VEVENT
 UID:pakdd-2027-conference@scientific-conference-calendar
@@ -1028,7 +1198,7 @@ DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270714
 DTEND;VALUE=DATE:20270717
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Conf
- erence
+ erence (estimated)
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
@@ -1041,5 +1211,139 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
  , so this entry remains estimated.
 URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270723T115900Z
+DTEND:20270723T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Second-batch paper submission deadline (estimated)
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: TBD\nTopics: Machine Learning\, Data Mining & Data
+  Science\, Learning Theory & Statistical Foundations\, Time Series & Sequ
+ ential Data\nSize: M\nSubmission type: Paper-based / Springer proceedings
+ \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: AIS's offi
+ cial 2026 site describes the renamed series as annual. The 2027 meeting a
+ nd submission dates are estimates preserving the 2026 weekdays and early 
+ batch lead times\; no 2027 CFP or venue is yet published.
+URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270806
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
+ ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fa
+ irness & Responsible AI\nSize: XL\nSubmission type: Paper-based / mixed t
+ racks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial site confirms San Jose\, Aug 1-5. The first research-track cycle clos
+ ed in July 2026. A February 2027 cycle is announced but exact dates are s
+ till TBA\; the February abstract/paper dates here are estimated from 2026
+ .
+URL:https://kdd2027.kdd.org/
+LOCATION:San Jose\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Con
+ ference
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2027/\nLocation:
+  Eindhoven\, Netherlands\nTopics: Machine Learning\, Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: 
+ L\nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLa
+ st checked date: 2026-10-06\nNotes: Official 2027 page confirms Eindhoven
+  and Aug 30-Sep 3. Paper deadlines are provisional 2026 timing proxies an
+ d need CFP confirmation.
+URL:https://ecmlpkdd.org/2027/
+LOCATION:Eindhoven\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:ais-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270920
+DTEND;VALUE=DATE:20270924
+SUMMARY:[Machine Learning][Data Mining & Data Science] AIS 2027 (formerly L
+ OD) - Conference (estimated)
+DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
+ OD)\nWebsite: https://ais2026.icas.events/\nSource URL: https://ais2026.i
+ cas.events/\nLocation: TBD\nTopics: Machine Learning\, Data Mining & Data
+  Science\, Learning Theory & Statistical Foundations\, Time Series & Sequ
+ ential Data\nSize: M\nSubmission type: Paper-based / Springer proceedings
+ \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: AIS's offi
+ cial 2026 site describes the renamed series as annual. The 2027 meeting a
+ nd submission dates are estimates preserving the 2026 weekdays and early 
+ batch lead times\; no 2027 CFP or venue is yet published.
+URL:https://ais2026.icas.events/
+LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280525T215900Z
+DTEND:20280525T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Pape
+ r submission deadline (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280715T215900Z
+DTEND:20280715T225900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Came
+ ra-ready deadline (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+END:VEVENT
+BEGIN:VEVENT
+UID:s-sspr-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280824
+DTEND;VALUE=DATE:20280827
+SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Conf
+ erence (estimated)
+DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
+ ical Techniques in Pattern Recognition and Structural and Syntactic Patte
+ rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
+ Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
+ gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
+ onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
+ rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
+ cation\, and deadlines require organizer confirmation\; website and sourc
+ e links refer to the prior edition.
+URL:https://ssspr2026.inf.unibe.ch/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

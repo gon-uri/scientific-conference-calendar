@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:MIDL 2027 Calendar
+BEGIN:VEVENT
+UID:midl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Came
+ ra-ready deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.
+URL:https://2027.midl.io/important-dates
+LOCATION:Porto\, Portugal
+END:VEVENT
+END:VCALENDAR

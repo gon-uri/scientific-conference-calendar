@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICML 2027 Calendar
+BEGIN:VEVENT
+UID:icml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270124T115900Z
+DTEND:20270124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270214T115900Z
+DTEND:20270214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Workshop application deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/FutureMeetings\nLocation: South America (city to be 
+ announced)\nTopics: Machine Learning\, Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\, Time Series & Sequential Data\nS
+ ize: XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: ICML confirms the 2027 region as South Americ
+ a but has not published dates or deadlines. Dates use the 2026 edition as
+  an annual-cadence proxy.
+URL:https://icml.cc/Conferences/FutureMeetings
+LOCATION:South America (city to be announced)
+END:VEVENT
+END:VCALENDAR

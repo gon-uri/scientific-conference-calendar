@@ -15,6 +15,7 @@ flowchart TD
   CR --> S
   AR["data/acceptance_rates.yml"] --> V
   AR --> S
+  RO["scripts/rollover_editions.py"] --> A
   V --> I["scripts/build_ics.py"]
   V --> S
   I --> D1["docs/calendar-all.ics"]
@@ -45,6 +46,7 @@ scripts/
   build_site.py                   static HTML site generation
   build_all.py                    validate, then build all generated outputs
   maintenance_report.py           source-linked edition and rate review queues
+  rollover_editions.py             idempotent annual/biennial edition projections
 docs/
   index.html                      generated GitHub Pages site
   calendar-all.ics                generated aggregate calendar feed
@@ -68,7 +70,8 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 - `scripts/validate.py`: Loads YAML data, parses dates, validates required fields, controlled values, topics, source URLs, deadline gates, deadline uniqueness, rank mappings, and acceptance evidence.
 - `scripts/build_ics.py`: Converts valid conference records into standards-oriented VCALENDAR output with deterministic UIDs, escaped text, folded lines, and stable ordering.
-- `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, tabs, actionable submission status/countdowns, confidence labels, source links, and download links.
+- `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, milestone-ordered deadlines, submission-opportunity status, a future/past conference split, source links, and downloads.
+- `scripts/rollover_editions.py`: Adds missing next editions for a curated set of annual/biennial series without replacing existing records; all copied timing remains estimated until checked against organizer sources.
 - `scripts/build_all.py`: Runs validation once, then invokes both builders and prints generated paths.
 
 ## Responsibilities
@@ -85,7 +88,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 ## Data Flow
 
-1. A maintainer reviews the two queues from `scripts/maintenance_report.py` and edits the appropriate YAML source file.
+1. About monthly, a maintainer reviews the two queues from `scripts/maintenance_report.py`, checks official sources against estimates, and edits the appropriate YAML source file. `scripts/rollover_editions.py` previews missing recurring editions.
 2. `scripts/validate.py` verifies the conference records and controlled taxonomy.
 3. `scripts/build_ics.py` writes aggregate, topic, and per-conference calendar feeds into `docs/`.
 4. `scripts/build_site.py` writes the static website to `docs/index.html`.
@@ -100,7 +103,8 @@ AGENTS.md                         lightweight agent onboarding instructions
   - `python scripts/build_ics.py`
   - `python scripts/build_site.py`
   - `python scripts/build_all.py`
-  - `python scripts/maintenance_report.py --max-age-days 60`
+  - `python scripts/maintenance_report.py --max-age-days 30`
+  - `python scripts/rollover_editions.py --as-of YYYY-MM-DD` (preview; add `--write` after review)
 - Public static outputs:
   - `docs/index.html`
   - `docs/calendar-all.ics`
@@ -117,11 +121,11 @@ The project currently uses procedural Python functions and built-in data structu
 
 ## Important Interfaces
 
-- Conference record schema: Required fields and allowed values are enforced in `scripts/validate.py`; `gate_for` links a prerequisite to its paper deadline. Ranks and rates join by exact series name. Rates retain their historical year, track, and source. Durable project guidance lives in `project_docs/` and the lightweight agent entrypoint is `AGENTS.md`.
+- Conference record schema: Required fields and allowed values are enforced in `scripts/validate.py`; `gate_for` links a prerequisite to its paper deadline. Meeting `confidence` is distinct from optional deadline `confidence`. `opens_at` and `open_observed_on` are evidence that a route is open now. Ranks and rates join by exact series name. Rates retain their historical year, track, and source. Durable project guidance lives in `project_docs/` and the lightweight agent entrypoint is `AGENTS.md`.
 - Agent handoff interface: Future coding sessions should start with `AGENTS.md`, then read all files in `project_docs/` before making modifications.
 - Topic taxonomy: Every topic in a conference record must match an entry in `data/topics.yml`.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
-- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-acceptance`, and serialized deadline details for client-side filtering, submission-state evaluation, and countdown rendering. Estimated dates never become confirmed-open solely from a future timestamp.
+- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
 
 ## Design Rationale
 

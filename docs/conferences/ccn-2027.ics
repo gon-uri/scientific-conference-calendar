@@ -1,0 +1,76 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Scientific Conference Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCN 2027 Calendar
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270210T115900Z
+DTEND:20270210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page paper abstract deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115900Z
+DTEND:20270213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page full paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270403T115900Z
+DTEND:20270403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 2-page extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270730
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: 
+ CCN confirms Edinburgh\, Jul 26-29. Submission dates remain prior-edition
+  timing estimates until the 2027 CFP is released.
+URL:https://2027.ccneuro.org/
+LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+END:VCALENDAR

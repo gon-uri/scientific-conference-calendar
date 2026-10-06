@@ -5,20 +5,57 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ACPR 2027 Calendar
 BEGIN:VEVENT
+UID:acpr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270602T065900Z
+DTEND:20270602T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Abstra
+ ct submission deadline (estimated)
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://www.acpr2025.com/date\nLocati
+ on: TBD\nTopics: Machine Learning\, Deep Representation Learning\, Signal
+  Processing\, Biomedical Imaging\nSize: M\nSubmission type: Paper-based\n
+ Confidence: estimated\nLast checked date: 2026-10-06\nNotes: The latest o
+ fficial proceedings are for ACPR 2025. The 2027 meeting is a biennial-cal
+ endar placeholder\; submission estimates use the original (pre-extension)
+  2025 CFP lead times and weekdays so an earlier gate is not missed. Verif
+ y against an official 2027 announcement.
+URL:https://www.acpr2025.com/date
+END:VEVENT
+BEGIN:VEVENT
+UID:acpr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270609T065900Z
+DTEND:20270609T075900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Full p
+ aper submission deadline (estimated)
+DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
+ ite: https://iapr.org/\nSource URL: https://www.acpr2025.com/date\nLocati
+ on: TBD\nTopics: Machine Learning\, Deep Representation Learning\, Signal
+  Processing\, Biomedical Imaging\nSize: M\nSubmission type: Paper-based\n
+ Confidence: estimated\nLast checked date: 2026-10-06\nNotes: The latest o
+ fficial proceedings are for ACPR 2025. The 2027 meeting is a biennial-cal
+ endar placeholder\; submission estimates use the original (pre-extension)
+  2025 CFP lead times and weekdays so an earlier gate is not missed. Verif
+ y against an official 2027 announcement.
+URL:https://www.acpr2025.com/date
+END:VEVENT
+BEGIN:VEVENT
 UID:acpr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271108
 DTEND;VALUE=DATE:20271112
 SUMMARY:[Machine Learning][Deep Representation Learning] ACPR 2027 - Confer
- ence
+ ence (estimated)
 DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  ite: https://iapr.org/\nSource URL: https://link.springer.com/conference/
  acpr\nLocation: TBD\nTopics: Machine Learning\, Deep Representation Learn
  ing\, Signal Processing\, Biomedical Imaging\nSize: M\nSubmission type: P
- aper-based\nConfidence: not_yet_announced\nLast checked date: 2026-10-05\
- nNotes: The latest official proceedings are for ACPR 2025. The 2027 entry
-  uses a biennial-calendar placeholder until an IAPR/ACPR host announcemen
- t is published.
+ aper-based\nConfidence: not_yet_announced\nLast checked date: 2026-10-06\
+ nNotes: The latest official proceedings are for ACPR 2025. The 2027 meeti
+ ng is a biennial-calendar placeholder\; submission estimates use the orig
+ inal (pre-extension) 2025 CFP lead times and weekdays so an earlier gate 
+ is not missed. Verify against an official 2027 announcement.
 URL:https://link.springer.com/conference/acpr
 LOCATION:TBD
 END:VEVENT
