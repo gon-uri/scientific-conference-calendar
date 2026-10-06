@@ -103,6 +103,7 @@ Last synchronized: 2026-10-07
 - Date: 2026-10-06
 - Context: A future camera-ready, workshop-proposal, or commitment deadline can make a conference appear open even when a new paper can no longer be submitted. A past mandatory abstract or registration gate can also close a paper route ahead of its paper deadline.
 - Decision: Keep one compact expandable deadline row per edition, but derive submission status from future paper/abstract/poster routes. Link mandatory earlier steps to their target with `gate_for`. Retain passed milestones in the expanded list with muted red-grey styling. The later opportunities filter includes confirmed and estimated future routes; a portal is Open now only with evidence of its opening.
+- Visual refinement (2026-10-07): Open abstract/paper statuses use bold green text and a pale green background without a decorative leading dot. Status wording and eligibility logic are unchanged.
 - Alternatives considered: Show every milestone as a separate top-level row; use the chronologically next milestone as the countdown; hide all passed milestones.
 - Consequences: Users can quickly identify where a paper can still go. Maintainers must record mandatory gates accurately, and unknown/estimated routes never masquerade as confirmed openings.
 

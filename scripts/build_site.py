@@ -956,16 +956,6 @@ def build_site(
       line-height: 1.3;
     }}
     .status-open {{ background: #d8efdd; color: #155b2d; }}
-    .status-open::before {{
-      content: "";
-      display: inline-block;
-      width: 6px;
-      height: 6px;
-      margin-right: 6px;
-      border-radius: 50%;
-      background: currentColor;
-      vertical-align: 2px;
-    }}
     .status-upcoming {{ background: #eaf5e8; color: #3d7044; }}
     .status-estimated {{ background: #fff3d7; color: #765321; }}
     .status-closed, .status-ongoing {{ background: #f4e9e9; color: #8a3e42; }}

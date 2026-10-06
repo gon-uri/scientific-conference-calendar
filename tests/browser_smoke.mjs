@@ -59,6 +59,15 @@ try {
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  const openStatuses = page.locator('#panel-deadlines .status-open');
+  const openLabels = await openStatuses.allTextContents();
+  assert(openLabels.includes('Open abstract submissions'));
+  assert(openLabels.includes('Open paper submissions'));
+  assert(await openStatuses.evaluateAll(labels => labels.every(label =>
+    getComputedStyle(label, '::before').content === 'none' &&
+    getComputedStyle(label).fontWeight === '700' &&
+    getComputedStyle(label).color === 'rgb(21, 91, 45)'
+  )), 'Open submission statuses must keep bold green text without leading dots');
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(!(await page.locator('#clear-filters').isVisible()));
@@ -250,6 +259,10 @@ try {
       })), `Deadline header overlap at ${width}px`);
     }
     if (output) {
+      if (width === 1440) {
+        await page.locator('[data-deadline-group][data-edition="cosyne-2027"]').screenshot({path: path.join(output, 'open-abstract-status.png')});
+        await page.locator('[data-deadline-group][data-edition="isbi-2027"]').screenshot({path: path.join(output, 'open-paper-status.png')});
+      }
       if (width === 1440 || width === 320) await sysid.screenshot({path: path.join(output, `time-estimate-${width}.png`)});
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});

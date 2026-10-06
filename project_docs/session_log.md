@@ -1,5 +1,22 @@
 # Session Log
 
+## 2026-10-07 (open submission status simplification)
+
+- Objective: Remove the leading dot from open submission statuses and publish.
+- Completed: removed the CSS pseudo-element from the site generator. Open
+  abstract and paper labels retain their wording, bold green text, and pale
+  green background. Submission logic, filtering, and all conference data stay
+  unchanged.
+- Regression coverage: browser checks assert both open label types are present,
+  have no leading pseudo-element, and preserve their text color and weight.
+  Dedicated desktop screenshots capture the abstract and paper examples.
+- Verification: all 93 conference records validate, 32 Python tests and the
+  full build pass, and browser checks pass at 1440/1051/1050/768/390/320px.
+  Both open-status example screenshots were visually inspected. Git confirms
+  that conference data and all ICS feeds are unchanged.
+- Publication: generator, generated HTML, browser regression, and maintained
+  documentation are committed together for the existing main/docs deployment.
+
 ## 2026-10-07 (four-color logo and README banner)
 
 - Objective: Change only the logo colors and place a full-width white
