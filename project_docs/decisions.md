@@ -216,3 +216,17 @@ Last synchronized: 2026-10-06
   explicitly sourced triennial SYSID cadence, not a blanket annual assumption.
 - Consequences: Calendar clients do not receive a fabricated hour. Editorial
   reviews still must check organizer portals for precise timezone/cutoff updates.
+
+## ADR-025: Separate Rank Navigation From Evidence And Group Filters
+
+- Date: 2026-10-06
+- Context: Users requested compact expandable filtering, complementary CCF
+  selection, and ranking webpages instead of direct PDF downloads.
+- Decision: Keep all controls in one initially collapsed native disclosure.
+  Add independent CCF A/B/C/Unranked matching alongside ICORE, using OR within
+  a group and AND across groups. Preserve CCF PDF/page provenance and validate
+  a separate official `page_url` for filter headings and table-score links.
+- Consequences: Both tables and the confirmed-city map share the added filter;
+  the opportunities checkbox remains deadlines-only. Rank scores and calendar
+  data do not change, and workshops remain unranked. Disclosure state survives
+  viewport changes without an extra UI dependency.

@@ -417,6 +417,11 @@ def validate_ccf_rankings(
         "https://www.ccf.org.cn/ccf/contentcore/resource/download?"
     ):
         errors.append("CCF source_url must point to the official catalog PDF")
+    page_url = data.get("page_url")
+    if not _non_empty_string(page_url) or not page_url.startswith(
+        "https://www.ccf.org.cn/Academic_Evaluation/"
+    ):
+        errors.append("CCF page_url must point to the official ranking webpage")
     rankings = data.get("rankings")
     if not isinstance(rankings, dict):
         return errors + ["CCF rankings must be a mapping"]

@@ -10,6 +10,14 @@ organizer API is called at runtime. `data/cities.yml` maps exact canonical
 location aliases to approximate city centers; only confirmed future meeting
 dates with a mapped city are shown. Map markers and tables share filters.
 
+Search, topics, sizes, independent ICORE/CCF ranks, acceptance bands, the
+deadline-only opportunities option, and Clear filters live in one native
+`details` panel. It starts collapsed at every viewport and preserves its state
+when resized. Values within each rank group match with OR; separate groups
+combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
+`page_url` points public rank links and the CCF Rank legend to the official
+release webpage. ICORE Rank links to its conference portal.
+
 `data/topic_families.yml` maps every controlled leaf to exactly one of seven
 families. Edition records store up to four central leaves. Parent selection
 expands to children; matching is OR within families, with selectable ANY/ALL
@@ -115,7 +123,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 - `data/conferences.yml` owns conference facts and confidence levels.
 - `data/topics.yml` owns allowed topic labels.
 - `data/icore_rankings.yml` owns the optional ICORE 2026 series-level mapping and official portal provenance.
-- `data/ccf_rankings.yml` owns direct CCF 2026 catalog matches and PDF-page provenance.
+- `data/ccf_rankings.yml` owns direct CCF 2026 catalog matches, PDF-page provenance, and a separately validated official navigation webpage.
 - `data/acceptance_rates.yml` owns historical rate evidence, edition, and track.
 - `data/metadata.yml` owns site-level publication metadata.
 - `docs/*.ics` and `docs/index.html` are generated public artifacts.
@@ -161,7 +169,7 @@ The project currently uses procedural Python functions and built-in data structu
 - Agent handoff interface: Future coding sessions should start with `AGENTS.md`, then read all files in `project_docs/` before making modifications.
 - Topic taxonomy: Every topic in a conference record must match an entry in `data/topics.yml`.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
-- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
+- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-ccf`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. Missing ranks match the corresponding Unranked option; workshops do not inherit scores. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
 
 ## Design Rationale
 

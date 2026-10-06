@@ -1,6 +1,7 @@
 release: "CCF2026-7th"
 checked_on: "2026-10-06"
 source_url: "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+page_url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
 rankings:
   "AAAI": {rank: "A", page: 57}
   "ACML": {rank: "C", page: 59}

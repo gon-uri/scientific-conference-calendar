@@ -170,14 +170,13 @@ def _ranking_cell(
     conference: dict[str, Any],
     icore: dict[str, Any],
     ccf: dict[str, Any],
-    ccf_source: str,
+    ccf_page: str,
 ) -> str:
     ccf_entry = ccf.get(conference["series"])
     if ccf_entry:
         rank = ccf_entry["rank"]
-        source = f'{ccf_source}#page={ccf_entry["page"]}'
         ccf_html = (
-            f'<a class="rank-link rank-link-ccf" href="{_attr(source)}" '
+            f'<a class="rank-link rank-link-ccf" href="{_attr(ccf_page)}" '
             f'aria-label="CCF 2026 rank {_attr(rank)}" '
             f'title="CCF 2026: {_attr(rank)}. Main-track full papers only.">'
             f"{escape(rank)}</a>"
@@ -239,6 +238,7 @@ def _filter_attributes(
     conference: dict[str, Any],
     search_text: str,
     icore: dict[str, Any],
+    ccf: dict[str, Any],
     rates: dict[str, Any],
 ) -> str:
     rate = rates.get(conference["series"])
@@ -265,6 +265,7 @@ def _filter_attributes(
         f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
         f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
+        f'data-ccf="{_attr(ccf.get(conference["series"], {}).get("rank", "Unranked"))}" '
         f'data-acceptance="{_attr(_value_slug(band))}" '
         f'data-confidence="{_attr(conference["confidence"])}" '
         f'data-conference-start="{_attr(conference["conference_start"])}" '
@@ -325,7 +326,7 @@ def _deadline_group_rows(
     conferences: list[dict[str, Any]],
     icore: dict[str, Any],
     ccf: dict[str, Any],
-    ccf_source: str,
+    ccf_page: str,
     rates: dict[str, Any],
 ) -> str:
     rows = []
@@ -351,7 +352,7 @@ def _deadline_group_rows(
                 "</button>"
             )
         rows.append(
-            f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text, icore, rates)} '
+            f'<tr class="deadline-group-row" {_filter_attributes(conference, search_text, icore, ccf, rates)} '
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             '<td data-label="Submission status"><span class="submission-status" data-submission-status>Checking...</span></td>'
@@ -359,7 +360,7 @@ def _deadline_group_rows(
             f'<td class="deadline-combined-cell" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones)}</div></td>'
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
-            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_source)}</td>'
+            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             "</tr>"
         )
@@ -370,7 +371,7 @@ def _conference_rows(
     conferences: list[dict[str, Any]],
     icore: dict[str, Any],
     ccf: dict[str, Any],
-    ccf_source: str,
+    ccf_page: str,
     rates: dict[str, Any],
 ) -> str:
     rows = []
@@ -386,13 +387,13 @@ def _conference_rows(
             else ""
         )
         rows.append(
-            f'<tr {_filter_attributes(conference, search_text, icore, rates)} data-conference-row>'
+            f'<tr {_filter_attributes(conference, search_text, icore, ccf, rates)} data-conference-row>'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
-            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_source)}</td>'
+            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
             "</tr>"
@@ -444,7 +445,13 @@ def _unique_values(conferences: list[dict[str, Any]], field: str) -> list[str]:
     )
 
 
-def _checkbox_group(label: str, group: str, values: list[str], slug_values: bool = True) -> str:
+def _checkbox_group(
+    label: str,
+    group: str,
+    values: list[str],
+    slug_values: bool = True,
+    link_href: str | None = None,
+) -> str:
     boxes = []
     for value in values:
         filter_value = stable_slug(value) if slug_values else value
@@ -455,9 +462,12 @@ def _checkbox_group(label: str, group: str, values: list[str], slug_values: bool
             f"<span>{escape(value)}</span>"
             "</label>"
         )
+    heading = escape(label)
+    if link_href:
+        heading = f'<a href="{_attr(link_href)}">{heading}</a>'
     return (
         "<fieldset class=\"filter-group\">"
-        f"<legend>{escape(label)}</legend>"
+        f"<legend>{heading}</legend>"
         f"<div class=\"check-list\">{''.join(boxes)}</div>"
         "</fieldset>"
     )
@@ -506,6 +516,7 @@ def build_site(
     last_updated = _dataset_last_updated(conferences)
     icore = icore_data["rankings"]
     ccf = ccf_data["rankings"]
+    ccf_page = ccf_data["page_url"]
     rates = acceptance_data["rates"]
     logo = 'data:image/png;base64,' + base64.b64encode((ASSETS_DIR / 'venue-radar.png').read_bytes()).decode('ascii')
     custom_css = (ASSETS_DIR / 'site.css').read_text(encoding='utf-8')
@@ -1151,28 +1162,36 @@ def build_site(
 <body>
   <main>
     <header>
-      <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="58" height="58"><h1>Venue Radar</h1></div>
-      <p class="subhead">Scientific conferences in ML &amp; AI, data science, neuroscience, signal processing, biomedical AI, complex systems and control.</p>
+      <div class="brand-copy">
+        <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="76" height="76"><h1>Venue Radar</h1></div>
+        <p class="subhead">Scientific conferences in ML &amp; AI, data science, neuroscience, signal processing, biomedical AI, complex systems and control.</p>
+      </div>
       <div class="calendar-action">
+        <span class="calendar-caption">Download calendar</span>
         <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
       </div>
     </header>
 
-    <div class="controls">
-      <label class="search-control">
-        <span class="control-label">Search</span>
-        <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
-      </label>
-      <details class="filter-details" id="filter-details" open>
-        <summary>Filters</summary>
+    <details class="controls filter-details" id="filter-details">
+      <summary>Filters</summary>
+      <div class="filter-content">
+        <label class="search-control">
+          <span class="control-label">Search</span>
+          <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
+        </label>
         <div class="filter-grid">
           {_topic_filter()}
           {_checkbox_group("Size", "size", ["S", "M", "L", "XL", "XXL"])}
-          {_checkbox_group("ICORE", "icore", ["A*", "A", "B", "C", "Unranked"], slug_values=False)}
+          {_checkbox_group("ICORE Rank", "icore", ["A*", "A", "B", "C", "Unranked"], slug_values=False, link_href="https://portal.core.edu.au/conf-ranks/")}
+          {_checkbox_group("CCF Rank", "ccf", ["A", "B", "C", "Unranked"], slug_values=False, link_href=ccf_page)}
           {_checkbox_group("Acceptance rate", "acceptance", ["Very low", "Low", "Moderate", "High", "Very high", "Unknown"])}
         </div>
-      </details>
-    </div>
+        <div class="filter-actions">
+          <label class="open-toggle"><input id="open-only" type="checkbox">Show submission opportunities</label>
+          <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
+        </div>
+      </div>
+    </details>
 
     <section class="tab-shell" aria-label="Conference calendar tables">
       <div class="tab-toolbar">
@@ -1182,10 +1201,8 @@ def build_site(
         </div>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
-          <label class="open-toggle"><input id="open-only" type="checkbox">Show submission opportunities</label>
         </div>
       </div>
-      <div class="results-line"><button class="clear-filters" id="clear-filters" type="button">Clear filters</button></div>
 
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
         <div class="table-wrap">
@@ -1204,7 +1221,7 @@ def build_site(
               </tr>
             </thead>
             <tbody id="deadlines-body">
-              {_deadline_group_rows(conferences, icore, ccf, ccf_data["source_url"], rates)}
+              {_deadline_group_rows(conferences, icore, ccf, ccf_page, rates)}
             </tbody>
           </table>
         </div>
@@ -1233,7 +1250,7 @@ def build_site(
               </tr>
             </thead>
             <tbody id="upcoming-conferences-body">
-              {_conference_rows(conferences, icore, ccf, ccf_data["source_url"], rates)}
+              {_conference_rows(conferences, icore, ccf, ccf_page, rates)}
             </tbody>
           </table>
         </div>
@@ -1276,11 +1293,6 @@ def build_site(
   {custom_js}</script>
   <script>
     const search = document.querySelector("#search");
-    const filterDetails = document.querySelector("#filter-details");
-    const mobileFilters = window.matchMedia("(max-width: 760px)");
-    const syncFilterDisclosure = () => {{ filterDetails.open = !mobileFilters.matches; }};
-    syncFilterDisclosure();
-    mobileFilters.addEventListener("change", syncFilterDisclosure);
     const filters = [...document.querySelectorAll("[data-filter-group]")];
     const rows = [...document.querySelectorAll("[data-filter-row]")];
     const openOnly = document.querySelector("#open-only");
@@ -1322,6 +1334,7 @@ def build_site(
       const query = search.value.trim().toLowerCase();
       const selectedSizes = selectedValues("size");
       const selectedIcore = selectedValues("icore");
+      const selectedCcf = selectedValues("ccf");
       const selectedAcceptance = selectedValues("acceptance");
 
       const haystack = row.dataset.search.toLowerCase();
@@ -1329,9 +1342,10 @@ def build_site(
       const matchesTopic = venueTopicMatch(row);
       const matchesSize = matchesGroup(row, "size", selectedSizes);
       const matchesIcore = matchesGroup(row, "icore", selectedIcore);
+      const matchesCcf = matchesGroup(row, "ccf", selectedCcf);
       const matchesAcceptance = matchesGroup(row, "acceptance", selectedAcceptance);
       const matchesOpen = !row.hasAttribute("data-deadline-group") || !openOnly.checked || ["open", "upcoming", "estimated"].includes(stateByRow.get(row)?.kind);
-      return matchesSearch && matchesTopic && matchesSize && matchesIcore && matchesAcceptance && matchesOpen;
+      return matchesSearch && matchesTopic && matchesSize && matchesIcore && matchesCcf && matchesAcceptance && matchesOpen;
     }}
 
     function formatRemaining(deadline, now) {{

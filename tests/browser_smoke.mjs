@@ -18,8 +18,22 @@ await page.route('https://giscus.app/**', route => route.abort());
 try {
   await page.goto(url);
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  const filterSummary = page.locator('#filter-details > summary');
+  assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
+  assert(!(await page.locator('#clear-filters').isVisible()));
+  assert.equal(await page.locator('input, select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
+  await filterSummary.click();
+  assert.equal(await page.getByRole('link', {name: 'ICORE Rank', exact: true}).getAttribute('href'), 'https://portal.core.edu.au/conf-ranks/');
+  const ccfPage = 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml';
+  assert.equal(await page.getByRole('link', {name: 'CCF Rank', exact: true}).getAttribute('href'), ccfPage);
+  assert(await page.locator('.rank-link-ccf').evaluateAll(links => links.every(link => link.href === 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml')));
+  assert.equal(await page.locator('.calendar-caption').innerText(), 'Download calendar');
+  assert(await page.locator('header').evaluate(header => header.querySelector('.calendar-action').getBoundingClientRect().right > header.querySelector('.brand-line').getBoundingClientRect().right));
+  assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 76);
+  assert.notEqual(await page.locator('#tab-deadlines').evaluate(tab => getComputedStyle(tab).backgroundColor), await page.locator('#tab-conferences').evaluate(tab => getComputedStyle(tab).backgroundColor));
+  assert((await page.locator('.topic-filter').boundingBox()).width <= 360);
   assert.deepEqual(await page.locator('[data-filter-group="size"]').evaluateAll(inputs => inputs.map(i => i.value)), ['s', 'm', 'l', 'xl', 'xxl']);
-  assert.equal(await page.locator('#deadlines-table .row-calendar-button').count(), 0);
+  assert.equal(await page.locator('#panel-deadlines .row-calendar-button').count(), 0);
   const toggle = page.locator('[data-deadline-group]:visible .deadline-toggle').first();
   await toggle.click();
   assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
@@ -47,6 +61,21 @@ try {
   assert.match(await page.locator('.city-popup').innerText(), /COSYNE 2027/);
 
   await page.locator('#clear-filters').click();
+
+  await page.locator('[data-filter-group="ccf"][value="B"]').check();
+  const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
+  assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));
+  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 43);
+  await page.locator('[data-filter-group="icore"][value="Unranked"]').check();
+  assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
+  assert(await ccfMatches.evaluateAll(rows => rows.some(row => row.dataset.edition === 'icassp-2027')));
+  await page.locator('#tab-deadlines').click();
+  assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
+  await page.locator('#clear-filters').click();
+  await page.locator('[data-filter-group="ccf"][value="Unranked"]').check();
+  assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'Unranked')));
+  await page.locator('#clear-filters').click();
+  await page.locator('#tab-conferences').click();
   const familySummary = page.locator('.topic-family summary').first();
   await familySummary.focus();
   await page.keyboard.press('Enter');
@@ -70,6 +99,7 @@ try {
   const output = process.env.SCREENSHOT_DIR;
   if (output) await fs.mkdir(output, {recursive: true});
   await page.getByRole('button', {name: 'Reset world view'}).click();
+  await filterSummary.click();
   for (const width of [1440, 768, 390, 320]) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.waitForFunction(() => conferenceMap.getSize().x === document.querySelector('#conference-map').clientWidth);
@@ -86,11 +116,12 @@ try {
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});
     }
-    if (width <= 760) {
-      await page.locator('#filter-details > summary').click();
-      assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
-      await page.locator('#filter-details > summary').click();
-    }
+    assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
+    await filterSummary.click();
+    assert(await page.locator('#clear-filters').isVisible());
+    assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
+    if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
+    await filterSummary.click();
     await page.locator('#tab-conferences').click();
   }
   assert.deepEqual(errors, []);

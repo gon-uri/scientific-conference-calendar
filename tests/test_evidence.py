@@ -62,7 +62,7 @@ class EvidenceTests(unittest.TestCase):
     def test_rank_pair_keeps_sources_separate(self) -> None:
         icassp = next(item for item in self.conferences if item["series"] == "ICASSP")
         cell = _ranking_cell(
-            icassp, self.icore["rankings"], self.ccf["rankings"], self.ccf["source_url"]
+            icassp, self.icore["rankings"], self.ccf["rankings"], self.ccf["page_url"]
         )
         self.assertIn("No ICORE 2026 main-track rank", cell)
         self.assertIn("CCF 2026 rank B", cell)

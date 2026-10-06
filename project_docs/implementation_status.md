@@ -7,6 +7,12 @@ Last synchronized: 2026-10-06
 - Implemented: Venue Radar branding and refined calendar/radar logo, restrained
   visual styling, compact S/M/L/XL/XXL filters, seven hierarchical topic families,
   and a Conferences tab with an offline world map and date-sorted tables.
+- Interface polish: one initially collapsed panel contains search and all
+  filters, including independent ICORE/CCF rank selections and Clear filters.
+  Topics are narrower; linked ranking headings and CCF scores open official
+  webpages. The larger identity, top-right calendar action, and contrasting
+  selected tab make navigation clearer. Title font is unchanged; Space Grotesk
+  SemiBold was proposed and awaits approval.
 - Catalog: 93 edition records across 71 series; 27 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
@@ -44,7 +50,7 @@ Last synchronized: 2026-10-06
 ### CCF Rankings And Historical Acceptance
 
 - Current status: Completed for sourced coverage
-- Brief description: `data/ccf_rankings.yml` maps 27 directly matched main-track series to the official CCF 2026 seventh-edition catalog, adding ICASSP coverage beyond ICORE and separate B mappings for IJCAI and ECAI. `data/acceptance_rates.yml` now covers 22 series with historical percentages or source-grounded qualitative-only estimates; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
+- Brief description: `data/ccf_rankings.yml` maps 27 directly matched main-track series to the official CCF 2026 seventh-edition catalog, adding ICASSP coverage beyond ICORE and separate B mappings for IJCAI and ECAI. PDF-page evidence remains stored, while `page_url` supplies the official webpage for public navigation and is validated separately. `data/acceptance_rates.yml` now covers 22 series with historical percentages or source-grounded qualitative-only estimates; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
 - Files modified: `data/ccf_rankings.yml`, `data/acceptance_rates.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`
 - Tests implemented: Mapping/schema checks in validation and rendering tests; workbook sample inspection and visual preview.
 - Remaining work: Add reliable rate evidence as organizers publish statistics; revisit rankings only on new releases.
@@ -71,9 +77,9 @@ Last synchronized: 2026-10-06
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, ICORE, and acceptance filters affect both tables and the map. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; global downloads remain available.
+- Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. All options and Clear filters live in a single native disclosure, initially collapsed on every viewport; resizing does not reset its state. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 27 Python tests and browser smoke script cover ranking metadata/links, independent CCF filtering, disclosure containment, navigation, map interactions, and overflow at 1440/768/390/320px.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 

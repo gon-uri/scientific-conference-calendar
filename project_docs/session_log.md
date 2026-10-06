@@ -1,5 +1,25 @@
 # Session Log
 
+## 2026-10-06 (filter and navigation corrections)
+
+- Objective: Apply requested compact filtering, CCF navigation/filtering, header
+  and tab refinements; propose an alternative title font separately.
+- Completed: one initially collapsed filter panel containing search, all
+  options, and Clear filters; narrower Topics; independent CCF filter; linked
+  ICORE Rank/CCF Rank headings; CCF scores link to the official seventh-edition
+  webpage while PDF/page evidence remains intact. Increased title/logo sizes,
+  moved the labelled calendar download to the header's right edge, and made
+  selected/unselected tabs more distinct. No conference dates or ranks changed.
+- Typography: proposed Space Grotesk SemiBold (600), with the current body font
+  retained; awaiting user approval before applying a title-font change.
+- Verification: all 93 editions validate; 27 Python tests and the full build
+  pass. Browser checks pass at 1440/768/390/320px, covering filter containment,
+  collapsed state, rank links, independent/combined CCF selections, Unranked,
+  both tables/map, existing interactions, and horizontal overflow. Inspected
+  desktop and narrow-mobile screenshots; no calendar feed changes.
+- Publication: these UI corrections use the existing main/docs GitHub Pages
+  configuration; source and generated HTML are published together.
+
 ## 2026-10-06 (Venue Radar implementation)
 
 - Objective: Implement the approved redesign, conference expansion, topic

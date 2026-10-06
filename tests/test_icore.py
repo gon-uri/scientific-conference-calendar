@@ -8,13 +8,14 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from build_site import _conference_rows, _deadline_group_rows, _icore_cell
+from build_site import _checkbox_group, _conference_rows, _deadline_group_rows, _icore_cell
 from validate import (
     load_acceptance_rates,
     load_ccf_rankings,
     load_conferences,
     load_icore_rankings,
     validate_icore_rankings,
+    validate_ccf_rankings,
 )
 
 
@@ -43,13 +44,35 @@ class IcoreTests(unittest.TestCase):
     def test_new_columns_appear_in_both_tables(self) -> None:
         neurips = next(item for item in self.conferences if item["id"] == "neurips-2026")
         for rendered in (
-            _conference_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
-            _deadline_group_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
+            _conference_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["page_url"], self.rates),
+            _deadline_group_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["page_url"], self.rates),
         ):
             self.assertLess(rendered.index('data-label="Topics"'), rendered.index('data-label="Accept. rate"'))
             self.assertLess(rendered.index('data-label="Accept. rate"'), rendered.index('data-label="ICORE / CCF"'))
             self.assertNotIn('data-label="Difficulty"', rendered)
             self.assertNotIn('data-label="Confidence"', rendered)
+
+    def test_ccf_filter_keeps_independent_and_unranked_metadata(self) -> None:
+        icassp = next(item for item in self.conferences if item["series"] == "ICASSP")
+        workshop = next(item for item in self.conferences if item["series"] == "FMTS @ NeurIPS")
+        for renderer in (_conference_rows, _deadline_group_rows):
+            ranked = renderer([icassp], self.rankings, self.ccf_data["rankings"], self.ccf_data["page_url"], self.rates)
+            self.assertIn('data-icore="Unranked"', ranked)
+            self.assertIn('data-ccf="B"', ranked)
+            self.assertIn(f'href="{self.ccf_data["page_url"]}"', ranked)
+            self.assertNotIn("resource/download", ranked)
+            unranked = renderer([workshop], self.rankings, self.ccf_data["rankings"], self.ccf_data["page_url"], self.rates)
+            self.assertIn('data-ccf="Unranked"', unranked)
+
+    def test_rank_filter_legend_is_a_link(self) -> None:
+        rendered = _checkbox_group("CCF Rank", "ccf", ["A", "B", "C", "Unranked"], slug_values=False, link_href=self.ccf_data["page_url"])
+        self.assertIn(f'<legend><a href="{self.ccf_data["page_url"]}">CCF Rank</a></legend>', rendered)
+        self.assertIn('data-filter-group="ccf" value="Unranked"', rendered)
+
+    def test_validator_rejects_download_as_ccf_webpage(self) -> None:
+        data = deepcopy(self.ccf_data)
+        data["page_url"] = data["source_url"]
+        self.assertTrue(any("CCF page_url" in error for error in validate_ccf_rankings(self.conferences, data)))
 
     def test_validator_rejects_workshop_inheritance(self) -> None:
         data = deepcopy(self.data)

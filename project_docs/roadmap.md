@@ -10,6 +10,10 @@ Last synchronized: 2026-10-06
   synchronized catalog workbook with repeatable maintenance tooling.
 - Completed community setup: Giscus prerequisites verified through its official
   checker; the live comments widget, Discussions, and request form are ready.
+- Completed usability polish: single collapsible filter panel, narrower topics,
+  independent CCF filter, linked rank headings/webpage scores, larger branding,
+  header calendar action, and more evident tab selection. A title-only Space
+  Grotesk SemiBold option is proposed, not yet approved or applied.
 - Deferred: user accounts, live scraping, custom backend, and map tile services
   are deliberately outside the static architecture.
 
