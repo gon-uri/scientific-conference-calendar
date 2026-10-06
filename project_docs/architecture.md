@@ -10,10 +10,15 @@ organizer API is called at runtime. `data/cities.yml` maps exact canonical
 location aliases to approximate city centers; only confirmed future meeting
 dates with a mapped city are shown. Map markers and tables share filters.
 
-Search, topics, sizes, independent ICORE/CCF ranks, acceptance bands, the
-deadline-only opportunities option, and Clear filters live in one native
-`details` panel. It starts collapsed at every viewport and preserves its state
-when resized. Values within each rank group match with OR; separate groups
+Search, topics, sizes, independent ICORE/CCF ranks, acceptance bands, and Clear
+filters live in the native Filters & search `details` panel. Search is the
+grid's last item, aligned beside Acceptance rate on desktop; mobile stacks it
+below the metadata options. Topics & Subtopics families use native disclosure
+markers, plus/minus signs, and hover hints. The panel starts collapsed at every
+viewport and preserves its state when resized. The deadline-only Show only
+submission opportunities checkbox sits outside, beside the tabs on desktop
+and below them on mobile, remaining usable while the panel is collapsed.
+Values within each rank group match with OR; separate groups
 combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 `page_url` points public rank links and the CCF Rank legend to the official
 release webpage. ICORE Rank links to its conference portal.

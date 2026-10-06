@@ -21,8 +21,10 @@ together; inspect git diff and preserve deterministic UID keys.
 ## Optional Browser Smoke
 
 tests/browser_smoke.mjs uses Playwright and a fixed 2026-10-06 reference date.
-It checks opportunity filtering, family intersection, map grouping, keyboard
-and hover popups, empty results, milestone expansion, and four viewport widths.
+It checks opportunity filtering outside the collapsed panel, inline Search
+alignment, topic disclosure cues, family intersection, map grouping, keyboard
+and hover popups, empty results, milestone expansion, and six viewport widths
+(including both sides of the 1050px filter-grid breakpoint).
 It intentionally does not test Giscus authentication or create comments.
 Update catalog-specific expected IDs/counts when the catalog changes.
 

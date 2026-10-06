@@ -12,7 +12,9 @@ Last synchronized: 2026-10-06
   checker; the live comments widget, Discussions, and request form are ready.
 - Completed usability polish: single collapsible filter panel, narrower topics,
   independent CCF filter, linked rank headings/webpage scores, larger branding,
-  header calendar action, and more evident tab selection. A title-only Space
+  header calendar action, more evident tab selection, inline Search, clearer
+  topic/subtopic disclosure cues, and an always-visible deadline opportunities
+  checkbox outside the filter panel. A title-only Space
   Grotesk SemiBold option is proposed, not yet approved or applied.
 - Deferred: user accounts, live scraping, custom backend, and map tile services
   are deliberately outside the static architecture.

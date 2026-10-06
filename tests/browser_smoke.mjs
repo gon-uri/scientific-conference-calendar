@@ -21,7 +21,14 @@ try {
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(!(await page.locator('#clear-filters').isVisible()));
-  assert.equal(await page.locator('input, select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
+  assert.equal(await filterSummary.innerText(), 'Filters & search');
+  assert(Number.parseFloat(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize)) >= 17);
+  assert.equal(await page.locator('input:not(#open-only), select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
+  assert(await page.getByLabel('Show only submission opportunities', {exact: true}).isVisible());
+  assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
+  const tabsBox = await page.locator('.table-tabs').boundingBox();
+  const opportunitiesBox = await page.locator('.open-toggle').boundingBox();
+  assert(opportunitiesBox.x > tabsBox.x + tabsBox.width && Math.abs(opportunitiesBox.y + opportunitiesBox.height / 2 - tabsBox.y - tabsBox.height / 2) < 1);
   await filterSummary.click();
   assert.equal(await page.getByRole('link', {name: 'ICORE Rank', exact: true}).getAttribute('href'), 'https://portal.core.edu.au/conf-ranks/');
   const ccfPage = 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml';
@@ -32,17 +39,25 @@ try {
   assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 76);
   assert.notEqual(await page.locator('#tab-deadlines').evaluate(tab => getComputedStyle(tab).backgroundColor), await page.locator('#tab-conferences').evaluate(tab => getComputedStyle(tab).backgroundColor));
   assert((await page.locator('.topic-filter').boundingBox()).width <= 360);
+  assert.equal(await page.locator('.topic-filter > legend').innerText(), 'Topics & Subtopics');
+  assert(await page.locator('.topic-family > summary').evaluateAll(summaries => summaries.every(summary => getComputedStyle(summary).display === 'list-item' && summary.title === 'Expand or collapse subtopics')));
+  const searchLabel = await page.locator('.search-control .control-label').boundingBox();
+  const acceptanceLabel = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
+  assert(searchLabel.x > acceptanceLabel.x + acceptanceLabel.width);
+  assert(Math.abs(searchLabel.y - acceptanceLabel.y) < 1, 'Search and filter headings must align vertically');
   assert.deepEqual(await page.locator('[data-filter-group="size"]').evaluateAll(inputs => inputs.map(i => i.value)), ['s', 'm', 'l', 'xl', 'xxl']);
   assert.equal(await page.locator('#panel-deadlines .row-calendar-button').count(), 0);
   const toggle = page.locator('[data-deadline-group]:visible .deadline-toggle').first();
   await toggle.click();
   assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
   await toggle.click();
+  await filterSummary.click();
   await page.locator('#open-only').check();
   const opportunities = await page.locator('[data-deadline-group]:visible').evaluateAll(rows => rows.map(r => r.dataset.edition));
   assert(!opportunities.includes('acc-2027'));
   assert(opportunities.includes('ieee-cdc-2027'));
   assert(opportunities.includes('netsci-2027'));
+  await filterSummary.click();
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
@@ -100,32 +115,57 @@ try {
   if (output) await fs.mkdir(output, {recursive: true});
   await page.getByRole('button', {name: 'Reset world view'}).click();
   await filterSummary.click();
-  for (const width of [1440, 768, 390, 320]) {
+  const widths = [1440, 1051, 1050, 768, 390, 320];
+  for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.waitForFunction(() => conferenceMap.getSize().x === document.querySelector('#conference-map').clientWidth);
     await page.waitForFunction(() => conferenceMap.getBounds().getEast() - conferenceMap.getBounds().getWest() > 330);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Map overflow at ${width}px`);
     assert(await page.locator('.leaflet-overlay-pane svg path').count() > 0);
+    if (width > 760) {
+      assert(await page.locator('th:visible').evaluateAll(headings => headings.every(heading => {
+        const range = document.createRange();
+        range.selectNodeContents(heading);
+        const text = range.getBoundingClientRect();
+        const cell = heading.getBoundingClientRect();
+        return text.left >= cell.left - 1 && text.right <= cell.right + 1;
+      })), `Conference header overlap at ${width}px`);
+    }
     if (output) {
       await page.locator('#conference-map').scrollIntoViewIfNeeded();
       await page.screenshot({path: path.join(output, `map-${width}.png`)});
     }
     await page.locator('#tab-deadlines').click();
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Deadline overflow at ${width}px`);
+    if (width > 760) {
+      assert(await page.locator('th:visible').evaluateAll(headings => headings.every(heading => {
+        const range = document.createRange();
+        range.selectNodeContents(heading);
+        const text = range.getBoundingClientRect();
+        const cell = heading.getBoundingClientRect();
+        return text.left >= cell.left - 1 && text.right <= cell.right + 1;
+      })), `Deadline header overlap at ${width}px`);
+    }
     if (output) {
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});
     }
     assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
+    assert(await page.locator('#open-only').isVisible());
     await filterSummary.click();
     assert(await page.locator('#clear-filters').isVisible());
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
+    if (width > 760) {
+      const searchBox = await page.locator('.search-control .control-label').boundingBox();
+      const rateBox = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
+      assert(searchBox.x > rateBox.x + rateBox.width && Math.abs(searchBox.y - rateBox.y) < 1, `Search alignment at ${width}px`);
+    }
     if (output) await page.screenshot({path: path.join(output, `filters-${width}.png`)});
     await filterSummary.click();
     await page.locator('#tab-conferences').click();
   }
   assert.deepEqual(errors, []);
-  console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; 1440/768/390/320px.`);
+  console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);
 } finally {
   await browser.close();
 }

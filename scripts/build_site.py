@@ -483,12 +483,12 @@ def _topic_filter() -> str:
             for topic in family["topics"]
         )
         families.append(
-            f'<details class="topic-family"><summary><label class="check-option">'
+            f'<details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option">'
             f'<input type="checkbox" data-family-toggle="{_attr(family["id"])}">'
             f'<span>{escape(family["label"])}</span></label></summary>'
             f'<div class="check-list">{children}</div></details>'
         )
-    return '<fieldset class="topic-filter"><legend>Topics</legend><div class="topic-tree">' + ''.join(families) + '</div><label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label></fieldset>'
+    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree">' + ''.join(families) + '</div><label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label></fieldset>'
 
 
 def build_site(
@@ -1173,21 +1173,20 @@ def build_site(
     </header>
 
     <details class="controls filter-details" id="filter-details">
-      <summary>Filters</summary>
+      <summary>Filters &amp; search</summary>
       <div class="filter-content">
-        <label class="search-control">
-          <span class="control-label">Search</span>
-          <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
-        </label>
         <div class="filter-grid">
           {_topic_filter()}
           {_checkbox_group("Size", "size", ["S", "M", "L", "XL", "XXL"])}
           {_checkbox_group("ICORE Rank", "icore", ["A*", "A", "B", "C", "Unranked"], slug_values=False, link_href="https://portal.core.edu.au/conf-ranks/")}
           {_checkbox_group("CCF Rank", "ccf", ["A", "B", "C", "Unranked"], slug_values=False, link_href=ccf_page)}
           {_checkbox_group("Acceptance rate", "acceptance", ["Very low", "Low", "Moderate", "High", "Very high", "Unknown"])}
+          <label class="search-control">
+            <span class="control-label">Search</span>
+            <input id="search" type="search" autocomplete="off" placeholder="Conference, topic, location, milestone">
+          </label>
         </div>
         <div class="filter-actions">
-          <label class="open-toggle"><input id="open-only" type="checkbox">Show submission opportunities</label>
           <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
         </div>
       </div>
@@ -1199,6 +1198,7 @@ def build_site(
           <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
           <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences</button>
         </div>
+        <label class="open-toggle"><input id="open-only" type="checkbox">Show only submission opportunities</label>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
         </div>

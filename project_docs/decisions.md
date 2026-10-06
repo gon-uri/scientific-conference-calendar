@@ -230,3 +230,9 @@ Last synchronized: 2026-10-06
   the opportunities checkbox remains deadlines-only. Rank scores and calendar
   data do not change, and workshops remain unranked. Disclosure state survives
   viewport changes without an extra UI dependency.
+- Same-day placement refinement: keep shared metadata controls and Clear
+  filters in Filters & search, but move the deadline-only opportunities
+  checkbox outside beside the tabs. Align Search after Acceptance rate and
+  expose native topic-family disclosure markers alongside plus/minus signs.
+  This supersedes only the original all-controls-inside placement, not any
+  ranking or submission-matching semantics.

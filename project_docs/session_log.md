@@ -1,5 +1,23 @@
 # Session Log
 
+## 2026-10-06 (inline search and topic discovery)
+
+- Objective: Refine filter placement and make the topic hierarchy easier to
+  discover without changing filtering semantics.
+- Completed: Search follows Acceptance rate in the shared grid with aligned
+  desktop headings; the disclosure is larger and named Filters & search.
+  Show only submission opportunities sits outside beside the tabs and stays
+  usable with the panel collapsed. Topics & Subtopics replaces the filter
+  legend; native disclosure arrows and hover hints supplement plus/minus signs.
+  Narrow screens stack the controls without changing their order or meaning.
+  Corrected tablet-width table-header crowding with wrapping and compact padding.
+- Verification: all 93 editions validate; 27 Python tests and the full build
+  pass. Browser checks cover collapsed-panel opportunities, Search alignment,
+  topic expansion/selection, both rank filters, map interactions, header overlap, and overflow
+  at 1440/1051/1050/768/390/320px. Desktop/mobile previews were inspected.
+- Publication: source and generated HTML use the existing main/docs Pages
+  configuration. Conference records, rankings, and ICS feeds are unchanged.
+
 ## 2026-10-06 (filter and navigation corrections)
 
 - Objective: Apply requested compact filtering, CCF navigation/filtering, header
