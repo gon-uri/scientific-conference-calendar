@@ -15,11 +15,11 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
  \nWebsite: https://timeseries4health.github.io/\nSource URL: https://time
  series4health.github.io/\nLocation: San Diego\, California\, USA\nTopics:
   Time Series & Sequential Data\, Healthcare & Clinical AI\, Signal Proces
- sing\, Explainability & Interpretability\nSize: S\nDifficulty: Moderate-h
- ard\nSubmission type: Workshop / paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-10-05\nNotes: Official TS4H page describes the comple
- ted NeurIPS 2025 workshop. No TS4H 2026 edition appears on the official N
- eurIPS 2026 workshop list\; the former 2026 placeholder has been retired.
+ sing\, Explainability & Interpretability\nSize: S\nSubmission type: Works
+ hop / paper-based\nConfidence: confirmed\nLast checked date: 2026-10-05\n
+ Notes: Official TS4H page describes the completed NeurIPS 2025 workshop. 
+ No TS4H 2026 edition appears on the official NeurIPS 2026 workshop list\;
+  the former 2026 placeholder has been retired.
 URL:https://timeseries4health.github.io/
 LOCATION:San Diego\, California\, USA
 END:VEVENT
@@ -35,9 +35,9 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
- y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
- al SIAM SDM26 page lists event details and submission deadlines.
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-08-20\nNotes: Official SIAM SDM26 page
+  lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
@@ -51,9 +51,9 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  ebsite: https://mlhc.org/\nSource URL: https://mlhc.org/\nLocation: Balti
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
- ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
- rence dates\, location\, and full submission deadline.
+ ze: M\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked 
+ date: 2026-08-20\nNotes: Official MLHC page lists conference dates\, loca
+ tion\, and full submission deadline.
 URL:https://mlhc.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -68,9 +68,9 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
- y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
- al SIAM SDM26 page lists event details and submission deadlines.
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-08-20\nNotes: Official SIAM SDM26 page
+  lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
@@ -84,10 +84,10 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
  /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
- al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
- hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
- tes and main paper submission deadlines.
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -101,10 +101,10 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
  /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
- al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
- hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
- tes and main paper submission deadlines.
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -118,11 +118,11 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
  n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
   URL: https://ecml-aaltd.github.io/aaltd2026/dates.html\nLocation: Naples
  \, Italy\nTopics: Time Series & Sequential Data\, Data Mining & Data Scie
- nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nDiff
- iculty: Moderate-hard\nSubmission type: Workshop / paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-09-14\nNotes: Official AALTD 2026 p
- ages confirm the Sep 11 Naples workshop and its Jun 5 abstract\, Jun 12 p
- aper\, and Aug 17 camera-ready milestones (Pacific Time).
+ nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nSubm
+ ission type: Workshop / paper-based\nConfidence: confirmed\nLast checked 
+ date: 2026-09-14\nNotes: Official AALTD 2026 pages confirm the Sep 11 Nap
+ les workshop and its Jun 5 abstract\, Jun 12 paper\, and Aug 17 camera-re
+ ady milestones (Pacific Time).
 URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
 END:VEVENT
 BEGIN:VEVENT
@@ -136,10 +136,10 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
  /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
- al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
- hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
- tes and main paper submission deadlines.
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -153,11 +153,11 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
  n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
   URL: https://ecml-aaltd.github.io/aaltd2026/dates.html\nLocation: Naples
  \, Italy\nTopics: Time Series & Sequential Data\, Data Mining & Data Scie
- nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nDiff
- iculty: Moderate-hard\nSubmission type: Workshop / paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-09-14\nNotes: Official AALTD 2026 p
- ages confirm the Sep 11 Naples workshop and its Jun 5 abstract\, Jun 12 p
- aper\, and Aug 17 camera-ready milestones (Pacific Time).
+ nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nSubm
+ ission type: Workshop / paper-based\nConfidence: confirmed\nLast checked 
+ date: 2026-09-14\nNotes: Official AALTD 2026 pages confirm the Sep 11 Nap
+ les workshop and its Jun 5 abstract\, Jun 12 paper\, and Aug 17 camera-re
+ ady milestones (Pacific Time).
 URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
 END:VEVENT
 BEGIN:VEVENT
@@ -171,10 +171,10 @@ DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
  : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
  2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
  ning\, Deep Representation Learning\, Learning Theory & Statistical Found
- ations\, Explainability & Interpretability\nSize: L\nDifficulty: Hard\nSu
- bmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast chec
- ked date: 2026-08-20\nNotes: Official ACML 2026 pages list Melbourne\, De
- c 1-4\, and the revised conference-track submission deadline.
+ ations\, Explainability & Interpretability\nSize: L\nSubmission type: Pap
+ er-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-
+ 20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the re
+ vised conference-track submission deadline.
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -188,10 +188,10 @@ DESCRIPTION:Conference title: International Conference on Advanced Data Min
  ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
  ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
  ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
- xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
- mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
-  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
- \, Nov 13-15\, and the extended industry/special-session deadline.
+ xplainability & Interpretability\nSize: M\nSubmission type: Paper-based /
+  special sessions\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ADMA 2026 page lists Hong Kong\, Nov 13-15\, and the exte
+ nded industry/special-session deadline.
 URL:https://adma2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
@@ -204,9 +204,9 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
  ebsite: https://mlhc.org/\nSource URL: https://mlhc.org/\nLocation: Balti
  more\, Maryland\, USA\nTopics: Healthcare & Clinical AI\, Machine Learnin
  g\, Time Series & Sequential Data\, Explainability & Interpretability\nSi
- ze: M\nDifficulty: Hard\nSubmission type: Paper-based\nConfidence: confir
- med\nLast checked date: 2026-08-20\nNotes: Official MLHC page lists confe
- rence dates\, location\, and full submission deadline.
+ ze: M\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked 
+ date: 2026-08-20\nNotes: Official MLHC page lists conference dates\, loca
+ tion\, and full submission deadline.
 URL:https://mlhc.org/
 LOCATION:Baltimore\, Maryland\, USA
 END:VEVENT
@@ -221,11 +221,11 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
  n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
   URL: https://ecml-aaltd.github.io/aaltd2026/dates.html\nLocation: Naples
  \, Italy\nTopics: Time Series & Sequential Data\, Data Mining & Data Scie
- nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nDiff
- iculty: Moderate-hard\nSubmission type: Workshop / paper-based\nConfidenc
- e: confirmed\nLast checked date: 2026-09-14\nNotes: Official AALTD 2026 p
- ages confirm the Sep 11 Naples workshop and its Jun 5 abstract\, Jun 12 p
- aper\, and Aug 17 camera-ready milestones (Pacific Time).
+ nce\, Machine Learning\, Explainability & Interpretability\nSize: S\nSubm
+ ission type: Workshop / paper-based\nConfidence: confirmed\nLast checked 
+ date: 2026-09-14\nNotes: Official AALTD 2026 pages confirm the Sep 11 Nap
+ les workshop and its Jun 5 abstract\, Jun 12 paper\, and Aug 17 camera-re
+ ady milestones (Pacific Time).
 URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
 END:VEVENT
 BEGIN:VEVENT
@@ -239,11 +239,11 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
  n Temporal Data\nWebsite: https://ecml-aaltd.github.io/aaltd2026/\nSource
   URL: https://ecml-aaltd.github.io/aaltd2026/\nLocation: Naples\, Italy\n
  Topics: Time Series & Sequential Data\, Data Mining & Data Science\, Mach
- ine Learning\, Explainability & Interpretability\nSize: S\nDifficulty: Mo
- derate-hard\nSubmission type: Workshop / paper-based\nConfidence: confirm
- ed\nLast checked date: 2026-09-14\nNotes: Official AALTD 2026 pages confi
- rm the Sep 11 Naples workshop and its Jun 5 abstract\, Jun 12 paper\, and
-  Aug 17 camera-ready milestones (Pacific Time).
+ ine Learning\, Explainability & Interpretability\nSize: S\nSubmission typ
+ e: Workshop / paper-based\nConfidence: confirmed\nLast checked date: 2026
+ -09-14\nNotes: Official AALTD 2026 pages confirm the Sep 11 Naples worksh
+ op and its Jun 5 abstract\, Jun 12 paper\, and Aug 17 camera-ready milest
+ ones (Pacific Time).
 URL:https://ecml-aaltd.github.io/aaltd2026/
 LOCATION:Naples\, Italy
 END:VEVENT
@@ -258,10 +258,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
- ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
- May 10-14\, 2027 conference dates and the full paper deadline.
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
+ per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
+ 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
+ onference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -275,10 +275,10 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
- ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
- cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
- t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
+ per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
+ -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
+ Apr 26-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
@@ -292,10 +292,10 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
- ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
- cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
- t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
+ per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
+ -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
+ Apr 26-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
@@ -309,10 +309,10 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
- mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
- sts conference dates and abstract/paper submission deadlines.
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
+ es and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -326,10 +326,10 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
- mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
- sts conference dates and abstract/paper submission deadlines.
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
+ es and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -343,10 +343,10 @@ DESCRIPTION:Conference title: International Conference on Advanced Data Min
  ing and Applications\nWebsite: https://adma2026.github.io/\nSource URL: h
  ttps://adma2026.github.io/\nLocation: Hong Kong\, China\nTopics: Data Min
  ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, E
- xplainability & Interpretability\nSize: M\nDifficulty: Moderate-hard\nSub
- mission type: Paper-based / special sessions\nConfidence: confirmed\nLast
-  checked date: 2026-08-20\nNotes: Official ADMA 2026 page lists Hong Kong
- \, Nov 13-15\, and the extended industry/special-session deadline.
+ xplainability & Interpretability\nSize: M\nSubmission type: Paper-based /
+  special sessions\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ADMA 2026 page lists Hong Kong\, Nov 13-15\, and the exte
+ nded industry/special-session deadline.
 URL:https://adma2026.github.io/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -362,9 +362,9 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  \nSource URL: https://www.siam.org/conferences-events/siam-conferences/sd
  m26/\nLocation: Salt Lake City\, Utah\, USA\nTopics: Data Mining & Data S
  cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
- y\, Machine Learning\nSize: M\nDifficulty: Hard\nSubmission type: Paper-b
- ased\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
- al SIAM SDM26 page lists event details and submission deadlines.
+ y\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-08-20\nNotes: Official SIAM SDM26 page
+  lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 LOCATION:Salt Lake City\, Utah\, USA
 END:VEVENT
@@ -379,10 +379,10 @@ DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
  : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
  2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Deep R
  epresentation Learning\, Learning Theory & Statistical Foundations\, Expl
- ainability & Interpretability\nSize: L\nDifficulty: Hard\nSubmission type
- : Paper-based / OpenReview\nConfidence: confirmed\nLast checked date: 202
- 6-08-20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and t
- he revised conference-track submission deadline.
+ ainability & Interpretability\nSize: L\nSubmission type: Paper-based / Op
+ enReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
+ ficial ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised confere
+ nce-track submission deadline.
 URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
 END:VEVENT
@@ -397,10 +397,10 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
  /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
   Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
- al Data\, Explainability & Interpretability\nSize: XXL\nDifficulty: Very 
- hard\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked d
- ate: 2026-08-20\nNotes: Official NeurIPS 2026 dates page lists meeting da
- tes and main paper submission deadlines.
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 LOCATION:Sydney\, Australia
 END:VEVENT
@@ -415,10 +415,10 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nDifficulty: Hard\nS
- ubmission type: Paper-based / OpenReview\nConfidence: confirmed\nLast che
- cked date: 2026-08-20\nNotes: Official ICLR 2027 and OpenReview pages lis
- t San Francisco\, Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
+ per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
+ -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
+ Apr 26-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
@@ -433,10 +433,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nDifficulty: Hard\nS
- ubmission type: Paper-based / HCI-focused\nConfidence: confirmed\nLast ch
- ecked date: 2026-08-20\nNotes: Official CHI 2027 page lists Pittsburgh\, 
- May 10-14\, 2027 conference dates and the full paper deadline.
+  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
+ per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
+ 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
+ onference dates and the full paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
@@ -451,10 +451,10 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
   Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nDifficulty: Hard\nSub
- mission type: Paper-based / interdisciplinary\nConfidence: confirmed\nLas
- t checked date: 2026-08-20\nNotes: Official FAccT 2027 call for papers li
- sts conference dates and abstract/paper submission deadlines.
+ al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
+ r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
+ 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
+ es and abstract/paper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT

@@ -25,7 +25,7 @@ jobs:
       - name: Validate data
         run: python scripts/validate.py
 
-      - name: Test ranking integration
+      - name: Test data and rendering
         run: python -m unittest discover -s tests
 
       - name: Build generated files

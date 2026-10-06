@@ -1,0 +1,29 @@
+release: "CCF2026-7th"
+checked_on: "2026-10-06"
+source_url: "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
+rankings:
+  "AAAI": {rank: "A", page: 57}
+  "ACML": {rank: "C", page: 59}
+  "ADMA": {rank: "C", page: 37}
+  "AISTATS": {rank: "C", page: 59}
+  "CHI": {rank: "A", page: 64}
+  "CIKM": {rank: "B", page: 36}
+  "COLT": {rank: "B", page: 58}
+  "DSAA": {rank: "C", page: 43}
+  "ECML PKDD": {rank: "B", page: 36}
+  "ICANN": {rank: "C", page: 59}
+  "ICASSP": {rank: "B", page: 48}
+  "ICDM": {rank: "B", page: 36}
+  "ICLR": {rank: "A", page: 57}
+  "ICML": {rank: "A", page: 57}
+  "ICONIP": {rank: "C", page: 60}
+  "ICPR": {rank: "C", page: 60}
+  "IDA": {rank: "C", page: 55}
+  "IJCNN": {rank: "C", page: 60}
+  "KDD": {rank: "A", page: 35}
+  "MICCAI": {rank: "B", page: 71}
+  "NeurIPS": {rank: "A", page: 57}
+  "PAKDD": {rank: "C", page: 37}
+  "SDM": {rank: "B", page: 36}
+  "UAI": {rank: "B", page: 58}
+  "WSDM": {rank: "B", page: 36}

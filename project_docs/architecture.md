@@ -11,6 +11,10 @@ flowchart TD
   C["data/metadata.yml"] --> S["scripts/build_site.py"]
   R["data/icore_rankings.yml"] --> V
   R --> S
+  CR["data/ccf_rankings.yml"] --> V
+  CR --> S
+  AR["data/acceptance_rates.yml"] --> V
+  AR --> S
   V --> I["scripts/build_ics.py"]
   V --> S
   I --> D1["docs/calendar-all.ics"]
@@ -32,12 +36,15 @@ data/
   metadata.yml                    site-level metadata such as last_updated
   topics.yml                      controlled topic vocabulary
   icore_rankings.yml              sourced ICORE 2026 series ranks
+  ccf_rankings.yml                sourced CCF 2026 series ranks
+  acceptance_rates.yml            sourced historical acceptance rates
   core_conferences_normalized_tags.xlsx  synchronized catalog-reference workbook
 scripts/
   validate.py                     schema and consistency checks
   build_ics.py                    ICS feed generation
   build_site.py                   static HTML site generation
   build_all.py                    validate, then build all generated outputs
+  maintenance_report.py           source-linked edition and rate review queues
 docs/
   index.html                      generated GitHub Pages site
   calendar-all.ics                generated aggregate calendar feed
@@ -51,6 +58,7 @@ project_docs/
   architecture.md                 maintained architecture reference
   decisions.md                    maintained ADR log
   session_log.md                  maintained work-session history
+  data_maintenance.md             recurring data refresh procedure
 AGENTS.md                         lightweight agent onboarding instructions
 .github/workflows/
   build.yml                       CI validation and build workflow
@@ -58,9 +66,9 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 ## Main Modules
 
-- `scripts/validate.py`: Loads YAML data, parses dates, validates required fields, controlled values, topics, source URLs, deadline uniqueness, and the ICORE rank mapping.
+- `scripts/validate.py`: Loads YAML data, parses dates, validates required fields, controlled values, topics, source URLs, deadline gates, deadline uniqueness, rank mappings, and acceptance evidence.
 - `scripts/build_ics.py`: Converts valid conference records into standards-oriented VCALENDAR output with deterministic UIDs, escaped text, folded lines, and stable ordering.
-- `scripts/build_site.py`: Converts valid conference records, metadata, and series ranks into a standalone `docs/index.html` page with filters, tabs, countdowns, confidence labels, rank links, and download links.
+- `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, tabs, actionable submission status/countdowns, confidence labels, source links, and download links.
 - `scripts/build_all.py`: Runs validation once, then invokes both builders and prints generated paths.
 
 ## Responsibilities
@@ -68,6 +76,8 @@ AGENTS.md                         lightweight agent onboarding instructions
 - `data/conferences.yml` owns conference facts and confidence levels.
 - `data/topics.yml` owns allowed topic labels.
 - `data/icore_rankings.yml` owns the optional ICORE 2026 series-level mapping and official portal provenance.
+- `data/ccf_rankings.yml` owns direct CCF 2026 catalog matches and PDF-page provenance.
+- `data/acceptance_rates.yml` owns historical rate evidence, edition, and track.
 - `data/metadata.yml` owns site-level publication metadata.
 - `docs/*.ics` and `docs/index.html` are generated public artifacts.
 - `project_docs/*.md` files are maintained source documentation and should not be treated as generated outputs.
@@ -75,7 +85,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 ## Data Flow
 
-1. A maintainer edits `data/conferences.yml`, `data/topics.yml`, `data/icore_rankings.yml`, or `data/metadata.yml`.
+1. A maintainer reviews the two queues from `scripts/maintenance_report.py` and edits the appropriate YAML source file.
 2. `scripts/validate.py` verifies the conference records and controlled taxonomy.
 3. `scripts/build_ics.py` writes aggregate, topic, and per-conference calendar feeds into `docs/`.
 4. `scripts/build_site.py` writes the static website to `docs/index.html`.
@@ -90,6 +100,7 @@ AGENTS.md                         lightweight agent onboarding instructions
   - `python scripts/build_ics.py`
   - `python scripts/build_site.py`
   - `python scripts/build_all.py`
+  - `python scripts/maintenance_report.py --max-age-days 60`
 - Public static outputs:
   - `docs/index.html`
   - `docs/calendar-all.ics`
@@ -106,11 +117,11 @@ The project currently uses procedural Python functions and built-in data structu
 
 ## Important Interfaces
 
-- Conference record schema: Required fields and allowed values are enforced in `scripts/validate.py`; optional ICORE ranks join by exact series name and only represent main-track full papers. Durable project guidance lives in `project_docs/` and the lightweight agent entrypoint is `AGENTS.md`.
+- Conference record schema: Required fields and allowed values are enforced in `scripts/validate.py`; `gate_for` links a prerequisite to its paper deadline. Ranks and rates join by exact series name. Rates retain their historical year, track, and source. Durable project guidance lives in `project_docs/` and the lightweight agent entrypoint is `AGENTS.md`.
 - Agent handoff interface: Future coding sessions should start with `AGENTS.md`, then read all files in `project_docs/` before making modifications.
 - Topic taxonomy: Every topic in a conference record must match an entry in `data/topics.yml`.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
-- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-difficulty`, and `data-deadline` for client-side filtering and countdown rendering.
+- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-acceptance`, and serialized deadline details for client-side filtering, submission-state evaluation, and countdown rendering. Estimated dates never become confirmed-open solely from a future timestamp.
 
 ## Design Rationale
 

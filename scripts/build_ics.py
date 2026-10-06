@@ -97,7 +97,6 @@ def _description(conference: dict[str, Any], source_url: str) -> str:
         f"Location: {conference.get('location', 'TBD')}",
         f"Topics: {', '.join(conference.get('topics', []))}",
         f"Size: {conference.get('size', '')}",
-        f"Difficulty: {conference.get('difficulty', '')}",
         f"Submission type: {conference.get('submission_type', '')}",
         f"Confidence: {conference['confidence']}",
         f"Last checked date: {conference['last_checked']}",

@@ -1,5 +1,16 @@
 # Session Log
 
+## 2026-10-06 (submission opportunities and acceptance)
+
+- Objective: Make the calendar reliable for finding the next real paper-submission opportunity, add complementary CCF ranks and sourced acceptance evidence, and make routine data refreshes repeatable.
+- Tasks completed:
+  - Removed subjective Difficulty from canonical data and ICS descriptions. Added mandatory `gate_for` links to 19 abstract/registration steps.
+  - Added 25 direct CCF 2026 ranks and 13 source-backed historical acceptance rates; synchronized the catalog workbook with bands, percentages, tracks, editions, and source links.
+  - Added submission status, actionable countdown, compact expandable deadlines, muted passed milestones, open-only filtering, clearer column order, result count, and compact filters to both website tabs.
+  - Added an edition/evidence maintenance report and documented the editorial update and publication routine.
+- Tests run: YAML validation, Python unit tests, full HTML/ICS build, workbook render and formula-error scan, and desktop/mobile Chrome interaction and overflow checks.
+- Remaining tasks: Expand historical rate coverage only where trustworthy sources exist; continue reviewing provisional next editions. Add automated browser/ICS regression checks.
+
 ## 2026-10-06
 
 - Objective: Publish ICORE 2026 conference ranks in both calendar table tabs.

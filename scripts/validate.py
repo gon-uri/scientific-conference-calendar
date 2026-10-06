@@ -13,6 +13,8 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "conferences.yml"
 TOPICS_PATH = ROOT / "data" / "topics.yml"
 ICORE_PATH = ROOT / "data" / "icore_rankings.yml"
+CCF_PATH = ROOT / "data" / "ccf_rankings.yml"
+ACCEPTANCE_PATH = ROOT / "data" / "acceptance_rates.yml"
 
 REQUIRED_FIELDS = {
     "id",
@@ -25,7 +27,6 @@ REQUIRED_FIELDS = {
     "conference_end",
     "topics",
     "size",
-    "difficulty",
     "submission_type",
     "deadlines",
     "last_checked",
@@ -42,6 +43,19 @@ VALID_CONFIDENCE = {
 
 VALID_RELEVANCE = {"high", "medium", "low", "watch"}
 VALID_ICORE_RANKS = {"A*", "A", "B", "C"}
+VALID_CCF_RANKS = {"A", "B", "C"}
+SUBMISSION_TYPES = {
+    "full_paper", "regular_paper", "short_paper", "workshop_paper",
+    "special_session_paper", "abstract", "late_abstract",
+    "extended_abstract", "poster",
+}
+ACCEPTANCE_BANDS = (
+    (20, "Very low"),
+    (30, "Low"),
+    (40, "Moderate"),
+    (60, "High"),
+    (101, "Very high"),
+)
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
@@ -96,6 +110,29 @@ def load_icore_rankings(path: Path = ICORE_PATH) -> dict[str, Any]:
     return data
 
 
+def load_ccf_rankings(path: Path = CCF_PATH) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle)
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a YAML mapping")
+    return data
+
+
+def load_acceptance_rates(path: Path = ACCEPTANCE_PATH) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle)
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a YAML mapping")
+    return data
+
+
+def acceptance_band(percent: float) -> str:
+    for limit, label in ACCEPTANCE_BANDS:
+        if percent < limit:
+            return label
+    raise ValueError("acceptance percent must be below 101")
+
+
 def _non_empty_string(value: Any) -> bool:
     return isinstance(value, str) and bool(value.strip())
 
@@ -128,6 +165,8 @@ def validate_conferences(
         missing = sorted(REQUIRED_FIELDS - set(conference))
         for field in missing:
             errors.append(f"{label}: missing required field '{field}'")
+        if "difficulty" in conference:
+            errors.append(f"{label}: legacy difficulty field must be removed")
 
         if "id" in conference:
             if not _non_empty_string(conference["id"]):
@@ -146,7 +185,6 @@ def validate_conferences(
             "short_title",
             "website",
             "size",
-            "difficulty",
             "submission_type",
         ):
             if field in conference and not _non_empty_string(conference[field]):
@@ -265,6 +303,29 @@ def validate_conferences(
                             f"{deadline_label}: confirmed deadlines require source_url"
                         )
 
+                by_type = {
+                    deadline.get("type"): deadline
+                    for deadline in deadlines
+                    if isinstance(deadline, dict)
+                    and _non_empty_string(deadline.get("type"))
+                }
+                for deadline in deadlines:
+                    if not isinstance(deadline, dict) or "gate_for" not in deadline:
+                        continue
+                    target = by_type.get(deadline["gate_for"]) if isinstance(deadline["gate_for"], str) else None
+                    if not target or target is deadline:
+                        errors.append(
+                            f"{label}: gate_for must name another deadline type in this edition"
+                        )
+                        continue
+                    if deadline["gate_for"] not in SUBMISSION_TYPES:
+                        errors.append(f"{label}: gate_for must target a submission route")
+                    try:
+                        if parse_datetime(deadline["datetime"]) >= parse_datetime(target["datetime"]):
+                            errors.append(f"{label}: gate_for deadline must precede its target")
+                    except (KeyError, TypeError, ValueError):
+                        pass
+
     return errors
 
 
@@ -319,17 +380,105 @@ def validate_icore_rankings(
     return errors
 
 
+def validate_ccf_rankings(
+    conferences: list[dict[str, Any]], data: dict[str, Any]
+) -> list[str]:
+    errors: list[str] = []
+    if data.get("release") != "CCF2026-7th":
+        errors.append("CCF release must be CCF2026-7th")
+    try:
+        parse_date(data.get("checked_on"))
+    except (TypeError, ValueError):
+        errors.append("CCF checked_on must be an ISO date")
+    if not _non_empty_string(data.get("source_url")) or not data["source_url"].startswith(
+        "https://www.ccf.org.cn/ccf/contentcore/resource/download?"
+    ):
+        errors.append("CCF source_url must point to the official catalog PDF")
+    rankings = data.get("rankings")
+    if not isinstance(rankings, dict):
+        return errors + ["CCF rankings must be a mapping"]
+    series_records = {
+        conference["series"]: conference
+        for conference in conferences
+        if isinstance(conference, dict) and _non_empty_string(conference.get("series"))
+    }
+    for series, entry in rankings.items():
+        if series not in series_records:
+            errors.append(f"CCF series '{series}' is not in conferences.yml")
+            continue
+        if not isinstance(entry, dict):
+            errors.append(f"CCF {series}: entry must be a mapping")
+            continue
+        if not isinstance(entry.get("rank"), str) or entry["rank"] not in VALID_CCF_RANKS:
+            errors.append(f"CCF {series}: rank must be A, B, or C")
+        if type(entry.get("page")) is not int or entry["page"] <= 0:
+            errors.append(f"CCF {series}: page must be a positive integer")
+        if "workshop" in str(series_records[series].get("submission_type", "")).lower():
+            errors.append(f"CCF {series}: workshops must not inherit main-track ranks")
+    return errors
+
+
+def validate_acceptance_rates(
+    conferences: list[dict[str, Any]], data: dict[str, Any]
+) -> list[str]:
+    errors: list[str] = []
+    try:
+        parse_date(data.get("checked_on"))
+    except (TypeError, ValueError):
+        errors.append("Acceptance checked_on must be an ISO date")
+    rates = data.get("rates")
+    if not isinstance(rates, dict):
+        return errors + ["Acceptance rates must be a mapping"]
+    series = {
+        conference["series"]
+        for conference in conferences
+        if isinstance(conference, dict) and _non_empty_string(conference.get("series"))
+    }
+    for name, entry in rates.items():
+        label = f"Acceptance {name}"
+        if name not in series:
+            errors.append(f"{label}: unknown series")
+            continue
+        if not isinstance(entry, dict):
+            errors.append(f"{label}: entry must be a mapping")
+            continue
+        percent = entry.get("percent")
+        band = entry.get("band")
+        if percent is None:
+            if band not in {item[1] for item in ACCEPTANCE_BANDS}:
+                errors.append(f"{label}: a qualitative-only entry requires a valid band")
+            if not _non_empty_string(entry.get("basis")):
+                errors.append(f"{label}: qualitative-only entry requires a basis")
+        elif type(percent) not in (int, float) or not 0 < percent <= 100:
+            errors.append(f"{label}: percent must be between 0 and 100")
+        elif band is not None and band != acceptance_band(percent):
+            errors.append(f"{label}: band does not match percent")
+        if type(entry.get("year")) is not int or not 2000 <= entry["year"] <= date.today().year:
+            errors.append(f"{label}: year must be a completed edition year")
+        if not _non_empty_string(entry.get("track")):
+            errors.append(f"{label}: track must be non-empty")
+        if not _non_empty_string(entry.get("source_url")) or not entry["source_url"].startswith("https://"):
+            errors.append(f"{label}: source_url must be HTTPS")
+        if "approximate" in entry and type(entry["approximate"]) is not bool:
+            errors.append(f"{label}: approximate must be boolean")
+    return errors
+
+
 def main() -> int:
     try:
         conferences = load_conferences()
         controlled_topics = load_controlled_topics()
         icore_rankings = load_icore_rankings()
+        ccf_rankings = load_ccf_rankings()
+        acceptance_rates = load_acceptance_rates()
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"Validation failed: {exc}", file=sys.stderr)
         return 1
 
     errors = validate_conferences(conferences, controlled_topics)
     errors.extend(validate_icore_rankings(conferences, icore_rankings))
+    errors.extend(validate_ccf_rankings(conferences, ccf_rankings))
+    errors.extend(validate_acceptance_rates(conferences, acceptance_rates))
     if errors:
         print("Validation failed:", file=sys.stderr)
         for error in errors:

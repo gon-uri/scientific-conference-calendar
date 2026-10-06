@@ -44,15 +44,27 @@ Edit conference data in:
 data/conferences.yml
 ```
 
-Each conference entry includes normalized topics, size, acceptance difficulty,
-and submission type. Confirmed dates should include official source URLs; proxy
-dates should remain marked as `estimated` with a note.
+Each conference entry includes normalized topics, size, submission type, and
+source-backed dates. Confirmed dates should include official source URLs; proxy
+dates should remain marked as `estimated` with a note. A prerequisite such as
+abstract registration uses `gate_for` to name the later paper deadline it gates.
 
-`data/icore_rankings.yml` contains the ICORE 2026 series-level ranks shown after
-Difficulty on the website. Each rank links to its official ICORE entry. Blank
-values mean no A*/A/B/C rank is displayed; workshops do not inherit their parent
-conference's rank. The source workbook in `data/` includes the same ranks and
-links for catalog review.
+`data/icore_rankings.yml` and `data/ccf_rankings.yml` contain independent
+series-level ranks, shown together on the website. A blank rank means no direct
+match was verified; workshops do not inherit parent-conference ranks.
+`data/acceptance_rates.yml` contains sourced rates for named historical tracks
+and editions. The qualitative band is derived from the percentage, and absent
+evidence appears as Unknown, not as a guessed rate. The workbook in `data/`
+mirrors these values for catalog review.
+
+To review upcoming editions and rate-evidence gaps:
+
+```bash
+python scripts/maintenance_report.py --max-age-days 60
+```
+
+See [data maintenance](project_docs/data_maintenance.md) for the source-check,
+validation, workbook-sync, and publication procedure.
 
 ## GitHub Pages
 

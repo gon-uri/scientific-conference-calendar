@@ -1,0 +1,71 @@
+checked_on: "2026-10-06"
+# Percentages describe the named historical track, not the chance of acceptance
+# at the next edition. Leave a series absent when evidence is insufficient.
+rates:
+  "AAAI":
+    percent: 17.5
+    year: 2026
+    track: "Main technical track"
+    source_url: "https://aaai.org/wp-content/uploads/2026/01/AAAI-26-Opening-Ceremony.pdf"
+  "AIES":
+    percent: 31.8
+    year: 2025
+    track: "Main papers (238 accepted of 748 reviewed)"
+    source_url: "https://aaai.org/wp-content/uploads/2025/10/AIES-2025-Program-10.14.pdf"
+  "AISTATS":
+    percent: 28.1
+    year: 2026
+    track: "Main conference (590 accepted of 2,102 submitted)"
+    source_url: "https://www.linkedin.com/posts/asolin_aistats2026-tangier-morocco-activity-7424831733768044544-DjfS"
+  "CHI":
+    percent: 24.9
+    year: 2025
+    track: "Papers track"
+    source_url: "https://chi2025.acm.org/chi-2025-papers-track-post-pc-outcomes-report/"
+  "EACL":
+    percent: 20.3
+    year: 2024
+    track: "Main conference (226 accepted of 1,114 candidate papers; Findings excluded)"
+    source_url: "https://2024.eacl.org/downloads/handbook.pdf"
+  "ICASSP":
+    percent: 42.9
+    approximate: true
+    year: 2026
+    track: "Regular papers overall (nearly 11,200 submitted; close to 4,800 accepted)"
+    source_url: "https://signalprocessingsociety.org/index.php/newsletter/2026/06/meet-icassp-2026-organizers-ana-isabel-perez-neira-and-xavier-mestre"
+  "ICLR":
+    percent: 27.4
+    year: 2026
+    track: "Main conference; accepted / valid submissions"
+    source_url: "https://blog.iclr.cc/2026/"
+  "ICML":
+    percent: 27.0
+    year: 2025
+    track: "Main track"
+    source_url: "https://media.icml.cc/Conferences/ICML2025/ICML2025_Fact_Sheet.pdf"
+  "ICPR":
+    percent: 44.26
+    year: 2024
+    track: "Main conference papers"
+    source_url: "https://icpr2024.org/book/978-3-031-78347-0_Book_OnlinePDF.pdf"
+  "KDD":
+    percent: 19.0
+    year: 2025
+    track: "Research track, August cycle"
+    source_url: "https://kdd.org/kdd2025/frequently-asked-questions/"
+  "MICCAI":
+    percent: 29.0
+    year: 2025
+    track: "Main conference papers"
+    source_url: "https://miccai.org/2025/06/20/miccai-quarterly-summer-june-2025/"
+  "NeurIPS":
+    percent: 24.52
+    year: 2025
+    track: "Main track"
+    source_url: "https://blog.neurips.cc/2025/09/30/"
+  "EUSIPCO":
+    percent: 66.4
+    approximate: true
+    year: 2024
+    track: "Conference papers (about 550 of 828)"
+    source_url: "https://eurasip.org/newsletter/newsletter_2024-09.html"

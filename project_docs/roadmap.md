@@ -38,11 +38,27 @@ Last synchronized: 2026-10-06
 
 ### Conference Ranking Column
 
-- Goal: Show a sourced conference-series ranking after Difficulty without implying that workshops or unlisted venues inherit a parent conference's rank.
+- Goal: Show independent sourced ICORE and CCF rankings without implying that workshops or unlisted venues inherit a parent conference's rank.
 - Priority: Medium
-- Dependencies: ICORE 2026 portal export; series-level mapping, source/year metadata, and a blank state for uncovered venues.
+- Dependencies: ICORE 2026 portal export, official CCF 2026 catalog; series-level mapping, source/year metadata, and a blank state for uncovered venues.
 - Estimated complexity: Medium
-- Completion status: Completed with ICORE 2026; refresh when ICORE publishes a new release.
+- Completion status: Completed with ICORE and CCF 2026; refresh when either publisher releases a new list.
+
+### Submission Opportunities And Acceptance Evidence
+
+- Goal: Show whether a new paper can still be submitted, with prerequisite gates, an open-only filter, historical acceptance bands, and a source-linked percentage when available.
+- Priority: High
+- Dependencies: `gate_for` deadline metadata, historical rate evidence, site generation, validation, browser checks.
+- Estimated complexity: Medium
+- Completion status: Completed for current catalog; rate coverage expands only as reliable sources are found.
+
+### Repeatable Data Refresh
+
+- Goal: Keep an actionable source-linked queue for edition reviews and historical acceptance evidence.
+- Priority: High
+- Dependencies: `scripts/maintenance_report.py`, official organizer pages, documented review procedure.
+- Estimated complexity: Ongoing
+- Completion status: Completed tooling and procedure; reviews remain recurring work.
 
 ### Calendar Feed Reliability
 
@@ -58,7 +74,7 @@ Last synchronized: 2026-10-06
 - Priority: Medium
 - Dependencies: Existing build scripts, selected test framework or script conventions.
 - Estimated complexity: Medium
-- Completion status: Not Started
+- Completion status: In Progress; data and rendering unit tests plus manual desktop/mobile interaction checks exist, but automated browser and ICS snapshot checks remain future work.
 
 ### Persistent Project State Documentation
 

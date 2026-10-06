@@ -9,7 +9,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
 from build_site import _conference_rows, _deadline_group_rows, _icore_cell
-from validate import load_conferences, load_icore_rankings, validate_icore_rankings
+from validate import (
+    load_acceptance_rates,
+    load_ccf_rankings,
+    load_conferences,
+    load_icore_rankings,
+    validate_icore_rankings,
+)
 
 
 class IcoreTests(unittest.TestCase):
@@ -18,6 +24,8 @@ class IcoreTests(unittest.TestCase):
         cls.conferences = load_conferences()
         cls.data = load_icore_rankings()
         cls.rankings = cls.data["rankings"]
+        cls.ccf_data = load_ccf_rankings()
+        cls.rates = load_acceptance_rates()["rates"]
 
     def test_rankings_match_tracked_main_track_series(self) -> None:
         self.assertEqual(validate_icore_rankings(self.conferences, self.data), [])
@@ -32,14 +40,15 @@ class IcoreTests(unittest.TestCase):
         self.assertIn("A*", _icore_cell(neurips, self.rankings))
         self.assertIn("&mdash;", _icore_cell(fmts, self.rankings))
 
-    def test_rank_follows_difficulty_in_both_tables(self) -> None:
+    def test_new_columns_appear_in_both_tables(self) -> None:
         neurips = next(item for item in self.conferences if item["id"] == "neurips-2026")
         for rendered in (
-            _conference_rows([neurips], self.rankings),
-            _deadline_group_rows([neurips], self.rankings),
+            _conference_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
+            _deadline_group_rows([neurips], self.rankings, self.ccf_data["rankings"], self.ccf_data["source_url"], self.rates),
         ):
-            self.assertLess(rendered.index('data-label="Difficulty"'), rendered.index('data-label="ICORE"'))
-            self.assertLess(rendered.index('data-label="ICORE"'), rendered.index('data-label="Topics"'))
+            self.assertLess(rendered.index('data-label="Topics"'), rendered.index('data-label="Acceptance rate"'))
+            self.assertLess(rendered.index('data-label="Acceptance rate"'), rendered.index('data-label="ICORE / CCF"'))
+            self.assertNotIn('data-label="Difficulty"', rendered)
 
     def test_validator_rejects_workshop_inheritance(self) -> None:
         data = deepcopy(self.data)

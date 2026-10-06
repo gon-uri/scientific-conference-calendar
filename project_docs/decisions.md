@@ -94,6 +94,30 @@ Last synchronized: 2026-10-06
 
 - Date: 2026-10-06
 - Context: The user selected ICORE for a webpage rank column. The official ICORE 2026 export provides ranks for selected computing venues but does not assign a rank to every tracked series or to satellite workshops.
-- Decision: Keep a separate, validated series-level mapping of A*/A/B/C ranks and ICORE portal IDs in `data/icore_rankings.yml`. Show linked ranks after Difficulty in both website tables; use a dash when no direct rank is mapped. Do not transfer constituent ranks to the joint IJCAI-ECAI edition or a parent rank to a workshop.
+- Decision: Keep a separate, validated series-level mapping of A*/A/B/C ranks and ICORE portal IDs in `data/icore_rankings.yml`. Show linked ranks in both website tables; use a dash when no direct rank is mapped. Do not transfer constituent ranks to the joint IJCAI-ECAI edition or a parent rank to a workshop.
 - Alternatives considered: Duplicate ranks in every edition record; infer ranks from acronym similarities; treat unlisted venues as C or Unranked.
 - Consequences: Rank provenance is auditable, edition data remains canonical for conference facts, and missing ranks do not imply low quality. The mapping and workbook require review when ICORE releases new rankings.
+
+## ADR-013: Determine Open Submissions From Actionable Paper Routes
+
+- Date: 2026-10-06
+- Context: A future camera-ready, workshop-proposal, or commitment deadline can make a conference appear open even when a new paper can no longer be submitted. A past mandatory abstract or registration gate can also close a paper route ahead of its paper deadline.
+- Decision: Keep one compact expandable deadline row per edition, but derive submission status and countdown from future paper/abstract/poster routes. Link mandatory earlier steps to their target with `gate_for`. Show only confirmed routes under the open-only filter; estimated and unannounced dates remain distinct. Retain passed milestones in the expanded list with muted red-grey styling.
+- Alternatives considered: Show every milestone as a separate top-level row; use the chronologically next milestone as the countdown; hide all passed milestones.
+- Consequences: Users can quickly identify where a paper can still go. Maintainers must record mandatory gates accurately, and unknown/estimated routes never masquerade as confirmed openings.
+
+## ADR-014: Keep Rankings And Historical Rates As Separate Evidence Maps
+
+- Date: 2026-10-06
+- Context: Subjective Difficulty labels were opaque, while ICORE does not cover every tracked computing venue. CCF provides complementary direct coverage, and acceptance rates must not be invented from a rank or a subjective label.
+- Decision: Add an independently sourced CCF 2026 map beside ICORE 2026. Replace Difficulty with sourced historical acceptance rates and five fixed percentage-derived bands. Store year, track, URL, and approximation flag in `data/acceptance_rates.yml`; show Unknown when evidence is insufficient. The ICORE filter remains separate and simple.
+- Alternatives considered: Blend ICORE and CCF into one score; inherit ranks from parent conferences; convert old Difficulty labels into unsourced percentages; show a numeric estimate for every venue.
+- Consequences: The page gains useful coverage and clearer selectivity context without implying precision it does not have. Historical figures must be refreshed and read in their edition/track context.
+
+## ADR-015: Use An Editorial Review Queue, Not Automatic Scraping
+
+- Date: 2026-10-06
+- Context: Organizer pages change format and publish provisional schedules, so unattended scraping could silently turn a placeholder into a misleading confirmed deadline.
+- Decision: Add `scripts/maintenance_report.py` with distinct edition and acceptance-evidence queues, plus `project_docs/data_maintenance.md`. A maintainer checks official sources, edits YAML, validates, rebuilds, reviews, and commits.
+- Alternatives considered: Live browser scraping on page load; a backend database; automatic scheduled mutations.
+- Consequences: The static architecture and reviewable provenance remain intact. Regular manual review is still required.
