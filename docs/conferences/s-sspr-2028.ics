@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:S+SSPR 2028 Calendar
@@ -9,18 +9,18 @@ UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280525T215900Z
 DTEND:20280525T225900Z
-SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Pape
- r submission deadline (estimated)
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] S+SSPR 20
+ 28 - Paper submission deadline (estimated)
 DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
  ical Techniques in Pattern Recognition and Structural and Syntactic Patte
  rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
- ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
- Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
- gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
- onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
- rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
- cation\, and deadlines require organizer confirmation\; website and sourc
- e links refer to the prior edition.
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Computer
+  Vision & Pattern Recognition\, Machine Learning\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / workshop-sty
+ le conference\nConfidence: estimated\nLast checked date: 2026-10-06\nNote
+ s: Provisional 2-year cadence projection from S+SSPR 2026. Meeting dates\
+ , location\, and deadlines require organizer confirmation\; website and s
+ ource links refer to the prior edition.
 URL:https://ssspr2026.inf.unibe.ch/
 END:VEVENT
 BEGIN:VEVENT
@@ -28,18 +28,18 @@ UID:s-sspr-2028-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280715T215900Z
 DTEND:20280715T225900Z
-SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Came
- ra-ready deadline (estimated)
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] S+SSPR 20
+ 28 - Camera-ready deadline (estimated)
 DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
  ical Techniques in Pattern Recognition and Structural and Syntactic Patte
  rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
- ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
- Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
- gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
- onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
- rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
- cation\, and deadlines require organizer confirmation\; website and sourc
- e links refer to the prior edition.
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Computer
+  Vision & Pattern Recognition\, Machine Learning\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / workshop-sty
+ le conference\nConfidence: estimated\nLast checked date: 2026-10-06\nNote
+ s: Provisional 2-year cadence projection from S+SSPR 2026. Meeting dates\
+ , location\, and deadlines require organizer confirmation\; website and s
+ ource links refer to the prior edition.
 URL:https://ssspr2026.inf.unibe.ch/
 END:VEVENT
 BEGIN:VEVENT
@@ -47,18 +47,18 @@ UID:s-sspr-2028-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20280824
 DTEND;VALUE=DATE:20280827
-SUMMARY:[Machine Learning][Deep Representation Learning] S+SSPR 2028 - Conf
- erence (estimated)
+SUMMARY:[Computer Vision & Pattern Recognition][Machine Learning] S+SSPR 20
+ 28 - Conference (estimated)
 DESCRIPTION:Conference title: Joint IAPR International Workshops on Statist
  ical Techniques in Pattern Recognition and Structural and Syntactic Patte
  rn Recognition\nWebsite: https://ssspr2026.inf.unibe.ch/\nSource URL: htt
- ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Machine 
- Learning\, Deep Representation Learning\, Data Mining & Data Science\, Si
- gnal Processing\nSize: M\nSubmission type: Paper-based / workshop-style c
- onference\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: P
- rovisional 2-year cadence projection from S+SSPR 2026. Meeting dates\, lo
- cation\, and deadlines require organizer confirmation\; website and sourc
- e links refer to the prior edition.
+ ps://ssspr2026.inf.unibe.ch/\nLocation: To be announced\nTopics: Computer
+  Vision & Pattern Recognition\, Machine Learning\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / workshop-sty
+ le conference\nConfidence: estimated\nLast checked date: 2026-10-06\nNote
+ s: Provisional 2-year cadence projection from S+SSPR 2026. Meeting dates\
+ , location\, and deadlines require organizer confirmation\; website and s
+ ource links refer to the prior edition.
 URL:https://ssspr2026.inf.unibe.ch/
 LOCATION:To be announced
 END:VEVENT

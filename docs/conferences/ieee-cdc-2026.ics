@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:IEEE CDC 2026 Calendar
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Final manuscript submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261219
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Conference
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.
+URL:https://cdc2026.ieeecss.org/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+END:VCALENDAR

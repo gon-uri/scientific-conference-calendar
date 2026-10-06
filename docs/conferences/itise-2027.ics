@@ -1,26 +1,29 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ITISE 2027 Calendar
 BEGIN:VEVENT
 UID:itise-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270115T235900Z
-DTEND:20270116T005900Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
- r or abstract submission deadline (estimated)
+ r or abstract submission deadline (estimated) (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
  r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official ITISE 2027 page confirms Gran Canaria\, Jul 1
- 4-16\, and a Jan 15 paper/abstract submission date. The site does not spe
- cify the cutoff hour or timezone\; 23:59 Canary time is a calendar proxy\
- , so this entry remains estimated.
+ 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
+ 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
+ isional in the source and deadlines may be extended. The cutoff hour/time
+ zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
+ estimated confidence pending a finalized CFP.\nOfficial deadline day\; ex
+ act cutoff hour/timezone is unannounced. Verify the organizer's submissio
+ n portal.
 URL:https://itise.ugr.es/index.html
 END:VEVENT
 BEGIN:VEVENT
@@ -36,10 +39,11 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
  r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official ITISE 2027 page confirms Gran Canaria\, Jul 1
- 4-16\, and a Jan 15 paper/abstract submission date. The site does not spe
- cify the cutoff hour or timezone\; 23:59 Canary time is a calendar proxy\
- , so this entry remains estimated.
+ 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
+ 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
+ isional in the source and deadlines may be extended. The cutoff hour/time
+ zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
+ estimated confidence pending a finalized CFP.
 URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
 END:VEVENT

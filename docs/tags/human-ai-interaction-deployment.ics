@@ -1,26 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Human-AI Interaction & Deployment
-BEGIN:VEVENT
-UID:aies-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260515T115900Z
-DTEND:20260515T125900Z
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Abstract registration deadline
-DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
- ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
- Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
- achine Learning\, Healthcare & Clinical AI\nSize: S/M\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: confirmed\nLast checked date:
-  2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 202
- 6 conference dates and abstract/paper submission deadlines.
-URL:https://www.aies-conference.com/2026/call-for-papers/
-END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -31,29 +14,12 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
 DESCRIPTION:Conference title: ACM International Conference on Information a
  nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
  rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
 URL:https://cikm2026.diag.uniroma1.it/
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260522T115900Z
-DTEND:20260522T125900Z
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Paper submission deadline
-DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
- ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
- Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
- achine Learning\, Healthcare & Clinical AI\nSize: S/M\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: confirmed\nLast checked date:
-  2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 202
- 6 conference dates and abstract/paper submission deadlines.
-URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
@@ -65,11 +31,11 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
 DESCRIPTION:Conference title: ACM International Conference on Information a
  nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
  rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
 URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
@@ -82,11 +48,11 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Paper su
 DESCRIPTION:Conference title: IEEE International Conference on Data Science
   and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
  RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
- Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
- ical AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pa
- per-based / applied tracks\nConfidence: confirmed\nLast checked date: 202
- 6-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and exten
- ded paper deadline.
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission typ
+ e: Paper-based / applied tracks\nConfidence: confirmed\nLast checked date
+ : 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and 
+ extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -99,11 +65,11 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Special
 DESCRIPTION:Conference title: IEEE International Conference on Data Science
   and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
  RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
- Topics: Data Mining & Data Science\, Machine Learning\, Healthcare & Clin
- ical AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pa
- per-based / applied tracks\nConfidence: confirmed\nLast checked date: 202
- 6-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and exten
- ded paper deadline.
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission typ
+ e: Paper-based / applied tracks\nConfidence: confirmed\nLast checked date
+ : 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and 
+ extended paper deadline.
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
@@ -151,11 +117,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -203,10 +169,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -236,31 +202,13 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Conferen
 DESCRIPTION:Conference title: IEEE International Conference on Data Science
   and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
  RL: https://dsaa.co/dsaa2026-calls-for-papers/\nLocation: New Delhi\, Ind
- ia\nTopics: Data Mining & Data Science\, Machine Learning\, Healthcare & 
- Clinical AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type
- : Paper-based / applied tracks\nConfidence: confirmed\nLast checked date:
-  2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and e
- xtended paper deadline.
+ ia\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series &
+  Sequential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission
+  type: Paper-based / applied tracks\nConfidence: confirmed\nLast checked 
+ date: 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, 
+ and extended paper deadline.
 URL:https://dsaa.co/dsaa2026-calls-for-papers/
 LOCATION:New Delhi\, India
-END:VEVENT
-BEGIN:VEVENT
-UID:aies-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261012
-DTEND;VALUE=DATE:20261015
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Conference
-DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
- ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Fairness
-  & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
- , Healthcare & Clinical AI\nSize: S/M\nSubmission type: Paper-based / int
- erdisciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNot
- es: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dat
- es and abstract/paper submission deadlines.
-URL:https://www.aies-conference.com/2026/
-LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-deadline-commitment@scientific-conference-calendar
@@ -273,46 +221,12 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261028T115900Z
-DTEND:20261028T125900Z
-SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
- FAccT 2027 - Abstract submission deadline
-DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
-  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
-URL:https://facctconference.org/2027/cfp.html
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261104T115900Z
-DTEND:20261104T125900Z
-SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
- FAccT 2027 - Paper submission deadline
-DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
-  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
-URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:cikm-2026-conference@scientific-conference-calendar
@@ -324,11 +238,11 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
 DESCRIPTION:Conference title: ACM International Conference on Information a
  nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
  rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
 URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
@@ -361,11 +275,11 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
  ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
  technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
- n-AI Interaction & Deployment\nSize: S/M\nSubmission type: Abstract/commu
- nity-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
- Official BCI Society page lists the 12th International BCI Meeting in Sib
- enik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission 
- due Jan 15\, 2027.
+ n-AI Interaction & Deployment\nSize: M\nSubmission type: Abstract/communi
+ ty-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
+ ficial BCI Society page lists the 12th International BCI Meeting in Siben
+ ik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission du
+ e Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
 END:VEVENT
 BEGIN:VEVENT
@@ -397,11 +311,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
  tural Language Processing & LLMs\, Machine Learning\, Deep Representation
-  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
- \nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Review\nConfiden
- ce: confirmed\nLast checked date: 2026-08-31\nNotes: Official EACL 2027 p
- ages confirm the hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 sub
- mission and Oct 11 commitment deadlines.
+  Learning\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type:
+  Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
+ te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
+  meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
+ deadlines.
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
 END:VEVENT
@@ -416,10 +330,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
@@ -435,30 +349,12 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  g\nWebsite: https://bcisociety.org/bci-meeting/\nSource URL: https://bcis
  ociety.org/bci-meeting/\nLocation: Sibenik\, Croatia\nTopics: BCI & Neuro
  technology\, EEG/MEG & Neural Signals\, Computational Neuroscience\, Huma
- n-AI Interaction & Deployment\nSize: S/M\nSubmission type: Abstract/commu
- nity-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
- Official BCI Society page lists the 12th International BCI Meeting in Sib
- enik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission 
- due Jan 15\, 2027.
+ n-AI Interaction & Deployment\nSize: M\nSubmission type: Abstract/communi
+ ty-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
+ ficial BCI Society page lists the 12th International BCI Meeting in Siben
+ ik\, Croatia\, June 7-10\, 2027\, with poster/oral abstract submission du
+ e Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
 LOCATION:Sibenik\, Croatia
-END:VEVENT
-BEGIN:VEVENT
-UID:acm-facct-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270621
-DTEND;VALUE=DATE:20270625
-SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM 
- FAccT 2027 - Conference
-DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
-  and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
- ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
-URL:https://facctconference.org/2027/cfp.html
-LOCATION:TBD
 END:VEVENT
 END:VCALENDAR

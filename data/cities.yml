@@ -1,0 +1,67 @@
+# Approximate city centers, not venue coordinates. Explicit location aliases
+# avoid guessing cities from free-text locations. Meeting sources remain in conferences.yml.
+sydney: {label: 'Sydney, Australia', lat: -33.869, lon: 151.209, locations: ['Sydney, Australia']}
+seoul: {label: 'Seoul, South Korea', lat: 37.566, lon: 126.978, locations: ['Seoul, South Korea']}
+san-francisco: {label: 'San Francisco, USA', lat: 37.775, lon: -122.419, locations: ['San Francisco, California, USA']}
+montreal: {label: 'Montreal, Canada', lat: 45.502, lon: -73.567, locations: ['Montreal, Canada', 'Montreal, Quebec, Canada']}
+amsterdam: {label: 'Amsterdam, Netherlands', lat: 52.367, lon: 4.904, locations: ['Amsterdam, Netherlands']}
+tokyo: {label: 'Tokyo, Japan', lat: 35.676, lon: 139.650, locations: ['Tokyo, Japan']}
+naples: {label: 'Naples, Italy', lat: 40.852, lon: 14.268, locations: ['Naples, Italy']}
+jeju: {label: 'Jeju, South Korea', lat: 33.499, lon: 126.531, locations: ['Jeju, Korea']}
+shenyang: {label: 'Shenyang, China', lat: 41.805, lon: 123.432, locations: ['Shenyang, China']}
+salt-lake-city: {label: 'Salt Lake City, USA', lat: 40.761, lon: -111.891, locations: ['Salt Lake City, Utah, USA']}
+new-delhi: {label: 'New Delhi, India', lat: 28.614, lon: 77.209, locations: ['New Delhi, India']}
+baltimore: {label: 'Baltimore, USA', lat: 39.290, lon: -76.612, locations: ['Baltimore, Maryland, USA']}
+seattle: {label: 'Seattle, USA', lat: 47.606, lon: -122.332, locations: ['Seattle, Washington, USA']}
+san-diego: {label: 'San Diego, USA', lat: 32.716, lon: -117.161, locations: ['San Diego, California, USA']}
+strasbourg: {label: 'Strasbourg, France', lat: 48.573, lon: 7.752, locations: ['Strasbourg, France']}
+taipei: {label: 'Taipei, Taiwan', lat: 25.033, lon: 121.565, locations: ['Taipei, Taiwan']}
+lausanne: {label: 'Lausanne, Switzerland', lat: 46.519, lon: 6.633, locations: ['Lausanne, Switzerland']}
+hong-kong: {label: 'Hong Kong', lat: 22.319, lon: 114.169, locations: ['Hong Kong, China']}
+toronto: {label: 'Toronto, Canada', lat: 43.653, lon: -79.383, locations: ['Toronto, Canada']}
+atlanta: {label: 'Atlanta, USA', lat: 33.749, lon: -84.388, locations: ['Atlanta, Georgia, USA']}
+new-york: {label: 'New York, USA', lat: 40.713, lon: -74.006, locations: ['New York, New York, USA']}
+frankfurt: {label: 'Frankfurt, Germany', lat: 50.111, lon: 8.682, locations: ['Frankfurt am Main, Germany']}
+halifax: {label: 'Halifax, Canada', lat: 44.648, lon: -63.575, locations: ['Halifax, Canada']}
+milan: {label: 'Milan, Italy', lat: 45.464, lon: 9.190, locations: ['Milan, Italy']}
+sibenik: {label: 'Sibenik, Croatia', lat: 43.735, lon: 15.895, locations: ['Sibenik, Croatia']}
+beijing: {label: 'Beijing, China', lat: 39.904, lon: 116.407, locations: ['Beijing, China']}
+malmo: {label: 'Malmo, Sweden', lat: 55.605, lon: 13.004, locations: ['Malmo, Sweden']}
+pittsburgh: {label: 'Pittsburgh, USA', lat: 40.441, lon: -79.996, locations: ['Pittsburgh, Pennsylvania, USA']}
+bremen: {label: 'Bremen, Germany', lat: 53.079, lon: 8.801, locations: ['Bremen, Germany']}
+kyoto: {label: 'Kyoto, Japan', lat: 35.012, lon: 135.768, locations: ['Kyoto, Japan']}
+athens: {label: 'Athens, Greece', lat: 37.984, lon: 23.728, locations: ['Athens, Greece']}
+melbourne: {label: 'Melbourne, Australia', lat: -37.814, lon: 144.963, locations: ['Melbourne, Australia']}
+wellington: {label: 'Wellington, New Zealand', lat: -41.287, lon: 174.776, locations: ['Wellington, New Zealand']}
+rome: {label: 'Rome, Italy', lat: 41.903, lon: 12.496, locations: ['Rome, Italy']}
+phoenix: {label: 'Phoenix, USA', lat: 33.448, lon: -112.074, locations: ['Phoenix, Arizona, USA']}
+mainz: {label: 'Mainz, Germany', lat: 49.992, lon: 8.247, locations: ['Mainz, Germany']}
+leiden: {label: 'Leiden, Netherlands', lat: 52.160, lon: 4.497, locations: ['Leiden, Netherlands']}
+pisa: {label: 'Pisa, Italy', lat: 43.716, lon: 10.401, locations: ['Pisa, Italy']}
+cape-town: {label: 'Cape Town, South Africa', lat: -33.925, lon: 18.424, locations: ['Cape Town, South Africa']}
+padua: {label: 'Padua, Italy', lat: 45.407, lon: 11.876, locations: ['Padua, Italy']}
+bruges: {label: 'Bruges, Belgium', lat: 51.209, lon: 3.224, locations: ['Bruges, Belgium']}
+lyon: {label: 'Lyon, France', lat: 45.764, lon: 4.836, locations: ['Lyon, France']}
+bern: {label: 'Bern, Switzerland', lat: 46.948, lon: 7.447, locations: ['Bern, Switzerland']}
+rochester: {label: 'Rochester, Michigan, USA', lat: 42.680, lon: -83.134, locations: ['Rochester, Michigan, USA']}
+gold-coast: {label: 'Gold Coast, Australia', lat: -28.017, lon: 153.400, locations: ['Gold Coast, Queensland, Australia']}
+manchester: {label: 'Manchester, UK', lat: 53.481, lon: -2.243, locations: ['Manchester, United Kingdom']}
+castiglione: {label: 'Castiglione della Pescaia, Italy', lat: 42.763, lon: 10.883, locations: ['Castiglione della Pescaia, Italy']}
+annecy: {label: 'Annecy, France', lat: 45.899, lon: 6.129, locations: ['Annecy, France']}
+eindhoven: {label: 'Eindhoven, Netherlands', lat: 51.441, lon: 5.469, locations: ['Eindhoven, Netherlands']}
+san-jose: {label: 'San Jose, USA', lat: 37.338, lon: -121.886, locations: ['San Jose, California, USA']}
+zurich: {label: 'Zurich, Switzerland', lat: 47.377, lon: 8.542, locations: ['Zurich, Switzerland']}
+auckland: {label: 'Auckland, New Zealand', lat: -36.849, lon: 174.763, locations: ['Auckland, New Zealand']}
+porto: {label: 'Porto, Portugal', lat: 41.158, lon: -8.629, locations: ['Porto, Portugal']}
+singapore: {label: 'Singapore', lat: 1.352, lon: 103.820, locations: ['Singapore']}
+uppsala: {label: 'Uppsala, Sweden', lat: 59.859, lon: 17.639, locations: ['Uppsala, Sweden']}
+edinburgh: {label: 'Edinburgh, UK', lat: 55.953, lon: -3.188, locations: ['Edinburgh, United Kingdom']}
+darmstadt: {label: 'Darmstadt, Germany', lat: 49.873, lon: 8.652, locations: ['Darmstadt, Germany']}
+stockholm: {label: 'Stockholm, Sweden', lat: 59.329, lon: 18.069, locations: ['Stockholm, Sweden']}
+philadelphia: {label: 'Philadelphia, USA', lat: 39.953, lon: -75.165, locations: ['Philadelphia, Pennsylvania, USA']}
+honolulu: {label: 'Honolulu, USA', lat: 21.307, lon: -157.858, locations: ['Honolulu, Hawaii, USA']}
+grenoble: {label: 'Grenoble, France', lat: 45.188, lon: 5.724, locations: ['Grenoble, France']}
+binghamton: {label: 'Binghamton, USA', lat: 42.098, lon: -75.918, locations: ['Binghamton, New York, USA']}
+dresden: {label: 'Dresden, Germany', lat: 51.051, lon: 13.738, locations: ['Dresden, Germany']}
+wroclaw: {label: 'Wroclaw, Poland', lat: 51.108, lon: 17.039, locations: ['Wroclaw, Poland']}
+lisbon: {label: 'Lisbon, Portugal', lat: 38.722, lon: -9.139, locations: ['Lisbon, Portugal']}

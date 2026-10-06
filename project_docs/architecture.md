@@ -2,6 +2,42 @@
 
 Last synchronized: 2026-10-06
 
+## Venue Radar Extension
+
+The standalone generated HTML embeds the refined PNG logo, Leaflet JS/CSS,
+Natural Earth land geometry, and local site assets. No map tiles, geocoder, or
+organizer API is called at runtime. `data/cities.yml` maps exact canonical
+location aliases to approximate city centers; only confirmed future meeting
+dates with a mapped city are shown. Map markers and tables share filters.
+
+`data/topic_families.yml` maps every controlled leaf to exactly one of seven
+families. Edition records store up to four central leaves. Parent selection
+expands to children; matching is OR within families, with selectable ANY/ALL
+across families. Existing topic feed slugs remain stable.
+
+Giscus is an optional, lazily loaded external client backed by public GitHub
+Discussions, not a project backend. It requires a one-time owner app install.
+GitHub request forms and discussion links work independently of Giscus.
+
+New maintained modules and assets:
+- `scripts/catalog_metadata.py`: family/city loading, validation, map payload.
+- `scripts/export_catalog.py`: latest-series and vocabulary JSON export.
+- `scripts/sync_workbook.mjs`: optional artifact-tool workbook synchronization;
+  preserves table styles, validates values, renders previews, exports XLSX.
+- `assets/site.css`, `assets/site.js`: embedded style and browser behavior.
+- `assets/venue-radar.png`, `assets/venue-radar-original.png`: optimized and
+  original selected artwork; candidate provenance is kept under branding/.
+- `assets/vendor/`: Leaflet, Natural Earth geometry, download icon, licenses.
+
+The Python site/calendar build requires only requirements.txt. Workbook editing
+and browser smoke tests use optional maintainer tooling, not runtime dependencies.
+`project_docs/development.md` contains setup and verification commands.
+
+Date-only official deadlines use `time_precision: date`: a known day does not
+become a falsely exact hour. The site labels the assumed cutoff and ICS exports
+an all-day deadline. Stable UID keys are unchanged. Rollover now also supports
+explicitly configured triennial series.
+
 ## System Diagram
 
 ```mermaid
@@ -46,7 +82,7 @@ scripts/
   build_site.py                   static HTML site generation
   build_all.py                    validate, then build all generated outputs
   maintenance_report.py           source-linked edition and rate review queues
-  rollover_editions.py             idempotent annual/biennial edition projections
+  rollover_editions.py             idempotent cadence-aware edition projections
 docs/
   index.html                      generated GitHub Pages site
   calendar-all.ics                generated aggregate calendar feed
@@ -71,7 +107,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 - `scripts/validate.py`: Loads YAML data, parses dates, validates required fields, controlled values, topics, source URLs, deadline gates, deadline uniqueness, rank mappings, and acceptance evidence.
 - `scripts/build_ics.py`: Converts valid conference records into standards-oriented VCALENDAR output with deterministic UIDs, escaped text, folded lines, and stable ordering.
 - `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, milestone-ordered deadlines, submission-opportunity status, a future/past conference split, source links, and downloads.
-- `scripts/rollover_editions.py`: Adds missing next editions for a curated set of annual/biennial series without replacing existing records; all copied timing remains estimated until checked against organizer sources.
+- `scripts/rollover_editions.py`: Adds missing next editions for explicitly configured recurring series, including annual, biennial, and triennial patterns, without replacing existing records; copied timing remains estimated until checked.
 - `scripts/build_all.py`: Runs validation once, then invokes both builders and prints generated paths.
 
 ## Responsibilities

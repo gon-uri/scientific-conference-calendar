@@ -1,0 +1,601 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: System Identification & Data-driven Dy
+ namics
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260331
+DTEND;VALUE=DATE:20260401
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260918
+DTEND;VALUE=DATE:20260919
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Final manuscript submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.\nOfficial deadlin
+ e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
+  submission portal.
+URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Joint journal/conference submission (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261016
+DTEND;VALUE=DATE:20261017
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Workshop proposals (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-tutorial-proposal@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Tutorial session proposals (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-deadline-minisymposium@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261027T035900Z
+DTEND:20261027T045900Z
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Minisymposium proposals
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/submissions/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlin
+ ear Dynamics & Chaos\, Complex Systems & Network Science\, System Identif
+ ication & Data-driven Dynamics\, Machine Learning\nSize: L\nSubmission ty
+ pe: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\
+ nNotes: Biennial SIAM dynamical-systems meeting. Submissions are presenta
+ tion abstracts\, not archival full papers. Official deadlines specify 11:
+ 59 pm Eastern Time\, accounting for daylight saving. Size is an editorial
+  category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261113
+DTEND;VALUE=DATE:20261114
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Paper submission
+  deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261124T045900Z
+DTEND:20261124T055900Z
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Contributed lecture and poster abstracts
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/submissions/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlin
+ ear Dynamics & Chaos\, Complex Systems & Network Science\, System Identif
+ ication & Data-driven Dynamics\, Machine Learning\nSize: L\nSubmission ty
+ pe: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\
+ nNotes: Biennial SIAM dynamical-systems meeting. Submissions are presenta
+ tion abstracts\, not archival full papers. Official deadlines specify 11:
+ 59 pm Eastern Time\, accounting for daylight saving. Size is an editorial
+  category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
+ ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261219
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2026 - Conference
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2026.ieeecss.org/\nSource URL: https://cdc2026.ieeecss.or
+ g/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Control & Robotics\, Syste
+ m Identification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Re
+ inforcement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence:
+  confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEEE CSS confere
+ nce. Main meeting excludes December 14 workshops. No current ICORE rank i
+ s inferred from the removed CORE2018 listing. Deadline cutoff hours use e
+ stimated end-of-day AoE. Size is an editorial category.
+URL:https://cdc2026.ieeecss.org/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Discussion papers (non-archival) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-dissemination@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Published IFAC journal presentations (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270125
+DTEND;VALUE=DATE:20270126
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Acceptance notif
+ ication (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-tutorial-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270129
+DTEND;VALUE=DATE:20270130
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Invited tutorial papers (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270312
+DTEND;VALUE=DATE:20270313
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Final manuscript submission (cutoff time unannounced)
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
+ . Verify the organizer's submission portal.
+URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Joint L-CSS and CDC submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
+ al future edition in Lisbon\; main meeting excludes December 13 workshops
+ . Deadline days and opening day published\; exact cutoff hours use estima
+ ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270331
+DTEND;VALUE=DATE:20270401
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Regular paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
+ al future edition in Lisbon\; main meeting excludes December 13 workshops
+ . Deadline days and opening day published\; exact cutoff hours use estima
+ ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-late-breaking@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270405
+DTEND;VALUE=DATE:20270406
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Late-breaking re
+ sults (eligibility to be announced) (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270419
+DTEND;VALUE=DATE:20270420
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Camera-ready dea
+ dline (cutoff time unannounced)
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Workshop proposals (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
+ al future edition in Lisbon\; main meeting excludes December 13 workshops
+ . Deadline days and opening day published\; exact cutoff hours use estima
+ ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:siam-ds-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270523
+DTEND;VALUE=DATE:20270528
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] SIA
+ M DS 2027 - Conference
+DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical 
+ Systems\nWebsite: https://www.siam.org/conferences-events/siam-conference
+ s/ds27/\nSource URL: https://www.siam.org/conferences-events/siam-confere
+ nces/ds27/\nLocation: Atlanta\, Georgia\, USA\nTopics: Nonlinear Dynamics
+  & Chaos\, Complex Systems & Network Science\, System Identification & Da
+ ta-driven Dynamics\, Machine Learning\nSize: L\nSubmission type: Abstract
+ -based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Bien
+ nial SIAM dynamical-systems meeting. Submissions are presentation abstrac
+ ts\, not archival full papers. Official deadlines specify 11:59 pm Easter
+ n Time\, accounting for daylight saving. Size is an editorial category.
+URL:https://www.siam.org/conferences-events/siam-conferences/ds27/
+LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:l4dc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270616
+DTEND;VALUE=DATE:20270619
+SUMMARY:[Machine Learning][Control & Robotics] L4DC 2027 - Conference
+DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
+ ttps://l4dc2027.control.ee.ethz.ch/home\nSource URL: https://l4dc2027.con
+ trol.ee.ethz.ch/home\nLocation: Stockholm\, Sweden\nTopics: Machine Learn
+ ing\, Control & Robotics\, System Identification & Data-driven Dynamics\,
+  Reinforcement Learning\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-10-06\nNotes: Annual conference at 
+ the ML/control interface\, hosted by KTH. Official days are published\; c
+ utoff hours are unannounced and represented using estimated end-of-day Ao
+ E timing. Late-breaking results are a separate presentation route\, not r
+ egular proceedings papers. Size is an editorial scale category\, not a ve
+ rified attendance count.
+URL:https://l4dc2027.control.ee.ethz.ch/home
+LOCATION:Stockholm\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:acc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270710
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ ACC 2027 - Conference
+DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
+ /acc2027.a2c2.org/\nSource URL: https://acc2027.a2c2.org/\nLocation: Phil
+ adelphia\, Pennsylvania\, USA\nTopics: Control & Robotics\, System Identi
+ fication & Data-driven Dynamics\, Reinforcement Learning\nSize: XL\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Annual AACC meeting. The firm regular-paper extension is Oct
+ ober 2\, not the older September 25 CFP date. Later tutorial papers depen
+ d on an accepted tutorial session and are not an unrestricted new-paper r
+ oute. Cutoff hours use estimated end-of-day AoE. Size is an editorial cat
+ egory.
+URL:https://acc2027.a2c2.org/
+LOCATION:Philadelphia\, Pennsylvania\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270710
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/\nLocation: Lyon\, France\nTopics
+ : System Identification & Data-driven Dynamics\, Control & Robotics\, Tim
+ e Series & Sequential Data\, Machine Learning\nSize: M\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes:
+  Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
+ dissemination/discussion routes have distinct requirements\; consult the 
+ call. Published deadline days are confirmed but cutoff hours use estimate
+ d end-of-day AoE. Size is an editorial category.
+URL:https://conferences.ifac-control.org/sysid2027/
+LOCATION:Lyon\, France
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270715
+DTEND;VALUE=DATE:20270716
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/authors/call-for-papers\nLocation: Lisbon\, Portugal\nTopics: Control &
+  Robotics\, System Identification & Data-driven Dynamics\, Nonlinear Dyna
+ mics & Chaos\, Reinforcement Learning\nSize: XL\nSubmission type: Paper-b
+ ased\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offici
+ al future edition in Lisbon\; main meeting excludes December 13 workshops
+ . Deadline days and opening day published\; exact cutoff hours use estima
+ ted end-of-day AoE. Size is an editorial category.\nOfficial deadline day
+ \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
+ ission portal.
+URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-cdc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271214
+DTEND;VALUE=DATE:20271218
+SUMMARY:[Control & Robotics][System Identification & Data-driven Dynamics] 
+ IEEE CDC 2027 - Conference
+DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
+ ite: https://cdc2027.ieeecss.org/\nSource URL: https://cdc2027.ieeecss.or
+ g/\nLocation: Lisbon\, Portugal\nTopics: Control & Robotics\, System Iden
+ tification & Data-driven Dynamics\, Nonlinear Dynamics & Chaos\, Reinforc
+ ement Learning\nSize: XL\nSubmission type: Paper-based\nConfidence: confi
+ rmed\nLast checked date: 2026-10-06\nNotes: Official future edition in Li
+ sbon\; main meeting excludes December 13 workshops. Deadline days and ope
+ ning day published\; exact cutoff hours use estimated end-of-day AoE. Siz
+ e is an editorial category.
+URL:https://cdc2027.ieeecss.org/
+LOCATION:Lisbon\, Portugal
+END:VEVENT
+END:VCALENDAR

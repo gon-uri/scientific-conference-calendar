@@ -97,7 +97,7 @@
     - "Deep Representation Learning"
     - "Machine Learning"
     - "Explainability & Interpretability"
-    - "EEG/MEG & Neural Signals"
+    - "Robustness & Safety"
   size: "XXL"
   submission_type: "Paper-based / OpenReview"
   relevance: "high"
@@ -215,9 +215,8 @@
   topics:
     - "Probabilistic, Causal & Uncertainty ML"
     - "Machine Learning"
-    - "Healthcare & Clinical AI"
-    - "Fairness & Responsible AI"
-  size: "M/L"
+    - "Learning Theory & Statistical Foundations"
+  size: "L"
   submission_type: "Paper-based"
   relevance: "high"
   deadlines:
@@ -285,7 +284,7 @@
     - "Machine Learning"
     - "Data Mining & Data Science"
     - "Time Series & Sequential Data"
-    - "Healthcare & Clinical AI"
+    - "Explainability & Interpretability"
   size: "L"
   submission_type: "Paper-based / mixed tracks"
   relevance: "high"
@@ -322,7 +321,7 @@
     - "Data Mining & Data Science"
     - "Machine Learning"
     - "Time Series & Sequential Data"
-    - "Fairness & Responsible AI"
+    - "Federated & Distributed Learning"
   size: "XL"
   submission_type: "Paper-based / mixed tracks"
   relevance: "high"
@@ -358,8 +357,7 @@
     - "Data Mining & Data Science"
     - "Time Series & Sequential Data"
     - "Machine Learning"
-    - "Healthcare & Clinical AI"
-  size: "M/L"
+  size: "L"
   submission_type: "Paper-based"
   relevance: "high"
   deadlines:
@@ -429,7 +427,7 @@
   topics:
     - "Data Mining & Data Science"
     - "Machine Learning"
-    - "Healthcare & Clinical AI"
+    - "Time Series & Sequential Data"
     - "Human-AI Interaction & Deployment"
   size: "M"
   submission_type: "Paper-based / applied tracks"
@@ -858,7 +856,7 @@
     - "Signal Processing"
     - "Machine Learning"
     - "Time Series & Sequential Data"
-    - "EEG/MEG & Neural Signals"
+    - "Computer Vision & Pattern Recognition"
   size: "XL"
   submission_type: "Paper-based"
   relevance: "high"
@@ -889,8 +887,7 @@
     - "Machine Learning"
     - "Signal Processing"
     - "Time Series & Sequential Data"
-    - "EEG/MEG & Neural Signals"
-  size: "S/M"
+  size: "M"
   submission_type: "Paper-based / workshop-style conference"
   relevance: "high"
   deadlines:
@@ -1059,7 +1056,7 @@
     - "EEG/MEG & Neural Signals"
     - "Healthcare & Clinical AI"
     - "Computational Neuroscience"
-  size: "L/XL"
+  size: "XL"
   submission_type: "Abstract-based / talks selective"
   relevance: "high"
   deadlines:
@@ -1129,7 +1126,7 @@
     - "EEG/MEG & Neural Signals"
     - "Computational Neuroscience"
     - "Human-AI Interaction & Deployment"
-  size: "S/M"
+  size: "M"
   submission_type: "Abstract/community-based"
   relevance: "high"
   deadlines:
@@ -1189,8 +1186,8 @@
   topics:
     - "Fairness & Responsible AI"
     - "Explainability & Interpretability"
-    - "Healthcare & Clinical AI"
-    - "Human-AI Interaction & Deployment"
+    - "Ethics & Governance"
+    - "Privacy-preserving ML"
   size: "M"
   submission_type: "Paper-based / interdisciplinary"
   relevance: "high"
@@ -1224,11 +1221,11 @@
   conference_end: "2026-10-14"
   timezone: "Etc/GMT+12"
   topics:
+    - "Ethics & Governance"
     - "Fairness & Responsible AI"
-    - "Human-AI Interaction & Deployment"
-    - "Machine Learning"
-    - "Healthcare & Clinical AI"
-  size: "S/M"
+    - "Explainability & Interpretability"
+    - "Robustness & Safety"
+  size: "M"
   submission_type: "Paper-based / interdisciplinary"
   relevance: "high"
   deadlines:
@@ -1263,7 +1260,6 @@
     - "Human-AI Interaction & Deployment"
     - "Explainability & Interpretability"
     - "Fairness & Responsible AI"
-    - "Healthcare & Clinical AI"
   size: "XL"
   submission_type: "Paper-based / HCI-focused"
   relevance: "high"
@@ -1377,7 +1373,8 @@
     - type: "full_paper"
       label: "Full paper submission deadline"
       datetime: "2027-04-14T23:59:00-12:00"
-      confidence: "estimated"
+      confidence: "confirmed"
+      time_precision: "date"
       source_url: "https://ecai2027.org/"
   last_checked: "2026-10-06"
   confidence: "confirmed"
@@ -1400,9 +1397,9 @@
   timezone: "Australia/Melbourne"
   topics:
     - "Machine Learning"
-    - "Deep Representation Learning"
     - "Learning Theory & Statistical Foundations"
     - "Explainability & Interpretability"
+    - "Robustness & Safety"
   size: "L"
   submission_type: "Paper-based / OpenReview"
   relevance: "high"
@@ -1468,7 +1465,7 @@
   topics:
     - "Data Mining & Data Science"
     - "Machine Learning"
-    - "Time Series & Sequential Data"
+    - "Natural Language Processing & LLMs"
     - "Human-AI Interaction & Deployment"
   size: "XL"
   submission_type: "Paper-based"
@@ -1544,7 +1541,7 @@
     - "Data Mining & Data Science"
     - "Machine Learning"
     - "Time Series & Sequential Data"
-    - "Healthcare & Clinical AI"
+    - "Federated & Distributed Learning"
   size: "L"
   submission_type: "Paper-based / mixed tracks"
   relevance: "high"
@@ -1843,9 +1840,9 @@
   conference_end: "2026-08-22"
   timezone: "Europe/Paris"
   topics:
+    - "Computer Vision & Pattern Recognition"
     - "Machine Learning"
     - "Deep Representation Learning"
-    - "Signal Processing"
     - "Biomedical Imaging"
   size: "XL"
   submission_type: "Paper-based"
@@ -1875,10 +1872,9 @@
   conference_end: "2027-11-11"
   timezone: "Etc/GMT+12"
   topics:
+    - "Computer Vision & Pattern Recognition"
     - "Machine Learning"
     - "Deep Representation Learning"
-    - "Signal Processing"
-    - "Biomedical Imaging"
   size: "M"
   submission_type: "Paper-based"
   relevance: "high"
@@ -1913,10 +1909,9 @@
   conference_end: "2026-08-26"
   timezone: "Europe/Zurich"
   topics:
+    - "Computer Vision & Pattern Recognition"
     - "Machine Learning"
-    - "Deep Representation Learning"
-    - "Data Mining & Data Science"
-    - "Signal Processing"
+    - "Learning Theory & Statistical Foundations"
   size: "M"
   submission_type: "Paper-based / workshop-style conference"
   relevance: "high"
@@ -1981,8 +1976,8 @@
   topics:
     - "Machine Learning"
     - "Deep Representation Learning"
-    - "Learning Theory & Statistical Foundations"
-    - "Fairness & Responsible AI"
+    - "Reinforcement Learning"
+    - "Control & Robotics"
   size: "L"
   submission_type: "Paper-based / symposium series"
   relevance: "high"
@@ -2118,7 +2113,7 @@
     - "Signal Processing"
     - "Machine Learning"
     - "Time Series & Sequential Data"
-    - "EEG/MEG & Neural Signals"
+    - "Computer Vision & Pattern Recognition"
   size: "XL"
   submission_type: "Paper-based"
   relevance: "high"
@@ -2232,10 +2227,11 @@
     - type: "abstract"
       label: "Paper or abstract submission deadline"
       datetime: "2027-01-15T23:59:00+00:00"
+      time_precision: "date"
       source_url: "https://itise.ugr.es/index.html"
-  last_checked: "2026-10-05"
+  last_checked: "2026-10-06"
   confidence: "estimated"
-  notes: "Official ITISE 2027 page confirms Gran Canaria, Jul 14-16, and a Jan 15 paper/abstract submission date. The site does not specify the cutoff hour or timezone; 23:59 Canary time is a calendar proxy, so this entry remains estimated."
+  notes: "Official ITISE 2027 page lists Gran Canaria, Jul 14-16, and Jan 15 paper/abstract submission. Its timeline is explicitly provisional in the source and deadlines may be extended. The cutoff hour/timezone is unannounced; 23:59 Canary time is only a calendar proxy. Retain estimated confidence pending a finalized CFP."
 
 - id: "eacl-2027"
   series: "EACL"
@@ -2256,9 +2252,8 @@
     - "Natural Language Processing & LLMs"
     - "Machine Learning"
     - "Deep Representation Learning"
-    - "Fairness & Responsible AI"
     - "Human-AI Interaction & Deployment"
-  size: "L/XL"
+  size: "XL"
   submission_type: "Paper-based / ACL Rolling Review"
   relevance: "high"
   deadlines:
@@ -2335,11 +2330,10 @@
   conference_end: '2027-08-21'
   timezone: Etc/GMT+12
   topics:
-  - Probabilistic, Causal & Uncertainty ML
-  - Machine Learning
-  - Healthcare & Clinical AI
-  - Fairness & Responsible AI
-  size: M/L
+    - "Probabilistic, Causal & Uncertainty ML"
+    - "Machine Learning"
+    - "Learning Theory & Statistical Foundations"
+  size: "L"
   submission_type: Paper-based
   relevance: high
   deadlines:
@@ -2358,6 +2352,256 @@
   notes: Provisional 1-year cadence projection from UAI 2026. Meeting dates, location,
     and deadlines require organizer confirmation; website and source links refer to
     the prior edition.
+
+# Dynamics, complex systems, and control additions. Date-only deadlines explicitly
+# flag their unconfirmed cutoff time; they do not imply an organizer-confirmed hour.
+- id: l4dc-2027
+  series: L4DC
+  year: 2027
+  title: Learning for Dynamics and Control
+  short_title: L4DC 2027
+  website: https://l4dc2027.control.ee.ethz.ch/home
+  cfp_url: https://l4dc2027.control.ee.ethz.ch/home
+  source_urls: [https://l4dc2027.control.ee.ethz.ch/home]
+  location: Stockholm, Sweden
+  mode: in-person
+  conference_start: '2027-06-16'
+  conference_end: '2027-06-18'
+  timezone: Etc/GMT+12
+  topics: [Machine Learning, Control & Robotics, System Identification & Data-driven Dynamics, Reinforcement Learning]
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Paper submission deadline, datetime: '2026-11-13T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
+    - {type: notification, label: Acceptance notification, datetime: '2027-01-25T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
+    - {type: late_breaking, label: Late-breaking results (eligibility to be announced), datetime: '2027-04-05T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
+    - {type: camera_ready, label: Camera-ready deadline, datetime: '2027-04-19T23:59:00-12:00', time_precision: date, source_url: 'https://l4dc2027.control.ee.ethz.ch/home'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Annual conference at the ML/control interface, hosted by KTH. Official days are published; cutoff hours are unannounced and represented using estimated end-of-day AoE timing. Late-breaking results are a separate presentation route, not regular proceedings papers. Size is an editorial scale category, not a verified attendance count.
+
+- id: ifac-sysid-2027
+  series: IFAC SYSID
+  year: 2027
+  title: IFAC Symposium on System Identification
+  short_title: IFAC SYSID 2027
+  website: https://conferences.ifac-control.org/sysid2027/
+  cfp_url: https://conferences.ifac-control.org/sysid2027/participate/
+  source_urls: [https://conferences.ifac-control.org/sysid2027/, https://conferences.ifac-control.org/sysid2027/participate/, https://tc.ifac-control.org/1/1]
+  location: Lyon, France
+  mode: in-person
+  conference_start: '2027-07-07'
+  conference_end: '2027-07-09'
+  timezone: Etc/GMT+12
+  topics: [System Identification & Data-driven Dynamics, Control & Robotics, Time Series & Sequential Data, Machine Learning]
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Conference paper submission, datetime: '2026-11-02T23:59:00-12:00', opens_at: '2026-06-01T00:00:00+02:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: journal_paper, label: Joint journal/conference submission, datetime: '2026-10-11T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: discussion_paper, label: Discussion papers (non-archival), datetime: '2027-01-15T23:59:00-12:00', opens_at: '2026-06-01T00:00:00+02:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: dissemination, label: Published IFAC journal presentations, datetime: '2027-01-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+    - {type: notification, label: Acceptance notification, datetime: '2027-02-15T23:59:00-12:00', time_precision: date, source_url: 'https://conferences.ifac-control.org/sysid2027/participate/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Triennial TC 1.1 symposium. Regular papers, joint journal papers, and dissemination/discussion routes have distinct requirements; consult the call. Published deadline days are confirmed but cutoff hours use estimated end-of-day AoE. Size is an editorial category.
+
+- id: acc-2027
+  series: ACC
+  year: 2027
+  title: American Control Conference
+  short_title: ACC 2027
+  website: https://acc2027.a2c2.org/
+  cfp_url: https://acc2027.a2c2.org/
+  source_urls: [https://acc2027.a2c2.org/]
+  location: Philadelphia, Pennsylvania, USA
+  mode: in-person
+  conference_start: '2027-07-07'
+  conference_end: '2027-07-09'
+  timezone: Etc/GMT+12
+  topics: [Control & Robotics, System Identification & Data-driven Dynamics, Reinforcement Learning]
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Regular paper submission, datetime: '2026-10-02T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+    - {type: workshop, label: Workshop proposals, datetime: '2026-10-16T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+    - {type: tutorial_proposal, label: Tutorial session proposals, datetime: '2026-10-23T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+    - {type: notification, label: Acceptance notification, datetime: '2027-01-22T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+    - {type: tutorial_paper, label: Invited tutorial papers, datetime: '2027-01-29T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+    - {type: camera_ready, label: Final manuscript submission, datetime: '2027-03-12T23:59:00-12:00', time_precision: date, source_url: 'https://acc2027.a2c2.org/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Annual AACC meeting. The firm regular-paper extension is October 2, not the older September 25 CFP date. Later tutorial papers depend on an accepted tutorial session and are not an unrestricted new-paper route. Cutoff hours use estimated end-of-day AoE. Size is an editorial category.
+
+- id: ieee-cdc-2026
+  series: IEEE CDC
+  year: 2026
+  title: IEEE Conference on Decision and Control
+  short_title: IEEE CDC 2026
+  website: https://cdc2026.ieeecss.org/
+  cfp_url: https://cdc2026.ieeecss.org/
+  source_urls: [https://cdc2026.ieeecss.org/]
+  location: Honolulu, Hawaii, USA
+  mode: in-person
+  conference_start: '2026-12-15'
+  conference_end: '2026-12-18'
+  timezone: Etc/GMT+12
+  topics: [Control & Robotics, System Identification & Data-driven Dynamics, Nonlinear Dynamics & Chaos, Reinforcement Learning]
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Regular paper submission, datetime: '2026-03-31T23:59:00-12:00', time_precision: date, source_url: 'https://cdc2026.ieeecss.org/'}
+    - {type: camera_ready, label: Final manuscript submission, datetime: '2026-09-18T23:59:00-12:00', time_precision: date, source_url: 'https://cdc2026.ieeecss.org/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Annual IEEE CSS conference. Main meeting excludes December 14 workshops. No current ICORE rank is inferred from the removed CORE2018 listing. Deadline cutoff hours use estimated end-of-day AoE. Size is an editorial category.
+
+- id: ieee-cdc-2027
+  series: IEEE CDC
+  year: 2027
+  title: IEEE Conference on Decision and Control
+  short_title: IEEE CDC 2027
+  website: https://cdc2027.ieeecss.org/
+  cfp_url: https://cdc2027.ieeecss.org/authors/call-for-papers
+  source_urls: [https://cdc2027.ieeecss.org/, https://cdc2027.ieeecss.org/authors/call-for-papers]
+  location: Lisbon, Portugal
+  mode: in-person
+  conference_start: '2027-12-14'
+  conference_end: '2027-12-17'
+  timezone: Etc/GMT+12
+  topics: [Control & Robotics, System Identification & Data-driven Dynamics, Nonlinear Dynamics & Chaos, Reinforcement Learning]
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Regular paper submission, datetime: '2027-03-31T23:59:00-12:00', opens_at: '2027-01-08T00:00:00Z', time_precision: date, source_url: 'https://cdc2027.ieeecss.org/authors/call-for-papers'}
+    - {type: journal_paper, label: Joint L-CSS and CDC submission, datetime: '2027-03-17T23:59:00-12:00', time_precision: date, source_url: 'https://cdc2027.ieeecss.org/authors/call-for-papers'}
+    - {type: workshop, label: Workshop proposals, datetime: '2027-04-30T23:59:00-12:00', time_precision: date, source_url: 'https://cdc2027.ieeecss.org/authors/call-for-papers'}
+    - {type: notification, label: Acceptance notification, datetime: '2027-07-15T23:59:00-12:00', time_precision: date, source_url: 'https://cdc2027.ieeecss.org/authors/call-for-papers'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Official future edition in Lisbon; main meeting excludes December 13 workshops. Deadline days and opening day published; exact cutoff hours use estimated end-of-day AoE. Size is an editorial category.
+
+- id: nolta-2026
+  series: NOLTA
+  year: 2026
+  title: International Symposium on Nonlinear Theory and Its Applications
+  short_title: NOLTA 2026
+  website: https://nolta2026.org/
+  cfp_url: https://nolta2026.org/
+  source_urls: [https://nolta2026.org/, https://www.ieice.org/nolta/conferences/symposium/]
+  location: Grenoble, France
+  mode: in-person
+  conference_start: '2026-11-17'
+  conference_end: '2026-11-20'
+  timezone: Etc/GMT+12
+  topics: [Nonlinear Dynamics & Chaos, Complex Systems & Network Science, Deep Representation Learning, Control & Robotics]
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - {type: full_paper, label: Regular and special-session papers, datetime: '2026-05-20T23:59:00-12:00', time_precision: date, source_url: 'https://nolta2026.org/'}
+    - {type: camera_ready, label: Camera-ready deadline, datetime: '2026-08-15T23:59:00-12:00', time_precision: date, source_url: 'https://nolta2026.org/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Annual IEICE NOLTA symposium; official final extensions supersede older April/July dates. Proceedings papers, with neural networks and deep AI explicitly in scope. Deadline hours use estimated end-of-day AoE. Size is an editorial category.
+
+- id: siam-ds-2027
+  series: SIAM DS
+  year: 2027
+  title: SIAM Conference on Applications of Dynamical Systems
+  short_title: SIAM DS 2027
+  website: https://www.siam.org/conferences-events/siam-conferences/ds27/
+  cfp_url: https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/
+  source_urls: [https://www.siam.org/conferences-events/siam-conferences/ds27/, https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/]
+  location: Atlanta, Georgia, USA
+  mode: in-person
+  conference_start: '2027-05-23'
+  conference_end: '2027-05-27'
+  timezone: America/New_York
+  topics: [Nonlinear Dynamics & Chaos, Complex Systems & Network Science, System Identification & Data-driven Dynamics, Machine Learning]
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+    - {type: minisymposium, label: Minisymposium proposals, datetime: '2026-10-26T23:59:00-04:00', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
+    - {type: abstract, label: Contributed lecture and poster abstracts, datetime: '2026-11-23T23:59:00-05:00', open_observed_on: '2026-10-06', source_url: 'https://www.siam.org/conferences-events/siam-conferences/ds27/submissions/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Biennial SIAM dynamical-systems meeting. Submissions are presentation abstracts, not archival full papers. Official deadlines specify 11:59 pm Eastern Time, accounting for daylight saving. Size is an editorial category.
+
+- id: ccs-2026
+  series: CCS
+  year: 2026
+  title: Conference on Complex Systems
+  short_title: CCS 2026
+  website: https://ccs26.cssociety.org/
+  cfp_url: https://ccs26.cssociety.org/
+  source_urls: [https://ccs26.cssociety.org/, https://ccs26.cssociety.org/program.html, https://cssociety.org/ccs/]
+  location: Binghamton, New York, USA
+  mode: hybrid
+  conference_start: '2026-10-12'
+  conference_end: '2026-10-16'
+  timezone: Etc/GMT+12
+  topics: [Complex Systems & Network Science, Nonlinear Dynamics & Chaos, Data Mining & Data Science]
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+    - {type: abstract, label: Presentation abstracts, datetime: '2026-05-15T23:59:00-12:00', time_precision: date, source_url: 'https://ccs26.cssociety.org/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Annual Complex Systems Society flagship, distinct from ACM CCS (computer security); no ACM CCS rank applies. Main conference is October 12-16; October 9-10 warm-up excluded. Presentation abstracts, not archival full papers. Deadline hour uses estimated end-of-day AoE. Size is an editorial category.
+
+- id: ccs-2027
+  series: CCS
+  year: 2027
+  title: Conference on Complex Systems
+  short_title: CCS 2027
+  website: https://cssociety.org/ccs/
+  cfp_url: https://cssociety.org/ccs/
+  source_urls: [https://cssociety.org/ccs/, https://ccs26.cssociety.org/]
+  location: Wroclaw, Poland
+  mode: in-person
+  conference_start: '2027-09-17'
+  conference_end: '2027-09-24'
+  timezone: Etc/GMT+12
+  topics: [Complex Systems & Network Science, Nonlinear Dynamics & Chaos, Data Mining & Data Science]
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+    - {type: abstract, label: Presentation abstracts, datetime: '2027-04-20T23:59:00-12:00', confidence: estimated, source_url: 'https://ccs26.cssociety.org/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Society announces Wroclaw and September 17-24; detailed main/satellite split is not yet available. Abstract deadline is estimated from the 2026 main-meeting lead time, not officially announced. Distinct from ACM CCS; no inherited security-conference rank. Size is an editorial category.
+
+- id: netsci-2027
+  series: NetSci
+  year: 2027
+  title: International School and Conference on Network Science
+  short_title: NetSci 2027
+  website: https://netsci2027.github.io/
+  cfp_url: https://netsci2027.github.io/
+  source_urls: [https://netsci2027.github.io/, https://www.netsci2026.com/]
+  location: Dresden, Germany
+  mode: in-person
+  conference_start: '2027-05-17'
+  conference_end: '2027-05-21'
+  timezone: Etc/GMT+12
+  topics: [Complex Systems & Network Science, Data Mining & Data Science, Nonlinear Dynamics & Chaos]
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+    - {type: abstract, label: Presentation abstracts, datetime: '2027-01-09T23:59:00-12:00', confidence: estimated, source_url: 'https://www.netsci2026.com/'}
+  last_checked: '2026-10-06'
+  confidence: confirmed
+  notes: Official annual NetSci school/conference in Dresden, distinct from NetSciX. 2027 CFP not yet published; January abstract timing is a prior-edition proxy, not confirmation. Presentation route rather than assumed archival proceedings. Size is an editorial category.
 - id: ecml-pkdd-2027
   series: ECML PKDD
   year: 2027
@@ -2375,11 +2619,11 @@
   conference_end: '2027-09-03'
   timezone: Etc/GMT+12
   topics:
-  - Machine Learning
-  - Data Mining & Data Science
-  - Time Series & Sequential Data
-  - Healthcare & Clinical AI
-  size: L
+    - "Machine Learning"
+    - "Data Mining & Data Science"
+    - "Time Series & Sequential Data"
+    - "Explainability & Interpretability"
+  size: "L"
   submission_type: Paper-based / mixed tracks
   relevance: high
   deadlines:
@@ -2415,11 +2659,11 @@
   conference_end: '2027-08-05'
   timezone: Etc/GMT+12
   topics:
-  - Data Mining & Data Science
-  - Machine Learning
-  - Time Series & Sequential Data
-  - Fairness & Responsible AI
-  size: XL
+    - "Data Mining & Data Science"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "Federated & Distributed Learning"
+  size: "XL"
   submission_type: Paper-based / mixed tracks
   relevance: high
   deadlines:
@@ -2620,17 +2864,19 @@
     label: Full paper submission deadline
     datetime: '2027-01-24T23:59:00-12:00'
     source_url: https://embc.embs.org/2027/important-dates/
-    confidence: estimated
+    confidence: confirmed
+    time_precision: date
   - type: poster
     label: 1-page poster submission deadline
     datetime: '2027-04-23T23:59:00-12:00'
     source_url: https://embc.embs.org/2027/important-dates/
-    confidence: estimated
+    confidence: confirmed
+    time_precision: date
   last_checked: '2026-10-06'
   confidence: confirmed
   notes: Organizer confirms Singapore, Jul 11-15, and Jan 24 full-paper/Apr 23
     poster deadlines. Cutoff hour/timezone is not specified; 23:59 AoE is a
-    provisional calendar time, so the edition remains estimated.
+    provisional ordering time; the official deadline days are confirmed.
 - id: ieee-mlsp-2027
   series: IEEE MLSP
   year: 2027
@@ -2647,11 +2893,10 @@
   conference_end: '2027-09-16'
   timezone: Etc/GMT+12
   topics:
-  - Machine Learning
-  - Signal Processing
-  - Time Series & Sequential Data
-  - EEG/MEG & Neural Signals
-  size: S/M
+    - "Machine Learning"
+    - "Signal Processing"
+    - "Time Series & Sequential Data"
+  size: "M"
   submission_type: Paper-based / workshop-style conference
   relevance: high
   deadlines:
@@ -2821,11 +3066,11 @@
   conference_end: '2027-09-03'
   timezone: Europe/Berlin
   topics:
-  - Signal Processing
-  - Machine Learning
-  - Time Series & Sequential Data
-  - EEG/MEG & Neural Signals
-  size: XL
+    - "Signal Processing"
+    - "Machine Learning"
+    - "Time Series & Sequential Data"
+    - "Computer Vision & Pattern Recognition"
+  size: "XL"
   submission_type: Paper-based
   relevance: high
   deadlines:
@@ -2833,7 +3078,8 @@
     label: Conference paper submission deadline
     datetime: '2027-02-06T23:59:00+01:00'
     source_url: https://eusipco2027.de/
-    confidence: estimated
+    confidence: confirmed
+    time_precision: date
   last_checked: '2026-10-06'
   confidence: confirmed
   notes: EUSIPCO 2027 confirms Darmstadt, Aug 30-Sep 3, and Feb 6 paper deadline.
@@ -2887,11 +3133,11 @@
   conference_end: '2028-08-22'
   timezone: Europe/Paris
   topics:
-  - Machine Learning
-  - Deep Representation Learning
-  - Signal Processing
-  - Biomedical Imaging
-  size: XL
+    - "Computer Vision & Pattern Recognition"
+    - "Machine Learning"
+    - "Deep Representation Learning"
+    - "Biomedical Imaging"
+  size: "XL"
   submission_type: Paper-based
   relevance: high
   deadlines:
@@ -2921,11 +3167,10 @@
   conference_end: '2028-08-26'
   timezone: Europe/Zurich
   topics:
-  - Machine Learning
-  - Deep Representation Learning
-  - Data Mining & Data Science
-  - Signal Processing
-  size: M
+    - "Computer Vision & Pattern Recognition"
+    - "Machine Learning"
+    - "Learning Theory & Statistical Foundations"
+  size: "M"
   submission_type: Paper-based / workshop-style conference
   relevance: high
   deadlines:

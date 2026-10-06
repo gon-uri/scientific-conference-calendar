@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Explainability & Interpretability
@@ -22,6 +22,42 @@ DESCRIPTION:Conference title: Learning from Time Series for Health Workshop
   the former 2026 placeholder has been retired.
 URL:https://timeseries4health.github.io/
 LOCATION:San Diego\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260306T115900Z
+DTEND:20260306T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official E
+ CML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-track abstr
+ act and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260313T115900Z
+DTEND:20260313T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
+ ta Mining & Data Science\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official E
+ CML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-track abstr
+ act and paper deadlines.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:sdm-2026-deadline-abstract@scientific-conference-calendar
@@ -108,6 +144,40 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:aies-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260515T115900Z
+DTEND:20260515T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Abstra
+ ct registration deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260522T115900Z
+DTEND:20260522T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:aaltd-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260606T065900Z
@@ -165,16 +235,16 @@ UID:acml-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260706T115900Z
 DTEND:20260706T125900Z
-SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
- ence-track paper submission deadline
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
 DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
  : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
  2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
- ning\, Deep Representation Learning\, Learning Theory & Statistical Found
- ations\, Explainability & Interpretability\nSize: L\nSubmission type: Pap
- er-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the re
- vised conference-track submission deadline.
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
+ : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
+ ference-track submission deadline.
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -229,6 +299,24 @@ DESCRIPTION:Conference title: Workshop on Advanced Analytics and Learning o
 URL:https://ecml-aaltd.github.io/aaltd2026/dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:ecml-pkdd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260912
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2026 - Con
+ ference
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
+  Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
+ Time Series & Sequential Data\, Explainability & Interpretability\nSize: 
+ L\nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLa
+ st checked date: 2026-08-20\nNotes: Official ECML PKDD 2026 pages list Na
+ ples\, Sep 7-11\, and the research-track abstract and paper deadlines.
+URL:https://ecmlpkdd.org/2026/
+LOCATION:Naples\, Italy
+END:VEVENT
+BEGIN:VEVENT
 UID:aaltd-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260911
@@ -258,10 +346,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -275,10 +363,10 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
- per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
- -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
- Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
@@ -292,11 +380,29 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
- per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
- -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
- Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Confer
+ ence
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Ethics &
+  Governance\, Fairness & Responsible AI\, Explainability & Interpretabili
+ ty\, Robustness & Safety\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dates a
+ nd abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/
+LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -308,11 +414,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -325,11 +431,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -373,16 +479,16 @@ UID:acml-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261201
 DTEND;VALUE=DATE:20261205
-SUMMARY:[Machine Learning][Deep Representation Learning] ACML 2026 - Confer
- ence
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
 DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
  : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
- 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Deep R
- epresentation Learning\, Learning Theory & Statistical Foundations\, Expl
- ainability & Interpretability\nSize: L\nSubmission type: Paper-based / Op
- enReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
- ficial ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised confere
- nce-track submission deadline.
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
+ ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
+  submission deadline.
 URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
 END:VEVENT
@@ -403,6 +509,42 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
  ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
 LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270306T115900Z
+DTEND:20270306T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Abs
+ tract submission deadline (estimated)
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Expla
+ inability & Interpretability\nSize: L\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: O
+ fficial 2027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines ar
+ e provisional 2026 timing proxies and need CFP confirmation.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Ful
+ l paper submission deadline (estimated)
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
+ -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Expla
+ inability & Interpretability\nSize: L\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: O
+ fficial 2027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines ar
+ e provisional 2026 timing proxies and need CFP confirmation.
+URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:mlhc-2027-deadline-full-paper@scientific-conference-calendar
@@ -431,10 +573,10 @@ DESCRIPTION:Conference title: International Conference on Learning Represen
  tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
  clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
  cs: Deep Representation Learning\, Machine Learning\, Explainability & In
- terpretability\, EEG/MEG & Neural Signals\nSize: XXL\nSubmission type: Pa
- per-based / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08
- -20\nNotes: Official ICLR 2027 and OpenReview pages list San Francisco\, 
- Apr 26-30\, 2027\, and the abstract/paper deadlines.
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
 URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
@@ -449,10 +591,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
@@ -466,11 +608,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
@@ -489,5 +631,24 @@ DESCRIPTION:Conference title: Machine Learning for Healthcare Conference\nW
   remains a 2026 timing proxy until organizers publish the 2027 call.
 URL:https://mlhc.org/
 LOCATION:Zurich\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:ecml-pkdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270830
+DTEND;VALUE=DATE:20270904
+SUMMARY:[Machine Learning][Data Mining & Data Science] ECML PKDD 2027 - Con
+ ference
+DESCRIPTION:Conference title: European Conference on Machine Learning and P
+ rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
+ s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2027/\nLocation:
+  Eindhoven\, Netherlands\nTopics: Machine Learning\, Data Mining & Data S
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\nSize: L\nSubmission type: Paper-based / mixed tracks\nConfidence: conf
+ irmed\nLast checked date: 2026-10-06\nNotes: Official 2027 page confirms 
+ Eindhoven and Aug 30-Sep 3. Paper deadlines are provisional 2026 timing p
+ roxies and need CFP confirmation.
+URL:https://ecmlpkdd.org/2027/
+LOCATION:Eindhoven\, Netherlands
 END:VEVENT
 END:VCALENDAR

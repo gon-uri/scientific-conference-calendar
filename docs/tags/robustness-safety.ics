@@ -1,0 +1,146 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Robustness & Safety
+BEGIN:VEVENT
+UID:aies-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260515T115900Z
+DTEND:20260515T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Abstra
+ ct registration deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260522T115900Z
+DTEND:20260522T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
+ : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
+ ference-track submission deadline.
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260919T115900Z
+DTEND:20260919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
+ ct submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260926T115900Z
+DTEND:20260926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Confer
+ ence
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Ethics &
+  Governance\, Fairness & Responsible AI\, Explainability & Interpretabili
+ ty\, Robustness & Safety\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dates a
+ nd abstract/paper submission deadlines.
+URL:https://www.aies-conference.com/2026/
+LOCATION:Malmo\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
+ ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
+  submission deadline.
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.
+URL:https://iclr.cc/Conferences/2027
+LOCATION:San Francisco\, California\, USA
+END:VEVENT
+END:VCALENDAR

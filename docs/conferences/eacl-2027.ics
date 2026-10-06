@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:EACL 2027 Calendar
@@ -15,11 +15,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -33,11 +33,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -51,11 +51,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
  tural Language Processing & LLMs\, Machine Learning\, Deep Representation
-  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
- \nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Review\nConfiden
- ce: confirmed\nLast checked date: 2026-08-31\nNotes: Official EACL 2027 p
- ages confirm the hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 sub
- mission and Oct 11 commitment deadlines.
+  Learning\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type:
+  Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
+ te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
+  meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
+ deadlines.
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
 END:VEVENT

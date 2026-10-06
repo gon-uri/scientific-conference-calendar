@@ -2,12 +2,31 @@
 
 Last synchronized: 2026-10-06
 
+## Venue Radar Release
+
+- Implemented: Venue Radar branding and refined calendar/radar logo, restrained
+  visual styling, compact S/M/L/XL/XXL filters, seven hierarchical topic families,
+  and a Conferences tab with an offline world map and date-sorted tables.
+- Catalog: 93 edition records across 71 series; 27 controlled subtopics. Added
+  L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
+  sources. Unpublished submission dates remain explicitly estimated.
+- Community: structured conference-request form, star/X links, author profile,
+  and configured Giscus comments. Discussions are enabled. Giscus activation
+  still requires the owner to install the GitHub app on this repository.
+- Licensing: MIT code; CC BY 4.0 original content and artwork; separate vendor
+  notices. Both licenses permit commercial reuse with their required notices.
+- Maintenance: YAML remains canonical. Topic and city registries are validated;
+  reusable export/workbook synchronization scripts preserve native workbook
+  tables. Detailed commands live in project_docs, not README.
+- Verification: data validation, Python tests, full build, workbook rendering
+  and value checks, plus desktop/mobile browser interaction and overflow checks.
+
 ## Feature Checklist
 
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is the canonical source of truth for one edition per item, with dates, prerequisites, topics, sources, confidence, and review metadata. The catalog now has 83 editions across 63 series. Eighteen cadence-based next editions were added as estimates; 11 of those meeting dates were subsequently verified from organizer pages. IJCAI and ECAI 2027 were added as distinct officially announced successors to the joint 2026 event, and the former LOD series was corrected to AIS 2026 with a provisional AIS 2027 successor. IDA, ACPR, and IEEE NER have separately marked estimated submission dates based on earlier calls. The former subjective Difficulty field remains removed.
+- Brief description: `data/conferences.yml` is canonical, with 93 editions across 71 series. Cadence-based estimates are distinguished from official meeting dates and deadline evidence. Joint editions and renamed series preserve their stable identities. The eight newly tracked dynamics/control/network series have organizer source links and review notes. Subjective Difficulty remains removed.
 - Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/core_conferences_normalized_tags.xlsx`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
@@ -34,7 +53,7 @@ Last synchronized: 2026-10-06
 ### Data Validation
 
 - Current status: Completed
-- Brief description: Validation checks required fields, IDs, date formats, topic taxonomy membership, edition- and deadline-level confidence, optional submission-opening evidence, source URLs, prerequisite deadline links, duplicate deadline UID keys, both ranking releases and workshop exclusions, and historical acceptance evidence.
+- Brief description: Validation checks required fields, stable IDs, date formats and precision, five size labels, up to four unique topics, family membership, city aliases/coordinates, confidence, opening evidence, source URLs, deadline gates, duplicate UID keys, both ranking releases, and historical acceptance evidence.
 - Files modified: `scripts/validate.py`
 - Tests implemented: `python scripts/validate.py`; also run in `.github/workflows/build.yml`.
 - Remaining work: Consider enforcing freshness in CI if review cadence becomes a hard publication requirement; the maintenance report currently flags stale checks without blocking builds.
@@ -52,17 +71,17 @@ Last synchronized: 2026-10-06
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates `docs/index.html` with one compact expandable row per edition ordered by the next chronological milestone, including conference start. Submission status distinguishes verified open, upcoming, estimated, closed, and unannounced routes; the opportunities checkbox includes open, upcoming, and estimated submission routes. The Confidence column is removed; date uncertainty appears in the status and milestone. Upcoming conferences are separated from ongoing/past editions. The result count sits beside the checkbox, and both tables use `Accept. rate` with sourced bands/percentages. Rankings, filters, and ICS downloads remain available.
+- Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, ICORE, and acceptance filters affect both tables and the map. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; global downloads remain available.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI.
-- Remaining work: Add automated browser regression checks before further large UI changes.
-- Known issues: The site has no automated visual regression tests.
+- Remaining work: Keep desktop/mobile interaction coverage current; activate Giscus after the owner's app installation.
+- Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines the controlled topic vocabulary, `data/metadata.yml` provides the site-level `last_updated` date, and the 63-series workbook is a synchronized catalog reference.
-- Files modified: `data/topics.yml`, `data/metadata.yml`, `scripts/validate.py`, `scripts/build_site.py`
+- Brief description: `data/topics.yml` defines 27 leaves; `data/topic_families.yml` assigns each to exactly one of seven families and supplies compact display labels. Parents are derived from up to four central leaves, not stored per edition. `data/cities.yml` supplies explicit location aliases and approximate city-center coordinates. The 71-series workbook mirrors canonical YAML.
+- Files modified: `data/topics.yml`, `data/topic_families.yml`, `data/cities.yml`, `scripts/catalog_metadata.py`, `scripts/export_catalog.py`, `scripts/sync_workbook.mjs`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.
 - Known issues: Topic changes require regenerating the tag calendar feeds.
@@ -88,7 +107,7 @@ Last synchronized: 2026-10-06
 ### Regular Data Maintenance
 
 - Current status: Completed tooling; ongoing editorial review
-- Brief description: `scripts/maintenance_report.py` defaults to a 30-day review window and flags inferred submission dates even when a meeting date is confirmed. `scripts/rollover_editions.py` provides idempotent cadence-aware projections for selected annual and biennial series. `project_docs/data_maintenance.md` records the monthly source comparison and publication routine.
+- Brief description: The 30-day maintenance queue flags inferred dates even when the meeting is confirmed. Idempotent rollover respects annual, biennial, and IFAC SYSID's triennial cadence. Topic/city checks and a repeatable workbook export/sync workflow accompany monthly official-source review.
 - Files modified: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, `tests/test_maintenance.py`, `tests/test_rollover_and_site.py`, `project_docs/data_maintenance.md`, `README.md`
 - Tests implemented: Unit tests for queue classification; CLI run against the full catalog.
 - Remaining work: Run the report regularly and review organizer sources. It does not automatically scrape or publish unverified updates.

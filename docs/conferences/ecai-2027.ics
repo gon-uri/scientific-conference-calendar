@@ -1,25 +1,26 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:ECAI 2027 Calendar
 BEGIN:VEVENT
 UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270415T115900Z
-DTEND:20270415T125900Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
 SUMMARY:[Machine Learning][Deep Representation Learning] ECAI 2027 - Full p
- aper submission deadline (estimated)
+ aper submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
  e\nWebsite: https://ecai2027.org/\nSource URL: https://ecai2027.org/\nLoc
  ation: Athens\, Greece\nTopics: Machine Learning\, Deep Representation Le
  arning\, Learning Theory & Statistical Foundations\, Fairness & Responsib
- le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLas
+ le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
  t checked date: 2026-10-06\nNotes: Official ECAI 2027 site confirms Athen
  s\, Oct 2-7 (main conference Oct 4-7)\, and an Apr 14 full-paper submissi
  on date. The cutoff hour/time zone is not published\, so 23:59 AoE is an 
- explicitly estimated placeholder.
+ explicitly estimated placeholder.\nOfficial deadline day\; exact cutoff h
+ our/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT

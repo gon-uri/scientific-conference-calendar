@@ -1,0 +1,171 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Federated & Distributed Learning
+BEGIN:VEVENT
+UID:kdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260202T115900Z
+DTEND:20260202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260209T115900Z
+DTEND:20260209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Paper sub
+ mission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260814
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://w
+ ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
+ a Science\, Machine Learning\, Time Series & Sequential Data\, Federated 
+ & Distributed Learning\nSize: XL\nSubmission type: Paper-based / mixed tr
+ acks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al SIGKDD and KDD 2026 pages list conference dates and research-track Cyc
+ le 2 deadlines.
+URL:https://www.kdd.org/conferences
+LOCATION:Jeju\, Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260822T065900Z
+DTEND:20260822T075900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Full paper submission deadline
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
+ 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
+ ine.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261115T065900Z
+DTEND:20261115T075900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Camera-ready deadline
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
+ 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
+ ine.
+URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-bigdata-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261214
+DTEND;VALUE=DATE:20261218
+SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
+ bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
+ eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, F
+ ederated & Distributed Learning\nSize: L\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes
+ : Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, the Aug 2
+ 1 full-paper deadline\, and the Nov 14 camera-ready deadline.
+URL:https://bigdataieee.org/BigData2026/
+LOCATION:Phoenix\, Arizona\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Abstract 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270209T115900Z
+DTEND:20270209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270806
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
+ ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fe
+ derated & Distributed Learning\nSize: XL\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes
+ : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
+ le closed in July 2026. A February 2027 cycle is announced but exact date
+ s are still TBA\; the February abstract/paper dates here are estimated fr
+ om 2026.
+URL:https://kdd2027.kdd.org/
+LOCATION:San Jose\, California\, USA
+END:VEVENT
+END:VCALENDAR

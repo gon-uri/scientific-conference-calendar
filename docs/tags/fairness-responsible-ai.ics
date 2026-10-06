@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Fairness & Responsible AI
@@ -41,23 +41,6 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
 URL:https://2026.ijcai.org/ijcai-ecai-2026-call-for-papers-main-track/
 END:VEVENT
 BEGIN:VEVENT
-UID:kdd-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260202T115900Z
-DTEND:20260202T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Abstract 
- submission deadline
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
- dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
- opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
- ential Data\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper
- -based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and r
- esearch-track Cycle 2 deadlines.
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:chil-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260205T115900Z
@@ -72,40 +55,6 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official C
  HIL pages list conference dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/submit/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260209T115900Z
-DTEND:20260209T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Paper sub
- mission deadline
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
- dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
- opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
- ential Data\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper
- -based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and r
- esearch-track Cycle 2 deadlines.
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260226T115900Z
-DTEND:20260226T125900Z
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 6 - Paper submission deadline
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
- cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
- re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type:
-  Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
-URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2026-deadline-doctoral-symposium@scientific-conference-calendar
@@ -128,16 +77,16 @@ UID:aies-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260515T115900Z
 DTEND:20260515T125900Z
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Abstract registration deadline
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Abstra
+ ct registration deadline
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
  www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
- Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
- achine Learning\, Healthcare & Clinical AI\nSize: S/M\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: confirmed\nLast checked date:
-  2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 202
- 6 conference dates and abstract/paper submission deadlines.
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -145,16 +94,16 @@ UID:aies-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260522T115900Z
 DTEND:20260522T125900Z
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Paper submission deadline
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Paper 
+ submission deadline
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
  www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
- Topics: Fairness & Responsible AI\, Human-AI Interaction & Deployment\, M
- achine Learning\, Healthcare & Clinical AI\nSize: S/M\nSubmission type: P
- aper-based / interdisciplinary\nConfidence: confirmed\nLast checked date:
-  2026-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 202
- 6 conference dates and abstract/paper submission deadlines.
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -173,23 +122,6 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  ce dates\, location\, and submission timeline.
 URL:https://chil.ahli.cc/
 LOCATION:Seattle\, Washington\, USA
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260709T115900Z
-DTEND:20260709T125900Z
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 6 - Camera-ready deadline
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
- cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
- re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type:
-  Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
-URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-abstract@scientific-conference-calendar
@@ -243,61 +175,6 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
 URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
 END:VEVENT
 BEGIN:VEVENT
-UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260804T115900Z
-DTEND:20260804T125900Z
-SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
- ARR long and short paper submission deadline
-DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
- ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
- Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
- e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
-URL:https://2027.eacl.org/calls/papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260809
-DTEND;VALUE=DATE:20260814
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Conferenc
- e
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://w
- ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
- a Science\, Machine Learning\, Time Series & Sequential Data\, Fairness &
-  Responsible AI\nSize: XL\nSubmission type: Paper-based / mixed tracks\nC
- onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official SIGK
- DD and KDD 2026 pages list conference dates and research-track Cycle 2 de
- adlines.
-URL:https://www.kdd.org/conferences
-LOCATION:Jeju\, Korea
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-ssci-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260811T115900Z
-DTEND:20260811T125900Z
-SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - F
- ull and short paper submission deadline
-DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
- igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
- ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
- tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
- e Learning\, Deep Representation Learning\, Learning Theory & Statistical
-  Foundations\, Fairness & Responsible AI\nSize: L\nSubmission type: Paper
- -based / symposium series\nConfidence: confirmed\nLast checked date: 2026
- -08-20\nNotes: Official IEEE SSCI 2027 materials list the Gold Coast meet
- ing\, Feb 14-17\, and the Aug 10 full/short-paper deadline.
-URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
- ons/
-END:VEVENT
-BEGIN:VEVENT
 UID:ijcai-ecai-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -314,24 +191,6 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
  n\, Aug 15-21\, and the Jan 12 abstract and Jan 19 full-paper deadlines.
 URL:https://2026.ijcai.org/
 LOCATION:Bremen\, Germany
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2026-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20260817
-DTEND;VALUE=DATE:20260822
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 6 - Conference
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/\nLocation: Amsterdam\, Netherlands\nTopics: Probabilist
- ic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Clinical A
- I\, Fairness & Responsible AI\nSize: M/L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UAI 
- 2026 pages list tutorials\, main conference\, workshops\, and paper submi
- ssion deadline.
-URL:https://www.auai.org/uai2026/
-LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-deadline-abstract@scientific-conference-calendar
@@ -378,10 +237,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -389,36 +248,18 @@ UID:aies-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261012
 DTEND;VALUE=DATE:20261015
-SUMMARY:[Fairness & Responsible AI][Human-AI Interaction & Deployment] AIES
-  2026 - Conference
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Confer
+ ence
 DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
- www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Fairness
-  & Responsible AI\, Human-AI Interaction & Deployment\, Machine Learning\
- , Healthcare & Clinical AI\nSize: S/M\nSubmission type: Paper-based / int
- erdisciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNot
- es: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dat
- es and abstract/paper submission deadlines.
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Ethics &
+  Governance\, Fairness & Responsible AI\, Explainability & Interpretabili
+ ty\, Robustness & Safety\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dates a
+ nd abstract/paper submission deadlines.
 URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
-END:VEVENT
-BEGIN:VEVENT
-UID:eacl-2027-deadline-commitment@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20261012T115900Z
-DTEND:20261012T125900Z
-SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
- EACL commitment deadline
-DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
- ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
- Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
- e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
-URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -430,11 +271,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -447,11 +288,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -508,25 +349,6 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
 URL:https://2027.ijcai.org/
 END:VEVENT
 BEGIN:VEVENT
-UID:kdd-2027-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270202T115900Z
-DTEND:20270202T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Abstract 
- submission deadline (estimated)
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
- dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
- fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
- e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
- ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
-  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
- first research-track cycle closed in July 2026. A February 2027 cycle is 
- announced but exact dates are still TBA\; the February abstract/paper dat
- es here are estimated from 2026.
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
 UID:chil-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270205T115900Z
@@ -543,45 +365,6 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
   require organizer confirmation\; website and source links refer to the p
  rior edition.
 URL:https://chil.ahli.cc/submit/call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270209T115900Z
-DTEND:20270209T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Paper sub
- mission deadline (estimated)
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
- dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
- fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
- e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
- ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
-  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
- first research-track cycle closed in July 2026. A February 2027 cycle is 
- announced but exact dates are still TBA\; the February abstract/paper dat
- es here are estimated from 2026.
-URL:https://kdd2026.kdd.org/research-track-call-for-papers/
-END:VEVENT
-BEGIN:VEVENT
-UID:ieee-ssci-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270214
-DTEND;VALUE=DATE:20270218
-SUMMARY:[Machine Learning][Deep Representation Learning] IEEE SSCI 2027 - C
- onference
-DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
- igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
- ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
- tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
- e Learning\, Deep Representation Learning\, Learning Theory & Statistical
-  Foundations\, Fairness & Responsible AI\nSize: L\nSubmission type: Paper
- -based / symposium series\nConfidence: confirmed\nLast checked date: 2026
- -08-20\nNotes: Official IEEE SSCI 2027 materials list the Gold Coast meet
- ing\, Feb 14-17\, and the Aug 10 full/short-paper deadline.
-URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
- ons/
-LOCATION:Gold Coast\, Queensland\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:wsdm-2027-conference@scientific-conference-calendar
@@ -620,43 +403,6 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
-UID:uai-2027-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270226T115900Z
-DTEND:20270226T125900Z
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 7 - Paper submission deadline (estimated)
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/important_dates\nLocation: To be announced\nTopics: Prob
- abilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Cli
- nical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type: Paper-b
- ased\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Provis
- ional 1-year cadence projection from UAI 2026. Meeting dates\, location\,
-  and deadlines require organizer confirmation\; website and source links 
- refer to the prior edition.
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:eacl-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270309
-DTEND;VALUE=DATE:20270315
-SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
- Conference
-DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
- ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
- Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
- tural Language Processing & LLMs\, Machine Learning\, Deep Representation
-  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
- \nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Review\nConfiden
- ce: confirmed\nLast checked date: 2026-08-31\nNotes: Official EACL 2027 p
- ages confirm the hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 sub
- mission and Oct 11 commitment deadlines.
-URL:https://2027.eacl.org/
-LOCATION:Athens\, Greece
-END:VEVENT
-BEGIN:VEVENT
 UID:chil-2027-deadline-doctoral-symposium@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270314T115900Z
@@ -676,19 +422,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270415T115900Z
-DTEND:20270415T125900Z
+DTSTART;VALUE=DATE:20270414
+DTEND;VALUE=DATE:20270415
 SUMMARY:[Machine Learning][Deep Representation Learning] ECAI 2027 - Full p
- aper submission deadline (estimated)
+ aper submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
  e\nWebsite: https://ecai2027.org/\nSource URL: https://ecai2027.org/\nLoc
  ation: Athens\, Greece\nTopics: Machine Learning\, Deep Representation Le
  arning\, Learning Theory & Statistical Foundations\, Fairness & Responsib
- le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLas
+ le AI\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLas
  t checked date: 2026-10-06\nNotes: Official ECAI 2027 site confirms Athen
  s\, Oct 2-7 (main conference Oct 4-7)\, and an Apr 14 full-paper submissi
  on date. The cutoff hour/time zone is not published\, so 23:59 AoE is an 
- explicitly estimated placeholder.
+ explicitly estimated placeholder.\nOfficial deadline day\; exact cutoff h
+ our/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -702,10 +449,10 @@ DESCRIPTION:Conference title: ACM CHI Conference on Human Factors in Comput
  ing Systems\nWebsite: https://chi2027.acm.org/\nSource URL: https://chi20
  27.acm.org/\nLocation: Pittsburgh\, Pennsylvania\, USA\nTopics: Human-AI 
  Interaction & Deployment\, Explainability & Interpretability\, Fairness &
-  Responsible AI\, Healthcare & Clinical AI\nSize: XL\nSubmission type: Pa
- per-based / HCI-focused\nConfidence: confirmed\nLast checked date: 2026-0
- 8-20\nNotes: Official CHI 2027 page lists Pittsburgh\, May 10-14\, 2027 c
- onference dates and the full paper deadline.
+  Responsible AI\nSize: XL\nSubmission type: Paper-based / HCI-focused\nCo
+ nfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official CHI 2
+ 027 page lists Pittsburgh\, May 10-14\, 2027 conference dates and the ful
+ l paper deadline.
 URL:https://chi2027.acm.org/
 LOCATION:Pittsburgh\, Pennsylvania\, USA
 END:VEVENT
@@ -719,11 +466,11 @@ SUMMARY:[Fairness & Responsible AI][Explainability & Interpretability] ACM
 DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
   and Transparency\nWebsite: https://facctconference.org/\nSource URL: htt
  ps://facctconference.org/2027/cfp.html\nLocation: TBD\nTopics: Fairness &
-  Responsible AI\, Explainability & Interpretability\, Healthcare & Clinic
- al AI\, Human-AI Interaction & Deployment\nSize: M\nSubmission type: Pape
- r-based / interdisciplinary\nConfidence: confirmed\nLast checked date: 20
- 26-08-20\nNotes: Official FAccT 2027 call for papers lists conference dat
- es and abstract/paper submission deadlines.
+  Responsible AI\, Explainability & Interpretability\, Ethics & Governance
+ \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official FAccT 2027 call for papers lists conference dates and abstract/p
+ aper submission deadlines.
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
@@ -746,44 +493,6 @@ URL:https://chil.ahli.cc/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
-UID:uai-2027-deadline-camera-ready@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20270709T115900Z
-DTEND:20270709T125900Z
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 7 - Camera-ready deadline (estimated)
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/important_dates\nLocation: To be announced\nTopics: Prob
- abilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Cli
- nical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type: Paper-b
- ased\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Provis
- ional 1-year cadence projection from UAI 2026. Meeting dates\, location\,
-  and deadlines require organizer confirmation\; website and source links 
- refer to the prior edition.
-URL:https://www.auai.org/uai2026/important_dates
-END:VEVENT
-BEGIN:VEVENT
-UID:kdd-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270801
-DTEND;VALUE=DATE:20270806
-SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
- e
-DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
- and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
- dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
- ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fa
- irness & Responsible AI\nSize: XL\nSubmission type: Paper-based / mixed t
- racks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial site confirms San Jose\, Aug 1-5. The first research-track cycle clos
- ed in July 2026. A February 2027 cycle is announced but exact dates are s
- till TBA\; the February abstract/paper dates here are estimated from 2026
- .
-URL:https://kdd2027.kdd.org/
-LOCATION:San Jose\, California\, USA
-END:VEVENT
-BEGIN:VEVENT
 UID:ijcai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270807
@@ -801,25 +510,6 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
  icated as a main conference.
 URL:https://2027.ijcai.org/
 LOCATION:Kyoto\, Japan
-END:VEVENT
-BEGIN:VEVENT
-UID:uai-2027-conference@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20270817
-DTEND;VALUE=DATE:20270822
-SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
- 7 - Conference (estimated)
-DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
- ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
- auai.org/uai2026/\nLocation: To be announced\nTopics: Probabilistic\, Cau
- sal & Uncertainty ML\, Machine Learning\, Healthcare & Clinical AI\, Fair
- ness & Responsible AI\nSize: M/L\nSubmission type: Paper-based\nConfidenc
- e: estimated\nLast checked date: 2026-10-06\nNotes: Provisional 1-year ca
- dence projection from UAI 2026. Meeting dates\, location\, and deadlines 
- require organizer confirmation\; website and source links refer to the pr
- ior edition.
-URL:https://www.auai.org/uai2026/
-LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2027-conference@scientific-conference-calendar

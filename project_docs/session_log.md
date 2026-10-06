@@ -1,5 +1,45 @@
 # Session Log
 
+## 2026-10-06 (Venue Radar implementation)
+
+- Objective: Implement the approved redesign, conference expansion, topic
+  hierarchy, community support, and refined sector-sweep calendar/radar logo.
+- Completed: normalized five sizes; seven families/27 subtopics; source-reviewed
+  tags; offline confirmed-city map and Conferences tables; restrained responsive
+  styling; eight new series/ten editions (93 editions, 71 series); date-only
+  deadline precision; MIT/CC BY licenses and vendor notices; simple README,
+  author/social links, structured request form, and configured lazy Giscus.
+- Maintenance: added validated city/family registries and repeatable latest-series
+  export/workbook sync. Updated the native-table workbook and project documents.
+- Verification: 24 Python tests pass; all 93 records validate; repeated builds
+  are byte-identical. All 123 ICS feeds have CRLF, <=75-byte physical lines,
+  and balanced events; all 226 pre-existing event UIDs are retained. Re-imported
+  workbook values match every series/subtopic and show no formula errors.
+  Browser smoke checks pass at 1440/768/390/320px, including expanded mobile
+  filters, partial family selection, ANY/ALL matching, closed-route exclusions,
+  grouped map popups, keyboard/hover access, empty results, and world-view reset.
+  Popup auto-pan and city-link zoom races found during testing were corrected.
+- Remaining owner setup: install Giscus on this public repository to activate
+  the embedded comments. Discussions are enabled; direct discussion/request
+  links are available without the widget. Monthly official-source review remains
+  ongoing, especially estimated deadlines and unknown acceptance statistics.
+
+## 2026-10-06 (Conference Radar branding proposal)
+
+- Objective: Explore the approved public name and requested logo candidates,
+  and evaluate responsible-AI coverage before redesign implementation.
+- Tasks completed: Created three transparent PNG logo candidates; recorded the
+  resolved design, license, conference-addition, hierarchy, author, and social
+  choices in `project_docs/branding_proposal.md`. Checked current tag coverage
+  and official FAccT, AIES, ACML, KDD, and ICLR sources.
+- Verification: All candidate PNGs have an alpha channel; no canonical data,
+  live website, README, license, or generated-output changes were made.
+- User selection at proposal time: Option 2 (calendar radar), with Venue Radar
+  preferred over Conference Radar. Later feedback requested a refined sector
+  sweep; the implementation session above records the final artwork.
+- Follow-up: The user approved implementation and the seventh Responsible &
+  Trustworthy AI family; federated learning remains an ML subtopic.
+
 ## 2026-10-06 (milestone ordering and recurring editions)
 
 - Objective: Make the submission calendar chronological without confusing post-acceptance steps with paper opportunities, refresh future editions, and establish a monthly estimate-review workflow.

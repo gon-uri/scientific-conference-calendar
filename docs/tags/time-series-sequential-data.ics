@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Time Series & Sequential Data
@@ -102,10 +102,10 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
  dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
  opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
- ential Data\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper
- -based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and r
- esearch-track Cycle 2 deadlines.
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -136,10 +136,10 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
  dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
  opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
- ential Data\, Fairness & Responsible AI\nSize: XL\nSubmission type: Paper
- -based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-08-
- 20\nNotes: Official SIGKDD and KDD 2026 pages list conference dates and r
- esearch-track Cycle 2 deadlines.
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -152,10 +152,10 @@ SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference pap
 DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
  e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/submissi
  ons/\nLocation: Bruges\, Belgium\nTopics: Signal Processing\, Machine Lea
- rning\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: X
- L\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date
- : 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 31-Sep
-  4\, and the extended conference-paper deadline.
+ rning\, Time Series & Sequential Data\, Computer Vision & Pattern Recogni
+ tion\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast
+  checked date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges
+ \, Aug 31-Sep 4\, and the extended conference-paper deadline.
 URL:https://eusipco2026.org/submissions/
 END:VEVENT
 BEGIN:VEVENT
@@ -186,11 +186,11 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
  -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
- ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
- linical AI\nSize: L\nSubmission type: Paper-based / mixed tracks\nConfide
- nce: confirmed\nLast checked date: 2026-08-20\nNotes: Official ECML PKDD 
- 2026 pages list Naples\, Sep 7-11\, and the research-track abstract and p
- aper deadlines.
+ ta Mining & Data Science\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official E
+ CML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-track abstr
+ act and paper deadlines.
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -204,11 +204,11 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/submissions
  -research-track/\nLocation: Naples\, Italy\nTopics: Machine Learning\, Da
- ta Mining & Data Science\, Time Series & Sequential Data\, Healthcare & C
- linical AI\nSize: L\nSubmission type: Paper-based / mixed tracks\nConfide
- nce: confirmed\nLast checked date: 2026-08-20\nNotes: Official ECML PKDD 
- 2026 pages list Naples\, Sep 7-11\, and the research-track abstract and p
- aper deadlines.
+ ta Mining & Data Science\, Time Series & Sequential Data\, Explainability
+  & Interpretability\nSize: L\nSubmission type: Paper-based / mixed tracks
+ \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official E
+ CML PKDD 2026 pages list Naples\, Sep 7-11\, and the research-track abstr
+ act and paper deadlines.
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -348,40 +348,6 @@ DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
 URL:https://www.icmla-conference.org/icmla26/callforpapers.html
 END:VEVENT
 BEGIN:VEVENT
-UID:cikm-2026-deadline-abstract@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260517T115900Z
-DTEND:20260517T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
-  submission deadline
-DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
- rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
-URL:https://cikm2026.diag.uniroma1.it/
-END:VEVENT
-BEGIN:VEVENT
-UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
-DTSTAMP:19700101T000000Z
-DTSTART:20260524T115900Z
-DTEND:20260524T125900Z
-SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
- er submission deadline
-DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
- rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
-URL:https://cikm2026.diag.uniroma1.it/
-END:VEVENT
-BEGIN:VEVENT
 UID:aaltd-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260606T065900Z
@@ -409,10 +375,10 @@ SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
 DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
-  Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
-  AI\nSize: M/L\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-08-20\nNotes: Official ICDM 2026 page lists conferenc
- e dates\, location\, and main conference deadline.
+  Time Series & Sequential Data\, Machine Learning\nSize: L\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNo
+ tes: Official ICDM 2026 page lists conference dates\, location\, and main
+  conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 END:VEVENT
 BEGIN:VEVENT
@@ -431,6 +397,40 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
   Official NeurIPS 2026 dates page lists meeting dates and main paper subm
  ission deadlines.
 URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260608T115900Z
+DTEND:20260608T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Paper su
+ bmission deadline
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission typ
+ e: Paper-based / applied tracks\nConfidence: confirmed\nLast checked date
+ : 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and 
+ extended paper deadline.
+URL:https://dsaa-2026.vercel.app/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dsaa-2026-deadline-special-session-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260608T115900Z
+DTEND:20260608T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Special 
+ session paper submission
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa-2026.vercel.app/key-dates\nLocation: New Delhi\, India\n
+ Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
+ uential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission typ
+ e: Paper-based / applied tracks\nConfidence: confirmed\nLast checked date
+ : 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, and 
+ extended paper deadline.
+URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:aaltd-2026-deadline-full-paper@scientific-conference-calendar
@@ -461,10 +461,10 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  ng for Signal Processing\nWebsite: https://mlsp26.ieeesps.org/\nSource UR
  L: https://signalprocessingsociety.org/event-names/mlsp\nLocation: Atlant
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
- ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nSubmission 
- type: Paper-based / workshop-style conference\nConfidence: confirmed\nLas
- t checked date: 2026-08-20\nNotes: IEEE Signal Processing Society MLSP pa
- ge lists dates\, location\, website\, and paper submission deadline.
+ ries & Sequential Data\nSize: M\nSubmission type: Paper-based / workshop-
+ style conference\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
+ otes: IEEE Signal Processing Society MLSP page lists dates\, location\, w
+ ebsite\, and paper submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
 BEGIN:VEVENT
@@ -568,11 +568,11 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Conferenc
 DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
  and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://w
  ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
- a Science\, Machine Learning\, Time Series & Sequential Data\, Fairness &
-  Responsible AI\nSize: XL\nSubmission type: Paper-based / mixed tracks\nC
- onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official SIGK
- DD and KDD 2026 pages list conference dates and research-track Cycle 2 de
- adlines.
+ a Science\, Machine Learning\, Time Series & Sequential Data\, Federated 
+ & Distributed Learning\nSize: XL\nSubmission type: Paper-based / mixed tr
+ acks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al SIGKDD and KDD 2026 pages list conference dates and research-track Cyc
+ le 2 deadlines.
 URL:https://www.kdd.org/conferences
 LOCATION:Jeju\, Korea
 END:VEVENT
@@ -639,10 +639,10 @@ SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
 DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
-  Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
-  AI\nSize: M/L\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-08-20\nNotes: Official ICDM 2026 page lists conferenc
- e dates\, location\, and main conference deadline.
+  Time Series & Sequential Data\, Machine Learning\nSize: L\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNo
+ tes: Official ICDM 2026 page lists conference dates\, location\, and main
+  conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 END:VEVENT
 BEGIN:VEVENT
@@ -656,10 +656,11 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
  eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
  Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
- uential Data\, Healthcare & Clinical AI\nSize: L\nSubmission type: Paper-
- based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-09-1
- 4\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, t
- he Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadline.
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
+ 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
+ ine.
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -671,10 +672,10 @@ SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2026 - Conference
 DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
  e: https://eusipco2026.org/\nSource URL: https://eusipco2026.org/\nLocati
  on: Bruges\, Belgium\nTopics: Signal Processing\, Machine Learning\, Time
-  Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmissio
- n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20
- \nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 31-Sep 4\, and the
-  extended conference-paper deadline.
+  Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked dat
+ e: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges\, Aug 31-Se
+ p 4\, and the extended conference-paper deadline.
 URL:https://eusipco2026.org/
 LOCATION:Bruges\, Belgium
 END:VEVENT
@@ -689,10 +690,10 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2026/\nSource URL: https://ecmlpkdd.org/2026/\nLocation:
   Naples\, Italy\nTopics: Machine Learning\, Data Mining & Data Science\, 
- Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: L\nSubmis
- sion type: Paper-based / mixed tracks\nConfidence: confirmed\nLast checke
- d date: 2026-08-20\nNotes: Official ECML PKDD 2026 pages list Naples\, Se
- p 7-11\, and the research-track abstract and paper deadlines.
+ Time Series & Sequential Data\, Explainability & Interpretability\nSize: 
+ L\nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLa
+ st checked date: 2026-08-20\nNotes: Official ECML PKDD 2026 pages list Na
+ ples\, Sep 7-11\, and the research-track abstract and paper deadlines.
 URL:https://ecmlpkdd.org/2026/
 LOCATION:Naples\, Italy
 END:VEVENT
@@ -761,10 +762,10 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
  urce URL: https://2027.ieeeicassp.org/call-for-papers/\nLocation: Toronto
  \, Canada\nTopics: Signal Processing\, Machine Learning\, Time Series & S
- equential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmission type: Pap
- er-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Of
- ficial ICASSP 2027 pages list Toronto\, May 16-21\, 2027 conference dates
- \, and the full paper submission deadline.
+ equential Data\, Computer Vision & Pattern Recognition\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-
+ 20\nNotes: Official ICASSP 2027 pages list Toronto\, May 16-21\, 2027 con
+ ference dates\, and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -816,10 +817,10 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  ng for Signal Processing\nWebsite: https://mlsp26.ieeesps.org/\nSource UR
  L: https://signalprocessingsociety.org/event-names/mlsp\nLocation: Atlant
  a\, Georgia\, USA\nTopics: Machine Learning\, Signal Processing\, Time Se
- ries & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/M\nSubmission 
- type: Paper-based / workshop-style conference\nConfidence: confirmed\nLas
- t checked date: 2026-08-20\nNotes: IEEE Signal Processing Society MLSP pa
- ge lists dates\, location\, website\, and paper submission deadline.
+ ries & Sequential Data\nSize: M\nSubmission type: Paper-based / workshop-
+ style conference\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
+ otes: IEEE Signal Processing Society MLSP page lists dates\, location\, w
+ ebsite\, and paper submission deadline.
 URL:https://signalprocessingsociety.org/event-names/mlsp
 LOCATION:Atlanta\, Georgia\, USA
 END:VEVENT
@@ -896,6 +897,24 @@ URL:https://www.icmla-conference.org/icmla26/callforpapers.html
 LOCATION:Rochester\, Michigan\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:dsaa-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261010
+SUMMARY:[Data Mining & Data Science][Machine Learning] DSAA 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: IEEE International Conference on Data Science
+  and Advanced Analytics\nWebsite: https://dsaa-2026.vercel.app/\nSource U
+ RL: https://dsaa.co/dsaa2026-calls-for-papers/\nLocation: New Delhi\, Ind
+ ia\nTopics: Data Mining & Data Science\, Machine Learning\, Time Series &
+  Sequential Data\, Human-AI Interaction & Deployment\nSize: M\nSubmission
+  type: Paper-based / applied tracks\nConfidence: confirmed\nLast checked 
+ date: 2026-08-20\nNotes: DSAA 2026 site lists conference dates\, venue\, 
+ and extended paper deadline.
+URL:https://dsaa.co/dsaa2026-calls-for-papers/
+LOCATION:New Delhi\, India
+END:VEVENT
+BEGIN:VEVENT
 UID:aistats-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261007T115900Z
@@ -914,22 +933,47 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
 URL:https://aistats.org/aistats2027/dates.html
 END:VEVENT
 BEGIN:VEVENT
-UID:cikm-2026-conference@scientific-conference-calendar
+UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261112
-SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
- ce
-DESCRIPTION:Conference title: ACM International Conference on Information a
- nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
- rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
- cs: Data Mining & Data Science\, Machine Learning\, Time Series & Sequent
- ial Data\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type: 
- Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes:
-  Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 16 ab
- stract and May 23 full-paper deadlines.
-URL:https://cikm2026.diag.uniroma1.it/
-LOCATION:Rome\, Italy
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Joint journal/conference submission (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
 UID:ml4h-2026-deadline-camera-ready@scientific-conference-calendar
@@ -957,10 +1001,10 @@ SUMMARY:[Data Mining & Data Science][Time Series & Sequential Data] ICDM 20
 DESCRIPTION:Conference title: IEEE International Conference on Data Mining\
  nWebsite: https://icdm2026.neu.edu.cn/\nSource URL: https://icdm2026.neu.
  edu.cn/\nLocation: Shenyang\, China\nTopics: Data Mining & Data Science\,
-  Time Series & Sequential Data\, Machine Learning\, Healthcare & Clinical
-  AI\nSize: M/L\nSubmission type: Paper-based\nConfidence: confirmed\nLast
-  checked date: 2026-08-20\nNotes: Official ICDM 2026 page lists conferenc
- e dates\, location\, and main conference deadline.
+  Time Series & Sequential Data\, Machine Learning\nSize: L\nSubmission ty
+ pe: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNo
+ tes: Official ICDM 2026 page lists conference dates\, location\, and main
+  conference deadline.
 URL:https://icdm2026.neu.edu.cn/
 LOCATION:Shenyang\, China
 END:VEVENT
@@ -993,10 +1037,11 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
  eee.org/BigData2026/important-dates/\nLocation: Phoenix\, Arizona\, USA\n
  Topics: Data Mining & Data Science\, Machine Learning\, Time Series & Seq
- uential Data\, Healthcare & Clinical AI\nSize: L\nSubmission type: Paper-
- based / mixed tracks\nConfidence: confirmed\nLast checked date: 2026-09-1
- 4\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, t
- he Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadline.
+ uential Data\, Federated & Distributed Learning\nSize: L\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-09-14\nNotes: Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 1
+ 4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
+ ine.
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -1137,32 +1182,80 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] IEEE BigData 2026 -
 DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  bsite: https://bigdataieee.org/BigData2026/\nSource URL: https://bigdatai
  eee.org/BigData2026/\nLocation: Phoenix\, Arizona\, USA\nTopics: Data Min
- ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, H
- ealthcare & Clinical AI\nSize: L\nSubmission type: Paper-based / mixed tr
- acks\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes: Offici
- al IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, the Aug 21 full-p
- aper deadline\, and the Nov 14 camera-ready deadline.
+ ing & Data Science\, Machine Learning\, Time Series & Sequential Data\, F
+ ederated & Distributed Learning\nSize: L\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-09-14\nNotes
+ : Official IEEE BigData 2026 CFP confirms Phoenix\, Dec 14-17\, the Aug 2
+ 1 full-paper deadline\, and the Nov 14 camera-ready deadline.
 URL:https://bigdataieee.org/BigData2026/
 LOCATION:Phoenix\, Arizona\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:itise-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270115T235900Z
-DTEND:20270116T005900Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
 SUMMARY:[Time Series & Sequential Data][Machine Learning] ITISE 2027 - Pape
- r or abstract submission deadline (estimated)
+ r or abstract submission deadline (estimated) (cutoff time unannounced)
 DESCRIPTION:Conference title: International Conference on Time Series and F
  orecasting\nWebsite: https://itise.ugr.es/index.html\nSource URL: https:/
  /itise.ugr.es/index.html\nLocation: Gran Canaria\, Spain\nTopics: Time Se
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
  r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official ITISE 2027 page confirms Gran Canaria\, Jul 1
- 4-16\, and a Jan 15 paper/abstract submission date. The site does not spe
- cify the cutoff hour or timezone\; 23:59 Canary time is a calendar proxy\
- , so this entry remains estimated.
+ 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
+ 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
+ isional in the source and deadlines may be extended. The cutoff hour/time
+ zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
+ estimated confidence pending a finalized CFP.\nOfficial deadline day\; ex
+ act cutoff hour/timezone is unannounced. Verify the organizer's submissio
+ n portal.
 URL:https://itise.ugr.es/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Discussion papers (non-archival) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-dissemination@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Published IFAC journal presentations (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
 UID:icml-2027-deadline-abstract@scientific-conference-calendar
@@ -1211,29 +1304,30 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
  dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
  fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
- e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
- ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
-  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
- first research-track cycle closed in July 2026. A February 2027 cycle is 
- announced but exact dates are still TBA\; the February abstract/paper dat
- es here are estimated from 2026.
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:eusipco-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
-DTSTART:20270206T225900Z
-DTEND:20270206T235900Z
+DTSTART;VALUE=DATE:20270206
+DTEND;VALUE=DATE:20270207
 SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference pap
- er submission deadline (estimated)
+ er submission deadline (cutoff time unannounced)
 DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
  e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
  : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
- e Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmissi
- on type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10-0
- 6\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 pape
- r deadline. The cutoff hour/timezone is unspecified\; 23:59 local is only
-  a calendar proxy.
+ e Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize:
+  XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked da
+ te: 2026-10-06\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, a
+ nd Feb 6 paper deadline. The cutoff hour/timezone is unspecified\; 23:59 
+ local is only a calendar proxy.\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://eusipco2027.de/
 END:VEVENT
 BEGIN:VEVENT
@@ -1264,12 +1358,12 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
  dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
  fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
- e Series & Sequential Data\, Fairness & Responsible AI\nSize: XL\nSubmiss
- ion type: Paper-based / mixed tracks\nConfidence: estimated\nLast checked
-  date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-5. The 
- first research-track cycle closed in July 2026. A February 2027 cycle is 
- announced but exact dates are still TBA\; the February abstract/paper dat
- es here are estimated from 2026.
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -1291,6 +1385,27 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
+ adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
+ zer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
 UID:ecml-pkdd-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270306T115900Z
@@ -1301,11 +1416,11 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
  -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
- ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Healt
- hcare & Clinical AI\nSize: L\nSubmission type: Paper-based / mixed tracks
- \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Official 2
- 027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines are provisi
- onal 2026 timing proxies and need CFP confirmation.
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Expla
+ inability & Interpretability\nSize: L\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: O
+ fficial 2027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines ar
+ e provisional 2026 timing proxies and need CFP confirmation.
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -1319,11 +1434,11 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2026/submissions
  -research-track/\nLocation: Eindhoven\, Netherlands\nTopics: Machine Lear
- ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Healt
- hcare & Clinical AI\nSize: L\nSubmission type: Paper-based / mixed tracks
- \nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: Official 2
- 027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines are provisi
- onal 2026 timing proxies and need CFP confirmation.
+ ning\, Data Mining & Data Science\, Time Series & Sequential Data\, Expla
+ inability & Interpretability\nSize: L\nSubmission type: Paper-based / mix
+ ed tracks\nConfidence: estimated\nLast checked date: 2026-10-06\nNotes: O
+ fficial 2027 page confirms Eindhoven and Aug 30-Sep 3. Paper deadlines ar
+ e provisional 2026 timing proxies and need CFP confirmation.
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -1424,10 +1539,10 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  Speech\, and Signal Processing\nWebsite: https://2027.ieeeicassp.org/\nSo
  urce URL: https://2027.ieeeicassp.org/\nLocation: Toronto\, Canada\nTopic
  s: Signal Processing\, Machine Learning\, Time Series & Sequential Data\,
-  EEG/MEG & Neural Signals\nSize: XL\nSubmission type: Paper-based\nConfid
- ence: confirmed\nLast checked date: 2026-08-20\nNotes: Official ICASSP 20
- 27 pages list Toronto\, May 16-21\, 2027 conference dates\, and the full 
- paper submission deadline.
+  Computer Vision & Pattern Recognition\nSize: XL\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offic
+ ial ICASSP 2027 pages list Toronto\, May 16-21\, 2027 conference dates\, 
+ and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
 END:VEVENT
@@ -1442,11 +1557,10 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
  gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/event-names
  /mlsp\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proc
- essing\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: 
- S/M\nSubmission type: Paper-based / workshop-style conference\nConfidence
- : estimated\nLast checked date: 2026-10-06\nNotes: IEEE SPS confirms Upps
- ala\, Sep 13-16. Paper deadline remains an estimated 2026 timing proxy un
- til the 2027 CFP appears.
+ essing\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-b
+ ased / workshop-style conference\nConfidence: estimated\nLast checked dat
+ e: 2026-10-06\nNotes: IEEE SPS confirms Uppsala\, Sep 13-16. Paper deadli
+ ne remains an estimated 2026 timing proxy until the 2027 CFP appears.
 URL:https://signalprocessingsociety.org/event-names/mlsp
 END:VEVENT
 BEGIN:VEVENT
@@ -1542,6 +1656,26 @@ URL:https://icml.cc/Conferences/FutureMeetings
 LOCATION:South America (city to be announced)
 END:VEVENT
 BEGIN:VEVENT
+UID:ifac-sysid-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270710
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/\nLocation: Lyon\, France\nTopics
+ : System Identification & Data-driven Dynamics\, Control & Robotics\, Tim
+ e Series & Sequential Data\, Machine Learning\nSize: M\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes:
+  Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
+ dissemination/discussion routes have distinct requirements\; consult the 
+ call. Published deadline days are confirmed but cutoff hours use estimate
+ d end-of-day AoE. Size is an editorial category.
+URL:https://conferences.ifac-control.org/sysid2027/
+LOCATION:Lyon\, France
+END:VEVENT
+BEGIN:VEVENT
 UID:cns-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270710
@@ -1573,10 +1707,11 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
  ries & Sequential Data\, Machine Learning\, Data Mining & Data Science\, 
  Learning Theory & Statistical Foundations\nSize: M\nSubmission type: Pape
  r-based / forecasting-focused\nConfidence: estimated\nLast checked date: 
- 2026-10-05\nNotes: Official ITISE 2027 page confirms Gran Canaria\, Jul 1
- 4-16\, and a Jan 15 paper/abstract submission date. The site does not spe
- cify the cutoff hour or timezone\; 23:59 Canary time is a calendar proxy\
- , so this entry remains estimated.
+ 2026-10-06\nNotes: Official ITISE 2027 page lists Gran Canaria\, Jul 14-1
+ 6\, and Jan 15 paper/abstract submission. Its timeline is explicitly prov
+ isional in the source and deadlines may be extended. The cutoff hour/time
+ zone is unannounced\; 23:59 Canary time is only a calendar proxy. Retain 
+ estimated confidence pending a finalized CFP.
 URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
 END:VEVENT
@@ -1608,13 +1743,13 @@ SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
 DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
  and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
  dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
- ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fa
- irness & Responsible AI\nSize: XL\nSubmission type: Paper-based / mixed t
- racks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
- ial site confirms San Jose\, Aug 1-5. The first research-track cycle clos
- ed in July 2026. A February 2027 cycle is announced but exact dates are s
- till TBA\; the February abstract/paper dates here are estimated from 2026
- .
+ ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fe
+ derated & Distributed Learning\nSize: XL\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes
+ : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
+ le closed in July 2026. A February 2027 cycle is announced but exact date
+ s are still TBA\; the February abstract/paper dates here are estimated fr
+ om 2026.
 URL:https://kdd2027.kdd.org/
 LOCATION:San Jose\, California\, USA
 END:VEVENT
@@ -1645,11 +1780,11 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
  rinciples and Practice of Knowledge Discovery in Databases\nWebsite: http
  s://ecmlpkdd.org/2027/\nSource URL: https://ecmlpkdd.org/2027/\nLocation:
   Eindhoven\, Netherlands\nTopics: Machine Learning\, Data Mining & Data S
- cience\, Time Series & Sequential Data\, Healthcare & Clinical AI\nSize: 
- L\nSubmission type: Paper-based / mixed tracks\nConfidence: confirmed\nLa
- st checked date: 2026-10-06\nNotes: Official 2027 page confirms Eindhoven
-  and Aug 30-Sep 3. Paper deadlines are provisional 2026 timing proxies an
- d need CFP confirmation.
+ cience\, Time Series & Sequential Data\, Explainability & Interpretabilit
+ y\nSize: L\nSubmission type: Paper-based / mixed tracks\nConfidence: conf
+ irmed\nLast checked date: 2026-10-06\nNotes: Official 2027 page confirms 
+ Eindhoven and Aug 30-Sep 3. Paper deadlines are provisional 2026 timing p
+ roxies and need CFP confirmation.
 URL:https://ecmlpkdd.org/2027/
 LOCATION:Eindhoven\, Netherlands
 END:VEVENT
@@ -1662,11 +1797,11 @@ SUMMARY:[Signal Processing][Machine Learning] EUSIPCO 2027 - Conference
 DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
  e: https://eusipco2027.de/\nSource URL: https://eusipco2027.de/\nLocation
  : Darmstadt\, Germany\nTopics: Signal Processing\, Machine Learning\, Tim
- e Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: XL\nSubmissi
- on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-0
- 6\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, and Feb 6 pape
- r deadline. The cutoff hour/timezone is unspecified\; 23:59 local is only
-  a calendar proxy.
+ e Series & Sequential Data\, Computer Vision & Pattern Recognition\nSize:
+  XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast checked da
+ te: 2026-10-06\nNotes: EUSIPCO 2027 confirms Darmstadt\, Aug 30-Sep 3\, a
+ nd Feb 6 paper deadline. The cutoff hour/timezone is unspecified\; 23:59 
+ local is only a calendar proxy.
 URL:https://eusipco2027.de/
 LOCATION:Darmstadt\, Germany
 END:VEVENT
@@ -1680,11 +1815,10 @@ DESCRIPTION:Conference title: IEEE International Workshop on Machine Learni
  ng for Signal Processing\nWebsite: https://signalprocessingsociety.org/ta
  gs/mlsp-2027\nSource URL: https://signalprocessingsociety.org/tags/mlsp-2
  027\nLocation: Uppsala\, Sweden\nTopics: Machine Learning\, Signal Proces
- sing\, Time Series & Sequential Data\, EEG/MEG & Neural Signals\nSize: S/
- M\nSubmission type: Paper-based / workshop-style conference\nConfidence: 
- confirmed\nLast checked date: 2026-10-06\nNotes: IEEE SPS confirms Uppsal
- a\, Sep 13-16. Paper deadline remains an estimated 2026 timing proxy unti
- l the 2027 CFP appears.
+ sing\, Time Series & Sequential Data\nSize: M\nSubmission type: Paper-bas
+ ed / workshop-style conference\nConfidence: confirmed\nLast checked date:
+  2026-10-06\nNotes: IEEE SPS confirms Uppsala\, Sep 13-16. Paper deadline
+  remains an estimated 2026 timing proxy until the 2027 CFP appears.
 URL:https://signalprocessingsociety.org/tags/mlsp-2027
 LOCATION:Uppsala\, Sweden
 END:VEVENT

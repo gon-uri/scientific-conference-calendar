@@ -1,0 +1,47 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCS 2026 Calendar
+BEGIN:VEVENT
+UID:ccs-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260515
+DTEND;VALUE=DATE:20260516
+SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
+  2026 - Presentation abstracts (cutoff time unannounced)
+DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
+ ://ccs26.cssociety.org/\nSource URL: https://ccs26.cssociety.org/\nLocati
+ on: Binghamton\, New York\, USA\nTopics: Complex Systems & Network Scienc
+ e\, Nonlinear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSub
+ mission type: Abstract-based\nConfidence: confirmed\nLast checked date: 2
+ 026-10-06\nNotes: Annual Complex Systems Society flagship\, distinct from
+  ACM CCS (computer security)\; no ACM CCS rank applies. Main conference i
+ s October 12-16\; October 9-10 warm-up excluded. Presentation abstracts\,
+  not archival full papers. Deadline hour uses estimated end-of-day AoE. S
+ ize is an editorial category.\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://ccs26.cssociety.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccs-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261017
+SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
+  2026 - Conference
+DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
+ ://ccs26.cssociety.org/\nSource URL: https://ccs26.cssociety.org/\nLocati
+ on: Binghamton\, New York\, USA\nTopics: Complex Systems & Network Scienc
+ e\, Nonlinear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSub
+ mission type: Abstract-based\nConfidence: confirmed\nLast checked date: 2
+ 026-10-06\nNotes: Annual Complex Systems Society flagship\, distinct from
+  ACM CCS (computer security)\; no ACM CCS rank applies. Main conference i
+ s October 12-16\; October 9-10 warm-up excluded. Presentation abstracts\,
+  not archival full papers. Deadline hour uses estimated end-of-day AoE. S
+ ize is an editorial category.
+URL:https://ccs26.cssociety.org/
+LOCATION:Binghamton\, New York\, USA
+END:VEVENT
+END:VCALENDAR

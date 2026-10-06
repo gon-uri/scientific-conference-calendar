@@ -1,0 +1,80 @@
+// Run with the bundled artifact-tool dependency available. Serving the site
+// never needs Node or this optional catalog-review workbook operation.
+import fs from 'node:fs/promises';
+import {FileBlob, SpreadsheetFile} from '@oai/artifact-tool';
+
+const [workbookPath, payloadPath, previewDir] = process.argv.slice(2);
+if (!workbookPath || !payloadPath || !previewDir) {
+  throw Error('Usage: sync_workbook.mjs workbook.xlsx catalog.json preview-directory');
+}
+const wb = await SpreadsheetFile.importXlsx(await FileBlob.load(workbookPath));
+const payload = JSON.parse(await fs.readFile(payloadPath, 'utf8'));
+const catalog = wb.worksheets.getItem('Core Conferences');
+const existing = catalog.getUsedRange().values;
+const bySeries = new Map(payload.rows.map((row) => [row[0], row]));
+const currentOrder = existing.slice(1).map((row) => row[0]).filter(Boolean);
+if (currentOrder.some((series) => !bySeries.has(series))) throw Error('Workbook contains an unmapped series; review before removing it');
+const ordered = currentOrder.map((series) => bySeries.get(series));
+const additions = payload.rows.filter((row) => !currentOrder.includes(row[0]));
+catalog.getRange(`A2:N${ordered.length + 1}`).values = ordered;
+if (additions.length) {
+  catalog.tables.items[0].rows.add(null, additions);
+  for (let i = 0; i < additions.length; i++) {
+    catalog.getRange(`A${ordered.length + 2 + i}:N${ordered.length + 2 + i}`)
+      .copyFrom(catalog.getRange('A2:N2'), 'all');
+  }
+  catalog.getRange(`A${ordered.length + 2}:N${ordered.length + additions.length + 1}`).values = additions;
+}
+const total = ordered.length + additions.length;
+catalog.getRange(`A2:N${total + 1}`).values = [...ordered, ...additions];
+catalog.getRange(`K2:K${total + 1}`).setNumberFormat('0.0%');
+catalog.getRange(`L2:L${total + 1}`).setNumberFormat('0');
+
+const vocab = wb.worksheets.getItem('Tag Vocabulary');
+const previous = vocab.getUsedRange().values.slice(1);
+const definitions = new Map(previous.filter((row) => row[0]).map((row) => [row[0], String(row[1]).split(' Family: ')[0]]));
+definitions.set('Fairness & Responsible AI', 'Fairness, accountability, discrimination, and equitable AI. Stable feed key; displayed as Fairness & accountability.');
+const newDefinitions = {
+  'Natural Language Processing & LLMs': 'Natural language processing, language models, computational linguistics, and LLM systems.',
+  'Reinforcement Learning': 'Learning actions and policies from interaction, reward, and feedback.',
+  'Federated & Distributed Learning': 'Distributed training, federated learning, and collaborative learning systems. Not automatically an ethics tag.',
+  'Computer Vision & Pattern Recognition': 'Visual understanding, image analysis, recognition, and structured pattern learning.',
+  'Nonlinear Dynamics & Chaos': 'Dynamical systems, bifurcations, chaos, synchronization, and nonlinear modeling.',
+  'Complex Systems & Network Science': 'Complex adaptive systems, emergence, network structure, and dynamics on networks.',
+  'Control & Robotics': 'Feedback control, automation, decision making, robotics, and learning-based control.',
+  'System Identification & Data-driven Dynamics': 'Identifying dynamical models from data, state estimation, and data-driven dynamics.',
+  'Ethics & Governance': 'AI ethics, social impacts, governance, regulation, and responsible research.',
+  'Privacy-preserving ML': 'Privacy, differential privacy, confidential learning, and privacy-preserving computation.',
+  'Robustness & Safety': 'Reliable and safe AI, adversarial robustness, distribution shift, and model assurance.',
+};
+const topicByName = new Map(payload.topics.map((topic) => [topic.tag, topic]));
+const topicOrder = payload.topics.map((topic) => topic.tag);
+const vocabulary = topicOrder.map((tag) => [tag, `${definitions.get(tag) || newDefinitions[tag]} Family: ${topicByName.get(tag).family}.`]);
+vocab.getRange(`A2:B${previous.length + 1}`).values = vocabulary.slice(0, previous.length);
+if (vocabulary.length > previous.length) {
+  vocab.tables.items[0].rows.add(null, vocabulary.slice(previous.length));
+  for (let row = previous.length + 2; row <= vocabulary.length + 1; row++) {
+    vocab.getRange(`A${row}:B${row}`).copyFrom(vocab.getRange('A2:B2'), 'all');
+  }
+  vocab.getRange(`A${previous.length + 2}:B${vocabulary.length + 1}`).values = vocabulary.slice(previous.length);
+}
+vocab.getRange(`A2:B${vocabulary.length + 1}`).values = vocabulary;
+catalog.getRange(`B2:B${total + 1}`).format.wrapText = true;
+vocab.getRange(`B2:B${vocabulary.length + 1}`).format.wrapText = true;
+vocab.getRange(`A2:B${vocabulary.length + 1}`).format.autofitRows();
+catalog.getRange(`A2:F${total + 1}`).format.autofitRows();
+wb.recalculate();
+const actual = catalog.getRange(`A2:N${total + 1}`).values;
+if (JSON.stringify(actual) !== JSON.stringify([...ordered, ...additions])) throw Error('Catalog synchronization mismatch');
+if (JSON.stringify(vocab.getRange(`A2:B${vocabulary.length + 1}`).values) !== JSON.stringify(vocabulary)) throw Error('Topic vocabulary synchronization mismatch');
+console.log((await wb.inspect({kind:'match', searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!', options:{useRegex:true,maxResults:30}, summary:'Formula error check',maxChars:2500})).ndjson);
+await fs.mkdir(previewDir, {recursive:true});
+for (const [sheetName, range, name] of [
+  ['Core Conferences', `A${Math.max(1,total - 7)}:F${total + 1}`, 'catalog'],
+  ['Tag Vocabulary', 'A18:B28', 'topics'],
+]) {
+  const preview = await wb.render({sheetName, range, scale:1.2, format:'png'});
+  await fs.writeFile(`${previewDir}/${name}.png`, new Uint8Array(await preview.arrayBuffer()));
+}
+await (await SpreadsheetFile.exportXlsx(wb)).save(workbookPath);
+console.log(`Synchronized ${total} conference series and ${vocabulary.length} subtopics.`);

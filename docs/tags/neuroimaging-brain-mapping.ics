@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Neuroimaging & Brain Mapping
@@ -176,11 +176,11 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
-  Clinical AI\, Computational Neuroscience\nSize: L/XL\nSubmission type: A
- bstract-based / talks selective\nConfidence: estimated\nLast checked date
- : 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-
- 30\, 2027\; it publishes the abstract window only as December 2026\, so t
- he exact deadline remains estimated.
+  Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
+ tract-based / talks selective\nConfidence: estimated\nLast checked date: 
+ 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
+ \, 2027\; it publishes the abstract window only as December 2026\, so the
+  exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
 END:VEVENT
 BEGIN:VEVENT
@@ -281,11 +281,11 @@ DESCRIPTION:Conference title: Organization for Human Brain Mapping Annual M
  eeting\nWebsite: https://humanbrainmapping.org/ohbm-2027/\nSource URL: ht
  tps://humanbrainmapping.org/ohbm-2027/\nLocation: Toronto\, Canada\nTopic
  s: Neuroimaging & Brain Mapping\, EEG/MEG & Neural Signals\, Healthcare &
-  Clinical AI\, Computational Neuroscience\nSize: L/XL\nSubmission type: A
- bstract-based / talks selective\nConfidence: estimated\nLast checked date
- : 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-
- 30\, 2027\; it publishes the abstract window only as December 2026\, so t
- he exact deadline remains estimated.
+  Clinical AI\, Computational Neuroscience\nSize: XL\nSubmission type: Abs
+ tract-based / talks selective\nConfidence: estimated\nLast checked date: 
+ 2026-10-05\nNotes: Official OHBM 2027 page confirms Toronto and Jun 26-30
+ \, 2027\; it publishes the abstract window only as December 2026\, so the
+  exact deadline remains estimated.
 URL:https://humanbrainmapping.org/ohbm-2027/
 LOCATION:Toronto\, Canada
 END:VEVENT

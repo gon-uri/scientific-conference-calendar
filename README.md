@@ -1,87 +1,29 @@
-# Scientific Conference Calendar
+# [Open Venue Radar](https://gon-uri.github.io/scientific-conference-calendar/)
 
-[Published website](https://gon-uri.github.io/scientific-conference-calendar/)
+<img src="assets/venue-radar.png" alt="Venue Radar calendar-radar logo" width="88" height="88">
 
-A public, static calendar of scientific conferences relevant to machine
-learning, data science, AI, neuroscience, EEG/MEG, BCI, medical AI, vision,
-LLMs, time-series analysis, and biomedical signal processing.
+**Venue Radar** is a scientific conference calendar for finding the next place
+to share your research. It tracks conferences in machine learning and AI, data
+science and time series, responsible AI, signal processing and vision,
+biomedical AI, neuroscience, and complex systems and control.
 
-The source of truth is `data/conferences.yml`. Generated website and calendar
-files are written to `docs/` for GitHub Pages.
+Browse submission opportunities, conference dates and locations, rankings,
+and historical acceptance rates. Uncertain dates are clearly marked as estimates.
 
-Maintained project-state documentation lives in `project_docs/`. The `docs/`
-folder is reserved for generated public site and calendar files.
+Missing a conference? [Send a request](https://github.com/gon-uri/scientific-conference-calendar/issues/new?template=conference-request.yml)
+or join the comments on the website.
 
-## Outputs
+If Venue Radar is useful to you, please **star this repository** and
+[follow @gonzauri on X](https://x.com/gonzauri).
 
-The build creates:
+Created and maintained by **Gonzalo Uribarri**, Assistant Professor at the
+[Department of Computer and Systems Sciences](https://www.su.se/english/divisions/department-of-computer-and-systems-sciences),
+Stockholm University.
+[University profile](https://www.su.se/profiles/g/gour8957) ·
+[Google Scholar](https://scholar.google.com/citations?user=q5sweuIAAAAJ&hl=en) ·
+[GitHub](https://github.com/gon-uri)
 
-- `docs/index.html`
-- `docs/calendar-all.ics`
-- `docs/deadlines.ics`
-- `docs/conferences.ics`
-- `docs/conferences/*.ics`
-- `docs/tags/*.ics`
-
-## Local Setup
-
-```bash
-pip install -r requirements.txt
-python scripts/build_all.py
-```
-
-Run validation only:
-
-```bash
-python scripts/validate.py
-```
-
-## Data
-
-Edit conference data in:
-
-```text
-data/conferences.yml
-```
-
-Each conference entry includes normalized topics, size, submission type, and
-source-backed dates. Confirmed dates should include official source URLs; proxy
-dates should remain marked as `estimated` with a note. A prerequisite such as
-abstract registration uses `gate_for` to name the later paper deadline it gates.
-Submission deadlines can have their own `confidence` when the meeting dates
-are official but the submission schedule is inferred. The site's
-`Show submission opportunities` checkbox includes confirmed upcoming and
-estimated future paper routes, not only portals open today; a green status
-marker identifies a verified open-now portal.
-
-`data/icore_rankings.yml` and `data/ccf_rankings.yml` contain independent
-series-level ranks, shown together on the website. A blank rank means no direct
-match was verified; workshops do not inherit parent-conference ranks.
-`data/acceptance_rates.yml` contains sourced rates for named historical tracks
-and editions. The qualitative band is derived from the percentage, and absent
-evidence appears as Unknown, not as a guessed numeric rate. A sourced
-qualitative-only estimate is explicitly marked `(estimated)`. The workbook in
-`data/` mirrors these values for catalog review.
-
-To review upcoming editions and rate-evidence gaps:
-
-```bash
-python scripts/maintenance_report.py --max-age-days 30
-python scripts/rollover_editions.py --as-of YYYY-MM-DD
-```
-
-See [data maintenance](project_docs/data_maintenance.md) for the source-check,
-validation, workbook-sync, and publication procedure.
-
-## GitHub Pages
-
-After pushing the repository to GitHub:
-
-1. Open the repository settings.
-2. Go to **Pages**.
-3. Set the source to **Deploy from a branch**.
-4. Select the `main` branch and the `/docs` folder.
-5. Save.
-
-The site will publish `docs/index.html`, and the `.ics` files in `docs/` can be
-used as public calendar subscription feeds.
+Code is available under the [MIT license](LICENSE). Original written content
+and original project artwork are available under [CC BY 4.0](CONTENT-LICENSE.md).
+Both allow commercial reuse with the required attribution/notices. Third-party
+material retains its own terms.

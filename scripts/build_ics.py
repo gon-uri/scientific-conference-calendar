@@ -115,6 +115,16 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
         f'{" (estimated)" if confidence != "confirmed" else ""}'
     )
     source_url = _deadline_source_url(conference, deadline)
+    date_only = deadline.get("time_precision") == "date"
+    timing = (
+        [f"DTSTART;VALUE=DATE:{start.strftime('%Y%m%d')}",
+         f"DTEND;VALUE=DATE:{(start + timedelta(days=1)).strftime('%Y%m%d')}"]
+        if date_only else [f"DTSTART:{_format_datetime(start)}", f"DTEND:{_format_datetime(end)}"]
+    )
+    description = _description(conference, source_url, confidence)
+    if date_only:
+        summary += " (cutoff time unannounced)"
+        description += "\nOfficial deadline day; exact cutoff hour/timezone is unannounced. Verify the organizer's submission portal."
 
     return [
         "BEGIN:VEVENT",
@@ -122,10 +132,9 @@ def _deadline_event(conference: dict[str, Any], deadline: dict[str, Any]) -> lis
             "UID", f"{conference['id']}-deadline-{deadline_key}@{UID_DOMAIN}"
         ),
         f"DTSTAMP:{DTSTAMP}",
-        f"DTSTART:{_format_datetime(start)}",
-        f"DTEND:{_format_datetime(end)}",
+        *timing,
         *_property("SUMMARY", summary),
-        *_property("DESCRIPTION", _description(conference, source_url, confidence)),
+        *_property("DESCRIPTION", description),
         *_property("URL", source_url),
         "END:VEVENT",
     ]
@@ -160,7 +169,7 @@ def _calendar(name: str, events: Iterable[list[str]]) -> str:
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Scientific Conference Calendar//EN",
+        "PRODID:-//Venue Radar//EN",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         *_property("X-WR-CALNAME", name),

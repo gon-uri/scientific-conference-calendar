@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:IEEE SSCI 2027 Calendar
@@ -15,11 +15,11 @@ DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
  igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
  ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
  tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
- e Learning\, Deep Representation Learning\, Learning Theory & Statistical
-  Foundations\, Fairness & Responsible AI\nSize: L\nSubmission type: Paper
- -based / symposium series\nConfidence: confirmed\nLast checked date: 2026
- -08-20\nNotes: Official IEEE SSCI 2027 materials list the Gold Coast meet
- ing\, Feb 14-17\, and the Aug 10 full/short-paper deadline.
+ e Learning\, Deep Representation Learning\, Reinforcement Learning\, Cont
+ rol & Robotics\nSize: L\nSubmission type: Paper-based / symposium series\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official IE
+ EE SSCI 2027 materials list the Gold Coast meeting\, Feb 14-17\, and the 
+ Aug 10 full/short-paper deadline.
 URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
  ons/
 END:VEVENT
@@ -34,11 +34,11 @@ DESCRIPTION:Conference title: IEEE Symposium Series on Computational Intell
  igence\nWebsite: https://ssci2027generalchairs.github.io/ssci-2027/\nSour
  ce URL: https://ssci2027generalchairs.github.io/ssci-2027/submissions/ins
  tructions/\nLocation: Gold Coast\, Queensland\, Australia\nTopics: Machin
- e Learning\, Deep Representation Learning\, Learning Theory & Statistical
-  Foundations\, Fairness & Responsible AI\nSize: L\nSubmission type: Paper
- -based / symposium series\nConfidence: confirmed\nLast checked date: 2026
- -08-20\nNotes: Official IEEE SSCI 2027 materials list the Gold Coast meet
- ing\, Feb 14-17\, and the Aug 10 full/short-paper deadline.
+ e Learning\, Deep Representation Learning\, Reinforcement Learning\, Cont
+ rol & Robotics\nSize: L\nSubmission type: Paper-based / symposium series\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official IE
+ EE SSCI 2027 materials list the Gold Coast meeting\, Feb 14-17\, and the 
+ Aug 10 full/short-paper deadline.
 URL:https://ssci2027generalchairs.github.io/ssci-2027/submissions/instructi
  ons/
 LOCATION:Gold Coast\, Queensland\, Australia

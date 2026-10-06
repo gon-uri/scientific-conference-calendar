@@ -1,9 +1,43 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Natural Language Processing & LLMs
+BEGIN:VEVENT
+UID:cikm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260517T115900Z
+DTEND:20260517T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Abstract
+  submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260524T115900Z
+DTEND:20260524T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Full pap
+ er submission deadline
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
+END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
@@ -15,11 +49,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -33,12 +67,30 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
  e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
- epresentation Learning\, Fairness & Responsible AI\, Human-AI Interaction
-  & Deployment\nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Rev
- iew\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: Officia
- l EACL 2027 pages confirm the hybrid Athens meeting\, Mar 9-14\, and the 
- ARR Aug 3 submission and Oct 11 commitment deadlines.
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.
 URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:cikm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261112
+SUMMARY:[Data Mining & Data Science][Machine Learning] CIKM 2026 - Conferen
+ ce
+DESCRIPTION:Conference title: ACM International Conference on Information a
+ nd Knowledge Management\nWebsite: https://cikm2026.diag.uniroma1.it/\nSou
+ rce URL: https://cikm2026.diag.uniroma1.it/\nLocation: Rome\, Italy\nTopi
+ cs: Data Mining & Data Science\, Machine Learning\, Natural Language Proc
+ essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
+ ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
+ otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
+ 16 abstract and May 23 full-paper deadlines.
+URL:https://cikm2026.diag.uniroma1.it/
+LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-conference@scientific-conference-calendar
@@ -51,11 +103,11 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
  Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
  tural Language Processing & LLMs\, Machine Learning\, Deep Representation
-  Learning\, Fairness & Responsible AI\, Human-AI Interaction & Deployment
- \nSize: L/XL\nSubmission type: Paper-based / ACL Rolling Review\nConfiden
- ce: confirmed\nLast checked date: 2026-08-31\nNotes: Official EACL 2027 p
- ages confirm the hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 sub
- mission and Oct 11 commitment deadlines.
+  Learning\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type:
+  Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
+ te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
+  meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
+ deadlines.
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
 END:VEVENT

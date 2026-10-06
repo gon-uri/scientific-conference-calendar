@@ -1,0 +1,34 @@
+name: Conference request
+description: Suggest a conference or workshop for Venue Radar.
+title: "Conference request: "
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Conference name and acronym
+    validations:
+      required: true
+  - type: input
+    id: website
+    attributes:
+      label: Official conference website
+      placeholder: https://
+    validations:
+      required: true
+  - type: textarea
+    id: scope
+    attributes:
+      label: Research topics and relevance
+      description: What kinds of work fit this venue?
+    validations:
+      required: true
+  - type: textarea
+    id: dates
+    attributes:
+      label: Next edition and submission information
+      description: Include dates, city, submission format, and official source links if available.
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Rankings or acceptance statistics
+      description: Optional. Link to the ranking release or organizer/proceedings evidence, naming the year and track.

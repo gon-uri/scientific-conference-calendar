@@ -14,7 +14,8 @@ date to confirmed. Review projected dates against current official pages about
 once a month, even when a conference has an apparently plausible estimate.
 
 Run `python scripts/rollover_editions.py --as-of YYYY-MM-DD` to preview
-missing next editions for supported annual and biennial series. After
+missing next editions for explicitly supported recurring series. Annual,
+biennial, and IFAC SYSID's triennial patterns are configured separately. After
 checking the series cadence and current organizer pages, run the same command
 with `--write` to add any still-missing records. The command is idempotent:
 existing edition IDs are never replaced. It projects the prior edition's
@@ -48,6 +49,67 @@ The next milestone includes the conference start; after that date an edition
 moves to the separate ongoing/past table. For each estimate replaced by an
 official date, update the source URL, `last_checked`, confidence, and notes,
 then inspect the generated site and feeds before publishing.
+
+When the official deadline day is known but its cutoff hour/timezone is not,
+set `time_precision: date`. Keep an explicitly provisional end-of-day datetime
+for ordering and note the assumption; the website marks the time estimate and
+the ICS feed emits an all-day event. Do not mark the known day estimated merely
+because the hour is unknown. Confirm and remove the date-only precision flag
+when the organizer supplies the exact cutoff. If an opening day lacks an hour,
+record the day with a note about its provisional midnight time; the portal
+still requires source evidence before claiming it is open.
+
+Conference proposal deadlines and restricted invited/tutorial paper routes are
+not general submission opportunities. Use descriptive, non-actionable types
+for them. SIAM DS, CCS, and NetSci presentation abstracts are not automatically
+archival full-paper publications. L4DC's unannounced late-breaking eligibility
+does not yet count as an unrestricted route.
+
+## Topics, Sizes, And Map Locations
+
+Assign up to four unique, central leaves from `data/topics.yml`. Prefer the
+organizer's core CFP/scope over incidental applications; do not force four.
+Parents come from `data/topic_families.yml`, never duplicate them in editions.
+Every leaf must have one family and one compact display label. Keep stable
+keys/feed slugs when changing presentation labels. Federated learning belongs
+to ML & AI; it does not itself prove privacy or ethics coverage. The seventh
+family represents responsible/trustworthy AI where it is central to scope.
+See `topic_audit.md` for source examples and current family coverage.
+
+Only S, M, L, XL, XXL are allowed, displayed in that order. Prior mixed labels
+were mapped S/M to M, M/L to L, and L/XL to XL. Size remains a qualitative
+scale, not an attendance claim; revise it only with a documented basis.
+
+For a newly confirmed city, add approximate center coordinates and the exact
+`location` string as an alias in `data/cities.yml`. Do not geocode ambiguous
+strings, guess an unannounced venue, or claim venue-precise coordinates. The
+map includes confirmed/announced meeting dates in mapped cities, in-person or
+hybrid, whose start is still in the future. Estimated dates remain in the
+table; past/ongoing meetings are separate. Search/topic/rank/rate/size filters
+also filter map markers. The submission-opportunities checkbox is deadlines
+only, so it cannot hide meetings from the map.
+
+## Catalog Workbook
+
+YAML is authoritative; never import spreadsheet edits silently into it.
+`scripts/export_catalog.py --output catalog.json` exports each series' latest
+edition and current ranks/rates/topics. `scripts/sync_workbook.mjs` accepts the
+workbook, JSON, and preview directory. It preserves native tables, existing row
+order/styles, numeric percentages, and vocabulary definitions, appends new
+series, validates values, checks formula errors, and renders both sheets.
+It refuses unexplained series removal. See development.md for the optional
+artifact-tool runtime. Re-import the saved file after editing to verify row
+counts and values. No Node or spreadsheet library is needed to build the site.
+
+## Community Setup
+
+Discussions are enabled for `gon-uri/scientific-conference-calendar`. The owner
+must install [Giscus](https://github.com/apps/giscus) for this repository only.
+The embedded client uses its verified repository ID, Announcements category,
+and the stable specific term `Venue Radar community`. Verify the rendered
+widget on the live page after installation. GitHub sign-in is required to
+comment. A direct Discussions link and structured conference-request issue
+form are always available even if the optional widget cannot load.
 
 ## Rankings And Acceptance
 

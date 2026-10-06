@@ -1,0 +1,77 @@
+families:
+  - id: ml-ai
+    label: ML & AI
+    topics:
+      - Machine Learning
+      - Deep Representation Learning
+      - Learning Theory & Statistical Foundations
+      - Probabilistic, Causal & Uncertainty ML
+      - Natural Language Processing & LLMs
+      - Reinforcement Learning
+      - Federated & Distributed Learning
+      - Human-AI Interaction & Deployment
+  - id: data-time-series
+    label: Data & Time Series
+    topics:
+      - Data Mining & Data Science
+      - Time Series & Sequential Data
+  - id: signals-vision
+    label: Signals & Vision
+    topics:
+      - Signal Processing
+      - Computer Vision & Pattern Recognition
+  - id: neuroscience
+    label: Neuroscience & Neurotechnology
+    topics:
+      - Computational Neuroscience
+      - EEG/MEG & Neural Signals
+      - BCI & Neurotechnology
+      - Neuroimaging & Brain Mapping
+  - id: healthcare
+    label: Healthcare & Biomedical AI
+    topics:
+      - Healthcare & Clinical AI
+      - Biomedical Imaging
+  - id: dynamics-control
+    label: Dynamics, Complex Systems & Control
+    topics:
+      - Nonlinear Dynamics & Chaos
+      - Complex Systems & Network Science
+      - Control & Robotics
+      - System Identification & Data-driven Dynamics
+  - id: responsible-ai
+    label: Responsible & Trustworthy AI
+    topics:
+      - Fairness & Responsible AI
+      - Explainability & Interpretability
+      - Ethics & Governance
+      - Privacy-preserving ML
+      - Robustness & Safety
+labels:
+  Machine Learning: Machine learning
+  Deep Representation Learning: Deep learning
+  Learning Theory & Statistical Foundations: Learning theory
+  Probabilistic, Causal & Uncertainty ML: Probabilistic & causal ML
+  Natural Language Processing & LLMs: NLP & LLMs
+  Reinforcement Learning: Reinforcement learning
+  Federated & Distributed Learning: Federated & distributed ML
+  Human-AI Interaction & Deployment: Human-AI interaction
+  Data Mining & Data Science: Data mining
+  Time Series & Sequential Data: Time series
+  Signal Processing: Signal processing
+  Computer Vision & Pattern Recognition: Vision & pattern recognition
+  Computational Neuroscience: Computational neuroscience
+  EEG/MEG & Neural Signals: EEG/MEG & neural signals
+  BCI & Neurotechnology: BCI & neurotechnology
+  Neuroimaging & Brain Mapping: Neuroimaging
+  Healthcare & Clinical AI: Healthcare AI
+  Biomedical Imaging: Biomedical imaging
+  Nonlinear Dynamics & Chaos: Nonlinear dynamics
+  Complex Systems & Network Science: Complex systems & networks
+  Control & Robotics: Control & robotics
+  System Identification & Data-driven Dynamics: System identification
+  Fairness & Responsible AI: Fairness & accountability
+  Explainability & Interpretability: Explainability
+  Ethics & Governance: Ethics & governance
+  Privacy-preserving ML: Privacy-preserving ML
+  Robustness & Safety: Robustness & safety

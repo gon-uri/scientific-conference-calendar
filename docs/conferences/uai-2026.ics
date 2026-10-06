@@ -1,6 +1,6 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//Scientific Conference Calendar//EN
+PRODID:-//Venue Radar//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:UAI 2026 Calendar
@@ -14,11 +14,11 @@ SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
 DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
  auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
- cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
- re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type:
-  Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
+ cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning
+  Theory & Statistical Foundations\nSize: L\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UA
+ I 2026 pages list tutorials\, main conference\, workshops\, and paper sub
+ mission deadline.
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
@@ -31,11 +31,11 @@ SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
 DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
  auai.org/uai2026/important_dates\nLocation: Amsterdam\, Netherlands\nTopi
- cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Healthca
- re & Clinical AI\, Fairness & Responsible AI\nSize: M/L\nSubmission type:
-  Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
- : Official UAI 2026 pages list tutorials\, main conference\, workshops\, 
- and paper submission deadline.
+ cs: Probabilistic\, Causal & Uncertainty ML\, Machine Learning\, Learning
+  Theory & Statistical Foundations\nSize: L\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UA
+ I 2026 pages list tutorials\, main conference\, workshops\, and paper sub
+ mission deadline.
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
@@ -48,11 +48,11 @@ SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Machine Learning] UAI 202
 DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  ligence\nWebsite: https://www.auai.org/uai2026/\nSource URL: https://www.
  auai.org/uai2026/\nLocation: Amsterdam\, Netherlands\nTopics: Probabilist
- ic\, Causal & Uncertainty ML\, Machine Learning\, Healthcare & Clinical A
- I\, Fairness & Responsible AI\nSize: M/L\nSubmission type: Paper-based\nC
- onfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official UAI 
- 2026 pages list tutorials\, main conference\, workshops\, and paper submi
- ssion deadline.
+ ic\, Causal & Uncertainty ML\, Machine Learning\, Learning Theory & Stati
+ stical Foundations\nSize: L\nSubmission type: Paper-based\nConfidence: co
+ nfirmed\nLast checked date: 2026-08-20\nNotes: Official UAI 2026 pages li
+ st tutorials\, main conference\, workshops\, and paper submission deadlin
+ e.
 URL:https://www.auai.org/uai2026/
 LOCATION:Amsterdam\, Netherlands
 END:VEVENT

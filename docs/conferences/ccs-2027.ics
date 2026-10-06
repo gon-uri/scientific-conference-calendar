@@ -1,0 +1,45 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:CCS 2027 Calendar
+BEGIN:VEVENT
+UID:ccs-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270421T115900Z
+DTEND:20270421T125900Z
+SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
+  2027 - Presentation abstracts (estimated)
+DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
+ ://cssociety.org/ccs/\nSource URL: https://ccs26.cssociety.org/\nLocation
+ : Wroclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear
+  Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type:
+  Abstract-based\nConfidence: estimated\nLast checked date: 2026-10-06\nNo
+ tes: Society announces Wroclaw and September 17-24\; detailed main/satell
+ ite split is not yet available. Abstract deadline is estimated from the 2
+ 026 main-meeting lead time\, not officially announced. Distinct from ACM 
+ CCS\; no inherited security-conference rank. Size is an editorial categor
+ y.
+URL:https://ccs26.cssociety.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccs-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270917
+DTEND;VALUE=DATE:20270925
+SUMMARY:[Complex Systems & Network Science][Nonlinear Dynamics & Chaos] CCS
+  2027 - Conference
+DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
+ ://cssociety.org/ccs/\nSource URL: https://cssociety.org/ccs/\nLocation: 
+ Wroclaw\, Poland\nTopics: Complex Systems & Network Science\, Nonlinear D
+ ynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: A
+ bstract-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNote
+ s: Society announces Wroclaw and September 17-24\; detailed main/satellit
+ e split is not yet available. Abstract deadline is estimated from the 202
+ 6 main-meeting lead time\, not officially announced. Distinct from ACM CC
+ S\; no inherited security-conference rank. Size is an editorial category.
+URL:https://cssociety.org/ccs/
+LOCATION:Wroclaw\, Poland
+END:VEVENT
+END:VCALENDAR

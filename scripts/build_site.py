@@ -1,12 +1,14 @@
 from __future__ import annotations
 
 import json
+import base64
 from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 from typing import Any
 
 import yaml
+from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata
 
 from validate import (
     DATA_PATH,
@@ -33,6 +35,8 @@ from validate import (
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 METADATA_PATH = ROOT / "data" / "metadata.yml"
+ASSETS_DIR = ROOT / "assets"
+TOPIC_CATALOG = load_mapping(FAMILIES_PATH)
 
 MONTHS = [
     "January",
@@ -55,7 +59,10 @@ def _attr(value: Any) -> str:
 
 
 def _topic_labels(topics: list[str]) -> str:
-    return " ".join(f'<span class="tag">{escape(topic)}</span>' for topic in topics)
+    return '<div class="topic-tags">' + " ".join(
+        f'<span class="tag" title="{_attr(topic)}">{escape(TOPIC_CATALOG["labels"].get(topic, topic))}</span>'
+        for topic in topics
+    ) + '</div>'
 
 
 def _conference_source_url(conference: dict[str, Any]) -> str:
@@ -123,6 +130,7 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
         conference.get("size", ""),
         conference.get("submission_type", ""),
         " ".join(conference.get("topics", [])),
+        " ".join(family["label"] for family in TOPIC_CATALOG["families"] if set(family["topics"]) & set(conference.get("topics", []))),
     ]
     if extra:
         parts.extend(extra)
@@ -216,8 +224,8 @@ def _conference_calendar_link(conference: dict[str, Any]) -> str:
     return (
         f'<a class="row-calendar-button" href="{_attr(_conference_calendar_href(conference))}" '
         f'download title="{_attr(title)}" '
-        f'aria-label="Download calendar for {_attr(conference["short_title"])}">'
-        "ICS <span aria-hidden=\"true\">&#8595;</span>"
+        f'aria-label="Download calendar for {_attr(conference["short_title"])}">' +
+        (ASSETS_DIR / "vendor" / "download.svg").read_text(encoding="utf-8") +
         "</a>"
     )
 
@@ -248,11 +256,12 @@ def _filter_attributes(
             "opens_at": _deadline_iso_utc(deadline["opens_at"]) if deadline.get("opens_at") else None,
             "open_observed_on": str(deadline["open_observed_on"]) if deadline.get("open_observed_on") else None,
             "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
+            "approximate_time": deadline.get("time_precision") == "date",
         }
         for deadline in conference.get("deadlines", [])
     ]
     return (
-        f'data-filter-row data-search="{_attr(search_text)}" '
+        f'data-filter-row data-edition="{_attr(conference["id"])}" data-search="{_attr(search_text)}" '
         f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
         f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
@@ -272,6 +281,7 @@ def _milestones(conference: dict[str, Any]) -> list[dict[str, Any]]:
             "label": _display_deadline_label(deadline["label"]),
             "datetime": deadline["datetime"],
             "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
+            "approximate_time": deadline.get("time_precision") == "date",
         })
         if deadline.get("opens_at"):
             milestones.append({
@@ -279,6 +289,7 @@ def _milestones(conference: dict[str, Any]) -> list[dict[str, Any]]:
                 "label": f'{_display_deadline_label(deadline["label"])} opens',
                 "datetime": deadline["opens_at"],
                 "estimated": deadline.get("confidence", conference["confidence"]) != "confirmed",
+                "approximate_time": deadline.get("time_precision") == "date",
             })
     milestones.append({
         "type": "conference_start",
@@ -295,6 +306,8 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]]) -> str:
         deadline_utc = _deadline_iso_utc(milestone["datetime"])
         row_hidden = "" if index == 0 else " hidden"
         estimate = ' <span class="milestone-estimate" title="Estimated date">(est.)</span>' if milestone["estimated"] else ""
+        if milestone.get("approximate_time") and not milestone["estimated"]:
+            estimate = ' <span class="milestone-estimate" title="Official day; exact hour/timezone unannounced. Countdown uses a provisional calendar time.">(time est.)</span>'
         rows.append(
             f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}" '
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
@@ -348,7 +361,6 @@ def _deadline_group_rows(
             f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
             f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_source)}</td>'
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
-            f"<td data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
             "</tr>"
         )
     return "\n".join(rows)
@@ -376,7 +388,6 @@ def _conference_rows(
         rows.append(
             f'<tr {_filter_attributes(conference, search_text, icore, rates)} data-conference-row>'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
-            '<td data-label="Submission status"><span class="submission-status" data-submission-status>Checking...</span></td>'
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
@@ -452,6 +463,24 @@ def _checkbox_group(label: str, group: str, values: list[str], slug_values: bool
     )
 
 
+def _topic_filter() -> str:
+    families = []
+    for family in TOPIC_CATALOG["families"]:
+        children = ''.join(
+            f'<label class="check-option"><input type="checkbox" data-filter-group="topics" '
+            f'data-topic-family="{_attr(family["id"])}" value="{_attr(stable_slug(topic))}">'
+            f'<span>{escape(TOPIC_CATALOG["labels"][topic])}</span></label>'
+            for topic in family["topics"]
+        )
+        families.append(
+            f'<details class="topic-family"><summary><label class="check-option">'
+            f'<input type="checkbox" data-family-toggle="{_attr(family["id"])}">'
+            f'<span>{escape(family["label"])}</span></label></summary>'
+            f'<div class="check-list">{children}</div></details>'
+        )
+    return '<fieldset class="topic-filter"><legend>Topics</legend><div class="topic-tree">' + ''.join(families) + '</div><label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label></fieldset>'
+
+
 def build_site(
     data_path: Path = DATA_PATH,
     docs_dir: Path = DOCS_DIR,
@@ -464,6 +493,8 @@ def build_site(
     ccf_data = load_ccf_rankings(ccf_path)
     acceptance_data = load_acceptance_rates(acceptance_path)
     errors = validate_conferences(conferences, load_controlled_topics())
+    cities = load_mapping(CITIES_PATH)
+    errors.extend(validate_catalog_metadata(load_controlled_topics() or set(), TOPIC_CATALOG, cities))
     errors.extend(validate_icore_rankings(conferences, icore_data))
     errors.extend(validate_ccf_rankings(conferences, ccf_data))
     errors.extend(validate_acceptance_rates(conferences, acceptance_data))
@@ -476,13 +507,33 @@ def build_site(
     icore = icore_data["rankings"]
     ccf = ccf_data["rankings"]
     rates = acceptance_data["rates"]
+    logo = 'data:image/png;base64,' + base64.b64encode((ASSETS_DIR / 'venue-radar.png').read_bytes()).decode('ascii')
+    custom_css = (ASSETS_DIR / 'site.css').read_text(encoding='utf-8')
+    leaflet_css = (ASSETS_DIR / 'vendor' / 'leaflet.css').read_text(encoding='utf-8')
+    leaflet_js = (ASSETS_DIR / 'vendor' / 'leaflet.js').read_text(encoding='utf-8')
+    custom_js = (ASSETS_DIR / 'site.js').read_text(encoding='utf-8')
+    map_data = json.dumps({
+        'events': map_events(conferences, cities),
+        'land': json.loads((ASSETS_DIR / 'vendor' / 'world-land.geojson').read_text()),
+        'resetIcon': (ASSETS_DIR / 'vendor' / 'globe.svg').read_text(encoding='utf-8'),
+    }, separators=(',', ':')).replace('</', '<\\/')
+    download_icon = (ASSETS_DIR / 'vendor' / 'download.svg').read_text(encoding='utf-8')
+    vendor_notices = '\n\n'.join(
+        (ASSETS_DIR / 'vendor' / name).read_text(encoding='utf-8')
+        for name in ['Leaflet-LICENSE', 'Lucide-LICENSE']
+    ).replace('--', '- -')
 
     html = f"""<!doctype html>
+<!-- Embedded third-party license notices:
+{vendor_notices}
+-->
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Scientific Conference Calendar</title>
+  <title>Venue Radar | Scientific Conference Calendar</title>
+  <meta name="description" content="Scientific conference deadlines and locations for machine learning, data science, neuroscience, signals, biomedical AI, dynamics and control.">
+  <link rel="icon" href="{logo}">
   <style>
     :root {{
       color-scheme: light;
@@ -1093,16 +1144,17 @@ def build_site(
         border-bottom: 0;
       }}
     }}
+    {leaflet_css}
+    {custom_css}
   </style>
 </head>
 <body>
   <main>
     <header>
-      <h1>Scientific Conference Calendar</h1>
-      <p class="subhead">Conference deadlines and dates for ML, AI, neuroscience, medical AI, vision, LLMs, time-series analysis, and biomedical signal processing.</p>
+      <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="58" height="58"><h1>Venue Radar</h1></div>
+      <p class="subhead">Scientific conferences in ML &amp; AI, data science, neuroscience, signal processing, biomedical AI, complex systems and control.</p>
       <div class="calendar-action">
-        <a class="calendar-button" href="calendar-all.ics" download>Download all events (.ics)</a>
-        <span class="calendar-note">Static calendar file with every deadline and conference date.</span>
+        <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
       </div>
     </header>
 
@@ -1114,8 +1166,8 @@ def build_site(
       <details class="filter-details" id="filter-details" open>
         <summary>Filters</summary>
         <div class="filter-grid">
-          {_checkbox_group("Topics", "topics", _topics(conferences))}
-          {_checkbox_group("Size", "size", _unique_values(conferences, "size"))}
+          {_topic_filter()}
+          {_checkbox_group("Size", "size", ["S", "M", "L", "XL", "XXL"])}
           {_checkbox_group("ICORE", "icore", ["A*", "A", "B", "C", "Unranked"], slug_values=False)}
           {_checkbox_group("Acceptance rate", "acceptance", ["Very low", "Low", "Moderate", "High", "Very high", "Unknown"])}
         </div>
@@ -1126,7 +1178,7 @@ def build_site(
       <div class="tab-toolbar">
         <div class="table-tabs" role="tablist" aria-label="Table view">
           <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
-          <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Upcoming Conferences</button>
+          <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences</button>
         </div>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
@@ -1138,7 +1190,7 @@ def build_site(
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
         <div class="table-wrap">
           <table>
-            {_colgroup(["12%", "14%", "7%", "24%", "15%", "9%", "9%", "4%", "6%"])}
+            {_colgroup(["12%", "14%", "7%", "30%", "15%", "9%", "9%", "4%"])}
             <thead>
               <tr>
                 <th>Conference</th>
@@ -1149,7 +1201,6 @@ def build_site(
                 <th>Accept. rate</th>
                 <th>ICORE / CCF</th>
                 <th>Size</th>
-                <th>Calendar</th>
               </tr>
             </thead>
             <tbody id="deadlines-body">
@@ -1160,13 +1211,18 @@ def build_site(
       </div>
 
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
+        <section class="map-section" aria-label="Confirmed upcoming conference locations">
+          <div class="map-heading"><h2>On the map</h2><span id="map-count" aria-live="polite"></span></div>
+          <div id="conference-map" aria-label="World map of confirmed upcoming conferences"></div>
+          <p id="map-empty" class="map-empty" hidden>No confirmed upcoming locations match these filters.</p>
+          <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
+        </section>
         <div class="table-wrap">
           <table>
-            {_colgroup(["13%", "16%", "13%", "10%", "16%", "10%", "10%", "5%", "7%"])}
+            {_colgroup(["15%", "15%", "16%", "22%", "10%", "10%", "5%", "7%"])}
             <thead>
               <tr>
                 <th>Conference</th>
-                <th>Submission status</th>
                 <th>Dates</th>
                 <th>Location</th>
                 <th>Topics</th>
@@ -1181,25 +1237,43 @@ def build_site(
             </tbody>
           </table>
         </div>
-        <section id="past-conferences-section" hidden>
-          <h2>Ongoing and past conferences</h2>
+        <details id="past-conferences-section" hidden>
+          <summary>Ongoing and past conferences</summary>
           <div class="table-wrap">
             <table>
-              {_colgroup(["13%", "16%", "13%", "10%", "16%", "10%", "10%", "5%", "7%"])}
-              <thead><tr><th>Conference</th><th>Submission status</th><th>Dates</th><th>Location</th><th>Topics</th><th>Accept. rate</th><th>ICORE / CCF</th><th>Size</th><th>Calendar</th></tr></thead>
+              {_colgroup(["15%", "15%", "16%", "22%", "10%", "10%", "5%", "7%"])}
+              <thead><tr><th>Conference</th><th>Dates</th><th>Location</th><th>Topics</th><th>Accept. rate</th><th>ICORE / CCF</th><th>Size</th><th>Calendar</th></tr></thead>
               <tbody id="past-conferences-body"></tbody>
             </table>
           </div>
-        </section>
+        </details>
       </div>
     </section>
 
+    <section class="community" id="community" aria-labelledby="community-title">
+      <h2 id="community-title">Community</h2>
+      <p>Missing a conference, or spotted a correction? Leave a comment or send a conference request.</p>
+      <div class="community-links">
+        <a href="https://github.com/gon-uri/scientific-conference-calendar/issues/new?template=conference-request.yml">Request a conference</a>
+        <a href="https://github.com/gon-uri/scientific-conference-calendar/discussions">GitHub discussions</a>
+        <a href="https://github.com/gon-uri/scientific-conference-calendar">Find Venue Radar useful? Star the repository</a>
+        <a href="https://x.com/gonzauri">Follow @gonzauri on X</a>
+      </div>
+      <div class="giscus"></div>
+      <noscript><a href="https://github.com/gon-uri/scientific-conference-calendar/discussions">Join the discussion on GitHub</a></noscript>
+    </section>
     <footer>
       <strong>Database last updated {escape(last_updated)}.</strong>
       The calendar is reviewed regularly as organizers publish new schedules. An estimated submission status or date means the information is uncertain. Some estimated dates use prior-edition timing as a proxy until organizers publish the next schedule.
       <div>ICORE 2026 and CCF 2026 ranks are separate assessments of main-track full papers; a dash means no direct rank is shown. Historical acceptance rates refer to the linked year and track, not the next edition's expected outcome. Unknown means no defensible rate is available.</div>
+      <div>Size is a qualitative scale, not a verified attendance count. A time-estimated milestone has a published day but no confirmed cutoff hour. Always check the organizer's call before submitting.</div>
+      <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>, Assistant Professor at the <a href="https://www.su.se/english/divisions/department-of-computer-and-systems-sciences">Department of Computer and Systems Sciences</a>, Stockholm University.</div>
+      <div class="author-links"><a href="https://www.su.se/profiles/g/gour8957">University profile</a><a href="https://scholar.google.com/citations?user=q5sweuIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/gon-uri">GitHub</a><a href="https://github.com/gon-uri/scientific-conference-calendar/blob/main/LICENSE">Code: MIT</a><a href="https://github.com/gon-uri/scientific-conference-calendar/blob/main/CONTENT-LICENSE.md">Original content: CC BY 4.0</a></div>
     </footer>
   </main>
+  <script>{leaflet_js}</script>
+  <script>const venueMapData = {map_data};
+  {custom_js}</script>
   <script>
     const search = document.querySelector("#search");
     const filterDetails = document.querySelector("#filter-details");
@@ -1246,18 +1320,17 @@ def build_site(
 
     function rowMatchesFilters(row) {{
       const query = search.value.trim().toLowerCase();
-      const selectedTopics = selectedValues("topics");
       const selectedSizes = selectedValues("size");
       const selectedIcore = selectedValues("icore");
       const selectedAcceptance = selectedValues("acceptance");
 
       const haystack = row.dataset.search.toLowerCase();
       const matchesSearch = !query || haystack.includes(query);
-      const matchesTopic = matchesGroup(row, "topics", selectedTopics);
+      const matchesTopic = venueTopicMatch(row);
       const matchesSize = matchesGroup(row, "size", selectedSizes);
       const matchesIcore = matchesGroup(row, "icore", selectedIcore);
       const matchesAcceptance = matchesGroup(row, "acceptance", selectedAcceptance);
-      const matchesOpen = !openOnly.checked || ["open", "upcoming", "estimated"].includes(stateByRow.get(row)?.kind);
+      const matchesOpen = !row.hasAttribute("data-deadline-group") || !openOnly.checked || ["open", "upcoming", "estimated"].includes(stateByRow.get(row)?.kind);
       return matchesSearch && matchesTopic && matchesSize && matchesIcore && matchesAcceptance && matchesOpen;
     }}
 
@@ -1280,6 +1353,8 @@ def build_site(
     function openLabel(type) {{
       if (["abstract", "late_abstract", "extended_abstract"].includes(type)) return "Open abstract submissions";
       if (type === "poster") return "Open poster submissions";
+      if (type === "discussion_paper") return "Open discussion papers (non-archival)";
+      if (type === "journal_paper") return "Open joint journal/paper submissions";
       return "Open paper submissions";
     }}
 
@@ -1295,6 +1370,7 @@ def build_site(
           type: `${{item.type}}_opens`,
           time: Date.parse(item.opens_at),
           estimated: item.estimated,
+          approximate_time: item.approximate_time,
         }}] : []),
       ]);
       milestones.push({{
@@ -1337,6 +1413,7 @@ def build_site(
 
     function updateStatus(row, state) {{
       const label = row.querySelector("[data-submission-status]");
+      if (!label) return;
       label.textContent = state.label;
       label.className = `submission-status status-${{state.kind}}`;
     }}
@@ -1359,7 +1436,7 @@ def build_site(
         group.classList.toggle("is-expanded", expanded);
         const timeLeft = group.querySelector("[data-time-left]");
         timeLeft.textContent = state.milestone
-          ? `${{state.milestone.estimated ? "~" : ""}}${{formatRemaining(state.milestone.time, now)}}`
+          ? `${{state.milestone.estimated || state.milestone.approximate_time ? "~" : ""}}${{formatRemaining(state.milestone.time, now)}}`
           : "\u2014";
         details.forEach((detail) => {{
           detail.hidden = !(expanded || detail === summaryDetail);
@@ -1397,6 +1474,7 @@ def build_site(
     }}
 
     function applyFilters() {{
+      syncTopicParents();
       const now = Date.now();
       rows.forEach((row) => {{
         const state = submissionState(row, now);
@@ -1416,6 +1494,7 @@ def build_site(
         .forEach((row) => pastConferenceBody.appendChild(row));
       pastSection.hidden = ![...pastConferenceBody.children].some((row) => !row.hidden);
       updateResultCount();
+      updateConferenceMap();
     }}
 
     function activateTab(tabId) {{
@@ -1428,6 +1507,8 @@ def build_site(
         panel.hidden = panel.dataset.tabPanel !== tabId;
       }});
       updateResultCount();
+      openOnly.closest("label").hidden = tabId !== "deadlines";
+      updateConferenceMap();
     }}
 
     tabButtons.forEach((button, index) => {{
@@ -1466,16 +1547,26 @@ def build_site(
 
     search.addEventListener("input", applyFilters);
     filters.forEach((input) => input.addEventListener("change", applyFilters));
+    document.querySelectorAll("[data-family-toggle]").forEach((input) => input.addEventListener("change", () => {{
+      document.querySelectorAll(`[data-topic-family="${{input.dataset.familyToggle}}"]`).forEach((child) => {{ child.checked = input.checked; }});
+      applyFilters();
+    }}));
+    document.querySelector("#topic-match").addEventListener("change", applyFilters);
     openOnly.addEventListener("change", applyFilters);
     clearFilters.addEventListener("click", () => {{
       search.value = "";
       filters.forEach((input) => {{ input.checked = false; }});
       openOnly.checked = false;
+      document.querySelector("#topic-match").value = "any";
       applyFilters();
       search.focus();
     }});
     applyFilters();
     setInterval(applyFilters, 60 * 1000);
+    const commentObserver = new IntersectionObserver((entries) => {{
+      if (entries.some((entry) => entry.isIntersecting)) {{ loadCommunityComments(); commentObserver.disconnect(); }}
+    }}, {{rootMargin: "150px"}});
+    commentObserver.observe(document.querySelector("#community"));
   </script>
 </body>
 </html>

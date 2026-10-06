@@ -2,6 +2,17 @@
 
 Last synchronized: 2026-10-06
 
+## Venue Radar Redesign
+
+- Completed: refined calendar/radar identity, simple README, MIT/CC BY licensing,
+  author/social links, five normalized sizes, seven hierarchical topic families,
+  offline city map plus conference tables, eight new conference series, and
+  synchronized catalog workbook with repeatable maintenance tooling.
+- Pending owner setup: install the Giscus GitHub app on this repository.
+  GitHub Discussions, the client configuration, and the request form are ready.
+- Deferred: user accounts, live scraping, custom backend, and map tile services
+  are deliberately outside the static architecture.
+
 ## Milestones
 
 ### Baseline Static Calendar
@@ -22,7 +33,7 @@ Last synchronized: 2026-10-06
 
 ### Topic Coverage
 
-- Goal: Maintain useful topic tags for ML, AI, NLP and LLMs, data mining, pattern recognition, signal processing, neuroscience, EEG/MEG, BCI, medical AI, vision, time-series analysis, and biomedical signal processing.
+- Goal: Maintain seven broad families and central subtopics covering ML/AI, data/time series, signals/vision, neuroscience/neurotechnology, healthcare/biomedical AI, dynamics/complex systems/control, and responsible/trustworthy AI.
 - Priority: Medium
 - Dependencies: `data/topics.yml`, validation, per-topic ICS generation.
 - Estimated complexity: Low
@@ -74,7 +85,7 @@ Last synchronized: 2026-10-06
 - Priority: Medium
 - Dependencies: Existing build scripts, selected test framework or script conventions.
 - Estimated complexity: Medium
-- Completion status: In Progress; data and rendering unit tests plus manual desktop/mobile interaction checks exist, but automated browser and ICS snapshot checks remain future work.
+- Completion status: In Progress; targeted metadata/ICS tests and repeatable browser smoke checks cover the redesign. Screenshot-baseline comparisons remain future work.
 
 ### Persistent Project State Documentation
 

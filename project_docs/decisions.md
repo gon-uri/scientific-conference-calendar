@@ -153,3 +153,66 @@ Last synchronized: 2026-10-06
 - Decision: Keep the existing `lod-2026` ID and `LOD` series key for stable calendar subscriptions and workbook continuity, but display the official AIS name and use organizer-confirmed 2026 facts. Add a distinct estimated AIS 2027 edition under that series. Add IJCAI and ECAI 2027 under their own series, with directly sourced ranks; do not transfer those ranks to the joint 2026 event.
 - Alternatives considered: Silently keep the outdated LOD title and dates; rename the existing edition ID; treat the joint and standalone IJCAI editions as one series with inherited ranks.
 - Consequences: Search for LOD still finds the successor, existing subscriptions keep their UIDs, and ranking provenance stays accurate.
+
+## ADR-020: Derive Seven Topic Families From Central Subtopics
+
+- Date: 2026-10-06
+- Context: Added dynamics/control venues and responsible-AI coverage made a flat
+  topic list harder to scan, while overly broad tags obscured conference scope.
+- Decision: Store up to four central leaves per edition. A validated registry
+  assigns each leaf exactly one family and a compact display label. Family
+  checkboxes select their children; use OR within a family and selectable
+  ANY/ALL across families. Keep stable topic/feed keys. Federated learning is
+  an ML leaf, not automatically an ethics/privacy classification.
+- Consequences: No redundant per-edition parent metadata; partial family
+  selections are indeterminate. Taxonomy edits require source review and rebuild.
+
+## ADR-021: Add An Offline Confirmed-City Map To Conferences
+
+- Date: 2026-10-06
+- Context: The second table's main extra value is dates/location, not submission
+  status. A geographic overview helps planning without crowding deadlines.
+- Decision: Rename the tab Conferences, remove submission status there, and add
+  a Leaflet/Natural Earth map with one marker per explicitly mapped city. Only
+  officially announced future meeting dates appear; estimates remain in tables.
+  Shared filters apply to map/table; submission opportunities applies only to
+  deadlines. Provide hover, click, keyboard popups and city-link alternatives.
+- Consequences: No external tile/geocoder dependency or new backend; coordinates
+  represent approximate city centers, not exact venues. Past editions stay separate.
+
+## ADR-022: Use Venue Radar And Split Code/Content Licenses
+
+- Date: 2026-10-06
+- Context: The user selected Venue Radar, a calendar/radar symbol, a sober visual
+  refinement, and permissive code/content licensing after discussing restrictions.
+- Decision: Keep repository/Pages URLs and UID domain unchanged. Use a refined
+  transparent PNG mark, neutral surfaces, teal accents, and semantic status colors.
+  MIT licenses code; CC BY 4.0 licenses original editorial content/artwork. Preserve
+  third-party notices and do not claim ownership of conference facts/rankings.
+- Consequences: Both selected licenses allow commercial reuse with required
+  attribution/notices; neither imposes a noncommercial restriction. README stays
+  simple, with development/maintenance details in project_docs.
+
+## ADR-023: Use Optional Giscus For Community Requests
+
+- Date: 2026-10-06
+- Context: Users need to request conferences and corrections on a static site.
+- Decision: Lazily load Giscus backed by public GitHub Discussions with a stable
+  specific discussion term. Also provide a structured issue form and direct
+  Discussions link independent of the widget. Enable Discussions; owner installs
+  the Giscus app for this repository only.
+- Consequences: No project backend, but comments require GitHub sign-in and an
+  optional external service. Do not claim activation until live widget verification.
+
+## ADR-024: Keep Published Deadline Days Separate From Unknown Hours
+
+- Date: 2026-10-06
+- Context: Several new official CFPs announce a day without a cutoff hour. A
+  synthetic exact AoE timestamp would overstate evidence; date-level uncertainty
+  would also misrepresent the published day.
+- Decision: Use time_precision: date, note provisional ordering assumptions,
+  label the site cutoff as time-estimated, and emit all-day ICS deadlines. Keep
+  UID keys stable when an exact hour is later confirmed. Extend rollover with
+  explicitly sourced triennial SYSID cadence, not a blanket annual assumption.
+- Consequences: Calendar clients do not receive a fabricated hour. Editorial
+  reviews still must check organizer portals for precise timezone/cutoff updates.

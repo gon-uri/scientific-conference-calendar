@@ -44,10 +44,12 @@ VALID_CONFIDENCE = {
 VALID_RELEVANCE = {"high", "medium", "low", "watch"}
 VALID_ICORE_RANKS = {"A*", "A", "B", "C"}
 VALID_CCF_RANKS = {"A", "B", "C"}
+VALID_SIZES = {"S", "M", "L", "XL", "XXL"}
 SUBMISSION_TYPES = {
     "full_paper", "regular_paper", "short_paper", "workshop_paper",
     "special_session_paper", "abstract", "late_abstract",
     "extended_abstract", "poster",
+    "journal_paper", "discussion_paper",
 }
 ACCEPTANCE_BANDS = (
     (20, "Very low"),
@@ -192,6 +194,8 @@ def validate_conferences(
 
         if "year" in conference and not isinstance(conference["year"], int):
             errors.append(f"{label}: year must be an integer")
+        if conference.get("size") not in VALID_SIZES:
+            errors.append(f"{label}: size must be S, M, L, XL, or XXL")
 
         start = None
         end = None
@@ -234,6 +238,8 @@ def validate_conferences(
             if not isinstance(topics, list) or not topics:
                 errors.append(f"{label}: topics must be a non-empty list")
             else:
+                if len(topics) > 4 or len(set(map(str, topics))) != len(topics):
+                    errors.append(f"{label}: use at most four distinct central subtopics")
                 for topic in topics:
                     if not _non_empty_string(topic):
                         errors.append(f"{label}: topics must contain non-empty strings")
@@ -262,6 +268,8 @@ def validate_conferences(
                     for field in ("type", "label", "datetime"):
                         if field not in deadline:
                             errors.append(f"{deadline_label}: missing '{field}'")
+                    if deadline.get("time_precision", "exact") not in {"exact", "date"}:
+                        errors.append(f"{deadline_label}: time_precision must be exact or date")
 
                     deadline_type = deadline.get("type")
                     if "type" in deadline:
@@ -480,17 +488,22 @@ def validate_acceptance_rates(
 
 
 def main() -> int:
+    from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, validate_catalog_metadata
+
     try:
         conferences = load_conferences()
         controlled_topics = load_controlled_topics()
         icore_rankings = load_icore_rankings()
         ccf_rankings = load_ccf_rankings()
         acceptance_rates = load_acceptance_rates()
+        families = load_mapping(FAMILIES_PATH)
+        cities = load_mapping(CITIES_PATH)
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"Validation failed: {exc}", file=sys.stderr)
         return 1
 
     errors = validate_conferences(conferences, controlled_topics)
+    errors.extend(validate_catalog_metadata(controlled_topics or set(), families, cities))
     errors.extend(validate_icore_rankings(conferences, icore_rankings))
     errors.extend(validate_ccf_rankings(conferences, ccf_rankings))
     errors.extend(validate_acceptance_rates(conferences, acceptance_rates))
