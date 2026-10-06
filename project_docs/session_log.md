@@ -1,5 +1,62 @@
 # Session Log
 
+## 2026-10-07 (Audiowide selection and publication)
+
+- Objective: Apply the user's chosen Audiowide title and publish the approved
+  larger identity and filter-disclosure styling.
+- Completed: embedded the native 400-weight Latin WOFF2 for the title only,
+  disabled synthetic styling, and preserved the original OFL notice in the
+  vendor directory and generated HTML. No external font request is required;
+  body/table fonts, conference data, rankings, and all 123 ICS feeds are unchanged.
+- Layout: retained 42px/82px desktop and 34px/66px mobile title/logo dimensions.
+  Optical text shifts are 2px/1.5px; narrow titles wrap cleanly between words.
+  Mobile brand padding contains the taller text bounds. Filters & search
+  retains the approved 20px label/triangle, 14px gap, and native keyboard behavior.
+- Documentation: synchronized status, architecture, roadmap, decision record,
+  typography selection, and third-party attribution; retained both preview PNGs
+  as review artifacts, not public runtime assets.
+- Verification: 93 records validate, all 30 Python tests pass, and the full
+  build succeeds. Browser tests pass at 1440/1051/1050/768/390/320px, checking
+  loaded Audiowide, no network font requests, unchanged body fonts, visible-pixel
+  logo/title centering, text fit, disclosure keyboard controls, filters, and map.
+  Desktop and narrow-mobile screenshots were inspected.
+- Publication: source, selected font/license, documentation, and generated HTML
+  are committed together for the existing main/docs GitHub Pages workflow.
+
+## 2026-10-07 (distinctive fonts and visible-centre alignment)
+
+- Objective: Offer five more unusual title fonts and align the logo and text
+  vertically in the new preview set.
+- Completed: sourced and rendered Syne ExtraBold, Unbounded Black, Audiowide,
+  Righteous, and Orbitron Black as options 6-10. Each uses an actual official
+  font file, the same 42px title/82px logo, and unchanged brand colors.
+- Alignment: measured visible pixel bounds in browser screenshots and applied
+  font-specific text offsets. All five visible vertical centres agree within
+  0.1px; finished PNG was visually inspected. No synthetic bold, missing fonts,
+  blank logo images, clipped text, or JavaScript errors were detected.
+- Documentation: expanded typography_proposal.md with sources, weights, and
+  alignment details. User font selection remains pending. No production code,
+  canonical data, or calendar feeds changed in this proposal; prior local UI
+  edits remain intact and unpushed.
+
+## 2026-10-07 (header sizing and five typography options)
+
+- Objective: Double the filter arrow/text spacing, enlarge its label/indicator,
+  enlarge the title more than the logo, and show five bolder title-font options.
+- Completed locally: desktop title/logo are 42px/82px; mobile 34px/66px. Filters
+  & search uses a 20px label/triangle and 14px gap. Its native disclosure and
+  keyboard semantics remain intact. No public font family change was made.
+- Proposal: rendered Space Grotesk Bold, Sora ExtraBold, Archivo Black,
+  Bricolage Grotesque ExtraBold, and Oxanium Bold from actual official font
+  files at identical size/color/logo dimensions. Verified all five fonts loaded.
+  Preview and source/implementation notes are in assets/branding and
+  project_docs/typography_proposal.md. User selection is pending.
+- Verification: all 93 records validate; 29 Python tests and the full build
+  pass. Browser checks cover disclosure spacing/rotation, brand fit, filters,
+  map behavior, and overflow at 1440/1051/1050/768/390/320px. Previews inspected.
+- Publication: local working changes, not yet committed or pushed. Conference
+  facts, ranking data, and ICS feeds are unchanged.
+
 ## 2026-10-06 (time-estimate placement and opportunities sizing)
 
 - Objective: Move `(time est.)` from Next milestone into Time left, and slightly

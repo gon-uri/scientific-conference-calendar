@@ -527,6 +527,7 @@ def build_site(
     ccf_page = ccf_data["page_url"]
     rates = acceptance_data["rates"]
     logo = 'data:image/png;base64,' + base64.b64encode((ASSETS_DIR / 'venue-radar.png').read_bytes()).decode('ascii')
+    title_font = base64.b64encode((ASSETS_DIR / 'vendor' / 'audiowide-latin.woff2').read_bytes()).decode('ascii')
     custom_css = (ASSETS_DIR / 'site.css').read_text(encoding='utf-8')
     leaflet_css = (ASSETS_DIR / 'vendor' / 'leaflet.css').read_text(encoding='utf-8')
     leaflet_js = (ASSETS_DIR / 'vendor' / 'leaflet.js').read_text(encoding='utf-8')
@@ -539,8 +540,9 @@ def build_site(
     download_icon = (ASSETS_DIR / 'vendor' / 'download.svg').read_text(encoding='utf-8')
     vendor_notices = '\n\n'.join(
         (ASSETS_DIR / 'vendor' / name).read_text(encoding='utf-8')
-        for name in ['Leaflet-LICENSE', 'Lucide-LICENSE']
+        for name in ['Leaflet-LICENSE', 'Lucide-LICENSE', 'Audiowide-OFL.txt']
     ).replace('--', '- -')
+    vendor_notices = '\n'.join(line.rstrip() for line in vendor_notices.splitlines())
 
     html = f"""<!doctype html>
 <!-- Embedded third-party license notices:
@@ -1164,6 +1166,13 @@ def build_site(
       }}
     }}
     {leaflet_css}
+    @font-face {{
+      font-family: Audiowide;
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(data:font/woff2;base64,{title_font}) format('woff2');
+    }}
     {custom_css}
   </style>
 </head>
@@ -1171,7 +1180,7 @@ def build_site(
   <main>
     <header>
       <div class="brand-copy">
-        <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="76" height="76"><h1>Venue Radar</h1></div>
+        <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
         <p class="subhead">Scientific conferences in ML &amp; AI, data science, neuroscience, signal processing, biomedical AI, complex systems and control.</p>
       </div>
       <div class="calendar-action">
@@ -1181,7 +1190,7 @@ def build_site(
     </header>
 
     <details class="controls filter-details" id="filter-details">
-      <summary>Filters &amp; search</summary>
+      <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
           {_topic_filter()}

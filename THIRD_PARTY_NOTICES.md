@@ -1,5 +1,11 @@
 # Third-Party Notices
 
+- Audiowide: Copyright (c) 2012, Brian J. Bonislawsky DBA Astigmatic (AOETI),
+  with Reserved Font Names "Audiowide". SIL Open Font License 1.1.
+  [Source and license](https://github.com/google/fonts/tree/main/ofl/audiowide).
+  The Latin WOFF2 in `assets/vendor/audiowide-latin.woff2` is embedded for the
+  title only; its original notice is in `assets/vendor/Audiowide-OFL.txt`
+  and the generated HTML. It retains its own license, not MIT or CC BY.
 - Leaflet 1.9.4: Copyright 2010-2023 Vladimir Agafonkin and contributors,
   BSD-2-Clause. [Source](https://github.com/Leaflet/Leaflet/tree/v1.9.4),
   license in `assets/vendor/Leaflet-LICENSE`. JavaScript/CSS are bundled into

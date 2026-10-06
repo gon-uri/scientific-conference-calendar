@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-10-06
+Last synchronized: 2026-10-07
 
 ## ADR-001: Keep the Project Static
 
@@ -192,6 +192,16 @@ Last synchronized: 2026-10-06
 - Consequences: Both selected licenses allow commercial reuse with required
   attribution/notices; neither imposes a noncommercial restriction. README stays
   simple, with development/maintenance details in project_docs.
+- 2026-10-07 typography refinement: enlarge the title proportionally more than
+  the mark, but keep its font family unchanged pending approval. Compare five
+  actual font files at equal size/color/mark dimensions; preview fonts must not
+  become public runtime dependencies. Preserve native filter disclosure
+  semantics while explicitly controlling its indicator size and text spacing.
+- 2026-10-07 selection: the user chose Audiowide. Embed its Latin WOFF2 only
+  for the title, using native weight 400 without synthetic bold and preserving
+  the original OFL notice. Keep body/table fonts and existing brand colors.
+  Apply small optical vertical offsets and allow word wrapping on narrow
+  mobile screens. No external font service becomes a runtime dependency.
 
 ## ADR-023: Use Optional Giscus For Community Requests
 

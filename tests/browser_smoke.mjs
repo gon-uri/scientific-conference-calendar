@@ -4,25 +4,69 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {chromium} from 'playwright';
 
+// Painted bounds avoid mistaking font line-box centering for optical alignment.
+async function visibleCenter(locator) {
+  const png = await locator.screenshot();
+  const ratio = await locator.page().evaluate(async src => {
+    const image = new Image();
+    image.src = src;
+    await image.decode();
+    const canvas = document.createElement('canvas');
+    canvas.width = image.width;
+    canvas.height = image.height;
+    const context = canvas.getContext('2d');
+    context.drawImage(image, 0, 0);
+    const pixels = context.getImageData(0, 0, canvas.width, canvas.height).data;
+    let top = canvas.height;
+    let bottom = -1;
+    for (let y = 0; y < canvas.height; y++) {
+      for (let x = 0; x < canvas.width; x++) {
+        const i = 4 * (y * canvas.width + x);
+        if (pixels[i + 3] > 128 && Math.min(pixels[i], pixels[i + 1], pixels[i + 2]) < 245) {
+          top = Math.min(top, y);
+          bottom = Math.max(bottom, y);
+        }
+      }
+    }
+    if (bottom < 0) throw new Error('Blank brand image or title');
+    return (top + bottom + 1) / (2 * canvas.height);
+  }, `data:image/png;base64,${png.toString('base64')}`);
+  const box = await locator.boundingBox();
+  return box.y + box.height * ratio;
+}
+
 const url = process.argv[2] || pathToFileURL(path.resolve('docs/index.html')).href;
 const launch = {headless: true};
 if (process.env.CHROME_BIN) launch.executablePath = process.env.CHROME_BIN;
 const browser = await chromium.launch(launch);
 const page = await browser.newPage({viewport: {width: 1440, height: 1000}});
 const errors = [];
+const fontRequests = [];
 page.on('pageerror', error => errors.push(error.message));
+page.on('request', request => {
+  if (request.resourceType() === 'font' && !request.url().startsWith('data:')) fontRequests.push(request.url());
+});
 await page.addInitScript(() => { Date.now = () => Date.parse('2026-10-06T12:00:00Z'); });
 // Local checks do not authenticate, create Discussions, or exercise Giscus.
 await page.route('https://giscus.app/**', route => route.abort());
 
 try {
   await page.goto(url);
+  await page.evaluate(() => document.fonts.ready);
+  assert(await page.evaluate(() => [...document.fonts].some(font => font.family === 'Audiowide' && font.status === 'loaded')));
+  assert.match(await page.locator('h1').evaluate(title => getComputedStyle(title).fontFamily), /Audiowide/);
+  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontWeight), '400');
+  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
+  assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(!(await page.locator('#clear-filters').isVisible()));
-  assert.equal(await filterSummary.innerText(), 'Filters & search');
-  assert(Number.parseFloat(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize)) >= 17);
+  assert.equal(await filterSummary.locator('span:last-child').innerText(), 'Filters & search');
+  assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize), '20px');
+  assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).columnGap), '14px');
+  assert.equal(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).fontSize), '20px');
+  assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
   assert.equal(await page.locator('input:not(#open-only), select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
   assert(await page.getByLabel('Show only submission opportunities', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
@@ -32,13 +76,20 @@ try {
   const opportunitiesBox = await page.locator('.open-toggle').boundingBox();
   assert(opportunitiesBox.x > tabsBox.x + tabsBox.width && Math.abs(opportunitiesBox.y + opportunitiesBox.height / 2 - tabsBox.y - tabsBox.height / 2) < 1);
   await filterSummary.click();
+  assert.notEqual(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).transform), 'none');
+  await filterSummary.focus();
+  await page.keyboard.press('Enter');
+  assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
+  await page.keyboard.press('Enter');
+  assert(await page.locator('#filter-details').evaluate(details => details.open));
   assert.equal(await page.getByRole('link', {name: 'ICORE Rank', exact: true}).getAttribute('href'), 'https://portal.core.edu.au/conf-ranks/');
   const ccfPage = 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml';
   assert.equal(await page.getByRole('link', {name: 'CCF Rank', exact: true}).getAttribute('href'), ccfPage);
   assert(await page.locator('.rank-link-ccf').evaluateAll(links => links.every(link => link.href === 'https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml')));
   assert.equal(await page.locator('.calendar-caption').innerText(), 'Download calendar');
   assert(await page.locator('header').evaluate(header => header.querySelector('.calendar-action').getBoundingClientRect().right > header.querySelector('.brand-line').getBoundingClientRect().right));
-  assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 76);
+  assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), 82);
+  assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), '42px');
   assert.notEqual(await page.locator('#tab-deadlines').evaluate(tab => getComputedStyle(tab).backgroundColor), await page.locator('#tab-conferences').evaluate(tab => getComputedStyle(tab).backgroundColor));
   assert((await page.locator('.topic-filter').boundingBox()).width <= 360);
   assert.equal(await page.locator('.topic-filter > legend').innerText(), 'Topics & Subtopics');
@@ -144,6 +195,24 @@ try {
   const widths = [1440, 1051, 1050, 768, 390, 320];
   for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
+    await page.evaluate(() => scrollTo(0, 0));
+    assert.equal(await page.locator('.brand-mark').evaluate(image => image.clientWidth), width > 760 ? 82 : 66);
+    assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSize), width > 760 ? '42px' : '34px');
+    assert(await page.locator('.brand-line').evaluate(brand => {
+      const title = brand.querySelector('h1');
+      const range = document.createRange();
+      range.selectNodeContents(title);
+      const text = range.getBoundingClientRect();
+      const container = brand.getBoundingClientRect();
+      const logo = brand.querySelector('img').getBoundingClientRect();
+      return text.left >= logo.right && text.right <= container.right && text.top >= container.top && text.bottom <= container.bottom;
+    }), `Enlarged brand must fit at ${width}px`);
+    const logoCenter = await visibleCenter(page.locator('.brand-mark'));
+    const titleCenter = await visibleCenter(page.locator('h1'));
+    assert(Math.abs(titleCenter - logoCenter) < 2, `Visible logo and title centers must align at ${width}px`);
+    if (output && (width === 1440 || width === 320)) {
+      await page.locator('.brand-line').screenshot({path: path.join(output, `brand-${width}.png`)});
+    }
     await page.waitForFunction(() => conferenceMap.getSize().x === document.querySelector('#conference-map').clientWidth);
     await page.waitForFunction(() => conferenceMap.getBounds().getEast() - conferenceMap.getBounds().getWest() > 330);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Map overflow at ${width}px`);
@@ -202,6 +271,7 @@ try {
     await filterSummary.click();
     await page.locator('#tab-conferences').click();
   }
+  assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);
 } finally {

@@ -25,6 +25,9 @@ It checks opportunity filtering outside the collapsed panel, inline Search
 alignment, topic disclosure cues, family intersection, map grouping, keyboard
 and hover popups, empty results, milestone expansion, and six viewport widths
 (including both sides of the 1050px filter-grid breakpoint).
+Brand checks confirm the embedded Audiowide face is loaded without a network
+font request, body/table fonts stay unchanged, and visible logo/title pixel
+centers align across single-line and narrow-mobile wrapped titles.
 It intentionally does not test Giscus authentication or create comments.
 Update catalog-specific expected IDs/counts when the catalog changes.
 

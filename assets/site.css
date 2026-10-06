@@ -16,8 +16,8 @@ main { width: min(1440px, calc(100% - 40px)); padding-top: 26px; }
 header { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: start; gap: 18px 32px; margin-bottom: 18px; padding-bottom: 18px; }
 .brand-copy { min-width: 0; }
 .brand-line { display: flex; align-items: center; gap: 13px; }
-.brand-mark { width: 76px; height: 76px; object-fit: contain; flex: 0 0 auto; }
-h1 { font-size: 2.25rem; font-weight: 700; margin: 0; }
+.brand-mark { width: 82px; height: 82px; object-fit: contain; flex: 0 0 auto; }
+h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625rem; font-weight: 400; font-synthesis: none; line-height: 1.15; min-width: 0; margin: 0; transform: translateY(2px); }
 .subhead { font-size: .94rem; margin-top: 7px; }
 .calendar-action { flex-direction: column; align-items: flex-end; gap: 6px; margin-top: 12px; }
 .calendar-caption { font-size: .76rem; color: var(--muted); }
@@ -26,7 +26,10 @@ h1 { font-size: 2.25rem; font-weight: 700; margin: 0; }
 .calendar-button svg, .row-calendar-button svg { width: 17px; height: 17px; }
 .row-calendar-button { display: inline-flex; padding: 6px; align-items: center; justify-content: center; }
 .controls { display: block; padding: 0 0 14px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: none; }
-.filter-details > summary { display: list-item; width: fit-content; padding: 7px 2px; color: var(--accent-dark); font-size: 1.1rem; font-weight: 650; cursor: pointer; }
+.filter-details > summary { display: flex; align-items: center; gap: 14px; width: fit-content; padding: 7px 2px; color: var(--accent-dark); font-size: 1.25rem; font-weight: 650; cursor: pointer; list-style: none; }
+.filter-details > summary::-webkit-details-marker { display: none; }
+.filter-disclosure-icon { display: block; width: 18px; flex: 0 0 18px; font-size: 1.25rem; line-height: 1; text-align: center; }
+.filter-details[open] > summary .filter-disclosure-icon { transform: rotate(90deg); }
 .filter-details > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 2px; }
 .filter-content { padding-top: 14px; }
 .search-control { min-width: 0; margin: 0; }
@@ -113,8 +116,9 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
 @media (max-width: 760px) {
   main { width: calc(100% - 24px); padding-top: 18px; }
   header { grid-template-columns: 1fr; gap: 12px; }
-  h1 { font-size: 1.85rem; }
-  .brand-mark { width: 62px; height: 62px; }
+  .brand-line { padding: 4px 0; }
+  h1 { font-size: 2.125rem; transform: translateY(1.5px); }
+  .brand-mark { width: 66px; height: 66px; }
   .calendar-action { justify-self: end; flex-direction: column; align-items: flex-end; margin-top: 0; }
   .filter-grid { grid-template-columns: 64px minmax(90px, 1fr) minmax(90px, 1fr); gap: 18px 14px; margin-top: 0; }
   .topic-filter { grid-column: 1 / -1; max-width: none; }

@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-06
+Last synchronized: 2026-10-07
 
 ## Venue Radar Redesign
 
@@ -14,8 +14,9 @@ Last synchronized: 2026-10-06
   independent CCF filter, linked rank headings/webpage scores, larger branding,
   header calendar action, more evident tab selection, inline Search, clearer
   topic/subtopic disclosure cues, and an always-visible deadline opportunities
-  checkbox outside the filter panel. A title-only Space
-  Grotesk SemiBold option is proposed, not yet approved or applied.
+  checkbox outside the filter panel. Larger title/logo and filter-disclosure
+  sizing accompany the selected, locally embedded Audiowide title. Ten font
+  specimens and the final choice are documented in typography_proposal.md.
 - Deferred: user accounts, live scraping, custom backend, and map tile services
   are deliberately outside the static architecture.
 

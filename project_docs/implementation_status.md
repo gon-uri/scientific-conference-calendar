@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-06
+Last synchronized: 2026-10-07
 
 ## Venue Radar Release
 
@@ -19,8 +19,12 @@ Last synchronized: 2026-10-06
   Match and Clear filters share one vertically aligned footer row.
   Topics are narrower; linked ranking headings and CCF scores open official
   webpages. The larger identity, top-right calendar action, and contrasting
-  selected tab make navigation clearer. Title font is unchanged; Space Grotesk
-  SemiBold was proposed and awaits approval.
+  selected tab make navigation clearer. Header sizing is now 42px title / 82px
+  logo on desktop and 34px / 66px on mobile. The filter disclosure has 20px
+  text/arrow and an explicit 14px gap. The user selected Audiowide from the ten
+  actual-font previews in project_docs/typography_proposal.md. Implementation
+  embeds its native 400-weight WOFF2 face for the title only, with optical
+  logo/text alignment and no external font request. Body/table fonts stay unchanged.
 - Catalog: 93 edition records across 71 series; 27 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.

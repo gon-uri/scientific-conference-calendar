@@ -1,6 +1,6 @@
 # Architecture
 
-Last synchronized: 2026-10-06
+Last synchronized: 2026-10-07
 
 ## Venue Radar Extension
 
@@ -9,6 +9,19 @@ Natural Earth land geometry, and local site assets. No map tiles, geocoder, or
 organizer API is called at runtime. `data/cities.yml` maps exact canonical
 location aliases to approximate city centers; only confirmed future meeting
 dates with a mapped city are shown. Map markers and tables share filters.
+
+The header uses an 82px mark with a 42px title on desktop and a 66px mark with
+a 34px title on mobile. Audiowide's native 400-weight Latin WOFF2 is embedded
+in the HTML as a data URL; body/table typography is unchanged. The original
+OFL notice is preserved in assets/vendor and the generated HTML. No external
+font request is added to the public page. The native filter `details`/`summary`
+retains its keyboard and expanded-state semantics; an aria-hidden 20px triangle
+provides a consistently sized indicator, a 14px text gap, and open-state rotation.
+Title offsets of 2px on desktop and 1.5px on mobile align visible logo and
+letter bounds rather than just font line boxes. Narrow mobile titles wrap
+between words instead of shrinking or overflowing; the logo stays centered
+beside the complete text block. Four pixels of mobile brand padding contain
+the font's taller text bounds without crowding the subtitle.
 
 Search, topics, sizes, independent ICORE/CCF ranks, acceptance bands, and Clear
 filters live in the native Filters & search `details` panel. Search is the
@@ -43,7 +56,8 @@ New maintained modules and assets:
 - `assets/site.css`, `assets/site.js`: embedded style and browser behavior.
 - `assets/venue-radar.png`, `assets/venue-radar-original.png`: optimized and
   original selected artwork; candidate provenance is kept under branding/.
-- `assets/vendor/`: Leaflet, Natural Earth geometry, download icon, licenses.
+- `assets/vendor/`: Leaflet, Natural Earth geometry, Lucide icons, Audiowide
+  Latin WOFF2, and their original licenses.
 
 The Python site/calendar build requires only requirements.txt. Workbook editing
 and browser smoke tests use optional maintainer tooling, not runtime dependencies.
