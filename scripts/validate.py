@@ -12,6 +12,7 @@ import yaml
 ROOT = Path(__file__).resolve().parents[1]
 DATA_PATH = ROOT / "data" / "conferences.yml"
 TOPICS_PATH = ROOT / "data" / "topics.yml"
+ICORE_PATH = ROOT / "data" / "icore_rankings.yml"
 
 REQUIRED_FIELDS = {
     "id",
@@ -40,6 +41,7 @@ VALID_CONFIDENCE = {
 }
 
 VALID_RELEVANCE = {"high", "medium", "low", "watch"}
+VALID_ICORE_RANKS = {"A*", "A", "B", "C"}
 
 ID_RE = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 
@@ -84,6 +86,14 @@ def load_controlled_topics(path: Path = TOPICS_PATH) -> set[str] | None:
     if not isinstance(data, list) or not all(_non_empty_string(item) for item in data):
         raise ValueError(f"{path} must contain a YAML list of topic strings")
     return {str(item) for item in data}
+
+
+def load_icore_rankings(path: Path = ICORE_PATH) -> dict[str, Any]:
+    with path.open("r", encoding="utf-8") as handle:
+        data = yaml.safe_load(handle)
+    if not isinstance(data, dict):
+        raise ValueError(f"{path} must contain a YAML mapping")
+    return data
 
 
 def _non_empty_string(value: Any) -> bool:
@@ -258,15 +268,68 @@ def validate_conferences(
     return errors
 
 
+def validate_icore_rankings(
+    conferences: list[dict[str, Any]], data: dict[str, Any]
+) -> list[str]:
+    errors: list[str] = []
+    if data.get("release") != "ICORE2026":
+        errors.append("ICORE release must be ICORE2026")
+    try:
+        parse_date(data.get("checked_on"))
+    except (TypeError, ValueError):
+        errors.append("ICORE checked_on must be an ISO date")
+    source_url = data.get("source_url")
+    if not _non_empty_string(source_url) or not source_url.startswith(
+        "https://portal.core.edu.au/conf-ranks/"
+    ):
+        errors.append("ICORE source_url must point to the official conference portal")
+
+    rankings = data.get("rankings")
+    if not isinstance(rankings, dict):
+        return errors + ["ICORE rankings must be a mapping"]
+
+    series_records: dict[str, list[dict[str, Any]]] = {}
+    for conference in conferences:
+        if isinstance(conference, dict) and _non_empty_string(conference.get("series")):
+            series_records.setdefault(conference["series"], []).append(conference)
+
+    seen_portal_ids: set[int] = set()
+    for series, entry in rankings.items():
+        if not _non_empty_string(series) or series not in series_records:
+            errors.append(f"ICORE series '{series}' is not in conferences.yml")
+            continue
+        if not isinstance(entry, dict):
+            errors.append(f"ICORE {series}: entry must be a mapping")
+            continue
+        rank = entry.get("rank")
+        if not isinstance(rank, str) or rank not in VALID_ICORE_RANKS:
+            errors.append(f"ICORE {series}: rank must be A*, A, B, or C")
+        portal_id = entry.get("portal_id")
+        if type(portal_id) is not int or portal_id <= 0:
+            errors.append(f"ICORE {series}: portal_id must be a positive integer")
+        elif portal_id in seen_portal_ids:
+            errors.append(f"ICORE {series}: duplicate portal_id {portal_id}")
+        else:
+            seen_portal_ids.add(portal_id)
+        if any(
+            "workshop" in str(record.get("submission_type", "")).lower()
+            for record in series_records[series]
+        ):
+            errors.append(f"ICORE {series}: workshops must not inherit main-track ranks")
+    return errors
+
+
 def main() -> int:
     try:
         conferences = load_conferences()
         controlled_topics = load_controlled_topics()
+        icore_rankings = load_icore_rankings()
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"Validation failed: {exc}", file=sys.stderr)
         return 1
 
     errors = validate_conferences(conferences, controlled_topics)
+    errors.extend(validate_icore_rankings(conferences, icore_rankings))
     if errors:
         print("Validation failed:", file=sys.stderr)
         for error in errors:

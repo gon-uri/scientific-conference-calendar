@@ -4,12 +4,20 @@ from pathlib import Path
 
 from build_ics import build_calendars
 from build_site import build_site
-from validate import ROOT, load_conferences, load_controlled_topics, validate_conferences
+from validate import (
+    ROOT,
+    load_conferences,
+    load_controlled_topics,
+    load_icore_rankings,
+    validate_conferences,
+    validate_icore_rankings,
+)
 
 
 def main() -> int:
     conferences = load_conferences()
     errors = validate_conferences(conferences, load_controlled_topics())
+    errors.extend(validate_icore_rankings(conferences, load_icore_rankings()))
     if errors:
         print("Validation failed:")
         for error in errors:

@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-05
+Last synchronized: 2026-10-06
 
 ## Feature Checklist
 
@@ -13,10 +13,19 @@ Last synchronized: 2026-10-05
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
 - Known issues: Many future editions are intentionally marked `estimated`; they need periodic review and source confirmation.
 
+### ICORE Rankings
+
+- Current status: Completed
+- Brief description: `data/icore_rankings.yml` holds 32 verified ICORE 2026 A*/A/B/C ranks at the conference-series level, with official portal IDs and export provenance. Unlisted venues, satellite workshops, and the joint IJCAI-ECAI record intentionally have no inferred rank. The synchronized workbook carries the rank and its direct ICORE source link.
+- Files modified: `data/icore_rankings.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`, `tests/test_icore.py`
+- Tests implemented: Rank schema and workshop exclusion in validation; targeted rendering and validation tests in `tests/test_icore.py`.
+- Remaining work: Re-audit against the next ICORE release when published.
+- Known issues: ICORE ranks selected computing conferences and main-track full papers, not every venue type in this calendar.
+
 ### Data Validation
 
 - Current status: Completed
-- Brief description: Validation checks required fields, IDs, date formats, topic taxonomy membership, confidence and relevance values, source URL requirements for confirmed data, and duplicate deadline UID keys.
+- Brief description: Validation checks required fields, IDs, date formats, topic taxonomy membership, confidence and relevance values, source URL requirements for confirmed data, duplicate deadline UID keys, and the ICORE release, rank, portal ID, and workshop mapping.
 - Files modified: `scripts/validate.py`
 - Tests implemented: `python scripts/validate.py`; also run in `.github/workflows/build.yml`.
 - Remaining work: Add automated checks for stale `last_checked` values if freshness enforcement becomes necessary.
@@ -34,7 +43,7 @@ Last synchronized: 2026-10-05
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates `docs/index.html`, a static GitHub Pages site with searchable/filterable deadline and conference tables, confidence labels, per-conference ICS downloads, and client-side countdowns. The current presentation uses compact size labels, a slightly wider conference confidence column, and clarified estimated-entry wording.
+- Brief description: Generates `docs/index.html`, a static GitHub Pages site with searchable/filterable deadline and conference tables, confidence labels, per-conference ICS downloads, client-side countdowns, and a sourced ICORE column immediately after Difficulty in both tables.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI.
 - Remaining work: Add browser or HTML regression checks before large UI changes.
@@ -52,7 +61,7 @@ Last synchronized: 2026-10-05
 ### CI Build
 
 - Current status: Completed
-- Brief description: GitHub Actions installs Python dependencies, validates data, and runs the full build on pushes and pull requests.
+- Brief description: GitHub Actions installs Python dependencies, validates data, tests ranking integration, and runs the full build on pushes and pull requests.
 - Files modified: `.github/workflows/build.yml`, `requirements.txt`
 - Tests implemented: Workflow runs `python scripts/validate.py` and `python scripts/build_all.py`.
 - Remaining work: Consider checking for uncommitted generated-output drift in CI if generated files are expected to stay committed.

@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-05
+Last synchronized: 2026-10-06
 
 ## Milestones
 
@@ -40,9 +40,9 @@ Last synchronized: 2026-10-05
 
 - Goal: Show a sourced conference-series ranking after Difficulty without implying that workshops or unlisted venues inherit a parent conference's rank.
 - Priority: Medium
-- Dependencies: User selection of a ranking source; series-level mapping, source/year metadata, and a blank state for uncovered venues.
+- Dependencies: ICORE 2026 portal export; series-level mapping, source/year metadata, and a blank state for uncovered venues.
 - Estimated complexity: Medium
-- Completion status: Proposed; ICORE 2026 recommended, awaiting user decision.
+- Completion status: Completed with ICORE 2026; refresh when ICORE publishes a new release.
 
 ### Calendar Feed Reliability
 

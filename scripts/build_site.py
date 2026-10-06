@@ -9,12 +9,15 @@ import yaml
 
 from validate import (
     DATA_PATH,
+    ICORE_PATH,
     load_conferences,
     load_controlled_topics,
+    load_icore_rankings,
     parse_date,
     parse_datetime,
     stable_slug,
     validate_conferences,
+    validate_icore_rankings,
 )
 
 
@@ -161,6 +164,22 @@ def _metadata_label(value: Any) -> str:
     return f'<span class="meta-pill">{escape(str(value))}</span>'
 
 
+def _icore_cell(conference: dict[str, Any], rankings: dict[str, Any]) -> str:
+    entry = rankings.get(conference["series"])
+    if entry is None:
+        return (
+            '<span class="rank-empty" title="No ICORE 2026 main-track rank '
+            'is listed for this conference series.">&mdash;</span>'
+        )
+    rank = entry["rank"]
+    url = f'https://portal.core.edu.au/conf-ranks/{entry["portal_id"]}/'
+    return (
+        f'<a class="rank-link" href="{_attr(url)}" '
+        f'title="ICORE 2026: {_attr(rank)}. Applies to main-track full papers.">'
+        f"{escape(rank)}</a>"
+    )
+
+
 def _conference_calendar_href(conference: dict[str, Any]) -> str:
     return f"conferences/{conference['id']}.ics"
 
@@ -220,7 +239,9 @@ def _deadline_grid_rows(deadlines: list[dict[str, Any]]) -> str:
     return f'<div class="deadline-grid" data-deadline-grid>{"".join(rows)}</div>'
 
 
-def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
+def _deadline_group_rows(
+    conferences: list[dict[str, Any]], rankings: dict[str, Any]
+) -> str:
     rows = []
     grouped = []
     for conference in conferences:
@@ -266,6 +287,7 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td data-label=\"ICORE\">{_icore_cell(conference, rankings)}</td>"
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f"<td data-label=\"Confidence\">{_confidence_label(conference['confidence'])}</td>"
             f"<td data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
@@ -274,7 +296,9 @@ def _deadline_group_rows(conferences: list[dict[str, Any]]) -> str:
     return "\n".join(rows)
 
 
-def _conference_rows(conferences: list[dict[str, Any]]) -> str:
+def _conference_rows(
+    conferences: list[dict[str, Any]], rankings: dict[str, Any]
+) -> str:
     rows = []
     for conference in sorted(
         conferences,
@@ -289,6 +313,7 @@ def _conference_rows(conferences: list[dict[str, Any]]) -> str:
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
             f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
             f"<td data-label=\"Difficulty\">{_metadata_label(conference.get('difficulty', ''))}</td>"
+            f"<td data-label=\"ICORE\">{_icore_cell(conference, rankings)}</td>"
             f"<td data-label=\"Submission Type\">{escape(conference.get('submission_type', ''))}</td>"
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f"<td data-label=\"Confidence\">{_confidence_label(conference['confidence'])}</td>"
@@ -361,15 +386,22 @@ def _checkbox_group(label: str, group: str, values: list[str], slug_values: bool
     )
 
 
-def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
+def build_site(
+    data_path: Path = DATA_PATH,
+    docs_dir: Path = DOCS_DIR,
+    rankings_path: Path = ICORE_PATH,
+) -> Path:
     conferences = load_conferences(data_path)
+    icore_data = load_icore_rankings(rankings_path)
     errors = validate_conferences(conferences, load_controlled_topics())
+    errors.extend(validate_icore_rankings(conferences, icore_data))
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
 
     docs_dir.mkdir(parents=True, exist_ok=True)
     output = docs_dir / "index.html"
     last_updated = _dataset_last_updated(conferences)
+    rankings = icore_data["rankings"]
 
     html = f"""<!doctype html>
 <html lang="en">
@@ -722,6 +754,30 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       background: #eef2f6;
       color: #344255;
     }}
+    .rank-link,
+    .rank-empty {{
+      display: inline-block;
+      min-width: 1.5rem;
+      padding: 2px 4px;
+      text-align: center;
+      font-size: 0.82rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }}
+    .rank-link {{
+      border-radius: 4px;
+      background: #e8f3ec;
+      color: #1c5d3a;
+      text-decoration: none;
+    }}
+    .rank-link:hover,
+    .rank-link:focus {{
+      text-decoration: underline;
+    }}
+    .rank-empty {{
+      color: var(--muted);
+      font-weight: 500;
+    }}
     .confidence {{
       background: #ffffff;
       color: var(--muted);
@@ -869,7 +925,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-deadlines" role="tabpanel" aria-labelledby="tab-deadlines" data-tab-panel="deadlines">
         <div class="table-wrap">
           <table>
-            {_colgroup(["3%", "15%", "8%", "13%", "10%", "5%", "8%", "23%", "8%", "7%"])}
+            {_colgroup(["3%", "14%", "8%", "13%", "9%", "5%", "8%", "5%", "20%", "8%", "7%"])}
             <thead>
               <tr>
                 <th class="expand-header" aria-label="Expand"></th>
@@ -879,13 +935,14 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
                 <th>Conference</th>
                 <th>Size</th>
                 <th>Difficulty</th>
+                <th><a href="https://portal.core.edu.au/" title="ICORE 2026 conference ranks">ICORE</a></th>
                 <th>Topics</th>
                 <th>Confidence</th>
                 <th>Calendar</th>
               </tr>
             </thead>
             <tbody id="deadlines-body">
-              {_deadline_group_rows(conferences)}
+              {_deadline_group_rows(conferences, rankings)}
             </tbody>
           </table>
         </div>
@@ -894,7 +951,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <div class="table-wrap">
           <table>
-            {_colgroup(["14%", "10%", "12%", "5%", "8%", "15%", "21%", "8%", "7%"])}
+            {_colgroup(["13%", "10%", "12%", "5%", "8%", "5%", "14%", "18%", "8%", "7%"])}
             <thead>
               <tr>
                 <th>Dates</th>
@@ -902,6 +959,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
                 <th>Location</th>
                 <th>Size</th>
                 <th>Difficulty</th>
+                <th><a href="https://portal.core.edu.au/" title="ICORE 2026 conference ranks">ICORE</a></th>
                 <th>Submission Type</th>
                 <th>Topics</th>
                 <th>Confidence</th>
@@ -909,7 +967,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
               </tr>
             </thead>
             <tbody>
-              {_conference_rows(conferences)}
+              {_conference_rows(conferences, rankings)}
             </tbody>
           </table>
         </div>
@@ -919,6 +977,7 @@ def build_site(data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR) -> Path:
     <footer>
       <strong>Database last updated {escape(last_updated)}.</strong>
       The calendar is reviewed regularly as organizers publish new schedules. Entries are marked {_confidence_label("estimated")} when we are not fully certain about a particular scraped or researched date. In some cases, prior-edition timing is used as a proxy because the next official dates or deadlines have not yet been disclosed.
+      <div>ICORE 2026 ranks apply to main-track full papers only. A dash means no rank is shown, not that a venue is low quality.</div>
     </footer>
   </main>
   <script>

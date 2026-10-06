@@ -1,6 +1,6 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-08-31
+Last synchronized: 2026-10-06
 
 ## ADR-001: Keep the Project Static
 
@@ -89,3 +89,11 @@ Last synchronized: 2026-08-31
 - Decision: Keep TS4H as a documented 2025 edition instead of a fabricated 2026 event. Track FMTS 2026 using Dec 11 as an explicitly estimated one-day calendar placeholder until NeurIPS assigns the exact day.
 - Alternatives considered: Retain the unsupported TS4H 2026 dates; represent FMTS as a two-day event even though it lasts one day.
 - Consequences: Calendar subscribers are not shown a false TS4H 2026 workshop. FMTS remains discoverable with visible date uncertainty and must be revisited when the day is announced.
+
+## ADR-012: Source ICORE Ranks by Conference Series
+
+- Date: 2026-10-06
+- Context: The user selected ICORE for a webpage rank column. The official ICORE 2026 export provides ranks for selected computing venues but does not assign a rank to every tracked series or to satellite workshops.
+- Decision: Keep a separate, validated series-level mapping of A*/A/B/C ranks and ICORE portal IDs in `data/icore_rankings.yml`. Show linked ranks after Difficulty in both website tables; use a dash when no direct rank is mapped. Do not transfer constituent ranks to the joint IJCAI-ECAI edition or a parent rank to a workshop.
+- Alternatives considered: Duplicate ranks in every edition record; infer ranks from acronym similarities; treat unlisted venues as C or Unranked.
+- Consequences: Rank provenance is auditable, edition data remains canonical for conference facts, and missing ranks do not imply low quality. The mapping and workbook require review when ICORE releases new rankings.

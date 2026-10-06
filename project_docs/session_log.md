@@ -1,5 +1,15 @@
 # Session Log
 
+## 2026-10-06
+
+- Objective: Publish ICORE 2026 conference ranks in both calendar table tabs.
+- Tasks completed:
+  - Audited the official ICORE 2026 export against all 61 tracked series and recorded 32 verified main-track ranks with direct source links. Left unmatched, joint-event, and workshop ranks blank rather than inferring them.
+  - Added the ICORE column after Difficulty in both Upcoming Deadlines and Upcoming Conferences, including a clear missing-rank state and scope note.
+  - Synchronized the series workbook, added ranking validation and focused tests, and rebuilt the generated page.
+- Tests run: Data validation, unit tests, static build, official-export cross-check, workbook inspection, and desktop/mobile visual checks.
+- Remaining tasks: Recheck the ranking source when ICORE publishes a new release; continue the existing review of provisional conference dates.
+
 ## 2026-10-05
 
 - Objective: Add IDA, AIME, and FMTS editions; refresh the conference calendar; research ranking sources for a possible website column.

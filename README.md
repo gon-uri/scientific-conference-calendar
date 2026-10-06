@@ -48,6 +48,12 @@ Each conference entry includes normalized topics, size, acceptance difficulty,
 and submission type. Confirmed dates should include official source URLs; proxy
 dates should remain marked as `estimated` with a note.
 
+`data/icore_rankings.yml` contains the ICORE 2026 series-level ranks shown after
+Difficulty on the website. Each rank links to its official ICORE entry. Blank
+values mean no A*/A/B/C rank is displayed; workshops do not inherit their parent
+conference's rank. The source workbook in `data/` includes the same ranks and
+links for catalog review.
+
 ## GitHub Pages
 
 After pushing the repository to GitHub:

@@ -1,0 +1,36 @@
+release: "ICORE2026"
+checked_on: "2026-10-06"
+source_url: "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=1&do=Export"
+rankings:
+  "AAAI": {rank: "A*", portal_id: 1629}
+  "ACML": {rank: "C", portal_id: 2174}
+  "ADMA": {rank: "C", portal_id: 888}
+  "AIES": {rank: "C", portal_id: 2354}
+  "AIME": {rank: "B", portal_id: 151}
+  "AISTATS": {rank: "A", portal_id: 913}
+  "CHI": {rank: "A*", portal_id: 1053}
+  "CIKM": {rank: "A", portal_id: 25}
+  "COLT": {rank: "A*", portal_id: 124}
+  "Discovery Science": {rank: "B", portal_id: 2191}
+  "DSAA": {rank: "B", portal_id: 2237}
+  "EACL": {rank: "A", portal_id: 468}
+  "ECML PKDD": {rank: "A", portal_id: 491}
+  "ESANN": {rank: "B", portal_id: 512}
+  "ICANN": {rank: "C", portal_id: 915}
+  "ICDM": {rank: "A*", portal_id: 642}
+  "ICLR": {rank: "A*", portal_id: 2273}
+  "ICML": {rank: "A*", portal_id: 1121}
+  "ICONIP": {rank: "B", portal_id: 1152}
+  "ICPR": {rank: "B", portal_id: 1169}
+  "IDA": {rank: "B", portal_id: 845}
+  "IDEAL": {rank: "C", portal_id: 1093}
+  "IEEE BigData": {rank: "B", portal_id: 2274}
+  "IEEE ICMLA": {rank: "C", portal_id: 1122}
+  "IJCNN": {rank: "B", portal_id: 685}
+  "KDD": {rank: "A*", portal_id: 26}
+  "MICCAI": {rank: "A", portal_id: 1607}
+  "NeurIPS": {rank: "A*", portal_id: 98}
+  "PAKDD": {rank: "B", portal_id: 1667}
+  "SDM": {rank: "A", portal_id: 1727}
+  "UAI": {rank: "A", portal_id: 346}
+  "WSDM": {rank: "A", portal_id: 31}
