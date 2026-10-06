@@ -1,6 +1,6 @@
-# [Open Venue Radar](https://gon-uri.github.io/scientific-conference-calendar/)
+<a href="https://gon-uri.github.io/scientific-conference-calendar/"><img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400"></a>
 
-<img src="assets/venue-radar.png" alt="Venue Radar calendar-radar logo" width="88" height="88">
+# [Open Venue Radar](https://gon-uri.github.io/scientific-conference-calendar/)
 
 **Venue Radar** is a scientific conference calendar for finding the next place
 to share your research. It tracks conferences in machine learning and AI, data

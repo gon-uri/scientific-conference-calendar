@@ -10,6 +10,14 @@ organizer API is called at runtime. `data/cities.yml` maps exact canonical
 location aliases to approximate city centers; only confirmed future meeting
 dates with a mapped city are shown. Map markers and tables share filters.
 
+The active 256px logo has four flat RGB colors: #263238 border, #38A6B0 radar
+arcs/center/sweep, #C85C62 location dot, and #FFFFFF calendar interior. Its
+original foreground alpha/geometry is preserved; the exterior stays transparent.
+scripts/recolor_logo.mjs derives it from the immutable pre-recolor 256px source
+under assets/branding. scripts/build_readme_banner.mjs renders a 1400x175 white
+banner with the actual embedded Audiowide font and this logo. Both are optional
+maintainer tools, not Python build or website runtime dependencies.
+
 The header uses an 82px mark with a 42px title on desktop and a 66px mark with
 a 34px title on mobile. Audiowide's native 400-weight Latin WOFF2 is embedded
 in the HTML as a data URL; body/table typography is unchanged. The original
@@ -55,7 +63,9 @@ New maintained modules and assets:
   preserves table styles, validates values, renders previews, exports XLSX.
 - `assets/site.css`, `assets/site.js`: embedded style and browser behavior.
 - `assets/venue-radar.png`, `assets/venue-radar-original.png`: optimized and
-  original selected artwork; candidate provenance is kept under branding/.
+  original selected artwork; the active optimized file is recolored, while the
+  original generation and pre-recolor source remain unchanged. Banner and
+  candidate provenance are kept under branding/.
 - `assets/vendor/`: Leaflet, Natural Earth geometry, Lucide icons, Audiowide
   Latin WOFF2, and their original licenses.
 

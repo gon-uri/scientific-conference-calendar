@@ -48,6 +48,27 @@ Set the runtime variables to actual discovered paths. Use a URL-encoded file
 URL if the checkout path contains spaces. The normal Python CI does not require
 Playwright; browser checks are a separate maintainer step for interface changes.
 
+## Optional Branding Assets
+
+The logo palette and README banner are generated from maintained assets.
+The original generation and assets/branding/venue-radar-source.png are immutable
+references; do not recolor an already recolored/resized output. The recolor
+script uses Sharp and verifies the four RGB colors and unchanged foreground
+alpha/position. Banner rendering uses Playwright with the real Audiowide font.
+Both libraries are optional maintainer dependencies, not website dependencies.
+
+With the same temporary dependency directory prepared above:
+
+```sh
+cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs /tmp/venue-radar-tools/
+"$NODE_BIN" /tmp/venue-radar-tools/recolor_logo.mjs "$PWD"
+CHROME_BIN="$CHROME_BIN" "$NODE_BIN" /tmp/venue-radar-tools/build_readme_banner.mjs "$PWD"
+python scripts/build_all.py
+```
+
+Inspect the logo, banner, and desktop/mobile page before committing the assets
+and regenerated HTML together. Calendar data/feeds do not change for this work.
+
 ## Optional Workbook Synchronization
 
 The checked-in workbook is a review mirror, not a second source of truth.

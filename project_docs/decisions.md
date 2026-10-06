@@ -202,6 +202,13 @@ Last synchronized: 2026-10-07
   the original OFL notice. Keep body/table fonts and existing brand colors.
   Apply small optical vertical offsets and allow word wrapping on narrow
   mobile screens. No external font service becomes a runtime dependency.
+- 2026-10-07 palette refinement: the user approved direct pixel recoloring
+  after generated edits introduced subtle shape/color drift. Preserve every
+  original foreground pixel's alpha; map both blues to #38A6B0, the location
+  dot to #C85C62, and the border to #263238. Fill only the calendar interior
+  white and retain exterior transparency. A browser-rendered white README
+  banner uses the real Audiowide font, avoiding generated lettering. Keep the
+  pre-recolor source and original generation unchanged for provenance.
 
 ## ADR-023: Use Optional Giscus For Community Requests
 

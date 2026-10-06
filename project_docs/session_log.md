@@ -1,5 +1,30 @@
 # Session Log
 
+## 2026-10-07 (four-color logo and README banner)
+
+- Objective: Change only the logo colors and place a full-width white
+  logo/Audiowide banner at the top of README.
+- Method: two built-in image-editor trials were discarded because they
+  introduced subtle edge/shading changes. The user explicitly approved direct
+  pixel processing instead. Preserved the existing 256px source under
+  assets/branding/venue-radar-source.png and left the original 1254px generation
+  untouched. No foreground position, stroke shape, size, or alpha was changed.
+- Completed: exact four-color logo (#263238, #38A6B0, #C85C62, #FFFFFF),
+  opaque white calendar interior/header, and transparent exterior. The same
+  active asset is embedded as website mark/favicon. README starts with a
+  clickable 1400x175 white banner rendered with the real Audiowide face;
+  the prominent text link follows it and the separate small logo was removed.
+- Maintenance: added recolor_logo.mjs and build_readme_banner.mjs as optional
+  Sharp/Playwright maintainer tools. Documented commands, palette, source
+  provenance, and geometry guarantees in the project documents.
+- Verification: recolor assertions confirm four nontransparent RGB values
+  and unchanged foreground alpha at every original pixel. All 93 records
+  validate, 32 Python tests and the full build pass, and browser checks pass
+  at 1440/1051/1050/768/390/320px. Final banner and mobile page were inspected.
+- Publication: source assets, README, maintained docs, and generated HTML
+  are committed together. Canonical data, ranks, dates, and all ICS feeds
+  are unchanged.
+
 ## 2026-10-07 (Audiowide selection and publication)
 
 - Objective: Apply the user's chosen Audiowide title and publish the approved

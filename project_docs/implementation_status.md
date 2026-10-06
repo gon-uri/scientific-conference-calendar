@@ -7,6 +7,10 @@ Last synchronized: 2026-10-07
 - Implemented: Venue Radar branding and refined calendar/radar logo, restrained
   visual styling, compact S/M/L/XL/XXL filters, seven hierarchical topic families,
   and a Conferences tab with an offline world map and date-sorted tables.
+- Logo palette: dark blue-gray #263238, unified light blue #38A6B0, muted red
+  location dot #C85C62, and white calendar interior. Original symbol edge coverage
+  is preserved by direct pixel recoloring; exterior transparency stays intact.
+  README begins with a full-width, clickable white Audiowide/logo banner.
 - Interface polish: an initially collapsed Filters & search panel contains
   metadata filters, independent ICORE/CCF selections, Search, and Clear filters.
   Search is aligned to the right of Acceptance rate on desktop. Topics &
@@ -91,7 +95,7 @@ Last synchronized: 2026-10-07
 - Current status: Completed
 - Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 29 Python tests and browser smoke script cover ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, time-estimate placement and milestone transitions, navigation, map interactions, and overflow at 1440/1051/1050/768/390/320px.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 32 Python tests and browser smoke script cover embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 

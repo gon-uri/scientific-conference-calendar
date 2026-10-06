@@ -5,7 +5,9 @@ Date: 2026-10-06
 ## Status
 
 Approved and implemented as Venue Radar. Option 2 was refined into a bespoke
-calendar/radar mark with a sector-shaped teal sweep and an amber dot inside it.
+calendar/radar mark with a sector-shaped sweep. The active mark now has a
+unified light blue radar and a muted red location dot; the original amber
+version remains archived. The geometry is unchanged by the approved pixel recolor.
 The canonical catalog, website, workbook, README, licenses, and maintenance
 documentation now reflect the approved package. Giscus prerequisites are
 confirmed by the official checker and the published comments widget renders.
@@ -91,12 +93,11 @@ it is an ML subtopic, not a separate broad family.
 Mode: reference-image edit, built-in image generation, transparent background.
 Source: the selected calendar/radar candidate, refined twice; the final edit
 replaced the thin ray with a filled sector after the user's explicit feedback.
-Original: `assets/venue-radar-original.png`. Optimized 256px header/README asset:
-`assets/venue-radar.png`. Both are checked visually at desktop/mobile display
-sizes. Charcoal, muted teal, and amber harmonize with the website's neutral
-surfaces and teal accents. No vector reconstruction or SVG tracing was used.
+Original generation: `assets/venue-radar-original.png`. The pre-recolor 256px
+source is `assets/branding/venue-radar-source.png`; the active header/favicon
+asset is `assets/venue-radar.png`. No vector reconstruction or SVG tracing was used.
 
-Final prompt:
+Original Generation Prompt (2026-10-06):
 
 > Use case: logo-brand / precise-object-edit. Edit the attached calendar-radar
 > logo into a more distinctive, stylish tech brand mark for Venue Radar. Keep
@@ -115,6 +116,29 @@ Final prompt:
 > layering is welcome but NO glow, gradients, bevel, texture, shadow, 3D or
 > mockup. Genuine transparent background, square composition, compact 8 percent
 > margin, no text, no watermark. One finished standalone logo.
+
+### Four-Color Recolor And README Banner (2026-10-07)
+
+The user requested color changes only and approved direct pixel processing
+to prevent shape drift. Two built-in image-editor trials were not adopted:
+their edges/shading were not exact enough for this requirement.
+
+Active palette: border #263238; arcs, radar center and sweep #38A6B0;
+location dot #C85C62; calendar interior #FFFFFF. scripts/recolor_logo.mjs
+preserves every original nontransparent foreground pixel's alpha and position,
+maps its RGB to the selected palette, and fills transparent interior space
+between the existing calendar sides. The exterior and the space above the
+binding tabs stay transparent. Assertions verify exactly four nontransparent
+RGB colors, unchanged foreground edge coverage, and opaque white interior/header.
+Browser rendering retains alpha antialiasing; no shape is traced or redrawn.
+
+The 1400x175 white banner at assets/branding/venue-radar-banner.png pairs this
+logo with the real Audiowide face at native weight 400. It uses the website's
+logo/title proportions and optical alignment, scaled by 1.5. It appears first
+in README, spans the content width, and links to the calendar. The prominent
+text link follows it. scripts/build_readme_banner.mjs regenerates the PNG;
+development.md documents both optional commands. Neither trial image nor
+additional font family is included in the public page.
 
 ## Logo Candidates
 
