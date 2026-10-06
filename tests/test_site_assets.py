@@ -24,9 +24,30 @@ class SiteAssetTests(unittest.TestCase):
             self.assertEqual(png[:8], b"\x89PNG\r\n\x1a\n")
             self.assertEqual(struct.unpack(">II", png[16:24]), dimensions)
         readme = (ASSETS_DIR.parent / "README.md").read_text(encoding="utf-8")
-        self.assertTrue(readme.startswith('<a href="https://gon-uri.github.io/scientific-conference-calendar/">'))
+        self.assertTrue(readme.startswith('<a href="https://gon-uri.github.io/venue-radar/">'))
         self.assertLess(readme.index("assets/branding/venue-radar-banner.png"), readme.index("# [Open Venue Radar]"))
         self.assertNotIn('src="assets/venue-radar.png"', readme)
+
+    def test_renamed_repository_links_and_stable_comment_mapping(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        repo = "https://github.com/gon-uri/venue-radar"
+        for suffix in (
+            "", "/issues/new?template=conference-request.yml", "/discussions",
+            "/blob/main/LICENSE", "/blob/main/CONTENT-LICENSE.md",
+        ):
+            self.assertIn(f'href="{repo}{suffix}"', html)
+        self.assertIn("repo: 'gon-uri/venue-radar'", html)
+        self.assertIn("'repo-id': 'R_kgDOTQKmZg'", html)
+        self.assertIn("'category-id': 'DIC_kwDOTQKmZs4DHLTi'", html)
+        self.assertIn("mapping: 'specific', term: 'Venue Radar community'", html)
+        self.assertIn('href="calendar-all.ics" download', html)
+        texts = [html]
+        texts.extend((ASSETS_DIR.parent / name).read_text(encoding="utf-8")
+                     for name in ("README.md", "CONTENT-LICENSE.md"))
+        for text in texts:
+            self.assertNotIn("gon-uri/scientific-conference-calendar", text)
+            self.assertNotIn("gon-uri.github.io/scientific-conference-calendar", text)
 
     def test_current_logo_is_embedded_in_the_site(self) -> None:
         with TemporaryDirectory() as directory:

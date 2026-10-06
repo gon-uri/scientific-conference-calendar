@@ -1,5 +1,27 @@
 # Session Log
 
+## 2026-10-07 (repository rename migration)
+
+- Objective: Adapt the project after the user renamed the GitHub repository
+  from scientific-conference-calendar to venue-radar.
+- Completed: README website/banner/request links, content attribution, public
+  request/discussion/star/license links, Giscus repository name, and local Git
+  origin now use gon-uri/venue-radar. Pages still publishes main/docs and its
+  configured homepage is https://gon-uri.github.io/venue-radar/.
+- Stable identities: GitHub and Giscus's own category API confirm unchanged
+  repository/category IDs and retained Discussions support. Keep the specific
+  Venue Radar community mapping and the published calendar UID namespace.
+  Relative download paths work under the new Pages base. Existing subscribers
+  must update old absolute feed URLs; no replacement legacy repository is made.
+- Verification: all 93 records validate; 34 Python tests and the full build
+  pass. Browser checks pass at 1440/1051/1050/768/390/320px, including new links,
+  injected Giscus settings, relative calendar paths, and unchanged UI behavior.
+  All 123 ICS feeds and canonical data are unchanged. No old navigable project
+  URLs remain in maintained sources or generated HTML. The workbook contains
+  no obsolete project URL and needs no modification.
+- Publication: sources, migration notes, regression checks, and generated
+  HTML are committed together for the renamed repository's existing Pages setup.
+
 ## 2026-10-07 (open submission status simplification)
 
 - Objective: Remove the leading dot from open submission statuses and publish.

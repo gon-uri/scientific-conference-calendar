@@ -103,15 +103,29 @@ counts and values. No Node or spreadsheet library is needed to build the site.
 
 ## Community Setup
 
-Discussions are enabled for `gon-uri/scientific-conference-calendar`. Giscus's
-official configuration checker confirmed all prerequisites on 2026-10-06 and
-the live widget rendered correctly. For a new fork, its owner must install
+Discussions are enabled for `gon-uri/venue-radar`. Giscus's official API
+reconfirmed repository access and category IDs after the rename on 2026-10-07;
+the live widget was originally verified on 2026-10-06. For a new fork, its owner must install
 [Giscus](https://github.com/apps/giscus) for that repository only.
 The embedded client uses its verified repository ID, Announcements category,
 and the stable specific term `Venue Radar community`. Verify the rendered
 widget on the live page after installation. GitHub sign-in is required to
 comment. A direct Discussions link and structured conference-request issue
 form are always available even if the optional widget cannot load.
+
+## Repository Rename
+
+The current repository is https://github.com/gon-uri/venue-radar and the website
+is https://gon-uri.github.io/venue-radar/. The local Git remote must use the
+current repository URL. Pages continues publishing main/docs.
+
+After a future rename, update README, attribution, site navigation, Giscus's
+repository name, and corresponding regression checks before rebuilding. Keep
+existing Giscus IDs/mapping and the published calendar UID namespace unchanged.
+Calendar download paths are relative; subscribers using an old absolute feed
+URL must change its base to the new Pages URL. Do not mass-replace the historical
+UID namespace, which is not a navigable URL. Verify GitHub's Pages configuration,
+the live comment widget, and representative aggregate/topic/edition downloads.
 
 ## Rankings And Acceptance
 

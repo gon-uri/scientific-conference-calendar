@@ -59,6 +59,23 @@ try {
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  const repository = 'https://github.com/gon-uri/venue-radar';
+  assert.equal(await page.getByRole('link', {name: 'Request a conference', exact: true}).getAttribute('href'), `${repository}/issues/new?template=conference-request.yml`);
+  assert.equal(await page.getByRole('link', {name: 'GitHub discussions', exact: true}).getAttribute('href'), `${repository}/discussions`);
+  assert.equal(await page.getByRole('link', {name: 'Find Venue Radar useful? Star the repository', exact: true}).getAttribute('href'), repository);
+  assert.equal(await page.getByRole('link', {name: 'Code: MIT', exact: true}).getAttribute('href'), `${repository}/blob/main/LICENSE`);
+  assert.equal(await page.getByRole('link', {name: 'Original content: CC BY 4.0', exact: true}).getAttribute('href'), `${repository}/blob/main/CONTENT-LICENSE.md`);
+  assert(await page.locator('a[download]').evaluateAll(links => links.length > 0 && links.every(link => {
+    const path = link.getAttribute('href');
+    return path.endsWith('.ics') && !path.startsWith('/') && !path.includes(':');
+  })), 'Calendar downloads must resolve relative to the renamed project site');
+  await page.evaluate(() => loadCommunityComments());
+  const commentClient = page.locator('.giscus script');
+  assert.equal(await commentClient.getAttribute('data-repo'), 'gon-uri/venue-radar');
+  assert.equal(await commentClient.getAttribute('data-repo-id'), 'R_kgDOTQKmZg');
+  assert.equal(await commentClient.getAttribute('data-category-id'), 'DIC_kwDOTQKmZs4DHLTi');
+  assert.equal(await commentClient.getAttribute('data-mapping'), 'specific');
+  assert.equal(await commentClient.getAttribute('data-term'), 'Venue Radar community');
   const openStatuses = page.locator('#panel-deadlines .status-open');
   const openLabels = await openStatuses.allTextContents();
   assert(openLabels.includes('Open abstract submissions'));

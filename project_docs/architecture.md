@@ -2,6 +2,20 @@
 
 Last synchronized: 2026-10-07
 
+## Repository Identity
+
+The user renamed the repository to `gon-uri/venue-radar` on 2026-10-07.
+The canonical website is https://gon-uri.github.io/venue-radar/; GitHub Pages
+still publishes the main branch's /docs directory. Public navigation,
+README attribution, and Giscus use the renamed repository. Giscus retains
+repository ID R_kgDOTQKmZg, Announcements ID DIC_kwDOTQKmZs4DHLTi, and the
+specific discussion term Venue Radar community.
+
+Calendar downloads use relative paths beneath the new site URL. The historical
+scientific-conference-calendar UID namespace remains deliberately unchanged:
+repository branding is not event identity. Existing subscribers must replace
+the old feed URL in their calendar client; GitHub does not redirect Pages URLs.
+
 ## Venue Radar Extension
 
 The standalone generated HTML embeds the refined PNG logo, Leaflet JS/CSS,

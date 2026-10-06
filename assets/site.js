@@ -131,7 +131,7 @@ function loadCommunityComments() {
   const script = document.createElement('script');
   script.src = 'https://giscus.app/client.js';
   const settings = {
-    repo: 'gon-uri/scientific-conference-calendar', 'repo-id': 'R_kgDOTQKmZg',
+    repo: 'gon-uri/venue-radar', 'repo-id': 'R_kgDOTQKmZg',
     category: 'Announcements', 'category-id': 'DIC_kwDOTQKmZs4DHLTi',
     mapping: 'specific', term: 'Venue Radar community', strict: '1',
     'reactions-enabled': '1', 'emit-metadata': '0', 'input-position': 'top',

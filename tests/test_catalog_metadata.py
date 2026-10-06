@@ -8,7 +8,7 @@ import unittest
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 
-from build_ics import _deadline_event
+from build_ics import _conference_event, _deadline_event
 from build_site import _milestones
 from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata
 from rollover_editions import rollover_candidates
@@ -87,6 +87,15 @@ class CatalogMetadataTests(unittest.TestCase):
         milestone = next(m for m in _milestones(sample) if m['type'] == deadline['type'])
         self.assertTrue(milestone['approximate_time'])
         self.assertFalse(milestone['estimated'])
+
+    def test_repository_rename_preserves_published_uid_namespace(self):
+        item = next(item for item in self.conferences if item['id'] == 'l4dc-2027')
+        self.assertIn('UID:l4dc-2027-conference@scientific-conference-calendar',
+                      _conference_event(item))
+        for deadline in item['deadlines']:
+            uid = next(line for line in _deadline_event(item, deadline)
+                       if line.startswith('UID:'))
+            self.assertTrue(uid.endswith('@scientific-conference-calendar'))
 
     def test_triennial_rollover_does_not_invent_annual_sysid(self):
         previous = deepcopy(next(item for item in self.conferences if item['id'] == 'ifac-sysid-2027'))

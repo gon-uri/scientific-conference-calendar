@@ -19,6 +19,9 @@ Last synchronized: 2026-10-07
   specimens and the final choice are documented in typography_proposal.md.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
+- Completed repository migration: gon-uri/venue-radar with updated public
+  links, Giscus name, attribution, and Git origin. Preserve all published event
+  UIDs and the existing community mapping; old feed subscriptions need new URLs.
 - Deferred: user accounts, live scraping, custom backend, and map tile services
   are deliberately outside the static architecture.
 

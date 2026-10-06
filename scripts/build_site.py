@@ -1279,13 +1279,13 @@ def build_site(
       <h2 id="community-title">Community</h2>
       <p>Missing a conference, or spotted a correction? Leave a comment or send a conference request.</p>
       <div class="community-links">
-        <a href="https://github.com/gon-uri/scientific-conference-calendar/issues/new?template=conference-request.yml">Request a conference</a>
-        <a href="https://github.com/gon-uri/scientific-conference-calendar/discussions">GitHub discussions</a>
-        <a href="https://github.com/gon-uri/scientific-conference-calendar">Find Venue Radar useful? Star the repository</a>
+        <a href="https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml">Request a conference</a>
+        <a href="https://github.com/gon-uri/venue-radar/discussions">GitHub discussions</a>
+        <a href="https://github.com/gon-uri/venue-radar">Find Venue Radar useful? Star the repository</a>
         <a href="https://x.com/gonzauri">Follow @gonzauri on X</a>
       </div>
       <div class="giscus"></div>
-      <noscript><a href="https://github.com/gon-uri/scientific-conference-calendar/discussions">Join the discussion on GitHub</a></noscript>
+      <noscript><a href="https://github.com/gon-uri/venue-radar/discussions">Join the discussion on GitHub</a></noscript>
     </section>
     <footer>
       <strong>Database last updated {escape(last_updated)}.</strong>
@@ -1293,7 +1293,7 @@ def build_site(
       <div>ICORE 2026 and CCF 2026 ranks are separate assessments of main-track full papers; a dash means no direct rank is shown. Historical acceptance rates refer to the linked year and track, not the next edition's expected outcome. Unknown means no defensible rate is available.</div>
       <div>Size is a qualitative scale, not a verified attendance count. A time-estimated milestone has a published day but no confirmed cutoff hour. Always check the organizer's call before submitting.</div>
       <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>, Assistant Professor at the <a href="https://www.su.se/english/divisions/department-of-computer-and-systems-sciences">Department of Computer and Systems Sciences</a>, Stockholm University.</div>
-      <div class="author-links"><a href="https://www.su.se/profiles/g/gour8957">University profile</a><a href="https://scholar.google.com/citations?user=q5sweuIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/gon-uri">GitHub</a><a href="https://github.com/gon-uri/scientific-conference-calendar/blob/main/LICENSE">Code: MIT</a><a href="https://github.com/gon-uri/scientific-conference-calendar/blob/main/CONTENT-LICENSE.md">Original content: CC BY 4.0</a></div>
+      <div class="author-links"><a href="https://www.su.se/profiles/g/gour8957">University profile</a><a href="https://scholar.google.com/citations?user=q5sweuIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/gon-uri">GitHub</a><a href="https://github.com/gon-uri/venue-radar/blob/main/LICENSE">Code: MIT</a><a href="https://github.com/gon-uri/venue-radar/blob/main/CONTENT-LICENSE.md">Original content: CC BY 4.0</a></div>
     </footer>
   </main>
   <script>{leaflet_js}</script>

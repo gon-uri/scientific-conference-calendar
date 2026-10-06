@@ -18,6 +18,7 @@ from validate import (
 ROOT = Path(__file__).resolve().parents[1]
 DOCS_DIR = ROOT / "docs"
 TAGS_DIR = DOCS_DIR / "tags"
+# Preserve published event identities independently of repository renames.
 UID_DOMAIN = "scientific-conference-calendar"
 DTSTAMP = "19700101T000000Z"
 

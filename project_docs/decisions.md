@@ -186,7 +186,8 @@ Last synchronized: 2026-10-07
 - Date: 2026-10-06
 - Context: The user selected Venue Radar, a calendar/radar symbol, a sober visual
   refinement, and permissive code/content licensing after discussing restrictions.
-- Decision: Keep repository/Pages URLs and UID domain unchanged. Use a refined
+- Decision: Initially keep repository/Pages URLs and UID domain unchanged (the
+  later user-requested repository migration is recorded in ADR-026). Use a refined
   transparent PNG mark, neutral surfaces, teal accents, and semantic status colors.
   MIT licenses code; CC BY 4.0 licenses original editorial content/artwork. Preserve
   third-party notices and do not claim ownership of conference facts/rankings.
@@ -258,3 +259,18 @@ Last synchronized: 2026-10-07
   expose native topic-family disclosure markers alongside plus/minus signs.
   This supersedes only the original all-controls-inside placement, not any
   ranking or submission-matching semantics.
+
+## ADR-026: Migrate Repository URLs Without Changing Stable Identities
+
+- Date: 2026-10-07
+- Context: The user renamed the repository to gon-uri/venue-radar. Repository
+  redirects do not cover the old GitHub Pages site or calendar-feed URLs.
+- Decision: Use https://github.com/gon-uri/venue-radar and
+  https://gon-uri.github.io/venue-radar/ for maintained public references and
+  local Git origin. Keep relative calendar download paths, the published
+  scientific-conference-calendar UID namespace, existing Giscus repository
+  and category IDs, and its specific discussion term unchanged.
+- Consequences: The new site, request links, attribution, and comments follow
+  the rename without creating new event identities. Existing calendar
+  subscribers must update their feed address. The old Pages address is not
+  retained; no second repository or custom-domain infrastructure is introduced.

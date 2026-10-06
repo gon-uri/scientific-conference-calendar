@@ -11,7 +11,7 @@ governs reuse. Credit Gonzalo Uribarri and Venue Radar, link to this repository
 and the license, and indicate changes. Do not imply endorsement.
 
 Suggested credit: "Based on Venue Radar by Gonzalo Uribarri and contributors,
-https://github.com/gon-uri/scientific-conference-calendar, CC BY 4.0."
+https://github.com/gon-uri/venue-radar, CC BY 4.0."
 
 CC BY permits commercial reuse. This is not a noncommercial license.
 Code, including HTML/CSS/JavaScript build templates, is covered by `LICENSE`

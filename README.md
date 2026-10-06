@@ -1,6 +1,6 @@
-<a href="https://gon-uri.github.io/scientific-conference-calendar/"><img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400"></a>
+<a href="https://gon-uri.github.io/venue-radar/"><img src="assets/branding/venue-radar-banner.png" alt="Venue Radar: calendar-radar logo and Audiowide title" width="1400"></a>
 
-# [Open Venue Radar](https://gon-uri.github.io/scientific-conference-calendar/)
+# [Open Venue Radar](https://gon-uri.github.io/venue-radar/)
 
 **Venue Radar** is a scientific conference calendar for finding the next place
 to share your research. It tracks conferences in machine learning and AI, data
@@ -10,7 +10,7 @@ biomedical AI, neuroscience, and complex systems and control.
 Browse submission opportunities, conference dates and locations, rankings,
 and historical acceptance rates. Uncertain dates are clearly marked as estimates.
 
-Missing a conference? [Send a request](https://github.com/gon-uri/scientific-conference-calendar/issues/new?template=conference-request.yml)
+Missing a conference? [Send a request](https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml)
 or join the comments on the website.
 
 If Venue Radar is useful to you, please **star this repository** and
