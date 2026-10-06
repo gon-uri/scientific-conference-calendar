@@ -11,8 +11,8 @@ Last synchronized: 2026-10-06
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
 - Community: structured conference-request form, star/X links, author profile,
-  and configured Giscus comments. Discussions are enabled. Giscus activation
-  still requires the owner to install the GitHub app on this repository.
+  and live Giscus comments. The official configuration checker confirms the
+  repository/app/Discussions prerequisites, and the live widget renders correctly.
 - Licensing: MIT code; CC BY 4.0 original content and artwork; separate vendor
   notices. Both licenses permit commercial reuse with their required notices.
 - Maintenance: YAML remains canonical. Topic and city registries are validated;
@@ -74,7 +74,7 @@ Last synchronized: 2026-10-06
 - Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, ICORE, and acceptance filters affect both tables and the map. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; global downloads remain available.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI.
-- Remaining work: Keep desktop/mobile interaction coverage current; activate Giscus after the owner's app installation.
+- Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 
 ### Topic Taxonomy and Metadata

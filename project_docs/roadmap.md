@@ -8,8 +8,8 @@ Last synchronized: 2026-10-06
   author/social links, five normalized sizes, seven hierarchical topic families,
   offline city map plus conference tables, eight new conference series, and
   synchronized catalog workbook with repeatable maintenance tooling.
-- Pending owner setup: install the Giscus GitHub app on this repository.
-  GitHub Discussions, the client configuration, and the request form are ready.
+- Completed community setup: Giscus prerequisites verified through its official
+  checker; the live comments widget, Discussions, and request form are ready.
 - Deferred: user accounts, live scraping, custom backend, and map tile services
   are deliberately outside the static architecture.
 

@@ -19,10 +19,13 @@
   filters, partial family selection, ANY/ALL matching, closed-route exclusions,
   grouped map popups, keyboard/hover access, empty results, and world-view reset.
   Popup auto-pan and city-link zoom races found during testing were corrected.
-- Remaining owner setup: install Giscus on this public repository to activate
-  the embedded comments. Discussions are enabled; direct discussion/request
-  links are available without the widget. Monthly official-source review remains
-  ongoing, especially estimated deadlines and unknown acceptance statistics.
+- Publication: pushed release commit 4d70ec0 to main. Build and Pages deployment
+  succeeded; the live page shows the new identity, catalog, families, and map.
+  Giscus's official checker confirms all repository/app/Discussions prerequisites;
+  the live widget renders its editor and GitHub sign-in without configuration
+  errors. No test comment or reaction was posted.
+- Remaining work: community moderation and monthly official-source review,
+  especially estimated deadlines and unknown acceptance statistics.
 
 ## 2026-10-06 (Conference Radar branding proposal)
 

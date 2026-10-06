@@ -103,8 +103,10 @@ counts and values. No Node or spreadsheet library is needed to build the site.
 
 ## Community Setup
 
-Discussions are enabled for `gon-uri/scientific-conference-calendar`. The owner
-must install [Giscus](https://github.com/apps/giscus) for this repository only.
+Discussions are enabled for `gon-uri/scientific-conference-calendar`. Giscus's
+official configuration checker confirmed all prerequisites on 2026-10-06 and
+the live widget rendered correctly. For a new fork, its owner must install
+[Giscus](https://github.com/apps/giscus) for that repository only.
 The embedded client uses its verified repository ID, Announcements category,
 and the stable specific term `Venue Radar community`. Verify the rendered
 widget on the live page after installation. GitHub sign-in is required to

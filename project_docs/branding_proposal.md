@@ -7,8 +7,8 @@ Date: 2026-10-06
 Approved and implemented as Venue Radar. Option 2 was refined into a bespoke
 calendar/radar mark with a sector-shaped teal sweep and an amber dot inside it.
 The canonical catalog, website, workbook, README, licenses, and maintenance
-documentation now reflect the approved package. Giscus client activation awaits
-the owner's one-time GitHub app installation; Discussions are enabled.
+documentation now reflect the approved package. Giscus prerequisites are
+confirmed by the official checker and the published comments widget renders.
 
 ## Resolved Choices
 
@@ -20,7 +20,7 @@ the owner's one-time GitHub app installation; Discussions are enabled.
 - License selection: MIT for project code; CC BY 4.0 for original content.
   Preserve applicable third-party notices and exclude third-party material and
   unprotectable facts from claims of ownership.
-- Comments: Giscus, backed by GitHub Discussions; repository/app setup is needed.
+- Comments: Giscus, backed by GitHub Discussions; repository/app setup verified.
 - Add all eight proposed series: L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA,
   SIAM DS, CCS, and NetSci. Clearly distinguish paper routes from presentation
   abstract routes, and respect each series' recurrence.
