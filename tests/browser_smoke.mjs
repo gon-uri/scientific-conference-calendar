@@ -26,6 +26,8 @@ try {
   assert.equal(await page.locator('input:not(#open-only), select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
   assert(await page.getByLabel('Show only submission opportunities', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
+  assert(Number.parseFloat(await page.locator('.open-toggle').evaluate(label => getComputedStyle(label).fontSize)) >= 15);
+  assert.deepEqual(await page.locator('#open-only').evaluate(input => [input.clientWidth, input.clientHeight]), [19, 19]);
   const tabsBox = await page.locator('.table-tabs').boundingBox();
   const opportunitiesBox = await page.locator('.open-toggle').boundingBox();
   assert(opportunitiesBox.x > tabsBox.x + tabsBox.width && Math.abs(opportunitiesBox.y + opportunitiesBox.height / 2 - tabsBox.y - tabsBox.height / 2) < 1);
@@ -47,6 +49,30 @@ try {
   assert(Math.abs(searchLabel.y - acceptanceLabel.y) < 1, 'Search and filter headings must align vertically');
   assert.deepEqual(await page.locator('[data-filter-group="size"]').evaluateAll(inputs => inputs.map(i => i.value)), ['s', 'm', 'l', 'xl', 'xxl']);
   assert.equal(await page.locator('#panel-deadlines .row-calendar-button').count(), 0);
+  const sysid = page.locator('[data-deadline-group][data-edition="ifac-sysid-2027"]');
+  const timeEstimate = sysid.locator('[data-label="Time left"] [data-time-estimate]');
+  assert(await timeEstimate.isVisible());
+  assert.equal(await timeEstimate.innerText(), '(time est.)');
+  assert(!(await sysid.locator('[data-label="Next milestone"]').innerText()).includes('(time est.)'));
+  assert.match(await sysid.locator('[data-deadline-row]:visible time').getAttribute('title'), /exact hour\/timezone unannounced/);
+  await sysid.locator('.deadline-toggle').click();
+  assert(!(await sysid.locator('[data-label="Next milestone"]').innerText()).includes('(time est.)'));
+  assert(await timeEstimate.isVisible());
+  await sysid.locator('.deadline-toggle').click();
+  assert(!(await page.locator('[data-deadline-group][data-edition="aistats-2027"] [data-time-estimate]').isVisible()));
+  assert(!(await page.locator('[data-deadline-group][data-edition="ida-2027"] [data-time-estimate]').isVisible()));
+  assert((await page.locator('[data-deadline-group][data-edition="ida-2027"] [data-label="Next milestone"]').innerText()).includes('(est.)'));
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2027-06-01T12:00:00Z');
+    applyFilters();
+  });
+  assert(!(await timeEstimate.isVisible()));
+  assert((await sysid.locator('[data-label="Next milestone"]').innerText()).includes('Conference starts'));
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-10-06T12:00:00Z');
+    applyFilters();
+  });
+  assert(await timeEstimate.isVisible());
   const toggle = page.locator('[data-deadline-group]:visible .deadline-toggle').first();
   await toggle.click();
   assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
@@ -137,6 +163,14 @@ try {
     }
     await page.locator('#tab-deadlines').click();
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Deadline overflow at ${width}px`);
+    assert(await timeEstimate.isVisible());
+    assert(await timeEstimate.evaluate(note => {
+      const range = document.createRange();
+      range.selectNodeContents(note);
+      const text = range.getBoundingClientRect();
+      const cell = note.closest('td').getBoundingClientRect();
+      return text.left >= cell.left && text.right <= cell.right;
+    }), `Time estimate must fit its cell at ${width}px`);
     if (width > 760) {
       assert(await page.locator('th:visible').evaluateAll(headings => headings.every(heading => {
         const range = document.createRange();
@@ -147,6 +181,7 @@ try {
       })), `Deadline header overlap at ${width}px`);
     }
     if (output) {
+      if (width === 1440 || width === 320) await sysid.screenshot({path: path.join(output, `time-estimate-${width}.png`)});
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});
     }
@@ -154,6 +189,9 @@ try {
     assert(await page.locator('#open-only').isVisible());
     await filterSummary.click();
     assert(await page.locator('#clear-filters').isVisible());
+    const matchBox = await page.locator('#topic-match').boundingBox();
+    const clearBox = await page.locator('#clear-filters').boundingBox();
+    assert(Math.abs(matchBox.y + matchBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Match and Clear filters must align at ${width}px`);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
     if (width > 760) {
       const searchBox = await page.locator('.search-control .control-label').boundingBox();

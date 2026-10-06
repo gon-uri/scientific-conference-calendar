@@ -7,7 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from build_site import _acceptance_cell, _milestones
+from build_site import _acceptance_cell, _deadline_grid_rows, _milestones
 from rollover_editions import rollover_candidates
 from validate import load_acceptance_rates, load_conferences
 
@@ -52,6 +52,28 @@ class RolloverAndSiteTests(unittest.TestCase):
         self.assertIn("Low", cell)
         self.assertIn("(estimated)", cell)
         self.assertIn("basis", rates["UAI"])
+
+    def test_date_only_milestone_keeps_tooltip_without_time_estimate_label(self) -> None:
+        milestone = {
+            "type": "full_paper", "label": "Paper submission",
+            "datetime": "2026-11-02T23:59:00-12:00",
+            "estimated": False, "approximate_time": True,
+        }
+        html = _deadline_grid_rows([milestone])
+        self.assertNotIn("(time est.)", html)
+        self.assertNotIn("(est.)", html)
+        self.assertIn('title="Official day; exact hour/timezone unannounced.', html)
+
+    def test_estimated_date_still_has_milestone_label(self) -> None:
+        milestone = {
+            "type": "full_paper", "label": "Paper submission",
+            "datetime": "2026-11-02T23:59:00-12:00",
+            "estimated": True, "approximate_time": True,
+        }
+        html = _deadline_grid_rows([milestone])
+        self.assertIn("(est.)", html)
+        self.assertNotIn("(time est.)", html)
+        self.assertNotIn("Official day", html)
 
 
 if __name__ == "__main__":

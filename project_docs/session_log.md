@@ -1,5 +1,23 @@
 # Session Log
 
+## 2026-10-06 (time-estimate placement and opportunities sizing)
+
+- Objective: Move `(time est.)` from Next milestone into Time left, and slightly
+  enlarge the Show only submission opportunities checkbox and label. Align
+  Clear filters vertically with the Match selector.
+- Completed: the annotation appears beneath the selected countdown and updates
+  with the next milestone. Expanded date-only entries retain explanatory
+  tooltips; `(est.)` date labels are unchanged. The opportunities control uses
+  .94rem text and a fixed 19px checkbox while preserving responsive placement.
+  Match and Clear filters share a compact, vertically centered footer row.
+- Verification: all 93 editions validate; 29 Python tests and the full build
+  pass. Browser checks cover annotation placement, collapsed/expanded rows,
+  transition to a non-time-estimated milestone, checkbox size, Match/Clear
+  alignment, existing filters and map interactions, and overflow at
+  1440/1051/1050/768/390/320px.
+- Publication: source and generated HTML use the existing main/docs Pages
+  configuration. Conference data, rankings, and all ICS feeds are unchanged.
+
 ## 2026-10-06 (inline search and topic discovery)
 
 - Objective: Refine filter placement and make the topic hierarchy easier to

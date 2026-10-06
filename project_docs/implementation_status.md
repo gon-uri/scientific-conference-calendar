@@ -12,7 +12,11 @@ Last synchronized: 2026-10-06
   Search is aligned to the right of Acceptance rate on desktop. Topics &
   Subtopics families show disclosure arrows, plus/minus signs, and hover hints.
   Show only submission opportunities remains visible beside the deadline tab
-  controls, outside the disclosure, and still applies only to deadlines.
+  controls, outside the disclosure, with a larger checkbox/label, and still
+  applies only to deadlines. The (time est.) annotation is below the Time left
+  countdown, not in Next milestone; official date-only milestones retain
+  explanatory date tooltips, and estimated-date labels are unchanged.
+  Match and Clear filters share one vertically aligned footer row.
   Topics are narrower; linked ranking headings and CCF scores open official
   webpages. The larger identity, top-right calendar action, and contrasting
   selected tab make navigation clearer. Title font is unchanged; Space Grotesk
@@ -83,7 +87,7 @@ Last synchronized: 2026-10-06
 - Current status: Completed
 - Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 27 Python tests and browser smoke script cover ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, opportunities outside the collapsed panel, navigation, map interactions, and overflow at 1440/1051/1050/768/390/320px.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 29 Python tests and browser smoke script cover ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, time-estimate placement and milestone transitions, navigation, map interactions, and overflow at 1440/1051/1050/768/390/320px.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 

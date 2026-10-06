@@ -216,6 +216,10 @@ Last synchronized: 2026-10-06
   explicitly sourced triennial SYSID cadence, not a blanket annual assumption.
 - Consequences: Calendar clients do not receive a fabricated hour. Editorial
   reviews still must check organizer portals for precise timezone/cutoff updates.
+- Same-day display refinement: put `(time est.)` under the next-milestone
+  countdown in Time left, and preserve explanatory tooltips on date-only dates
+  in Next milestone. Do not change estimated-date labels, cutoff assumptions,
+  calendar exports, or submission-opportunity semantics.
 
 ## ADR-025: Separate Rank Navigation From Evidence And Group Filters
 

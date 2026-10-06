@@ -37,6 +37,10 @@ DOCS_DIR = ROOT / "docs"
 METADATA_PATH = ROOT / "data" / "metadata.yml"
 ASSETS_DIR = ROOT / "assets"
 TOPIC_CATALOG = load_mapping(FAMILIES_PATH)
+TIME_ESTIMATE_TOOLTIP = (
+    "Official day; exact hour/timezone unannounced. "
+    "Countdown uses a provisional calendar time."
+)
 
 MONTHS = [
     "January",
@@ -307,12 +311,13 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]]) -> str:
         deadline_utc = _deadline_iso_utc(milestone["datetime"])
         row_hidden = "" if index == 0 else " hidden"
         estimate = ' <span class="milestone-estimate" title="Estimated date">(est.)</span>' if milestone["estimated"] else ""
+        time_title = ""
         if milestone.get("approximate_time") and not milestone["estimated"]:
-            estimate = ' <span class="milestone-estimate" title="Official day; exact hour/timezone unannounced. Countdown uses a provisional calendar time.">(time est.)</span>'
+            time_title = f' title="{_attr(TIME_ESTIMATE_TOOLTIP)}"'
         rows.append(
             f'<div class="deadline-grid-row" data-deadline-row data-entry-index="{index}" '
             f'data-deadline-type="{_attr(milestone["type"])}"{row_hidden}>'
-            f'<time datetime="{_attr(deadline_utc)}">'
+            f'<time datetime="{_attr(deadline_utc)}"{time_title}>'
             f"{escape(_display_deadline_datetime(milestone['datetime']))}</time>{estimate}"
             f'<span class="deadline-milestone">'
             f"{escape(milestone['label'])}</span>"
@@ -356,7 +361,10 @@ def _deadline_group_rows(
             f'data-deadline-group="{_attr(group_id)}" data-expanded="false">'
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             '<td data-label="Submission status"><span class="submission-status" data-submission-status>Checking...</span></td>'
-            '<td data-label="Time left"><span class="time-left" data-time-left>&mdash;</span></td>'
+            '<td data-label="Time left"><div class="time-left-cell">'
+            '<span class="time-left" data-time-left>&mdash;</span>'
+            f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
+            '</div></td>'
             f'<td class="deadline-combined-cell" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones)}</div></td>'
             f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
             f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
@@ -488,7 +496,7 @@ def _topic_filter() -> str:
             f'<span>{escape(family["label"])}</span></label></summary>'
             f'<div class="check-list">{children}</div></details>'
         )
-    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree">' + ''.join(families) + '</div><label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label></fieldset>'
+    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree">' + ''.join(families) + '</div></fieldset>'
 
 
 def build_site(
@@ -1187,6 +1195,7 @@ def build_site(
           </label>
         </div>
         <div class="filter-actions">
+          <label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label>
           <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
         </div>
       </div>
@@ -1452,6 +1461,8 @@ def build_site(
         timeLeft.textContent = state.milestone
           ? `${{state.milestone.estimated || state.milestone.approximate_time ? "~" : ""}}${{formatRemaining(state.milestone.time, now)}}`
           : "\u2014";
+        group.querySelector("[data-time-estimate]").hidden =
+          !(state.milestone?.approximate_time && !state.milestone.estimated);
         details.forEach((detail) => {{
           detail.hidden = !(expanded || detail === summaryDetail);
           const passed = Date.parse(detail.querySelector("time").dateTime) <= now;

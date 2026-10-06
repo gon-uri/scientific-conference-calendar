@@ -18,6 +18,9 @@ markers, plus/minus signs, and hover hints. The panel starts collapsed at every
 viewport and preserves its state when resized. The deadline-only Show only
 submission opportunities checkbox sits outside, beside the tabs on desktop
 and below them on mobile, remaining usable while the panel is collapsed.
+Its label uses .94rem text and a fixed 19px native checkbox.
+The Match selector and Clear filters share a flex footer, vertically centered
+on the same row across desktop and mobile layouts.
 Values within each rank group match with OR; separate groups
 combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 `page_url` points public rank links and the CCF Rank legend to the official
@@ -47,9 +50,13 @@ and browser smoke tests use optional maintainer tooling, not runtime dependencie
 `project_docs/development.md` contains setup and verification commands.
 
 Date-only official deadlines use `time_precision: date`: a known day does not
-become a falsely exact hour. The site labels the assumed cutoff and ICS exports
-an all-day deadline. Stable UID keys are unchanged. Rollover now also supports
-explicitly configured triennial series.
+become a falsely exact hour. The site shows `(time est.)` beneath Time left only
+when the selected next milestone has a confirmed day but an unknown cutoff
+hour. The label updates with the next milestone; expanded dates retain an
+explanatory tooltip without repeating the time-only comment. Estimated dates
+still carry `(est.)` beside the milestone date. ICS exports an all-day deadline.
+Stable UID keys are unchanged. Rollover now also supports explicitly configured
+triennial series.
 
 ## System Diagram
 

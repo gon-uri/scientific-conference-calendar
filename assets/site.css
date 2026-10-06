@@ -32,11 +32,12 @@ h1 { font-size: 2.25rem; font-weight: 700; margin: 0; }
 .search-control { min-width: 0; margin: 0; }
 .filter-grid { grid-template-columns: minmax(260px, 360px) 64px 98px 98px 122px minmax(200px, 340px); gap: 24px; justify-content: start; align-items: start; }
 .filter-group legend a { text-underline-offset: 3px; }
-.filter-actions { display: flex; align-items: center; justify-content: flex-end; padding-top: 18px; }
+.filter-actions { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding-top: 7px; }
 .tab-toolbar { align-items: center; justify-content: flex-start; gap: 18px; }
-.tab-toolbar .open-toggle { font-size: .84rem; padding: 0; }
+.tab-toolbar .open-toggle { font-size: .94rem; gap: 9px; padding: 0; line-height: 1.4; }
+.tab-toolbar .open-toggle input { width: 19px; height: 19px; flex: 0 0 19px; }
 .toolbar-actions { margin-left: auto; }
-.clear-filters { text-decoration: underline; text-underline-offset: 3px; }
+.clear-filters { flex: 0 0 auto; text-decoration: underline; text-underline-offset: 3px; }
 .check-list { border: 0; padding: 0; max-height: none; gap: 7px; }
 .topic-tree { max-height: 255px; overflow: auto; border: 1px solid var(--line); border-radius: 4px; padding: 2px 10px; }
 .topic-family { border-bottom: 1px solid var(--line); padding: 7px 0; }
@@ -48,8 +49,8 @@ h1 { font-size: 2.25rem; font-weight: 700; margin: 0; }
 .topic-family[open] summary::after { content: '-'; }
 .topic-family summary label { display: inline-flex; width: calc(100% - 30px); vertical-align: middle; font-weight: 600; }
 .topic-family .check-list { margin: 9px 0 2px 23px; }
-.topic-mode { display: flex; align-items: center; gap: 8px; margin-top: 7px; }
-.topic-mode select { width: auto; padding: 3px 7px; font-size: .78rem; }
+.topic-mode { display: flex; align-items: center; gap: 8px; min-width: 0; }
+.topic-mode select { width: auto; min-width: 0; padding: 3px 7px; font-size: .78rem; }
 .topic-mode span { font-size: .78rem; }
 .topic-tags { display: flex; flex-wrap: wrap; gap: 4px; }
 .tag { border-radius: 4px; border: 1px solid #e2e7e7; font-size: .71rem; padding: 1px 5px; line-height: 1.4; margin: 0; }
@@ -64,6 +65,7 @@ th { font-size: .72rem; text-transform: none; background: var(--surface); color:
 td { font-size: .83rem; padding: 10px 9px; }
 td a { text-underline-offset: 3px; }
 .time-left, time, .rank-pair { font-variant-numeric: tabular-nums; }
+.time-estimate { display: block; margin-top: 3px; color: var(--warn); font-size: .72rem; line-height: 1.25; }
 .deadline-grid-row { gap: 6px; }
 .deadline-milestone { white-space: normal; overflow: visible; text-overflow: clip; line-height: 1.4; }
 .deadline-grid-row time { font-size: .77rem; }
