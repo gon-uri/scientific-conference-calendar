@@ -25,6 +25,11 @@ It checks opportunity filtering outside the collapsed panel, inline Search
 alignment, topic disclosure cues, family intersection, map grouping, keyboard
 and hover popups, empty results, milestone expansion, and six viewport widths
 (including both sides of the 1050px filter-grid breakpoint).
+It also checks default-selected opportunity membership, always-visible heading-
+aligned clearing without opening the panel, eight collapsed families without
+scrolling, internal expanded scrolling and retained Time series leaf matching.
+Header sharing/star links are inspected but never used to post or star; favicon
+decoding/pixels are checked at 32px and optional 16/32/64px previews are rendered.
 Brand checks confirm the embedded Audiowide face is loaded without a network
 font request, body/table fonts stay unchanged, and visible logo/title pixel
 centers align across single-line and narrow-mobile wrapped titles.

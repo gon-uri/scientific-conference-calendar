@@ -62,7 +62,8 @@ coverage without blanket application-domain labels.
   labels, and central family names.
 - Whole-family checkboxes match curated central identities in
   `data/conference_families.yml`. Individual subtopics match the deduplicated
-  primary/additional union. The Time series shortcut uses the same leaf union.
+  primary/additional union. Time series uses the same leaf union inside its
+  complex-systems family; its duplicate standalone shortcut has been removed.
   Subtopics within a family use OR, and selected groups use ANY/ALL. Selecting
   every child switches to whole-family matching, just like its parent checkbox.
   Size/rank/rate filters and opportunity status are independent.

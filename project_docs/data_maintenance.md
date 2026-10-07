@@ -53,8 +53,11 @@ Estimated route timing or eligibility stays yellow as Submission opportunity
 (estimated), even if a projected opening has passed. Closed to new submissions
 is red; Deadline unannounced is grey.
 
-The submission-opportunities checkbox includes all four eligible states, but
-excludes closed and unannounced routes. Relevance means an event enables a new
+Show submission options only starts checked and includes all four eligible
+states, but excludes closed and unannounced routes. Visitors can uncheck it;
+Clear filters also removes this restriction, even with the panel collapsed.
+The checkbox is deadlines-only and never restricts the Conferences map/table.
+Relevance means an event enables a new
 research contribution: paper, abstract, poster, resource, journal-linked and
 actual workshop-paper submissions qualify; organizer proposals and production
 steps do not. Do not remove those other milestones from the expanded schedule.

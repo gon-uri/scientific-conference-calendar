@@ -19,6 +19,10 @@ Last synchronized: 2026-10-07
   specimens and the final choice are documented in typography_proposal.md.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
+- Completed filter/sharing polish: always-visible Clear filters aligned with
+  the disclosure heading, an eight-family topic viewport, removal of the
+  duplicate Time series shortcut, default-selected Show submission options only,
+  header X draft/repository-star actions and a simple white radar favicon.
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.
@@ -37,7 +41,7 @@ Last synchronized: 2026-10-07
   recurrence and source limitations are documented in vision_ai_expansion.md.
 - Completed: the 13 language/retrieval/web selections plus ICRA, RSS and SMC,
   with five focused new leaves, eight-topic filters, central family identities,
-  and a Time series shortcut. Evidence is in nlp_robotics_expansion.md.
+  and curated Time series subtopic matching. Evidence is in nlp_robotics_expansion.md.
 - Backlog: [conference_candidates.md](conference_candidates.md) preserves all
   57 originally missing series: 42 added and 15 still untracked, plus future-only
   ICWM separately. Further additions require approval and official-source review.

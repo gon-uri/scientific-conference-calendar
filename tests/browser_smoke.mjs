@@ -60,7 +60,39 @@ try {
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);
+  assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
+    rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
+  const shareLink = page.getByRole('link', {name: 'Share on X', exact: true});
+  const shareUrl = new URL(await shareLink.getAttribute('href'));
+  assert.equal(shareUrl.origin + shareUrl.pathname, 'https://x.com/intent/tweet');
+  assert.equal(shareUrl.searchParams.get('url'), 'https://gon-uri.github.io/venue-radar/');
+  assert.equal(shareUrl.searchParams.get('text'), 'Check out Venue Radar, a new conference calendar for ML/AI and related fields. Search and filter submission deadlines, compare ICORE/CCF rankings, and check historical acceptance rates.');
+  assert(shareUrl.searchParams.get('text').length + 24 <= 280);
+  const starLink = page.getByRole('link', {name: 'Star the repo', exact: true});
+  assert.equal(await starLink.getAttribute('href'), repository);
+  for (const link of [shareLink, starLink]) {
+    assert.equal(await link.getAttribute('target'), '_blank');
+    assert.equal(await link.getAttribute('rel'), 'noopener noreferrer');
+    assert.equal(await link.locator('svg').count(), 1);
+  }
+  const faviconUrl = await page.locator('link[rel="icon"]').getAttribute('href');
+  assert(faviconUrl.startsWith('data:image/svg+xml;base64,'));
+  const faviconPixels = await page.evaluate(async src => {
+    const image = new Image();
+    image.src = src;
+    await image.decode();
+    const canvas = document.createElement('canvas');
+    canvas.width = canvas.height = 32;
+    const context = canvas.getContext('2d');
+    context.drawImage(image, 0, 0, 32, 32);
+    const pixels = context.getImageData(0, 0, 32, 32).data;
+    return {corner: [...pixels.slice(0, 4)], colored: [...pixels].filter((value, i) => i % 4 !== 3 && value < 200).length};
+  }, faviconUrl);
+  assert.deepEqual(faviconPixels.corner, [255, 255, 255, 255]);
+  assert(faviconPixels.colored > 100, 'Radar favicon must render at browser-tab size');
   assert.equal(await page.getByRole('link', {name: 'Request a conference', exact: true}).getAttribute('href'), `${repository}/issues/new?template=conference-request.yml`);
   assert.equal(await page.getByRole('link', {name: 'GitHub discussions', exact: true}).getAttribute('href'), `${repository}/discussions`);
   assert.equal(await page.getByRole('link', {name: 'Find Venue Radar useful? Star the repository', exact: true}).getAttribute('href'), repository);
@@ -89,14 +121,15 @@ try {
   await checkSubmissionBehavior(page);
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
-  assert(!(await page.locator('#clear-filters').isVisible()));
+  assert(await page.locator('#clear-filters').isVisible());
   assert.equal(await filterSummary.locator('span:last-child').innerText(), 'Filters & search');
   assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).fontSize), '20px');
   assert.equal(await filterSummary.evaluate(summary => getComputedStyle(summary).columnGap), '14px');
   assert.equal(await page.locator('.filter-disclosure-icon').evaluate(icon => getComputedStyle(icon).fontSize), '20px');
   assert.equal(await page.locator('.filter-disclosure-icon').getAttribute('aria-hidden'), 'true');
-  assert.equal(await page.locator('input:not(#open-only), select, #clear-filters').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
-  assert(await page.getByLabel('Show only submission opportunities', {exact: true}).isVisible());
+  assert.equal(await page.locator('input:not(#open-only), select').evaluateAll(controls => controls.filter(control => !control.closest('#filter-details')).length), 0);
+  assert(await page.locator('#clear-filters').evaluate(button => !button.closest('#filter-details') && !!button.closest('.filter-section')));
+  assert(await page.getByLabel('Show submission options only', {exact: true}).isVisible());
   assert(await page.locator('#open-only').evaluate(input => !input.closest('#filter-details') && !!input.closest('.tab-toolbar')));
   assert(Number.parseFloat(await page.locator('.open-toggle').evaluate(label => getComputedStyle(label).fontSize)) >= 15);
   assert.deepEqual(await page.locator('#open-only').evaluate(input => [input.clientWidth, input.clientHeight]), [19, 19]);
@@ -128,12 +161,27 @@ try {
     'Responsible & Trustworthy AI',
   ]);
   assert(await page.locator('.topic-family > summary').evaluateAll(summaries => summaries.every(summary => getComputedStyle(summary).display === 'list-item' && summary.title === 'Expand or collapse subtopics')));
+  assert.equal(await page.locator('#time-series-shortcut').count(), 0);
+  assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), 'All eight collapsed families must fit without scrolling');
+  await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
+  assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight > tree.clientHeight), 'Expanded subtopics must scroll within the box');
+  await page.locator('.topic-family summary').first().click({position: {x: 8, y: 10}});
   const searchLabel = await page.locator('.search-control .control-label').boundingBox();
   const acceptanceLabel = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
   assert(searchLabel.x > acceptanceLabel.x + acceptanceLabel.width);
   assert(Math.abs(searchLabel.y - acceptanceLabel.y) < 1, 'Search and filter headings must align vertically');
   assert.deepEqual(await page.locator('[data-filter-group="size"]').evaluateAll(inputs => inputs.map(i => i.value)), ['s', 'm', 'l', 'xl', 'xxl']);
   assert.equal(await page.locator('#panel-deadlines .row-calendar-button').count(), 0);
+  await page.locator('#search').fill('mlsys');
+  await page.locator('[data-filter-group="size"][value="L" i]').check();
+  await filterSummary.click();
+  await page.locator('#clear-filters').click();
+  assert(!(await page.locator('#filter-details').evaluate(details => details.open)), 'Clear filters must not open the collapsed panel');
+  assert.equal(await page.locator('#search').inputValue(), '');
+  assert.equal(await page.locator('[data-filter-group]:checked, [data-family-toggle]:checked').count(), 0);
+  assert(!(await page.locator('#open-only').isChecked()), 'Clear filters removes the optional submission restriction too');
+  assert(await page.locator('#clear-filters').evaluate(button => document.activeElement === button));
+  await filterSummary.click();
   const sysid = page.locator('[data-deadline-group][data-edition="ifac-sysid-2027"]');
   const timeEstimate = sysid.locator('[data-label="Time left"] [data-time-estimate]');
   assert(await timeEstimate.isVisible());
@@ -331,13 +379,16 @@ try {
   assert(await page.locator('#upcoming-conferences-body [data-edition="miccai-2027"]').isVisible());
   await page.locator('#clear-filters').click();
   await machineLearning.evaluate(input => input.closest('details').open = false);
-  await page.locator('#time-series-shortcut').check();
+  const timeSeriesInput = page.locator('[data-topic-family="dynamics-control"][value="time-series-sequential-data"]');
+  await timeSeriesInput.evaluate(input => input.closest('details').open = true);
+  await timeSeriesInput.check();
   for (const id of ['itise-2027', 'fmts-neurips-2026', 'recsys-2027']) {
     assert(await page.locator(`#upcoming-conferences-body [data-edition="${id}"]`).isVisible());
   }
   assert(!(await page.locator('#upcoming-conferences-body [data-edition="acl-2027"]').isVisible()));
   await page.locator('#clear-filters').click();
-  assert(!(await page.locator('#time-series-shortcut').isChecked()));
+  assert(!(await timeSeriesInput.isChecked()));
+  await timeSeriesInput.evaluate(input => input.closest('details').open = false);
   await page.locator('#search').fill('no-such-conference-xyz');
   assert.equal(await page.locator('.city-marker').count(), 0);
   assert(await page.locator('#map-empty').isVisible());
@@ -345,6 +396,13 @@ try {
 
   const output = process.env.SCREENSHOT_DIR;
   if (output) await fs.mkdir(output, {recursive: true});
+  if (output) {
+    const iconPreview = await browser.newPage({viewport: {width: 200, height: 96}});
+    await iconPreview.setContent(`<body style="margin:0;display:flex;align-items:center;gap:16px;background:white;height:96px;padding:0 12px;box-sizing:border-box"><img src="${faviconUrl}" width="16" height="16"><img src="${faviconUrl}" width="32" height="32"><img src="${faviconUrl}" width="64" height="64"></body>`);
+    await iconPreview.locator('img').evaluateAll(images => Promise.all(images.map(image => image.decode())));
+    await iconPreview.screenshot({path: path.join(output, 'favicon-sizes.png')});
+    await iconPreview.close();
+  }
   await page.getByRole('button', {name: 'Reset world view'}).click();
   await filterSummary.click();
   const widths = [1440, 1051, 1050, 768, 390, 320];
@@ -386,6 +444,7 @@ try {
       await page.screenshot({path: path.join(output, `map-${width}.png`)});
     }
     await page.locator('#tab-deadlines').click();
+    await page.locator('#open-only').check();
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Deadline overflow at ${width}px`);
     assert(await timeEstimate.isVisible());
     assert(await timeEstimate.evaluate(note => {
@@ -416,8 +475,10 @@ try {
       await page.evaluate(() => scrollTo(0, 0));
       await page.screenshot({path: path.join(output, `deadlines-${width}.png`)});
     }
+    await page.locator('#open-only').uncheck();
     assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
     assert(await page.locator('#open-only').isVisible());
+    assert(await page.locator('#clear-filters').isVisible());
     await filterSummary.click();
     assert(await page.locator('#clear-filters').isVisible());
     assert(await page.locator('.topic-family summary label span').evaluateAll(labels => labels.every(label => {
@@ -427,9 +488,15 @@ try {
       const family = label.closest('summary').getBoundingClientRect();
       return rects.length === 1 && rects[0].right <= family.right - 8;
     })), `Topic family labels must fit on one line at ${width}px`);
-    const matchBox = await page.locator('#topic-match').boundingBox();
+    const headingBox = await filterSummary.boundingBox();
     const clearBox = await page.locator('#clear-filters').boundingBox();
-    assert(Math.abs(matchBox.y + matchBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Match and Clear filters must align at ${width}px`);
+    assert(Math.abs(headingBox.y + headingBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Disclosure and Clear filters must align at ${width}px`);
+    assert(headingBox.x + headingBox.width < clearBox.x, `Clear filters must not overlap the heading at ${width}px`);
+    assert(await page.locator('.topic-tree').evaluate(tree => tree.scrollHeight <= tree.clientHeight), `All eight collapsed families must fit at ${width}px`);
+    assert(await page.locator('.header-actions a').evaluateAll(links => links.every(link => {
+      const box = link.getBoundingClientRect();
+      return box.left >= 0 && box.right <= innerWidth;
+    })), `Header actions must fit at ${width}px`);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
     if (width > 760) {
       const searchBox = await page.locator('.search-control .control-label').boundingBox();

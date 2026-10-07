@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 from html import escape
 from pathlib import Path
 from typing import Any
+from urllib.parse import urlencode
 
 import yaml
 from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
@@ -42,6 +43,12 @@ CONFERENCE_FAMILIES = load_mapping(CONFERENCE_FAMILIES_PATH)
 TIME_ESTIMATE_TOOLTIP = (
     "Official day; exact hour/timezone unannounced. "
     "Countdown uses a provisional calendar time."
+)
+SITE_URL = "https://gon-uri.github.io/venue-radar/"
+SHARE_TEXT = (
+    "Check out Venue Radar, a new conference calendar for ML/AI and related fields. "
+    "Search and filter submission deadlines, compare ICORE/CCF rankings, "
+    "and check historical acceptance rates."
 )
 
 MONTHS = [
@@ -504,9 +511,7 @@ def _topic_filter() -> str:
             f'<span>{escape(family["label"])}</span></label></summary>'
             f'<div class="check-list">{children}</div></details>'
         )
-    shortcut = ('<label class="check-option topic-shortcut"><input id="time-series-shortcut" '
-                'type="checkbox"><span>Time series</span></label>')
-    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend>' + shortcut + '<div class="topic-tree">' + ''.join(families) + '</div></fieldset>'
+    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree">' + ''.join(families) + '</div></fieldset>'
 
 
 def build_site(
@@ -543,6 +548,8 @@ def build_site(
     ccf_page = ccf_data["page_url"]
     rates = acceptance_data["rates"]
     logo = 'data:image/png;base64,' + base64.b64encode((ASSETS_DIR / 'venue-radar.png').read_bytes()).decode('ascii')
+    favicon = 'data:image/svg+xml;base64,' + base64.b64encode((ASSETS_DIR / 'favicon.svg').read_bytes()).decode('ascii')
+    share_url = "https://x.com/intent/tweet?" + urlencode({"text": SHARE_TEXT, "url": SITE_URL})
     title_font = base64.b64encode((ASSETS_DIR / 'vendor' / 'audiowide-latin.woff2').read_bytes()).decode('ascii')
     custom_css = (ASSETS_DIR / 'site.css').read_text(encoding='utf-8')
     leaflet_css = (ASSETS_DIR / 'vendor' / 'leaflet.css').read_text(encoding='utf-8')
@@ -554,6 +561,8 @@ def build_site(
         'resetIcon': (ASSETS_DIR / 'vendor' / 'globe.svg').read_text(encoding='utf-8'),
     }, separators=(',', ':')).replace('</', '<\\/')
     download_icon = (ASSETS_DIR / 'vendor' / 'download.svg').read_text(encoding='utf-8')
+    share_icon = (ASSETS_DIR / 'vendor' / 'share-2.svg').read_text(encoding='utf-8')
+    star_icon = (ASSETS_DIR / 'vendor' / 'star.svg').read_text(encoding='utf-8')
     vendor_notices = '\n\n'.join(
         (ASSETS_DIR / 'vendor' / name).read_text(encoding='utf-8')
         for name in ['Leaflet-LICENSE', 'Lucide-LICENSE', 'Audiowide-OFL.txt']
@@ -570,7 +579,7 @@ def build_site(
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Venue Radar | Scientific Conference Calendar</title>
   <meta name="description" content="Scientific conference deadlines and locations for machine learning, data science, vision, multimedia, biometrics, signals, biomedical AI, dynamics, control and neuroscience.">
-  <link rel="icon" href="{logo}">
+  <link rel="icon" type="image/svg+xml" sizes="any" href="{favicon}">
   <style>
     :root {{
       color-scheme: light;
@@ -1189,13 +1198,18 @@ def build_site(
         <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
         <p class="subhead">Scientific conferences in ML &amp; data science, NLP, agents &amp; retrieval, complex systems, time series &amp; signals, vision &amp; multimedia, healthcare &amp; biometrics, neuroscience, robotics &amp; control, and responsible AI.</p>
       </div>
-      <div class="calendar-action">
-        <span class="calendar-caption">Download calendar</span>
-        <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
+      <div class="header-actions">
+        <div class="calendar-action">
+          <span class="calendar-caption">Download calendar</span>
+          <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
+        </div>
+        <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>
+        <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}Star the repo</a>
       </div>
     </header>
 
-    <details class="controls filter-details" id="filter-details">
+    <section class="controls filter-section" aria-label="Filters and search">
+    <details class="filter-details" id="filter-details">
       <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
@@ -1211,10 +1225,11 @@ def build_site(
         </div>
         <div class="filter-actions">
           <label class="topic-mode"><span>Match</span><select id="topic-match" aria-label="Topic family matching"><option value="any">Any selected family</option><option value="all">All selected families</option></select></label>
-          <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
         </div>
       </div>
     </details>
+    <button class="clear-filters" id="clear-filters" type="button">Clear filters</button>
+    </section>
 
     <section class="tab-shell" aria-label="Conference calendar tables">
       <div class="tab-toolbar">
@@ -1222,7 +1237,7 @@ def build_site(
           <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
           <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences</button>
         </div>
-        <label class="open-toggle"><input id="open-only" type="checkbox">Show only submission opportunities</label>
+        <label class="open-toggle"><input id="open-only" type="checkbox" checked>Show submission options only</label>
         <div class="toolbar-actions">
           <span id="result-count" aria-live="polite"></span>
         </div>
@@ -1605,16 +1620,15 @@ def build_site(
       applyFilters();
     }}));
     document.querySelector("#topic-match").addEventListener("change", applyFilters);
-    document.querySelector("#time-series-shortcut").addEventListener("change", applyFilters);
     openOnly.addEventListener("change", applyFilters);
     clearFilters.addEventListener("click", () => {{
       search.value = "";
       filters.forEach((input) => {{ input.checked = false; }});
       openOnly.checked = false;
-      document.querySelector("#time-series-shortcut").checked = false;
       document.querySelector("#topic-match").value = "any";
       applyFilters();
-      search.focus();
+      if (document.querySelector("#filter-details").open) search.focus();
+      else clearFilters.focus();
     }});
     applyFilters();
     setInterval(applyFilters, 60 * 1000);

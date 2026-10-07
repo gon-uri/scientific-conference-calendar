@@ -22,9 +22,6 @@ function venueTopicMatch(row) {
     return parent.checked ? centralFamilies.includes(family)
       : group.some((topic) => topics.includes(topic));
   });
-  if (document.querySelector('#time-series-shortcut').checked) {
-    matches.push(topics.includes('time-series-sequential-data'));
-  }
   if (!matches.length) return true;
   return document.querySelector('#topic-match').value === 'all'
     ? matches.every(Boolean) : matches.some(Boolean);

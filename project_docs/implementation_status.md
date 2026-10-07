@@ -22,15 +22,19 @@ Last synchronized: 2026-10-07
   is preserved by direct pixel recoloring; exterior transparency stays intact.
   README begins with a full-width, clickable white Audiowide/logo banner.
 - Interface polish: an initially collapsed Filters & search panel contains
-  metadata filters, independent ICORE/CCF selections, Search, and Clear filters.
+  metadata filters, independent ICORE/CCF selections and Search. Clear filters
+  is aligned with its heading and remains visible when collapsed; clearing
+  removes all restrictions without opening the panel.
   Search is aligned to the right of Acceptance rate on desktop. Topics &
   Subtopics families show disclosure arrows, plus/minus signs, and hover hints.
-  Show only submission opportunities remains visible beside the deadline tab
+  Show submission options only starts selected and remains beside the deadline tab
   controls, outside the disclosure, with a larger checkbox/label, and still
   applies only to deadlines. The (time est.) annotation is below the Time left
   countdown, not in Next milestone; official date-only milestones retain
   explanatory date tooltips, and estimated-date labels are unchanged.
-  Match and Clear filters share one vertically aligned footer row.
+  The topic tree fits all eight collapsed families and scrolls after expansion;
+  Time series remains inside its family, with the duplicate shortcut removed.
+  Match remains below the filter grid.
   Open submission statuses retain bold green styling without a leading dot.
   Submission countdowns now match the collapsed track and required author
   action, using mandatory abstract/registration gates before paper cutoffs.
@@ -48,6 +52,12 @@ Last synchronized: 2026-10-07
   actual-font previews in project_docs/typography_proposal.md. Implementation
   embeds its native 400-weight WOFF2 face for the title only, with optical
   logo/text alignment and no external font request. Body/table fonts stay unchanged.
+- Sharing: Share on X and Star the repo sit beside the header calendar action,
+  with matching pinned Lucide icons. X opens a prefilled draft with the approved
+  introduction, rankings/rates, search/filtering and website link; visitors
+  decide whether to post. No third-party social widget or automatic star is
+  added. The browser tab uses a simple radar-only SVG on white; main logo and
+  README artwork remain unchanged. Copy alternatives are in sharing.md.
 - Catalog: 144 edition records across 113 series; 40 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
@@ -91,8 +101,8 @@ Last synchronized: 2026-10-07
   and an independent review date by exact series. Broad CFP lists are reduced
   to characteristic areas; incidental applications do not become blanket tags.
 - Public behavior: tables retain their up-to-four main topics. Family checkboxes
-  use curated central identities; individual subtopics and the Time series
-  shortcut use the primary/additional union. Search also matches scope prose. Topic
+  use curated central identities; individual subtopics, including Time series,
+  use the primary/additional union. Search also matches scope prose. Topic
   feeds use the same union; descriptions include scope evidence without changing
   event UIDs, dates, or submission status. Unprofiled venues retain their main
   topic matching. The workbook adds a separate Conference Scope sheet.
@@ -154,9 +164,9 @@ Last synchronized: 2026-10-07
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
+- Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options and inline Search live in the initially collapsed Filters & search disclosure; Clear filters remains aligned with its heading and always visible. Show submission options only starts checked, sits beside the tabs and wraps below on mobile. The topic tree fits eight collapsed families and uses native disclosure arrows and plus/minus cues; the duplicate Time series shortcut is removed, not the subtopic. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; aggregate download, X sharing and repository-star links are grouped at the header's right edge. A white radar-only SVG supplies the favicon. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 68 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 70 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels. Current polish checks default opportunity membership, collapsed clearing/focus, heading alignment, all-eight-family visibility, internal expanded scrolling, retained Time series matching, header action layout/URLs and favicon pixels at 32px.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 - Submission regression checks: `tests/submission_behavior.mjs`, called by the
@@ -167,7 +177,7 @@ Last synchronized: 2026-10-07
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines 40 leaves within eight families. `data/conference_families.yml` assigns every series one to three central family IDs, separately from generic method tags. Family selection uses these identities; individual subtopics and the Time series shortcut use the curated primary/additional union. Dynamics includes complex systems, graphs, time series and signals; control is separate, and biometrics sits with healthcare. The long dynamics label remains one line. Tables retain four main topics. The workbook mirrors 113 catalog series, 40 leaves and 63 scope profiles.
+- Brief description: `data/topics.yml` defines 40 leaves within eight families. `data/conference_families.yml` assigns every series one to three central family IDs, separately from generic method tags. Family selection uses these identities; individual subtopics, including Time series, use the curated primary/additional union. Dynamics includes complex systems, graphs, time series and signals; control is separate, and biometrics sits with healthcare. The long dynamics label remains one line. Tables retain four main topics. The workbook mirrors 113 catalog series, 40 leaves and 63 scope profiles.
 - Files modified: `data/topics.yml`, `data/topic_families.yml`, `data/cities.yml`, `scripts/catalog_metadata.py`, `scripts/export_catalog.py`, `scripts/sync_workbook.mjs`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.

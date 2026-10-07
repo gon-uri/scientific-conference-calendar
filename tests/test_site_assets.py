@@ -4,13 +4,25 @@ import base64
 import struct
 import sys
 import unittest
+from html.parser import HTMLParser
 from pathlib import Path
 from tempfile import TemporaryDirectory
+from urllib.parse import parse_qs, urlparse
+from xml.etree import ElementTree
 
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "scripts"))
 
-from build_site import ASSETS_DIR, build_site
+from build_site import ASSETS_DIR, SHARE_TEXT, SITE_URL, build_site
+
+
+class PageElements(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.elements = []
+
+    def handle_starttag(self, tag, attrs) -> None:
+        self.elements.append((tag, dict(attrs)))
 
 
 class SiteAssetTests(unittest.TestCase):
@@ -54,7 +66,40 @@ class SiteAssetTests(unittest.TestCase):
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
         logo = base64.b64encode((ASSETS_DIR / "venue-radar.png").read_bytes()).decode("ascii")
         self.assertIn(f'src="data:image/png;base64,{logo}" alt=""', html)
-        self.assertIn(f'<link rel="icon" href="data:image/png;base64,{logo}">', html)
+        favicon = base64.b64encode((ASSETS_DIR / "favicon.svg").read_bytes()).decode("ascii")
+        self.assertIn(f'<link rel="icon" type="image/svg+xml" sizes="any" href="data:image/svg+xml;base64,{favicon}">', html)
+        svg = ElementTree.parse(ASSETS_DIR / "favicon.svg").getroot()
+        self.assertEqual(svg.attrib["viewBox"], "0 0 64 64")
+        background = svg.find("{http://www.w3.org/2000/svg}rect")
+        self.assertEqual(background.attrib, {"width": "64", "height": "64", "fill": "#ffffff"})
+
+    def test_sharing_links_are_prefilled_and_do_not_post_automatically(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        page = PageElements()
+        page.feed(html)
+        actions = {attrs["class"]: attrs for tag, attrs in page.elements
+                   if tag == "a" and "header-button" in attrs.get("class", "")}
+        share = actions["header-button share-button"]
+        url = urlparse(share["href"])
+        self.assertEqual((url.scheme, url.netloc, url.path), ("https", "x.com", "/intent/tweet"))
+        self.assertEqual(parse_qs(url.query), {"text": [SHARE_TEXT], "url": [SITE_URL]})
+        self.assertLessEqual(len(SHARE_TEXT) + 24, 280)
+        self.assertEqual(actions["header-button star-button"]["href"], "https://github.com/gon-uri/venue-radar")
+        for attrs in actions.values():
+            self.assertEqual(attrs["target"], "_blank")
+            self.assertEqual(attrs["rel"], "noopener noreferrer")
+        self.assertNotIn("platform.twitter.com/widgets.js", html)
+
+    def test_submission_options_start_selected_and_shortcut_is_removed(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        page = PageElements()
+        page.feed(html)
+        inputs = {attrs.get("id"): attrs for tag, attrs in page.elements if tag == "input"}
+        self.assertIn("checked", inputs["open-only"])
+        self.assertNotIn("time-series-shortcut", inputs)
+        self.assertIn('value="time-series-sequential-data"', html)
 
     def test_title_font_is_embedded_with_its_original_license(self) -> None:
         font = (ASSETS_DIR / "vendor" / "audiowide-latin.woff2").read_bytes()

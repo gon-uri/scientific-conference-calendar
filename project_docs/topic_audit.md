@@ -23,8 +23,10 @@ subtopics match broader source-grounded main/additional tags. For example, MICCA
 is a healthcare venue, but is discoverable through its deep-learning subtopic;
 L4DC is control/dynamics, not automatically general ML. LoG bridges ML and graphs.
 Graphs belong in the complex-systems family but are distinct from nonlinear dynamics.
-AAMAS's agent tag does not make it an LLM-only venue. Time series has an independent
-shortcut matching the same leaf, including general ML and sequential recommendation.
+AAMAS's agent tag does not make it an LLM-only venue. Time series is available
+inside the complex-systems family and still matches the curated leaf union,
+including general ML and sequential recommendation. Its duplicate shortcut
+was removed in the 2026-10-07 filter polish.
 Selecting every child activates central-family matching, as selecting the parent does.
 
 Four main tags remain visible. Curated profiles capture actual characteristic

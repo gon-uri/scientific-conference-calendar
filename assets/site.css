@@ -19,14 +19,19 @@ header { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items:
 .brand-mark { width: 82px; height: 82px; object-fit: contain; flex: 0 0 auto; }
 h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625rem; font-weight: 400; font-synthesis: none; line-height: 1.15; min-width: 0; margin: 0; transform: translateY(2px); }
 .subhead { font-size: .94rem; margin-top: 7px; }
-.calendar-action { flex-direction: column; align-items: flex-end; gap: 6px; margin-top: 12px; }
+.header-actions { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: flex-end; justify-self: end; gap: 8px; max-width: 100%; margin-top: 12px; }
+.calendar-action { flex-direction: column; align-items: flex-end; gap: 6px; margin-top: 0; }
 .calendar-caption { font-size: .76rem; color: var(--muted); }
-.calendar-button { display: inline-flex; align-items: center; gap: 7px; }
+.calendar-button { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; box-sizing: border-box; }
+.header-button { display: inline-flex; align-items: center; justify-content: center; gap: 7px; min-height: 34px; padding: 6px 10px; box-sizing: border-box; border: 1px solid var(--line-strong); border-radius: 4px; background: #fff; color: var(--text); font-size: .82rem; font-weight: 650; line-height: 1.2; text-decoration: none; white-space: nowrap; }
+.header-button:hover { color: var(--accent-dark); background: var(--surface); border-color: var(--accent); }
+.header-button:focus-visible, .calendar-button:focus-visible, .clear-filters:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; }
 .calendar-button:hover { background: var(--accent-dark); }
-.calendar-button svg, .row-calendar-button svg { width: 17px; height: 17px; }
+.calendar-button svg, .header-button svg, .row-calendar-button svg { width: 17px; height: 17px; flex: 0 0 17px; }
 .row-calendar-button { display: inline-flex; padding: 6px; align-items: center; justify-content: center; }
-.controls { display: block; padding: 0 0 14px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: none; }
-.filter-details > summary { display: flex; align-items: center; gap: 14px; width: fit-content; padding: 7px 2px; color: var(--accent-dark); font-size: 1.25rem; font-weight: 650; cursor: pointer; list-style: none; }
+.controls { display: grid; grid-template-columns: minmax(0, 1fr); gap: 0; padding: 0 0 14px; border: 0; border-bottom: 1px solid var(--line); border-radius: 0; background: none; }
+.filter-details { grid-area: 1 / 1; }
+.filter-details > summary { display: flex; align-items: center; gap: 14px; width: fit-content; max-width: calc(100% - 88px); min-height: 44px; box-sizing: border-box; padding: 7px 2px; color: var(--accent-dark); font-size: 1.25rem; font-weight: 650; cursor: pointer; list-style: none; }
 .filter-details > summary::-webkit-details-marker { display: none; }
 .filter-disclosure-icon { display: block; width: 18px; flex: 0 0 18px; font-size: 1.25rem; line-height: 1; text-align: center; }
 .filter-details[open] > summary .filter-disclosure-icon { transform: rotate(90deg); }
@@ -40,9 +45,9 @@ h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625
 .tab-toolbar .open-toggle { font-size: .94rem; gap: 9px; padding: 0; line-height: 1.4; }
 .tab-toolbar .open-toggle input { width: 19px; height: 19px; flex: 0 0 19px; }
 .toolbar-actions { margin-left: auto; }
-.clear-filters { flex: 0 0 auto; text-decoration: underline; text-underline-offset: 3px; }
+.clear-filters { grid-area: 1 / 1; align-self: start; justify-self: end; min-height: 44px; font-size: .82rem; text-decoration: underline; text-underline-offset: 3px; }
 .check-list { border: 0; padding: 0; max-height: none; gap: 7px; }
-.topic-tree { max-height: 255px; overflow: auto; border: 1px solid var(--line); border-radius: 4px; padding: 2px 10px; }
+.topic-tree { max-height: 20rem; overflow: auto; border: 1px solid var(--line); border-radius: 4px; padding: 2px 10px; }
 .topic-family { border-bottom: 1px solid var(--line); padding: 7px 0; }
 .topic-family:last-child { border-bottom: 0; }
 .topic-family summary { display: list-item; list-style-position: inside; position: relative; cursor: pointer; font-size: .84rem; color: var(--text); }
@@ -52,7 +57,6 @@ h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625
 .topic-family[open] summary::after { content: '-'; }
 .topic-family summary label { display: inline-flex; width: calc(100% - 30px); vertical-align: middle; font-size: inherit; font-weight: 600; }
 .topic-family summary label span { white-space: nowrap; }
-.topic-shortcut { margin-bottom: 8px; color: var(--accent); font-weight: 600; }
 .topic-family .check-list { margin: 9px 0 2px 23px; }
 .topic-mode { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .topic-mode select { width: auto; min-width: 0; padding: 3px 7px; font-size: .78rem; }
@@ -115,6 +119,10 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   th { white-space: normal; }
   th:nth-last-child(-n+2) { padding-left: 3px; padding-right: 3px; }
 }
+@media (max-width: 1000px) {
+  header { grid-template-columns: 1fr; gap: 12px; }
+  .header-actions { margin-top: 0; }
+}
 @media (max-width: 760px) {
   main { width: calc(100% - 24px); padding-top: 18px; }
   header { grid-template-columns: 1fr; gap: 12px; }
@@ -126,7 +134,6 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   .topic-filter { grid-column: 1 / -1; max-width: none; }
   .filter-grid > fieldset:last-of-type, .search-control { grid-column: 1 / -1; }
   .filter-grid fieldset:last-of-type .check-list { grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .topic-tree { max-height: 245px; }
   .table-tabs { grid-template-columns: 1fr 1fr; margin-bottom: 0; }
   .tab-toolbar { gap: 12px; }
   .tab-button { padding: 9px 5px; font-size: .82rem; text-align: center; }

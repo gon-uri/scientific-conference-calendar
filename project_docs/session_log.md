@@ -1,5 +1,36 @@
 # Session Log
 
+## 2026-10-07 (filter access, default opportunities and sharing)
+
+- Objective: Remove the duplicate Time series shortcut, keep Clear filters
+  accessible when collapsed, fit eight topic families, default to submission
+  options, and add header sharing/star links with a simpler browser-tab identity.
+- Implemented: Clear filters is outside details and aligned with its heading,
+  never opens the panel, and keeps focus on itself when Search is hidden.
+  The tree fits all eight collapsed families within its 20rem maximum;
+  expanded children scroll internally. Time series stays as a normal subtopic
+  with unchanged union matching and feed membership.
+- Selected copy: Show submission options only starts checked, preserving all
+  four eligible route states. Unchecking or Clear filters reveals all future
+  editions, including closed/unannounced ones. The restriction is deadlines-only.
+  User selected the first X introduction; both proposals are kept in sharing.md.
+- Header: download, Share on X and Star the repo are grouped and responsive.
+  Sharing opens an encoded draft with the approved short text and canonical
+  website link; no post or star is submitted automatically. Pinned Lucide
+  share/star SVGs use the existing license. No social widget/API is introduced.
+- Branding: a small native SVG radar on opaque white supplies the favicon.
+  Main logo, README banner, font and artwork palette are unchanged. The favicon
+  was rendered and inspected at 16/32/64px, with 32px white-corner/nonblank checks.
+- Verification: 144 records validate; 70 Python tests and browser smoke pass
+  at 1440/1051/1050/768/390/320px. Checks cover default 76-opportunity membership,
+  collapsed clearing/focus, heading alignment, all-eight-family visibility,
+  expanded internal scrolling, retained Time series matching, exact sharing
+  parameters, safe new-tab links, responsive header bounds and prior route tests.
+  Desktop/mobile views were visually inspected. Two builds are identical;
+  all 187 calendar feeds, conference data/workbook and main artwork are unchanged.
+  ADR-033, architecture, status, roadmap, topic audit and maintainer guidance
+  document the current behavior.
+
 ## 2026-10-07 (submission-focused countdown and honest opening states)
 
 - Objective: Align submission status, Time left and the collapsed track/action,
@@ -29,6 +60,9 @@
   are identical. Conference YAML, metadata/workbook and calendar UIDs/dates
   are untouched. ADR-032 records the new contract and supersedes the relevant
   parts of ADR-016; maintenance and developer instructions are synchronized.
+- Publication: d02f114 pushed to main. Build 37605902067 and Pages 37605901201
+  passed; the live HTML matched the tested build and the full browser smoke
+  passed against the live page at all six widths.
 
 ## 2026-10-07 (eight-topic filters and language/robotics expansion)
 

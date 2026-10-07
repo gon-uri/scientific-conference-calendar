@@ -352,6 +352,8 @@ Last synchronized: 2026-10-07
 ## ADR-030: Separate Eight Central Families From Specific Scope Matching
 
 - Date: 2026-10-07
+- Refinement: ADR-033 removes the duplicate Time series shortcut. The normal
+  leaf, curated union matching and all eight families remain unchanged.
 - Context: The user wants eight intuitive topics, preserving healthcare,
   neuroscience, complex systems/time series and responsible AI while adding
   established language, agents, retrieval and robotics communities. Generic
@@ -420,3 +422,25 @@ Last synchronized: 2026-10-07
   deadline, with opening-unverified status. MLSys targets Oct 30 and switches
   from Scheduled to Open at its published Oct 10 20:00 UTC opening. Existing
   dates, expanded schedules, YAML schema and all calendar feeds remain unchanged.
+
+## ADR-033: Keep Clearing Accessible And Default To Submission Options
+
+- Date: 2026-10-07
+- Decision: Remove the duplicate Time series shortcut, keeping the subtopic
+  inside its existing family. Give the topic tree a 20rem maximum height so
+  eight collapsed families fit; expanded children scroll internally. Move
+  Clear filters outside native details into the heading row so it is visible
+  when collapsed, without nesting an interactive button inside summary.
+- Default: Show submission options only starts checked, retaining ADR-032's
+  four eligible states. Unchecking reveals closed/unannounced rows. Clear
+  filters still means remove every restriction, including this checkbox,
+  rather than silently restoring it to checked. It never opens the panel;
+  focus stays on Clear filters when Search is hidden.
+- Sharing: Group calendar download, Share on X and Star the repo in the header.
+  Use a prefilled X draft with approved text and the canonical site URL, and
+  a repository link for starring. Neither publishes or mutates an account
+  automatically; no third-party widget script is required. Preserve Lucide
+  release/license provenance and use safe new-tab relationships.
+- Branding: A simple radar-only SVG with opaque white background is the favicon.
+  The selected PNG logo, README banner and font remain unchanged. Copy choices
+  are recorded in sharing.md. No conference data, calendar feeds or UIDs change.

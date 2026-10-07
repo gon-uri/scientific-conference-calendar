@@ -18,7 +18,8 @@ the old feed URL in their calendar client; GitHub does not redirect Pages URLs.
 
 ## Venue Radar Extension
 
-The standalone generated HTML embeds the refined PNG logo, Leaflet JS/CSS,
+The standalone generated HTML embeds the refined PNG logo, radar-only SVG
+favicon on opaque white, Leaflet JS/CSS,
 Natural Earth land geometry, and local site assets. No map tiles, geocoder, or
 organizer API is called at runtime. `data/cities.yml` maps exact canonical
 location aliases to approximate city centers; only confirmed future meeting
@@ -45,17 +46,25 @@ between words instead of shrinking or overflowing; the logo stays centered
 beside the complete text block. Four pixels of mobile brand padding contain
 the font's taller text bounds without crowding the subtitle.
 
-Search, topics, sizes, independent ICORE/CCF ranks, acceptance bands, and Clear
-filters live in the native Filters & search `details` panel. Search is the
+Search, topics, sizes, independent ICORE/CCF ranks and acceptance bands
+live in the native Filters & search `details` panel. Search is the
 grid's last item, aligned beside Acceptance rate on desktop; mobile stacks it
 below the metadata options. Topics & Subtopics families use native disclosure
 markers, plus/minus signs, and hover hints. The panel starts collapsed at every
-viewport and preserves its state when resized. The deadline-only Show only
-submission opportunities checkbox sits outside, beside the tabs on desktop
+viewport and preserves its state when resized. Clear filters is a separate
+button in the disclosure-heading row, vertically aligned and visible whether
+the panel is open or closed. It clears all selections, including the submission
+restriction, without opening the panel; focus remains on the button when closed.
+The Match selector remains below the filter grid. The topic tree has a 20rem
+maximum height, fitting all eight collapsed families; expanded children scroll
+inside it. Time series remains a normal complex-systems subtopic, without a
+duplicate shortcut checkbox.
+
+The deadline-only Show submission options only checkbox sits outside, beside the tabs on desktop
 and below them on mobile, remaining usable while the panel is collapsed.
-Its label uses .94rem text and a fixed 19px native checkbox.
-The Match selector and Clear filters share a flex footer, vertically centered
-on the same row across desktop and mobile layouts.
+Its label uses .94rem text and a fixed 19px native checkbox. It starts checked
+on page load, includes all four eligible route states, and does not affect
+the Conferences table/map. Visitors can uncheck it to see closed/unannounced rows.
 Values within each rank group match with OR; separate groups
 combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 `page_url` points public rank links and the CCF Rank legend to the official
@@ -71,9 +80,8 @@ Table rows expose central IDs as `data-families` independently of `data-topics`.
 A whole-family checkbox matches central identities. Selecting individual
 subtopics matches the deduplicated primary/additional union, using OR within
 each family. Selecting every child is equivalent to selecting its parent and
-switches to central identity matching. Selected groups combine with ANY/ALL;
-the Time series shortcut adds the same controlled leaf as another group.
-Clearing filters resets both the shortcut and the tree. No selection means
+switches to central identity matching. Selected groups combine with ANY/ALL.
+Clearing filters resets the tree and Match mode. No selection means
 no topic restriction. Both tabs and the map share these rules.
 
 Four primary leaves remain visible; optional series profiles in
@@ -91,6 +99,15 @@ dynamics label stays on one line with compact small-screen spacing; below
 1200px the topic tree occupies its own grid row. The dated backlog has 15
 remaining original candidates, not published calendar records.
 
+The header groups the calendar download, Share on X and Star the repo links.
+Sharing uses a URL-encoded X intent with the approved text and canonical website
+URL, opening a user-reviewed draft rather than posting automatically. The star
+link opens the repository, not a star mutation. Both use new-tab opener isolation
+and pinned Lucide icons; no social widget script or API is added. Below 1000px,
+actions move below the brand copy and wrap within the viewport. Copy alternatives
+and maintenance guidance are in sharing.md. The separate favicon leaves the
+main PNG logo and README banner unchanged.
+
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.
 GitHub request forms and discussion links work independently of Giscus.
@@ -103,6 +120,7 @@ New maintained modules and assets:
 - `scripts/sync_workbook.mjs`: optional artifact-tool workbook synchronization;
   preserves table styles, validates values, renders previews, exports XLSX.
 - `assets/site.css`, `assets/site.js`: embedded style and browser behavior.
+- `assets/favicon.svg`: simple radar-only browser-tab identity on white.
 - `assets/venue-radar.png`, `assets/venue-radar-original.png`: optimized and
   original selected artwork; the active optimized file is recolored, while the
   original generation and pre-recolor source remain unchanged. Banner and

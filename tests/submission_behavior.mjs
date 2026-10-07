@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 
 export async function checkSubmissionBehavior(page) {
+  const opportunitiesOnly = await page.locator('#open-only').isChecked();
+  await page.locator('#open-only').uncheck();
   const aamas = page.locator('[data-deadline-group][data-edition="aamas-2027"]');
   const mlsys = page.locator('[data-deadline-group][data-edition="mlsys-2027"]');
   const status = row => row.locator('[data-submission-status]');
@@ -145,5 +147,6 @@ export async function checkSubmissionBehavior(page) {
         ? [] : [row.dataset.edition];
     }));
   assert.deepEqual(renderErrors, [], 'Every visible edition must match its selected countdown and collapsed action');
+  if (opportunitiesOnly) await page.locator('#open-only').check();
   console.log(`Submission behavior passed: AAMAS/MLSys transitions and ${cases.length} route fixtures.`);
 }
