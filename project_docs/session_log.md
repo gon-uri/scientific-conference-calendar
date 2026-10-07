@@ -1,5 +1,21 @@
 # Session Log
 
+## 2026-10-07 (semibold conference names)
+
+- Objective: Give the primary scanning anchor more emphasis without increasing
+  its size or changing the restrained palette.
+- Implemented: One scoped weight-600 CSS rule for conference-name links in
+  both tables, including archived editions. Font size, color, other links,
+  metadata, filters, data and calendar feeds are unchanged.
+- Regression coverage: Python checks the embedded rule has only a weight
+  declaration; browser smoke checks computed weight/inherited size for both
+  tables and text bounds at all six desktop/mobile widths.
+- Verification: 144 records validate; 72 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, including 26 submission-route fixtures.
+  Desktop/mobile screenshots were inspected and two HTML builds are identical.
+  All 187 calendar feeds, conference data/workbook, artwork and README remain
+  unchanged. Git diff whitespace checks pass.
+
 ## 2026-10-07 (filters expanded by default)
 
 - Objective: Show Filters & search expanded on first load.
@@ -15,6 +31,9 @@
   Default-open desktop/mobile screenshots were inspected; two HTML builds are
   identical. All 187 calendar feeds, canonical data/workbook, artwork and
   README remain unchanged from the preceding release.
+- Publication: f6a82ad pushed to main. Build 37613958168 and Pages 37613956917
+  passed; live HTML matched the tested output and live browser smoke passed
+  at all six widths with the default-expanded filter panel.
 
 ## 2026-10-07 (README error and feature invitations)
 

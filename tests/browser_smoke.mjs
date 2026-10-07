@@ -65,6 +65,11 @@ try {
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
   assert.equal(await page.locator('.subhead').innerText(), 'Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.');
+  assert(await page.locator('td[data-label="Conference"] > a').evaluateAll(names =>
+    names.length > 0 && names.every(name =>
+      getComputedStyle(name).fontWeight === '600' &&
+      getComputedStyle(name).fontSize === getComputedStyle(name.parentElement).fontSize
+    )), 'Conference names in both tables must be semibold at their existing size');
   for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     assert(await page.locator('#filter-details').evaluate(details => details.open), `Filters must start expanded at ${width}px`);
@@ -455,6 +460,14 @@ try {
     await page.waitForFunction(() => conferenceMap.getSize().x === document.querySelector('#conference-map').clientWidth);
     await page.waitForFunction(() => conferenceMap.getBounds().getEast() - conferenceMap.getBounds().getWest() > 330);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Map overflow at ${width}px`);
+    assert(await page.locator('td[data-label="Conference"] > a:visible').evaluateAll(names => names.every(name => {
+      const range = document.createRange();
+      range.selectNodeContents(name);
+      const cell = name.closest('td').getBoundingClientRect();
+      return [...range.getClientRects()].every(text =>
+        text.left >= cell.left && text.right <= cell.right &&
+        text.top >= cell.top && text.bottom <= cell.bottom);
+    })), `Conference table names must fit their cells at ${width}px`);
     assert(await page.locator('.leaflet-overlay-pane svg path').count() > 0);
     if (width > 760) {
       assert(await page.locator('th:visible').evaluateAll(headings => headings.every(heading => {
@@ -472,6 +485,14 @@ try {
     await page.locator('#tab-deadlines').click();
     await page.locator('#open-only').check();
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Deadline overflow at ${width}px`);
+    assert(await page.locator('td[data-label="Conference"] > a:visible').evaluateAll(names => names.every(name => {
+      const range = document.createRange();
+      range.selectNodeContents(name);
+      const cell = name.closest('td').getBoundingClientRect();
+      return [...range.getClientRects()].every(text =>
+        text.left >= cell.left && text.right <= cell.right &&
+        text.top >= cell.top && text.bottom <= cell.bottom);
+    })), `Deadline table names must fit their cells at ${width}px`);
     assert(await timeEstimate.isVisible());
     assert(await timeEstimate.evaluate(note => {
       const range = document.createRange();

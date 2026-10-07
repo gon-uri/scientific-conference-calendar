@@ -214,6 +214,10 @@ Last synchronized: 2026-10-07
   white and retain exterior transparency. A browser-rendered white README
   banner uses the real Audiowide font, avoiding generated lettering. Keep the
   pre-recolor source and original generation unchanged for provenance.
+- 2026-10-07 table hierarchy refinement: make conference-name links semibold
+  at weight 600 in both tables and archived editions. Scope the rule to their
+  existing Conference cells, keeping inherited size/color and other link
+  weights unchanged. Check wrapping and cell bounds on desktop and mobile.
 
 ## ADR-023: Use Optional Giscus For Community Requests
 

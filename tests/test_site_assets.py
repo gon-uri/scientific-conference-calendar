@@ -148,6 +148,11 @@ class SiteAssetTests(unittest.TestCase):
             "not an official Stockholm University service."
         ))
 
+    def test_conference_names_are_semibold_without_size_or_color_overrides(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        self.assertIn('td[data-label="Conference"] > a { font-weight: 600; }', html)
+
     def test_title_font_is_embedded_with_its_original_license(self) -> None:
         font = (ASSETS_DIR / "vendor" / "audiowide-latin.woff2").read_bytes()
         self.assertEqual(font[:4], b"wOF2")

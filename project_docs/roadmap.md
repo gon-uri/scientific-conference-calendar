@@ -17,6 +17,8 @@ Last synchronized: 2026-10-07
   checkbox outside the filter panel. Larger title/logo and filter-disclosure
   sizing accompany the selected, locally embedded Audiowide title. Ten font
   specimens and the final choice are documented in typography_proposal.md.
+  Conference names now use semibold weight 600 without increasing font size
+  or changing color in either table, including past editions.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
 - Completed filter/sharing polish: always-visible Clear filters aligned with

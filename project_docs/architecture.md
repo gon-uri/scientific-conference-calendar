@@ -35,7 +35,7 @@ maintainer tools, not Python build or website runtime dependencies.
 
 The header uses an 82px mark with a 42px title on desktop and a 66px mark with
 a 34px title on mobile. Audiowide's native 400-weight Latin WOFF2 is embedded
-in the HTML as a data URL; body/table typography is unchanged. The original
+in the HTML as a data URL; body/table font families and sizes are unchanged. The original
 OFL notice is preserved in assets/vendor and the generated HTML. No external
 font request is added to the public page. The native filter `details`/`summary`
 retains its keyboard and expanded-state semantics; an aria-hidden 20px triangle
@@ -45,6 +45,11 @@ letter bounds rather than just font line boxes. Narrow mobile titles wrap
 between words instead of shrinking or overflowing; the logo stays centered
 beside the complete text block. Four pixels of mobile brand padding contain
 the font's taller text bounds without crowding the subtitle.
+
+Conference-name links in both tables, including archived editions, use weight
+600 through a rule scoped to their existing Conference cells. Their inherited
+font size and link color are unchanged; other links and metadata do not gain
+additional weight. Browser checks cover name text bounds at six viewport widths.
 
 Search, topics, sizes, independent ICORE/CCF ranks and acceptance bands
 live in the native Filters & search `details` panel. Search is the
