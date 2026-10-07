@@ -1,5 +1,23 @@
 # Session Log
 
+## 2026-10-07 (mobile card hierarchy refinement)
+
+- Objective: Make expansion controls quieter, field labels easier to read,
+  and the boundary between successive conference cards clearer.
+- Implemented: Mobile-only 36px More info / Less info controls with 4px vertical
+  padding and white backgrounds; 13px darker bold field labels; pale teal
+  Conference headers; stronger existing 1px outlines; 14px inter-card gaps.
+  Both tabs and archived editions share the treatment. Desktop styles, card
+  disclosure behavior, filter defaults and all conference data remain unchanged.
+- Regression coverage: Existing Python checks cover the embedded mobile rules;
+  browser tests verify control dimensions, labels, backgrounds, outlines and
+  spacing in both tabs plus desktop isolation at the 760/761px boundary.
+- Verification: 144 records validate; 73 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, including all 26 submission-route fixtures
+  and the mobile disclosure/fallback suite. Phone previews were inspected;
+  two HTML builds are identical. All 187 feeds, canonical data/workbook, branding,
+  README and JavaScript/build logic are unchanged. Git diff checks pass.
+
 ## 2026-10-07 (compact mobile cards and collapsed filters)
 
 - Objective: Reduce mobile card height while retaining all conference details,
@@ -21,6 +39,9 @@
   Desktop screenshots retain the original table layout; two HTML builds are
   identical. All 187 calendar feeds, conference data/workbook, branding and
   README are unchanged. Git diff whitespace checks pass.
+- Publication: c4e2194 pushed to main. Build 37616467131 and Pages 37616466778
+  passed; live HTML matched the tested output and the full live browser suite
+  passed, including independent mobile cards and responsive filter defaults.
 
 ## 2026-10-07 (semibold conference names)
 

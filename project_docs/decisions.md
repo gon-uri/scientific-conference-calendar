@@ -504,3 +504,13 @@ Last synchronized: 2026-10-07
 - Consequences: No data, metadata matching, calendar feeds, event UIDs, desktop
   column order, brand assets or map eligibility changes. Browser regressions
   cover both tabs, the breakpoint, keyboard, persistence and no-JS behavior.
+- Approved visual refinement: reduce the full-width disclosure from 44px to
+  36px with 4px vertical padding and a white resting background. Increase all
+  mobile field labels to .8125rem (13px at the default root size), retaining
+  bold weight and using darker grey #526267. Give the Conference row a pale
+  teal #edf5f5 background, strengthen the existing 1px outline to #bdc9cc and
+  increase card gaps from 10px to 14px. Avoid thick borders and shadows.
+  The smaller target is an explicit compactness tradeoff from the original
+  44px control, still above WCAG 2.2 AA's 24px target-size minimum:
+  https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html.
+  Apply the same refinement to both tabs and archived cards, never desktop.

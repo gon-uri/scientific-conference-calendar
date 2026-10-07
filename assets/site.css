@@ -139,13 +139,15 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   .tab-toolbar { gap: 12px; }
   .tab-button { padding: 9px 5px; font-size: .82rem; text-align: center; }
   .toolbar-actions { flex-wrap: wrap; gap: 9px; }
+  tr[data-filter-row] { border-color: var(--line-strong); margin-bottom: 14px; }
   td { grid-template-columns: minmax(6rem, 30%) minmax(0, 1fr); }
   td > * { min-width: 0; overflow-wrap: anywhere; }
-  td::before { text-transform: none; }
+  td::before { text-transform: none; font-size: .8125rem; color: #526267; }
+  td[data-label="Conference"] { background: #edf5f5; border-radius: 7px 7px 0 0; }
   .mobile-cards-ready tr[data-mobile-expanded="false"] > .mobile-detail { display: none; }
   .mobile-cards-ready .mobile-row-disclosure { display: block; padding: 0; border-bottom: 0; }
   .mobile-row-disclosure::before { content: none; }
-  .mobile-info-toggle { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; min-height: 44px; padding: 8px 10px; border: 0; border-radius: 0 0 7px 7px; background: var(--surface); color: var(--accent-dark); font: inherit; font-weight: 600; cursor: pointer; }
+  .mobile-info-toggle { display: flex; align-items: center; justify-content: center; gap: 7px; width: 100%; min-height: 36px; padding: 4px 10px; border: 0; border-radius: 0 0 7px 7px; background: #fff; color: var(--accent-dark); font: inherit; font-weight: 600; cursor: pointer; }
   .mobile-info-toggle:hover { background: var(--surface-strong); }
   .mobile-info-toggle:focus-visible { outline: 2px solid var(--accent); outline-offset: -3px; }
   .mobile-info-toggle svg { display: block; width: 16px; height: 16px; }

@@ -35,7 +35,7 @@ maintainer tools, not Python build or website runtime dependencies.
 
 The header uses an 82px mark with a 42px title on desktop and a 66px mark with
 a 34px title on mobile. Audiowide's native 400-weight Latin WOFF2 is embedded
-in the HTML as a data URL; body/table font families and sizes are unchanged. The original
+in the HTML as a data URL; body/table font families and value sizes are unchanged. The original
 OFL notice is preserved in assets/vendor and the generated HTML. No external
 font request is added to the public page. The native filter `details`/`summary`
 retains its keyboard and expanded-state semantics; an aria-hidden 20px triangle
@@ -61,7 +61,13 @@ milestone schedule, and enables the mobile-only hiding rules. Expansion survives
 filtering, tab switches, minute refreshes and resizing. Without JavaScript,
 all metadata remains visible and the inert disclosure control stays hidden.
 The chevron uses the same pinned Lucide 0.468.0 release/license as other icons;
-the full-width button has a minimum 44px tap target and native keyboard behavior.
+the full-width button has a minimum 36px height and native keyboard behavior.
+Its white resting background and reduced padding keep the expansion control
+visually secondary. Mobile field labels use .8125rem (13px at the default root
+size), bold weight and darker grey #526267. A pale teal #edf5f5 Conference row,
+a stronger 1px #bdc9cc outer border and 14px inter-card gaps distinguish editions
+without shadows or heavier outlines. These rules apply to both tabs and archived
+cards only inside the existing mobile media query; desktop styles are unchanged.
 
 Search, topics, sizes, independent ICORE/CCF ranks and acceptance bands
 live in the native Filters & search `details` panel. Search is the

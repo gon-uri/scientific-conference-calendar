@@ -125,6 +125,16 @@ class SiteAssetTests(unittest.TestCase):
         self.assertIn('.mobile-cards-ready tr[data-mobile-expanded="false"] > .mobile-detail { display: none; }', html)
         self.assertIn("initializeMobileCards();", html)
         self.assertIn('class="lucide lucide-chevron-down"', html)
+        css = (ASSETS_DIR / "site.css").read_text(encoding="utf-8")
+        mobile = css.split('@media (max-width: 760px) {', 1)[1]
+        for rule in (
+            'tr[data-filter-row] { border-color: var(--line-strong); margin-bottom: 14px; }',
+            'td::before { text-transform: none; font-size: .8125rem; color: #526267; }',
+            'td[data-label="Conference"] { background: #edf5f5; border-radius: 7px 7px 0 0; }',
+            'min-height: 36px; padding: 4px 10px;',
+        ):
+            self.assertIn(rule, mobile)
+            self.assertIn(rule, html)
 
     def test_public_attribution_and_header_action_order(self) -> None:
         with TemporaryDirectory() as directory:

@@ -42,7 +42,8 @@ and focused route fixtures: unknown versus scheduled opening, mandatory gates,
 estimated evidence, actual contributions versus organizer/production steps,
 matching countdown/summary and chronological closed-row placement.
 The imported mobile_cards.mjs suite checks compact first-three-field cards in
-both tabs, independent expansion, 44px controls, keyboard/focus behavior, nested
+both tabs, independent expansion, compact 36px full-width controls, 13px labels,
+tinted headers, card outlines/spacing, desktop isolation, keyboard/focus, nested
 milestones, filter/tab/resize persistence, archived editions and no-JavaScript
 fallbacks. Fresh loads verify desktop-expanded/mobile-collapsed filter defaults,
 including the 760/761px boundary; resizing never resets a user's disclosure state.

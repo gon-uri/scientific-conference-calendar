@@ -5,8 +5,25 @@ async function visibleLabels(row) {
   return row.locator('td:visible').evaluateAll(cells => cells.map(cell => cell.dataset.label || 'More info'));
 }
 
+async function checkMobilePresentation(row) {
+  assert(await row.evaluate(row => {
+    const card = getComputedStyle(row);
+    const header = getComputedStyle(row.querySelector('[data-label="Conference"]'));
+    const labels = [...row.querySelectorAll('td[data-label]')];
+    return card.marginBottom === '14px' && card.borderTopWidth === '1px' &&
+      card.borderTopColor === 'rgb(189, 201, 204)' && header.backgroundColor === 'rgb(237, 245, 245)' &&
+      labels.every(cell => {
+        const label = getComputedStyle(cell, '::before');
+        return label.fontSize === '13px' && label.fontWeight === '700' && label.color === 'rgb(82, 98, 103)';
+      });
+  }), 'Mobile cards need readable labels, tinted headers, stronger borders and clear spacing');
+}
+
 async function checkDisclosure(row, collapsedLabels) {
+  // Check the resting style regardless of where a prior click left the pointer.
+  await row.page().mouse.move(0, 0);
   assert.deepEqual(await visibleLabels(row), [...collapsedLabels, 'More info']);
+  await checkMobilePresentation(row);
   const button = row.locator('.mobile-info-toggle');
   assert.equal(await button.getAttribute('aria-expanded'), 'false');
   assert.equal(await button.locator('[data-mobile-info-label]').innerText(), 'More info');
@@ -14,8 +31,9 @@ async function checkDisclosure(row, collapsedLabels) {
     const cells = button.getAttribute('aria-controls').split(' ').map(id => document.getElementById(id));
     const box = button.getBoundingClientRect();
     return cells.length === 5 && cells.every(cell => cell?.closest('tr') === button.closest('tr')) &&
-      box.height >= 44 && box.left >= 0 && box.right <= innerWidth;
-  }), 'Every card needs its own controlled details and a fitting 44px tap target');
+      box.height >= 36 && box.height <= 37 && box.left >= 0 && box.right <= innerWidth &&
+      getComputedStyle(button).backgroundColor === 'rgb(255, 255, 255)';
+  }), 'Every card needs its own controlled details and a compact full-width 36px control');
 }
 
 export async function checkMobileCards(page, url, output) {
@@ -49,6 +67,7 @@ export async function checkMobileCards(page, url, output) {
     assert.equal(await toggle.getAttribute('aria-expanded'), 'true');
     assert.equal(await toggle.locator('[data-mobile-info-label]').innerText(), 'Less info');
     assert.equal(await first.locator('.mobile-detail:visible').count(), 5);
+    await checkMobilePresentation(first);
     assert.equal(await other.locator('.mobile-detail:visible').count(), 0, 'Cards expand independently');
     assert((await first.boundingBox()).height > collapsedHeight + 100);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)));
@@ -91,6 +110,7 @@ export async function checkMobileCards(page, url, output) {
     await conference.locator('.mobile-info-toggle').focus();
     await page.keyboard.press('Enter');
     assert.equal(await conference.locator('.mobile-detail:visible').count(), 5);
+    await checkMobilePresentation(conference);
     assert(await conference.locator('.row-calendar-button').isVisible());
     assert.equal(await neighbor.locator('.mobile-detail:visible').count(), 0);
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)));
@@ -120,6 +140,10 @@ export async function checkMobileCards(page, url, output) {
   await page.goto(url);
   assert(await page.locator('#filter-details').evaluate(details => details.open), 'Desktop default starts at 761px');
   assert.equal(await page.locator('.mobile-row-disclosure:visible').count(), 0);
+  assert(await page.locator('[data-filter-row]').evaluateAll(rows => rows.every(row =>
+    getComputedStyle(row).marginBottom === '0px' &&
+    getComputedStyle(row.querySelector('[data-label="Conference"]')).backgroundColor === 'rgba(0, 0, 0, 0)'
+  )), 'Mobile card styling must not affect desktop rows');
   await page.setViewportSize({width: 1440, height: 1000});
   console.log('Mobile cards passed: independent disclosures, keyboard/resize/filter persistence, past editions, and no-JS fallback.');
 }

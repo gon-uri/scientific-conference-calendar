@@ -60,6 +60,9 @@ Last synchronized: 2026-10-07
   More info / Less info controls reveal all remaining metadata, including past
   editions. Expansion survives filtering, tab changes and resizing; desktop
   tables remain fully visible. Without JavaScript all metadata remains visible.
+  Mobile cards now have 13px darker bold field labels, a pale teal Conference
+  header, stronger 1px outlines and 14px separation. More info / Less info uses
+  a quieter 36px full-width white row; desktop typography/layout are unchanged.
 - Sharing: Share on X and Star the repo sit beside the header calendar action,
   with matching pinned Lucide icons. X opens a prefilled draft with the approved
   introduction, rankings/rates, search/filtering and website link; visitors
@@ -107,7 +110,7 @@ Last synchronized: 2026-10-07
   tables. Detailed commands live in project_docs, not README.
 - Verification: data validation, Python tests, full build, workbook rendering
   and value checks, plus desktop/mobile browser interaction and overflow checks.
-  Release 9fede14 is published: GitHub Build and Pages passed, live HTML matched
+  Release c4e2194 is published: GitHub Build and Pages passed, live HTML matched
   the verified build and live browser checks passed at six widths. The earlier
   catalog release d869465 also verified all 30 aggregate/new-series/new-topic feeds.
 

@@ -24,6 +24,8 @@ Last synchronized: 2026-10-07
   with independent More info / Less info controls for the rest. Desktop tables
   stay complete. Expansion survives filtering, tab switches and resizing;
   keyboard controls, archived editions and the no-JavaScript fallback are tested.
+  Mobile refinement adds a quiet 36px white disclosure row, 13px field labels,
+  pale teal conference headers, stronger 1px outlines and 14px card spacing.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
 - Completed filter/sharing polish: always-visible Clear filters aligned with
