@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: Evolutionary Computation & Optimizatio
+ n
+BEGIN:VEVENT
+UID:gecco-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270120T115900Z
+DTEND:20270120T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Abstract registration for full papers (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270127T115900Z
+DTEND:20270127T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270127T115900Z
+DTEND:20270127T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Poster-only paper submission deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Camera-ready deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270515T115900Z
+DTEND:20270515T125900Z
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Methods and ABCD paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/dates/\nLocation: To be announced\nTopics: Machine Learning\, Evol
+ utionary Computation & Optimization\, Deep Representation Learning\, Lear
+ ning Theory & Statistical Foundations\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: No offi
+ cial 2027 schedule found. Annual meeting and main-track deadlines are pro
+ jections from AutoML 2026\; location is unannounced and links refer to pr
+ ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
+ tasets. Size M is an editorial estimate for this specialist conference.
+URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Conference
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2027.sigevo.org/HomePage\nLocation: Krakow\, Poland\nTopics: Evolut
+ ionary Computation & Optimization\, Machine Learning\, Complex Systems & 
+ Network Science\nSize: L\nSubmission type: Paper-based / poster papers\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Organizer con
+ firms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains copied 
+ 2026 venue/deadline text\; do not treat it as a confirmed 2027 submission
+  schedule. Deadlines use 2026 timing as an estimated annual proxy. Poster
+ -only submissions are separate from the gated full-paper route. Size L is
+  an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2027.sigevo.org/HomePage
+LOCATION:Krakow\, Poland
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270731T115900Z
+DTEND:20270731T125900Z
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Camera-ready deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/dates/\nLocation: To be announced\nTopics: Machine Learning\, Evol
+ utionary Computation & Optimization\, Deep Representation Learning\, Lear
+ ning Theory & Statistical Foundations\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: No offi
+ cial 2027 schedule found. Annual meeting and main-track deadlines are pro
+ jections from AutoML 2026\; location is unannounced and links refer to pr
+ ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
+ tasets. Size M is an editorial estimate for this specialist conference.
+URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20271002
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/\nLocation: To be announced\nTopics: Machine Learning\, Evolutiona
+ ry Computation & Optimization\, Deep Representation Learning\, Learning T
+ heory & Statistical Foundations\nSize: M\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-07\nNotes: No official 2
+ 027 schedule found. Annual meeting and main-track deadlines are projectio
+ ns from AutoML 2026\; location is unannounced and links refer to prior ed
+ itions. ABCD covers applications\, benchmarks\, challenges\, and datasets
+ . Size M is an editorial estimate for this specialist conference.
+URL:https://2026.automl.cc/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

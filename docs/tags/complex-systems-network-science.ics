@@ -45,6 +45,50 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
 URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T115900Z
+DTEND:20260806T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
+ t registration deadline (both tracks)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260808T115900Z
+DTEND:20260808T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
+  extended abstract submission deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260815
@@ -83,6 +127,28 @@ DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
  ize is an editorial category.
 URL:https://ccs26.cssociety.org/
 LOCATION:Binghamton\, New York\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
+ ready deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:siam-ds-2027-deadline-minisymposium@scientific-conference-calendar
@@ -125,6 +191,29 @@ URL:https://nolta2026.org/
 LOCATION:Grenoble\, France
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
+ nce
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
+ ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
+  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
+ ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
+ roceedings papers and non-archival extended abstracts share the registrat
+ ion and final submission cutoffs\, represented as one route. The TMLR pre
+ sentation track requires an already published paper\, so it is not a new-
+ paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
+ stimate.
+URL:https://logconference.org/
+LOCATION:Boston\, Massachusetts\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261124T045900Z
@@ -163,6 +252,86 @@ DESCRIPTION:Conference title: International School and Conference on Networ
  n route rather than assumed archival proceedings. Size is an editorial ca
  tegory.
 URL:https://www.netsci2026.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270120T115900Z
+DTEND:20270120T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Abstract registration for full papers (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270127T115900Z
+DTEND:20270127T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-poster@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270127T115900Z
+DTEND:20270127T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Poster-only paper submission deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270411T115900Z
+DTEND:20270411T125900Z
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Camera-ready deadline (estimated)
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2026.sigevo.org/Important+Dates\nLocation: Krakow\, Poland\nTopics:
+  Evolutionary Computation & Optimization\, Machine Learning\, Complex Sys
+ tems & Network Science\nSize: L\nSubmission type: Paper-based / poster pa
+ pers\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Organi
+ zer confirms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains 
+ copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
+ mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+  Poster-only submissions are separate from the gated full-paper route. Si
+ ze L is an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2026.sigevo.org/Important+Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ccs-2027-deadline-abstract@scientific-conference-calendar
@@ -222,6 +391,27 @@ DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical
  n Time\, accounting for daylight saving. Size is an editorial category.
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/
 LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:gecco-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Conference
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2027.sigevo.org/HomePage\nLocation: Krakow\, Poland\nTopics: Evolut
+ ionary Computation & Optimization\, Machine Learning\, Complex Systems & 
+ Network Science\nSize: L\nSubmission type: Paper-based / poster papers\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Organizer con
+ firms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains copied 
+ 2026 venue/deadline text\; do not treat it as a confirmed 2027 submission
+  schedule. Deadlines use 2026 timing as an estimated annual proxy. Poster
+ -only submissions are separate from the gated full-paper route. Size L is
+  an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2027.sigevo.org/HomePage
+LOCATION:Krakow\, Poland
 END:VEVENT
 BEGIN:VEVENT
 UID:ccs-2027-conference@scientific-conference-calendar

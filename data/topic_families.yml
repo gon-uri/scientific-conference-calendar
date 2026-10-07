@@ -10,6 +10,8 @@ families:
       - Reinforcement Learning
       - Federated & Distributed Learning
       - Human-AI Interaction & Deployment
+      - Evolutionary Computation & Optimization
+      - ML Systems & Infrastructure
   - id: data-time-series
     label: Data & Time Series
     topics:
@@ -27,6 +29,7 @@ families:
       - EEG/MEG & Neural Signals
       - BCI & Neurotechnology
       - Neuroimaging & Brain Mapping
+      - Cognitive Science & Computational Cognition
   - id: healthcare
     label: Healthcare & Biomedical AI
     topics:
@@ -75,3 +78,6 @@ labels:
   Ethics & Governance: Ethics & governance
   Privacy-preserving ML: Privacy-preserving ML
   Robustness & Safety: Robustness & safety
+  Evolutionary Computation & Optimization: Evolutionary computation
+  Cognitive Science & Computational Cognition: Cognitive science
+  ML Systems & Infrastructure: ML systems & infrastructure

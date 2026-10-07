@@ -160,12 +160,41 @@ try {
   assert(!opportunities.includes('acc-2027'));
   assert(opportunities.includes('ieee-cdc-2027'));
   assert(opportunities.includes('netsci-2027'));
+  assert(opportunities.includes('aamas-2027'), 'Blue Sky Ideas remains a distinct submission opportunity');
+  assert(opportunities.includes('automl-2027'));
+  assert(opportunities.includes('probml-2027'));
+  assert(opportunities.includes('mlsys-2027'));
+  for (const id of ['corl-2026', 'log-2026', 'satml-2027']) assert(!opportunities.includes(id));
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-10-11T12:00:00Z');
+    applyFilters();
+  });
+  assert.equal(await page.locator('[data-edition="mlsys-2027"] [data-submission-status]').innerText(), 'Open paper submissions');
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-11-06T12:00:00Z');
+    applyFilters();
+  });
+  assert(!(await page.locator('[data-deadline-group][data-edition="aamas-2027"]').isVisible()), 'Expired Blue Sky registration closes its paper route');
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2027-02-10T12:00:00Z');
+    applyFilters();
+  });
+  assert(await page.locator('[data-deadline-group][data-edition="interspeech-2027"]').isVisible(), 'Show & Tell remains after main papers close');
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2027-03-11T12:00:00Z');
+    applyFilters();
+  });
+  assert(!(await page.locator('[data-deadline-group][data-edition="interspeech-2027"]').isVisible()), 'Paper updates and camera-ready do not reopen submissions');
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-10-06T12:00:00Z');
+    applyFilters();
+  });
   await filterSummary.click();
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '51 confirmed editions in 43 cities');
-  assert.equal(await page.locator('.city-marker').count(), 43);
+  assert.equal(await page.locator('#map-count').innerText(), '60 confirmed editions in 51 cities');
+  assert.equal(await page.locator('.city-marker').count(), 51);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -183,7 +212,7 @@ try {
   await page.locator('[data-filter-group="ccf"][value="B"]').check();
   const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));
-  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 43);
+  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 51);
   await page.locator('[data-filter-group="icore"][value="Unranked"]').check();
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
   assert(await ccfMatches.evaluateAll(rows => rows.some(row => row.dataset.edition === 'icassp-2027')));
@@ -194,6 +223,18 @@ try {
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'Unranked')));
   await page.locator('#clear-filters').click();
   await page.locator('#tab-conferences').click();
+  for (const [family, topic, expected] of [
+    ['ml-ai', 'evolutionary-computation-optimization', 'gecco-2027'],
+    ['neuroscience', 'cognitive-science-computational-cognition', 'cogsci-2027'],
+    ['ml-ai', 'ml-systems-infrastructure', 'mlsys-2027'],
+  ]) {
+    const disclosure = page.locator('.topic-family').filter({has: page.locator(`[data-family-toggle="${family}"]`)});
+    await disclosure.evaluate(details => details.open = true);
+    await page.locator(`[data-topic-family="${family}"][value="${topic}"]`).check();
+    assert(await page.locator(`#upcoming-conferences-body [data-edition="${expected}"]`).isVisible());
+    await page.locator('#clear-filters').click();
+    await disclosure.evaluate(details => details.open = false);
+  }
   const familySummary = page.locator('.topic-family summary').first();
   await familySummary.focus();
   await page.keyboard.press('Enter');

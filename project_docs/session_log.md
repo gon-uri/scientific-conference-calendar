@@ -1,5 +1,42 @@
 # Session Log
 
+## 2026-10-07 (AI Deadlines additions and candidate backlog)
+
+- Objective: Add the 11 recommended venues, preserve the other audit candidates,
+  and extend subtopics only where the new venues need focused classifications.
+- Added: AutoML, LoG, CoRL, GECCO, SaTML, ProbML, AAMAS, MLSys, CogSci, ICIP,
+  and Interspeech. Catalog now has 104 editions / 82 series. Existing 93 edition
+  records and their per-edition feeds remain unchanged.
+- Evidence: official organizer meeting/CFP pages, CoRL's public OpenReview
+  metadata, ICORE 2026 export, CCF 2026 catalog, and organizer/proceedings rate
+  statistics. AutoML/ProbML meeting projections and GECCO/CogSci submission
+  projections remain estimated. ICIP/Interspeech date-only cutoffs emit all-day
+  ICS events. Source discrepancies and outstanding checks are documented.
+- Metadata: three new central leaves within the existing seven families;
+  eight new city aliases; explicit annual cadence for all additions. Rank maps
+  now cover 39 ICORE and 31 CCF series. Historical rate evidence covers 25
+  series, adding AutoML 2024, LoG 2023, and AAMAS 2026; unsupported rates stay
+  Unknown. Size approximations are explicitly noted, not attendance claims.
+- Tracks: AAMAS main and Blue Sky Ideas use independent prerequisite gates.
+  Registered-only main papers have an explicit milestone label. Interspeech
+  Show & Tell is separate; paper updates, camera-ready, and SaTML revisions
+  are not fresh submission routes.
+- Candidate memory: conference_candidates.md, linked from AGENTS and roadmap,
+  preserves all 57 originally missing series: 11 added and 46 still untracked.
+  ICWM is separate (future-only). The source retained no 2024 entries; the
+  limitation and all candidate names, official links, and visible years are
+  recorded. The 46-entry backlog exactly matches the remaining snapshot gap.
+- Workbook: synchronized and re-imported 82 series / 30 vocabulary leaves,
+  preserving native tables/order, verified exact canonical values, checked for
+  formula errors, and visually inspected both sheets. New long type cells wrap.
+- Verification: validation, 42 Python tests, full build, idempotent rollover,
+  maintenance queue, and desktop/mobile browser checks pass. Browser scenarios
+  cover independent tracks, openings, expired gates, subtopics, ranks, map
+  markers, and overflow at 1440/1051/1050/768/390/320px. Generated feeds retain
+  their existing deterministic UID namespace and RFC-required folding/CRLF.
+- Publication: source, workbook, docs, tests, and generated HTML/ICS are committed
+  together for main/docs publication. No additional backlog venue is approved.
+
 ## 2026-10-07 (repository rename migration)
 
 - Objective: Adapt the project after the user renamed the GitHub repository

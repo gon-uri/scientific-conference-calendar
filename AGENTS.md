@@ -24,6 +24,9 @@ code disagree, update the docs before implementing new work.
 - `docs/` is reserved for generated GitHub Pages outputs: `index.html` and
   `.ics` feeds.
 - `project_docs/` contains maintained project-state documentation.
+- `project_docs/conference_candidates.md` preserves the dated AI Deadlines
+  comparison and untracked candidate backlog. Consult it before expanding the
+  catalog; candidates are not approved additions or confirmed calendar data.
 - Use `estimated` for inferred or placeholder dates. Do not make uncertain data
   look confirmed.
 - Calendar event UIDs must be deterministic and stable. Never use random values

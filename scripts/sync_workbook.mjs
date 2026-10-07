@@ -24,6 +24,7 @@ if (additions.length) {
       .copyFrom(catalog.getRange('A2:N2'), 'all');
   }
   catalog.getRange(`A${ordered.length + 2}:N${ordered.length + additions.length + 1}`).values = additions;
+  catalog.getRange(`F${ordered.length + 2}:F${ordered.length + additions.length + 1}`).format.wrapText = true;
 }
 const total = ordered.length + additions.length;
 catalog.getRange(`A2:N${total + 1}`).values = [...ordered, ...additions];
@@ -46,6 +47,9 @@ const newDefinitions = {
   'Ethics & Governance': 'AI ethics, social impacts, governance, regulation, and responsible research.',
   'Privacy-preserving ML': 'Privacy, differential privacy, confidential learning, and privacy-preserving computation.',
   'Robustness & Safety': 'Reliable and safe AI, adversarial robustness, distribution shift, and model assurance.',
+  'Evolutionary Computation & Optimization': 'Evolutionary algorithms, genetic programming, neuroevolution, and population-based optimization.',
+  'Cognitive Science & Computational Cognition': 'Computational models of cognition, learning, perception, language, and reasoning.',
+  'ML Systems & Infrastructure': 'Systems for ML and ML for systems, including training, inference, compilers, hardware, and serving.',
 };
 const topicByName = new Map(payload.topics.map((topic) => [topic.tag, topic]));
 const topicOrder = payload.topics.map((topic) => topic.tag);
@@ -71,7 +75,7 @@ console.log((await wb.inspect({kind:'match', searchTerm:'#REF!|#DIV/0!|#VALUE!|#
 await fs.mkdir(previewDir, {recursive:true});
 for (const [sheetName, range, name] of [
   ['Core Conferences', `A${Math.max(1,total - 7)}:F${total + 1}`, 'catalog'],
-  ['Tag Vocabulary', 'A18:B28', 'topics'],
+  ['Tag Vocabulary', `A${Math.max(2,vocabulary.length - 9)}:B${vocabulary.length + 1}`, 'topics'],
 ]) {
   const preview = await wb.render({sheetName, range, scale:1.2, format:'png'});
   await fs.writeFile(`${previewDir}/${name}.png`, new Uint8Array(await preview.arrayBuffer()));

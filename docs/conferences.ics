@@ -528,6 +528,26 @@ URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:corl-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261109
+DTEND;VALUE=DATE:20261113
+SUMMARY:[Machine Learning][Control & Robotics] CoRL 2026 - Conference
+DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
+ //www.corl.org/\nSource URL: https://www.corl.org/\nLocation: Austin\, Te
+ xas\, USA\nTopics: Machine Learning\, Control & Robotics\, Reinforcement 
+ Learning\, Deep Representation Learning\nSize: L\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tenth
+  annual edition\; main conference Nov 9-11 and workshops Nov 12. OpenRevi
+ ew's May 26/29 at 11:59 UTC correspond to May 25/28 at 23:59 AoE\, consis
+ tent with the author instructions' Thursday May 28 cutoff. Abstract regis
+ tration is mandatory. Satellite workshop papers are not main-track opport
+ unities. ICORE 2026 lists CoRL as Unranked\, not A/A*/B/C. Size L is an e
+ ditorial estimate.
+URL:https://www.corl.org/
+LOCATION:Austin\, Texas\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:icdm-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261112
@@ -616,6 +636,29 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
   lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 LOCATION:Salt Lake City\, Utah\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
+ nce
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
+ ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
+  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
+ ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
+ roceedings papers and non-archival extended abstracts share the registrat
+ ion and final submission cutoffs\, represented as one route. The TMLR pre
+ sentation track requires an already published paper\, so it is not a new-
+ paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
+ stimate.
+URL:https://logconference.org/
+LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-conference@scientific-conference-calendar
@@ -910,6 +953,30 @@ URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:aamas-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/\nLocation
+ : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Co
+ ntrol & Robotics\, Human-AI Interaction & Deployment\nSize: XL\nSubmissio
+ n type: Paper-based / Blue Sky Ideas short papers\nConfidence: confirmed\
+ nLast checked date: 2026-10-07\nNotes: Annual flagship meeting in Hanoi. 
+ New main-track submissions are closed because the Oct 1 abstract gate has
+  passed\, even before the Oct 8 paper cutoff. The separate four-page Blue
+  Sky Ideas track remains a forthcoming opportunity\; author registration 
+ is announced for Oct 20 but no exact opening hour is given. Its Nov 5 gat
+ e only controls its Nov 12 short papers. AAAI fast-track and already publ
+ ished JAAMAS presentations are not general new-paper routes. Size XL is a
+ n editorial estimate. Historical acceptance covers main full papers only\
+ , not Blue Sky Ideas or the newly introduced 2027 Findings track.
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+LOCATION:Hanoi\, Vietnam
+END:VEVENT
+BEGIN:VEVENT
 UID:aistats-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270503
@@ -927,6 +994,28 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
   full-paper deadlines (AoE).
 URL:https://aistats.org/aistats2027/index.html
 LOCATION:Montreal\, Quebec\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:satml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270507
+SUMMARY:[Robustness & Safety][Privacy-preserving ML] SaTML 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
+ hine Learning\nWebsite: https://satml.org/\nSource URL: https://satml.org
+ /\nLocation: Reykjavik\, Iceland\nTopics: Robustness & Safety\, Privacy-p
+ reserving ML\, Fairness & Responsible AI\, Explainability & Interpretabil
+ ity\nSize: M\nSubmission type: Paper-based / systematization of knowledge
+  / position papers\nConfidence: confirmed\nLast checked date: 2026-10-07\
+ nNotes: Fifth annual edition. Main meeting May 4-6\; workshops May 3. The
+  mandatory registration and new-paper deadlines have passed. Revisions ar
+ e restricted to existing submissions and do not reopen new-paper opportun
+ ities. Camera-ready is only announced as mid-February\, exact date TBC\, 
+ so no exact camera-ready event is invented. Size M is an editorial estima
+ te.
+URL:https://satml.org/
+LOCATION:Reykjavik\, Iceland
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
@@ -1096,6 +1185,27 @@ URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027\nLocation: Bellevue\, Washington\, USA\nTopics: ML Syst
+ ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
+ g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
+ ased / research and industrial tracks\nConfidence: confirmed\nLast checke
+ d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
+  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
+  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
+ and recheck the submission portal before the deadline. No separate abstra
+ ct prerequisite is announced. Size L is an editorial estimate.
+URL:https://mlsys.org/Conferences/2027
+LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:ohbm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270626
@@ -1203,6 +1313,28 @@ URL:https://aime27.aimedicine.info/
 LOCATION:Amsterdam\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
+UID:probml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Learning Theory & Statist
+ ical Foundations] ProbML 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
+ Website: https://probml.cc/\nSource URL: https://probml.cc/\nLocation: To
+  be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Learning
+  Theory & Statistical Foundations\, Machine Learning\, Healthcare & Clini
+ cal AI\nSize: S\nSubmission type: Paper-based / non-archival extended abs
+ tracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Form
+ erly AABI. Recent editions recur annually\, but no official 2027 schedule
+  was found. Meeting and submission dates project ProbML 2026 timing\; loc
+ ation\, ICML co-location\, and the 2026 healthcare/climate application fo
+ cus require reconfirmation. The prior fast track requires a paper accepte
+ d elsewhere\, so it is not treated as a fresh submission route. Size S is
+  an editorial estimate for this specialist symposium.
+URL:https://probml.cc/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:icml-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270706
@@ -1300,6 +1432,27 @@ URL:https://embc.embs.org/2027/
 LOCATION:Singapore
 END:VEVENT
 BEGIN:VEVENT
+UID:gecco-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270712
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Evolutionary Computation & Optimization][Machine Learning] GECCO 2
+ 027 - Conference
+DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
+ ce\nWebsite: https://gecco-2027.sigevo.org/HomePage\nSource URL: https://
+ gecco-2027.sigevo.org/HomePage\nLocation: Krakow\, Poland\nTopics: Evolut
+ ionary Computation & Optimization\, Machine Learning\, Complex Systems & 
+ Network Science\nSize: L\nSubmission type: Paper-based / poster papers\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Organizer con
+ firms Krakow\, Jul 12-16\, in person. The 2027 CFP still contains copied 
+ 2026 venue/deadline text\; do not treat it as a confirmed 2027 submission
+  schedule. Deadlines use 2026 timing as an estimated annual proxy. Poster
+ -only submissions are separate from the gated full-paper route. Size L is
+  an editorial estimate\; no attendance count is asserted.
+URL:https://gecco-2027.sigevo.org/HomePage
+LOCATION:Krakow\, Poland
+END:VEVENT
+BEGIN:VEVENT
 UID:itise-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270714
@@ -1355,6 +1508,27 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
   timing estimates until the 2027 CFP is released.
 URL:https://2027.ccneuro.org/
 LOCATION:Edinburgh\, United Kingdom
+END:VEVENT
+BEGIN:VEVENT
+UID:cogsci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270801
+SUMMARY:[Cognitive Science & Computational Cognition][Computational Neurosc
+ ience] CogSci 2027 - Conference
+DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
+ ty\nWebsite: https://cognitivesciencesociety.org/cogsci-2027/\nSource URL
+ : https://cognitivesciencesociety.org/cogsci-2027/\nLocation: Bilbao\, Sp
+ ain\nTopics: Cognitive Science & Computational Cognition\, Computational 
+ Neuroscience\, Machine Learning\, Natural Language Processing & LLMs\nSiz
+ e: L\nSubmission type: Paper-based / abstract presentations\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Society confirms Bilbao\
+ , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
+ found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
+ ; the cutoff hour and submission tracks need reconfirmation. Size L is an
+  editorial estimate.
+URL:https://cognitivesciencesociety.org/cogsci-2027/
+LOCATION:Bilbao\, Spain
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2027-conference@scientific-conference-calendar
@@ -1428,6 +1602,29 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
  izer confirmation\; website and source links refer to the prior edition.
 URL:https://www.auai.org/uai2026/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270903
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Conference
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/\nLocation: Sao Paulo\, Brazil\nTopics:
+  Signal Processing\, Machine Learning\, Deep Representation Learning\, Na
+ tural Language Processing & LLMs\nSize: XL\nSubmission type: Paper-based 
+ / interactive demonstration papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep
+  2. Regular paper\, update\, and camera-ready days are announced without 
+ an exact cutoff\; AoE is provisional for those date-only events. Show & T
+ ell explicitly uses 23:59 AoE and requires a two-page paper\, video\, and
+  interactive demonstration. The Feb 16 update is not a fresh submission r
+ oute. XL reflects the official description of more than 2\,000 annual att
+ endees\; the ICORE rank and historical acceptance fields describe the mai
+ n conference\, not its demonstration track.
+URL:https://interspeech2027.org/
+LOCATION:Sao Paulo\, Brazil
 END:VEVENT
 BEGIN:VEVENT
 UID:ecml-pkdd-2027-conference@scientific-conference-calendar
@@ -1597,6 +1794,26 @@ URL:https://miccai.org/upcoming-conferences/
 LOCATION:Auckland\, New Zealand
 END:VEVENT
 BEGIN:VEVENT
+UID:automl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20271002
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/\nLocation: To be announced\nTopics: Machine Learning\, Evolutiona
+ ry Computation & Optimization\, Deep Representation Learning\, Learning T
+ heory & Statistical Foundations\nSize: M\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-07\nNotes: No official 2
+ 027 schedule found. Annual meeting and main-track deadlines are projectio
+ ns from AutoML 2026\; location is unannounced and links refer to prior ed
+ itions. ABCD covers applications\, benchmarks\, challenges\, and datasets
+ . Size M is an editorial estimate for this specialist conference.
+URL:https://2026.automl.cc/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:ecai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271002
@@ -1633,6 +1850,27 @@ DESCRIPTION:Conference title: Asian Conference on Pattern Recognition\nWebs
  s not missed. Verify against an official 2027 announcement.
 URL:https://link.springer.com/conference/acpr
 LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:icip-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271129
+DTEND;VALUE=DATE:20271204
+SUMMARY:[Signal Processing][Computer Vision & Pattern Recognition] ICIP 202
+ 7 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Image Proces
+ sing\nWebsite: https://2027.ieeeicip.org/\nSource URL: https://2027.ieeei
+ cip.org/\nLocation: Singapore\nTopics: Signal Processing\, Computer Visio
+ n & Pattern Recognition\, Machine Learning\, Deep Representation Learning
+ \nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast che
+ cked date: 2026-10-07\nNotes: IEEE Signal Processing Society confirms Sin
+ gapore\, Nov 29-Dec 3\, and Mar 31 paper deadline. Exact submission hour/
+ timezone and opening are not announced\; 23:59 AoE is only an ordering pr
+ oxy and ICS uses an all-day event. Topics reflect the continuing image-pr
+ ocessing/learning scope in the prior CFP. Size XL is an editorial estimat
+ e.
+URL:https://2027.ieeeicip.org/
+LOCATION:Singapore
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cdc-2027-conference@scientific-conference-calendar

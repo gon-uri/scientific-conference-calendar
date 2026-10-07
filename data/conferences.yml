@@ -3189,3 +3189,520 @@
   notes: Provisional 2-year cadence projection from S+SSPR 2026. Meeting dates, location,
     and deadlines require organizer confirmation; website and source links refer to
     the prior edition.
+
+# AI Deadlines comparison: approved additions, reviewed 2026-10-07.
+- id: automl-2027
+  series: AutoML
+  year: 2027
+  title: International Conference on Automated Machine Learning
+  short_title: AutoML 2027
+  website: https://2026.automl.cc/
+  cfp_url: https://2026.automl.cc/call-for-papers/
+  source_urls:
+    - https://2026.automl.cc/
+    - https://2026.automl.cc/dates/
+    - https://2026.automl.cc/call-for-papers/
+    - https://2025.automl.cc/call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-09-28'
+  conference_end: '2027-10-01'
+  timezone: Etc/GMT+12
+  topics:
+    - Machine Learning
+    - Evolutionary Computation & Optimization
+    - Deep Representation Learning
+    - Learning Theory & Statistical Foundations
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Methods and ABCD paper submission deadline
+      datetime: '2027-05-14T23:59:00-12:00'
+      source_url: https://2026.automl.cc/dates/
+      confidence: estimated
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2027-07-30T23:59:00-12:00'
+      source_url: https://2026.automl.cc/dates/
+      confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: No official 2027 schedule found. Annual meeting and main-track deadlines
+    are projections from AutoML 2026; location is unannounced and links refer to
+    prior editions. ABCD covers applications, benchmarks, challenges, and datasets.
+    Size M is an editorial estimate for this specialist conference.
+
+- id: log-2026
+  series: LoG
+  year: 2026
+  title: Learning on Graphs Conference
+  short_title: LoG 2026
+  website: https://logconference.org/
+  cfp_url: https://logconference.org/cfp/
+  source_urls:
+    - https://logconference.org/
+    - https://logconference.org/cfp/
+  location: Boston, Massachusetts, USA
+  mode: in-person
+  conference_start: '2026-11-20'
+  conference_end: '2026-11-22'
+  timezone: America/New_York
+  topics:
+    - Machine Learning
+    - Deep Representation Learning
+    - Complex Systems & Network Science
+    - Learning Theory & Statistical Foundations
+  size: M
+  submission_type: Paper-based / non-archival extended abstracts
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract registration deadline (both tracks)
+      datetime: '2026-08-05T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://logconference.org/cfp/
+    - type: full_paper
+      label: Paper / extended abstract submission deadline
+      datetime: '2026-08-07T23:59:00-12:00'
+      source_url: https://logconference.org/cfp/
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2026-10-15T23:59:00-12:00'
+      source_url: https://logconference.org/cfp/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Fifth annual edition, in person at Northeastern University. Extended
+    Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceedings
+    papers and non-archival extended abstracts share the registration and final
+    submission cutoffs, represented as one route. The TMLR presentation track
+    requires an already published paper, so it is not a new-paper opportunity.
+    LoG is distinct from LOD/AIS. Size M is an editorial estimate.
+
+- id: corl-2026
+  series: CoRL
+  year: 2026
+  title: Conference on Robot Learning
+  short_title: CoRL 2026
+  website: https://www.corl.org/
+  cfp_url: https://www.corl.org/contributions/call-for-papers
+  source_urls:
+    - https://www.corl.org/
+    - https://www.corl.org/contributions/call-for-papers
+    - https://www.corl.org/contributions/instruction-for-authors
+    - https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+    - https://api2.openreview.net/groups?id=robot-learning.org/CoRL/2026/Conference
+  location: Austin, Texas, USA
+  mode: in-person
+  conference_start: '2026-11-09'
+  conference_end: '2026-11-12'
+  timezone: America/Chicago
+  topics:
+    - Machine Learning
+    - Control & Robotics
+    - Reinforcement Learning
+    - Deep Representation Learning
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Mandatory abstract registration deadline
+      datetime: '2026-05-25T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+    - type: full_paper
+      label: Main conference paper submission deadline
+      datetime: '2026-05-28T23:59:00-12:00'
+      opens_at: '2026-05-08T00:00:00Z'
+      source_url: https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2026-10-12T23:59:00-12:00'
+      source_url: https://www.corl.org/contributions/instruction-for-authors
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Tenth annual edition; main conference Nov 9-11 and workshops Nov 12.
+    OpenReview's May 26/29 at 11:59 UTC correspond to May 25/28 at 23:59 AoE,
+    consistent with the author instructions' Thursday May 28 cutoff. Abstract
+    registration is mandatory. Satellite workshop papers are not main-track
+    opportunities. ICORE 2026 lists CoRL as Unranked, not A/A*/B/C.
+    Size L is an editorial estimate.
+
+- id: gecco-2027
+  series: GECCO
+  year: 2027
+  title: Genetic and Evolutionary Computation Conference
+  short_title: GECCO 2027
+  website: https://gecco-2027.sigevo.org/HomePage
+  cfp_url: https://gecco-2027.sigevo.org/Call+for+Papers
+  source_urls:
+    - https://gecco-2027.sigevo.org/HomePage
+    - https://gecco-2027.sigevo.org/Call+for+Papers
+    - https://gecco-2026.sigevo.org/Important+Dates
+  location: Krakow, Poland
+  mode: in-person
+  conference_start: '2027-07-12'
+  conference_end: '2027-07-16'
+  timezone: Europe/Warsaw
+  topics:
+    - Evolutionary Computation & Optimization
+    - Machine Learning
+    - Complex Systems & Network Science
+  size: L
+  submission_type: Paper-based / poster papers
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract registration for full papers
+      datetime: '2027-01-19T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://gecco-2026.sigevo.org/Important+Dates
+      confidence: estimated
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: '2027-01-26T23:59:00-12:00'
+      source_url: https://gecco-2026.sigevo.org/Important+Dates
+      confidence: estimated
+    - type: poster
+      label: Poster-only paper submission deadline
+      datetime: '2027-01-26T23:59:00-12:00'
+      source_url: https://gecco-2026.sigevo.org/Important+Dates
+      confidence: estimated
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2027-04-10T23:59:00-12:00'
+      source_url: https://gecco-2026.sigevo.org/Important+Dates
+      confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Organizer confirms Krakow, Jul 12-16, in person. The 2027 CFP still
+    contains copied 2026 venue/deadline text; do not treat it as a confirmed 2027
+    submission schedule. Deadlines use 2026 timing as an estimated annual proxy.
+    Poster-only submissions are separate from the gated full-paper route.
+    Size L is an editorial estimate; no attendance count is asserted.
+
+- id: satml-2027
+  series: SaTML
+  year: 2027
+  title: IEEE Conference on Secure and Trustworthy Machine Learning
+  short_title: SaTML 2027
+  website: https://satml.org/
+  cfp_url: https://satml.org/call-for-papers/
+  source_urls:
+    - https://satml.org/
+    - https://satml.org/call-for-papers/
+  location: Reykjavik, Iceland
+  mode: in-person
+  conference_start: '2027-05-04'
+  conference_end: '2027-05-06'
+  timezone: Atlantic/Reykjavik
+  topics:
+    - Robustness & Safety
+    - Privacy-preserving ML
+    - Fairness & Responsible AI
+    - Explainability & Interpretability
+  size: M
+  submission_type: Paper-based / systematization of knowledge / position papers
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Mandatory abstract registration deadline
+      datetime: '2026-09-22T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://satml.org/call-for-papers/
+    - type: full_paper
+      label: Research, SoK, and position paper deadline
+      datetime: '2026-09-29T23:59:00-12:00'
+      source_url: https://satml.org/call-for-papers/
+    - type: notification
+      label: Decision notification
+      datetime: '2026-12-16T23:59:00-12:00'
+      source_url: https://satml.org/call-for-papers/
+    - type: revision
+      label: Invited paper revision deadline
+      datetime: '2027-01-21T23:59:00-12:00'
+      source_url: https://satml.org/call-for-papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Fifth annual edition. Main meeting May 4-6; workshops May 3. The
+    mandatory registration and new-paper deadlines have passed. Revisions are
+    restricted to existing submissions and do not reopen new-paper opportunities.
+    Camera-ready is only announced as mid-February, exact date TBC, so no exact
+    camera-ready event is invented. Size M is an editorial estimate.
+
+- id: probml-2027
+  series: ProbML
+  year: 2027
+  title: Symposium on Probabilistic Machine Learning
+  short_title: ProbML 2027
+  website: https://probml.cc/
+  cfp_url: https://probml.cc/call/
+  source_urls:
+    - https://probml.cc/
+    - https://probml.cc/call/
+    - https://probml.cc/past/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-07-05'
+  conference_end: '2027-07-05'
+  timezone: Etc/GMT+12
+  topics:
+    - Probabilistic, Causal & Uncertainty ML
+    - Learning Theory & Statistical Foundations
+    - Machine Learning
+    - Healthcare & Clinical AI
+  size: S
+  submission_type: Paper-based / non-archival extended abstracts
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Proceedings paper submission deadline
+      datetime: '2027-03-20T23:59:00-12:00'
+      source_url: https://probml.cc/call/
+      confidence: estimated
+    - type: extended_abstract
+      label: Non-archival workshop submission deadline
+      datetime: '2027-03-20T23:59:00-12:00'
+      source_url: https://probml.cc/call/
+      confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: Formerly AABI. Recent editions recur annually, but no official 2027
+    schedule was found. Meeting and submission dates project ProbML 2026 timing;
+    location, ICML co-location, and the 2026 healthcare/climate application focus
+    require reconfirmation. The prior fast track requires a paper accepted
+    elsewhere, so it is not treated as a fresh submission route. Size S is an
+    editorial estimate for this specialist symposium.
+
+- id: aamas-2027
+  series: AAMAS
+  year: 2027
+  title: International Conference on Autonomous Agents and Multiagent Systems
+  short_title: AAMAS 2027
+  website: https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+  cfp_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+  source_urls:
+    - https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+    - https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+    - https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+  location: Hanoi, Vietnam
+  mode: in-person
+  conference_start: '2027-05-03'
+  conference_end: '2027-05-07'
+  timezone: Asia/Ho_Chi_Minh
+  topics:
+    - Machine Learning
+    - Reinforcement Learning
+    - Control & Robotics
+    - Human-AI Interaction & Deployment
+  size: XL
+  submission_type: Paper-based / Blue Sky Ideas short papers
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Main-track abstract registration deadline
+      datetime: '2026-10-01T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+    - type: full_paper
+      label: Main papers (registered abstracts only) deadline
+      datetime: '2026-10-08T23:59:00-12:00'
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+    - type: late_abstract
+      label: Blue Sky Ideas abstract registration deadline
+      datetime: '2026-11-05T23:59:00-12:00'
+      gate_for: short_paper
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+    - type: short_paper
+      label: Blue Sky Ideas paper submission deadline
+      datetime: '2026-11-12T23:59:00-12:00'
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+    - type: camera_ready
+      label: Main-track camera-ready deadline
+      datetime: '2027-01-25T23:59:00-12:00'
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+    - type: blue_sky_camera_ready
+      label: Blue Sky Ideas camera-ready deadline
+      datetime: '2027-02-11T23:59:00-12:00'
+      source_url: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ideas/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Annual flagship meeting in Hanoi. New main-track submissions are closed
+    because the Oct 1 abstract gate has passed, even before the Oct 8 paper cutoff.
+    The separate four-page Blue Sky Ideas track remains a forthcoming opportunity;
+    author registration is announced for Oct 20 but no exact opening hour is given.
+    Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-track and
+    already published JAAMAS presentations are not general new-paper routes.
+    Size XL is an editorial estimate. Historical acceptance covers main full
+    papers only, not Blue Sky Ideas or the newly introduced 2027 Findings track.
+
+- id: mlsys-2027
+  series: MLSys
+  year: 2027
+  title: Conference on Machine Learning and Systems
+  short_title: MLSys 2027
+  website: https://mlsys.org/Conferences/2027
+  cfp_url: https://mlsys.org/Conferences/2027/CallForResearchPapers
+  source_urls:
+    - https://mlsys.org/Conferences/2027
+    - https://mlsys.org/Conferences/2027/CallForResearchPapers
+  location: Bellevue, Washington, USA
+  mode: in-person
+  conference_start: '2027-06-21'
+  conference_end: '2027-06-25'
+  timezone: America/Los_Angeles
+  topics:
+    - ML Systems & Infrastructure
+    - Machine Learning
+    - Federated & Distributed Learning
+    - Natural Language Processing & LLMs
+  size: L
+  submission_type: Paper-based / research and industrial tracks
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Research and industrial paper submission deadline
+      datetime: '2026-10-30T20:00:00Z'
+      opens_at: '2026-10-10T20:00:00Z'
+      source_url: https://mlsys.org/Conferences/2027/CallForResearchPapers
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Tenth annual edition. CFP explicitly specifies 20:00 UTC for Oct 10
+    opening and Oct 30 closing. The homepage's noon PDT listing is inconsistent
+    by one hour; prefer the explicit CFP UTC times and recheck the submission
+    portal before the deadline. No separate abstract prerequisite is announced.
+    Size L is an editorial estimate.
+
+- id: cogsci-2027
+  series: CogSci
+  year: 2027
+  title: Annual Meeting of the Cognitive Science Society
+  short_title: CogSci 2027
+  website: https://cognitivesciencesociety.org/cogsci-2027/
+  cfp_url: https://cognitivesciencesociety.org/cogsci-2027/
+  source_urls:
+    - https://cognitivesciencesociety.org/cogsci-2027/
+    - https://cognitivesciencesociety.org/cogsci-2026/
+  location: Bilbao, Spain
+  mode: in-person
+  conference_start: '2027-07-28'
+  conference_end: '2027-07-31'
+  timezone: Europe/Madrid
+  topics:
+    - Cognitive Science & Computational Cognition
+    - Computational Neuroscience
+    - Machine Learning
+    - Natural Language Processing & LLMs
+  size: L
+  submission_type: Paper-based / abstract presentations
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Contributed paper submission deadline
+      datetime: '2027-02-02T23:59:00-12:00'
+      source_url: https://cognitivesciencesociety.org/cogsci-2026/
+      confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Society confirms Bilbao, Euskalduna Convention Centre, Jul 28-31.
+    No 2027 submission timetable found. The paper deadline is a Feb 2 proxy
+    from the prior annual meeting; the cutoff hour and submission tracks need
+    reconfirmation. Size L is an editorial estimate.
+
+- id: icip-2027
+  series: ICIP
+  year: 2027
+  title: IEEE International Conference on Image Processing
+  short_title: ICIP 2027
+  website: https://2027.ieeeicip.org/
+  cfp_url: https://signalprocessingsociety.org/events/2027-ieee-international-conference-image-processing-icip
+  source_urls:
+    - https://2027.ieeeicip.org/
+    - https://signalprocessingsociety.org/events/2027-ieee-international-conference-image-processing-icip
+    - https://2026.ieeeicip.org/call-for-papers-and-abstracts/
+  location: Singapore
+  mode: in-person
+  conference_start: '2027-11-29'
+  conference_end: '2027-12-03'
+  timezone: Asia/Singapore
+  topics:
+    - Signal Processing
+    - Computer Vision & Pattern Recognition
+    - Machine Learning
+    - Deep Representation Learning
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Conference paper submission deadline
+      datetime: '2027-03-31T23:59:00-12:00'
+      time_precision: date
+      source_url: https://signalprocessingsociety.org/events/2027-ieee-international-conference-image-processing-icip
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: IEEE Signal Processing Society confirms Singapore, Nov 29-Dec 3, and
+    Mar 31 paper deadline. Exact submission hour/timezone and opening are not
+    announced; 23:59 AoE is only an ordering proxy and ICS uses an all-day event.
+    Topics reflect the continuing image-processing/learning scope in the prior
+    CFP. Size XL is an editorial estimate.
+
+- id: interspeech-2027
+  series: Interspeech
+  year: 2027
+  title: Annual Conference of the International Speech Communication Association
+  short_title: Interspeech 2027
+  website: https://interspeech2027.org/
+  cfp_url: https://interspeech2027.org/
+  source_urls:
+    - https://interspeech2027.org/
+    - https://interspeech2027.org/calls/call_show_and_tell/
+    - https://www.isca-speech.org/Upcoming-Interspeech
+  location: Sao Paulo, Brazil
+  mode: in-person
+  conference_start: '2027-08-29'
+  conference_end: '2027-09-02'
+  timezone: America/Sao_Paulo
+  topics:
+    - Signal Processing
+    - Machine Learning
+    - Deep Representation Learning
+    - Natural Language Processing & LLMs
+  size: XL
+  submission_type: Paper-based / interactive demonstration papers
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Conference paper submission deadline
+      datetime: '2027-02-09T23:59:00-12:00'
+      time_precision: date
+      source_url: https://interspeech2027.org/
+    - type: paper_update
+      label: Update deadline for already submitted papers
+      datetime: '2027-02-16T23:59:00-12:00'
+      time_precision: date
+      source_url: https://interspeech2027.org/
+    - type: short_paper
+      label: Show & Tell paper and video submission deadline
+      datetime: '2027-03-09T23:59:00-12:00'
+      source_url: https://interspeech2027.org/calls/call_show_and_tell/
+    - type: camera_ready
+      label: Conference paper camera-ready deadline
+      datetime: '2027-06-09T23:59:00-12:00'
+      time_precision: date
+      source_url: https://interspeech2027.org/
+    - type: demo_camera_ready
+      label: Show & Tell camera-ready paper and video deadline
+      datetime: '2027-06-09T23:59:00-12:00'
+      source_url: https://interspeech2027.org/calls/call_show_and_tell/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Organizer and ISCA confirm Sao Paulo, Aug 29-Sep 2. Regular paper,
+    update, and camera-ready days are announced without an exact cutoff; AoE is
+    provisional for those date-only events. Show & Tell explicitly uses 23:59
+    AoE and requires a two-page paper, video, and interactive demonstration.
+    The Feb 16 update is not a fresh submission route. XL reflects the official
+    description of more than 2,000 annual attendees; the ICORE rank and historical
+    acceptance fields describe the main conference, not its demonstration track.

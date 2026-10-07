@@ -274,3 +274,24 @@ Last synchronized: 2026-10-07
   the rename without creating new event identities. Existing calendar
   subscribers must update their feed address. The old Pages address is not
   retained; no second repository or custom-domain infrastructure is introduced.
+
+## ADR-027: Preserve A Dated Candidate Backlog And Track Independent Routes
+
+- Date: 2026-10-07
+- Context: AI Deadlines retained 2025-2026 entries identify 57 untracked series;
+  the user approved 11 additions and asked to retain the other candidates.
+- Decision: Keep 11 sourced additions in canonical YAML and preserve the 46
+  remaining candidates, all original names/links, and retrospective scope
+  limitations in project_docs/conference_candidates.md, linked from AGENTS.
+  ICWM's future-only listing is separate. Add three focused leaves within
+  existing families for evolutionary computation, cognition, and ML systems.
+  Use independent gated routes for AAMAS main and Blue Sky papers; revisions,
+  paper updates, and camera-ready events never become new-paper opportunities.
+- Evidence: Unannounced AutoML/ProbML 2027 schedules and GECCO/CogSci submission
+  dates remain estimates. Official date-only ICIP/Interspeech cutoffs remain
+  all-day ICS events. Prefer explicit MLSys CFP UTC times over its conflicting
+  homepage conversion and flag the discrepancy for review. Do not infer ranks
+  for unmatched series or rates from accepted-only paper lists.
+- Consequences: The catalog expands without silently broadening its approved
+  scope or overstating date/rank/rate confidence; monthly reviews include the
+  additions and explicitly configured annual recurrence.

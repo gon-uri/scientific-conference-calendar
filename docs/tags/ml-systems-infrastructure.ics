@@ -1,0 +1,49 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Scientific Conferences: ML Systems & Infrastructure
+BEGIN:VEVENT
+UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T200000Z
+DTEND:20261030T210000Z
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
+ ch and industrial paper submission deadline
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027/CallForResearchPapers\nLocation: Bellevue\, Washington\
+ , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
+  & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
+ bmission type: Paper-based / research and industrial tracks\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
+ P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
+ he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
+ xplicit CFP UTC times and recheck the submission portal before the deadli
+ ne. No separate abstract prerequisite is announced. Size L is an editoria
+ l estimate.
+URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027\nLocation: Bellevue\, Washington\, USA\nTopics: ML Syst
+ ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
+ g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
+ ased / research and industrial tracks\nConfidence: confirmed\nLast checke
+ d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
+  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
+  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
+ and recheck the submission portal before the deadline. No separate abstra
+ ct prerequisite is announced. Size L is an editorial estimate.
+URL:https://mlsys.org/Conferences/2027
+LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+END:VCALENDAR

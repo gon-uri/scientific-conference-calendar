@@ -395,6 +395,50 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
 URL:https://chil.ahli.cc/
 END:VEVENT
 BEGIN:VEVENT
+UID:probml-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270321T115900Z
+DTEND:20270321T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Learning Theory & Statist
+ ical Foundations] ProbML 2027 - Non-archival workshop submission deadline
+  (estimated)
+DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
+ Website: https://probml.cc/\nSource URL: https://probml.cc/call/\nLocatio
+ n: To be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Lea
+ rning Theory & Statistical Foundations\, Machine Learning\, Healthcare & 
+ Clinical AI\nSize: S\nSubmission type: Paper-based / non-archival extende
+ d abstracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
+  Formerly AABI. Recent editions recur annually\, but no official 2027 sch
+ edule was found. Meeting and submission dates project ProbML 2026 timing\
+ ; location\, ICML co-location\, and the 2026 healthcare/climate applicati
+ on focus require reconfirmation. The prior fast track requires a paper ac
+ cepted elsewhere\, so it is not treated as a fresh submission route. Size
+  S is an editorial estimate for this specialist symposium.
+URL:https://probml.cc/call/
+END:VEVENT
+BEGIN:VEVENT
+UID:probml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270321T115900Z
+DTEND:20270321T125900Z
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Learning Theory & Statist
+ ical Foundations] ProbML 2027 - Proceedings paper submission deadline (es
+ timated)
+DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
+ Website: https://probml.cc/\nSource URL: https://probml.cc/call/\nLocatio
+ n: To be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Lea
+ rning Theory & Statistical Foundations\, Machine Learning\, Healthcare & 
+ Clinical AI\nSize: S\nSubmission type: Paper-based / non-archival extende
+ d abstracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes:
+  Formerly AABI. Recent editions recur annually\, but no official 2027 sch
+ edule was found. Meeting and submission dates project ProbML 2026 timing\
+ ; location\, ICML co-location\, and the 2026 healthcare/climate applicati
+ on focus require reconfirmation. The prior fast track requires a paper ac
+ cepted elsewhere\, so it is not treated as a fresh submission route. Size
+  S is an editorial estimate for this specialist symposium.
+URL:https://probml.cc/call/
+END:VEVENT
+BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
@@ -503,6 +547,28 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
  E.
 URL:https://aime27.aimedicine.info/
 LOCATION:Amsterdam\, Netherlands
+END:VEVENT
+BEGIN:VEVENT
+UID:probml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270705
+DTEND;VALUE=DATE:20270706
+SUMMARY:[Probabilistic\, Causal & Uncertainty ML][Learning Theory & Statist
+ ical Foundations] ProbML 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
+ Website: https://probml.cc/\nSource URL: https://probml.cc/\nLocation: To
+  be announced\nTopics: Probabilistic\, Causal & Uncertainty ML\, Learning
+  Theory & Statistical Foundations\, Machine Learning\, Healthcare & Clini
+ cal AI\nSize: S\nSubmission type: Paper-based / non-archival extended abs
+ tracts\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Form
+ erly AABI. Recent editions recur annually\, but no official 2027 schedule
+  was found. Meeting and submission dates project ProbML 2026 timing\; loc
+ ation\, ICML co-location\, and the 2026 healthcare/climate application fo
+ cus require reconfirmation. The prior fast track requires a paper accepte
+ d elsewhere\, so it is not treated as a fresh submission route. Size S is
+  an editorial estimate for this specialist symposium.
+URL:https://probml.cc/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2027-deadline-camera-ready@scientific-conference-calendar

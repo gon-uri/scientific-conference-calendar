@@ -1,7 +1,24 @@
-checked_on: "2026-10-06"
+checked_on: "2026-10-07"
 # Percentages describe the named historical track, not the chance of acceptance
 # at the next edition. Leave a series absent when evidence is insufficient.
 rates:
+  "AutoML":
+    percent: 42.0
+    approximate: true
+    year: 2024
+    track: "Methods and ABCD main tracks (19 accepted of 45 submitted); organizer-reported rounded rate"
+    source_url: "https://www.linkedin.com/posts/mlindauer_automl-activity-7191396371353022464-i7wW"
+  "AAMAS":
+    percent: 25.5
+    approximate: true
+    year: 2026
+    track: "Main-track full papers; program chairs' reported rate (extended abstracts excluded; withdrawals affect counts)"
+    source_url: "https://www.ifaamas.org/Proceedings/aamas2026/pdfs/welcome.pdf"
+  "LoG":
+    percent: 31.14
+    year: 2023
+    track: "Proceedings full papers (38 accepted of 122 submitted; non-archival abstracts excluded)"
+    source_url: "https://proceedings.mlr.press/v231/villar24a/villar24a.pdf"
   "ACML":
     percent: 29.0
     year: 2025

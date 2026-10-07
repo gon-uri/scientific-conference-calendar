@@ -1,21 +1,25 @@
 release: "CCF2026-7th"
-checked_on: "2026-10-06"
+checked_on: "2026-10-07"
 source_url: "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
 page_url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
 rankings:
   "AAAI": {rank: "A", page: 57}
+  "AAMAS": {rank: "B", page: 58}
   "ACML": {rank: "C", page: 59}
   "ADMA": {rank: "C", page: 37}
   "AISTATS": {rank: "C", page: 59}
   "CHI": {rank: "A", page: 64}
   "CIKM": {rank: "B", page: 36}
   "COLT": {rank: "B", page: 58}
+  "CogSci": {rank: "B", page: 71}
   "DSAA": {rank: "C", page: 43}
   "ECAI": {rank: "B", page: 58}
   "ECML PKDD": {rank: "B", page: 36}
+  "GECCO": {rank: "C", page: 59}
   "ICANN": {rank: "C", page: 59}
   "ICASSP": {rank: "B", page: 48}
   "ICDM": {rank: "B", page: 36}
+  "ICIP": {rank: "C", page: 49}
   "ICLR": {rank: "A", page: 57}
   "ICML": {rank: "A", page: 57}
   "ICONIP": {rank: "C", page: 60}

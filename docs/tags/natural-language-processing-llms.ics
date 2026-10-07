@@ -75,6 +75,27 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T200000Z
+DTEND:20261030T210000Z
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
+ ch and industrial paper submission deadline
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027/CallForResearchPapers\nLocation: Bellevue\, Washington\
+ , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
+  & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
+ bmission type: Paper-based / research and industrial tracks\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
+ P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
+ he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
+ xplicit CFP UTC times and recheck the submission portal before the deadli
+ ne. No separate abstract prerequisite is announced. Size L is an editoria
+ l estimate.
+URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:cikm-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -91,6 +112,76 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  16 abstract and May 23 full-paper deadlines.
 URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270203T115900Z
+DTEND:20270203T125900Z
+SUMMARY:[Cognitive Science & Computational Cognition][Computational Neurosc
+ ience] CogSci 2027 - Contributed paper submission deadline (estimated)
+DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
+ ty\nWebsite: https://cognitivesciencesociety.org/cogsci-2027/\nSource URL
+ : https://cognitivesciencesociety.org/cogsci-2026/\nLocation: Bilbao\, Sp
+ ain\nTopics: Cognitive Science & Computational Cognition\, Computational 
+ Neuroscience\, Machine Learning\, Natural Language Processing & LLMs\nSiz
+ e: L\nSubmission type: Paper-based / abstract presentations\nConfidence: 
+ estimated\nLast checked date: 2026-10-07\nNotes: Society confirms Bilbao\
+ , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
+ found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
+ ; the cutoff hour and submission tracks need reconfirmation. Size L is an
+  editorial estimate.
+URL:https://cognitivesciencesociety.org/cogsci-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270209
+DTEND;VALUE=DATE:20270210
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Conference
+  paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/\nLocation: Sao Paulo\, Brazil\nTopics:
+  Signal Processing\, Machine Learning\, Deep Representation Learning\, Na
+ tural Language Processing & LLMs\nSize: XL\nSubmission type: Paper-based 
+ / interactive demonstration papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep
+  2. Regular paper\, update\, and camera-ready days are announced without 
+ an exact cutoff\; AoE is provisional for those date-only events. Show & T
+ ell explicitly uses 23:59 AoE and requires a two-page paper\, video\, and
+  interactive demonstration. The Feb 16 update is not a fresh submission r
+ oute. XL reflects the official description of more than 2\,000 annual att
+ endees\; the ICORE rank and historical acceptance fields describe the mai
+ n conference\, not its demonstration track.\nOfficial deadline day\; exac
+ t cutoff hour/timezone is unannounced. Verify the organizer's submission 
+ portal.
+URL:https://interspeech2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-paper-update@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270216
+DTEND;VALUE=DATE:20270217
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Update dea
+ dline for already submitted papers (cutoff time unannounced)
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/\nLocation: Sao Paulo\, Brazil\nTopics:
+  Signal Processing\, Machine Learning\, Deep Representation Learning\, Na
+ tural Language Processing & LLMs\nSize: XL\nSubmission type: Paper-based 
+ / interactive demonstration papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep
+  2. Regular paper\, update\, and camera-ready days are announced without 
+ an exact cutoff\; AoE is provisional for those date-only events. Show & T
+ ell explicitly uses 23:59 AoE and requires a two-page paper\, video\, and
+  interactive demonstration. The Feb 16 update is not a fresh submission r
+ oute. XL reflects the official description of more than 2\,000 annual att
+ endees\; the ICORE rank and historical acceptance fields describe the mai
+ n conference\, not its demonstration track.\nOfficial deadline day\; exac
+ t cutoff hour/timezone is unannounced. Verify the organizer's submission 
+ portal.
+URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-conference@scientific-conference-calendar
@@ -110,5 +201,142 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  deadlines.
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270310T115900Z
+DTEND:20270310T125900Z
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Show & Tel
+ l paper and video submission deadline
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/calls/call_show_and_tell/\nLocation: Sa
+ o Paulo\, Brazil\nTopics: Signal Processing\, Machine Learning\, Deep Rep
+ resentation Learning\, Natural Language Processing & LLMs\nSize: XL\nSubm
+ ission type: Paper-based / interactive demonstration papers\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Organizer and ISCA confi
+ rm Sao Paulo\, Aug 29-Sep 2. Regular paper\, update\, and camera-ready da
+ ys are announced without an exact cutoff\; AoE is provisional for those d
+ ate-only events. Show & Tell explicitly uses 23:59 AoE and requires a two
+ -page paper\, video\, and interactive demonstration. The Feb 16 update is
+  not a fresh submission route. XL reflects the official description of mo
+ re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
+ e fields describe the main conference\, not its demonstration track.
+URL:https://interspeech2027.org/calls/call_show_and_tell/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270609
+DTEND;VALUE=DATE:20270610
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Conference
+  paper camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/\nLocation: Sao Paulo\, Brazil\nTopics:
+  Signal Processing\, Machine Learning\, Deep Representation Learning\, Na
+ tural Language Processing & LLMs\nSize: XL\nSubmission type: Paper-based 
+ / interactive demonstration papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep
+  2. Regular paper\, update\, and camera-ready days are announced without 
+ an exact cutoff\; AoE is provisional for those date-only events. Show & T
+ ell explicitly uses 23:59 AoE and requires a two-page paper\, video\, and
+  interactive demonstration. The Feb 16 update is not a fresh submission r
+ oute. XL reflects the official description of more than 2\,000 annual att
+ endees\; the ICORE rank and historical acceptance fields describe the mai
+ n conference\, not its demonstration track.\nOfficial deadline day\; exac
+ t cutoff hour/timezone is unannounced. Verify the organizer's submission 
+ portal.
+URL:https://interspeech2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-deadline-demo-camera-ready@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART:20270610T115900Z
+DTEND:20270610T125900Z
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Show & Tel
+ l camera-ready paper and video deadline
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/calls/call_show_and_tell/\nLocation: Sa
+ o Paulo\, Brazil\nTopics: Signal Processing\, Machine Learning\, Deep Rep
+ resentation Learning\, Natural Language Processing & LLMs\nSize: XL\nSubm
+ ission type: Paper-based / interactive demonstration papers\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Organizer and ISCA confi
+ rm Sao Paulo\, Aug 29-Sep 2. Regular paper\, update\, and camera-ready da
+ ys are announced without an exact cutoff\; AoE is provisional for those d
+ ate-only events. Show & Tell explicitly uses 23:59 AoE and requires a two
+ -page paper\, video\, and interactive demonstration. The Feb 16 update is
+  not a fresh submission route. XL reflects the official description of mo
+ re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
+ e fields describe the main conference\, not its demonstration track.
+URL:https://interspeech2027.org/calls/call_show_and_tell/
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027\nLocation: Bellevue\, Washington\, USA\nTopics: ML Syst
+ ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
+ g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
+ ased / research and industrial tracks\nConfidence: confirmed\nLast checke
+ d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
+  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
+  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
+ and recheck the submission portal before the deadline. No separate abstra
+ ct prerequisite is announced. Size L is an editorial estimate.
+URL:https://mlsys.org/Conferences/2027
+LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:cogsci-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270728
+DTEND;VALUE=DATE:20270801
+SUMMARY:[Cognitive Science & Computational Cognition][Computational Neurosc
+ ience] CogSci 2027 - Conference
+DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
+ ty\nWebsite: https://cognitivesciencesociety.org/cogsci-2027/\nSource URL
+ : https://cognitivesciencesociety.org/cogsci-2027/\nLocation: Bilbao\, Sp
+ ain\nTopics: Cognitive Science & Computational Cognition\, Computational 
+ Neuroscience\, Machine Learning\, Natural Language Processing & LLMs\nSiz
+ e: L\nSubmission type: Paper-based / abstract presentations\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Society confirms Bilbao\
+ , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
+ found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
+ ; the cutoff hour and submission tracks need reconfirmation. Size L is an
+  editorial estimate.
+URL:https://cognitivesciencesociety.org/cogsci-2027/
+LOCATION:Bilbao\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:interspeech-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270829
+DTEND;VALUE=DATE:20270903
+SUMMARY:[Signal Processing][Machine Learning] Interspeech 2027 - Conference
+DESCRIPTION:Conference title: Annual Conference of the International Speech
+  Communication Association\nWebsite: https://interspeech2027.org/\nSource
+  URL: https://interspeech2027.org/\nLocation: Sao Paulo\, Brazil\nTopics:
+  Signal Processing\, Machine Learning\, Deep Representation Learning\, Na
+ tural Language Processing & LLMs\nSize: XL\nSubmission type: Paper-based 
+ / interactive demonstration papers\nConfidence: confirmed\nLast checked d
+ ate: 2026-10-07\nNotes: Organizer and ISCA confirm Sao Paulo\, Aug 29-Sep
+  2. Regular paper\, update\, and camera-ready days are announced without 
+ an exact cutoff\; AoE is provisional for those date-only events. Show & T
+ ell explicitly uses 23:59 AoE and requires a two-page paper\, video\, and
+  interactive demonstration. The Feb 16 update is not a fresh submission r
+ oute. XL reflects the official description of more than 2\,000 annual att
+ endees\; the ICORE rank and historical acceptance fields describe the mai
+ n conference\, not its demonstration track.
+URL:https://interspeech2027.org/
+LOCATION:Sao Paulo\, Brazil
 END:VEVENT
 END:VCALENDAR

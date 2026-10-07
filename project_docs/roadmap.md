@@ -27,6 +27,14 @@ Last synchronized: 2026-10-07
 
 ## Milestones
 
+### AI Deadlines Coverage
+
+- Completed: the 11 approved additions (AutoML, LoG, CoRL, GECCO, SaTML, ProbML,
+  AAMAS, MLSys, CogSci, ICIP, Interspeech), including three focused new subtopics.
+- Backlog: [conference_candidates.md](conference_candidates.md) preserves all
+  57 originally missing series: 11 added and 46 still untracked, plus future-only
+  ICWM separately. Further additions require approval and official-source review.
+
 ### Baseline Static Calendar
 
 - Goal: Maintain a public static conference calendar with committed HTML and ICS outputs.

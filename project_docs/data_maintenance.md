@@ -1,6 +1,6 @@
 # Data Maintenance
 
-Last synchronized: 2026-10-06
+Last synchronized: 2026-10-07
 
 ## Monthly Edition Review
 
@@ -67,6 +67,21 @@ does not yet count as an unrestricted route.
 
 ## Topics, Sizes, And Map Locations
 
+The AI Deadlines comparison and expansion backlog live in
+`project_docs/conference_candidates.md`. It preserves 57 originally missing
+series, split into 11 approved additions and 46 remaining candidates, plus
+future-only ICWM. It is discovery material, not a second data source.
+When approving a candidate, check names/aliases before creating a new series;
+AutoML/AUTOMLCONF, LoG/LOG, and SaTML/SATML are the same series, while LoG and
+LOD/AIS are different. Confirm the recurrence before configuring rollover.
+
+For the 2026-10-07 additions, prioritize AutoML/ProbML 2027 announcements,
+GECCO/CogSci 2027 submission schedules, ICIP/Interspeech exact main-paper
+cutoffs, and MLSys's inconsistent homepage/CFP time conversion. AAMAS Blue Sky
+Ideas has an independent abstract gate; do not let its opportunity imply the
+main track accepts unregistered papers. Do not infer rates from accepted-only
+lists or substitute a historical ICORE/CORE rank for the current release.
+
 Assign up to four unique, central leaves from `data/topics.yml`. Prefer the
 organizer's core CFP/scope over incidental applications; do not force four.
 Parents come from `data/topic_families.yml`, never duplicate them in editions.
@@ -100,6 +115,8 @@ series, validates values, checks formula errors, and renders both sheets.
 It refuses unexplained series removal. See development.md for the optional
 artifact-tool runtime. Re-import the saved file after editing to verify row
 counts and values. No Node or spreadsheet library is needed to build the site.
+New submission-type descriptions wrap within their cells, and vocabulary
+previews follow the current row count as the controlled taxonomy grows.
 
 ## Community Setup
 

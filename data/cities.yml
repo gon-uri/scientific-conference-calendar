@@ -65,3 +65,11 @@ binghamton: {label: 'Binghamton, USA', lat: 42.098, lon: -75.918, locations: ['B
 dresden: {label: 'Dresden, Germany', lat: 51.051, lon: 13.738, locations: ['Dresden, Germany']}
 wroclaw: {label: 'Wroclaw, Poland', lat: 51.108, lon: 17.039, locations: ['Wroclaw, Poland']}
 lisbon: {label: 'Lisbon, Portugal', lat: 38.722, lon: -9.139, locations: ['Lisbon, Portugal']}
+boston: {label: 'Boston, USA', lat: 42.360, lon: -71.059, locations: ['Boston, Massachusetts, USA']}
+austin: {label: 'Austin, USA', lat: 30.267, lon: -97.743, locations: ['Austin, Texas, USA']}
+krakow: {label: 'Krakow, Poland', lat: 50.064, lon: 19.945, locations: ['Krakow, Poland']}
+reykjavik: {label: 'Reykjavik, Iceland', lat: 64.147, lon: -21.943, locations: ['Reykjavik, Iceland']}
+bellevue: {label: 'Bellevue, USA', lat: 47.610, lon: -122.201, locations: ['Bellevue, Washington, USA']}
+hanoi: {label: 'Hanoi, Vietnam', lat: 21.028, lon: 105.834, locations: ['Hanoi, Vietnam']}
+bilbao: {label: 'Bilbao, Spain', lat: 43.263, lon: -2.935, locations: ['Bilbao, Spain']}
+sao-paulo: {label: 'Sao Paulo, Brazil', lat: -23.551, lon: -46.633, locations: ['Sao Paulo, Brazil']}

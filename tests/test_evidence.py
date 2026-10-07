@@ -29,7 +29,7 @@ class EvidenceTests(unittest.TestCase):
 
     def test_ccf_mapping_and_coverage(self) -> None:
         self.assertEqual(validate_ccf_rankings(self.conferences, self.ccf), [])
-        self.assertEqual(len(self.ccf["rankings"]), 27)
+        self.assertEqual(len(self.ccf["rankings"]), 31)
         self.assertIn("ICASSP", self.ccf["rankings"])
         self.assertNotIn("ICASSP", self.icore["rankings"])
         self.assertNotIn("IJCAI-ECAI", self.ccf["rankings"])

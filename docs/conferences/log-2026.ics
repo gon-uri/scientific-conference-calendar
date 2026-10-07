@@ -1,0 +1,96 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:LoG 2026 Calendar
+BEGIN:VEVENT
+UID:log-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T115900Z
+DTEND:20260806T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
+ t registration deadline (both tracks)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260808T115900Z
+DTEND:20260808T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
+  extended abstract submission deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
+ ready deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
+ nce
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
+ ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
+  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
+ ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
+ roceedings papers and non-archival extended abstracts share the registrat
+ ion and final submission cutoffs\, represented as one route. The TMLR pre
+ sentation track requires an already published paper\, so it is not a new-
+ paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
+ stimate.
+URL:https://logconference.org/
+LOCATION:Boston\, Massachusetts\, USA
+END:VEVENT
+END:VCALENDAR
