@@ -295,3 +295,28 @@ Last synchronized: 2026-10-07
 - Consequences: The catalog expands without silently broadening its approved
   scope or overstating date/rank/rate confidence; monthly reviews include the
   additions and explicitly configured annual recurrence.
+
+## ADR-028: Curate Series Scope Separately From Four Display Topics
+
+- Date: 2026-10-07
+- Context: Four visible tags are useful for scanning, but insufficient for
+  detailed venue discovery. Organizer CFPs can list many incidental areas;
+  blindly copying them would make filters less useful.
+- Decision: Store optional profiles by exact series in conference_scopes.yml,
+  with zero to six characteristic additional controlled leaves, concise prose,
+  official evidence URLs/year, and an independent review date. The cap is a
+  guardrail, not a target. Prioritize defining research categories; do not infer
+  specialist coverage from incidental applications or individual workshops.
+- Matching: join profiles at build time. Keep four primary display topics;
+  search, filters, map matching, and topic feeds use the deduplicated union.
+  Search also uses detailed prose. ICS descriptions retain the evidence year
+  and review date, without changing dates, UIDs, or submission semantics.
+- Maintenance: add a third missing/stale/prior-edition review queue and a
+  separate workbook mirror sheet. The canonical edition data remains unchanged.
+  Missing profiles fall back to primary topics, rather than guessed detail.
+- Coverage: initially 30 of 82 series, including all 11 approved additions;
+  the 52 missing profiles remain explicit editorial work. Do not report this
+  initial pass as a complete scope review of all tracked conferences.
+- Consequences: richer discovery without a wider table or a backend. Profiles
+  describe series using dated sources, not exact historical-edition CFPs.
+  Monthly source checks remain necessary, particularly when a new CFP appears.

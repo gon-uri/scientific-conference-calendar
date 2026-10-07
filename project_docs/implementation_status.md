@@ -61,6 +61,30 @@ Last synchronized: 2026-10-07
 
 ## Feature Checklist
 
+### Curated Conference Scope Profiles
+
+- Current status: Completed tooling; initial reviewed coverage.
+- Coverage: 30 of 82 series, including all 11 recent AI Deadlines additions.
+  The 52 remaining profiles are explicitly queued, not filled with guesses.
+- Brief description: `data/conference_scopes.yml` stores zero to six curated
+  additional topics, a detailed scope summary, official evidence URLs/year,
+  and an independent review date by exact series. Broad CFP lists are reduced
+  to characteristic areas; incidental applications do not become blanket tags.
+- Public behavior: tables retain their up-to-four main topics. Both tabs and
+  the map search/filter the primary/additional union and scope prose. Topic
+  feeds use the same union; descriptions include scope evidence without changing
+  event UIDs, dates, or submission status. Unprofiled venues retain their main
+  topic matching. The workbook adds a separate Conference Scope sheet.
+- Maintenance: the report now has edition, acceptance, and scope queues. Scope
+  checks flag missing, stale, and prior-edition profiles. Editorial guidance is
+  in `project_docs/conference_scopes.md`.
+- Tests: schema, curation limits, fallback behavior, unchanged main tags,
+  summary/extra-topic search, feed union/UID stability, queue classification,
+  workbook export, and browser filtering across both tabs and the map.
+- Remaining work: review the 52 missing profiles gradually from official
+  sources and refresh existing profiles about monthly. Several profiles use
+  the last published CFP and retain its actual year.
+
 ### Conference Data Source
 
 - Current status: Completed
@@ -91,7 +115,7 @@ Last synchronized: 2026-10-07
 ### Data Validation
 
 - Current status: Completed
-- Brief description: Validation checks required fields, stable IDs, date formats and precision, five size labels, up to four unique topics, family membership, city aliases/coordinates, confidence, opening evidence, source URLs, deadline gates, duplicate UID keys, both ranking releases, and historical acceptance evidence.
+- Brief description: Validation checks required fields, stable IDs, date formats and precision, five size labels, up to four unique main topics, family membership, city aliases/coordinates, confidence, opening evidence, source URLs, deadline gates, duplicate UID keys, both ranking releases, and historical acceptance evidence. Scope profiles require up to six distinct controlled additional topics, bounded prose, official-source URL syntax, review date, and evidence year.
 - Files modified: `scripts/validate.py`
 - Tests implemented: `python scripts/validate.py`; also run in `.github/workflows/build.yml`.
 - Remaining work: Consider enforcing freshness in CI if review cadence becomes a hard publication requirement; the maintenance report currently flags stale checks without blocking builds.
@@ -111,14 +135,14 @@ Last synchronized: 2026-10-07
 - Current status: Completed
 - Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 42 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual rollover, sourced confidence, all-day deadlines, new subtopic filtering, and AAMAS/MLSys/Interspeech track transitions.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 50 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech track transitions, and curated scope matching without expanding table labels.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines 30 leaves; `data/topic_families.yml` assigns each to exactly one of seven families and supplies compact display labels. Parents are derived from up to four central leaves, not stored per edition. `data/cities.yml` supplies explicit location aliases and approximate city-center coordinates, including eight new cities. The 82-series workbook mirrors canonical YAML.
+- Brief description: `data/topics.yml` defines 30 leaves; `data/topic_families.yml` assigns each to exactly one of seven families and supplies compact display labels. Parents are derived, not stored per edition. Display retains up to four central leaves; filter/search/feed matching also uses curated additional leaves in scope profiles. `data/cities.yml` supplies explicit location aliases and approximate city-center coordinates, including eight new cities. The workbook mirrors 82 catalog series and 30 reviewed scope profiles in separate sheets.
 - Files modified: `data/topics.yml`, `data/topic_families.yml`, `data/cities.yml`, `scripts/catalog_metadata.py`, `scripts/export_catalog.py`, `scripts/sync_workbook.mjs`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.
@@ -145,7 +169,7 @@ Last synchronized: 2026-10-07
 ### Regular Data Maintenance
 
 - Current status: Completed tooling; ongoing editorial review
-- Brief description: The 30-day maintenance queue flags inferred dates even when the meeting is confirmed. Idempotent rollover respects annual, biennial, and IFAC SYSID's triennial cadence. Topic/city checks and a repeatable workbook export/sync workflow accompany monthly official-source review.
+- Brief description: The 30-day maintenance queue flags inferred dates even when the meeting is confirmed. Separate acceptance and scope queues flag missing/stale evidence, with scope profiles also requiring current-edition CFP checks. Idempotent rollover respects annual, biennial, and IFAC SYSID's triennial cadence. Topic/city checks and a repeatable workbook export/sync workflow accompany monthly official-source review.
 - Files modified: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, `tests/test_maintenance.py`, `tests/test_rollover_and_site.py`, `project_docs/data_maintenance.md`, `README.md`
 - Tests implemented: Unit tests for queue classification; CLI run against the full catalog.
 - Remaining work: Run the report regularly and review organizer sources. It does not automatically scrape or publish unverified updates.

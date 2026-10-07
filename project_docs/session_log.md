@@ -1,5 +1,45 @@
 # Session Log
 
+## 2026-10-07 (curated detailed conference scopes)
+
+- Objective: Preserve richer topic/scope metadata without expanding the four
+  visible tags or blindly copying enormous organizer CFP inventories.
+- Implemented: conference_scopes.yml and a series-profile module with up to
+  six characteristic additional leaves, concise scope prose, official evidence
+  URLs/year, and an independent review date. Missing profiles are legal and
+  fall back to main topics. Canonical edition data, dates, rankings, rates,
+  recurrence patterns, and submission statuses remain unchanged.
+- Coverage: 30 of 82 series reviewed, including all 11 recent AI Deadlines
+  additions. The 52 missing profiles remain explicitly queued. Several profiles
+  retain prior-edition evidence; GECCO's 2027 URL currently serves a 2026 CFP.
+  No new conference series or controlled subtopic was added in this session.
+- Curation: characterize the research community and contribution focus, not
+  every imaginable application. Broad ML venues do not gain blanket healthcare
+  or neuroscience tags. ICIP's application inventory is not copied wholesale;
+  incidental MLSys fairness/interpretability entries are not defining tags.
+  Zero extra topics is valid and the six-topic cap is not a target.
+- Discovery: search uses scope prose and the primary/additional topic union;
+  hierarchical filters and map matching use the same union in both tabs.
+  Tables remain primary-only. Topic feeds match the union and descriptions
+  include scope provenance; existing event UIDs/timing stay stable.
+- Maintenance: added the third scope queue for missing, stale, or prior-edition
+  profiles; documented editorial rules and monthly reviews in conference_scopes.md,
+  data_maintenance.md, architecture, status, roadmap, ADR-028, and AGENTS.
+- Workbook: added the separate Conference Scope sheet with 30 profiles, native
+  table formatting, wrapped prose, and real review dates. Rendered and re-imported
+  the result; the original 82-series catalog and 30-leaf vocabulary values,
+  formulas, and native table names/styles remain unchanged.
+- Verification: all 104 editions validate; 50 Python tests and the full build
+  pass. Browser smoke passes at 1440/1051/1050/768/390/320px, including LoG
+  graph-kernel search, AutoML Bayesian-optimization search, extra-topic matching,
+  primary-only labels, both tabs, map matching, and existing UI regressions.
+  Compared all 137 feeds with the prior commit: every existing event property
+  except DESCRIPTION is unchanged; 438 topic-feed memberships were added and
+  70 feeds remain byte-identical. CRLF and 75-octet folding are preserved.
+- Publication: source, workbook, documentation, tests, and generated HTML/ICS
+  are committed together for main/docs publication. Scope completion remains
+  ongoing editorial work; this is not a claim that all 82 profiles were reviewed.
+
 ## 2026-10-07 (AI Deadlines additions and candidate backlog)
 
 - Objective: Add the 11 recommended venues, preserve the other audit candidates,

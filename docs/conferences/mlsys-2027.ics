@@ -22,7 +22,14 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
  xplicit CFP UTC times and recheck the submission portal before the deadli
  ne. No separate abstract prerequisite is announced. Size L is an editoria
- l estimate.
+ l estimate.\nScope: The intersection of machine learning and computer sys
+ tems\, including efficient training\, inference and serving\, compilers a
+ nd runtimes\, programming abstractions\, specialized hardware\, distribut
+ ed learning\, and system monitoring. LLM and agentic workloads are consid
+ ered from a systems perspective. Both systems for ML and ML methods that 
+ improve computing systems are relevant.\nAdditional topics: Reinforcement
+  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
+ g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -42,7 +49,15 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
   20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
   listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
  and recheck the submission portal before the deadline. No separate abstra
- ct prerequisite is announced. Size L is an editorial estimate.
+ ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
+ e intersection of machine learning and computer systems\, including effic
+ ient training\, inference and serving\, compilers and runtimes\, programm
+ ing abstractions\, specialized hardware\, distributed learning\, and syst
+ em monitoring. LLM and agentic workloads are considered from a systems pe
+ rspective. Both systems for ML and ML methods that improve computing syst
+ ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
+ eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
+ lForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
 END:VEVENT

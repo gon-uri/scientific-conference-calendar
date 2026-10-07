@@ -9,6 +9,7 @@ from typing import Any
 
 import yaml
 from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata
+from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
 from validate import (
     DATA_PATH,
@@ -125,6 +126,7 @@ def _display_conference_dates(start_value: Any, end_value: Any) -> str:
 
 
 def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> str:
+    topics = all_topics(conference)
     parts = [
         conference["series"],
         conference["title"],
@@ -133,8 +135,10 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
         conference.get("confidence", ""),
         conference.get("size", ""),
         conference.get("submission_type", ""),
-        " ".join(conference.get("topics", [])),
-        " ".join(family["label"] for family in TOPIC_CATALOG["families"] if set(family["topics"]) & set(conference.get("topics", []))),
+        " ".join(topics),
+        " ".join(TOPIC_CATALOG["labels"].get(topic, topic) for topic in topics),
+        " ".join(family["label"] for family in TOPIC_CATALOG["families"] if set(family["topics"]) & set(topics)),
+        conference.get("scope", {}).get("scope_summary", ""),
     ]
     if extra:
         parts.extend(extra)
@@ -266,7 +270,7 @@ def _filter_attributes(
     ]
     return (
         f'data-filter-row data-edition="{_attr(conference["id"])}" data-search="{_attr(search_text)}" '
-        f'data-topics="{_attr(_topic_slugs(conference.get("topics", [])))}" '
+        f'data-topics="{_attr(_topic_slugs(all_topics(conference)))}" '
         f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
         f'data-ccf="{_attr(ccf.get(conference["series"], {}).get("rank", "Unranked"))}" '
@@ -437,7 +441,7 @@ def _dataset_last_updated(conferences: list[dict[str, Any]]) -> str:
 
 def _topics(conferences: list[dict[str, Any]]) -> list[str]:
     return sorted(
-        {topic for conference in conferences for topic in conference.get("topics", [])},
+        {topic for conference in conferences for topic in all_topics(conference)},
         key=lambda value: value.casefold(),
     )
 
@@ -505,19 +509,23 @@ def build_site(
     rankings_path: Path = ICORE_PATH,
     ccf_path: Path = CCF_PATH,
     acceptance_path: Path = ACCEPTANCE_PATH,
+    scopes_path: Path = SCOPES_PATH,
 ) -> Path:
     conferences = load_conferences(data_path)
     icore_data = load_icore_rankings(rankings_path)
     ccf_data = load_ccf_rankings(ccf_path)
     acceptance_data = load_acceptance_rates(acceptance_path)
+    scopes = load_scopes(scopes_path)
     errors = validate_conferences(conferences, load_controlled_topics())
     cities = load_mapping(CITIES_PATH)
     errors.extend(validate_catalog_metadata(load_controlled_topics() or set(), TOPIC_CATALOG, cities))
     errors.extend(validate_icore_rankings(conferences, icore_data))
     errors.extend(validate_ccf_rankings(conferences, ccf_data))
     errors.extend(validate_acceptance_rates(conferences, acceptance_data))
+    errors.extend(validate_scopes(conferences, scopes, load_controlled_topics() or set()))
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
+    conferences = with_scopes(conferences, scopes)
 
     docs_dir.mkdir(parents=True, exist_ok=True)
     output = docs_dir / "index.html"

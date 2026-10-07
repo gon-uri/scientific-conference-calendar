@@ -60,8 +60,15 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
  posium\; official final extensions supersede older April/July dates. Proc
  eedings papers\, with neural networks and deep AI explicitly in scope. De
  adline hours use estimated end-of-day AoE. Size is an editorial category.
- \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
- fy the organizer's submission portal.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
 URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -80,8 +87,15 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
  posium\; official final extensions supersede older April/July dates. Proc
  eedings papers\, with neural networks and deep AI explicitly in scope. De
  adline hours use estimated end-of-day AoE. Size is an editorial category.
- \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
- fy the organizer's submission portal.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
 URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -125,6 +139,36 @@ URL:https://ccs26.cssociety.org/
 LOCATION:Binghamton\, New York\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Joint journal/conference submission (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
 UID:siam-ds-2027-deadline-minisymposium@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261027T035900Z
@@ -146,6 +190,35 @@ URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
 END:VEVENT
 BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference paper submission (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
 UID:nolta-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261117
@@ -161,6 +234,14 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
  posium\; official final extensions supersede older April/July dates. Proc
  eedings papers\, with neural networks and deep AI explicitly in scope. De
  adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07
 URL:https://nolta2026.org/
 LOCATION:Grenoble\, France
 END:VEVENT
@@ -222,6 +303,96 @@ DESCRIPTION:Conference title: International School and Conference on Networ
  n route rather than assumed archival proceedings. Size is an editorial ca
  tegory.
 URL:https://www.netsci2026.com/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Discussion papers (non-archival) (cutoff time unannounc
+ ed)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-dissemination@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Published IFAC journal presentations (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270215
+DTEND;VALUE=DATE:20270216
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/participate/\nLocation: Lyon\, Fr
+ ance\nTopics: System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Time Series & Sequential Data\, Machine Learning\nSize: M\nSubmi
+ ssion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
+ apers\, and dissemination/discussion routes have distinct requirements\; 
+ consult the call. Published deadline days are confirmed but cutoff hours 
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-journal-paper@scientific-conference-calendar
@@ -341,6 +512,34 @@ DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical
  n Time\, accounting for daylight saving. Size is an editorial category.
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/
 LOCATION:Atlanta\, Georgia\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ifac-sysid-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270707
+DTEND;VALUE=DATE:20270710
+SUMMARY:[System Identification & Data-driven Dynamics][Control & Robotics] 
+ IFAC SYSID 2027 - Conference
+DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
+ ite: https://conferences.ifac-control.org/sysid2027/\nSource URL: https:/
+ /conferences.ifac-control.org/sysid2027/\nLocation: Lyon\, France\nTopics
+ : System Identification & Data-driven Dynamics\, Control & Robotics\, Tim
+ e Series & Sequential Data\, Machine Learning\nSize: M\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes:
+  Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
+ dissemination/discussion routes have distinct requirements\; consult the 
+ call. Published deadline days are confirmed but cutoff hours use estimate
+ d end-of-day AoE. Size is an editorial category.\nScope: System identific
+ ation and data-driven modeling for dynamical systems and control. Charact
+ eristic themes include nonlinear identification\, model reduction\, ident
+ ification software and benchmarks\, learning across systems\, and dynamic
+  networks. Application tracks remain grounded in identifying or learning 
+ dynamical models\, rather than becoming general-purpose domain conference
+ s.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Net
+ work Science\nScope sources (2027): https://conferences.ifac-control.org/
+ sysid2027/participate/\nScope last checked: 2026-10-07
+URL:https://conferences.ifac-control.org/sysid2027/
+LOCATION:Lyon\, France
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-notification@scientific-conference-calendar

@@ -5,6 +5,106 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Federated & Distributed Learning
 BEGIN:VEVENT
+UID:midl-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251204T115900Z
+DTEND:20251204T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251211T115900Z
+DTEND:20251211T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260124T115900Z
+DTEND:20260124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260129T115900Z
+DTEND:20260129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Full paper submission deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260202T115900Z
@@ -18,7 +118,16 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
  : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
  026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
- s and research-track Cycle 2 deadlines.
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -35,8 +144,119 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
  : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
  026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
- s and research-track Cycle 2 deadlines.
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260214T115900Z
+DTEND:20260214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Workshop application deadline
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260416T115900Z
+DTEND:20260416T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Shor
+ t paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/dates\nLocation: 
+ Taipei\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learnin
+ g\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConf
+ idence: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 20
+ 26 pages list conference dates\, location\, and paper deadlines.\nScope: 
+ Deep learning for biomedical image analysis\, especially segmentation\, d
+ etection\, reconstruction\, registration\, generative imaging\, and learn
+ ing from limited labels. Uncertainty\, interpretability\, multi-site lear
+ ning\, robustness\, and clinical validation extend that imaging core. Mul
+ timodal foundation models are relevant when grounded in medical imaging.\
+ nAdditional topics: Computer Vision & Pattern Recognition\, Probabilistic
+ \, Causal & Uncertainty ML\, Explainability & Interpretability\, Robustne
+ ss & Safety\, Federated & Distributed Learning\nScope sources (2026): htt
+ ps://2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260706
+DTEND;VALUE=DATE:20260712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/2026\nSource URL: https://icml.cc/C
+ onferences/2026/Dates\nLocation: Seoul\, South Korea\nTopics: Machine Lea
+ rning\, Learning Theory & Statistical Foundations\, Deep Representation L
+ earning\, Time Series & Sequential Data\nSize: XXL\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
+ icial ICML 2026 dates page lists tutorials\, main conference\, workshops\
+ , and paper deadlines.\nScope: Methodological and theoretical machine lea
+ rning\, including supervised and unsupervised learning\, deep generative 
+ models\, optimization\, statistical learning theory\, Bayesian methods\, 
+ and reinforcement learning. Scalable systems and trustworthy learning are
+  established parts of the scope\; application papers should offer contrib
+ utions of wider interest to ML.\nAdditional topics: Probabilistic\, Causa
+ l & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpreta
+ bility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & 
+ Distributed Learning\nScope sources (2026): https://icml.cc/Conferences/2
+ 026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+LOCATION:Seoul\, South Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260708
+DTEND;VALUE=DATE:20260711
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2026 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2026.midl.io/\nSource URL: https://2026.midl.io/\nLocation: Taipe
+ i\, Taiwan\nTopics: Biomedical Imaging\, Deep Representation Learning\, H
+ ealthcare & Clinical AI\nSize: M\nSubmission type: Paper-based\nConfidenc
+ e: confirmed\nLast checked date: 2026-08-20\nNotes: Official MIDL 2026 pa
+ ges list conference dates\, location\, and paper deadlines.\nScope: Deep 
+ learning for biomedical image analysis\, especially segmentation\, detect
+ ion\, reconstruction\, registration\, generative imaging\, and learning f
+ rom limited labels. Uncertainty\, interpretability\, multi-site learning\
+ , robustness\, and clinical validation extend that imaging core. Multimod
+ al foundation models are relevant when grounded in medical imaging.\nAddi
+ tional topics: Computer Vision & Pattern Recognition\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Explainability & Interpretability\, Robustness & 
+ Safety\, Federated & Distributed Learning\nScope sources (2026): https://
+ 2026.midl.io/call-for-papers\nScope last checked: 2026-10-07
+URL:https://2026.midl.io/
+LOCATION:Taipei\, Taiwan
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2026-conference@scientific-conference-calendar
@@ -52,7 +272,16 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  & Distributed Learning\nSize: XL\nSubmission type: Paper-based / mixed tr
  acks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
  al SIGKDD and KDD 2026 pages list conference dates and research-track Cyc
- le 2 deadlines.
+ le 2 deadlines.\nScope: Knowledge discovery and data science\, centered o
+ n extracting useful structure from large\, heterogeneous data. Characteri
+ stic areas include clustering\, structured and relational learning\, grap
+ h and text mining\, recommender systems\, scalable data analysis\, and re
+ sponsible data use. Generative AI is relevant when it advances data scien
+ ce\, not simply because a paper uses an LLM.\nAdditional topics: Deep Rep
+ resentation Learning\, Natural Language Processing & LLMs\, Explainabilit
+ y & Interpretability\, Privacy-preserving ML\, ML Systems & Infrastructur
+ e\nScope sources (2027): https://kdd2027.kdd.org/research-track-call-for-
+ papers/\nScope last checked: 2026-10-07
 URL:https://www.kdd.org/conferences
 LOCATION:Jeju\, Korea
 END:VEVENT
@@ -92,7 +321,14 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
  xplicit CFP UTC times and recheck the submission portal before the deadli
  ne. No separate abstract prerequisite is announced. Size L is an editoria
- l estimate.
+ l estimate.\nScope: The intersection of machine learning and computer sys
+ tems\, including efficient training\, inference and serving\, compilers a
+ nd runtimes\, programming abstractions\, specialized hardware\, distribut
+ ed learning\, and system monitoring. LLM and agentic workloads are consid
+ ered from a systems perspective. Both systems for ML and ML methods that 
+ improve computing systems are relevant.\nAdditional topics: Reinforcement
+  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
+ g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -114,6 +350,58 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
 URL:https://bigdataieee.org/BigData2026/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:midl-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261201T115900Z
+DTEND:20261201T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper registration deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Full
+  paper submission deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-bigdata-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261214
@@ -132,6 +420,60 @@ URL:https://bigdataieee.org/BigData2026/
 LOCATION:Phoenix\, Arizona\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:icml-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270124T115900Z
+DTEND:20270124T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.\nScope: Methodological and theoretical machine lear
+ ning\, including supervised and unsupervised learning\, deep generative m
+ odels\, optimization\, statistical learning theory\, Bayesian methods\, a
+ nd reinforcement learning. Scalable systems and trustworthy learning are 
+ established parts of the scope\; application papers should offer contribu
+ tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
+  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
+ ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
+ istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
+ 26/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270129T115900Z
+DTEND:20270129T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Full paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.\nScope: Methodological and theoretical machine lear
+ ning\, including supervised and unsupervised learning\, deep generative m
+ odels\, optimization\, statistical learning theory\, Bayesian methods\, a
+ nd reinforcement learning. Scalable systems and trustworthy learning are 
+ established parts of the scope\; application papers should offer contribu
+ tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
+  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
+ ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
+ istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
+ 26/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270202T115900Z
@@ -147,7 +489,16 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
  5. The first research-track cycle closed in July 2026. A February 2027 cy
  cle is announced but exact dates are still TBA\; the February abstract/pa
- per dates here are estimated from 2026.
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -166,8 +517,70 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
  5. The first research-track cycle closed in July 2026. A February 2027 cy
  cle is announced but exact dates are still TBA\; the February abstract/pa
- per dates here are estimated from 2026.
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270214T115900Z
+DTEND:20270214T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Workshop application deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/2026/Dates\nLocation: South America (city to be anno
+ unced)\nTopics: Machine Learning\, Learning Theory & Statistical Foundati
+ ons\, Deep Representation Learning\, Time Series & Sequential Data\nSize:
+  XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked d
+ ate: 2026-10-06\nNotes: ICML confirms the 2027 region as South America bu
+ t has not published dates or deadlines. Dates use the 2026 edition as an 
+ annual-cadence proxy.\nScope: Methodological and theoretical machine lear
+ ning\, including supervised and unsupervised learning\, deep generative m
+ odels\, optimization\, statistical learning theory\, Bayesian methods\, a
+ nd reinforcement learning. Scalable systems and trustworthy learning are 
+ established parts of the scope\; application papers should offer contribu
+ tions of wider interest to ML.\nAdditional topics: Probabilistic\, Causal
+  & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpretab
+ ility\, Robustness & Safety\, ML Systems & Infrastructure\, Federated & D
+ istributed Learning\nScope sources (2026): https://icml.cc/Conferences/20
+ 26/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270313T115900Z
+DTEND:20270313T125900Z
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Came
+ ra-ready deadline
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:mlsys-2027-conference@scientific-conference-calendar
@@ -186,9 +599,72 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
   20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
   listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
  and recheck the submission portal before the deadline. No separate abstra
- ct prerequisite is announced. Size L is an editorial estimate.
+ ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
+ e intersection of machine learning and computer systems\, including effic
+ ient training\, inference and serving\, compilers and runtimes\, programm
+ ing abstractions\, specialized hardware\, distributed learning\, and syst
+ em monitoring. LLM and agentic workloads are considered from a systems pe
+ rspective. Both systems for ML and ML methods that improve computing syst
+ ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
+ eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
+ lForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:icml-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ICML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Machine Learning\
+ nWebsite: https://icml.cc/Conferences/FutureMeetings\nSource URL: https:/
+ /icml.cc/Conferences/FutureMeetings\nLocation: South America (city to be 
+ announced)\nTopics: Machine Learning\, Learning Theory & Statistical Foun
+ dations\, Deep Representation Learning\, Time Series & Sequential Data\nS
+ ize: XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-06\nNotes: ICML confirms the 2027 region as South Americ
+ a but has not published dates or deadlines. Dates use the 2026 edition as
+  an annual-cadence proxy.\nScope: Methodological and theoretical machine 
+ learning\, including supervised and unsupervised learning\, deep generati
+ ve models\, optimization\, statistical learning theory\, Bayesian methods
+ \, and reinforcement learning. Scalable systems and trustworthy learning 
+ are established parts of the scope\; application papers should offer cont
+ ributions of wider interest to ML.\nAdditional topics: Probabilistic\, Ca
+ usal & Uncertainty ML\, Reinforcement Learning\, Explainability & Interpr
+ etability\, Robustness & Safety\, ML Systems & Infrastructure\, Federated
+  & Distributed Learning\nScope sources (2026): https://icml.cc/Conference
+ s/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://icml.cc/Conferences/FutureMeetings
+LOCATION:South America (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:midl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270714
+DTEND;VALUE=DATE:20270717
+SUMMARY:[Biomedical Imaging][Deep Representation Learning] MIDL 2027 - Conf
+ erence
+DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite: 
+ https://2027.midl.io/\nSource URL: https://2027.midl.io/important-dates\n
+ Location: Porto\, Portugal\nTopics: Biomedical Imaging\, Deep Representat
+ ion Learning\, Healthcare & Clinical AI\nSize: M\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: Offic
+ ial 2027 dates page confirms the July meeting\, full-paper registration a
+ nd submission\, and camera-ready dates. Short-paper submission is still T
+ BD.\nScope: Deep learning for biomedical image analysis\, especially segm
+ entation\, detection\, reconstruction\, registration\, generative imaging
+ \, and learning from limited labels. Uncertainty\, interpretability\, mul
+ ti-site learning\, robustness\, and clinical validation extend that imagi
+ ng core. Multimodal foundation models are relevant when grounded in medic
+ al imaging.\nAdditional topics: Computer Vision & Pattern Recognition\, P
+ robabilistic\, Causal & Uncertainty ML\, Explainability & Interpretabilit
+ y\, Robustness & Safety\, Federated & Distributed Learning\nScope sources
+  (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
+ 0-07
+URL:https://2027.midl.io/important-dates
+LOCATION:Porto\, Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:kdd-2027-conference@scientific-conference-calendar
@@ -206,7 +682,16 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
  : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
  le closed in July 2026. A February 2027 cycle is announced but exact date
  s are still TBA\; the February abstract/paper dates here are estimated fr
- om 2026.
+ om 2026.\nScope: Knowledge discovery and data science\, centered on extra
+ cting useful structure from large\, heterogeneous data. Characteristic ar
+ eas include clustering\, structured and relational learning\, graph and t
+ ext mining\, recommender systems\, scalable data analysis\, and responsib
+ le data use. Generative AI is relevant when it advances data science\, no
+ t simply because a paper uses an LLM.\nAdditional topics: Deep Representa
+ tion Learning\, Natural Language Processing & LLMs\, Explainability & Int
+ erpretability\, Privacy-preserving ML\, ML Systems & Infrastructure\nScop
+ e sources (2027): https://kdd2027.kdd.org/research-track-call-for-papers/
+ \nScope last checked: 2026-10-07
 URL:https://kdd2027.kdd.org/
 LOCATION:San Jose\, California\, USA
 END:VEVENT

@@ -4,6 +4,7 @@ from pathlib import Path
 
 from build_ics import build_calendars
 from build_site import build_site
+from conference_scopes import load_scopes, validate_scopes
 from validate import (
     ROOT,
     load_acceptance_rates,
@@ -24,6 +25,7 @@ def main() -> int:
     errors.extend(validate_icore_rankings(conferences, load_icore_rankings()))
     errors.extend(validate_ccf_rankings(conferences, load_ccf_rankings()))
     errors.extend(validate_acceptance_rates(conferences, load_acceptance_rates()))
+    errors.extend(validate_scopes(conferences, load_scopes(), load_controlled_topics() or set()))
     if errors:
         print("Validation failed:")
         for error in errors:

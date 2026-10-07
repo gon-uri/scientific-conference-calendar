@@ -20,7 +20,15 @@ DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From
  stimated\nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS
   2026 workshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a
   calendar placeholder\, not a confirmed workshop day. The Nov 6 camera-re
- ady date is tentative and is not listed as a deadline.
+ ady date is tentative and is not listed as a deadline.\nScope: Foundation
+  models for temporal systems\, centered on long-horizon and probabilistic
+  forecasting\, temporal pretraining\, generative simulation\, irregularly
+  sampled and multimodal sequences\, and state-space architectures. Reliab
+ ility is a defining theme: distribution shift\, calibrated uncertainty\, 
+ leakage-aware benchmarks\, and consistency of simulated trajectories.\nAd
+ ditional topics: System Identification & Data-driven Dynamics\, Robustnes
+ s & Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.htm
+ l\nScope last checked: 2026-10-07
 URL:https://fmts-workshop.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -39,7 +47,15 @@ DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From
  \nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS 2026 wo
  rkshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a calenda
  r placeholder\, not a confirmed workshop day. The Nov 6 camera-ready date
-  is tentative and is not listed as a deadline.
+  is tentative and is not listed as a deadline.\nScope: Foundation models 
+ for temporal systems\, centered on long-horizon and probabilistic forecas
+ ting\, temporal pretraining\, generative simulation\, irregularly sampled
+  and multimodal sequences\, and state-space architectures. Reliability is
+  a defining theme: distribution shift\, calibrated uncertainty\, leakage-
+ aware benchmarks\, and consistency of simulated trajectories.\nAdditional
+  topics: System Identification & Data-driven Dynamics\, Robustness & Safe
+ ty\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope
+  last checked: 2026-10-07
 URL:https://fmts-workshop.github.io/
 LOCATION:Sydney\, Australia
 END:VEVENT

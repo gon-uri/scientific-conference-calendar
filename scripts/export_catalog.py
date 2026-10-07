@@ -6,6 +6,7 @@ from pathlib import Path
 import yaml
 
 from catalog_metadata import FAMILIES_PATH, load_mapping
+from conference_scopes import load_scopes
 from validate import (
     TOPICS_PATH, acceptance_band, load_acceptance_rates, load_ccf_rankings,
     load_conferences, load_icore_rankings,
@@ -38,7 +39,13 @@ def catalog_payload() -> dict:
         ])
     families = load_mapping(FAMILIES_PATH)
     family_by_topic = {topic: family['label'] for family in families['families'] for topic in family['topics']}
-    return {'rows': rows, 'topics': [
+    scopes = load_scopes()
+    return {'rows': rows, 'scopes': [
+        [series, '; '.join(profile['additional_topics']), profile['scope_summary'],
+         profile['source_year'], '; '.join(profile['scope_source_urls']),
+         str(profile['scope_last_checked'])]
+        for series, profile in sorted(scopes.items(), key=lambda pair: pair[0].casefold())
+    ], 'topics': [
         {'tag': topic, 'family': family_by_topic[topic], 'label': families['labels'][topic]}
         for topic in yaml.safe_load(TOPICS_PATH.read_text(encoding='utf-8'))
     ]}

@@ -67,18 +67,53 @@ catalog.getRange(`B2:B${total + 1}`).format.wrapText = true;
 vocab.getRange(`B2:B${vocabulary.length + 1}`).format.wrapText = true;
 vocab.getRange(`A2:B${vocabulary.length + 1}`).format.autofitRows();
 catalog.getRange(`A2:F${total + 1}`).format.autofitRows();
+
+let scopeSheet;
+let scopeRows;
+if (payload.scopes) {
+  try {
+    scopeSheet = wb.worksheets.getItem('Conference Scope');
+  } catch {
+    scopeSheet = wb.worksheets.add('Conference Scope');
+  }
+  scopeSheet.tables.items.forEach(table => table.delete());
+  scopeSheet.getUsedRange()?.clear({applyTo: 'contents'});
+  scopeRows = payload.scopes.map(row => [...row.slice(0, 5), Date.parse(`${row[5]}T00:00:00Z`) / 86400000 + 25569]);
+  const last = scopeRows.length + 1;
+  scopeSheet.getRange(`A1:F${last}`).values = [
+    ['Series', 'Additional topics', 'Scope summary', 'Source edition', 'Scope sources', 'Scope reviewed'],
+    ...scopeRows,
+  ];
+  const table = scopeSheet.tables.add(`A1:F${last}`, true, 'ConferenceScope');
+  table.style = catalog.tables.items[0].style;
+  scopeSheet.getRange(`A1:F${last}`).format.font = {name: 'Arial', size: 10};
+  scopeSheet.getRange(`A1:F${last}`).format.verticalAlignment = 'top';
+  scopeSheet.getRange(`A1:F${last}`).format.wrapText = true;
+  for (const [column, width] of [['A',140],['B',300],['C',500],['D',100],['E',350],['F',110]]) {
+    scopeSheet.getRange(`${column}1:${column}${last}`).format.columnWidthPx = width;
+  }
+  scopeSheet.getRange(`D2:D${last}`).setNumberFormat('0');
+  scopeSheet.getRange(`F2:F${last}`).setNumberFormat('yyyy-mm-dd');
+  scopeSheet.getRange(`A1:F${last}`).format.autofitRows();
+  scopeSheet.getRange('A1:F1').format.verticalAlignment = 'center';
+  scopeSheet.freezePanes.freezeRows(1);
+  scopeSheet.freezePanes.freezeColumns(1);
+  scopeSheet.showGridLines = false;
+}
 wb.recalculate();
 const actual = catalog.getRange(`A2:N${total + 1}`).values;
 if (JSON.stringify(actual) !== JSON.stringify([...ordered, ...additions])) throw Error('Catalog synchronization mismatch');
 if (JSON.stringify(vocab.getRange(`A2:B${vocabulary.length + 1}`).values) !== JSON.stringify(vocabulary)) throw Error('Topic vocabulary synchronization mismatch');
+if (scopeSheet && JSON.stringify(scopeSheet.getRange(`A2:F${scopeRows.length + 1}`).values) !== JSON.stringify(scopeRows)) throw Error('Scope synchronization mismatch');
 console.log((await wb.inspect({kind:'match', searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!', options:{useRegex:true,maxResults:30}, summary:'Formula error check',maxChars:2500})).ndjson);
 await fs.mkdir(previewDir, {recursive:true});
 for (const [sheetName, range, name] of [
   ['Core Conferences', `A${Math.max(1,total - 7)}:F${total + 1}`, 'catalog'],
   ['Tag Vocabulary', `A${Math.max(2,vocabulary.length - 9)}:B${vocabulary.length + 1}`, 'topics'],
+  ...(scopeSheet ? [['Conference Scope', 'A1:F5', 'scope']] : []),
 ]) {
   const preview = await wb.render({sheetName, range, scale:1.2, format:'png'});
   await fs.writeFile(`${previewDir}/${name}.png`, new Uint8Array(await preview.arrayBuffer()));
 }
 await (await SpreadsheetFile.exportXlsx(wb)).save(workbookPath);
-console.log(`Synchronized ${total} conference series and ${vocabulary.length} subtopics.`);
+console.log(`Synchronized ${total} conference series, ${vocabulary.length} subtopics, and ${scopeRows?.length || 0} scope profiles.`);

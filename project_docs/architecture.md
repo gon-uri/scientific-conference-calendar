@@ -62,7 +62,15 @@ combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 release webpage. ICORE Rank links to its conference portal.
 
 `data/topic_families.yml` maps every controlled leaf to exactly one of seven
-families. Edition records store up to four central leaves. Parent selection
+families. Edition records store up to four central leaves for display. Curated
+series profiles in `data/conference_scopes.yml` add a concise scope description,
+up to six characteristic additional leaves, official evidence URLs/year, and an
+independent review date. Search, filter attributes, and topic feeds use the
+deduplicated primary/additional union; table labels remain primary-only. Profiles
+join at build time, not during rollover. Missing profiles fall back to the main
+topics and enter the advisory scope queue. See conference_scopes.md for editorial
+limits: a broad CFP inventory is not a mandate to add peripheral topic tags.
+Parent selection
 expands to children; matching is OR within families, with selectable ANY/ALL
 across families. Existing topic feed slugs remain stable.
 There are now 30 leaves, including Evolutionary Computation & Optimization
@@ -77,6 +85,8 @@ GitHub request forms and discussion links work independently of Giscus.
 
 New maintained modules and assets:
 - `scripts/catalog_metadata.py`: family/city loading, validation, map payload.
+- `scripts/conference_scopes.py`: sourced series profiles, validation, union
+  matching, and missing/stale/prior-edition scope review queue.
 - `scripts/export_catalog.py`: latest-series and vocabulary JSON export.
 - `scripts/sync_workbook.mjs`: optional artifact-tool workbook synchronization;
   preserves table styles, validates values, renders previews, exports XLSX.
@@ -114,6 +124,9 @@ flowchart TD
   CR --> S
   AR["data/acceptance_rates.yml"] --> V
   AR --> S
+  SC["data/conference_scopes.yml"] --> V
+  SC --> S
+  SC --> I
   RO["scripts/rollover_editions.py"] --> A
   V --> I["scripts/build_ics.py"]
   V --> S
@@ -138,13 +151,15 @@ data/
   icore_rankings.yml              sourced ICORE 2026 series ranks
   ccf_rankings.yml                sourced CCF 2026 series ranks
   acceptance_rates.yml            sourced historical acceptance rates
+  conference_scopes.yml           curated sourced series-level scope profiles
   core_conferences_normalized_tags.xlsx  synchronized catalog-reference workbook
 scripts/
   validate.py                     schema and consistency checks
   build_ics.py                    ICS feed generation
   build_site.py                   static HTML site generation
   build_all.py                    validate, then build all generated outputs
-  maintenance_report.py           source-linked edition and rate review queues
+  maintenance_report.py           edition, rate, and scope review queues
+  conference_scopes.py             profile validation and richer topic matching
   rollover_editions.py             idempotent cadence-aware edition projections
 docs/
   index.html                      generated GitHub Pages site
@@ -180,6 +195,8 @@ AGENTS.md                         lightweight agent onboarding instructions
 - `data/icore_rankings.yml` owns the optional ICORE 2026 series-level mapping and official portal provenance.
 - `data/ccf_rankings.yml` owns direct CCF 2026 catalog matches, PDF-page provenance, and a separately validated official navigation webpage.
 - `data/acceptance_rates.yml` owns historical rate evidence, edition, and track.
+- `data/conference_scopes.yml` owns curated additional topics and detailed scope
+  prose with official evidence year/URLs and an independent review date.
 - `data/metadata.yml` owns site-level publication metadata.
 - `docs/*.ics` and `docs/index.html` are generated public artifacts.
 - `project_docs/*.md` files are maintained source documentation and should not be treated as generated outputs.
@@ -187,7 +204,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 ## Data Flow
 
-1. About monthly, a maintainer reviews the two queues from `scripts/maintenance_report.py`, checks official sources against estimates, and edits the appropriate YAML source file. `scripts/rollover_editions.py` previews missing recurring editions.
+1. About monthly, a maintainer reviews the edition, acceptance, and scope queues from `scripts/maintenance_report.py`, checks official sources against estimates, and edits the appropriate YAML source file. `scripts/rollover_editions.py` previews missing recurring editions.
 2. `scripts/validate.py` verifies the conference records and controlled taxonomy.
 3. `scripts/build_ics.py` writes aggregate, topic, and per-conference calendar feeds into `docs/`.
 4. `scripts/build_site.py` writes the static website to `docs/index.html`.
@@ -222,7 +239,10 @@ The project currently uses procedural Python functions and built-in data structu
 
 - Conference record schema: Required fields and allowed values are enforced in `scripts/validate.py`; `gate_for` links a prerequisite to its paper deadline. Meeting `confidence` is distinct from optional deadline `confidence`. `opens_at` and `open_observed_on` are evidence that a route is open now. Ranks and rates join by exact series name. Rates retain their historical year, track, and source. Durable project guidance lives in `project_docs/` and the lightweight agent entrypoint is `AGENTS.md`.
 - Agent handoff interface: Future coding sessions should start with `AGENTS.md`, then read all files in `project_docs/` before making modifications.
-- Topic taxonomy: Every topic in a conference record must match an entry in `data/topics.yml`.
+- Topic taxonomy: Primary and additional topics must match `data/topics.yml`.
+  Primary topics are limited to four and additional topics to six; a profile
+  need not fill either count. Search/filter/feed matching uses their union,
+  while display labels remain limited to the edition's primary topics.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
 - Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-ccf`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. Missing ranks match the corresponding Unranked option; workshops do not inherit scores. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
 

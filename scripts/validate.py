@@ -494,6 +494,7 @@ def validate_acceptance_rates(
 
 def main() -> int:
     from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, validate_catalog_metadata
+    from conference_scopes import load_scopes, validate_scopes
 
     try:
         conferences = load_conferences()
@@ -503,6 +504,7 @@ def main() -> int:
         acceptance_rates = load_acceptance_rates()
         families = load_mapping(FAMILIES_PATH)
         cities = load_mapping(CITIES_PATH)
+        scopes = load_scopes()
     except (OSError, ValueError, yaml.YAMLError) as exc:
         print(f"Validation failed: {exc}", file=sys.stderr)
         return 1
@@ -512,6 +514,7 @@ def main() -> int:
     errors.extend(validate_icore_rankings(conferences, icore_rankings))
     errors.extend(validate_ccf_rankings(conferences, ccf_rankings))
     errors.extend(validate_acceptance_rates(conferences, acceptance_rates))
+    errors.extend(validate_scopes(conferences, scopes, controlled_topics or set()))
     if errors:
         print("Validation failed:", file=sys.stderr)
         for error in errors:

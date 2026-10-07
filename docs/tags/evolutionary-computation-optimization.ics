@@ -6,6 +6,229 @@ METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Evolutionary Computation & Optimizatio
  n
 BEGIN:VEVENT
+UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Regular and special-session papers (cutoff time unannounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261002T115900Z
+DTEND:20261002T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main-track 
+ abstract registration deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
+ yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
+ rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
+ lagship meeting in Hanoi. New main-track submissions are closed because t
+ he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
+ he separate four-page Blue Sky Ideas track remains a forthcoming opportun
+ ity\; author registration is announced for Oct 20 but no exact opening ho
+ ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
+ ast-track and already published JAAMAS presentations are not general new-
+ paper routes. Size XL is an editorial estimate. Historical acceptance cov
+ ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
+ 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
+ rning and adaptation\, coordination\, game theory\, planning\, reasoning\
+ , agent engineering\, and agent-based simulation. Also covers human-agent
+  interaction\, robot teams\, norms and governance\, and generative agents
+ . The contribution should concern agents or their interaction\; generic l
+ anguage-model or learning results are not automatically in scope.\nAdditi
+ onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
+ rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
+ Network Science\, Ethics & Governance\, Explainability & Interpretability
+ \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
+ /call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261009T115900Z
+DTEND:20261009T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main papers
+  (registered abstracts only) deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
+ yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
+ rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
+ lagship meeting in Hanoi. New main-track submissions are closed because t
+ he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
+ he separate four-page Blue Sky Ideas track remains a forthcoming opportun
+ ity\; author registration is announced for Oct 20 but no exact opening ho
+ ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
+ ast-track and already published JAAMAS presentations are not general new-
+ paper routes. Size XL is an editorial estimate. Historical acceptance cov
+ ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
+ 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
+ rning and adaptation\, coordination\, game theory\, planning\, reasoning\
+ , agent engineering\, and agent-based simulation. Also covers human-agent
+  interaction\, robot teams\, norms and governance\, and generative agents
+ . The contribution should concern agents or their interaction\; generic l
+ anguage-model or learning results are not automatically in scope.\nAdditi
+ onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
+ rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
+ Network Science\, Ethics & Governance\, Explainability & Interpretability
+ \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
+ /call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261106T115900Z
+DTEND:20261106T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas abstract registration deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
+ eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
+ papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
+ al flagship meeting in Hanoi. New main-track submissions are closed becau
+ se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
+ f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
+ rtunity\; author registration is announced for Oct 20 but no exact openin
+ g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
+ AI fast-track and already published JAAMAS presentations are not general 
+ new-paper routes. Size XL is an editorial estimate. Historical acceptance
+  covers main full papers only\, not Blue Sky Ideas or the newly introduce
+ d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
+  learning and adaptation\, coordination\, game theory\, planning\, reason
+ ing\, agent engineering\, and agent-based simulation. Also covers human-a
+ gent interaction\, robot teams\, norms and governance\, and generative ag
+ ents. The contribution should concern agents or their interaction\; gener
+ ic language-model or learning results are not automatically in scope.\nAd
+ ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
+ Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
+ s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
+ lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
+ alls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261113T115900Z
+DTEND:20261113T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas paper submission deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
+ eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
+ papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
+ al flagship meeting in Hanoi. New main-track submissions are closed becau
+ se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
+ f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
+ rtunity\; author registration is announced for Oct 20 but no exact openin
+ g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
+ AI fast-track and already published JAAMAS presentations are not general 
+ new-paper routes. Size XL is an editorial estimate. Historical acceptance
+  covers main full papers only\, not Blue Sky Ideas or the newly introduce
+ d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
+  learning and adaptation\, coordination\, game theory\, planning\, reason
+ ing\, agent engineering\, and agent-based simulation. Also covers human-a
+ gent interaction\, robot teams\, norms and governance\, and generative ag
+ ents. The contribution should concern agents or their interaction\; gener
+ ic language-model or learning results are not automatically in scope.\nAd
+ ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
+ Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
+ s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
+ lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
+ alls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Conference
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07
+URL:https://nolta2026.org/
+LOCATION:Grenoble\, France
+END:VEVENT
+BEGIN:VEVENT
 UID:gecco-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270120T115900Z
@@ -22,8 +245,51 @@ DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
  copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
  mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
   Poster-only submissions are separate from the gated full-paper route. Si
- ze L is an editorial estimate\; no attendance count is asserted.
+ ze L is an editorial estimate\; no attendance count is asserted.\nScope: 
+ Genetic and evolutionary computation\, including genetic algorithms\, gen
+ etic programming\, swarm intelligence\, evolutionary multiobjective and c
+ ombinatorial optimization\, metaheuristics\, and neuroevolution. Machine 
+ learning is relevant through evolutionary learning and optimization\, not
+  as an unrestricted substitute for the conference's evolutionary-computat
+ ion focus.\nAdditional topics: Deep Representation Learning\, Learning Th
+ eory & Statistical Foundations\nScope sources (2026): https://gecco-2027.
+ sigevo.org/Call+for+Papers\nScope last checked: 2026-10-07
 URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270126T115900Z
+DTEND:20270126T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Main-track 
+ camera-ready deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
+ einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
+ yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
+ rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
+ lagship meeting in Hanoi. New main-track submissions are closed because t
+ he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
+ he separate four-page Blue Sky Ideas track remains a forthcoming opportun
+ ity\; author registration is announced for Oct 20 but no exact opening ho
+ ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
+ ast-track and already published JAAMAS presentations are not general new-
+ paper routes. Size XL is an editorial estimate. Historical acceptance cov
+ ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
+ 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
+ rning and adaptation\, coordination\, game theory\, planning\, reasoning\
+ , agent engineering\, and agent-based simulation. Also covers human-agent
+  interaction\, robot teams\, norms and governance\, and generative agents
+ . The contribution should concern agents or their interaction\; generic l
+ anguage-model or learning results are not automatically in scope.\nAdditi
+ onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
+ rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
+ Network Science\, Ethics & Governance\, Explainability & Interpretability
+ \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
+ /call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-full-paper@scientific-conference-calendar
@@ -42,7 +308,15 @@ DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
  copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
  mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
   Poster-only submissions are separate from the gated full-paper route. Si
- ze L is an editorial estimate\; no attendance count is asserted.
+ ze L is an editorial estimate\; no attendance count is asserted.\nScope: 
+ Genetic and evolutionary computation\, including genetic algorithms\, gen
+ etic programming\, swarm intelligence\, evolutionary multiobjective and c
+ ombinatorial optimization\, metaheuristics\, and neuroevolution. Machine 
+ learning is relevant through evolutionary learning and optimization\, not
+  as an unrestricted substitute for the conference's evolutionary-computat
+ ion focus.\nAdditional topics: Deep Representation Learning\, Learning Th
+ eory & Statistical Foundations\nScope sources (2026): https://gecco-2027.
+ sigevo.org/Call+for+Papers\nScope last checked: 2026-10-07
 URL:https://gecco-2026.sigevo.org/Important+Dates
 END:VEVENT
 BEGIN:VEVENT
@@ -62,8 +336,53 @@ DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
  copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
  mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
   Poster-only submissions are separate from the gated full-paper route. Si
- ze L is an editorial estimate\; no attendance count is asserted.
+ ze L is an editorial estimate\; no attendance count is asserted.\nScope: 
+ Genetic and evolutionary computation\, including genetic algorithms\, gen
+ etic programming\, swarm intelligence\, evolutionary multiobjective and c
+ ombinatorial optimization\, metaheuristics\, and neuroevolution. Machine 
+ learning is relevant through evolutionary learning and optimization\, not
+  as an unrestricted substitute for the conference's evolutionary-computat
+ ion focus.\nAdditional topics: Deep Representation Learning\, Learning Th
+ eory & Statistical Foundations\nScope sources (2026): https://gecco-2027.
+ sigevo.org/Call+for+Papers\nScope last checked: 2026-10-07
 URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-deadline-blue-sky-camera-ready@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20270212T115900Z
+DTEND:20270212T125900Z
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Blue Sky Id
+ eas camera-ready deadline
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
+ -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
+ \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
+ eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
+ papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
+ al flagship meeting in Hanoi. New main-track submissions are closed becau
+ se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
+ f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
+ rtunity\; author registration is announced for Oct 20 but no exact openin
+ g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
+ AI fast-track and already published JAAMAS presentations are not general 
+ new-paper routes. Size XL is an editorial estimate. Historical acceptance
+  covers main full papers only\, not Blue Sky Ideas or the newly introduce
+ d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
+  learning and adaptation\, coordination\, game theory\, planning\, reason
+ ing\, agent engineering\, and agent-based simulation. Also covers human-a
+ gent interaction\, robot teams\, norms and governance\, and generative ag
+ ents. The contribution should concern agents or their interaction\; gener
+ ic language-model or learning results are not automatically in scope.\nAd
+ ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
+ Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
+ s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
+ lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
+ alls/call-for-main-track/\nScope last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
+ as/
 END:VEVENT
 BEGIN:VEVENT
 UID:gecco-2027-deadline-camera-ready@scientific-conference-calendar
@@ -82,8 +401,51 @@ DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
  copied 2026 venue/deadline text\; do not treat it as a confirmed 2027 sub
  mission schedule. Deadlines use 2026 timing as an estimated annual proxy.
   Poster-only submissions are separate from the gated full-paper route. Si
- ze L is an editorial estimate\; no attendance count is asserted.
+ ze L is an editorial estimate\; no attendance count is asserted.\nScope: 
+ Genetic and evolutionary computation\, including genetic algorithms\, gen
+ etic programming\, swarm intelligence\, evolutionary multiobjective and c
+ ombinatorial optimization\, metaheuristics\, and neuroevolution. Machine 
+ learning is relevant through evolutionary learning and optimization\, not
+  as an unrestricted substitute for the conference's evolutionary-computat
+ ion focus.\nAdditional topics: Deep Representation Learning\, Learning Th
+ eory & Statistical Foundations\nScope sources (2026): https://gecco-2027.
+ sigevo.org/Call+for+Papers\nScope last checked: 2026-10-07
 URL:https://gecco-2026.sigevo.org/Important+Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:aamas-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270508
+SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Autonomous Agents
+  and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
+ 2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/\nLocation
+ : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Co
+ ntrol & Robotics\, Human-AI Interaction & Deployment\nSize: XL\nSubmissio
+ n type: Paper-based / Blue Sky Ideas short papers\nConfidence: confirmed\
+ nLast checked date: 2026-10-07\nNotes: Annual flagship meeting in Hanoi. 
+ New main-track submissions are closed because the Oct 1 abstract gate has
+  passed\, even before the Oct 8 paper cutoff. The separate four-page Blue
+  Sky Ideas track remains a forthcoming opportunity\; author registration 
+ is announced for Oct 20 but no exact opening hour is given. Its Nov 5 gat
+ e only controls its Nov 12 short papers. AAAI fast-track and already publ
+ ished JAAMAS presentations are not general new-paper routes. Size XL is a
+ n editorial estimate. Historical acceptance covers main full papers only\
+ , not Blue Sky Ideas or the newly introduced 2027 Findings track.\nScope:
+  Autonomous agents and multi-agent systems: learning and adaptation\, coo
+ rdination\, game theory\, planning\, reasoning\, agent engineering\, and 
+ agent-based simulation. Also covers human-agent interaction\, robot teams
+ \, norms and governance\, and generative agents. The contribution should 
+ concern agents or their interaction\; generic language-model or learning 
+ results are not automatically in scope.\nAdditional topics: Deep Represen
+ tation Learning\, Probabilistic\, Causal & Uncertainty ML\, Evolutionary 
+ Computation & Optimization\, Complex Systems & Network Science\, Ethics &
+  Governance\, Explainability & Interpretability\nScope sources (2027): ht
+ tps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nSco
+ pe last checked: 2026-10-07
+URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
+LOCATION:Hanoi\, Vietnam
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
@@ -101,7 +463,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  cial 2027 schedule found. Annual meeting and main-track deadlines are pro
  jections from AutoML 2026\; location is unannounced and links refer to pr
  ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
- tasets. Size M is an editorial estimate for this specialist conference.
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -121,7 +493,15 @@ DESCRIPTION:Conference title: Genetic and Evolutionary Computation Conferen
  2026 venue/deadline text\; do not treat it as a confirmed 2027 submission
   schedule. Deadlines use 2026 timing as an estimated annual proxy. Poster
  -only submissions are separate from the gated full-paper route. Size L is
-  an editorial estimate\; no attendance count is asserted.
+  an editorial estimate\; no attendance count is asserted.\nScope: Genetic
+  and evolutionary computation\, including genetic algorithms\, genetic pr
+ ogramming\, swarm intelligence\, evolutionary multiobjective and combinat
+ orial optimization\, metaheuristics\, and neuroevolution. Machine learnin
+ g is relevant through evolutionary learning and optimization\, not as an 
+ unrestricted substitute for the conference's evolutionary-computation foc
+ us.\nAdditional topics: Deep Representation Learning\, Learning Theory & 
+ Statistical Foundations\nScope sources (2026): https://gecco-2027.sigevo.
+ org/Call+for+Papers\nScope last checked: 2026-10-07
 URL:https://gecco-2027.sigevo.org/HomePage
 LOCATION:Krakow\, Poland
 END:VEVENT
@@ -141,7 +521,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  cial 2027 schedule found. Annual meeting and main-track deadlines are pro
  jections from AutoML 2026\; location is unannounced and links refer to pr
  ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
- tasets. Size M is an editorial estimate for this specialist conference.
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -160,7 +550,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  027 schedule found. Annual meeting and main-track deadlines are projectio
  ns from AutoML 2026\; location is unannounced and links refer to prior ed
  itions. ABCD covers applications\, benchmarks\, challenges\, and datasets
- . Size M is an editorial estimate for this specialist conference.
+ . Size M is an editorial estimate for this specialist conference.\nScope:
+  Automating the construction and configuration of learning systems: hyper
+ parameter optimization\, Bayesian optimization\, neural architecture sear
+ ch\, model selection\, meta-learning\, and pipeline automation. Includes 
+ evolutionary and reinforcement-learning approaches\, AutoML for foundatio
+ n models\, and evaluation through applications\, benchmarks\, challenges\
+ , and datasets. Trustworthiness matters specifically in automated ML work
+ flows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Rein
+ forcement Learning\, Explainability & Interpretability\, Natural Language
+  Processing & LLMs\, Robustness & Safety\nScope sources (2026): https://2
+ 026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/
 LOCATION:To be announced
 END:VEVENT

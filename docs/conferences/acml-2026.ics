@@ -18,7 +18,16 @@ DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
  pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
  / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
  : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
- ference-track submission deadline.
+ ference-track submission deadline.\nScope: Theory and practice of machine
+  learning\, including probabilistic methods\, representation learning\, t
+ ransfer and meta-learning\, reinforcement learning\, and learning theory.
+  Generative models\, language models\, and trustworthy learning extend th
+ is core. The broad applications list is not treated as evidence that ever
+ y application field defines the conference.\nAdditional topics: Deep Repr
+ esentation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforce
+ ment Learning\, Natural Language Processing & LLMs\, Fairness & Responsib
+ le AI\, Privacy-preserving ML\nScope sources (2026): https://www.acml-con
+ f.org/2026/calls/papers/\nScope last checked: 2026-10-07
 URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -35,7 +44,16 @@ DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
   Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
  nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
  ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
-  submission deadline.
+  submission deadline.\nScope: Theory and practice of machine learning\, i
+ ncluding probabilistic methods\, representation learning\, transfer and m
+ eta-learning\, reinforcement learning\, and learning theory. Generative m
+ odels\, language models\, and trustworthy learning extend this core. The 
+ broad applications list is not treated as evidence that every application
+  field defines the conference.\nAdditional topics: Deep Representation Le
+ arning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning
+ \, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Priva
+ cy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026/ca
+ lls/papers/\nScope last checked: 2026-10-07
 URL:https://www.acml-conf.org/2026/
 LOCATION:Melbourne\, Australia
 END:VEVENT

@@ -30,6 +30,8 @@ font request, body/table fonts stay unchanged, and visible logo/title pixel
 centers align across single-line and narrow-mobile wrapped titles.
 It intentionally does not test Giscus authentication or create comments.
 Update catalog-specific expected IDs/counts when the catalog changes.
+Scope scenarios check summary-only searches and additional-topic filtering in
+both tabs and the map, while confirming tables still show only primary tags.
 
 Use the configured bundled Node/dependency runtime when available, discovered
 through the Codex workspace-dependencies tool. Alternatively supply a local
@@ -82,10 +84,12 @@ cp scripts/sync_workbook.mjs /tmp/venue-radar-tools/sync_workbook.mjs
 "$NODE_BIN" /tmp/venue-radar-tools/sync_workbook.mjs "$PWD/data/core_conferences_normalized_tags.xlsx" /tmp/venue-radar-catalog.json /tmp/venue-radar-workbook-preview
 ```
 
-Inspect both previews, error output, and re-imported values before committing.
+Inspect catalog, vocabulary, and scope previews, error output, and re-imported
+values before committing.
 The helper preserves existing series order and native table formatting, appends
 new series, and refuses unexplained removals. It updates latest-edition source
-links, ranks, rates, and vocabulary from YAML; do not manually infer missing
+links, ranks, rates, vocabulary, and the separate Conference Scope sheet from
+YAML; do not manually infer missing
 ratings. Optional runtime dependencies are not required to view/build the site.
 
 ## Publish

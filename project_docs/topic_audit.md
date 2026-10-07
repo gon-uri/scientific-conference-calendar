@@ -1,8 +1,15 @@
 # Topic And New-Series Audit
 
 Reviewed 2026-10-06. Topic assignments describe central advertised scope, not
-every paper that could conceivably be accepted. Up to four unique leaves are
-allowed. Parents are derived; a series may appear in multiple families.
+every paper that could conceivably be accepted. Up to four unique main leaves
+are displayed. Parents are derived; a series may appear in multiple families.
+
+2026-10-07 extension: 30 of 82 series now have curated detailed profiles in
+`data/conference_scopes.yml`, with at most six characteristic additional leaves
+and sourced prose. Filter/search/feed matching uses their union; display remains
+main-only. The 52 missing profiles are queued, not guessed. See
+[conference_scopes.md](conference_scopes.md). The historical counts below are
+main-topic coverage, not expanded profile matching counts.
 
 Current coverage by distinct series (not mutually exclusive): ML & AI 62;
 Data & Time Series 35; Responsible & Trustworthy AI 18; Signals & Vision 16;

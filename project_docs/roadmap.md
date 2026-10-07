@@ -59,6 +59,18 @@ Last synchronized: 2026-10-07
 - Estimated complexity: Low
 - Completion status: In Progress
 
+### Detailed Conference Scopes
+
+- Goal: Keep useful, curated series profiles beyond the four visible main
+  topics, avoiding indiscriminate import of expansive CFP inventories.
+- Completed: sourced profile schema, primary/additional matching in search,
+  filters and topic feeds, scope evidence in calendar descriptions, a separate
+  workbook sheet, and a missing/stale/prior-edition review queue.
+- Initial coverage: 30 of 82 series, including all 11 recent additions.
+- Remaining work: curate the 52 missing profiles from official sources and
+  review existing profiles about monthly. Prior-edition evidence stays dated.
+- Guidance: [conference_scopes.md](conference_scopes.md).
+
 ### Website Usability
 
 - Goal: Keep the static site easy to scan, search, filter, and subscribe to.
@@ -85,7 +97,7 @@ Last synchronized: 2026-10-07
 
 ### Repeatable Data Refresh
 
-- Goal: Keep an actionable monthly source-linked queue for edition reviews and historical acceptance evidence, plus cadence-aware next-edition projections that never imply official confirmation.
+- Goal: Keep actionable monthly source-linked queues for edition reviews, historical acceptance evidence, and curated conference scopes, plus cadence-aware next-edition projections that never imply official confirmation.
 - Priority: High
 - Dependencies: `scripts/maintenance_report.py`, `scripts/rollover_editions.py`, official organizer pages, documented review procedure.
 - Estimated complexity: Ongoing

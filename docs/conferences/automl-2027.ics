@@ -20,7 +20,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  cial 2027 schedule found. Annual meeting and main-track deadlines are pro
  jections from AutoML 2026\; location is unannounced and links refer to pr
  ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
- tasets. Size M is an editorial estimate for this specialist conference.
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -39,7 +49,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  cial 2027 schedule found. Annual meeting and main-track deadlines are pro
  jections from AutoML 2026\; location is unannounced and links refer to pr
  ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
- tasets. Size M is an editorial estimate for this specialist conference.
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
@@ -58,7 +78,17 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  027 schedule found. Annual meeting and main-track deadlines are projectio
  ns from AutoML 2026\; location is unannounced and links refer to prior ed
  itions. ABCD covers applications\, benchmarks\, challenges\, and datasets
- . Size M is an editorial estimate for this specialist conference.
+ . Size M is an editorial estimate for this specialist conference.\nScope:
+  Automating the construction and configuration of learning systems: hyper
+ parameter optimization\, Bayesian optimization\, neural architecture sear
+ ch\, model selection\, meta-learning\, and pipeline automation. Includes 
+ evolutionary and reinforcement-learning approaches\, AutoML for foundatio
+ n models\, and evaluation through applications\, benchmarks\, challenges\
+ , and datasets. Trustworthiness matters specifically in automated ML work
+ flows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Rein
+ forcement Learning\, Explainability & Interpretability\, Natural Language
+  Processing & LLMs\, Robustness & Safety\nScope sources (2026): https://2
+ 026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/
 LOCATION:To be announced
 END:VEVENT

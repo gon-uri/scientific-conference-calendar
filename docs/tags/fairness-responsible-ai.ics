@@ -53,7 +53,17 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  care & Clinical AI\, Probabilistic\, Causal & Uncertainty ML\, Fairness &
   Responsible AI\, Machine Learning\nSize: M\nSubmission type: Paper-based
  \nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official C
- HIL pages list conference dates\, location\, and submission timeline.
+ HIL pages list conference dates\, location\, and submission timeline.\nSc
+ ope: Machine learning and inference for clinical\, public\, and populatio
+ n health. Distinguishing areas include causal inference\, survival analys
+ is\, multimodal health data\, generalization across populations\, interpr
+ etability\, and clinical evaluation and deployment. Research may emphasiz
+ e methods\, practical applications\, or societal impact. Health-focused i
+ nference and evaluation remain the common thread across these tracks.\nAd
+ ditional topics: Explainability & Interpretability\, Human-AI Interaction
+  & Deployment\, Robustness & Safety\, Time Series & Sequential Data\nScop
+ e sources (2026): https://chil.ahli.cc/submit/call-for-papers/\nScope las
+ t checked: 2026-10-07
 URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -69,7 +79,16 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nSubmission type: Paper-based\nConfidence: confirmed
  \nLast checked date: 2026-08-20\nNotes: Official CHIL pages list conferen
- ce dates\, location\, and submission timeline.
+ ce dates\, location\, and submission timeline.\nScope: Machine learning a
+ nd inference for clinical\, public\, and population health. Distinguishin
+ g areas include causal inference\, survival analysis\, multimodal health 
+ data\, generalization across populations\, interpretability\, and clinica
+ l evaluation and deployment. Research may emphasize methods\, practical a
+ pplications\, or societal impact. Health-focused inference and evaluation
+  remain the common thread across these tracks.\nAdditional topics: Explai
+ nability & Interpretability\, Human-AI Interaction & Deployment\, Robustn
+ ess & Safety\, Time Series & Sequential Data\nScope sources (2026): https
+ ://chil.ahli.cc/submit/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://chil.ahli.cc/
 END:VEVENT
 BEGIN:VEVENT
@@ -86,7 +105,15 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
  -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
  6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
- nference dates and abstract/paper submission deadlines.
+ nference dates and abstract/paper submission deadlines.\nScope: Ethics an
+ d societal consequences of AI\, connecting computer science\, law and pol
+ icy\, social science\, and philosophy. Defining concerns include governan
+ ce and power\, accountability after deployment\, value alignment\, fairne
+ ss\, human-AI interaction\, and institutional practice. Technical work is
+  relevant through a serious ethical or societal contribution.\nAdditional
+  topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\nScope
+  sources (2026): https://www.aies-conference.com/2026/call-for-papers/\nS
+ cope last checked: 2026-10-07
 URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -103,7 +130,15 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
  -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
  6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
- nference dates and abstract/paper submission deadlines.
+ nference dates and abstract/paper submission deadlines.\nScope: Ethics an
+ d societal consequences of AI\, connecting computer science\, law and pol
+ icy\, social science\, and philosophy. Defining concerns include governan
+ ce and power\, accountability after deployment\, value alignment\, fairne
+ ss\, human-AI interaction\, and institutional practice. Technical work is
+  relevant through a serious ethical or societal contribution.\nAdditional
+  topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\nScope
+  sources (2026): https://www.aies-conference.com/2026/call-for-papers/\nS
+ cope last checked: 2026-10-07
 URL:https://www.aies-conference.com/2026/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -119,9 +154,44 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  obabilistic\, Causal & Uncertainty ML\, Fairness & Responsible AI\, Machi
  ne Learning\nSize: M\nSubmission type: Paper-based\nConfidence: confirmed
  \nLast checked date: 2026-08-20\nNotes: Official CHIL pages list conferen
- ce dates\, location\, and submission timeline.
+ ce dates\, location\, and submission timeline.\nScope: Machine learning a
+ nd inference for clinical\, public\, and population health. Distinguishin
+ g areas include causal inference\, survival analysis\, multimodal health 
+ data\, generalization across populations\, interpretability\, and clinica
+ l evaluation and deployment. Research may emphasize methods\, practical a
+ pplications\, or societal impact. Health-focused inference and evaluation
+  remain the common thread across these tracks.\nAdditional topics: Explai
+ nability & Interpretability\, Human-AI Interaction & Deployment\, Robustn
+ ess & Safety\, Time Series & Sequential Data\nScope sources (2026): https
+ ://chil.ahli.cc/submit/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://chil.ahli.cc/
 LOCATION:Seattle\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
+ : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
+ ference-track submission deadline.\nScope: Theory and practice of machine
+  learning\, including probabilistic methods\, representation learning\, t
+ ransfer and meta-learning\, reinforcement learning\, and learning theory.
+  Generative models\, language models\, and trustworthy learning extend th
+ is core. The broad applications list is not treated as evidence that ever
+ y application field defines the conference.\nAdditional topics: Deep Repr
+ esentation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforce
+ ment Learning\, Natural Language Processing & LLMs\, Fairness & Responsib
+ le AI\, Privacy-preserving ML\nScope sources (2026): https://www.acml-con
+ f.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-abstract@scientific-conference-calendar
@@ -173,6 +243,33 @@ DESCRIPTION:Conference title: AAAI Conference on Artificial Intelligence\nW
  date: 2026-08-20\nNotes: Official AAAI-27 pages list the conference dates
  \, OpenReview timetable\, and main technical track deadlines.
 URL:https://aaai.org/conference/aaai/aaai-27/main-technical-track-call/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260804T115900Z
+DTEND:20260804T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ ARR long and short paper submission deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
+URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-ecai-2026-conference@scientific-conference-calendar
@@ -261,7 +358,14 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -282,7 +386,14 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -299,9 +410,44 @@ DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
  ty\, Robustness & Safety\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dates a
- nd abstract/paper submission deadlines.
+ nd abstract/paper submission deadlines.\nScope: Ethics and societal conse
+ quences of AI\, connecting computer science\, law and policy\, social sci
+ ence\, and philosophy. Defining concerns include governance and power\, a
+ ccountability after deployment\, value alignment\, fairness\, human-AI in
+ teraction\, and institutional practice. Technical work is relevant throug
+ h a serious ethical or societal contribution.\nAdditional topics: Human-A
+ I Interaction & Deployment\, Privacy-preserving ML\nScope sources (2026):
+  https://www.aies-conference.com/2026/call-for-papers/\nScope last checke
+ d: 2026-10-07
 URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T115900Z
+DTEND:20261012T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ EACL commitment deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
+URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -317,7 +463,15 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -334,8 +488,43 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
+ ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
+  submission deadline.\nScope: Theory and practice of machine learning\, i
+ ncluding probabilistic methods\, representation learning\, transfer and m
+ eta-learning\, reinforcement learning\, and learning theory. Generative m
+ odels\, language models\, and trustworthy learning extend this core. The 
+ broad applications list is not treated as evidence that every application
+  field defines the conference.\nAdditional topics: Deep Representation Le
+ arning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning
+ \, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Priva
+ cy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026/ca
+ lls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-camera-ready@scientific-conference-calendar
@@ -372,7 +561,14 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -429,8 +625,41 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270204T115900Z
+DTEND:20270204T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:chil-2027-deadline-full-paper@scientific-conference-calendar
@@ -447,7 +676,16 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  e: estimated\nLast checked date: 2026-10-06\nNotes: Provisional 1-year ca
  dence projection from CHIL 2026. Meeting dates\, location\, and deadlines
   require organizer confirmation\; website and source links refer to the p
- rior edition.
+ rior edition.\nScope: Machine learning and inference for clinical\, publi
+ c\, and population health. Distinguishing areas include causal inference\
+ , survival analysis\, multimodal health data\, generalization across popu
+ lations\, interpretability\, and clinical evaluation and deployment. Rese
+ arch may emphasize methods\, practical applications\, or societal impact.
+  Health-focused inference and evaluation remain the common thread across 
+ these tracks.\nAdditional topics: Explainability & Interpretability\, Hum
+ an-AI Interaction & Deployment\, Robustness & Safety\, Time Series & Sequ
+ ential Data\nScope sources (2026): https://chil.ahli.cc/submit/call-for-p
+ apers/\nScope last checked: 2026-10-07
 URL:https://chil.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -487,6 +725,34 @@ URL:https://aaai.org/conference/aaai/aaai-27/
 LOCATION:Montreal\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:eacl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270315
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ Conference
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
+ tural Language Processing & LLMs\, Machine Learning\, Deep Representation
+  Learning\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type:
+  Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
+ te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
+  meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
+ deadlines.\nScope: Computational linguistics and natural language process
+ ing\, including language modeling\, multilingual processing\, translation
+ \, dialogue\, information extraction\, semantics\, and linguistic analysi
+ s. Human-centered evaluation\, interpretability\, and bias are relevant w
+ ithin language research. The reviewed 2027 theme strengthens connections 
+ to psycholinguistics and cognitive modeling\; peripheral application doma
+ ins are not extra tags.\nAdditional topics: Explainability & Interpretabi
+ lity\, Fairness & Responsible AI\, Cognitive Science & Computational Cogn
+ ition\nScope sources (2027): https://2027.eacl.org/calls/papers/\nScope l
+ ast checked: 2026-10-07
+URL:https://2027.eacl.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
 UID:chil-2027-deadline-doctoral-symposium@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270314T115900Z
@@ -500,7 +766,17 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  \nSize: M\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
  ked date: 2026-10-06\nNotes: Provisional 1-year cadence projection from C
  HIL 2026. Meeting dates\, location\, and deadlines require organizer conf
- irmation\; website and source links refer to the prior edition.
+ irmation\; website and source links refer to the prior edition.\nScope: M
+ achine learning and inference for clinical\, public\, and population heal
+ th. Distinguishing areas include causal inference\, survival analysis\, m
+ ultimodal health data\, generalization across populations\, interpretabil
+ ity\, and clinical evaluation and deployment. Research may emphasize meth
+ ods\, practical applications\, or societal impact. Health-focused inferen
+ ce and evaluation remain the common thread across these tracks.\nAddition
+ al topics: Explainability & Interpretability\, Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\, Time Series & Sequential Data\nScope sour
+ ces (2026): https://chil.ahli.cc/submit/call-for-papers/\nScope last chec
+ ked: 2026-10-07
 URL:https://chil.ahli.cc/
 END:VEVENT
 BEGIN:VEVENT
@@ -540,9 +816,42 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  e restricted to existing submissions and do not reopen new-paper opportun
  ities. Camera-ready is only announced as mid-February\, exact date TBC\, 
  so no exact camera-ready event is invented. Size M is an editorial estima
- te.
+ te.\nScope: Security\, safety\, and trustworthiness of machine learning. 
+ Characteristic work studies attacks and defenses\, privacy\, verification
+ \, ML-system security\, fairness\, interpretability\, and trustworthy dat
+ a curation. Theoretical\, empirical\, and applied papers must engage subs
+ tantively with a safety or trustworthiness question\; merely using an ML 
+ model is insufficient.\nAdditional topics: Machine Learning\, ML Systems 
+ & Infrastructure\nScope sources (2027): https://satml.org/call-for-papers
+ /\nScope last checked: 2026-10-07
 URL:https://satml.org/
 LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Workshop/tutorial/community proposal deadline (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:chi-2027-conference@scientific-conference-calendar
@@ -576,7 +885,15 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
 END:VEVENT
@@ -594,9 +911,46 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
  \nSize: M\nSubmission type: Paper-based\nConfidence: estimated\nLast chec
  ked date: 2026-10-06\nNotes: Provisional 1-year cadence projection from C
  HIL 2026. Meeting dates\, location\, and deadlines require organizer conf
- irmation\; website and source links refer to the prior edition.
+ irmation\; website and source links refer to the prior edition.\nScope: M
+ achine learning and inference for clinical\, public\, and population heal
+ th. Distinguishing areas include causal inference\, survival analysis\, m
+ ultimodal health data\, generalization across populations\, interpretabil
+ ity\, and clinical evaluation and deployment. Research may emphasize meth
+ ods\, practical applications\, or societal impact. Health-focused inferen
+ ce and evaluation remain the common thread across these tracks.\nAddition
+ al topics: Explainability & Interpretability\, Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\, Time Series & Sequential Data\nScope sour
+ ces (2026): https://chil.ahli.cc/submit/call-for-papers/\nScope last chec
+ ked: 2026-10-07
 URL:https://chil.ahli.cc/
 LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270703
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
+LOCATION:Tokyo\, Japan
 END:VEVENT
 BEGIN:VEVENT
 UID:ijcai-2027-conference@scientific-conference-calendar

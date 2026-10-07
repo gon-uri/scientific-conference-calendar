@@ -5,6 +5,161 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Privacy-preserving ML
 BEGIN:VEVENT
+UID:kdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260202T115900Z
+DTEND:20260202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260209T115900Z
+DTEND:20260209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Paper sub
+ mission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260515T115900Z
+DTEND:20260515T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Abstra
+ ct registration deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.\nScope: Ethics an
+ d societal consequences of AI\, connecting computer science\, law and pol
+ icy\, social science\, and philosophy. Defining concerns include governan
+ ce and power\, accountability after deployment\, value alignment\, fairne
+ ss\, human-AI interaction\, and institutional practice. Technical work is
+  relevant through a serious ethical or societal contribution.\nAdditional
+  topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\nScope
+  sources (2026): https://www.aies-conference.com/2026/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260522T115900Z
+DTEND:20260522T125900Z
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/call-for-papers/\nLocation: Malmo\, Sweden\n
+ Topics: Ethics & Governance\, Fairness & Responsible AI\, Explainability 
+ & Interpretability\, Robustness & Safety\nSize: M\nSubmission type: Paper
+ -based / interdisciplinary\nConfidence: confirmed\nLast checked date: 202
+ 6-08-20\nNotes: Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 co
+ nference dates and abstract/paper submission deadlines.\nScope: Ethics an
+ d societal consequences of AI\, connecting computer science\, law and pol
+ icy\, social science\, and philosophy. Defining concerns include governan
+ ce and power\, accountability after deployment\, value alignment\, fairne
+ ss\, human-AI interaction\, and institutional practice. Technical work is
+  relevant through a serious ethical or societal contribution.\nAdditional
+  topics: Human-AI Interaction & Deployment\, Privacy-preserving ML\nScope
+  sources (2026): https://www.aies-conference.com/2026/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://www.aies-conference.com/2026/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
+ : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
+ ference-track submission deadline.\nScope: Theory and practice of machine
+  learning\, including probabilistic methods\, representation learning\, t
+ ransfer and meta-learning\, reinforcement learning\, and learning theory.
+  Generative models\, language models\, and trustworthy learning extend th
+ is core. The broad applications list is not treated as evidence that ever
+ y application field defines the conference.\nAdditional topics: Deep Repr
+ esentation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforce
+ ment Learning\, Natural Language Processing & LLMs\, Fairness & Responsib
+ le AI\, Privacy-preserving ML\nScope sources (2026): https://www.acml-con
+ f.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260814
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://w
+ ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
+ a Science\, Machine Learning\, Time Series & Sequential Data\, Federated 
+ & Distributed Learning\nSize: XL\nSubmission type: Paper-based / mixed tr
+ acks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al SIGKDD and KDD 2026 pages list conference dates and research-track Cyc
+ le 2 deadlines.\nScope: Knowledge discovery and data science\, centered o
+ n extracting useful structure from large\, heterogeneous data. Characteri
+ stic areas include clustering\, structured and relational learning\, grap
+ h and text mining\, recommender systems\, scalable data analysis\, and re
+ sponsible data use. Generative AI is relevant when it advances data scien
+ ce\, not simply because a paper uses an LLM.\nAdditional topics: Deep Rep
+ resentation Learning\, Natural Language Processing & LLMs\, Explainabilit
+ y & Interpretability\, Privacy-preserving ML\, ML Systems & Infrastructur
+ e\nScope sources (2027): https://kdd2027.kdd.org/research-track-call-for-
+ papers/\nScope last checked: 2026-10-07
+URL:https://www.kdd.org/conferences
+LOCATION:Jeju\, Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:satml-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260923T115900Z
@@ -22,7 +177,14 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -43,8 +205,41 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:aies-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261015
+SUMMARY:[Ethics & Governance][Fairness & Responsible AI] AIES 2026 - Confer
+ ence
+DESCRIPTION:Conference title: AAAI/ACM Conference on AI\, Ethics\, and Soci
+ ety\nWebsite: https://www.aies-conference.com/2026/\nSource URL: https://
+ www.aies-conference.com/2026/\nLocation: Malmo\, Sweden\nTopics: Ethics &
+  Governance\, Fairness & Responsible AI\, Explainability & Interpretabili
+ ty\, Robustness & Safety\nSize: M\nSubmission type: Paper-based / interdi
+ sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
+ Official AIES 2026 pages list Malmo\, Oct 12-14\, 2026 conference dates a
+ nd abstract/paper submission deadlines.\nScope: Ethics and societal conse
+ quences of AI\, connecting computer science\, law and policy\, social sci
+ ence\, and philosophy. Defining concerns include governance and power\, a
+ ccountability after deployment\, value alignment\, fairness\, human-AI in
+ teraction\, and institutional practice. Technical work is relevant throug
+ h a serious ethical or societal contribution.\nAdditional topics: Human-A
+ I Interaction & Deployment\, Privacy-preserving ML\nScope sources (2026):
+  https://www.aies-conference.com/2026/call-for-papers/\nScope last checke
+ d: 2026-10-07
+URL:https://www.aies-conference.com/2026/
+LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
@@ -60,8 +255,44 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261030T200000Z
+DTEND:20261030T210000Z
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Resear
+ ch and industrial paper submission deadline
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027/CallForResearchPapers\nLocation: Bellevue\, Washington\
+ , USA\nTopics: ML Systems & Infrastructure\, Machine Learning\, Federated
+  & Distributed Learning\, Natural Language Processing & LLMs\nSize: L\nSu
+ bmission type: Paper-based / research and industrial tracks\nConfidence: 
+ confirmed\nLast checked date: 2026-10-07\nNotes: Tenth annual edition. CF
+ P explicitly specifies 20:00 UTC for Oct 10 opening and Oct 30 closing. T
+ he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
+ xplicit CFP UTC times and recheck the submission portal before the deadli
+ ne. No separate abstract prerequisite is announced. Size L is an editoria
+ l estimate.\nScope: The intersection of machine learning and computer sys
+ tems\, including efficient training\, inference and serving\, compilers a
+ nd runtimes\, programming abstractions\, specialized hardware\, distribut
+ ed learning\, and system monitoring. LLM and agentic workloads are consid
+ ered from a systems perspective. Both systems for ML and ML methods that 
+ improve computing systems are relevant.\nAdditional topics: Reinforcement
+  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
+ g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
+URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
@@ -77,8 +308,43 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
+ ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
+  submission deadline.\nScope: Theory and practice of machine learning\, i
+ ncluding probabilistic methods\, representation learning\, transfer and m
+ eta-learning\, reinforcement learning\, and learning theory. Generative m
+ odels\, language models\, and trustworthy learning extend this core. The 
+ broad applications list is not treated as evidence that every application
+  field defines the conference.\nAdditional topics: Deep Representation Le
+ arning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning
+ \, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Priva
+ cy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026/ca
+ lls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:satml-2027-deadline-notification@scientific-conference-calendar
@@ -98,7 +364,14 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -119,8 +392,97 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ed. Revisions are restricted to existing submissions and do not reopen ne
  w-paper opportunities. Camera-ready is only announced as mid-February\, e
  xact date TBC\, so no exact camera-ready event is invented. Size M is an 
- editorial estimate.
+ editorial estimate.\nScope: Security\, safety\, and trustworthiness of ma
+ chine learning. Characteristic work studies attacks and defenses\, privac
+ y\, verification\, ML-system security\, fairness\, interpretability\, and
+  trustworthy data curation. Theoretical\, empirical\, and applied papers 
+ must engage substantively with a safety or trustworthiness question\; mer
+ ely using an ML model is insufficient.\nAdditional topics: Machine Learni
+ ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
+ /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Abstract 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270204T115900Z
+DTEND:20270204T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270209T115900Z
+DTEND:20270209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:satml-2027-conference@scientific-conference-calendar
@@ -140,9 +502,42 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  e restricted to existing submissions and do not reopen new-paper opportun
  ities. Camera-ready is only announced as mid-February\, exact date TBC\, 
  so no exact camera-ready event is invented. Size M is an editorial estima
- te.
+ te.\nScope: Security\, safety\, and trustworthiness of machine learning. 
+ Characteristic work studies attacks and defenses\, privacy\, verification
+ \, ML-system security\, fairness\, interpretability\, and trustworthy dat
+ a curation. Theoretical\, empirical\, and applied papers must engage subs
+ tantively with a safety or trustworthiness question\; merely using an ML 
+ model is insufficient.\nAdditional topics: Machine Learning\, ML Systems 
+ & Infrastructure\nScope sources (2027): https://satml.org/call-for-papers
+ /\nScope last checked: 2026-10-07
 URL:https://satml.org/
 LOCATION:Reykjavik\, Iceland
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270507T115900Z
+DTEND:20270507T125900Z
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Workshop/tutorial/community proposal deadline (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-conference@scientific-conference-calendar
@@ -158,8 +553,101 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  \, Privacy-preserving ML\nSize: M\nSubmission type: Paper-based / interdi
  sciplinary\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: 
  Official FAccT 2027 call for papers lists conference dates and abstract/p
- aper submission deadlines.
+ aper submission deadlines.\nScope: Fairness\, accountability\, and transp
+ arency in computing\, combining algorithmic research with sociotechnical\
+ , legal\, philosophical\, and human-centered approaches. Characteristic c
+ ontributions include audits and evaluation practices\, governance\, human
+  experiences of systems\, and responsible development and deployment. A f
+ airness or accountability question should be substantive\, not a passing 
+ motivation for generic ML.\nAdditional topics: Human-AI Interaction & Dep
+ loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
+ nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
 LOCATION:TBD
+END:VEVENT
+BEGIN:VEVENT
+UID:mlsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270621
+DTEND;VALUE=DATE:20270626
+SUMMARY:[ML Systems & Infrastructure][Machine Learning] MLSys 2027 - Confer
+ ence
+DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
+ ebsite: https://mlsys.org/Conferences/2027\nSource URL: https://mlsys.org
+ /Conferences/2027\nLocation: Bellevue\, Washington\, USA\nTopics: ML Syst
+ ems & Infrastructure\, Machine Learning\, Federated & Distributed Learnin
+ g\, Natural Language Processing & LLMs\nSize: L\nSubmission type: Paper-b
+ ased / research and industrial tracks\nConfidence: confirmed\nLast checke
+ d date: 2026-10-07\nNotes: Tenth annual edition. CFP explicitly specifies
+  20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
+  listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
+ and recheck the submission portal before the deadline. No separate abstra
+ ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
+ e intersection of machine learning and computer systems\, including effic
+ ient training\, inference and serving\, compilers and runtimes\, programm
+ ing abstractions\, specialized hardware\, distributed learning\, and syst
+ em monitoring. LLM and agentic workloads are considered from a systems pe
+ rspective. Both systems for ML and ML methods that improve computing syst
+ ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
+ eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
+ lForResearchPapers\nScope last checked: 2026-10-07
+URL:https://mlsys.org/Conferences/2027
+LOCATION:Bellevue\, Washington\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:colt-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270628
+DTEND;VALUE=DATE:20270703
+SUMMARY:[Learning Theory & Statistical Foundations][Machine Learning] COLT 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
+ ://learningtheory.org/colt2027/\nSource URL: https://learningtheory.org/c
+ olt2027/\nLocation: Tokyo\, Japan\nTopics: Learning Theory & Statistical 
+ Foundations\, Machine Learning\nSize: M\nSubmission type: Paper-based / t
+ heory-focused\nConfidence: estimated\nLast checked date: 2026-10-05\nNote
+ s: Official COLT 2027 page confirms Tokyo and Jun 28-Jul 2\, 2027\; submi
+ ssion milestones remain estimates until the current CFP publishes them.\n
+ Scope: Theoretical foundations of learning at the intersection of compute
+ r science\, statistics\, and applied mathematics. Characteristic work stu
+ dies learnability\, sample and computational complexity\, online learning
+ \, optimization\, bandits\, and generalization. Neural-network\, causal\,
+  reinforcement-learning\, privacy\, and fairness papers belong here when 
+ the theoretical contribution is central.\nAdditional topics: Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcemen
+ t Learning\, Privacy-preserving ML\, Fairness & Responsible AI\nScope sou
+ rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
+ cked: 2026-10-07
+URL:https://learningtheory.org/colt2027/
+LOCATION:Tokyo\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270806
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
+ ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fe
+ derated & Distributed Learning\nSize: XL\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes
+ : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
+ le closed in July 2026. A February 2027 cycle is announced but exact date
+ s are still TBA\; the February abstract/paper dates here are estimated fr
+ om 2026.\nScope: Knowledge discovery and data science\, centered on extra
+ cting useful structure from large\, heterogeneous data. Characteristic ar
+ eas include clustering\, structured and relational learning\, graph and t
+ ext mining\, recommender systems\, scalable data analysis\, and responsib
+ le data use. Generative AI is relevant when it advances data science\, no
+ t simply because a paper uses an LLM.\nAdditional topics: Deep Representa
+ tion Learning\, Natural Language Processing & LLMs\, Explainability & Int
+ erpretability\, Privacy-preserving ML\, ML Systems & Infrastructure\nScop
+ e sources (2027): https://kdd2027.kdd.org/research-track-call-for-papers/
+ \nScope last checked: 2026-10-07
+URL:https://kdd2027.kdd.org/
+LOCATION:San Jose\, California\, USA
 END:VEVENT
 END:VCALENDAR

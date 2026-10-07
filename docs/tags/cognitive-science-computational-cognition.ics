@@ -6,6 +6,164 @@ METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Cognitive Science & Computational Cogn
  ition
 BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260210T115900Z
+DTEND:20260210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page paper abstract deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260213T115900Z
+DTEND:20260213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 8-page full paper submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260403T115900Z
+DTEND:20260403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - 2-page extended abstract submission deadline
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: New York\, New York\, USA\nTopics:
+  Computational Neuroscience\, Deep Representation Learning\, Neuroimaging
+  & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pro
+ ceedings + extended abstracts\nConfidence: confirmed\nLast checked date: 
+ 2026-08-31\nNotes: Official CCN 2026 pages confirm New York University\, 
+ Aug 3-6\, and the two submission-track deadlines.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260803
+DTEND;VALUE=DATE:20260807
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2026
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2026.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/\nLocation: New York\, New York\, USA\nTopics: Computational Neuro
+ science\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, M
+ achine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-08-31\nNotes: O
+ fficial CCN 2026 pages confirm New York University\, Aug 3-6\, and the tw
+ o submission-track deadlines.\nScope: Cognitive computational neuroscienc
+ e\, connecting experiments and models of brain computation with artificia
+ l intelligence. Characteristic work compares biological and artificial re
+ presentations\, models perception\, cognition and action\, studies neural
+  connectivity and dynamics\, and uses mechanistic interpretability to und
+ erstand neural-network models. The aim is understanding computation and b
+ ehavior across brains and AI systems.\nAdditional topics: Cognitive Scien
+ ce & Computational Cognition\, Explainability & Interpretability\nScope s
+ ources (2027): https://2027.ccneuro.org/\nScope last checked: 2026-10-07
+URL:https://2026.ccneuro.org/
+LOCATION:New York\, New York\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260804T115900Z
+DTEND:20260804T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ ARR long and short paper submission deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-deadline-commitment@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261012T115900Z
+DTEND:20261012T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ EACL commitment deadline
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/calls/papers/\nLocation: Athens\, Greec
+ e\nTopics: Natural Language Processing & LLMs\, Machine Learning\, Deep R
+ epresentation Learning\, Human-AI Interaction & Deployment\nSize: XL\nSub
+ mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
+ st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
+ hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
+URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270203T115900Z
@@ -22,8 +180,149 @@ DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
  found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
  ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.
+  editorial estimate.\nScope: Interdisciplinary study of cognition and the
+  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
+ euroscience\, philosophy\, anthropology\, and education. Computational mo
+ dels and experiments should illuminate cognitive processes and behavior. 
+ An AI paper belongs here through its contribution to understanding cognit
+ ion\, not solely through a predictive performance improvement.\nAdditiona
+ l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
+ missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
+  2026-10-07
 URL:https://cognitivesciencesociety.org/cogsci-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270210T115900Z
+DTEND:20270210T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page paper abstract deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.\nSc
+ ope: Cognitive computational neuroscience\, connecting experiments and mo
+ dels of brain computation with artificial intelligence. Characteristic wo
+ rk compares biological and artificial representations\, models perception
+ \, cognition and action\, studies neural connectivity and dynamics\, and 
+ uses mechanistic interpretability to understand neural-network models. Th
+ e aim is understanding computation and behavior across brains and AI syst
+ ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
+ plainability & Interpretability\nScope sources (2027): https://2027.ccneu
+ ro.org/\nScope last checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270213T115900Z
+DTEND:20270213T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 8-page full paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.\nSc
+ ope: Cognitive computational neuroscience\, connecting experiments and mo
+ dels of brain computation with artificial intelligence. Characteristic wo
+ rk compares biological and artificial representations\, models perception
+ \, cognition and action\, studies neural connectivity and dynamics\, and 
+ uses mechanistic interpretability to understand neural-network models. Th
+ e aim is understanding computation and behavior across brains and AI syst
+ ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
+ plainability & Interpretability\nScope sources (2027): https://2027.ccneu
+ ro.org/\nScope last checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:eacl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270315
+SUMMARY:[Natural Language Processing & LLMs][Machine Learning] EACL 2027 - 
+ Conference
+DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
+ ociation for Computational Linguistics\nWebsite: https://2027.eacl.org/\n
+ Source URL: https://2027.eacl.org/\nLocation: Athens\, Greece\nTopics: Na
+ tural Language Processing & LLMs\, Machine Learning\, Deep Representation
+  Learning\, Human-AI Interaction & Deployment\nSize: XL\nSubmission type:
+  Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
+ te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
+  meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
+ deadlines.\nScope: Computational linguistics and natural language process
+ ing\, including language modeling\, multilingual processing\, translation
+ \, dialogue\, information extraction\, semantics\, and linguistic analysi
+ s. Human-centered evaluation\, interpretability\, and bias are relevant w
+ ithin language research. The reviewed 2027 theme strengthens connections 
+ to psycholinguistics and cognitive modeling\; peripheral application doma
+ ins are not extra tags.\nAdditional topics: Explainability & Interpretabi
+ lity\, Fairness & Responsible AI\, Cognitive Science & Computational Cogn
+ ition\nScope sources (2027): https://2027.eacl.org/calls/papers/\nScope l
+ ast checked: 2026-10-07
+URL:https://2027.eacl.org/
+LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270403T115900Z
+DTEND:20270403T125900Z
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - 2-page extended abstract submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2026.ccneu
+ ro.org/dates-and-deadlines/\nLocation: Edinburgh\, United Kingdom\nTopics
+ : Computational Neuroscience\, Deep Representation Learning\, Neuroimagin
+ g & Brain Mapping\, Machine Learning\nSize: M\nSubmission type: Mixed: pr
+ oceedings + extended abstracts\nConfidence: estimated\nLast checked date:
+  2026-10-06\nNotes: CCN confirms Edinburgh\, Jul 26-29. Submission dates 
+ remain prior-edition timing estimates until the 2027 CFP is released.\nSc
+ ope: Cognitive computational neuroscience\, connecting experiments and mo
+ dels of brain computation with artificial intelligence. Characteristic wo
+ rk compares biological and artificial representations\, models perception
+ \, cognition and action\, studies neural connectivity and dynamics\, and 
+ uses mechanistic interpretability to understand neural-network models. Th
+ e aim is understanding computation and behavior across brains and AI syst
+ ems.\nAdditional topics: Cognitive Science & Computational Cognition\, Ex
+ plainability & Interpretability\nScope sources (2027): https://2027.ccneu
+ ro.org/\nScope last checked: 2026-10-07
+URL:https://2026.ccneuro.org/dates-and-deadlines/
+END:VEVENT
+BEGIN:VEVENT
+UID:ccn-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270726
+DTEND;VALUE=DATE:20270730
+SUMMARY:[Computational Neuroscience][Deep Representation Learning] CCN 2027
+  - Conference
+DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
+ ience\nWebsite: https://2027.ccneuro.org/\nSource URL: https://2027.ccneu
+ ro.org/\nLocation: Edinburgh\, United Kingdom\nTopics: Computational Neur
+ oscience\, Deep Representation Learning\, Neuroimaging & Brain Mapping\, 
+ Machine Learning\nSize: M\nSubmission type: Mixed: proceedings + extended
+  abstracts\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes: 
+ CCN confirms Edinburgh\, Jul 26-29. Submission dates remain prior-edition
+  timing estimates until the 2027 CFP is released.\nScope: Cognitive compu
+ tational neuroscience\, connecting experiments and models of brain comput
+ ation with artificial intelligence. Characteristic work compares biologic
+ al and artificial representations\, models perception\, cognition and act
+ ion\, studies neural connectivity and dynamics\, and uses mechanistic int
+ erpretability to understand neural-network models. The aim is understandi
+ ng computation and behavior across brains and AI systems.\nAdditional top
+ ics: Cognitive Science & Computational Cognition\, Explainability & Inter
+ pretability\nScope sources (2027): https://2027.ccneuro.org/\nScope last 
+ checked: 2026-10-07
+URL:https://2027.ccneuro.org/
+LOCATION:Edinburgh\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
 UID:cogsci-2027-conference@scientific-conference-calendar
@@ -42,7 +341,15 @@ DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
  found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
  ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.
+  editorial estimate.\nScope: Interdisciplinary study of cognition and the
+  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
+ euroscience\, philosophy\, anthropology\, and education. Computational mo
+ dels and experiments should illuminate cognitive processes and behavior. 
+ An AI paper belongs here through its contribution to understanding cognit
+ ion\, not solely through a predictive performance improvement.\nAdditiona
+ l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
+ missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
+  2026-10-07
 URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
 END:VEVENT

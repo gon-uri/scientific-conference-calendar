@@ -6,6 +6,7 @@ import argparse
 from datetime import date
 
 from validate import load_acceptance_rates, load_conferences, parse_date
+from conference_scopes import load_scopes, scope_review_queue
 
 
 def review_queue(
@@ -73,6 +74,10 @@ def main() -> int:
     print(f"\nAcceptance evidence review: {len(rate_rows)} series")
     for row in rate_rows:
         print(f"- {row}")
+    scope_rows = scope_review_queue(conferences, load_scopes(), args.as_of, args.max_age_days)
+    print(f"\nScope review: {len(scope_rows)} series")
+    for name, reason, source in scope_rows:
+        print(f"- {name}: {reason}\n  {source}")
     return 0
 
 

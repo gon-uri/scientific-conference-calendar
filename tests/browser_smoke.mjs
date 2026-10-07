@@ -209,6 +209,29 @@ try {
 
   await page.locator('#clear-filters').click();
 
+  await page.locator('#search').fill('graph kernels');
+  const logConference = page.locator('#upcoming-conferences-body [data-edition="log-2026"]');
+  assert(await logConference.isVisible(), 'Search must include the sourced scope summary');
+  assert.equal(await logConference.locator('[data-label="Topics"] .tag').count(), 4);
+  assert.equal(await page.locator('.city-marker').count(), 1, 'Scope search must also filter the map');
+  await page.locator('#tab-deadlines').click();
+  assert(await page.locator('[data-deadline-group][data-edition="log-2026"]').isVisible());
+  await page.locator('#clear-filters').click();
+  const probabilityInput = page.locator('[data-topic-family][value="probabilistic-causal-uncertainty-ml"]');
+  await probabilityInput.evaluate(input => input.closest('details').open = true);
+  await probabilityInput.check();
+  const automlDeadline = page.locator('[data-deadline-group][data-edition="automl-2027"]');
+  assert(await automlDeadline.isVisible(), 'Additional curated tags must participate in topic filtering');
+  assert.equal(await automlDeadline.locator('[data-label="Topics"] .tag').count(), 4);
+  assert(!(await automlDeadline.locator('[data-label="Topics"]').innerText()).includes('Probabilistic'));
+  await page.locator('#tab-conferences').click();
+  assert(await page.locator('#upcoming-conferences-body [data-edition="automl-2027"]').isVisible());
+  await page.locator('#clear-filters').click();
+  await probabilityInput.evaluate(input => input.closest('details').open = false);
+  await page.locator('#search').fill('bayesian optimization');
+  assert(await page.locator('#upcoming-conferences-body [data-edition="automl-2027"]').isVisible());
+  await page.locator('#clear-filters').click();
+
   await page.locator('[data-filter-group="ccf"][value="B"]').check();
   const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));

@@ -3,6 +3,7 @@ from __future__ import annotations
 from datetime import datetime, time, timedelta, timezone
 from pathlib import Path
 from typing import Any, Iterable
+from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
 from validate import (
     DATA_PATH,
@@ -103,6 +104,14 @@ def _description(conference: dict[str, Any], source_url: str, confidence: str) -
         f"Last checked date: {conference['last_checked']}",
         f"Notes: {conference.get('notes') or ''}",
     ]
+    scope = conference.get("scope")
+    if scope:
+        lines.extend([
+            f"Scope: {scope['scope_summary']}",
+            f"Additional topics: {', '.join(topic for topic in all_topics(conference) if topic not in conference.get('topics', []))}",
+            f"Scope sources ({scope['source_year']}): {', '.join(scope['scope_source_urls'])}",
+            f"Scope last checked: {scope['scope_last_checked']}",
+        ])
     return "\n".join(lines)
 
 
@@ -242,7 +251,7 @@ def _all_events(conferences: list[dict[str, Any]]) -> list[list[str]]:
 def _topic_groups(conferences: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
     groups: dict[str, dict[str, Any]] = {}
     for conference in conferences:
-        for topic in conference.get("topics", []):
+        for topic in all_topics(conference):
             slug = stable_slug(topic)
             if not slug:
                 continue
@@ -293,12 +302,16 @@ def _write_conference_feeds(
 
 
 def build_calendars(
-    data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR
+    data_path: Path = DATA_PATH, docs_dir: Path = DOCS_DIR,
+    scopes_path: Path = SCOPES_PATH,
 ) -> list[Path]:
     conferences = load_conferences(data_path)
+    scopes = load_scopes(scopes_path)
     errors = validate_conferences(conferences, load_controlled_topics())
+    errors.extend(validate_scopes(conferences, scopes, load_controlled_topics() or set()))
     if errors:
         raise ValueError("conference data is invalid; run scripts/validate.py")
+    conferences = with_scopes(conferences, scopes)
 
     docs_dir.mkdir(parents=True, exist_ok=True)
 

@@ -110,6 +110,33 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
 URL:https://mm.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260520
+DTEND;VALUE=DATE:20260521
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Regular and special-session papers (cutoff time unannounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:iconip-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260531T135900Z
@@ -160,6 +187,95 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
  filled when archival CFP data is available.
 URL:https://embc.embs.org/2026/
 LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260806T115900Z
+DTEND:20260806T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
+ t registration deadline (both tracks)
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.\nScope: Learning on graphs and geometry: graph neural networ
+ ks\, equivariant models\, graph kernels\, geometric and graph generative 
+ models\, and statistical theory for structured data. Graph signal process
+ ing\, causal graph models\, robustness\, and scalable graph-learning infr
+ astructure are meaningful extensions. A graph or geometric contribution s
+ hould remain central\, even in an application such as language or molecul
+ ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
+ Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
+  2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260808T115900Z
+DTEND:20260808T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
+  extended abstract submission deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.\nScope: Learning on graphs and geometry: graph neural networ
+ ks\, equivariant models\, graph kernels\, geometric and graph generative 
+ models\, and statistical theory for structured data. Graph signal process
+ ing\, causal graph models\, robustness\, and scalable graph-learning infr
+ astructure are meaningful extensions. A graph or geometric contribution s
+ hould remain central\, even in an application such as language or molecul
+ ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
+ Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
+  2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:nolta-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260815
+DTEND;VALUE=DATE:20260816
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
+ ced. Verify the organizer's submission portal.
+URL:https://nolta2026.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2026-conference@scientific-conference-calendar
@@ -248,6 +364,37 @@ URL:https://signalprocessingsociety.org/event-names/mlsp
 LOCATION:Atlanta\, Georgia\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:log-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261016T115900Z
+DTEND:20261016T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
+ ready deadline
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
+ on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
+ ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
+ Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
+ ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
+ 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
+  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
+ s. Proceedings papers and non-archival extended abstracts share the regis
+ tration and final submission cutoffs\, represented as one route. The TMLR
+  presentation track requires an already published paper\, so it is not a 
+ new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
+ al estimate.\nScope: Learning on graphs and geometry: graph neural networ
+ ks\, equivariant models\, graph kernels\, geometric and graph generative 
+ models\, and statistical theory for structured data. Graph signal process
+ ing\, causal graph models\, robustness\, and scalable graph-learning infr
+ astructure are meaningful extensions. A graph or geometric contribution s
+ hould remain central\, even in an application such as language or molecul
+ ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
+ Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
+  2026-10-07
+URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261027T035900Z
@@ -265,6 +412,33 @@ DESCRIPTION:Conference title: IEEE International Symposium on Biomedical Im
 URL:https://biomedicalimaging.org/2027/
 END:VEVENT
 BEGIN:VEVENT
+UID:nolta-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] NOL
+ TA 2026 - Conference
+DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
+ nd Its Applications\nWebsite: https://nolta2026.org/\nSource URL: https:/
+ /nolta2026.org/\nLocation: Grenoble\, France\nTopics: Nonlinear Dynamics 
+ & Chaos\, Complex Systems & Network Science\, Deep Representation Learnin
+ g\, Control & Robotics\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-06\nNotes: Annual IEICE NOLTA sym
+ posium\; official final extensions supersede older April/July dates. Proc
+ eedings papers\, with neural networks and deep AI explicitly in scope. De
+ adline hours use estimated end-of-day AoE. Size is an editorial category.
+ \nScope: Nonlinear theory and its applications\, centered on chaos\, bifu
+ rcations\, oscillations\, synchronization\, nonlinear circuits\, and comp
+ lex networks. Neural computation\, evolutionary algorithms\, control\, an
+ d signal processing connect to this nonlinear-systems focus. Individual a
+ pplication examples are not taken as additional specialist identities.\nA
+ dditional topics: Signal Processing\, Evolutionary Computation & Optimiza
+ tion\nScope sources (2026): https://nolta2026.org/\nScope last checked: 2
+ 026-10-07
+URL:https://nolta2026.org/
+LOCATION:Grenoble\, France
+END:VEVENT
+BEGIN:VEVENT
 UID:esann-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261118T225900Z
@@ -280,6 +454,38 @@ DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
  nNotes: Official ESANN 2027 pages confirm Bruges\, Apr 21-23\, 2027\, and
   the Nov 18\, 2026 submission deadline.
 URL:https://www.esann.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:log-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
+ nce
+DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
+ ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
+ Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
+ ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
+ istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
+  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
+ ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
+ roceedings papers and non-archival extended abstracts share the registrat
+ ion and final submission cutoffs\, represented as one route. The TMLR pre
+ sentation track requires an already published paper\, so it is not a new-
+ paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
+ stimate.\nScope: Learning on graphs and geometry: graph neural networks\,
+  equivariant models\, graph kernels\, geometric and graph generative mode
+ ls\, and statistical theory for structured data. Graph signal processing\
+ , causal graph models\, robustness\, and scalable graph-learning infrastr
+ ucture are meaningful extensions. A graph or geometric contribution shoul
+ d remain central\, even in an application such as language or molecular m
+ odeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Si
+ gnal Processing\, Robustness & Safety\, ML Systems & Infrastructure\nScop
+ e sources (2026): https://logconference.org/cfp/\nScope last checked: 202
+ 6-10-07
+URL:https://logconference.org/
+LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:iconip-2026-conference@scientific-conference-calendar
@@ -406,9 +612,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -431,9 +643,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -456,7 +674,14 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
  -page paper\, video\, and interactive demonstration. The Feb 16 update is
   not a fresh submission route. XL reflects the official description of mo
  re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
- e fields describe the main conference\, not its demonstration track.
+ e fields describe the main conference\, not its demonstration track.\nSco
+ pe: Speech science and speech technology\, linking spoken-language resear
+ ch with computational methods for speech recognition\, speech synthesis\,
+  and speech communication. Machine learning and language models are relev
+ ant through speech and spoken-language problems. The current 2027 overvie
+ w emphasizes the relationship between speech research and spoken-language
+  technologies.\nAdditional topics: \nScope sources (2027): https://inters
+ peech2027.org/\nScope last checked: 2026-10-07
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
@@ -513,8 +738,16 @@ DESCRIPTION:Conference title: IEEE International Conference on Image Proces
  timezone and opening are not announced\; 23:59 AoE is only an ordering pr
  oxy and ICS uses an all-day event. Topics reflect the continuing image-pr
  ocessing/learning scope in the prior CFP. Size XL is an editorial estimat
- e.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Ve
- rify the organizer's submission portal.
+ e.\nScope: Image and video processing across theory\, algorithms\, and im
+ aging systems. Characteristic problems include restoration\, enhancement\
+ , reconstruction\, registration\, compression\, quality assessment\, and 
+ visual analysis. Learning methods and generative models are relevant when
+  they advance image or video processing. The long list of imaging applica
+ tion domains is intentionally not converted into extra specialist-confere
+ nce tags.\nAdditional topics: \nScope sources (2026): https://2026.ieeeic
+ ip.org/topics/\nScope last checked: 2026-10-07\nOfficial deadline day\; e
+ xact cutoff hour/timezone is unannounced. Verify the organizer's submissi
+ on portal.
 URL:https://signalprocessingsociety.org/events/2027-ieee-international-conf
  erence-image-processing-icip
 END:VEVENT
@@ -629,9 +862,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -655,7 +894,14 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
  -page paper\, video\, and interactive demonstration. The Feb 16 update is
   not a fresh submission route. XL reflects the official description of mo
  re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
- e fields describe the main conference\, not its demonstration track.
+ e fields describe the main conference\, not its demonstration track.\nSco
+ pe: Speech science and speech technology\, linking spoken-language resear
+ ch with computational methods for speech recognition\, speech synthesis\,
+  and speech communication. Machine learning and language models are relev
+ ant through speech and spoken-language problems. The current 2027 overvie
+ w emphasizes the relationship between speech research and spoken-language
+  technologies.\nAdditional topics: \nScope sources (2027): https://inters
+ peech2027.org/\nScope last checked: 2026-10-07
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
@@ -747,7 +993,14 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07
 URL:https://interspeech2027.org/
 LOCATION:Sao Paulo\, Brazil
 END:VEVENT
@@ -839,7 +1092,14 @@ DESCRIPTION:Conference title: IEEE International Conference on Image Proces
  timezone and opening are not announced\; 23:59 AoE is only an ordering pr
  oxy and ICS uses an all-day event. Topics reflect the continuing image-pr
  ocessing/learning scope in the prior CFP. Size XL is an editorial estimat
- e.
+ e.\nScope: Image and video processing across theory\, algorithms\, and im
+ aging systems. Characteristic problems include restoration\, enhancement\
+ , reconstruction\, registration\, compression\, quality assessment\, and 
+ visual analysis. Learning methods and generative models are relevant when
+  they advance image or video processing. The long list of imaging applica
+ tion domains is intentionally not converted into extra specialist-confere
+ nce tags.\nAdditional topics: \nScope sources (2026): https://2026.ieeeic
+ ip.org/topics/\nScope last checked: 2026-10-07
 URL:https://2027.ieeeicip.org/
 LOCATION:Singapore
 END:VEVENT

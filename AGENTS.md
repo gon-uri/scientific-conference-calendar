@@ -21,6 +21,9 @@ code disagree, update the docs before implementing new work.
 - The calendar is intentionally static: no backend server, database, paid
   hosting, or OpenAI API dependency.
 - `data/conferences.yml` is the canonical conference data source.
+- `data/conference_scopes.yml` holds complementary, sourced series profiles.
+  Read `project_docs/conference_scopes.md` before editing them. Keep extra topics
+  characteristic and curated; never import an exhaustive CFP topics list.
 - `docs/` is reserved for generated GitHub Pages outputs: `index.html` and
   `.ics` feeds.
 - `project_docs/` contains maintained project-state documentation.

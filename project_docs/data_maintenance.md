@@ -9,6 +9,9 @@ queue lists provisional upcoming events, unannounced deadlines, old source
 checks, and series whose most recent tracked edition has passed. Each row
 includes a source page to start the review. The separate acceptance queue
 lists series with no sourced rate or a rate more than two edition years old.
+The scope queue lists missing profiles, stale scope reviews, and profiles based
+on an earlier edition. Scope review dates are independent of calendar/rate
+review dates; never refresh them without checking the actual scope sources.
 The report is advisory; it never scrapes, silently overwrites, or promotes a
 date to confirmed. Review projected dates against current official pages about
 once a month, even when a conference has an apparently plausible estimate.
@@ -91,6 +94,15 @@ to ML & AI; it does not itself prove privacy or ethics coverage. The seventh
 family represents responsible/trustworthy AI where it is central to scope.
 See `topic_audit.md` for source examples and current family coverage.
 
+For richer discovery, curate `data/conference_scopes.yml` by exact series.
+It holds zero to six characteristic additional leaves, useful scope prose,
+official URLs, evidence year, and a scope review date. A huge CFP list should
+be reduced to defining areas, not copied wholesale. Tables keep four main tags;
+search, filters, map matching, and topic feeds use the curated union. Missing
+profiles fall back to main topics and enter the review queue. Initial coverage
+is 30 of 82 series; 52 remain to review. See `conference_scopes.md` for the
+schema, editorial examples, evidence limitations, and monthly procedure.
+
 Only S, M, L, XL, XXL are allowed, displayed in that order. Prior mixed labels
 were mapped S/M to M, M/L to L, and L/XL to XL. Size remains a qualitative
 scale, not an attendance claim; revise it only with a documented basis.
@@ -108,10 +120,13 @@ only, so it cannot hide meetings from the map.
 
 YAML is authoritative; never import spreadsheet edits silently into it.
 `scripts/export_catalog.py --output catalog.json` exports each series' latest
-edition and current ranks/rates/topics. `scripts/sync_workbook.mjs` accepts the
+edition and current ranks/rates/topics, plus series scope profiles.
+`scripts/sync_workbook.mjs` accepts the
 workbook, JSON, and preview directory. It preserves native tables, existing row
 order/styles, numeric percentages, and vocabulary definitions, appends new
-series, validates values, checks formula errors, and renders both sheets.
+series, validates values, checks formula errors, and renders the catalog,
+vocabulary, and separate Conference Scope sheet. The main catalog keeps its
+four display topics; scope review dates are native formatted Excel dates.
 It refuses unexplained series removal. See development.md for the optional
 artifact-tool runtime. Re-import the saved file after editing to verify row
 counts and values. No Node or spreadsheet library is needed to build the site.
@@ -175,8 +190,8 @@ the former subjective Difficulty label or rank into a rate.
 
 ## Publish
 
-1. Synchronize the catalog workbook in `data/` when series ranks, rates, or
-   tags change. YAML remains canonical.
+1. Synchronize the catalog workbook in `data/` when series ranks, rates,
+   tags, or scope profiles change. YAML remains canonical.
 2. Run `python scripts/validate.py`, `python -m unittest discover -s tests -v`,
    and `python scripts/build_all.py`.
 3. Inspect the changed HTML and ICS outputs, especially the status of gated

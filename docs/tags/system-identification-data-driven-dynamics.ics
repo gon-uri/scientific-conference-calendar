@@ -26,6 +26,33 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2026.ieeecss.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260916T115900Z
+DTEND:20260916T125900Z
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Workshop paper submission deadline (estimated)
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/cfp.html\nLocation: Sydney\,
+  Australia\nTopics: Time Series & Sequential Data\, Machine Learning\, De
+ ep Representation Learning\, Probabilistic\, Causal & Uncertainty ML\nSiz
+ e: S\nSubmission type: Workshop / non-archival short paper\nConfidence: e
+ stimated\nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS
+  2026 workshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a
+  calendar placeholder\, not a confirmed workshop day. The Nov 6 camera-re
+ ady date is tentative and is not listed as a deadline.\nScope: Foundation
+  models for temporal systems\, centered on long-horizon and probabilistic
+  forecasting\, temporal pretraining\, generative simulation\, irregularly
+  sampled and multimodal sequences\, and state-space architectures. Reliab
+ ility is a defining theme: distribution shift\, calibrated uncertainty\, 
+ leakage-aware benchmarks\, and consistency of simulated trajectories.\nAd
+ ditional topics: System Identification & Data-driven Dynamics\, Robustnes
+ s & Safety\nScope sources (2026): https://fmts-workshop.github.io/cfp.htm
+ l\nScope last checked: 2026-10-07
+URL:https://fmts-workshop.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260918
@@ -82,9 +109,17 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
  apers\, and dissemination/discussion routes have distinct requirements\; 
  consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
- adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
- zer's submission portal.
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -164,9 +199,17 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
  apers\, and dissemination/discussion routes have distinct requirements\; 
  consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
- adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
- zer's submission portal.
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -186,8 +229,15 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  utoff hours are unannounced and represented using estimated end-of-day Ao
  E timing. Late-breaking results are a separate presentation route\, not r
  egular proceedings papers. Size is an editorial scale category\, not a ve
- rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
- one is unannounced. Verify the organizer's submission portal.
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
@@ -210,6 +260,34 @@ DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical
   category.
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:fmts-neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Time Series & Sequential Data][Machine Learning] FMTS @ NeurIPS 20
+ 26 (day TBA) - Conference (estimated)
+DESCRIPTION:Conference title: Foundation Models for Temporal Systems: From 
+ Forecasting to World Modeling\nWebsite: https://fmts-workshop.github.io/\
+ nSource URL: https://fmts-workshop.github.io/\nLocation: Sydney\, Austral
+ ia\nTopics: Time Series & Sequential Data\, Machine Learning\, Deep Repre
+ sentation Learning\, Probabilistic\, Causal & Uncertainty ML\nSize: S\nSu
+ bmission type: Workshop / non-archival short paper\nConfidence: estimated
+ \nLast checked date: 2026-10-05\nNotes: Confirmed one-day NeurIPS 2026 wo
+ rkshop. NeurIPS will assign either Dec 11 or Dec 12\; Dec 11 is a calenda
+ r placeholder\, not a confirmed workshop day. The Nov 6 camera-ready date
+  is tentative and is not listed as a deadline.\nScope: Foundation models 
+ for temporal systems\, centered on long-horizon and probabilistic forecas
+ ting\, temporal pretraining\, generative simulation\, irregularly sampled
+  and multimodal sequences\, and state-space architectures. Reliability is
+  a defining theme: distribution shift\, calibrated uncertainty\, leakage-
+ aware benchmarks\, and consistency of simulated trajectories.\nAdditional
+  topics: System Identification & Data-driven Dynamics\, Robustness & Safe
+ ty\nScope sources (2026): https://fmts-workshop.github.io/cfp.html\nScope
+  last checked: 2026-10-07
+URL:https://fmts-workshop.github.io/
+LOCATION:Sydney\, Australia
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cdc-2026-conference@scientific-conference-calendar
@@ -248,9 +326,17 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
  apers\, and dissemination/discussion routes have distinct requirements\; 
  consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
- adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
- zer's submission portal.
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -270,9 +356,17 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
  apers\, and dissemination/discussion routes have distinct requirements\; 
  consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
- adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
- zer's submission portal.
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -312,8 +406,15 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  utoff hours are unannounced and represented using estimated end-of-day Ao
  E timing. Late-breaking results are a separate presentation route\, not r
  egular proceedings papers. Size is an editorial scale category\, not a ve
- rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
- one is unannounced. Verify the organizer's submission portal.
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
@@ -352,9 +453,17 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
  0-06\nNotes: Triennial TC 1.1 symposium. Regular papers\, joint journal p
  apers\, and dissemination/discussion routes have distinct requirements\; 
  consult the call. Published deadline days are confirmed but cutoff hours 
- use estimated end-of-day AoE. Size is an editorial category.\nOfficial de
- adline day\; exact cutoff hour/timezone is unannounced. Verify the organi
- zer's submission portal.
+ use estimated end-of-day AoE. Size is an editorial category.\nScope: Syst
+ em identification and data-driven modeling for dynamical systems and cont
+ rol. Characteristic themes include nonlinear identification\, model reduc
+ tion\, identification software and benchmarks\, learning across systems\,
+  and dynamic networks. Application tracks remain grounded in identifying 
+ or learning dynamical models\, rather than becoming general-purpose domai
+ n conferences.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nScope sources (2027): https://conferences.ifac-
+ control.org/sysid2027/participate/\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
@@ -434,8 +543,15 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  utoff hours are unannounced and represented using estimated end-of-day Ao
  E timing. Late-breaking results are a separate presentation route\, not r
  egular proceedings papers. Size is an editorial scale category\, not a ve
- rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
- one is unannounced. Verify the organizer's submission portal.
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
@@ -455,8 +571,15 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  utoff hours are unannounced and represented using estimated end-of-day Ao
  E timing. Late-breaking results are a separate presentation route\, not r
  egular proceedings papers. Size is an editorial scale category\, not a ve
- rified attendance count.\nOfficial deadline day\; exact cutoff hour/timez
- one is unannounced. Verify the organizer's submission portal.
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
+  hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
@@ -515,7 +638,14 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  utoff hours are unannounced and represented using estimated end-of-day Ao
  E timing. Late-breaking results are a separate presentation route\, not r
  egular proceedings papers. Size is an editorial scale category\, not a ve
- rified attendance count.
+ rified attendance count.\nScope: The interface of learning\, dynamics\, c
+ ontrol\, and optimization for physical and dynamical systems. Emphasizes 
+ foundations and methods for data-driven control and dynamical modeling\, 
+ including theoretical\, empirical\, and applied contributions. Pure patte
+ rn recognition without a meaningful connection to dynamics or control is 
+ not the defining focus.\nAdditional topics: Learning Theory & Statistical
+  Foundations\nScope sources (2027): https://l4dc2027.control.ee.ethz.ch/h
+ ome\nScope last checked: 2026-10-07
 URL:https://l4dc2027.control.ee.ethz.ch/home
 LOCATION:Stockholm\, Sweden
 END:VEVENT
@@ -555,7 +685,15 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
   Triennial TC 1.1 symposium. Regular papers\, joint journal papers\, and 
  dissemination/discussion routes have distinct requirements\; consult the 
  call. Published deadline days are confirmed but cutoff hours use estimate
- d end-of-day AoE. Size is an editorial category.
+ d end-of-day AoE. Size is an editorial category.\nScope: System identific
+ ation and data-driven modeling for dynamical systems and control. Charact
+ eristic themes include nonlinear identification\, model reduction\, ident
+ ification software and benchmarks\, learning across systems\, and dynamic
+  networks. Application tracks remain grounded in identifying or learning 
+ dynamical models\, rather than becoming general-purpose domain conference
+ s.\nAdditional topics: Nonlinear Dynamics & Chaos\, Complex Systems & Net
+ work Science\nScope sources (2027): https://conferences.ifac-control.org/
+ sysid2027/participate/\nScope last checked: 2026-10-07
 URL:https://conferences.ifac-control.org/sysid2027/
 LOCATION:Lyon\, France
 END:VEVENT

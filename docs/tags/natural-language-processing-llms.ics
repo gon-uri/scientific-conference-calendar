@@ -5,6 +5,112 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Natural Language Processing & LLMs
 BEGIN:VEVENT
+UID:kdd-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260202T115900Z
+DTEND:20260202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Abstract 
+ submission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260209T115900Z
+DTEND:20260209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Paper sub
+ mission deadline
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: Jeju\, Korea\nT
+ opics: Data Mining & Data Science\, Machine Learning\, Time Series & Sequ
+ ential Data\, Federated & Distributed Learning\nSize: XL\nSubmission type
+ : Paper-based / mixed tracks\nConfidence: confirmed\nLast checked date: 2
+ 026-08-20\nNotes: Official SIGKDD and KDD 2026 pages list conference date
+ s and research-track Cycle 2 deadlines.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260505T115900Z
+DTEND:20260505T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Abs
+ tract submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.\nScope: Broad research in machine learning\, especially
+  deep and generative models\, statistical foundations\, optimization\, pr
+ obabilistic inference\, and learning for decision-making. Language\, visi
+ on\, and scalable ML systems are important research communities. Interdis
+ ciplinary applications should contribute insight of wider interest to the
+  machine-learning community.\nAdditional topics: Learning Theory & Statis
+ tical Foundations\, Probabilistic\, Causal & Uncertainty ML\, Reinforceme
+ nt Learning\, Natural Language Processing & LLMs\, Computer Vision & Patt
+ ern Recognition\, ML Systems & Infrastructure\nScope sources (2026): http
+ s://neurips.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-1
+ 0-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260507T115900Z
+DTEND:20260507T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Ful
+ l paper submission deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.\nScope: Broad research in machine learning\, especially
+  deep and generative models\, statistical foundations\, optimization\, pr
+ obabilistic inference\, and learning for decision-making. Language\, visi
+ on\, and scalable ML systems are important research communities. Interdis
+ ciplinary applications should contribute insight of wider interest to the
+  machine-learning community.\nAdditional topics: Learning Theory & Statis
+ tical Foundations\, Probabilistic\, Causal & Uncertainty ML\, Reinforceme
+ nt Learning\, Natural Language Processing & LLMs\, Computer Vision & Patt
+ ern Recognition\, ML Systems & Infrastructure\nScope sources (2026): http
+ s://neurips.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-1
+ 0-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:cikm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260517T115900Z
@@ -39,6 +145,59 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
 URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
+UID:neurips-2026-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260607T115900Z
+DTEND:20260607T125900Z
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Wor
+ kshop application deadline
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.\nScope: Broad research in machine learning\, especially
+  deep and generative models\, statistical foundations\, optimization\, pr
+ obabilistic inference\, and learning for decision-making. Language\, visi
+ on\, and scalable ML systems are important research communities. Interdis
+ ciplinary applications should contribute insight of wider interest to the
+  machine-learning community.\nAdditional topics: Learning Theory & Statis
+ tical Foundations\, Probabilistic\, Causal & Uncertainty ML\, Reinforceme
+ nt Learning\, Natural Language Processing & LLMs\, Computer Vision & Patt
+ ern Recognition\, ML Systems & Infrastructure\nScope sources (2026): http
+ s://neurips.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-1
+ 0-07
+URL:https://neurips.cc/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:acml-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260706T115900Z
+DTEND:20260706T125900Z
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference-track paper submission deadline
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/calls/papers/\nLocation: Melbourne\, Australia\nTopics: Machine Lear
+ ning\, Learning Theory & Statistical Foundations\, Explainability & Inter
+ pretability\, Robustness & Safety\nSize: L\nSubmission type: Paper-based 
+ / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes
+ : Official ACML 2026 pages list Melbourne\, Dec 1-4\, and the revised con
+ ference-track submission deadline.\nScope: Theory and practice of machine
+  learning\, including probabilistic methods\, representation learning\, t
+ ransfer and meta-learning\, reinforcement learning\, and learning theory.
+  Generative models\, language models\, and trustworthy learning extend th
+ is core. The broad applications list is not treated as evidence that ever
+ y application field defines the conference.\nAdditional topics: Deep Repr
+ esentation Learning\, Probabilistic\, Causal & Uncertainty ML\, Reinforce
+ ment Learning\, Natural Language Processing & LLMs\, Fairness & Responsib
+ le AI\, Privacy-preserving ML\nScope sources (2026): https://www.acml-con
+ f.org/2026/calls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:eacl-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260804T115900Z
@@ -53,8 +212,98 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
  st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
  hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
- 1 commitment deadlines.
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
 URL:https://2027.eacl.org/calls/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260809
+DTEND;VALUE=DATE:20260814
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2026 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2026.kdd.org/\nSource URL: https://w
+ ww.kdd.org/conferences\nLocation: Jeju\, Korea\nTopics: Data Mining & Dat
+ a Science\, Machine Learning\, Time Series & Sequential Data\, Federated 
+ & Distributed Learning\nSize: XL\nSubmission type: Paper-based / mixed tr
+ acks\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Offici
+ al SIGKDD and KDD 2026 pages list conference dates and research-track Cyc
+ le 2 deadlines.\nScope: Knowledge discovery and data science\, centered o
+ n extracting useful structure from large\, heterogeneous data. Characteri
+ stic areas include clustering\, structured and relational learning\, grap
+ h and text mining\, recommender systems\, scalable data analysis\, and re
+ sponsible data use. Generative AI is relevant when it advances data scien
+ ce\, not simply because a paper uses an LLM.\nAdditional topics: Deep Rep
+ resentation Learning\, Natural Language Processing & LLMs\, Explainabilit
+ y & Interpretability\, Privacy-preserving ML\, ML Systems & Infrastructur
+ e\nScope sources (2027): https://kdd2027.kdd.org/research-track-call-for-
+ papers/\nScope last checked: 2026-10-07
+URL:https://www.kdd.org/conferences
+LOCATION:Jeju\, Korea
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260919T115900Z
+DTEND:20260919T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Abstra
+ ct submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.\nScope: Learning represen
+ tations and understanding deep learning\, with an emphasis on self-superv
+ ised learning\, generative models\, transfer and meta-learning\, and the 
+ optimization and theory of learned representations. Language\, vision\, p
+ robabilistic modeling\, and reinforcement learning are substantial areas\
+ , rather than unrelated application-domain tags.\nAdditional topics: Lear
+ ning Theory & Statistical Foundations\, Probabilistic\, Causal & Uncertai
+ nty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Co
+ mputer Vision & Pattern Recognition\, ML Systems & Infrastructure\nScope 
+ sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\nScope las
+ t checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260926T115900Z
+DTEND:20260926T125900Z
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Paper 
+ submission deadline
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.\nScope: Learning represen
+ tations and understanding deep learning\, with an emphasis on self-superv
+ ised learning\, generative models\, transfer and meta-learning\, and the 
+ optimization and theory of learned representations. Language\, vision\, p
+ robabilistic modeling\, and reinforcement learning are substantial areas\
+ , rather than unrelated application-domain tags.\nAdditional topics: Lear
+ ning Theory & Statistical Foundations\, Probabilistic\, Causal & Uncertai
+ nty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Co
+ mputer Vision & Pattern Recognition\, ML Systems & Infrastructure\nScope 
+ sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\nScope las
+ t checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027
 END:VEVENT
 BEGIN:VEVENT
 UID:eacl-2027-deadline-commitment@scientific-conference-calendar
@@ -71,7 +320,16 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
  mission type: Paper-based / ACL Rolling Review\nConfidence: confirmed\nLa
  st checked date: 2026-08-31\nNotes: Official EACL 2027 pages confirm the 
  hybrid Athens meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 1
- 1 commitment deadlines.
+ 1 commitment deadlines.\nScope: Computational linguistics and natural lan
+ guage processing\, including language modeling\, multilingual processing\
+ , translation\, dialogue\, information extraction\, semantics\, and lingu
+ istic analysis. Human-centered evaluation\, interpretability\, and bias a
+ re relevant within language research. The reviewed 2027 theme strengthens
+  connections to psycholinguistics and cognitive modeling\; peripheral app
+ lication domains are not extra tags.\nAdditional topics: Explainability &
+  Interpretability\, Fairness & Responsible AI\, Cognitive Science & Compu
+ tational Cognition\nScope sources (2027): https://2027.eacl.org/calls/pap
+ ers/\nScope last checked: 2026-10-07
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
@@ -92,7 +350,14 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
  he homepage's noon PDT listing is inconsistent by one hour\; prefer the e
  xplicit CFP UTC times and recheck the submission portal before the deadli
  ne. No separate abstract prerequisite is announced. Size L is an editoria
- l estimate.
+ l estimate.\nScope: The intersection of machine learning and computer sys
+ tems\, including efficient training\, inference and serving\, compilers a
+ nd runtimes\, programming abstractions\, specialized hardware\, distribut
+ ed learning\, and system monitoring. LLM and agentic workloads are consid
+ ered from a systems perspective. Both systems for ML and ML methods that 
+ improve computing systems are relevant.\nAdditional topics: Reinforcement
+  Learning\, Privacy-preserving ML\nScope sources (2027): https://mlsys.or
+ g/Conferences/2027/CallForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027/CallForResearchPapers
 END:VEVENT
 BEGIN:VEVENT
@@ -114,6 +379,89 @@ URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:acml-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Machine Learning][Learning Theory & Statistical Foundations] ACML 
+ 2026 - Conference
+DESCRIPTION:Conference title: Asian Conference on Machine Learning\nWebsite
+ : https://www.acml-conf.org/2026/\nSource URL: https://www.acml-conf.org/
+ 2026/\nLocation: Melbourne\, Australia\nTopics: Machine Learning\, Learni
+ ng Theory & Statistical Foundations\, Explainability & Interpretability\,
+  Robustness & Safety\nSize: L\nSubmission type: Paper-based / OpenReview\
+ nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Official AC
+ ML 2026 pages list Melbourne\, Dec 1-4\, and the revised conference-track
+  submission deadline.\nScope: Theory and practice of machine learning\, i
+ ncluding probabilistic methods\, representation learning\, transfer and m
+ eta-learning\, reinforcement learning\, and learning theory. Generative m
+ odels\, language models\, and trustworthy learning extend this core. The 
+ broad applications list is not treated as evidence that every application
+  field defines the conference.\nAdditional topics: Deep Representation Le
+ arning\, Probabilistic\, Causal & Uncertainty ML\, Reinforcement Learning
+ \, Natural Language Processing & LLMs\, Fairness & Responsible AI\, Priva
+ cy-preserving ML\nScope sources (2026): https://www.acml-conf.org/2026/ca
+ lls/papers/\nScope last checked: 2026-10-07
+URL:https://www.acml-conf.org/2026/
+LOCATION:Melbourne\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:neurips-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261213
+SUMMARY:[Machine Learning][Deep Representation Learning] NeurIPS 2026 - Con
+ ference
+DESCRIPTION:Conference title: Conference on Neural Information Processing S
+ ystems\nWebsite: https://neurips.cc/Conferences/2026\nSource URL: https:/
+ /neurips.cc/Conferences/2026/Dates\nLocation: Sydney\, Australia\nTopics:
+  Machine Learning\, Deep Representation Learning\, Time Series & Sequenti
+ al Data\, Explainability & Interpretability\nSize: XXL\nSubmission type: 
+ Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes:
+  Official NeurIPS 2026 dates page lists meeting dates and main paper subm
+ ission deadlines.\nScope: Broad research in machine learning\, especially
+  deep and generative models\, statistical foundations\, optimization\, pr
+ obabilistic inference\, and learning for decision-making. Language\, visi
+ on\, and scalable ML systems are important research communities. Interdis
+ ciplinary applications should contribute insight of wider interest to the
+  machine-learning community.\nAdditional topics: Learning Theory & Statis
+ tical Foundations\, Probabilistic\, Causal & Uncertainty ML\, Reinforceme
+ nt Learning\, Natural Language Processing & LLMs\, Computer Vision & Patt
+ ern Recognition\, ML Systems & Infrastructure\nScope sources (2026): http
+ s://neurips.cc/Conferences/2026/CallForPapers\nScope last checked: 2026-1
+ 0-07
+URL:https://neurips.cc/Conferences/2026/Dates
+LOCATION:Sydney\, Australia
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Abstract 
+ submission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270203T115900Z
@@ -130,8 +478,44 @@ DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
  found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
  ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.
+  editorial estimate.\nScope: Interdisciplinary study of cognition and the
+  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
+ euroscience\, philosophy\, anthropology\, and education. Computational mo
+ dels and experiments should illuminate cognitive processes and behavior. 
+ An AI paper belongs here through its contribution to understanding cognit
+ ion\, not solely through a predictive performance improvement.\nAdditiona
+ l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
+ missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
+  2026-10-07
 URL:https://cognitivesciencesociety.org/cogsci-2026/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270209T115900Z
+DTEND:20270209T125900Z
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Paper sub
+ mission deadline (estimated)
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2026.kdd.org/research-track-call-for-papers/\nLocation: San Jose\, Cali
+ fornia\, USA\nTopics: Data Mining & Data Science\, Machine Learning\, Tim
+ e Series & Sequential Data\, Federated & Distributed Learning\nSize: XL\n
+ Submission type: Paper-based / mixed tracks\nConfidence: estimated\nLast 
+ checked date: 2026-10-06\nNotes: Official site confirms San Jose\, Aug 1-
+ 5. The first research-track cycle closed in July 2026. A February 2027 cy
+ cle is announced but exact dates are still TBA\; the February abstract/pa
+ per dates here are estimated from 2026.\nScope: Knowledge discovery and d
+ ata science\, centered on extracting useful structure from large\, hetero
+ geneous data. Characteristic areas include clustering\, structured and re
+ lational learning\, graph and text mining\, recommender systems\, scalabl
+ e data analysis\, and responsible data use. Generative AI is relevant whe
+ n it advances data science\, not simply because a paper uses an LLM.\nAdd
+ itional topics: Deep Representation Learning\, Natural Language Processin
+ g & LLMs\, Explainability & Interpretability\, Privacy-preserving ML\, ML
+  Systems & Infrastructure\nScope sources (2027): https://kdd2027.kdd.org/
+ research-track-call-for-papers/\nScope last checked: 2026-10-07
+URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-full-paper@scientific-conference-calendar
@@ -153,9 +537,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -178,9 +568,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -198,7 +594,16 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
   Paper-based / ACL Rolling Review\nConfidence: confirmed\nLast checked da
  te: 2026-08-31\nNotes: Official EACL 2027 pages confirm the hybrid Athens
   meeting\, Mar 9-14\, and the ARR Aug 3 submission and Oct 11 commitment 
- deadlines.
+ deadlines.\nScope: Computational linguistics and natural language process
+ ing\, including language modeling\, multilingual processing\, translation
+ \, dialogue\, information extraction\, semantics\, and linguistic analysi
+ s. Human-centered evaluation\, interpretability\, and bias are relevant w
+ ithin language research. The reviewed 2027 theme strengthens connections 
+ to psycholinguistics and cognitive modeling\; peripheral application doma
+ ins are not extra tags.\nAdditional topics: Explainability & Interpretabi
+ lity\, Fairness & Responsible AI\, Cognitive Science & Computational Cogn
+ ition\nScope sources (2027): https://2027.eacl.org/calls/papers/\nScope l
+ ast checked: 2026-10-07
 URL:https://2027.eacl.org/
 LOCATION:Athens\, Greece
 END:VEVENT
@@ -222,8 +627,72 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
  -page paper\, video\, and interactive demonstration. The Feb 16 update is
   not a fresh submission route. XL reflects the official description of mo
  re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
- e fields describe the main conference\, not its demonstration track.
+ e fields describe the main conference\, not its demonstration track.\nSco
+ pe: Speech science and speech technology\, linking spoken-language resear
+ ch with computational methods for speech recognition\, speech synthesis\,
+  and speech communication. Machine learning and language models are relev
+ ant through speech and spoken-language problems. The current 2027 overvie
+ w emphasizes the relationship between speech research and spoken-language
+  technologies.\nAdditional topics: \nScope sources (2027): https://inters
+ peech2027.org/\nScope last checked: 2026-10-07
 URL:https://interspeech2027.org/calls/call_show_and_tell/
+END:VEVENT
+BEGIN:VEVENT
+UID:iclr-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Deep Representation Learning][Machine Learning] ICLR 2027 - Confer
+ ence
+DESCRIPTION:Conference title: International Conference on Learning Represen
+ tations\nWebsite: https://iclr.cc/Conferences/2027\nSource URL: https://i
+ clr.cc/Conferences/2027\nLocation: San Francisco\, California\, USA\nTopi
+ cs: Deep Representation Learning\, Machine Learning\, Explainability & In
+ terpretability\, Robustness & Safety\nSize: XXL\nSubmission type: Paper-b
+ ased / OpenReview\nConfidence: confirmed\nLast checked date: 2026-08-20\n
+ Notes: Official ICLR 2027 and OpenReview pages list San Francisco\, Apr 2
+ 6-30\, 2027\, and the abstract/paper deadlines.\nScope: Learning represen
+ tations and understanding deep learning\, with an emphasis on self-superv
+ ised learning\, generative models\, transfer and meta-learning\, and the 
+ optimization and theory of learned representations. Language\, vision\, p
+ robabilistic modeling\, and reinforcement learning are substantial areas\
+ , rather than unrelated application-domain tags.\nAdditional topics: Lear
+ ning Theory & Statistical Foundations\, Probabilistic\, Causal & Uncertai
+ nty ML\, Reinforcement Learning\, Natural Language Processing & LLMs\, Co
+ mputer Vision & Pattern Recognition\, ML Systems & Infrastructure\nScope 
+ sources (2027): https://iclr.cc/Conferences/2027/CallForPapers\nScope las
+ t checked: 2026-10-07
+URL:https://iclr.cc/Conferences/2027
+LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270515T115900Z
+DTEND:20270515T125900Z
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Methods and ABCD paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/dates/\nLocation: To be announced\nTopics: Machine Learning\, Evol
+ utionary Computation & Optimization\, Deep Representation Learning\, Lear
+ ning Theory & Statistical Foundations\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: No offi
+ cial 2027 schedule found. Annual meeting and main-track deadlines are pro
+ jections from AutoML 2026\; location is unannounced and links refer to pr
+ ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://2026.automl.cc/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-deadline-camera-ready@scientific-conference-calendar
@@ -245,9 +714,15 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.\nOfficial deadline day\; exac
- t cutoff hour/timezone is unannounced. Verify the organizer's submission 
- portal.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezone
+  is unannounced. Verify the organizer's submission portal.
 URL:https://interspeech2027.org/
 END:VEVENT
 BEGIN:VEVENT
@@ -271,7 +746,14 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
  -page paper\, video\, and interactive demonstration. The Feb 16 update is
   not a fresh submission route. XL reflects the official description of mo
  re than 2\,000 annual attendees\; the ICORE rank and historical acceptanc
- e fields describe the main conference\, not its demonstration track.
+ e fields describe the main conference\, not its demonstration track.\nSco
+ pe: Speech science and speech technology\, linking spoken-language resear
+ ch with computational methods for speech recognition\, speech synthesis\,
+  and speech communication. Machine learning and language models are relev
+ ant through speech and spoken-language problems. The current 2027 overvie
+ w emphasizes the relationship between speech research and spoken-language
+  technologies.\nAdditional topics: \nScope sources (2027): https://inters
+ peech2027.org/\nScope last checked: 2026-10-07
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
@@ -291,7 +773,15 @@ DESCRIPTION:Conference title: Conference on Machine Learning and Systems\nW
   20:00 UTC for Oct 10 opening and Oct 30 closing. The homepage's noon PDT
   listing is inconsistent by one hour\; prefer the explicit CFP UTC times 
  and recheck the submission portal before the deadline. No separate abstra
- ct prerequisite is announced. Size L is an editorial estimate.
+ ct prerequisite is announced. Size L is an editorial estimate.\nScope: Th
+ e intersection of machine learning and computer systems\, including effic
+ ient training\, inference and serving\, compilers and runtimes\, programm
+ ing abstractions\, specialized hardware\, distributed learning\, and syst
+ em monitoring. LLM and agentic workloads are considered from a systems pe
+ rspective. Both systems for ML and ML methods that improve computing syst
+ ems are relevant.\nAdditional topics: Reinforcement Learning\, Privacy-pr
+ eserving ML\nScope sources (2027): https://mlsys.org/Conferences/2027/Cal
+ lForResearchPapers\nScope last checked: 2026-10-07
 URL:https://mlsys.org/Conferences/2027
 LOCATION:Bellevue\, Washington\, USA
 END:VEVENT
@@ -312,9 +802,75 @@ DESCRIPTION:Conference title: Annual Meeting of the Cognitive Science Socie
  , Euskalduna Convention Centre\, Jul 28-31. No 2027 submission timetable 
  found. The paper deadline is a Feb 2 proxy from the prior annual meeting\
  ; the cutoff hour and submission tracks need reconfirmation. Size L is an
-  editorial estimate.
+  editorial estimate.\nScope: Interdisciplinary study of cognition and the
+  mind\, connecting psychology\, linguistics\, artificial intelligence\, n
+ euroscience\, philosophy\, anthropology\, and education. Computational mo
+ dels and experiments should illuminate cognitive processes and behavior. 
+ An AI paper belongs here through its contribution to understanding cognit
+ ion\, not solely through a predictive performance improvement.\nAdditiona
+ l topics: \nScope sources (2026): https://cognitivesciencesociety.org/sub
+ missions-faq/\, https://cognitivesciencesociety.org/\nScope last checked:
+  2026-10-07
 URL:https://cognitivesciencesociety.org/cogsci-2027/
 LOCATION:Bilbao\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270731T115900Z
+DTEND:20270731T125900Z
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Camera-ready deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/dates/\nLocation: To be announced\nTopics: Machine Learning\, Evol
+ utionary Computation & Optimization\, Deep Representation Learning\, Lear
+ ning Theory & Statistical Foundations\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: No offi
+ cial 2027 schedule found. Annual meeting and main-track deadlines are pro
+ jections from AutoML 2026\; location is unannounced and links refer to pr
+ ior editions. ABCD covers applications\, benchmarks\, challenges\, and da
+ tasets. Size M is an editorial estimate for this specialist conference.\n
+ Scope: Automating the construction and configuration of learning systems:
+  hyperparameter optimization\, Bayesian optimization\, neural architectur
+ e search\, model selection\, meta-learning\, and pipeline automation. Inc
+ ludes evolutionary and reinforcement-learning approaches\, AutoML for fou
+ ndation models\, and evaluation through applications\, benchmarks\, chall
+ enges\, and datasets. Trustworthiness matters specifically in automated M
+ L workflows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
+ , Reinforcement Learning\, Explainability & Interpretability\, Natural La
+ nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
+ ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:kdd-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270801
+DTEND;VALUE=DATE:20270806
+SUMMARY:[Data Mining & Data Science][Machine Learning] KDD 2027 - Conferenc
+ e
+DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery 
+ and Data Mining\nWebsite: https://kdd2027.kdd.org/\nSource URL: https://k
+ dd2027.kdd.org/\nLocation: San Jose\, California\, USA\nTopics: Data Mini
+ ng & Data Science\, Machine Learning\, Time Series & Sequential Data\, Fe
+ derated & Distributed Learning\nSize: XL\nSubmission type: Paper-based / 
+ mixed tracks\nConfidence: confirmed\nLast checked date: 2026-10-06\nNotes
+ : Official site confirms San Jose\, Aug 1-5. The first research-track cyc
+ le closed in July 2026. A February 2027 cycle is announced but exact date
+ s are still TBA\; the February abstract/paper dates here are estimated fr
+ om 2026.\nScope: Knowledge discovery and data science\, centered on extra
+ cting useful structure from large\, heterogeneous data. Characteristic ar
+ eas include clustering\, structured and relational learning\, graph and t
+ ext mining\, recommender systems\, scalable data analysis\, and responsib
+ le data use. Generative AI is relevant when it advances data science\, no
+ t simply because a paper uses an LLM.\nAdditional topics: Deep Representa
+ tion Learning\, Natural Language Processing & LLMs\, Explainability & Int
+ erpretability\, Privacy-preserving ML\, ML Systems & Infrastructure\nScop
+ e sources (2027): https://kdd2027.kdd.org/research-track-call-for-papers/
+ \nScope last checked: 2026-10-07
+URL:https://kdd2027.kdd.org/
+LOCATION:San Jose\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:interspeech-2027-conference@scientific-conference-calendar
@@ -335,8 +891,45 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
   interactive demonstration. The Feb 16 update is not a fresh submission r
  oute. XL reflects the official description of more than 2\,000 annual att
  endees\; the ICORE rank and historical acceptance fields describe the mai
- n conference\, not its demonstration track.
+ n conference\, not its demonstration track.\nScope: Speech science and sp
+ eech technology\, linking spoken-language research with computational met
+ hods for speech recognition\, speech synthesis\, and speech communication
+ . Machine learning and language models are relevant through speech and sp
+ oken-language problems. The current 2027 overview emphasizes the relation
+ ship between speech research and spoken-language technologies.\nAdditiona
+ l topics: \nScope sources (2027): https://interspeech2027.org/\nScope las
+ t checked: 2026-10-07
 URL:https://interspeech2027.org/
 LOCATION:Sao Paulo\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:automl-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270928
+DTEND;VALUE=DATE:20271002
+SUMMARY:[Machine Learning][Evolutionary Computation & Optimization] AutoML 
+ 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Automated Machine
+  Learning\nWebsite: https://2026.automl.cc/\nSource URL: https://2026.aut
+ oml.cc/\nLocation: To be announced\nTopics: Machine Learning\, Evolutiona
+ ry Computation & Optimization\, Deep Representation Learning\, Learning T
+ heory & Statistical Foundations\nSize: M\nSubmission type: Paper-based\nC
+ onfidence: estimated\nLast checked date: 2026-10-07\nNotes: No official 2
+ 027 schedule found. Annual meeting and main-track deadlines are projectio
+ ns from AutoML 2026\; location is unannounced and links refer to prior ed
+ itions. ABCD covers applications\, benchmarks\, challenges\, and datasets
+ . Size M is an editorial estimate for this specialist conference.\nScope:
+  Automating the construction and configuration of learning systems: hyper
+ parameter optimization\, Bayesian optimization\, neural architecture sear
+ ch\, model selection\, meta-learning\, and pipeline automation. Includes 
+ evolutionary and reinforcement-learning approaches\, AutoML for foundatio
+ n models\, and evaluation through applications\, benchmarks\, challenges\
+ , and datasets. Trustworthiness matters specifically in automated ML work
+ flows.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Rein
+ forcement Learning\, Explainability & Interpretability\, Natural Language
+  Processing & LLMs\, Robustness & Safety\nScope sources (2026): https://2
+ 026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
+URL:https://2026.automl.cc/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR
