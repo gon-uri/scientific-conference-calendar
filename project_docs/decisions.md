@@ -126,6 +126,9 @@ Last synchronized: 2026-10-07
 ## ADR-016: Order Milestones Chronologically And Separate Past Editions
 
 - Date: 2026-10-06
+- Status: Countdown, summary selection, opportunity labels and eligible-row
+  ordering superseded by ADR-032. Past-edition separation and chronological
+  schedule fallback for closed rows remain in effect.
 - Context: A closed paper route may still have a future camera-ready date, while another conference has a later paper deadline. Submission status and time ordering need to answer different questions.
 - Decision: Order deadline-table rows by the next future milestone, including the conference start. Show submission status independently as Open, Upcoming, Upcoming (estimated), Closed to new submissions, or Deadline unannounced. Remove the redundant Confidence column and label estimated dates in the milestone itself. Keep the expanded deadline list for details. Move ongoing and past meetings into a separate conferences table.
 - Alternatives considered: Sort by only actionable paper deadlines; hide all rows with closed submissions; keep a Confidence column and a separate countdown.
@@ -389,3 +392,31 @@ Last synchronized: 2026-10-07
   57-candidate gap is now 42 added / 15 deferred, with ICWM separate. Deferred
   does not mean all venues are minor. Sources, workbook, tests and publication
   documentation remain synchronized; event UIDs and old date fields are stable.
+
+## ADR-032: Align Submission Status, Countdown And Required Author Action
+
+- Date: 2026-10-07
+- Context: AAMAS 2027's closed main-track paper cutoff was counting down while
+  status referred to its independent Blue Sky track; MLSys 2027 counted down to
+  its portal opening rather than paper submission. Missing opening evidence
+  also incorrectly suggested a known future opening.
+- Decision: Define eligibility by enabling a new research contribution. Select
+  the earliest required action of the next eligible route, including mandatory
+  abstract/registration gates, and use that same track/action for countdown,
+  collapsed milestone and eligible-row ordering. An expired mandatory gate
+  closes the route to fresh submissions. Keep all other schedule milestones
+  expanded, including organizer proposals, openings and camera-ready dates.
+- Evidence and colors: confirmed routes are Open with recorded opening evidence,
+  Scheduled submission with an explicit future opening, or Submission opportunity
+  when opening is unverified. All three are green. Submission opportunity
+  (estimated) is yellow, Closed to new submissions red, Deadline unannounced
+  grey. Estimated prerequisites or terminal deadlines make the route estimated;
+  no inferred opening becomes Open. Status explains the evidence in a tooltip.
+- Closed rows: Time left says Closed, not time until a production deadline.
+  Retain the next future schedule milestone as their summary and sorting key
+  when showing all conferences; do not force closed rows to the bottom.
+  Unannounced rows use a dash instead of a non-submission countdown.
+- Consequences: AAMAS on Oct 7 targets Nov 5's mandatory Blue Sky abstract
+  deadline, with opening-unverified status. MLSys targets Oct 30 and switches
+  from Scheduled to Open at its published Oct 10 20:00 UTC opening. Existing
+  dates, expanded schedules, YAML schema and all calendar feeds remain unchanged.

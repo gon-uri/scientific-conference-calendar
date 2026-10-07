@@ -44,13 +44,30 @@ Use edition-level `confidence` for meeting dates and deadline-level
 `confidence: "estimated"` when only a submission date is inferred. Set
 `opens_at` only when a source publishes an opening time. Use
 `open_observed_on: "YYYY-MM-DD"` only after checking a live submission portal;
-review it again as part of the next monthly pass. Without either signal the
-site says Upcoming, not Open, even when the deadline is in the future.
-The submission-opportunities checkbox includes confirmed upcoming and
-estimated future routes, but excludes editions closed to new submissions.
-The next milestone includes the conference start; after that date an edition
-moves to the separate ongoing/past table. For each estimate replaced by an
-official date, update the source URL, `last_checked`, confidence, and notes,
+review it again as part of the next monthly pass. For confirmed routes, a
+published future opening produces Scheduled submission; an opening that has
+occurred or an observed live portal produces Open. A confirmed future deadline
+without opening evidence produces Submission opportunity, not a claim that
+submissions are open or have not opened yet. These three states are green.
+Estimated route timing or eligibility stays yellow as Submission opportunity
+(estimated), even if a projected opening has passed. Closed to new submissions
+is red; Deadline unannounced is grey.
+
+The submission-opportunities checkbox includes all four eligible states, but
+excludes closed and unannounced routes. Relevance means an event enables a new
+research contribution: paper, abstract, poster, resource, journal-linked and
+actual workshop-paper submissions qualify; organizer proposals and production
+steps do not. Do not remove those other milestones from the expanded schedule.
+
+Time left and the collapsed Next milestone target the same earliest required
+action on an eligible route: its mandatory abstract/registration gate first,
+otherwise its contribution deadline. Opening dates never drive this countdown.
+A passed mandatory gate closes the route for fresh submissions even before its
+paper deadline. Closed rows say Closed in Time left and retain the next schedule
+milestone for chronological placement and details; unannounced rows show no
+submission countdown. Conference start remains a schedule milestone; after that
+date an edition moves to the separate ongoing/past table. For each estimate
+replaced by an official date, update the source URL, `last_checked`, confidence, and notes,
 then inspect the generated site and feeds before publishing.
 
 When the official deadline day is known but its cutoff hour/timezone is not,
@@ -82,8 +99,10 @@ For the 2026-10-07 additions, prioritize AutoML/ProbML 2027 announcements,
 GECCO/CogSci 2027 submission schedules, ICIP/Interspeech exact main-paper
 cutoffs, and MLSys's inconsistent homepage/CFP time conversion. AAMAS Blue Sky
 Ideas has an independent abstract gate; do not let its opportunity imply the
-main track accepts unregistered papers. Do not infer rates from accepted-only
-lists or substitute a historical ICORE/CORE rank for the current release.
+main track accepts unregistered papers. Its author-registration date appears
+only in a note and is not verified opening evidence: do not promote it to
+`opens_at` without checking the actual submission step. Do not infer rates from
+accepted-only lists or substitute a historical ICORE/CORE rank for the current release.
 
 Assign up to four unique, central leaves from `data/topics.yml`. Prefer the
 organizer's core CFP/scope over incidental applications; do not force four.

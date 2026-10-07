@@ -96,11 +96,15 @@ Last synchronized: 2026-10-07
 
 ### Submission Opportunities And Acceptance Evidence
 
-- Goal: Show whether a new paper can still be submitted, with prerequisite gates, an opportunities filter that includes future and estimated routes, historical acceptance bands, and a source-linked percentage when available.
+- Goal: Show whether a new research contribution can still be submitted, align countdown and collapsed track/action with prerequisite gates, distinguish evidenced opening from confirmed opening-unverified opportunities, and retain historical acceptance bands and source-linked percentages when available.
 - Priority: High
 - Dependencies: `gate_for` deadline metadata, historical rate evidence, site generation, validation, browser checks.
 - Estimated complexity: Medium
 - Completion status: Completed for current catalog; rate coverage expands only as reliable sources are found.
+- Completed correction: green Open/Scheduled/Submission opportunity states,
+  yellow estimates, red closed routes, submission-action countdowns and Closed
+  time-left labels. Expanded schedules and chronological closed-row placement
+  remain available; AAMAS/MLSys transitions are covered by browser regressions.
 
 ### Repeatable Data Refresh
 

@@ -32,6 +32,10 @@ It intentionally does not test Giscus authentication or create comments.
 Update catalog-specific expected IDs/counts when the catalog changes.
 Scope scenarios check summary-only searches and additional-topic filtering in
 both tabs and the map, while confirming tables still show only primary tags.
+The imported submission_behavior.mjs suite checks real AAMAS/MLSys transitions
+and focused route fixtures: unknown versus scheduled opening, mandatory gates,
+estimated evidence, actual contributions versus organizer/production steps,
+matching countdown/summary and chronological closed-row placement.
 
 Use the configured bundled Node/dependency runtime when available, discovered
 through the Codex workspace-dependencies tool. Alternatively supply a local
@@ -42,7 +46,7 @@ pointing to the configured dependency directory avoids adding app dependencies:
 ```sh
 mkdir -p /tmp/venue-radar-tools
 ln -s "$NODE_DEPENDENCIES" /tmp/venue-radar-tools/node_modules
-cp tests/browser_smoke.mjs /tmp/venue-radar-tools/browser_smoke.mjs
+cp tests/browser_smoke.mjs tests/submission_behavior.mjs /tmp/venue-radar-tools/
 CHROME_BIN="$CHROME_BIN" SCREENSHOT_DIR=/tmp/venue-radar-previews "$NODE_BIN" /tmp/venue-radar-tools/browser_smoke.mjs "file://$PWD/docs/index.html"
 ```
 

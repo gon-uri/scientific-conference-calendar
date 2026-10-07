@@ -972,7 +972,7 @@ def build_site(
       line-height: 1.3;
     }}
     .status-open {{ background: #d8efdd; color: #155b2d; }}
-    .status-upcoming {{ background: #eaf5e8; color: #3d7044; }}
+    .status-scheduled, .status-opportunity {{ background: #eaf5e8; color: #3d7044; }}
     .status-estimated {{ background: #fff3d7; color: #765321; }}
     .status-closed, .status-ongoing {{ background: #f4e9e9; color: #8a3e42; }}
     .status-past {{ background: #eef1f4; color: #52606f; }}
@@ -1368,7 +1368,7 @@ def build_site(
       const matchesIcore = matchesGroup(row, "icore", selectedIcore);
       const matchesCcf = matchesGroup(row, "ccf", selectedCcf);
       const matchesAcceptance = matchesGroup(row, "acceptance", selectedAcceptance);
-      const matchesOpen = !row.hasAttribute("data-deadline-group") || !openOnly.checked || ["open", "upcoming", "estimated"].includes(stateByRow.get(row)?.kind);
+      const matchesOpen = !row.hasAttribute("data-deadline-group") || !openOnly.checked || ["open", "scheduled", "opportunity", "estimated"].includes(stateByRow.get(row)?.kind);
       return matchesSearch && matchesTopic && matchesSize && matchesIcore && matchesCcf && matchesAcceptance && matchesOpen;
     }}
 
@@ -1415,7 +1415,8 @@ def build_site(
         type: "conference_start", time: start,
         estimated: ["estimated", "not_yet_announced", "stale"].includes(row.dataset.confidence),
       }});
-      const milestone = milestones.filter((item) => item.time > now)
+      // Closed and unannounced routes retain a chronological schedule fallback.
+      const scheduleMilestone = milestones.filter((item) => item.time > now)
         .sort((a, b) => a.time - b.time)[0] || null;
       const submissions = details.filter((deadline) =>
         submissionTypes.has(deadline.type) && !deadline.gate_for
@@ -1425,27 +1426,38 @@ def build_site(
         const gates = details.filter((item) => item.gate_for === deadline.type);
         if (gates.some((gate) => gate.time <= now)) return [];
         const action = gates.sort((a, b) => a.time - b.time)[0] || deadline;
-        return [{{ action, route: deadline.type, estimated: action.estimated || deadline.estimated }}];
+        return [{{
+          action,
+          estimated: deadline.estimated || gates.some((gate) => gate.estimated),
+        }}];
       }}).sort((a, b) => a.action.time - b.action.time);
       const next = opportunities[0];
       if (next) {{
         const estimated = next.estimated;
-        const open = (next.action.opens_at && Date.parse(next.action.opens_at) <= now) ||
-          (next.action.open_observed_on && Date.parse(`${{next.action.open_observed_on}}T00:00:00Z`) <= now);
+        const opensAt = Date.parse(next.action.opens_at);
+        const scheduled = opensAt > now;
+        const open = !scheduled && (opensAt <= now ||
+          (next.action.open_observed_on && Date.parse(`${{next.action.open_observed_on}}T00:00:00Z`) <= now));
+        const action = {{ ...next.action, estimated }};
         return {{
-          kind: estimated ? "estimated" : open ? "open" : "upcoming",
-          label: estimated ? "Upcoming submission (estimated)"
-            : open ? openLabel(next.action.type) : "Upcoming submission",
-          milestone,
+          kind: estimated ? "estimated" : open ? "open" : scheduled ? "scheduled" : "opportunity",
+          label: estimated ? "Submission opportunity (estimated)"
+            : open ? openLabel(action.type) : scheduled ? "Scheduled submission" : "Submission opportunity",
+          description: estimated ? "Submission timing or eligibility is estimated; check the organizer's call."
+            : open ? "Opening evidence is recorded for this submission step."
+            : scheduled ? `This submission step opens ${{new Date(opensAt).toISOString()}}; the countdown targets its deadline.`
+            : "A submission deadline is confirmed, but opening information has not been verified.",
+          action,
+          milestone: action,
         }};
       }}
       if (submissions.length === 0) {{
-        return {{ kind: "unknown", label: "Deadline unannounced", milestone }};
+        return {{ kind: "unknown", label: "Deadline unannounced", milestone: scheduleMilestone }};
       }}
       return {{
         kind: "closed",
         label: "Closed to new submissions",
-        milestone,
+        milestone: scheduleMilestone,
       }};
     }}
 
@@ -1454,6 +1466,7 @@ def build_site(
       if (!label) return;
       label.textContent = state.label;
       label.className = `submission-status status-${{state.kind}}`;
+      label.title = state.description || "";
     }}
 
     function renderDeadlineGroups(now) {{
@@ -1473,11 +1486,11 @@ def build_site(
         group.hidden = !groupMatches || !state.milestone || state.kind === "past";
         group.classList.toggle("is-expanded", expanded);
         const timeLeft = group.querySelector("[data-time-left]");
-        timeLeft.textContent = state.milestone
-          ? `${{state.milestone.estimated || state.milestone.approximate_time ? "~" : ""}}${{formatRemaining(state.milestone.time, now)}}`
+        timeLeft.textContent = state.kind === "closed" ? "Closed" : state.action
+          ? `${{state.action.estimated || state.action.approximate_time ? "~" : ""}}${{formatRemaining(state.action.time, now)}}`
           : "\u2014";
         group.querySelector("[data-time-estimate]").hidden =
-          !(state.milestone?.approximate_time && !state.milestone.estimated);
+          !(state.action?.approximate_time && !state.action.estimated);
         details.forEach((detail) => {{
           detail.hidden = !(expanded || detail === summaryDetail);
           const passed = Date.parse(detail.querySelector("time").dateTime) <= now;

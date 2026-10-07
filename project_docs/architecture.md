@@ -116,12 +116,26 @@ and browser smoke tests use optional maintainer tooling, not runtime dependencie
 
 Date-only official deadlines use `time_precision: date`: a known day does not
 become a falsely exact hour. The site shows `(time est.)` beneath Time left only
-when the selected next milestone has a confirmed day but an unknown cutoff
-hour. The label updates with the next milestone; expanded dates retain an
+when the selected submission action has a confirmed day but an unknown cutoff
+hour. The label updates with that action; expanded dates retain an
 explanatory tooltip without repeating the time-only comment. Estimated dates
 still carry `(est.)` beside the milestone date. ICS exports an all-day deadline.
 Stable UID keys are unchanged. Rollover now also supports explicitly configured
 triennial series.
+
+Submission status, Time left, and the collapsed Next milestone share one
+eligible route and its next required author action. Mandatory abstract or
+registration gates take precedence over the paper cutoff; any expired gate
+closes that route to fresh submissions. Actual research contributions qualify,
+including workshop papers; organizer proposals, opening dates, commitments,
+notifications and production deadlines remain expanded schedule details only.
+Known opening evidence gives Open or Scheduled submission; a confirmed deadline
+with unknown opening gives Submission opportunity. All three are green, inferred
+routes yellow, closed routes red and unannounced deadlines grey. The client
+re-evaluates every minute, switching a scheduled route to Open at `opens_at`.
+Eligible rows sort by their selected author-action deadline. Closed/unannounced
+rows retain their next schedule milestone for placement/summary, but Time left
+is Closed/a dash respectively. No backend or new calendar metadata is required.
 
 ## System Diagram
 
@@ -201,7 +215,7 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 - `scripts/validate.py`: Loads YAML data, parses dates, validates required fields, controlled values, topics, source URLs, deadline gates, deadline uniqueness, rank mappings, and acceptance evidence.
 - `scripts/build_ics.py`: Converts valid conference records into standards-oriented VCALENDAR output with deterministic UIDs, escaped text, folded lines, and stable ordering.
-- `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, milestone-ordered deadlines, submission-opportunity status, a future/past conference split, source links, and downloads.
+- `scripts/build_site.py`: Converts valid conference records, metadata, series ranks, and historical rates into a standalone `docs/index.html` page with filters, submission-action countdowns and closed-row schedule fallbacks, submission-opportunity status, a future/past conference split, source links, and downloads.
 - `scripts/rollover_editions.py`: Adds missing next editions for explicitly configured recurring series, including annual, biennial, and triennial patterns, without replacing existing records; copied timing remains estimated until checked.
 - `scripts/build_all.py`: Runs validation once, then invokes both builders and prints generated paths.
 
@@ -263,7 +277,7 @@ The project currently uses procedural Python functions and built-in data structu
   need not fill either count. Individual subtopics and leaf feeds use the union;
   whole-family filters use central identities. Display stays primary-only.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
-- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-ccf`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. Missing ranks match the corresponding Unranked option; workshops do not inherit scores. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
+- Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-ccf`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. Missing ranks match the corresponding Unranked option; workshops do not inherit scores. The selected author action drives eligible countdowns and collapsed summaries; other schedule milestones, including conference start, remain expanded and provide closed-row placement. The opportunities filter retains open, scheduled, opening-unverified confirmed, and estimated submission routes, excluding closed/unannounced ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
 
 ## Design Rationale
 

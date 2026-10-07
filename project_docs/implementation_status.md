@@ -32,6 +32,14 @@ Last synchronized: 2026-10-07
   explanatory date tooltips, and estimated-date labels are unchanged.
   Match and Clear filters share one vertically aligned footer row.
   Open submission statuses retain bold green styling without a leading dot.
+  Submission countdowns now match the collapsed track and required author
+  action, using mandatory abstract/registration gates before paper cutoffs.
+  Confirmed Open, Scheduled submission and opening-unverified Submission
+  opportunity are green; estimated opportunities are yellow, closed routes red,
+  and unannounced deadlines grey. Closed rows say Closed in Time left and keep
+  chronological schedule placement when showing all. Expanded schedules retain
+  organizer proposals, opening dates and production deadlines without treating
+  them as fresh-submission countdown targets. See ADR-032.
   Topics are narrower; linked ranking headings and CCF scores open official
   webpages. The larger identity, top-right calendar action, and contrasting
   selected tab make navigation clearer. Header sizing is now 42px title / 82px
@@ -146,11 +154,15 @@ Last synchronized: 2026-10-07
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
+- Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
 - Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 68 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
+- Submission regression checks: `tests/submission_behavior.mjs`, called by the
+  browser smoke, verifies AAMAS/MLSys countdown/status transitions, mandatory
+  gates, organizer versus workshop-paper relevance, estimated evidence,
+  retained schedule details, Closed time-left labels and interleaved row ordering.
 
 ### Topic Taxonomy and Metadata
 

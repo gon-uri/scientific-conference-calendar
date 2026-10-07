@@ -1,5 +1,35 @@
 # Session Log
 
+## 2026-10-07 (submission-focused countdown and honest opening states)
+
+- Objective: Align submission status, Time left and the collapsed track/action,
+  preserving the full schedule and chronological placement of closed editions.
+- Implemented: the earliest required contribution action drives eligible rows,
+  including mandatory abstract/registration gates. Organizer proposals, portal
+  openings, commitments, notifications and production steps remain expanded
+  details, not fresh-submission countdown targets. Actual workshop papers and
+  other research-contribution routes remain eligible.
+- Status: evidenced Open, explicit future Scheduled submission and confirmed
+  opening-unverified Submission opportunity are green. Inferred timing or
+  eligibility remains yellow; Closed to new submissions is red; Deadline
+  unannounced is grey. Tooltips explain opening evidence; a scheduled route
+  becomes Open at its stored opening time. No author-registration note is
+  promoted to opening evidence without verification.
+- Examples: AAMAS on Oct 7 counts down to its Nov 5 Blue Sky abstract gate,
+  not the closed main-track Oct 8 paper cutoff. MLSys counts down to Oct 30,
+  not its Oct 10 opening. After a mandatory abstract gate expires, that track
+  cannot count as a fresh opportunity. Closed rows say Closed in Time left;
+  their schedule fallback still places them between earlier/later opportunities.
+- Verification: 144 records validate; 68 Python tests pass. Browser smoke passes
+  at 1440/1051/1050/768/390/320px, including AAMAS/MLSys transitions and 26
+  focused route fixtures. Opportunity membership remains 76 on the frozen
+  Oct 6 clock. Every visible edition's countdown/summary pairing is checked;
+  desktop/mobile views and corrected status rows have been visually inspected.
+  All 187 ICS feeds are byte-identical to the previous release; two HTML builds
+  are identical. Conference YAML, metadata/workbook and calendar UIDs/dates
+  are untouched. ADR-032 records the new contract and supersedes the relevant
+  parts of ADR-016; maintenance and developer instructions are synchronized.
+
 ## 2026-10-07 (eight-topic filters and language/robotics expansion)
 
 - Objective: Implement the approved eight-topic map and all 16 selected series,

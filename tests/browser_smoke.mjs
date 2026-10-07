@@ -3,6 +3,7 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {chromium} from 'playwright';
+import {checkSubmissionBehavior} from './submission_behavior.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -85,6 +86,7 @@ try {
     getComputedStyle(label).fontWeight === '700' &&
     getComputedStyle(label).color === 'rgb(21, 91, 45)'
   )), 'Open submission statuses must keep bold green text without leading dots');
+  await checkSubmissionBehavior(page);
   const filterSummary = page.locator('#filter-details > summary');
   assert(!(await page.locator('#filter-details').evaluate(details => details.open)));
   assert(!(await page.locator('#clear-filters').isVisible()));
@@ -406,6 +408,9 @@ try {
       if (width === 1440) {
         await page.locator('[data-deadline-group][data-edition="cosyne-2027"]').screenshot({path: path.join(output, 'open-abstract-status.png')});
         await page.locator('[data-deadline-group][data-edition="isbi-2027"]').screenshot({path: path.join(output, 'open-paper-status.png')});
+        for (const id of ['aamas-2027', 'mlsys-2027', 'ida-2027']) {
+          await page.locator(`[data-deadline-group][data-edition="${id}"]`).screenshot({path: path.join(output, `submission-${id}.png`)});
+        }
       }
       if (width === 1440 || width === 320) await sysid.screenshot({path: path.join(output, `time-estimate-${width}.png`)});
       await page.evaluate(() => scrollTo(0, 0));
