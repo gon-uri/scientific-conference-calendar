@@ -115,6 +115,7 @@ class SiteAssetTests(unittest.TestCase):
         )
         self.assertLess(html.index('class="calendar-button"'), html.index('class="calendar-caption"'))
         self.assertNotIn("On the map", html)
+        self.assertIn('tabindex="-1">Conferences &amp; Map</button>', html)
         self.assertIn('aria-label="Confirmed upcoming conference locations"', html)
         self.assertIn('Created and maintained by <strong>Gonzalo Uribarri</strong>.', html)
         self.assertNotIn("Assistant Professor", html)
@@ -123,6 +124,12 @@ class SiteAssetTests(unittest.TestCase):
         self.assertIn("Assistant Professor at the\nDepartment of Computer and Systems Sciences,", readme)
         self.assertNotIn("https://www.su.se/english/divisions/", readme)
         self.assertIn("[University profile](https://www.su.se/profiles/g/gour8957)", readme)
+        final_paragraph = readme.strip().split("\n\n")[-1].replace("\n", " ")
+        self.assertTrue(final_paragraph.startswith("Code is available under"))
+        self.assertTrue(final_paragraph.endswith(
+            "Venue Radar is a personal project by Gonzalo Uribarri, "
+            "not an official Stockholm University service."
+        ))
 
     def test_title_font_is_embedded_with_its_original_license(self) -> None:
         font = (ASSETS_DIR / "vendor" / "audiowide-latin.woff2").read_bytes()

@@ -1235,7 +1235,7 @@ def build_site(
       <div class="tab-toolbar">
         <div class="table-tabs" role="tablist" aria-label="Table view">
           <button class="tab-button" id="tab-deadlines" type="button" role="tab" aria-selected="true" aria-controls="panel-deadlines" data-tab-target="deadlines">Upcoming Deadlines</button>
-          <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences</button>
+          <button class="tab-button" id="tab-conferences" type="button" role="tab" aria-selected="false" aria-controls="panel-conferences" data-tab-target="conferences" tabindex="-1">Conferences &amp; Map</button>
         </div>
         <label class="open-toggle"><input id="open-only" type="checkbox" checked>Show submission options only</label>
         <div class="toolbar-actions">

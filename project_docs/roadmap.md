@@ -25,8 +25,9 @@ Last synchronized: 2026-10-07
   header X draft/repository-star actions and a simple white radar favicon.
 - Completed header/attribution polish: rightmost calendar action with its
   caption below, no redundant map heading, shorter website attribution and
-  plain-text README department name. Introduction, tab name and personal-project
-  clarification proposals are in site_copy.md, awaiting selection.
+  plain-text README department name, approved Conferences & Map label and
+  personal-project clarification at the end of README's final paragraph.
+  Five new ML/AI-first introduction proposals in site_copy.md await selection.
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.

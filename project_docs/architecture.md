@@ -113,9 +113,11 @@ main PNG logo and README banner unchanged.
 The map's visible heading is removed, while its confirmed-edition/city count,
 accessible section label and interactive controls remain. The website footer
 keeps author attribution and profile links without the affiliation sentence.
-README retains plain-text affiliation but no department hyperlink. Proposed
-introduction, tab label and README-only personal-project clarification are
-recorded in site_copy.md; those copy decisions remain pending user selection.
+README retains plain-text affiliation but no department hyperlink. Its final
+licensing paragraph ends with the approved personal-project clarification.
+The second tab is labeled Conferences & Map; IDs and behavior are unchanged.
+Five new introduction proposals are recorded in site_copy.md; only the
+introduction remains pending user selection.
 
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.

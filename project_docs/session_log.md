@@ -1,5 +1,25 @@
 # Session Log
 
+## 2026-10-07 (approved map-tab name and personal-project clarification)
+
+- Objective: Apply Conferences & Map, append the personal-project clarification
+  to README's final paragraph and propose five ML/AI-first introductions with
+  neuroscience, healthcare, complex systems and control as fields/applications.
+- Implemented: Changed only the visible tab label; existing IDs, keyboard
+  navigation, filters and map behavior remain. The approved disclaimer follows
+  the third-party licensing sentence in the same final README paragraph.
+  The website introduction remains unchanged pending selection; site_copy.md
+  preserves all five new candidates and the three earlier alternatives.
+- Regression coverage: Python verifies the escaped tab label and disclaimer's
+  position at the end of the licensing paragraph. Browser smoke checks the
+  visible name and existing tab text bounds/interaction at six viewport widths.
+  No conference data, calendar feeds, artwork or filter logic is changed.
+- Verification: 144 editions validate, 71 Python tests pass, and the full
+  browser smoke passes at 1440/1051/1050/768/390/320px with all 26 submission-route
+  fixtures. Desktop/mobile views were inspected; the longer tab label fits.
+  Two full builds are identical, and all 187 calendar feeds, data/workbook
+  and artwork are byte-identical to the previous release.
+
 ## 2026-10-07 (header action order and compact attribution)
 
 - Objective: Move the calendar download last/rightmost with its caption below,
@@ -22,6 +42,9 @@
   removed affiliation/heading and plain-text README department. Desktop/mobile
   header and map screenshots were inspected. All 187 calendar feeds, canonical
   data/workbook and artwork remain unchanged. ADR-034 and state docs are updated.
+- Publication: e4583d9 pushed to main. Build 37610525362 and Pages 37610524717
+  passed; live HTML matched the verified file and live browser smoke passed
+  at all six widths. The working tree was clean after publication.
 
 ## 2026-10-07 (filter access, default opportunities and sharing)
 

@@ -60,6 +60,7 @@ try {
   assert.equal(await page.locator('h1').evaluate(title => getComputedStyle(title).fontSynthesis), 'none');
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
+  assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
   assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>

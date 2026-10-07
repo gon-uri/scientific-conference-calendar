@@ -459,5 +459,9 @@ Last synchronized: 2026-10-07
   tab label, and a README-only personal-project clarification are proposals
   awaiting user selection. Current introduction/tab text stay unchanged until
   approved; site_copy.md preserves the exact choices.
+- Approved follow-up: the user selected Conferences & Map and the disclaimer,
+  placed at the end of README's final licensing paragraph. Only the introduction
+  is pending; five new ML/AI-first alternatives highlight neuroscience,
+  healthcare, complex systems and control as fields or applications.
 - Consequences: No changes to conference facts, filters, submission routes,
   map eligibility, artwork, fonts, calendar downloads or event UIDs.

@@ -5,7 +5,24 @@ Reviewed: 2026-10-07
 ## Introduction Proposals
 
 The current long subject-list introduction remains published pending selection.
-The following alternatives were proposed to the user, not approved automatically:
+The user clarified that ML/AI should lead, with neuroscience, healthcare,
+complex systems and control highlighted as fields or applications. These five
+new alternatives are proposals, not approved public copy:
+
+1. Recommended: A scientific conference calendar focused on machine learning
+   and AI, with coverage of neuroscience, healthcare, complex systems, and control.
+2. ML and AI conference deadlines, plus neuroscience, healthcare, complex
+   systems, and control.
+3. Find your next conference in machine learning and AI, or explore related
+   opportunities in neuroscience, healthcare, complex systems, and control.
+4. Track scientific conferences in machine learning and AI, including research
+   and applications in neuroscience, healthcare, complex systems, and control.
+5. A conference calendar bringing together machine learning, AI, and selected
+   venues in neuroscience, healthcare, complex systems, and control.
+
+## Earlier Introduction Proposals
+
+These earlier alternatives were not selected:
 
 1. Recommended: A scientific conference calendar for AI and machine learning,
    with a focus on neuroscience, healthcare, complex systems, and time series.
@@ -18,13 +35,12 @@ These describe a focus rather than exhaustive coverage. They do not imply that
 every tracked neuroscience, healthcare, or complex-systems venue is an AI
 application conference. The eight-family filters retain the detailed coverage.
 
-## Tab Name Proposal
+## Selected Tab Name
 
-Recommended: Conferences & Map. It identifies the map/table combination directly;
-Conferences & Locations is a reasonable but less specific alternative.
-The current Conferences label remains unchanged pending the user's choice.
-Changing visible text must preserve the existing tab/panel IDs, keyboard
-navigation, shared filters and map eligibility rules.
+Approved: Conferences & Map. It identifies the map/table combination directly.
+The visible label changed; tab/panel IDs, keyboard navigation, shared filters
+and map eligibility rules remain unchanged. Conferences & Locations was the
+alternative, not the selected name.
 
 ## Public Attribution
 
@@ -33,7 +49,7 @@ the university affiliation sentence. University profile, Scholar, GitHub and
 license links remain. README retains the Assistant Professor affiliation as
 plain text; only the redundant department hyperlink was removed.
 
-Proposed README-only clarification, pending approval:
+Approved README-only clarification, appended to its final licensing paragraph:
 
 Venue Radar is a personal project by Gonzalo Uribarri, not an official
 Stockholm University service.

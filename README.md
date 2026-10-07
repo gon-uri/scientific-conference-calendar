@@ -27,4 +27,5 @@ Stockholm University.
 Code is available under the [MIT license](LICENSE). Original written content
 and original project artwork are available under [CC BY 4.0](CONTENT-LICENSE.md).
 Both allow commercial reuse with the required attribution/notices. Third-party
-material retains its own terms.
+material retains its own terms. Venue Radar is a personal project by Gonzalo
+Uribarri, not an official Stockholm University service.
