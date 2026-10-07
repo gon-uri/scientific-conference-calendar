@@ -67,6 +67,9 @@ Last synchronized: 2026-10-07
   tables. Detailed commands live in project_docs, not README.
 - Verification: data validation, Python tests, full build, workbook rendering
   and value checks, plus desktop/mobile browser interaction and overflow checks.
+  Release d869465 is published: GitHub Build and Pages passed, live browser
+  checks passed at six widths, and all 30 aggregate/new-series/new-topic feeds
+  match the verified local outputs.
 
 ## Feature Checklist
 

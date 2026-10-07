@@ -39,9 +39,13 @@
   599 memberships are added, seven AAMAS evolutionary memberships deliberately
   removed, and 126 old feeds are byte-identical. Original edition fields are
   unchanged except AAMAS/LoG main-topic refinements. A second build is identical.
-- Publication target: commit source, workbook, documentation and generated
-  outputs together on main, push gon-uri/venue-radar, then verify the Build and
-  GitHub Pages workflows and the live site before reporting completion.
+- Publication: release d869465 pushed to gon-uri/venue-radar/main. Build run
+  37603403662 and Pages run 37603401667 both completed successfully. The live
+  HTML is byte-identical to the release, and the full browser smoke passes
+  against the published page at all six widths. All 30 aggregate/new-series/
+  new-topic feed downloads return 200 and match the local files byte-for-byte.
+  Working tree was clean after the release; this verification record is a
+  documentation-only follow-up, with no generated-output changes.
 
 ## 2026-10-07 (AI, vision, multimedia and biometrics expansion)
 
