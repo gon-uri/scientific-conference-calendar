@@ -10,7 +10,7 @@ Last synchronized: 2026-10-07
   synchronized catalog workbook with repeatable maintenance tooling.
 - Completed community setup: Giscus prerequisites verified through its official
   checker; the live comments widget, Discussions, and request form are ready.
-- Completed usability polish: single collapsible filter panel, narrower topics,
+- Completed usability polish: single collapsible filter panel expanded by default, narrower topics,
   independent CCF filter, linked rank headings/webpage scores, larger branding,
   header calendar action, more evident tab selection, inline Search, clearer
   topic/subtopic disclosure cues, and an always-visible deadline opportunities

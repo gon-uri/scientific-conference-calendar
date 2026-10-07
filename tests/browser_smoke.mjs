@@ -52,6 +52,9 @@ await page.addInitScript(() => { Date.now = () => Date.parse('2026-10-06T12:00:0
 await page.route('https://giscus.app/**', route => route.abort());
 
 try {
+  const output = process.env.SCREENSHOT_DIR;
+  const widths = [1440, 1051, 1050, 768, 390, 320];
+  if (output) await fs.mkdir(output, {recursive: true});
   await page.goto(url);
   await page.evaluate(() => document.fonts.ready);
   assert(await page.evaluate(() => [...document.fonts].some(font => font.family === 'Audiowide' && font.status === 'loaded')));
@@ -62,6 +65,16 @@ try {
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
   assert.equal(await page.locator('.subhead').innerText(), 'Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.');
+  for (const width of widths) {
+    await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
+    assert(await page.locator('#filter-details').evaluate(details => details.open), `Filters must start expanded at ${width}px`);
+    assert(await page.locator('#search').isVisible());
+    assert(await page.locator('#clear-filters').isVisible());
+    assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Default expanded filters must fit at ${width}px`);
+    if (output) await page.screenshot({path: path.join(output, `default-filters-${width}.png`)});
+  }
+  await page.setViewportSize({width: 1440, height: 1000});
+  await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
   assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
@@ -401,8 +414,6 @@ try {
   assert(await page.locator('#map-empty').isVisible());
   await page.locator('#clear-filters').click();
 
-  const output = process.env.SCREENSHOT_DIR;
-  if (output) await fs.mkdir(output, {recursive: true});
   if (output) {
     const iconPreview = await browser.newPage({viewport: {width: 200, height: 96}});
     await iconPreview.setContent(`<body style="margin:0;display:flex;align-items:center;gap:16px;background:white;height:96px;padding:0 12px;box-sizing:border-box"><img src="${faviconUrl}" width="16" height="16"><img src="${faviconUrl}" width="32" height="32"><img src="${faviconUrl}" width="64" height="64"></body>`);
@@ -412,7 +423,6 @@ try {
   }
   await page.getByRole('button', {name: 'Reset world view'}).click();
   await filterSummary.click();
-  const widths = [1440, 1051, 1050, 768, 390, 320];
   for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
     await page.evaluate(() => scrollTo(0, 0));

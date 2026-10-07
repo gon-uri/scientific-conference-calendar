@@ -1,5 +1,21 @@
 # Session Log
 
+## 2026-10-07 (filters expanded by default)
+
+- Objective: Show Filters & search expanded on first load.
+- Implemented: Added the native open attribute, retaining keyboard toggling,
+  resize-state preservation and Clear filters behavior. The default submission
+  opportunities selection and individual topic-family disclosure states are
+  unchanged. Current state docs and ADR-025 record the revised default.
+- Regression coverage: Python checks the open attribute; browser smoke checks
+  default visibility and bounds at six widths before exercising the existing
+  collapsed-panel, clearing, keyboard and filtering scenarios.
+- Verification: 144 records validate; 71 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, including 26 submission-route fixtures.
+  Default-open desktop/mobile screenshots were inspected; two HTML builds are
+  identical. All 187 calendar feeds, canonical data/workbook, artwork and
+  README remain unchanged from the preceding release.
+
 ## 2026-10-07 (README error and feature invitations)
 
 - Objective: Extend the existing conference-request invitation to welcome
@@ -11,6 +27,10 @@
 - Verification: all 71 Python tests pass, including the preserved final
   README disclaimer and both contribution destinations. Generated HTML/ICS,
   canonical data, artwork and build scripts are unchanged in this follow-up.
+- Publication: bb6f95c pushed to main. Build 37613440576 and Pages 37613439098
+  passed. Remote README and live HTML matched the verified local files;
+  live browser smoke passed at all six widths, covering the introduction and
+  neuroscience-inclusive X draft from b82823a as well.
 
 ## 2026-10-07 (selected introduction and neuroscience sharing)
 

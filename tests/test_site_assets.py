@@ -92,13 +92,16 @@ class SiteAssetTests(unittest.TestCase):
             self.assertEqual(attrs["rel"], "noopener noreferrer")
         self.assertNotIn("platform.twitter.com/widgets.js", html)
 
-    def test_submission_options_start_selected_and_shortcut_is_removed(self) -> None:
+    def test_submission_options_selected_and_filters_expanded_by_default(self) -> None:
         with TemporaryDirectory() as directory:
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
         page = PageElements()
         page.feed(html)
         inputs = {attrs.get("id"): attrs for tag, attrs in page.elements if tag == "input"}
         self.assertIn("checked", inputs["open-only"])
+        details = next(attrs for tag, attrs in page.elements
+                       if tag == "details" and attrs.get("id") == "filter-details")
+        self.assertIn("open", details)
         self.assertNotIn("time-series-shortcut", inputs)
         self.assertIn('value="time-series-sequential-data"', html)
 

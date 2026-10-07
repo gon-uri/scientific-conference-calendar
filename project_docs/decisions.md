@@ -262,6 +262,10 @@ Last synchronized: 2026-10-07
   expose native topic-family disclosure markers alongside plus/minus signs.
   This supersedes only the original all-controls-inside placement, not any
   ranking or submission-matching semantics.
+- 2026-10-07 default refinement: Filters & search starts expanded at all
+  viewport widths using the native open attribute. Users can collapse it;
+  resizing preserves their selection, and Clear filters does not change it.
+  This supersedes only the original initially collapsed default.
 
 ## ADR-026: Migrate Repository URLs Without Changing Stable Identities
 

@@ -50,7 +50,7 @@ Search, topics, sizes, independent ICORE/CCF ranks and acceptance bands
 live in the native Filters & search `details` panel. Search is the
 grid's last item, aligned beside Acceptance rate on desktop; mobile stacks it
 below the metadata options. Topics & Subtopics families use native disclosure
-markers, plus/minus signs, and hover hints. The panel starts collapsed at every
+markers, plus/minus signs, and hover hints. The panel starts expanded at every
 viewport and preserves its state when resized. Clear filters is a separate
 button in the disclosure-heading row, vertically aligned and visible whether
 the panel is open or closed. It clears all selections, including the submission

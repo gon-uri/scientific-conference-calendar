@@ -1209,7 +1209,7 @@ def build_site(
     </header>
 
     <section class="controls filter-section" aria-label="Filters and search">
-    <details class="filter-details" id="filter-details">
+    <details class="filter-details" id="filter-details" open>
       <summary><span class="filter-disclosure-icon" aria-hidden="true">&#9654;</span><span>Filters &amp; search</span></summary>
       <div class="filter-content">
         <div class="filter-grid">
