@@ -130,6 +130,14 @@ class SiteAssetTests(unittest.TestCase):
         self.assertIn("Assistant Professor at the\nDepartment of Computer and Systems Sciences,", readme)
         self.assertNotIn("https://www.su.se/english/divisions/", readme)
         self.assertIn("[University profile](https://www.su.se/profiles/g/gour8957)", readme)
+        self.assertIn(
+            "Spotted an error or have an idea for a new feature? "
+            "[Open an issue](https://github.com/gon-uri/venue-radar/issues/new).", readme,
+        )
+        self.assertIn(
+            "[Send a request](https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml)",
+            readme,
+        )
         final_paragraph = readme.strip().split("\n\n")[-1].replace("\n", " ")
         self.assertTrue(final_paragraph.startswith("Code is available under"))
         self.assertTrue(final_paragraph.endswith(

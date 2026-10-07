@@ -1,5 +1,17 @@
 # Session Log
 
+## 2026-10-07 (README error and feature invitations)
+
+- Objective: Extend the existing conference-request invitation to welcome
+  error reports and feature requests.
+- Implemented: Added a concise question and general Open an issue link in the
+  same README paragraph, preserving the dedicated conference-request form and
+  invitation to website comments. No new issue form, service or website copy
+  is introduced. Python checks verify both destinations and the exact invitation.
+- Verification: all 71 Python tests pass, including the preserved final
+  README disclaimer and both contribution destinations. Generated HTML/ICS,
+  canonical data, artwork and build scripts are unchanged in this follow-up.
+
 ## 2026-10-07 (selected introduction and neuroscience sharing)
 
 - Objective: Use the selected Find your next conference sentence exactly,
@@ -20,6 +32,8 @@
   Desktop/mobile headers were visually inspected. Two final HTML builds are
   identical; all 187 calendar feeds, canonical data/workbook, artwork, and
   README remain byte-identical to the prior release.
+- Publication: b82823a pushed to main. Build 37613193987 and Pages 37613193279
+  completed successfully for the selected introduction and refined X draft.
 
 ## 2026-10-07 (approved map-tab name and personal-project clarification)
 

@@ -126,6 +126,8 @@ and canonical website URL; sharing.md owns the exact selected draft.
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.
 GitHub request forms and discussion links work independently of Giscus.
+README keeps the dedicated conference-request form link and a separate general
+issue link for errors and feature requests; no additional form or service is added.
 
 New maintained modules and assets:
 - `scripts/catalog_metadata.py`: family/city loading, validation, map payload.

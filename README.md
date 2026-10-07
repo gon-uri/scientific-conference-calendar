@@ -11,8 +11,9 @@ robotics and control; and responsible AI.
 Browse submission opportunities, conference dates and locations, rankings,
 and historical acceptance rates. Uncertain dates are clearly marked as estimates.
 
-Missing a conference? [Send a request](https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml)
-or join the comments on the website.
+Missing a conference? [Send a request](https://github.com/gon-uri/venue-radar/issues/new?template=conference-request.yml).
+Spotted an error or have an idea for a new feature? [Open an issue](https://github.com/gon-uri/venue-radar/issues/new).
+You can also join the comments on the website.
 
 If Venue Radar is useful to you, please **star this repository** and
 [follow @gonzauri on X](https://x.com/gonzauri).

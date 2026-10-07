@@ -90,6 +90,8 @@ Last synchronized: 2026-10-07
 - Community: structured conference-request form, star/X links, author profile,
   and live Giscus comments. The official configuration checker confirms the
   repository/app/Discussions prerequisites, and the live widget renders correctly.
+  README invites conference requests through the existing form and error
+  reports/feature requests through a general GitHub issue link, alongside comments.
 - Licensing: MIT code; CC BY 4.0 original content and artwork; separate vendor
   notices. Both licenses permit commercial reuse with their required notices.
 - Maintenance: YAML remains canonical. Topic and city registries are validated;
