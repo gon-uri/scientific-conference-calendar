@@ -1,3 +1,26 @@
+function initializeMobileCards() {
+  document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;
+  document.querySelectorAll('[data-filter-row]').forEach((row) => {
+    const button = row.querySelector('.mobile-info-toggle');
+    const view = row.hasAttribute('data-deadline-group') ? 'deadlines' : 'conferences';
+    const detailIds = [...row.querySelectorAll('.mobile-detail')].map((cell, index) => {
+      cell.id = `${view}-${row.dataset.edition}-detail-${index}`;
+      return cell.id;
+    });
+    row.dataset.mobileExpanded = 'false';
+    button.setAttribute('aria-controls', detailIds.join(' '));
+    button.addEventListener('click', () => {
+      const expanded = row.dataset.mobileExpanded !== 'true';
+      row.dataset.mobileExpanded = String(expanded);
+      button.setAttribute('aria-expanded', String(expanded));
+      const label = expanded ? 'Less info' : 'More info';
+      button.querySelector('[data-mobile-info-label]').textContent = label;
+      button.setAttribute('aria-label', `${label} for ${row.querySelector('a').textContent.trim()}`);
+    });
+  });
+  document.documentElement.classList.add('mobile-cards-ready');
+}
+
 function syncTopicParents() {
   document.querySelectorAll('[data-family-toggle]').forEach((parent) => {
     const children = [...document.querySelectorAll(`[data-topic-family="${parent.dataset.familyToggle}"]`)];

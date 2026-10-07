@@ -41,6 +41,11 @@ The imported submission_behavior.mjs suite checks real AAMAS/MLSys transitions
 and focused route fixtures: unknown versus scheduled opening, mandatory gates,
 estimated evidence, actual contributions versus organizer/production steps,
 matching countdown/summary and chronological closed-row placement.
+The imported mobile_cards.mjs suite checks compact first-three-field cards in
+both tabs, independent expansion, 44px controls, keyboard/focus behavior, nested
+milestones, filter/tab/resize persistence, archived editions and no-JavaScript
+fallbacks. Fresh loads verify desktop-expanded/mobile-collapsed filter defaults,
+including the 760/761px boundary; resizing never resets a user's disclosure state.
 
 Use the configured bundled Node/dependency runtime when available, discovered
 through the Codex workspace-dependencies tool. Alternatively supply a local
@@ -51,7 +56,7 @@ pointing to the configured dependency directory avoids adding app dependencies:
 ```sh
 mkdir -p /tmp/venue-radar-tools
 ln -s "$NODE_DEPENDENCIES" /tmp/venue-radar-tools/node_modules
-cp tests/browser_smoke.mjs tests/submission_behavior.mjs /tmp/venue-radar-tools/
+cp tests/browser_smoke.mjs tests/submission_behavior.mjs tests/mobile_cards.mjs /tmp/venue-radar-tools/
 CHROME_BIN="$CHROME_BIN" SCREENSHOT_DIR=/tmp/venue-radar-previews "$NODE_BIN" /tmp/venue-radar-tools/browser_smoke.mjs "file://$PWD/docs/index.html"
 ```
 

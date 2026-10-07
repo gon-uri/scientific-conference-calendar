@@ -92,7 +92,7 @@ class SiteAssetTests(unittest.TestCase):
             self.assertEqual(attrs["rel"], "noopener noreferrer")
         self.assertNotIn("platform.twitter.com/widgets.js", html)
 
-    def test_submission_options_selected_and_filters_expanded_by_default(self) -> None:
+    def test_submission_options_selected_and_filters_have_responsive_default(self) -> None:
         with TemporaryDirectory() as directory:
             html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
         page = PageElements()
@@ -102,8 +102,29 @@ class SiteAssetTests(unittest.TestCase):
         details = next(attrs for tag, attrs in page.elements
                        if tag == "details" and attrs.get("id") == "filter-details")
         self.assertIn("open", details)
+        self.assertIn("document.querySelector('#filter-details').open = !matchMedia('(max-width: 760px)').matches;", html)
         self.assertNotIn("time-series-shortcut", inputs)
         self.assertIn('value="time-series-sequential-data"', html)
+
+    def test_mobile_cards_have_independent_disclosures_and_full_fallback_details(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        page = PageElements()
+        page.feed(html)
+        rows = [attrs for tag, attrs in page.elements if tag == "tr" and "data-filter-row" in attrs]
+        buttons = [attrs for tag, attrs in page.elements
+                   if tag == "button" and attrs.get("class") == "mobile-info-toggle"]
+        details = [attrs for tag, attrs in page.elements
+                   if tag == "td" and "mobile-detail" in attrs.get("class", "").split()]
+        self.assertEqual(len(buttons), len(rows))
+        self.assertEqual(len(details), len(rows) * 5)
+        self.assertTrue(all(button["type"] == "button" and button["aria-expanded"] == "false"
+                            and button["aria-label"].startswith("More info for ") for button in buttons))
+        self.assertTrue(all("hidden" not in cell for cell in details))
+        self.assertIn('.mobile-row-disclosure { display: none; }', html)
+        self.assertIn('.mobile-cards-ready tr[data-mobile-expanded="false"] > .mobile-detail { display: none; }', html)
+        self.assertIn("initializeMobileCards();", html)
+        self.assertIn('class="lucide lucide-chevron-down"', html)
 
     def test_public_attribution_and_header_action_order(self) -> None:
         with TemporaryDirectory() as directory:

@@ -1,5 +1,27 @@
 # Session Log
 
+## 2026-10-07 (compact mobile cards and collapsed filters)
+
+- Objective: Reduce mobile card height while retaining all conference details,
+  and start Filters & search collapsed only on mobile.
+- Implemented: At up to 760px, deadline cards show Conference / Submission status
+  / Time left; conference and past-edition cards show Conference / Dates /
+  Location. More info / Less info reveals the other five fields independently.
+  Native keyboard controls, per-row aria-controls IDs, minimum 44px targets and
+  a pinned Lucide chevron support accessibility. Desktop tables stay complete.
+- State: Expansion survives filtering, sorting, tab changes and resizing; the
+  milestone arrow remains independent. Filter defaults depend on initial width,
+  not subsequent resizing. Clear filters does not reset disclosure state.
+  Without JavaScript all metadata remains accessible and inert buttons are hidden.
+- Verification: 144 records validate; all 73 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, with 26 submission-route fixtures. The new
+  mobile suite checks 760/761px boundaries, independent expansion in both tabs,
+  keyboard/focus, filter/tab/resize persistence, nested schedules, archived cards
+  and no-JavaScript fallback. Collapsed/expanded mobile screenshots were inspected.
+  Desktop screenshots retain the original table layout; two HTML builds are
+  identical. All 187 calendar feeds, conference data/workbook, branding and
+  README are unchanged. Git diff whitespace checks pass.
+
 ## 2026-10-07 (semibold conference names)
 
 - Objective: Give the primary scanning anchor more emphasis without increasing
@@ -15,6 +37,9 @@
   Desktop/mobile screenshots were inspected and two HTML builds are identical.
   All 187 calendar feeds, conference data/workbook, artwork and README remain
   unchanged. Git diff whitespace checks pass.
+- Publication: 9fede14 pushed to main. Build 37615023780 and Pages 37615023074
+  passed; live HTML matched the tested output and live browser smoke passed
+  at all six widths.
 
 ## 2026-10-07 (filters expanded by default)
 

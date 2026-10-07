@@ -4,6 +4,7 @@ import path from 'node:path';
 import {pathToFileURL} from 'node:url';
 import {chromium} from 'playwright';
 import {checkSubmissionBehavior} from './submission_behavior.mjs';
+import {checkMobileCards} from './mobile_cards.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -72,13 +73,15 @@ try {
     )), 'Conference names in both tables must be semibold at their existing size');
   for (const width of widths) {
     await page.setViewportSize({width, height: width > 760 ? 1000 : 844});
-    assert(await page.locator('#filter-details').evaluate(details => details.open), `Filters must start expanded at ${width}px`);
-    assert(await page.locator('#search').isVisible());
+    await page.goto(url);
+    await page.evaluate(() => document.fonts.ready);
+    assert.equal(await page.locator('#filter-details').evaluate(details => details.open), width > 760, `Filter default at ${width}px`);
+    assert.equal(await page.locator('#search').isVisible(), width > 760);
     assert(await page.locator('#clear-filters').isVisible());
-    assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Default expanded filters must fit at ${width}px`);
+    assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Default layout must fit at ${width}px`);
     if (output) await page.screenshot({path: path.join(output, `default-filters-${width}.png`)});
   }
-  await page.setViewportSize({width: 1440, height: 1000});
+  await checkMobileCards(page, url, output);
   await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
   assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);

@@ -21,7 +21,8 @@ Last synchronized: 2026-10-07
   location dot #C85C62, and white calendar interior. Original symbol edge coverage
   is preserved by direct pixel recoloring; exterior transparency stays intact.
   README begins with a full-width, clickable white Audiowide/logo banner.
-- Interface polish: an initially expanded Filters & search panel contains
+- Interface polish: Filters & search starts expanded on desktop and collapsed
+  on mobile (up to 760px). The panel contains
   metadata filters, independent ICORE/CCF selections and Search. Clear filters
   is aligned with its heading and remains visible when collapsed; clearing
   removes all restrictions without opening the panel.
@@ -54,6 +55,11 @@ Last synchronized: 2026-10-07
   logo/text alignment and no external font request. Body/table fonts stay unchanged.
   Conference-name links in both tables use semibold weight 600 at their existing
   font size and color, including archived editions. Other links are unaffected.
+  Mobile cards initially show Conference / Submission status / Time left in
+  deadlines and Conference / Dates / Location in Conferences & Map. Independent
+  More info / Less info controls reveal all remaining metadata, including past
+  editions. Expansion survives filtering, tab changes and resizing; desktop
+  tables remain fully visible. Without JavaScript all metadata remains visible.
 - Sharing: Share on X and Star the repo sit beside the header calendar action,
   with matching pinned Lucide icons. X opens a prefilled draft with the approved
   introduction, rankings/rates, search/filtering and website link; visitors
@@ -101,7 +107,7 @@ Last synchronized: 2026-10-07
   tables. Detailed commands live in project_docs, not README.
 - Verification: data validation, Python tests, full build, workbook rendering
   and value checks, plus desktop/mobile browser interaction and overflow checks.
-  Release f6a82ad is published: GitHub Build and Pages passed, live HTML matched
+  Release 9fede14 is published: GitHub Build and Pages passed, live HTML matched
   the verified build and live browser checks passed at six widths. The earlier
   catalog release d869465 also verified all 30 aggregate/new-series/new-topic feeds.
 
@@ -180,9 +186,9 @@ Last synchronized: 2026-10-07
 ### Static Website Generation
 
 - Current status: Completed
-- Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences & Map tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options and inline Search live in the initially expanded Filters & search disclosure; Clear filters remains aligned with its heading and always visible. Show submission options only starts checked, sits beside the tabs and wraps below on mobile. The topic tree fits eight collapsed families and uses native disclosure arrows and plus/minus cues; the duplicate Time series shortcut is removed, not the subtopic. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences & Map; aggregate download, X sharing and repository-star links are grouped at the header's right edge. A white radar-only SVG supplies the favicon. Tabs clearly contrast the selected and selectable views.
+- Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences & Map tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options and inline Search live in Filters & search, initially expanded on desktop and collapsed on mobile; Clear filters remains aligned with its heading and always visible. Show submission options only starts checked, sits beside the tabs and wraps below on mobile. The topic tree fits eight collapsed families and uses native disclosure arrows and plus/minus cues; the duplicate Time series shortcut is removed, not the subtopic. Mobile cards show their first three fields and independently reveal the rest through More info / Less info; desktop tables stay complete. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences & Map; aggregate download, X sharing and repository-star links are grouped at the header's right edge. A white radar-only SVG supplies the favicon. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 72 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels. Current polish checks default opportunity membership, collapsed clearing/focus, heading alignment, all-eight-family visibility, internal expanded scrolling, retained Time series matching, semibold conference names/inherited size/cell bounds, header action order/top alignment, caption placement, map/author wording, README attribution links and favicon pixels at 32px.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 73 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels. Current polish checks default opportunity membership, collapsed clearing/focus, heading alignment, all-eight-family visibility, internal expanded scrolling, retained Time series matching, semibold conference names/inherited size/cell bounds, header action order/top alignment, caption placement, map/author wording, README attribution links and favicon pixels at 32px. mobile_cards.mjs adds 760/761px boundary checks, independent disclosure/keyboard behavior, resize/filter/tab persistence, nested milestones, archived cards and a no-JavaScript fallback.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 - Submission regression checks: `tests/submission_behavior.mjs`, called by the

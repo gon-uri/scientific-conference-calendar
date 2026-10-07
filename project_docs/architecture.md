@@ -51,12 +51,26 @@ Conference-name links in both tables, including archived editions, use weight
 font size and link color are unchanged; other links and metadata do not gain
 additional weight. Browser checks cover name text bounds at six viewport widths.
 
+At widths up to 760px, deadline cards initially show Conference, Submission
+status and Time left; conference cards show Conference, Dates and Location.
+An independent More info / Less info button reveals each row's five remaining
+cells, including archived editions. Desktop always displays all eight columns
+and hides this extra control cell. initializeMobileCards assigns unique cell
+IDs and aria-controls, tracks each row's expansion separately from its nested
+milestone schedule, and enables the mobile-only hiding rules. Expansion survives
+filtering, tab switches, minute refreshes and resizing. Without JavaScript,
+all metadata remains visible and the inert disclosure control stays hidden.
+The chevron uses the same pinned Lucide 0.468.0 release/license as other icons;
+the full-width button has a minimum 44px tap target and native keyboard behavior.
+
 Search, topics, sizes, independent ICORE/CCF ranks and acceptance bands
 live in the native Filters & search `details` panel. Search is the
 grid's last item, aligned beside Acceptance rate on desktop; mobile stacks it
 below the metadata options. Topics & Subtopics families use native disclosure
-markers, plus/minus signs, and hover hints. The panel starts expanded at every
-viewport and preserves its state when resized. Clear filters is a separate
+markers, plus/minus signs, and hover hints. On initial load the panel starts
+expanded above 760px and collapsed at mobile widths; resizing preserves its
+current state instead of resetting it. The native HTML open attribute keeps
+filters accessible without JavaScript. Clear filters is a separate
 button in the disclosure-heading row, vertically aligned and visible whether
 the panel is open or closed. It clears all selections, including the submission
 restriction, without opening the panel; focus remains on the button when closed.

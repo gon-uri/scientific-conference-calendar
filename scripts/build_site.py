@@ -341,6 +341,17 @@ def _deadline_grid_rows(milestones: list[dict[str, Any]]) -> str:
     return f'<div class="deadline-grid" data-deadline-grid>{"".join(rows)}</div>'
 
 
+def _mobile_row_disclosure(title: str) -> str:
+    icon = (ASSETS_DIR / "vendor" / "chevron-down.svg").read_text(encoding="utf-8")
+    return (
+        '<td class="mobile-row-disclosure" colspan="8">'
+        f'<button class="mobile-info-toggle" type="button" aria-expanded="false" '
+        f'aria-label="More info for {_attr(title)}">'
+        '<span data-mobile-info-label>More info</span>'
+        f'<span aria-hidden="true">{icon}</span></button></td>'
+    )
+
+
 def _deadline_group_rows(
     conferences: list[dict[str, Any]],
     icore: dict[str, Any],
@@ -379,11 +390,12 @@ def _deadline_group_rows(
             '<span class="time-left" data-time-left>&mdash;</span>'
             f'<span class="time-estimate" data-time-estimate hidden title="{_attr(TIME_ESTIMATE_TOOLTIP)}">(time est.)</span>'
             '</div></td>'
-            f'<td class="deadline-combined-cell" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones)}</div></td>'
-            f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
-            f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
-            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
-            f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
+            f'<td class="deadline-combined-cell mobile-detail" data-label="Next milestone"><div class="deadline-cell-content">{toggle_html}{_deadline_grid_rows(milestones)}</div></td>'
+            f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
+            f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
+            f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
+            f"<td class=\"mobile-detail\" data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
+            f"{_mobile_row_disclosure(conference['short_title'])}"
             "</tr>"
         )
     return "\n".join(rows)
@@ -413,11 +425,12 @@ def _conference_rows(
             f"<td data-label=\"Conference\"><a href=\"{_attr(conference['website'])}\">{escape(conference['short_title'])}</a></td>"
             f"<td data-label=\"Dates\">{escape(_display_conference_dates(conference['conference_start'], conference['conference_end']))}{date_estimate}</td>"
             f"<td data-label=\"Location\">{escape(conference.get('location', 'TBD'))}</td>"
-            f"<td data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
-            f'<td data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
-            f'<td data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
-            f"<td data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
-            f"<td data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
+            f"<td class=\"mobile-detail\" data-label=\"Topics\">{_topic_labels(conference.get('topics', []))}</td>"
+            f'<td class="mobile-detail" data-label="Accept. rate">{_acceptance_cell(conference, rates)}</td>'
+            f'<td class="mobile-detail" data-label="ICORE / CCF">{_ranking_cell(conference, icore, ccf, ccf_page)}</td>'
+            f"<td class=\"mobile-detail\" data-label=\"Size\">{_metadata_label(conference.get('size', ''))}</td>"
+            f"<td class=\"mobile-detail\" data-label=\"Calendar\">{_conference_calendar_link(conference)}</td>"
+            f"{_mobile_row_disclosure(conference['short_title'])}"
             "</tr>"
         )
     return "\n".join(rows)
@@ -1630,6 +1643,7 @@ def build_site(
       if (document.querySelector("#filter-details").open) search.focus();
       else clearFilters.focus();
     }});
+    initializeMobileCards();
     applyFilters();
     setInterval(applyFilters, 60 * 1000);
     const commentObserver = new IntersectionObserver((entries) => {{

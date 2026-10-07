@@ -270,6 +270,8 @@ Last synchronized: 2026-10-07
   viewport widths using the native open attribute. Users can collapse it;
   resizing preserves their selection, and Clear filters does not change it.
   This supersedes only the original initially collapsed default.
+- Later responsive refinement: ADR-035 keeps that expanded default only above
+  760px; mobile starts collapsed. State preservation and clearing are unchanged.
 
 ## ADR-026: Migrate Repository URLs Without Changing Stable Identities
 
@@ -479,3 +481,26 @@ Last synchronized: 2026-10-07
   draft's opening; retain all other wording and the canonical website URL.
 - Consequences: No changes to conference facts, filters, submission routes,
   map eligibility, artwork, fonts, calendar downloads or event UIDs.
+
+## ADR-035: Compact Mobile Cards With Independent Details
+
+- Date: 2026-10-07
+- Context: Eight stacked fields make every mobile conference card too tall
+  for scanning, while desktop tables still benefit from all columns.
+- Decision: At widths up to 760px, initially show Conference, Submission status
+  and Time left for deadlines; show Conference, Dates and Location for the map
+  tab. Keep the five other cells in the same row and reveal them with an
+  independent More info / Less info button. Include archived conference cards.
+  Preserve the existing nested milestone arrow and all submission semantics.
+- Accessibility: Native buttons have 44px minimum tap targets, aria-expanded,
+  per-row aria-controls IDs, conference-specific labels and a pinned Lucide
+  chevron. Only enable hiding after handlers initialize; without JavaScript
+  full metadata stays visible and inert controls stay hidden.
+- State: Card expansion survives sorting, filtering, tab changes, minute
+  refreshes and resizing. Desktop ignores the collapsed presentation and always
+  shows all original columns. Filters & search initially closes on mobile and
+  opens above 760px; later resizing preserves the user's current state. Clear
+  filters does not change filter or card disclosure states.
+- Consequences: No data, metadata matching, calendar feeds, event UIDs, desktop
+  column order, brand assets or map eligibility changes. Browser regressions
+  cover both tabs, the breakpoint, keyboard, persistence and no-JS behavior.

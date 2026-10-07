@@ -10,7 +10,8 @@ Last synchronized: 2026-10-07
   synchronized catalog workbook with repeatable maintenance tooling.
 - Completed community setup: Giscus prerequisites verified through its official
   checker; the live comments widget, Discussions, and request form are ready.
-- Completed usability polish: single collapsible filter panel expanded by default, narrower topics,
+- Completed usability polish: single collapsible filter panel expanded by default
+  on desktop and collapsed on mobile, narrower topics,
   independent CCF filter, linked rank headings/webpage scores, larger branding,
   header calendar action, more evident tab selection, inline Search, clearer
   topic/subtopic disclosure cues, and an always-visible deadline opportunities
@@ -19,6 +20,10 @@ Last synchronized: 2026-10-07
   specimens and the final choice are documented in typography_proposal.md.
   Conference names now use semibold weight 600 without increasing font size
   or changing color in either table, including past editions.
+- Completed mobile scanning: cards show only their first three fields initially,
+  with independent More info / Less info controls for the rest. Desktop tables
+  stay complete. Expansion survives filtering, tab switches and resizing;
+  keyboard controls, archived editions and the no-JavaScript fallback are tested.
 - Completed branding refinement: four-color, geometry-preserving logo recolor
   and a full-width white Audiowide/logo banner at the beginning of README.
 - Completed filter/sharing polish: always-visible Clear filters aligned with
