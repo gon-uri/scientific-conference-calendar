@@ -116,8 +116,12 @@ keeps author attribution and profile links without the affiliation sentence.
 README retains plain-text affiliation but no department hyperlink. Its final
 licensing paragraph ends with the approved personal-project clarification.
 The second tab is labeled Conferences & Map; IDs and behavior are unchanged.
-Five new introduction proposals are recorded in site_copy.md; only the
-introduction remains pending user selection.
+The approved subtitle puts machine learning and AI first, then related
+opportunities in neuroscience, healthcare, complex systems and control.
+site_copy.md records the exact selected sentence and retained alternatives;
+README's fuller description is unchanged. The independent X draft names ML,
+AI and neuroscience explicitly, retaining its rankings/rates/search wording
+and canonical website URL; sharing.md owns the exact selected draft.
 
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.

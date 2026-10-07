@@ -2,12 +2,22 @@
 
 Reviewed: 2026-10-07
 
-## Introduction Proposals
+## Selected Introduction
 
-The current long subject-list introduction remains published pending selection.
+Approved and implemented:
+
+Find your next conference in machine learning and AI, or explore related
+opportunities in neuroscience, healthcare, complex systems, and control.
+
+This is the website subtitle only. README's fuller description remains unchanged.
+The independently approved Share on X draft also names ML, AI and neuroscience
+explicitly; its remaining wording and website URL are unchanged. See sharing.md.
+
+## Introduction Alternatives
+
 The user clarified that ML/AI should lead, with neuroscience, healthcare,
-complex systems and control highlighted as fields or applications. These five
-new alternatives are proposals, not approved public copy:
+complex systems and control highlighted as fields or applications. Option 3
+was selected from these five alternatives; the others are not public copy:
 
 1. Recommended: A scientific conference calendar focused on machine learning
    and AI, with coverage of neuroscience, healthcare, complex systems, and control.

@@ -463,5 +463,11 @@ Last synchronized: 2026-10-07
   placed at the end of README's final licensing paragraph. Only the introduction
   is pending; five new ML/AI-first alternatives highlight neuroscience,
   healthcare, complex systems and control as fields or applications.
+- Final copy selection: use Find your next conference in machine learning and
+  AI, or explore related opportunities in neuroscience, healthcare, complex
+  systems, and control. This replaces only the website subtitle; README and
+  X sharing descriptions remain independent. No copy choice remains pending.
+  The user also requested ML, AI, neuroscience, and related fields in the X
+  draft's opening; retain all other wording and the canonical website URL.
 - Consequences: No changes to conference facts, filters, submission routes,
   map eligibility, artwork, fonts, calendar downloads or event UIDs.

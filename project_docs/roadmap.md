@@ -27,7 +27,8 @@ Last synchronized: 2026-10-07
   caption below, no redundant map heading, shorter website attribution and
   plain-text README department name, approved Conferences & Map label and
   personal-project clarification at the end of README's final paragraph.
-  Five new ML/AI-first introduction proposals in site_copy.md await selection.
+  The selected ML/AI-first introduction highlights neuroscience, healthcare,
+  complex systems and control. Exact copy and alternatives are in site_copy.md.
 - Completed repository migration: gon-uri/venue-radar with updated public
   links, Giscus name, attribution, and Git origin. Preserve all published event
   UIDs and the existing community mapping; old feed subscriptions need new URLs.

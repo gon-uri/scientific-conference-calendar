@@ -61,6 +61,7 @@ try {
   assert(await page.locator('body, td').evaluateAll(elements => elements.every(element => !getComputedStyle(element).fontFamily.includes('Audiowide'))));
   assert.equal(await page.title(), 'Venue Radar | Scientific Conference Calendar');
   assert.equal(await page.locator('#tab-conferences').innerText(), 'Conferences & Map');
+  assert.equal(await page.locator('.subhead').innerText(), 'Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.');
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
   assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
@@ -70,7 +71,7 @@ try {
   const shareUrl = new URL(await shareLink.getAttribute('href'));
   assert.equal(shareUrl.origin + shareUrl.pathname, 'https://x.com/intent/tweet');
   assert.equal(shareUrl.searchParams.get('url'), 'https://gon-uri.github.io/venue-radar/');
-  assert.equal(shareUrl.searchParams.get('text'), 'Check out Venue Radar, a new conference calendar for ML/AI and related fields. Search and filter submission deadlines, compare ICORE/CCF rankings, and check historical acceptance rates.');
+  assert.equal(shareUrl.searchParams.get('text'), 'Check out Venue Radar, a new conference calendar for ML, AI, neuroscience, and related fields. Search and filter submission deadlines, compare ICORE/CCF rankings, and check historical acceptance rates.');
   assert(shareUrl.searchParams.get('text').length + 24 <= 280);
   const starLink = page.getByRole('link', {name: 'Star the repo', exact: true});
   assert.equal(await starLink.getAttribute('href'), repository);
@@ -429,6 +430,15 @@ try {
     const logoCenter = await visibleCenter(page.locator('.brand-mark'));
     const titleCenter = await visibleCenter(page.locator('h1'));
     assert(Math.abs(titleCenter - logoCenter) < 2, `Visible logo and title centers must align at ${width}px`);
+    assert(await page.locator('.subhead').evaluate(subtitle => {
+      const range = document.createRange();
+      range.selectNodeContents(subtitle);
+      const box = subtitle.getBoundingClientRect();
+      const brand = document.querySelector('.brand-line').getBoundingClientRect();
+      return box.top >= brand.bottom && [...range.getClientRects()].every(text =>
+        text.left >= box.left && text.right <= box.right &&
+        text.top >= box.top && text.bottom <= box.bottom);
+    }), `Selected introduction must fit below the brand at ${width}px`);
     if (output && (width === 1440 || width === 320)) {
       await page.locator('.brand-line').screenshot({path: path.join(output, `brand-${width}.png`)});
     }

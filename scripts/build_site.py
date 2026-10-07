@@ -46,7 +46,7 @@ TIME_ESTIMATE_TOOLTIP = (
 )
 SITE_URL = "https://gon-uri.github.io/venue-radar/"
 SHARE_TEXT = (
-    "Check out Venue Radar, a new conference calendar for ML/AI and related fields. "
+    "Check out Venue Radar, a new conference calendar for ML, AI, neuroscience, and related fields. "
     "Search and filter submission deadlines, compare ICORE/CCF rankings, "
     "and check historical acceptance rates."
 )
@@ -1196,7 +1196,7 @@ def build_site(
     <header>
       <div class="brand-copy">
         <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
-        <p class="subhead">Scientific conferences in ML &amp; data science, NLP, agents &amp; retrieval, complex systems, time series &amp; signals, vision &amp; multimedia, healthcare &amp; biometrics, neuroscience, robotics &amp; control, and responsible AI.</p>
+        <p class="subhead">Find your next conference in machine learning and AI, or explore related opportunities in neuroscience, healthcare, complex systems, and control.</p>
       </div>
       <div class="header-actions">
         <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>

@@ -4,7 +4,8 @@ Approved: 2026-10-07
 
 ## Selected Text
 
-Check out Venue Radar, a new conference calendar for ML/AI and related fields.
+Check out Venue Radar, a new conference calendar for ML, AI, neuroscience,
+and related fields.
 Search and filter submission deadlines, compare ICORE/CCF rankings, and check
 historical acceptance rates.
 
@@ -22,6 +23,8 @@ in one place.
 Both candidates are comfortably below a standard 280-character post with the
 website link. The first was selected by the user. Rates remain described as
 historical, not as predicted acceptance probabilities.
+The selected draft's opening was subsequently refined to name ML, AI and
+neuroscience explicitly; its remaining text and website URL are unchanged.
 
 ## Maintenance
 

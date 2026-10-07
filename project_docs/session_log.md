@@ -1,5 +1,26 @@
 # Session Log
 
+## 2026-10-07 (selected introduction and neuroscience sharing)
+
+- Objective: Use the selected Find your next conference sentence exactly,
+  and explicitly name ML, AI and neuroscience in the X draft's opening.
+- Implemented: Replaced the website subtitle and refined only the sharing
+  draft's opening; README's fuller description, remaining X wording and URL
+  are unchanged. site_copy.md records the selected option and alternatives;
+  sharing.md records the refined draft. State docs and ADR-034 no longer
+  describe the introduction as pending.
+- Regression coverage: Python and browser checks assert the exact sentence;
+  browser smoke also checks subtitle text bounds and separation from the brand
+  at all six existing viewport widths. Data, filters, map rules, calendars,
+  artwork and typography remain unchanged.
+  Sharing checks retain exact decoded draft/URL parameters, the 280-character
+  limit and safe new-tab behavior without publishing a post.
+- Verification: 144 records validate; all 71 Python tests and the full browser
+  smoke pass at 1440/1051/1050/768/390/320px, including all 26 route fixtures.
+  Desktop/mobile headers were visually inspected. Two final HTML builds are
+  identical; all 187 calendar feeds, canonical data/workbook, artwork, and
+  README remain byte-identical to the prior release.
+
 ## 2026-10-07 (approved map-tab name and personal-project clarification)
 
 - Objective: Apply Conferences & Map, append the personal-project clarification
@@ -19,6 +40,9 @@
   fixtures. Desktop/mobile views were inspected; the longer tab label fits.
   Two full builds are identical, and all 187 calendar feeds, data/workbook
   and artwork are byte-identical to the previous release.
+- Publication: ece1f80 pushed to main. Build 37611875203 and Pages 37611874774
+  passed; live HTML matched the tested output and live browser smoke passed
+  at all six widths. The working tree was clean after publication.
 
 ## 2026-10-07 (header action order and compact attribution)
 

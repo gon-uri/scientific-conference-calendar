@@ -64,9 +64,12 @@ Last synchronized: 2026-10-07
   Website author attribution no longer includes the university affiliation;
   README keeps it as plain text without a department link. Conferences & Map
   is the approved tab label; the approved personal-project disclaimer ends the
-  README's final paragraph. Five new introduction proposals put ML/AI first
-  and highlight neuroscience, healthcare, complex systems and control;
-  only the introduction remains undecided. Choices are in site_copy.md.
+  README's final paragraph. The selected introduction starts Find your next
+  conference in machine learning and AI and highlights related neuroscience,
+  healthcare, complex systems and control opportunities. The exact sentence
+  and alternatives are in site_copy.md; no copy decision remains pending.
+  The X draft now explicitly names ML, AI and neuroscience, with the rest of
+  the approved sharing text and website link unchanged.
 - Catalog: 144 edition records across 113 series; 40 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
@@ -94,7 +97,7 @@ Last synchronized: 2026-10-07
   tables. Detailed commands live in project_docs, not README.
 - Verification: data validation, Python tests, full build, workbook rendering
   and value checks, plus desktop/mobile browser interaction and overflow checks.
-  Release e4583d9 is published: GitHub Build and Pages passed, live HTML matched
+  Release ece1f80 is published: GitHub Build and Pages passed, live HTML matched
   the verified build and live browser checks passed at six widths. The earlier
   catalog release d869465 also verified all 30 aggregate/new-series/new-topic feeds.
 

@@ -84,6 +84,7 @@ class SiteAssetTests(unittest.TestCase):
         url = urlparse(share["href"])
         self.assertEqual((url.scheme, url.netloc, url.path), ("https", "x.com", "/intent/tweet"))
         self.assertEqual(parse_qs(url.query), {"text": [SHARE_TEXT], "url": [SITE_URL]})
+        self.assertIn("for ML, AI, neuroscience, and related fields.", SHARE_TEXT)
         self.assertLessEqual(len(SHARE_TEXT) + 24, 280)
         self.assertEqual(actions["header-button star-button"]["href"], "https://github.com/gon-uri/venue-radar")
         for attrs in actions.values():
@@ -116,6 +117,11 @@ class SiteAssetTests(unittest.TestCase):
         self.assertLess(html.index('class="calendar-button"'), html.index('class="calendar-caption"'))
         self.assertNotIn("On the map", html)
         self.assertIn('tabindex="-1">Conferences &amp; Map</button>', html)
+        self.assertIn(
+            '<p class="subhead">Find your next conference in machine learning and AI, '
+            'or explore related opportunities in neuroscience, healthcare, '
+            'complex systems, and control.</p>', html,
+        )
         self.assertIn('aria-label="Confirmed upcoming conference locations"', html)
         self.assertIn('Created and maintained by <strong>Gonzalo Uribarri</strong>.', html)
         self.assertNotIn("Assistant Professor", html)
