@@ -19,7 +19,7 @@ header { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items:
 .brand-mark { width: 82px; height: 82px; object-fit: contain; flex: 0 0 auto; }
 h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625rem; font-weight: 400; font-synthesis: none; line-height: 1.15; min-width: 0; margin: 0; transform: translateY(2px); }
 .subhead { font-size: .94rem; margin-top: 7px; }
-.header-actions { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: flex-end; justify-self: end; gap: 8px; max-width: 100%; margin-top: 12px; }
+.header-actions { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-end; justify-self: end; gap: 8px; max-width: 100%; margin-top: 12px; }
 .calendar-action { flex-direction: column; align-items: flex-end; gap: 6px; margin-top: 0; }
 .calendar-caption { font-size: .76rem; color: var(--muted); }
 .calendar-button { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; box-sizing: border-box; }
@@ -81,8 +81,7 @@ td a { text-underline-offset: 3px; }
 .deadline-toggle { flex: 0 0 20px; }
 .acceptance-cell { font-size: .78rem; }
 .map-section { margin: 8px 0 24px; }
-.map-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px; }
-.map-heading h2 { margin: 0; font-size: 1rem; }
+.map-heading { display: flex; justify-content: flex-end; margin-bottom: 10px; }
 .map-heading span { color: var(--muted); font-size: .78rem; }
 #conference-map { height: 350px; width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #f8fbfc; box-sizing: border-box; }
 .leaflet-container { font: inherit; z-index: 0; }
@@ -142,7 +141,6 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   td > * { min-width: 0; overflow-wrap: anywhere; }
   td::before { text-transform: none; }
   #conference-map { height: 250px; }
-  .map-heading { align-items: flex-start; flex-direction: column; gap: 2px; }
   .leaflet-popup-content { max-width: 230px; }
 }
 @media (max-width: 400px) {

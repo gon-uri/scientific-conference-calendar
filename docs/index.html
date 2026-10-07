@@ -1436,7 +1436,7 @@ header { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items:
 .brand-mark { width: 82px; height: 82px; object-fit: contain; flex: 0 0 auto; }
 h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625rem; font-weight: 400; font-synthesis: none; line-height: 1.15; min-width: 0; margin: 0; transform: translateY(2px); }
 .subhead { font-size: .94rem; margin-top: 7px; }
-.header-actions { display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: flex-end; justify-self: end; gap: 8px; max-width: 100%; margin-top: 12px; }
+.header-actions { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: flex-end; justify-self: end; gap: 8px; max-width: 100%; margin-top: 12px; }
 .calendar-action { flex-direction: column; align-items: flex-end; gap: 6px; margin-top: 0; }
 .calendar-caption { font-size: .76rem; color: var(--muted); }
 .calendar-button { display: inline-flex; align-items: center; gap: 7px; min-height: 34px; box-sizing: border-box; }
@@ -1498,8 +1498,7 @@ td a { text-underline-offset: 3px; }
 .deadline-toggle { flex: 0 0 20px; }
 .acceptance-cell { font-size: .78rem; }
 .map-section { margin: 8px 0 24px; }
-.map-heading { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; margin-bottom: 10px; }
-.map-heading h2 { margin: 0; font-size: 1rem; }
+.map-heading { display: flex; justify-content: flex-end; margin-bottom: 10px; }
 .map-heading span { color: var(--muted); font-size: .78rem; }
 #conference-map { height: 350px; width: 100%; border: 1px solid var(--line); border-radius: 4px; background: #f8fbfc; box-sizing: border-box; }
 .leaflet-container { font: inherit; z-index: 0; }
@@ -1559,7 +1558,6 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   td > * { min-width: 0; overflow-wrap: anywhere; }
   td::before { text-transform: none; }
   #conference-map { height: 250px; }
-  .map-heading { align-items: flex-start; flex-direction: column; gap: 2px; }
   .leaflet-popup-content { max-width: 230px; }
 }
 @media (max-width: 400px) {
@@ -1578,27 +1576,6 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
         <p class="subhead">Scientific conferences in ML &amp; data science, NLP, agents &amp; retrieval, complex systems, time series &amp; signals, vision &amp; multimedia, healthcare &amp; biometrics, neuroscience, robotics &amp; control, and responsible AI.</p>
       </div>
       <div class="header-actions">
-        <div class="calendar-action">
-          <span class="calendar-caption">Download calendar</span>
-          <a class="calendar-button" href="calendar-all.ics" download><!-- @license lucide-static v0.468.0 - ISC -->
-<svg
-  class="lucide lucide-download"
-  xmlns="http://www.w3.org/2000/svg"
-  width="24"
-  height="24"
-  viewBox="0 0 24 24"
-  fill="none"
-  stroke="currentColor"
-  stroke-width="2"
-  stroke-linecap="round"
-  stroke-linejoin="round"
->
-  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
-  <polyline points="7 10 12 15 17 10" />
-  <line x1="12" x2="12" y1="15" y2="3" />
-</svg>
-All events (.ics)</a>
-        </div>
         <a class="header-button share-button" href="https://x.com/intent/tweet?text=Check+out+Venue+Radar%2C+a+new+conference+calendar+for+ML%2FAI+and+related+fields.+Search+and+filter+submission+deadlines%2C+compare+ICORE%2FCCF+rankings%2C+and+check+historical+acceptance+rates.&amp;url=https%3A%2F%2Fgon-uri.github.io%2Fvenue-radar%2F" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X"><!-- @license lucide-static v0.468.0 - ISC -->
 <svg
   class="lucide lucide-share-2"
@@ -1635,6 +1612,27 @@ Share on X</a>
   <path d="M11.525 2.295a.53.53 0 0 1 .95 0l2.31 4.679a2.123 2.123 0 0 0 1.595 1.16l5.166.756a.53.53 0 0 1 .294.904l-3.736 3.638a2.123 2.123 0 0 0-.611 1.878l.882 5.14a.53.53 0 0 1-.771.56l-4.618-2.428a2.122 2.122 0 0 0-1.973 0L6.396 21.01a.53.53 0 0 1-.77-.56l.881-5.139a2.122 2.122 0 0 0-.611-1.879L2.16 9.795a.53.53 0 0 1 .294-.906l5.165-.755a2.122 2.122 0 0 0 1.597-1.16z" />
 </svg>
 Star the repo</a>
+        <div class="calendar-action">
+          <a class="calendar-button" href="calendar-all.ics" download><!-- @license lucide-static v0.468.0 - ISC -->
+<svg
+  class="lucide lucide-download"
+  xmlns="http://www.w3.org/2000/svg"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+>
+  <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+  <polyline points="7 10 12 15 17 10" />
+  <line x1="12" x2="12" y1="15" y2="3" />
+</svg>
+All events (.ics)</a>
+          <span class="calendar-caption">Download calendar</span>
+        </div>
       </div>
     </header>
 
@@ -1841,7 +1839,7 @@ Star the repo</a>
 
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <section class="map-section" aria-label="Confirmed upcoming conference locations">
-          <div class="map-heading"><h2>On the map</h2><span id="map-count" aria-live="polite"></span></div>
+          <div class="map-heading"><span id="map-count" aria-live="polite"></span></div>
           <div id="conference-map" aria-label="World map of confirmed upcoming conferences"></div>
           <p id="map-empty" class="map-empty" hidden>No confirmed upcoming locations match these filters.</p>
           <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
@@ -4487,7 +4485,7 @@ Star the repo</a>
       The calendar is reviewed regularly as organizers publish new schedules. An estimated submission status or date means the information is uncertain. Some estimated dates use prior-edition timing as a proxy until organizers publish the next schedule.
       <div>ICORE 2026 and CCF 2026 ranks are separate assessments of main-track full papers; a dash means no direct rank is shown. Historical acceptance rates refer to the linked year and track, not the next edition's expected outcome. Unknown means no defensible rate is available.</div>
       <div>Size is a qualitative scale, not a verified attendance count. A time-estimated milestone has a published day but no confirmed cutoff hour. Always check the organizer's call before submitting.</div>
-      <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>, Assistant Professor at the <a href="https://www.su.se/english/divisions/department-of-computer-and-systems-sciences">Department of Computer and Systems Sciences</a>, Stockholm University.</div>
+      <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>.</div>
       <div class="author-links"><a href="https://www.su.se/profiles/g/gour8957">University profile</a><a href="https://scholar.google.com/citations?user=q5sweuIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/gon-uri">GitHub</a><a href="https://github.com/gon-uri/venue-radar/blob/main/LICENSE">Code: MIT</a><a href="https://github.com/gon-uri/venue-radar/blob/main/CONTENT-LICENSE.md">Original content: CC BY 4.0</a></div>
     </footer>
   </main>

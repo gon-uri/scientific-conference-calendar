@@ -31,6 +31,10 @@ Browser/Python checks verify the selected copy and new-tab protections without
 posting. The Star the repo link opens gon-uri/venue-radar on GitHub; the visitor
 decides whether to star it. Existing footer follow/star links remain available.
 
+Header actions are ordered Share on X, Star the repo, then All events (.ics).
+Download calendar appears below the last button. Buttons align along the top
+on desktop; mobile wraps them while keeping the download action last/rightmost.
+
 The favicon is maintained separately in `assets/favicon.svg`: radar arcs, sweep
 and location dot on opaque white. It is embedded in the generated HTML and
 does not replace the full calendar/radar logo in the header or README.

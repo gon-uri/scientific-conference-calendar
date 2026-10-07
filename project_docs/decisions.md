@@ -444,3 +444,20 @@ Last synchronized: 2026-10-07
 - Branding: A simple radar-only SVG with opaque white background is the favicon.
   The selected PNG logo, README banner and font remain unchanged. Copy choices
   are recorded in sharing.md. No conference data, calendar feeds or UIDs change.
+
+## ADR-034: Keep Header Actions And Public Attribution Compact
+
+- Date: 2026-10-07
+- Decision: Order header actions Share on X, Star the repo, All events (.ics),
+  with Download calendar below the last button. Align buttons at the top on
+  desktop and preserve last/rightmost download placement while wrapping mobile.
+  Remove the redundant On the map heading but keep the count and accessible
+  map-section label. Shorten website attribution to the author's name and
+  preserve all profile/license links; README affiliation remains plain text
+  without the redundant department hyperlink.
+- Copy: Three introduction alternatives, Conferences & Map as the recommended
+  tab label, and a README-only personal-project clarification are proposals
+  awaiting user selection. Current introduction/tab text stay unchanged until
+  approved; site_copy.md preserves the exact choices.
+- Consequences: No changes to conference facts, filters, submission routes,
+  map eligibility, artwork, fonts, calendar downloads or event UIDs.

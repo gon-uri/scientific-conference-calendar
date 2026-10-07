@@ -18,7 +18,7 @@ If Venue Radar is useful to you, please **star this repository** and
 [follow @gonzauri on X](https://x.com/gonzauri).
 
 Created and maintained by **Gonzalo Uribarri**, Assistant Professor at the
-[Department of Computer and Systems Sciences](https://www.su.se/english/divisions/department-of-computer-and-systems-sciences),
+Department of Computer and Systems Sciences,
 Stockholm University.
 [University profile](https://www.su.se/profiles/g/gour8957) ·
 [Google Scholar](https://scholar.google.com/citations?user=q5sweuIAAAAJ&hl=en) ·

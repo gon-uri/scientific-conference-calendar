@@ -99,7 +99,9 @@ dynamics label stays on one line with compact small-screen spacing; below
 1200px the topic tree occupies its own grid row. The dated backlog has 15
 remaining original candidates, not published calendar records.
 
-The header groups the calendar download, Share on X and Star the repo links.
+The header groups Share on X, Star the repo and the calendar download in that
+order, with Download calendar below the rightmost download button. The buttons
+align along the top; narrow screens wrap them without overflowing.
 Sharing uses a URL-encoded X intent with the approved text and canonical website
 URL, opening a user-reviewed draft rather than posting automatically. The star
 link opens the repository, not a star mutation. Both use new-tab opener isolation
@@ -107,6 +109,13 @@ and pinned Lucide icons; no social widget script or API is added. Below 1000px,
 actions move below the brand copy and wrap within the viewport. Copy alternatives
 and maintenance guidance are in sharing.md. The separate favicon leaves the
 main PNG logo and README banner unchanged.
+
+The map's visible heading is removed, while its confirmed-edition/city count,
+accessible section label and interactive controls remain. The website footer
+keeps author attribution and profile links without the affiliation sentence.
+README retains plain-text affiliation but no department hyperlink. Proposed
+introduction, tab label and README-only personal-project clarification are
+recorded in site_copy.md; those copy decisions remain pending user selection.
 
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.

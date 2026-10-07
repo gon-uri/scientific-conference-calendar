@@ -98,6 +98,11 @@ try {
   assert.equal(await page.getByRole('link', {name: 'Find Venue Radar useful? Star the repository', exact: true}).getAttribute('href'), repository);
   assert.equal(await page.getByRole('link', {name: 'Code: MIT', exact: true}).getAttribute('href'), `${repository}/blob/main/LICENSE`);
   assert.equal(await page.getByRole('link', {name: 'Original content: CC BY 4.0', exact: true}).getAttribute('href'), `${repository}/blob/main/CONTENT-LICENSE.md`);
+  assert.equal(await page.locator('footer .author').innerText(), 'Created and maintained by Gonzalo Uribarri.');
+  assert(!(await page.locator('footer').innerText()).includes('Assistant Professor'));
+  assert.equal(await page.getByRole('link', {name: 'University profile', exact: true}).getAttribute('href'), 'https://www.su.se/profiles/g/gour8957');
+  assert.equal(await page.getByRole('heading', {name: 'On the map', exact: true}).count(), 0);
+  assert.deepEqual((await page.locator('.header-actions a').allTextContents()).map(text => text.trim()), ['Share on X', 'Star the repo', 'All events (.ics)']);
   assert(await page.locator('a[download]').evaluateAll(links => links.length > 0 && links.every(link => {
     const path = link.getAttribute('href');
     return path.endsWith('.ics') && !path.startsWith('/') && !path.includes(':');
@@ -497,6 +502,24 @@ try {
       const box = link.getBoundingClientRect();
       return box.left >= 0 && box.right <= innerWidth;
     })), `Header actions must fit at ${width}px`);
+    assert(await page.locator('.calendar-action').evaluate(action => {
+      const button = action.querySelector('a').getBoundingClientRect();
+      const caption = action.querySelector('span').getBoundingClientRect();
+      return caption.top >= button.bottom && caption.left >= button.left && caption.right <= button.right;
+    }), `Download caption must fit below its button at ${width}px`);
+    assert(await page.locator('.header-actions').evaluate(actions => {
+      const links = [...actions.querySelectorAll('a')].map(link => link.getBoundingClientRect());
+      return links.at(-1).right >= Math.max(...links.map(link => link.right)) - 1 &&
+        (innerWidth <= 760 || links.every(link => Math.abs(link.top - links[0].top) < 1));
+    }), `Download must be rightmost and desktop buttons aligned at ${width}px`);
+    assert(await page.locator('.table-tabs button').evaluateAll(tabs => tabs.every(tab => {
+      const range = document.createRange();
+      range.selectNodeContents(tab);
+      const text = range.getBoundingClientRect();
+      const box = tab.getBoundingClientRect();
+      return text.left >= box.left && text.right <= box.right && text.top >= box.top && text.bottom <= box.bottom;
+    })), `Tab labels must fit at ${width}px`);
+    if (output) await page.locator('header').screenshot({path: path.join(output, `header-${width}.png`)});
     assert(!(await page.evaluate(() => document.documentElement.scrollWidth > innerWidth)), `Expanded filter overflow at ${width}px`);
     if (width > 760) {
       const searchBox = await page.locator('.search-control .control-label').boundingBox();

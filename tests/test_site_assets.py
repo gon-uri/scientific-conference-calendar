@@ -101,6 +101,29 @@ class SiteAssetTests(unittest.TestCase):
         self.assertNotIn("time-series-shortcut", inputs)
         self.assertIn('value="time-series-sequential-data"', html)
 
+    def test_public_attribution_and_header_action_order(self) -> None:
+        with TemporaryDirectory() as directory:
+            html = build_site(docs_dir=Path(directory)).read_text(encoding="utf-8")
+        page = PageElements()
+        page.feed(html)
+        self.assertEqual(
+            [attrs["class"] for tag, attrs in page.elements
+             if tag == "a" and attrs.get("class") in {
+                 "header-button share-button", "header-button star-button", "calendar-button",
+             }],
+            ["header-button share-button", "header-button star-button", "calendar-button"],
+        )
+        self.assertLess(html.index('class="calendar-button"'), html.index('class="calendar-caption"'))
+        self.assertNotIn("On the map", html)
+        self.assertIn('aria-label="Confirmed upcoming conference locations"', html)
+        self.assertIn('Created and maintained by <strong>Gonzalo Uribarri</strong>.', html)
+        self.assertNotIn("Assistant Professor", html)
+        self.assertIn('href="https://www.su.se/profiles/g/gour8957"', html)
+        readme = (ASSETS_DIR.parent / "README.md").read_text(encoding="utf-8")
+        self.assertIn("Assistant Professor at the\nDepartment of Computer and Systems Sciences,", readme)
+        self.assertNotIn("https://www.su.se/english/divisions/", readme)
+        self.assertIn("[University profile](https://www.su.se/profiles/g/gour8957)", readme)
+
     def test_title_font_is_embedded_with_its_original_license(self) -> None:
         font = (ASSETS_DIR / "vendor" / "audiowide-latin.woff2").read_bytes()
         self.assertEqual(font[:4], b"wOF2")

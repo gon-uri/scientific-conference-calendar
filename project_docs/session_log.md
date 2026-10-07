@@ -1,5 +1,28 @@
 # Session Log
 
+## 2026-10-07 (header action order and compact attribution)
+
+- Objective: Move the calendar download last/rightmost with its caption below,
+  remove the map heading and website affiliation sentence, and remove the
+  redundant README department hyperlink. Propose shorter introduction text,
+  an explicit map-tab label and a personal-project clarification.
+- Implemented: Share on X, Star the repo and All events (.ics) in that order;
+  top-aligned desktop buttons and responsive mobile wrapping. The map retains
+  its count and accessible label without On the map. Website attribution keeps
+  Gonzalo Uribarri and existing profile/license links; README keeps plain-text
+  affiliation and the university profile link.
+- Choices: Three introduction candidates, recommended Conferences & Map and
+  a short README-only personal-project clarification await selection. Current
+  introduction and Conferences label remain unchanged. site_copy.md preserves
+  proposals and distinguishes them from implemented changes.
+- Verification: 144 records validate; 71 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, including 26 submission-route fixtures.
+  New checks verify button order, caption placement, desktop alignment, mobile
+  bounds, tab text bounds, retained author profile and accessible map labels,
+  removed affiliation/heading and plain-text README department. Desktop/mobile
+  header and map screenshots were inspected. All 187 calendar feeds, canonical
+  data/workbook and artwork remain unchanged. ADR-034 and state docs are updated.
+
 ## 2026-10-07 (filter access, default opportunities and sharing)
 
 - Objective: Remove the duplicate Time series shortcut, keep Clear filters
@@ -30,6 +53,9 @@
   all 187 calendar feeds, conference data/workbook and main artwork are unchanged.
   ADR-033, architecture, status, roadmap, topic audit and maintainer guidance
   document the current behavior.
+- Publication: b4c31e0 pushed to main. Build 37608172074 and Pages 37608170301
+  passed; live HTML matched the tested build and full live browser smoke passed
+  at all six widths.
 
 ## 2026-10-07 (submission-focused countdown and honest opening states)
 

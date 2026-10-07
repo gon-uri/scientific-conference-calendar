@@ -1199,12 +1199,12 @@ def build_site(
         <p class="subhead">Scientific conferences in ML &amp; data science, NLP, agents &amp; retrieval, complex systems, time series &amp; signals, vision &amp; multimedia, healthcare &amp; biometrics, neuroscience, robotics &amp; control, and responsible AI.</p>
       </div>
       <div class="header-actions">
-        <div class="calendar-action">
-          <span class="calendar-caption">Download calendar</span>
-          <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
-        </div>
         <a class="header-button share-button" href="{_attr(share_url)}" target="_blank" rel="noopener noreferrer" title="Prepare a post about Venue Radar on X">{share_icon}Share on X</a>
         <a class="header-button star-button" href="https://github.com/gon-uri/venue-radar" target="_blank" rel="noopener noreferrer" title="Open Venue Radar on GitHub to star the repository">{star_icon}Star the repo</a>
+        <div class="calendar-action">
+          <a class="calendar-button" href="calendar-all.ics" download>{download_icon}All events (.ics)</a>
+          <span class="calendar-caption">Download calendar</span>
+        </div>
       </div>
     </header>
 
@@ -1268,7 +1268,7 @@ def build_site(
 
       <div class="tab-panel" id="panel-conferences" role="tabpanel" aria-labelledby="tab-conferences" data-tab-panel="conferences" hidden>
         <section class="map-section" aria-label="Confirmed upcoming conference locations">
-          <div class="map-heading"><h2>On the map</h2><span id="map-count" aria-live="polite"></span></div>
+          <div class="map-heading"><span id="map-count" aria-live="polite"></span></div>
           <div id="conference-map" aria-label="World map of confirmed upcoming conferences"></div>
           <p id="map-empty" class="map-empty" hidden>No confirmed upcoming locations match these filters.</p>
           <div id="map-cities" class="map-cities" aria-label="Conference cities"></div>
@@ -1323,7 +1323,7 @@ def build_site(
       The calendar is reviewed regularly as organizers publish new schedules. An estimated submission status or date means the information is uncertain. Some estimated dates use prior-edition timing as a proxy until organizers publish the next schedule.
       <div>ICORE 2026 and CCF 2026 ranks are separate assessments of main-track full papers; a dash means no direct rank is shown. Historical acceptance rates refer to the linked year and track, not the next edition's expected outcome. Unknown means no defensible rate is available.</div>
       <div>Size is a qualitative scale, not a verified attendance count. A time-estimated milestone has a published day but no confirmed cutoff hour. Always check the organizer's call before submitting.</div>
-      <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>, Assistant Professor at the <a href="https://www.su.se/english/divisions/department-of-computer-and-systems-sciences">Department of Computer and Systems Sciences</a>, Stockholm University.</div>
+      <div class="author">Created and maintained by <strong>Gonzalo Uribarri</strong>.</div>
       <div class="author-links"><a href="https://www.su.se/profiles/g/gour8957">University profile</a><a href="https://scholar.google.com/citations?user=q5sweuIAAAAJ&amp;hl=en">Google Scholar</a><a href="https://github.com/gon-uri">GitHub</a><a href="https://github.com/gon-uri/venue-radar/blob/main/LICENSE">Code: MIT</a><a href="https://github.com/gon-uri/venue-radar/blob/main/CONTENT-LICENSE.md">Original content: CC BY 4.0</a></div>
     </footer>
   </main>
