@@ -2,6 +2,28 @@ checked_on: "2026-10-07"
 # Percentages describe the named historical track, not the chance of acceptance
 # at the next edition. Leave a series absent when evidence is insufficient.
 rates:
+  "ACL":
+    percent: 20.3
+    year: 2025
+    track: "Main conference; chairs' rate over unique ARR submissions (Findings excluded)"
+    source_url: "https://aclanthology.org/2025.acl-long.0.pdf"
+  "EMNLP":
+    percent: 22.16
+    year: 2025
+    track: "Main conference (1,811 of 8,174 ARR submissions; desk rejections and withdrawals included, Findings excluded)"
+    source_url: "https://aclanthology.org/2025.emnlp-main.0.pdf"
+  "NAACL":
+    percent: 22.0
+    approximate: true
+    year: 2025
+    track: "Main conference; chairs' estimated rate over October ARR papers intending NAACL (not commitment-only rate; Findings excluded)"
+    source_url: "https://aclanthology.org/2025.naacl-long.0.pdf"
+  "RecSys":
+    percent: 19.0
+    approximate: true
+    year: 2025
+    track: "Long papers (49 accepted of 261 submitted); official rounded rate"
+    source_url: "https://recsys.acm.org/statistics/"
   "CVPR":
     percent: 25.41
     year: 2026

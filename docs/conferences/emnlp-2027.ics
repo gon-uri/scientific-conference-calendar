@@ -1,0 +1,67 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:EMNLP 2027 Calendar
+BEGIN:VEVENT
+UID:emnlp-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270526T115900Z
+DTEND:20270526T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ EMNLP 2027 - Estimated ARR paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Empirical Methods in Natural La
+ nguage Processing\nWebsite: https://www.aclweb.org/portal/content/joint-c
+ all-workshops-proposals-2027\nSource URL: https://2026.emnlp.org/calls/ma
+ in_conference_papers/\nLocation: Mexico or Central America\; city to be a
+ nnounced\nTopics: Natural Language Processing & LLMs\, Deep Representatio
+ n Learning\, LLM Agents & Tool Use\, Information Retrieval & Search\nSize
+ : XXL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked 
+ date: 2026-10-07\nNotes: ACL announces tentative early November 2027 in M
+ exico or Central America. November 1-6 is a planning placeholder within t
+ hat window\, not published exact dates. Paper timing is a one-year proxy 
+ from 2026\; do not infer commitment eligibility or portal opening.\nScope
+ : Empirical methods for language modeling and NLP\, including generation\
+ , information extraction\, multilinguality\, dialogue\, retrieval\, and m
+ odel evaluation. Interpretability\, bias\, and safety matter within langu
+ age systems. Curated coverage emphasizes language methods and evidence ra
+ ther than every application listed in the CFP.\nAdditional topics: Explai
+ nability & Interpretability\, Fairness & Responsible AI\, Robustness & Sa
+ fety\, Human-AI Interaction & Deployment\nScope sources (2026): https://2
+ 026.emnlp.org/calls/main_conference_papers/\nScope last checked: 2026-10-
+ 07
+URL:https://2026.emnlp.org/calls/main_conference_papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:emnlp-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271101
+DTEND;VALUE=DATE:20271107
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ EMNLP 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Empirical Methods in Natural La
+ nguage Processing\nWebsite: https://www.aclweb.org/portal/content/joint-c
+ all-workshops-proposals-2027\nSource URL: https://www.aclweb.org/portal/c
+ ontent/joint-call-workshops-proposals-2027\nLocation: Mexico or Central A
+ merica\; city to be announced\nTopics: Natural Language Processing & LLMs
+ \, Deep Representation Learning\, LLM Agents & Tool Use\, Information Ret
+ rieval & Search\nSize: XXL\nSubmission type: Paper-based\nConfidence: est
+ imated\nLast checked date: 2026-10-07\nNotes: ACL announces tentative ear
+ ly November 2027 in Mexico or Central America. November 1-6 is a planning
+  placeholder within that window\, not published exact dates. Paper timing
+  is a one-year proxy from 2026\; do not infer commitment eligibility or p
+ ortal opening.\nScope: Empirical methods for language modeling and NLP\, 
+ including generation\, information extraction\, multilinguality\, dialogu
+ e\, retrieval\, and model evaluation. Interpretability\, bias\, and safet
+ y matter within language systems. Curated coverage emphasizes language me
+ thods and evidence rather than every application listed in the CFP.\nAddi
+ tional topics: Explainability & Interpretability\, Fairness & Responsible
+  AI\, Robustness & Safety\, Human-AI Interaction & Deployment\nScope sour
+ ces (2026): https://2026.emnlp.org/calls/main_conference_papers/\nScope l
+ ast checked: 2026-10-07
+URL:https://www.aclweb.org/portal/content/joint-call-workshops-proposals-20
+ 27
+LOCATION:Mexico or Central America\; city to be announced
+END:VEVENT
+END:VCALENDAR

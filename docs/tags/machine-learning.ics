@@ -700,6 +700,60 @@ URL:https://ida2026.org/
 LOCATION:Leiden\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260503T115900Z
+DTEND:20260503T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use abstract deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260503
+DTEND;VALUE=DATE:20260504
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2026 - 
+ Extended regular/special-session paper deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc2026.org/\nSource URL: h
+ ttps://www.ieeesmc2026.org/Important-Dates\nLocation: Bellevue\, Washingt
+ on\, USA\nTopics: Control & Robotics\, Complex Systems & Network Science\
+ , Machine Learning\, Human-AI Interaction & Deployment\nSize: L\nSubmissi
+ on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-0
+ 7\nNotes: Organizer date table confirms October 4-7 (society calendar has
+  older October 4-6). Duplicate camera-ready blocks disagree August 2/9\, 
+ so neither is asserted. Exact paper cutoff hours unannounced. Size is an 
+ editorial estimate.\nScope: Systems science\, cybernetics\, and human-mac
+ hine systems. Characteristic ML-facing work includes intelligent and lear
+ ning-based control\, autonomous systems\, adaptive decision-making\, and 
+ human-AI interaction\; brain-machine interfaces and cognitive systems are
+  meaningful extensions. Its interdisciplinary remit is curated without ta
+ gging every industrial application as a core specialty.\nAdditional topic
+ s: Reinforcement Learning\, System Identification & Data-driven Dynamics\
+ , BCI & Neurotechnology\, Cognitive Science & Computational Cognition\nSc
+ ope sources (2026): https://www.ieeesmc2026.org/call-for-papers\nScope la
+ st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
+ e is unannounced. Verify the organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -754,6 +808,31 @@ DESCRIPTION:Conference title: Conference on Neural Information Processing S
 URL:https://neurips.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260508T115900Z
+DTEND:20260508T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use paper deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-icmla-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260516T065900Z
@@ -785,8 +864,47 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2026-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260517
+DTEND;VALUE=DATE:20260518
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2026 - 
+ Extended work-in-progress/industry paper deadline (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc2026.org/\nSource URL: h
+ ttps://www.ieeesmc2026.org/Important-Dates\nLocation: Bellevue\, Washingt
+ on\, USA\nTopics: Control & Robotics\, Complex Systems & Network Science\
+ , Machine Learning\, Human-AI Interaction & Deployment\nSize: L\nSubmissi
+ on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-0
+ 7\nNotes: Organizer date table confirms October 4-7 (society calendar has
+  older October 4-6). Duplicate camera-ready blocks disagree August 2/9\, 
+ so neither is asserted. Exact paper cutoff hours unannounced. Size is an 
+ editorial estimate.\nScope: Systems science\, cybernetics\, and human-mac
+ hine systems. Characteristic ML-facing work includes intelligent and lear
+ ning-based control\, autonomous systems\, adaptive decision-making\, and 
+ human-AI interaction\; brain-machine interfaces and cognitive systems are
+  meaningful extensions. Its interdisciplinary remit is curated without ta
+ gging every industrial application as a core specialty.\nAdditional topic
+ s: Reinforcement Learning\, System Identification & Data-driven Dynamics\
+ , BCI & Neurotechnology\, Cognitive Science & Computational Cognition\nSc
+ ope sources (2026): https://www.ieeesmc2026.org/call-for-papers\nScope la
+ st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
+ e is unannounced. Verify the organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:bmvc-2026-deadline-abstract@scientific-conference-calendar
@@ -827,7 +945,16 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
@@ -1440,6 +1567,35 @@ URL:https://www.cnsorg.org/cns-2026
 LOCATION:Halifax\, Canada
 END:VEVENT
 BEGIN:VEVENT
+UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260712
+DTEND;VALUE=DATE:20260713
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2026 - 
+ Two-page abstract submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc2026.org/\nSource URL: h
+ ttps://www.ieeesmc2026.org/Important-Dates\nLocation: Bellevue\, Washingt
+ on\, USA\nTopics: Control & Robotics\, Complex Systems & Network Science\
+ , Machine Learning\, Human-AI Interaction & Deployment\nSize: L\nSubmissi
+ on type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-0
+ 7\nNotes: Organizer date table confirms October 4-7 (society calendar has
+  older October 4-6). Duplicate camera-ready blocks disagree August 2/9\, 
+ so neither is asserted. Exact paper cutoff hours unannounced. Size is an 
+ editorial estimate.\nScope: Systems science\, cybernetics\, and human-mac
+ hine systems. Characteristic ML-facing work includes intelligent and lear
+ ning-based control\, autonomous systems\, adaptive decision-making\, and 
+ human-AI interaction\; brain-machine interfaces and cognitive systems are
+  meaningful extensions. Its interdisciplinary remit is curated without ta
+ gging every industrial application as a core specialty.\nAdditional topic
+ s: Reinforcement Learning\, System Identification & Data-driven Dynamics\
+ , BCI & Neurotechnology\, Cognitive Science & Computational Cognition\nSc
+ ope sources (2026): https://www.ieeesmc2026.org/call-for-papers\nScope la
+ st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
+ e is unannounced. Verify the organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ssspr-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260715T215900Z
@@ -1638,25 +1794,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -1693,6 +1849,31 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260807T115900Z
+DTEND:20260807T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use camera-ready deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260808T115900Z
@@ -1702,25 +1883,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -1886,7 +2067,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
  otes: Official WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstr
- act/paper deadlines.
+ act/paper deadlines.\nScope: Web search\, ranking\, recommendation and mi
+ ning of web and social data. Characteristic extensions include large-scal
+ e graph analysis\, conversational retrieval\, foundation-model and agenti
+ c web systems\, and fairness and privacy in information access. The broad
+  emerging-applications inventory is not treated as evidence that WSDM is 
+ a specialist healthcare or climate venue.\nAdditional topics: Information
+  Retrieval & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM
+  Agents & Tool Use\, Natural Language Processing & LLMs\nScope sources (2
+ 027): https://www.wsdm-conference.org/2027/cffp.html\nScope last checked:
+  2026-10-07
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -2004,7 +2194,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
  otes: Official WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstr
- act/paper deadlines.
+ act/paper deadlines.\nScope: Web search\, ranking\, recommendation and mi
+ ning of web and social data. Characteristic extensions include large-scal
+ e graph analysis\, conversational retrieval\, foundation-model and agenti
+ c web systems\, and fairness and privacy in information access. The broad
+  emerging-applications inventory is not treated as evidence that WSDM is 
+ a specialist healthcare or climate venue.\nAdditional topics: Information
+  Retrieval & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM
+  Agents & Tool Use\, Natural Language Processing & LLMs\nScope sources (2
+ 027): https://www.wsdm-conference.org/2027/cffp.html\nScope last checked:
+  2026-10-07
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -2479,28 +2678,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -2519,6 +2718,35 @@ DESCRIPTION:Conference title: IEEE EMBS International Conference on Biomedi
  Notes: Official BHI 2026 pages list conference dates\, location\, and sub
  mission deadlines.
 URL:https://bhi.embs.org/2026/contributors/papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261004
+DTEND;VALUE=DATE:20261008
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2026 - 
+ Conference
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc2026.org/\nSource URL: h
+ ttps://www.ieeesmc2026.org/\nLocation: Bellevue\, Washington\, USA\nTopic
+ s: Control & Robotics\, Complex Systems & Network Science\, Machine Learn
+ ing\, Human-AI Interaction & Deployment\nSize: L\nSubmission type: Paper-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Organ
+ izer date table confirms October 4-7 (society calendar has older October 
+ 4-6). Duplicate camera-ready blocks disagree August 2/9\, so neither is a
+ sserted. Exact paper cutoff hours unannounced. Size is an editorial estim
+ ate.\nScope: Systems science\, cybernetics\, and human-machine systems. C
+ haracteristic ML-facing work includes intelligent and learning-based cont
+ rol\, autonomous systems\, adaptive decision-making\, and human-AI intera
+ ction\; brain-machine interfaces and cognitive systems are meaningful ext
+ ensions. Its interdisciplinary remit is curated without tagging every ind
+ ustrial application as a core specialty.\nAdditional topics: Reinforcemen
+ t Learning\, System Identification & Data-driven Dynamics\, BCI & Neurote
+ chnology\, Cognitive Science & Computational Cognition\nScope sources (20
+ 26): https://www.ieeesmc2026.org/call-for-papers\nScope last checked: 202
+ 6-10-07
+URL:https://www.ieeesmc2026.org/
+LOCATION:Bellevue\, Washington\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:discovery-science-2026-conference@scientific-conference-calendar
@@ -2611,28 +2839,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -2732,25 +2960,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -2833,6 +3061,32 @@ DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
  pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
  cope last checked: 2026-10-07
 URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261030
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Conference
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/\nLocation: Bari\, Italy\nTopics: Knowledge Representation & Re
+ asoning\, Graphs & Graph Learning\, Data Mining & Data Science\, Informat
+ ion Retrieval & Search\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-07\nNotes: Semantic Web ISWC\, no
+ t IEEE Symposium on Wearable Computers. Official JavaScript-rendered date
+  table specifies 23:59 AoE\; main sessions October 27-29 after workshops/
+ tutorials. Size is an editorial estimate.\nScope: Semantic Web and linked
+ -data research: ontologies\, knowledge graphs\, representation and reason
+ ing\, semantic integration\, querying\, and knowledge-supported AI. Graph
+  learning is relevant through semantic data and knowledge structures\; th
+ is is not the IEEE wearable-computing symposium with the same acronym.\nA
+ dditional topics: Machine Learning\, Explainability & Interpretability\nS
+ cope sources (2026): https://iswc2026.semanticweb.org/calls/research\nSco
+ pe last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/
+LOCATION:Bari\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:isbi-2027-deadline-full-paper@scientific-conference-calendar
@@ -3057,28 +3311,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -3096,7 +3350,16 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
@@ -3253,28 +3516,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -3417,25 +3680,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
  Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
- ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
- istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
-  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
- \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
- ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
- roceedings papers and non-archival extended abstracts share the registrat
- ion and final submission cutoffs\, represented as one route. The TMLR pre
- sentation track requires an already published paper\, so it is not a new-
- paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
- stimate.\nScope: Learning on graphs and geometry: graph neural networks\,
-  equivariant models\, graph kernels\, geometric and graph generative mode
- ls\, and statistical theory for structured data. Graph signal processing\
- , causal graph models\, robustness\, and scalable graph-learning infrastr
- ucture are meaningful extensions. A graph or geometric contribution shoul
- d remain central\, even in an application such as language or molecular m
- odeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Si
- gnal Processing\, Robustness & Safety\, ML Systems & Infrastructure\nScop
- e sources (2026): https://logconference.org/cfp/\nScope last checked: 202
- 6-10-07
+ ion Learning\, Graphs & Graph Learning\, Learning Theory & Statistical Fo
+ undations\nSize: M\nSubmission type: Paper-based / non-archival extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: F
+ ifth annual edition\, in person at Northeastern University. Extended Aug 
+ 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceedings
+  papers and non-archival extended abstracts share the registration and fi
+ nal submission cutoffs\, represented as one route. The TMLR presentation 
+ track requires an already published paper\, so it is not a new-paper oppo
+ rtunity. LoG is distinct from LOD/AIS. Size M is an editorial estimate.\n
+ Scope: Learning on graphs and geometry: graph neural networks\, equivaria
+ nt models\, graph kernels\, geometric and graph generative models\, and s
+ tatistical theory for structured data. Graph signal processing\, causal g
+ raph models\, robustness\, and scalable graph-learning infrastructure are
+  meaningful extensions. A graph or geometric contribution should remain c
+ entral\, even in an application such as language or molecular modeling.\n
+ Additional topics: Complex Systems & Network Science\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML Syst
+ ems & Infrastructure\nScope sources (2026): https://logconference.org/cfp
+ /\nScope last checked: 2026-10-07
 URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
@@ -3952,6 +4215,37 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
 URL:https://2027.ijcai.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:sigir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full-paper abstract deadline (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-siggraph-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270115T220000Z
@@ -4121,6 +4415,37 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
 URL:https://satml.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:sigir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full paper submission deadline (estimated) (cutoff time unannoun
+ ced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-siggraph-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270122T220000Z
@@ -4248,28 +4573,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -4785,28 +5110,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -4928,7 +5253,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  le AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission type: Pape
  r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
  icial WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstract/paper
-  deadlines.
+  deadlines.\nScope: Web search\, ranking\, recommendation and mining of w
+ eb and social data. Characteristic extensions include large-scale graph a
+ nalysis\, conversational retrieval\, foundation-model and agentic web sys
+ tems\, and fairness and privacy in information access. The broad emerging
+ -applications inventory is not treated as evidence that WSDM is a special
+ ist healthcare or climate venue.\nAdditional topics: Information Retrieva
+ l & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM Agents &
+  Tool Use\, Natural Language Processing & LLMs\nScope sources (2027): htt
+ ps://www.wsdm-conference.org/2027/cffp.html\nScope last checked: 2026-10-
+ 07
 URL:https://www.wsdm-conference.org/2027/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -5642,6 +5976,33 @@ DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
 URL:https://ecai2027.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:recsys-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270415T115900Z
+DTEND:20270415T125900Z
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Estimated mai
+ n-track abstract deadline (estimated)
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys26/call/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Sys
+ tems\, Machine Learning\, Information Retrieval & Search\, Human-AI Inter
+ action & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: e
+ stimated\nLast checked date: 2026-10-07\nNotes: 2027 Hawaii meeting is co
+ nfirmed. Main-track deadlines are one-year proxies from 2026\; long and s
+ hort papers shared the same abstract gate in that edition. Do not infer a
+  special twentieth-anniversary track for 2027. Size is an editorial estim
+ ate.\nScope: Recommendation and personalization: user-item modeling\, col
+ laborative and content-based methods\, sequential and conversational reco
+ mmendation\, evaluation\, and deployed recommendation systems. Human and 
+ economic impacts matter alongside algorithms. Sequential data is relevant
+  specifically through recommendation behavior\; this is not a general for
+ ecasting conference.\nAdditional topics: Time Series & Sequential Data\, 
+ Natural Language Processing & LLMs\, Fairness & Responsible AI\, Explaina
+ bility & Interpretability\nScope sources (2026): https://recsys.acm.org/r
+ ecsys26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270417T115900Z
@@ -5756,6 +6117,33 @@ URL:https://www.ida-society.org/
 LOCATION:Pisa\, Italy
 END:VEVENT
 BEGIN:VEVENT
+UID:recsys-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270422T115900Z
+DTEND:20270422T125900Z
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Estimated mai
+ n-track paper deadline (estimated)
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys26/call/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Sys
+ tems\, Machine Learning\, Information Retrieval & Search\, Human-AI Inter
+ action & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: e
+ stimated\nLast checked date: 2026-10-07\nNotes: 2027 Hawaii meeting is co
+ nfirmed. Main-track deadlines are one-year proxies from 2026\; long and s
+ hort papers shared the same abstract gate in that edition. Do not infer a
+  special twentieth-anniversary track for 2027. Size is an editorial estim
+ ate.\nScope: Recommendation and personalization: user-item modeling\, col
+ laborative and content-based methods\, sequential and conversational reco
+ mmendation\, evaluation\, and deployed recommendation systems. Human and 
+ economic impacts matter alongside algorithms. Sequential data is relevant
+  specifically through recommendation behavior\; this is not a general for
+ ecasting conference.\nAdditional topics: Time Series & Sequential Data\, 
+ Natural Language Processing & LLMs\, Fairness & Responsible AI\, Explaina
+ bility & Interpretability\nScope sources (2026): https://recsys.acm.org/r
+ ecsys26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys26/call/
+END:VEVENT
+BEGIN:VEVENT
 UID:fg-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270426
@@ -5817,6 +6205,36 @@ URL:https://iclr.cc/Conferences/2027
 LOCATION:San Francisco\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:sigir-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed camera-ready deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270503
@@ -5825,29 +6243,29 @@ SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Conference
 DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/\nLocation
- : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Co
- ntrol & Robotics\, Human-AI Interaction & Deployment\nSize: XL\nSubmissio
- n type: Paper-based / Blue Sky Ideas short papers\nConfidence: confirmed\
- nLast checked date: 2026-10-07\nNotes: Annual flagship meeting in Hanoi. 
- New main-track submissions are closed because the Oct 1 abstract gate has
-  passed\, even before the Oct 8 paper cutoff. The separate four-page Blue
-  Sky Ideas track remains a forthcoming opportunity\; author registration 
- is announced for Oct 20 but no exact opening hour is given. Its Nov 5 gat
- e only controls its Nov 12 short papers. AAAI fast-track and already publ
- ished JAAMAS presentations are not general new-paper routes. Size XL is a
- n editorial estimate. Historical acceptance covers main full papers only\
- , not Blue Sky Ideas or the newly introduced 2027 Findings track.\nScope:
-  Autonomous agents and multi-agent systems: learning and adaptation\, coo
- rdination\, game theory\, planning\, reasoning\, agent engineering\, and 
- agent-based simulation. Also covers human-agent interaction\, robot teams
- \, norms and governance\, and generative agents. The contribution should 
- concern agents or their interaction\; generic language-model or learning 
- results are not automatically in scope.\nAdditional topics: Deep Represen
- tation Learning\, Probabilistic\, Causal & Uncertainty ML\, Evolutionary 
- Computation & Optimization\, Complex Systems & Network Science\, Ethics &
-  Governance\, Explainability & Interpretability\nScope sources (2027): ht
- tps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nSco
- pe last checked: 2026-10-07
+ : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Au
+ tonomous Agents & Multiagent Systems\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short papers\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual flagshi
+ p meeting in Hanoi. New main-track submissions are closed because the Oct
+  1 abstract gate has passed\, even before the Oct 8 paper cutoff. The sep
+ arate four-page Blue Sky Ideas track remains a forthcoming opportunity\; 
+ author registration is announced for Oct 20 but no exact opening hour is 
+ given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-tr
+ ack and already published JAAMAS presentations are not general new-paper 
+ routes. Size XL is an editorial estimate. Historical acceptance covers ma
+ in full papers only\, not Blue Sky Ideas or the newly introduced 2027 Fin
+ dings track.\nScope: Autonomous agents and multi-agent systems: learning 
+ and adaptation\, coordination\, game theory\, planning\, reasoning\, agen
+ t engineering\, and agent-based simulation. Also covers human-agent inter
+ action\, robot teams\, norms and governance\, and generative agents. The 
+ contribution should concern agents or their interaction\; generic languag
+ e-model or learning results are not automatically in scope.\nAdditional t
+ opics: Deep Representation Learning\, Probabilistic\, Causal & Uncertaint
+ y ML\, Control & Robotics\, Complex Systems & Network Science\, Ethics & 
+ Governance\, Explainability & Interpretability\nScope sources (2027): htt
+ ps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nScop
+ e last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
 END:VEVENT
@@ -5896,6 +6314,31 @@ DESCRIPTION:Conference title: International Conference on Artificial Intell
 URL:https://aime27.aimedicine.info/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Estimated mandatory abstract deadline (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://iswc202
+ 6.semanticweb.org/importantdates\nLocation: To be announced\nTopics: Know
+ ledge Representation & Reasoning\, Graphs & Graph Learning\, Data Mining 
+ & Data Science\, Information Retrieval & Search\nSize: M\nSubmission type
+ : Paper-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNote
+ s: SWSA confirms an annual 2027 edition in October/November but not exact
+  dates or location. October 25-29 and submission cutoffs are one-year pro
+ xies from 2026. Size is an editorial estimate.\nScope: Semantic Web and l
+ inked-data research: ontologies\, knowledge graphs\, representation and r
+ easoning\, semantic integration\, querying\, and knowledge-supported AI. 
+ Graph learning is relevant through semantic data and knowledge structures
+ \; this is not the IEEE wearable-computing symposium with the same acrony
+ m.\nAdditional topics: Machine Learning\, Explainability & Interpretabili
+ ty\nScope sources (2026): https://iswc2026.semanticweb.org/calls/research
+ \nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
 UID:satml-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270504
@@ -5925,6 +6368,37 @@ URL:https://satml.org/
 LOCATION:Reykjavik\, Iceland
 END:VEVENT
 BEGIN:VEVENT
+UID:smc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Estimated regular paper submission deadline (estimated) (cutoff time unan
+ nounced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc2026.org/Important-Dates\nLocation: Ho
+  Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
+ Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
+ ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
+ 10 appears only in the hosting proposal\, so remains provisional\; deadli
+ nes are one-year proxies from 2026. Do not present proposal dates or unan
+ nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
+  Systems science\, cybernetics\, and human-machine systems. Characteristi
+ c ML-facing work includes intelligent and learning-based control\, autono
+ mous systems\, adaptive decision-making\, and human-AI interaction\; brai
+ n-machine interfaces and cognitive systems are meaningful extensions. Its
+  interdisciplinary remit is curated without tagging every industrial appl
+ ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
+  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
+ ognitive Science & Computational Cognition\nScope sources (2026): https:/
+ /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
 UID:colt-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270507T115900Z
@@ -5949,6 +6423,31 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
  cked: 2026-10-07
 URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270508T115900Z
+DTEND:20270508T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://iswc202
+ 6.semanticweb.org/importantdates\nLocation: To be announced\nTopics: Know
+ ledge Representation & Reasoning\, Graphs & Graph Learning\, Data Mining 
+ & Data Science\, Information Retrieval & Search\nSize: M\nSubmission type
+ : Paper-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNote
+ s: SWSA confirms an annual 2027 edition in October/November but not exact
+  dates or location. October 25-29 and submission cutoffs are one-year pro
+ xies from 2026. Size is an editorial estimate.\nScope: Semantic Web and l
+ inked-data research: ontologies\, knowledge graphs\, representation and r
+ easoning\, semantic integration\, querying\, and knowledge-supported AI. 
+ Graph learning is relevant through semantic data and knowledge structures
+ \; this is not the IEEE wearable-computing symposium with the same acrony
+ m.\nAdditional topics: Machine Learning\, Explainability & Interpretabili
+ ty\nScope sources (2026): https://iswc2026.semanticweb.org/calls/research
+ \nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
 END:VEVENT
 BEGIN:VEVENT
 UID:automl-2027-deadline-full-paper@scientific-conference-calendar
@@ -5995,6 +6494,37 @@ DESCRIPTION:Conference title: IEEE International Conference on Acoustics\,
  and the full paper submission deadline.
 URL:https://2027.ieeeicassp.org/
 LOCATION:Toronto\, Canada
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Estimated work-in-progress paper deadline (estimated) (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc2026.org/Important-Dates\nLocation: Ho
+  Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
+ Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
+ ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
+ 10 appears only in the hosting proposal\, so remains provisional\; deadli
+ nes are one-year proxies from 2026. Do not present proposal dates or unan
+ nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
+  Systems science\, cybernetics\, and human-machine systems. Characteristi
+ c ML-facing work includes intelligent and learning-based control\, autono
+ mous systems\, adaptive decision-making\, and human-AI interaction\; brai
+ n-machine interfaces and cognitive systems are meaningful extensions. Its
+  interdisciplinary remit is curated without tagging every industrial appl
+ ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
+  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
+ ognitive Science & Computational Cognition\nScope sources (2026): https:/
+ /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
 UID:siam-ds-2027-conference@scientific-conference-calendar
@@ -6672,6 +7202,35 @@ URL:https://itise.ugr.es/index.html
 LOCATION:Gran Canaria\, Spain
 END:VEVENT
 BEGIN:VEVENT
+UID:sigir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Conference
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/\nLocation: San Jose\, California\, USA\n
+ Topics: Information Retrieval & Search\, Recommender Systems\, Natural La
+ nguage Processing & LLMs\, Machine Learning\nSize: XL\nSubmission type: P
+ aper-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: 
+ Homepage confirms July 18-24 conference week (title says July 19-24). CFP
+  explicitly labels the deadline table PROPOSED\; retain estimated deadlin
+ es rather than presenting these as finalized cutoffs. Mandatory abstract 
+ gate. Size is an editorial estimate.\nScope: Information access\, search 
+ and ranking\, query and content understanding\, recommendation\, conversa
+ tional and multimodal retrieval\, and evaluation of retrieval systems. Le
+ arning and language models are relevant through an information-retrieval 
+ contribution\, including retrieval-augmented generation. The 2027 detaile
+ d track pages contain organizer placeholders\; scope should be rechecked 
+ when finalized.\nAdditional topics: Multimedia Learning & Retrieval\, Hum
+ an-AI Interaction & Deployment\, Fairness & Responsible AI\, ML Systems &
+  Infrastructure\nScope sources (2027): https://sigir2027.org/pages/submit
+ -full.html\nScope last checked: 2026-10-07
+URL:https://sigir2027.org/
+LOCATION:San Jose\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:kr-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270720
@@ -6961,6 +7520,33 @@ URL:https://www.auai.org/uai2026/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:recsys-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270823
+DTEND;VALUE=DATE:20270828
+SUMMARY:[Recommender Systems][Machine Learning] RecSys 2027 - Conference
+DESCRIPTION:Conference title: ACM Conference on Recommender Systems\nWebsit
+ e: https://recsys.acm.org/recsys27/\nSource URL: https://recsys.acm.org/r
+ ecsys27/\nLocation: Honolulu\, Hawaii\, USA\nTopics: Recommender Systems\
+ , Machine Learning\, Information Retrieval & Search\, Human-AI Interactio
+ n & Deployment\nSize: L\nSubmission type: Paper-based\nConfidence: confir
+ med\nLast checked date: 2026-10-07\nNotes: 2027 Hawaii meeting is confirm
+ ed. Main-track deadlines are one-year proxies from 2026\; long and short 
+ papers shared the same abstract gate in that edition. Do not infer a spec
+ ial twentieth-anniversary track for 2027. Size is an editorial estimate.\
+ nScope: Recommendation and personalization: user-item modeling\, collabor
+ ative and content-based methods\, sequential and conversational recommend
+ ation\, evaluation\, and deployed recommendation systems. Human and econo
+ mic impacts matter alongside algorithms. Sequential data is relevant spec
+ ifically through recommendation behavior\; this is not a general forecast
+ ing conference.\nAdditional topics: Time Series & Sequential Data\, Natur
+ al Language Processing & LLMs\, Fairness & Responsible AI\, Explainabilit
+ y & Interpretability\nScope sources (2026): https://recsys.acm.org/recsys
+ 26/call/\nScope last checked: 2026-10-07
+URL:https://recsys.acm.org/recsys27/
+LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:interspeech-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270829
@@ -7244,6 +7830,61 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  m/Conferences/2025/CallForPapers\nScope last checked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2027
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271011
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Conference (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc.org/conferences/calendar/\nLocation: 
+ Ho Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems 
+ & Network Science\, Machine Learning\, Human-AI Interaction & Deployment\
+ nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 
+ 7-10 appears only in the hosting proposal\, so remains provisional\; dead
+ lines are one-year proxies from 2026. Do not present proposal dates or un
+ announced cutoff hours as confirmed. Size is an editorial estimate.\nScop
+ e: Systems science\, cybernetics\, and human-machine systems. Characteris
+ tic ML-facing work includes intelligent and learning-based control\, auto
+ nomous systems\, adaptive decision-making\, and human-AI interaction\; br
+ ain-machine interfaces and cognitive systems are meaningful extensions. I
+ ts interdisciplinary remit is curated without tagging every industrial ap
+ plication as a core specialty.\nAdditional topics: Reinforcement Learning
+ \, System Identification & Data-driven Dynamics\, BCI & Neurotechnology\,
+  Cognitive Science & Computational Cognition\nScope sources (2026): https
+ ://www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07
+URL:https://www.ieeesmc.org/conferences/calendar/
+LOCATION:Ho Chi Minh City\, Vietnam
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271030
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://swsa.se
+ manticweb.org/conferences/\nLocation: To be announced\nTopics: Knowledge 
+ Representation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data
+  Science\, Information Retrieval & Search\nSize: M\nSubmission type: Pape
+ r-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: SWS
+ A confirms an annual 2027 edition in October/November but not exact dates
+  or location. October 25-29 and submission cutoffs are one-year proxies f
+ rom 2026. Size is an editorial estimate.\nScope: Semantic Web and linked-
+ data research: ontologies\, knowledge graphs\, representation and reasoni
+ ng\, semantic integration\, querying\, and knowledge-supported AI. Graph 
+ learning is relevant through semantic data and knowledge structures\; thi
+ s is not the IEEE wearable-computing symposium with the same acronym.\nAd
+ ditional topics: Machine Learning\, Explainability & Interpretability\nSc
+ ope sources (2026): https://iswc2026.semanticweb.org/calls/research\nScop
+ e last checked: 2026-10-07
+URL:https://swsa.semanticweb.org/conferences/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:acpr-2027-conference@scientific-conference-calendar

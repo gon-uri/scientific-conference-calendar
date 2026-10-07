@@ -72,7 +72,7 @@ does not yet count as an unrestricted route.
 
 The AI Deadlines comparison and expansion backlog live in
 `project_docs/conference_candidates.md`. It preserves 57 originally missing
-series, split into 11 approved additions and 46 remaining candidates, plus
+series, split into 42 added and 15 deferred candidates, plus
 future-only ICWM. It is discovery material, not a second data source.
 When approving a candidate, check names/aliases before creating a new series;
 AutoML/AUTOMLCONF, LoG/LOG, and SaTML/SATML are the same series, while LoG and
@@ -87,20 +87,22 @@ lists or substitute a historical ICORE/CORE rank for the current release.
 
 Assign up to four unique, central leaves from `data/topics.yml`. Prefer the
 organizer's core CFP/scope over incidental applications; do not force four.
-Parents come from `data/topic_families.yml`, never duplicate them in editions.
-Every leaf must have one family and one compact display label. Keep stable
-keys/feed slugs when changing presentation labels. Federated learning belongs
-to ML & AI; it does not itself prove privacy or ethics coverage. The seventh
-family represents responsible/trustworthy AI where it is central to scope.
+Every leaf must have one family and one compact label in `data/topic_families.yml`.
+Assign every series one to three central identities in `data/conference_families.yml`;
+never duplicate family IDs in edition records or infer them from a generic ML tag.
+Whole-family selection uses those identities. Individual subtopics and Time series
+use the primary/additional union. Keep stable keys/feed slugs. Federated learning
+belongs to ML & Data Science; it does not itself prove privacy or ethics coverage.
+Responsible & Trustworthy AI remains a dedicated family, including human-AI interaction.
 See `topic_audit.md` for source examples and current family coverage.
 
 For richer discovery, curate `data/conference_scopes.yml` by exact series.
 It holds zero to six characteristic additional leaves, useful scope prose,
 official URLs, evidence year, and a scope review date. A huge CFP list should
 be reduced to defining areas, not copied wholesale. Tables keep four main tags;
-search, filters, map matching, and topic feeds use the curated union. Missing
+search, individual subtopic filters, map matching, and topic feeds use the curated union. Missing
 profiles fall back to main topics and enter the review queue. Current coverage
-is 45 of 97 series; 52 remain to review. See `conference_scopes.md` for the
+is 63 of 113 series; 50 remain to review. See `conference_scopes.md` for the
 schema, editorial examples, evidence limitations, and monthly procedure.
 
 The AI/vision/multimedia expansion has a focused evidence and follow-up list in
@@ -121,6 +123,15 @@ hybrid, whose start is still in the future. Estimated dates remain in the
 table; past/ongoing meetings are separate. Search/topic/rank/rate/size filters
 also filter map markers. The submission-opportunities checkbox is deadlines
 only, so it cannot hide meetings from the map.
+
+The language/robotics evidence checklist is in `nlp_robotics_expansion.md`.
+Recheck SIGIR's PROPOSED deadlines before confirming them; seek 2027 CFPs for
+EMNLP, CoNLL, COLM, ISWC, RecSys and SMC. LREC rolls over by two years.
+NAACL, COLING and IJCNLP have irregular/joint cadence and are deliberately not
+in the automatic rollover map. ARR commitment is not a fresh-paper deadline.
+RSS stage 1 gates its invited stage 2; ECIR's resource-paper route is independent.
+SMC proposal dates do not establish confirmed 2027 meeting dates. Do not
+silently choose a camera-ready date from conflicting organizer blocks.
 
 ## Catalog Workbook
 

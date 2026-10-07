@@ -3,6 +3,18 @@ checked_on: "2026-10-07"
 source_url: "https://www.ccf.org.cn/ccf/contentcore/resource/download?ID=112CF3BF7E1140ACEB271ADAED12A67ADFABB8FF099E40C2759502A85C8A281F"
 page_url: "https://www.ccf.org.cn/Academic_Evaluation/By_category/2026-03-31/870181.shtml"
 rankings:
+  "ACL": {rank: "A", page: 57}
+  "EMNLP": {rank: "B", page: 58}
+  "NAACL": {rank: "B", page: 58}
+  "COLING": {rank: "B", page: 58}
+  "CoNLL": {rank: "C", page: 59}
+  "SIGIR": {rank: "A", page: 35}
+  "ECIR": {rank: "C", page: 37}
+  "RecSys": {rank: "B", page: 36}
+  "WWW": {rank: "A", page: 70}
+  "ISWC": {rank: "B", page: 36}
+  "ICRA": {rank: "B", page: 58}
+  "SMC": {rank: "C", page: 72}
   "AAAI": {rank: "A", page: 57}
   "AAMAS": {rank: "B", page: 58}
   "ACML": {rank: "C", page: 59}

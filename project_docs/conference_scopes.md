@@ -4,8 +4,8 @@ Reviewed: 2026-10-07
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Current coverage is 45 of 97 series, including all
-26 AI Deadlines additions. The other 52 are explicitly queued for review;
+by exact conference series. Current coverage is 63 of 113 series, including all
+42 AI Deadlines additions plus CIKM/WSDM. The other 50 are explicitly queued for review;
 an absent profile is not replaced by guessed information.
 
 ## Data Ownership
@@ -59,10 +59,13 @@ coverage without blanket application-domain labels.
 
 - Tables still show only the edition's main topics, with no new column.
 - Text search also matches the scope summary, additional leaves, compact topic
-  labels, and derived family names.
-- Hierarchical topic filters match the deduplicated union of primary and
-  additional topics. Existing OR-within-family and ANY/ALL-between-family rules
-  remain unchanged, as do size/rank/rate filters and opportunity status.
+  labels, and central family names.
+- Whole-family checkboxes match curated central identities in
+  `data/conference_families.yml`. Individual subtopics match the deduplicated
+  primary/additional union. The Time series shortcut uses the same leaf union.
+  Subtopics within a family use OR, and selected groups use ANY/ALL. Selecting
+  every child switches to whole-family matching, just like its parent checkbox.
+  Size/rank/rate filters and opportunity status are independent.
 - Both tabs and the confirmed-city map use the same expanded matching. Scope
   metadata does not make an estimated meeting eligible for the map.
 - Topic ICS feeds use the same union. Event descriptions include the curated

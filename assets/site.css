@@ -50,7 +50,9 @@ h1 { font-family: Audiowide, "Segoe UI", system-ui, sans-serif; font-size: 2.625
 .topic-family summary:hover { background: var(--surface); }
 .topic-family summary::after { content: '+'; position: absolute; right: 0; top: 50%; transform: translateY(-50%); color: var(--muted); }
 .topic-family[open] summary::after { content: '-'; }
-.topic-family summary label { display: inline-flex; width: calc(100% - 30px); vertical-align: middle; font-weight: 600; }
+.topic-family summary label { display: inline-flex; width: calc(100% - 30px); vertical-align: middle; font-size: inherit; font-weight: 600; }
+.topic-family summary label span { white-space: nowrap; }
+.topic-shortcut { margin-bottom: 8px; color: var(--accent); font-weight: 600; }
 .topic-family .check-list { margin: 9px 0 2px 23px; }
 .topic-mode { display: flex; align-items: center; gap: 8px; min-width: 0; }
 .topic-mode select { width: auto; min-width: 0; padding: 3px 7px; font-size: .78rem; }
@@ -105,7 +107,7 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
 .author { margin-top: 13px; }
 .author-links { display: flex; flex-wrap: wrap; gap: 8px 15px; margin-top: 5px; }
 [hidden] { display: none !important; }
-@media (max-width: 1050px) {
+@media (max-width: 1200px) {
   .filter-grid { grid-template-columns: 64px 98px 98px 122px minmax(180px, 340px); gap: 18px; }
   .topic-filter { grid-column: 1 / -1; max-width: 360px; }
 }
@@ -135,4 +137,9 @@ footer { font-size: .78rem; line-height: 1.65; padding-top: 18px; }
   #conference-map { height: 250px; }
   .map-heading { align-items: flex-start; flex-direction: column; gap: 2px; }
   .leaflet-popup-content { max-width: 230px; }
+}
+@media (max-width: 400px) {
+  .topic-tree { padding-right: 6px; padding-left: 6px; }
+  .topic-family summary { font-size: .75rem; }
+  .topic-family summary label { width: calc(100% - 22px); gap: 5px; }
 }

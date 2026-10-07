@@ -55,6 +55,11 @@ const newDefinitions = {
   'Computer Graphics & Visualization': 'Rendering, geometry, animation, visual simulation, and visualization, including learning-based methods.',
   'Multimedia Learning & Retrieval': 'Learning from multiple media, multimodal fusion, content understanding, indexing, search, and retrieval.',
   'Biometrics & Human Sensing': 'Biometric identity, face and gesture recognition, body motion, behavioral sensing, and biometric evaluation.',
+  'Autonomous Agents & Multiagent Systems': 'Autonomous agents, coordination, negotiation, communication, and multiagent systems. Distinct from LLM tool use.',
+  'LLM Agents & Tool Use': 'Language-model agents, tool use, agentic workflows, and language-mediated agent communication.',
+  'Information Retrieval & Search': 'Search, ranking, information access, conversational retrieval, and retrieval-augmented generation.',
+  'Recommender Systems': 'Personalization, recommendation models, user-item interaction, and recommendation evaluation.',
+  'Graphs & Graph Learning': 'Graph mining, graph representation learning, graph neural networks, and learning on structured networks.',
 };
 const topicByName = new Map(payload.topics.map((topic) => [topic.tag, topic]));
 const topicOrder = payload.topics.map((topic) => topic.tag);

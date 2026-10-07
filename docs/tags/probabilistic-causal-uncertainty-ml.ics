@@ -584,25 +584,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -615,25 +615,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -780,28 +780,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -840,28 +840,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -904,25 +904,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -936,28 +936,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -1002,28 +1002,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -1037,25 +1037,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
  Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
- ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
- istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
-  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
- \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
- ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
- roceedings papers and non-archival extended abstracts share the registrat
- ion and final submission cutoffs\, represented as one route. The TMLR pre
- sentation track requires an already published paper\, so it is not a new-
- paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
- stimate.\nScope: Learning on graphs and geometry: graph neural networks\,
-  equivariant models\, graph kernels\, geometric and graph generative mode
- ls\, and statistical theory for structured data. Graph signal processing\
- , causal graph models\, robustness\, and scalable graph-learning infrastr
- ucture are meaningful extensions. A graph or geometric contribution shoul
- d remain central\, even in an application such as language or molecular m
- odeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Si
- gnal Processing\, Robustness & Safety\, ML Systems & Infrastructure\nScop
- e sources (2026): https://logconference.org/cfp/\nScope last checked: 202
- 6-10-07
+ ion Learning\, Graphs & Graph Learning\, Learning Theory & Statistical Fo
+ undations\nSize: M\nSubmission type: Paper-based / non-archival extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: F
+ ifth annual edition\, in person at Northeastern University. Extended Aug 
+ 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceedings
+  papers and non-archival extended abstracts share the registration and fi
+ nal submission cutoffs\, represented as one route. The TMLR presentation 
+ track requires an already published paper\, so it is not a new-paper oppo
+ rtunity. LoG is distinct from LOD/AIS. Size M is an editorial estimate.\n
+ Scope: Learning on graphs and geometry: graph neural networks\, equivaria
+ nt models\, graph kernels\, geometric and graph generative models\, and s
+ tatistical theory for structured data. Graph signal processing\, causal g
+ raph models\, robustness\, and scalable graph-learning infrastructure are
+  meaningful extensions. A graph or geometric contribution should remain c
+ entral\, even in an application such as language or molecular modeling.\n
+ Additional topics: Complex Systems & Network Science\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML Syst
+ ems & Infrastructure\nScope sources (2026): https://logconference.org/cfp
+ /\nScope last checked: 2026-10-07
 URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
@@ -1175,6 +1175,33 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
   (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
  0-07
 URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261205T115900Z
+DTEND:20261205T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Stage 1 ext
+ ended abstract submission deadline
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:neurips-2026-conference@scientific-conference-calendar
@@ -1326,28 +1353,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-main-track/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning\, R
- einforcement Learning\, Control & Robotics\, Human-AI Interaction & Deplo
- yment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short pape
- rs\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual f
- lagship meeting in Hanoi. New main-track submissions are closed because t
- he Oct 1 abstract gate has passed\, even before the Oct 8 paper cutoff. T
- he separate four-page Blue Sky Ideas track remains a forthcoming opportun
- ity\; author registration is announced for Oct 20 but no exact opening ho
- ur is given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI f
- ast-track and already published JAAMAS presentations are not general new-
- paper routes. Size XL is an editorial estimate. Historical acceptance cov
- ers main full papers only\, not Blue Sky Ideas or the newly introduced 20
- 27 Findings track.\nScope: Autonomous agents and multi-agent systems: lea
- rning and adaptation\, coordination\, game theory\, planning\, reasoning\
- , agent engineering\, and agent-based simulation. Also covers human-agent
-  interaction\, robot teams\, norms and governance\, and generative agents
- . The contribution should concern agents or their interaction\; generic l
- anguage-model or learning results are not automatically in scope.\nAdditi
- onal topics: Deep Representation Learning\, Probabilistic\, Causal & Unce
- rtainty ML\, Evolutionary Computation & Optimization\, Complex Systems & 
- Network Science\, Ethics & Governance\, Explainability & Interpretability
- \nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls
- /call-for-main-track/\nScope last checked: 2026-10-07
+ einforcement Learning\, Autonomous Agents & Multiagent Systems\, Human-AI
+  Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / Blue 
+ Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 2026-10
+ -07\nNotes: Annual flagship meeting in Hanoi. New main-track submissions 
+ are closed because the Oct 1 abstract gate has passed\, even before the O
+ ct 8 paper cutoff. The separate four-page Blue Sky Ideas track remains a 
+ forthcoming opportunity\; author registration is announced for Oct 20 but
+  no exact opening hour is given. Its Nov 5 gate only controls its Nov 12 
+ short papers. AAAI fast-track and already published JAAMAS presentations 
+ are not general new-paper routes. Size XL is an editorial estimate. Histo
+ rical acceptance covers main full papers only\, not Blue Sky Ideas or the
+  newly introduced 2027 Findings track.\nScope: Autonomous agents and mult
+ i-agent systems: learning and adaptation\, coordination\, game theory\, p
+ lanning\, reasoning\, agent engineering\, and agent-based simulation. Als
+ o covers human-agent interaction\, robot teams\, norms and governance\, a
+ nd generative agents. The contribution should concern agents or their int
+ eraction\; generic language-model or learning results are not automatical
+ ly in scope.\nAdditional topics: Deep Representation Learning\, Probabili
+ stic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems & N
+ etwork Science\, Ethics & Governance\, Explainability & Interpretability\
+ nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/
+ call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
@@ -1526,28 +1553,28 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call
  -for-blue-sky-ideas/\nLocation: Hanoi\, Vietnam\nTopics: Machine Learning
- \, Reinforcement Learning\, Control & Robotics\, Human-AI Interaction & D
- eployment\nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short 
- papers\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annu
- al flagship meeting in Hanoi. New main-track submissions are closed becau
- se the Oct 1 abstract gate has passed\, even before the Oct 8 paper cutof
- f. The separate four-page Blue Sky Ideas track remains a forthcoming oppo
- rtunity\; author registration is announced for Oct 20 but no exact openin
- g hour is given. Its Nov 5 gate only controls its Nov 12 short papers. AA
- AI fast-track and already published JAAMAS presentations are not general 
- new-paper routes. Size XL is an editorial estimate. Historical acceptance
-  covers main full papers only\, not Blue Sky Ideas or the newly introduce
- d 2027 Findings track.\nScope: Autonomous agents and multi-agent systems:
-  learning and adaptation\, coordination\, game theory\, planning\, reason
- ing\, agent engineering\, and agent-based simulation. Also covers human-a
- gent interaction\, robot teams\, norms and governance\, and generative ag
- ents. The contribution should concern agents or their interaction\; gener
- ic language-model or learning results are not automatically in scope.\nAd
- ditional topics: Deep Representation Learning\, Probabilistic\, Causal & 
- Uncertainty ML\, Evolutionary Computation & Optimization\, Complex System
- s & Network Science\, Ethics & Governance\, Explainability & Interpretabi
- lity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/c
- alls/call-for-main-track/\nScope last checked: 2026-10-07
+ \, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\, Huma
+ n-AI Interaction & Deployment\nSize: XL\nSubmission type: Paper-based / B
+ lue Sky Ideas short papers\nConfidence: confirmed\nLast checked date: 202
+ 6-10-07\nNotes: Annual flagship meeting in Hanoi. New main-track submissi
+ ons are closed because the Oct 1 abstract gate has passed\, even before t
+ he Oct 8 paper cutoff. The separate four-page Blue Sky Ideas track remain
+ s a forthcoming opportunity\; author registration is announced for Oct 20
+  but no exact opening hour is given. Its Nov 5 gate only controls its Nov
+  12 short papers. AAAI fast-track and already published JAAMAS presentati
+ ons are not general new-paper routes. Size XL is an editorial estimate. H
+ istorical acceptance covers main full papers only\, not Blue Sky Ideas or
+  the newly introduced 2027 Findings track.\nScope: Autonomous agents and 
+ multi-agent systems: learning and adaptation\, coordination\, game theory
+ \, planning\, reasoning\, agent engineering\, and agent-based simulation.
+  Also covers human-agent interaction\, robot teams\, norms and governance
+ \, and generative agents. The contribution should concern agents or their
+  interaction\; generic language-model or learning results are not automat
+ ically in scope.\nAdditional topics: Deep Representation Learning\, Proba
+ bilistic\, Causal & Uncertainty ML\, Control & Robotics\, Complex Systems
+  & Network Science\, Ethics & Governance\, Explainability & Interpretabil
+ ity\nScope sources (2027): https://warwick.ac.uk/fac/sci/dcs/aamas2027/ca
+ lls/call-for-main-track/\nScope last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-blue-sky-ide
  as/
 END:VEVENT
@@ -1753,6 +1780,33 @@ DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
 URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
+UID:rss-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Stage 2 fin
+ al paper deadline (invited authors only)
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
+END:VEVENT
+BEGIN:VEVENT
 UID:ida-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270421
@@ -1809,29 +1863,29 @@ SUMMARY:[Machine Learning][Reinforcement Learning] AAMAS 2027 - Conference
 DESCRIPTION:Conference title: International Conference on Autonomous Agents
   and Multiagent Systems\nWebsite: https://warwick.ac.uk/fac/sci/dcs/aamas
  2027/\nSource URL: https://warwick.ac.uk/fac/sci/dcs/aamas2027/\nLocation
- : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Co
- ntrol & Robotics\, Human-AI Interaction & Deployment\nSize: XL\nSubmissio
- n type: Paper-based / Blue Sky Ideas short papers\nConfidence: confirmed\
- nLast checked date: 2026-10-07\nNotes: Annual flagship meeting in Hanoi. 
- New main-track submissions are closed because the Oct 1 abstract gate has
-  passed\, even before the Oct 8 paper cutoff. The separate four-page Blue
-  Sky Ideas track remains a forthcoming opportunity\; author registration 
- is announced for Oct 20 but no exact opening hour is given. Its Nov 5 gat
- e only controls its Nov 12 short papers. AAAI fast-track and already publ
- ished JAAMAS presentations are not general new-paper routes. Size XL is a
- n editorial estimate. Historical acceptance covers main full papers only\
- , not Blue Sky Ideas or the newly introduced 2027 Findings track.\nScope:
-  Autonomous agents and multi-agent systems: learning and adaptation\, coo
- rdination\, game theory\, planning\, reasoning\, agent engineering\, and 
- agent-based simulation. Also covers human-agent interaction\, robot teams
- \, norms and governance\, and generative agents. The contribution should 
- concern agents or their interaction\; generic language-model or learning 
- results are not automatically in scope.\nAdditional topics: Deep Represen
- tation Learning\, Probabilistic\, Causal & Uncertainty ML\, Evolutionary 
- Computation & Optimization\, Complex Systems & Network Science\, Ethics &
-  Governance\, Explainability & Interpretability\nScope sources (2027): ht
- tps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nSco
- pe last checked: 2026-10-07
+ : Hanoi\, Vietnam\nTopics: Machine Learning\, Reinforcement Learning\, Au
+ tonomous Agents & Multiagent Systems\, Human-AI Interaction & Deployment\
+ nSize: XL\nSubmission type: Paper-based / Blue Sky Ideas short papers\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Annual flagshi
+ p meeting in Hanoi. New main-track submissions are closed because the Oct
+  1 abstract gate has passed\, even before the Oct 8 paper cutoff. The sep
+ arate four-page Blue Sky Ideas track remains a forthcoming opportunity\; 
+ author registration is announced for Oct 20 but no exact opening hour is 
+ given. Its Nov 5 gate only controls its Nov 12 short papers. AAAI fast-tr
+ ack and already published JAAMAS presentations are not general new-paper 
+ routes. Size XL is an editorial estimate. Historical acceptance covers ma
+ in full papers only\, not Blue Sky Ideas or the newly introduced 2027 Fin
+ dings track.\nScope: Autonomous agents and multi-agent systems: learning 
+ and adaptation\, coordination\, game theory\, planning\, reasoning\, agen
+ t engineering\, and agent-based simulation. Also covers human-agent inter
+ action\, robot teams\, norms and governance\, and generative agents. The 
+ contribution should concern agents or their interaction\; generic languag
+ e-model or learning results are not automatically in scope.\nAdditional t
+ opics: Deep Representation Learning\, Probabilistic\, Causal & Uncertaint
+ y ML\, Control & Robotics\, Complex Systems & Network Science\, Ethics & 
+ Governance\, Explainability & Interpretability\nScope sources (2027): htt
+ ps://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/\nScop
+ e last checked: 2026-10-07
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/
 LOCATION:Hanoi\, Vietnam
 END:VEVENT
@@ -1933,6 +1987,33 @@ DESCRIPTION:Conference title: International Conference on Automated Machine
  nguage Processing & LLMs\, Robustness & Safety\nScope sources (2026): htt
  ps://2026.automl.cc/call-for-papers/\nScope last checked: 2026-10-07
 URL:https://2026.automl.cc/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270515T115900Z
+DTEND:20270515T125900Z
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Camera-read
+ y deadline
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/in
+ formation/cfp/\nLocation: Athens\, Greece\nTopics: Control & Robotics\, R
+ einforcement Learning\, System Identification & Data-driven Dynamics\, Co
+ mputer Vision & Pattern Recognition\nSize: M\nSubmission type: Paper-base
+ d\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: New two-s
+ tage 2027 process requires a six-page initial submission by December 4\, 
+ 2026. Only authors invited after review may submit the April final paper\
+ ; it is not a fresh-paper route after stage 1 closes. Size is an editoria
+ l estimate.\nScope: Focused robotics research linking perception\, learni
+ ng\, planning\, control\, manipulation\, and robot-system science. Reinfo
+ rcement and imitation learning\, model-based behavior\, and reliable auto
+ nomous systems are characteristic intersections. The 2027 review process 
+ emphasizes a scientifically developed robotic hypothesis through gated in
+ itial and invited final submissions.\nAdditional topics: Planning & Searc
+ h\, Deep Representation Learning\, Probabilistic\, Causal & Uncertainty M
+ L\, Robustness & Safety\nScope sources (2027): https://roboticsconference
+ .org/information/cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/information/cfp/
 END:VEVENT
 BEGIN:VEVENT
 UID:icaps-2027-conference@scientific-conference-calendar
@@ -2111,6 +2192,33 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
  s/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://icml.cc/Conferences/FutureMeetings
 LOCATION:South America (city to be announced)
+END:VEVENT
+BEGIN:VEVENT
+UID:rss-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270706
+DTEND;VALUE=DATE:20270712
+SUMMARY:[Control & Robotics][Reinforcement Learning] RSS 2027 - Conference
+DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
+ ://roboticsconference.org/\nSource URL: https://roboticsconference.org/\n
+ Location: Athens\, Greece\nTopics: Control & Robotics\, Reinforcement Lea
+ rning\, System Identification & Data-driven Dynamics\, Computer Vision & 
+ Pattern Recognition\nSize: M\nSubmission type: Paper-based\nConfidence: c
+ onfirmed\nLast checked date: 2026-10-07\nNotes: New two-stage 2027 proces
+ s requires a six-page initial submission by December 4\, 2026. Only autho
+ rs invited after review may submit the April final paper\; it is not a fr
+ esh-paper route after stage 1 closes. Size is an editorial estimate.\nSco
+ pe: Focused robotics research linking perception\, learning\, planning\, 
+ control\, manipulation\, and robot-system science. Reinforcement and imit
+ ation learning\, model-based behavior\, and reliable autonomous systems a
+ re characteristic intersections. The 2027 review process emphasizes a sci
+ entifically developed robotic hypothesis through gated initial and invite
+ d final submissions.\nAdditional topics: Planning & Search\, Deep Represe
+ ntation Learning\, Probabilistic\, Causal & Uncertainty ML\, Robustness &
+  Safety\nScope sources (2027): https://roboticsconference.org/information
+ /cfp/\nScope last checked: 2026-10-07
+URL:https://roboticsconference.org/
+LOCATION:Athens\, Greece
 END:VEVENT
 BEGIN:VEVENT
 UID:uai-2027-deadline-camera-ready@scientific-conference-calendar

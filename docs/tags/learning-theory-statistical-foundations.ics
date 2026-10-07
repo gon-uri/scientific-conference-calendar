@@ -147,6 +147,60 @@ DESCRIPTION:Conference title: Conference on Uncertainty in Artificial Intel
 URL:https://www.auai.org/uai2026/important_dates
 END:VEVENT
 BEGIN:VEVENT
+UID:colm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260327T115900Z
+DTEND:20260327T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Mandatory abstract deadline
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: San Francisco\, California\, USA\nTopics: Natural Language Pr
+ ocessing & LLMs\, Deep Representation Learning\, LLM Agents & Tool Use\, 
+ Information Retrieval & Search\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Third annual e
+ dition\, Hilton Union Square. Ongoing conference with new-paper submissio
+ ns closed\; October 9 workshops included. Size is an editorial estimate.\
+ nScope: Language-model foundations and methods: training and architecture
+ \, data and scaling\, inference and generation\, evaluation\, reasoning\,
+  retrieval augmentation\, and tool-using language agents. Alignment\, int
+ erpretability\, and multimodal language models are meaningful extensions.
+  A central language-model contribution distinguishes the conference from 
+ generic AI applications.\nAdditional topics: Learning Theory & Statistica
+ l Foundations\, Explainability & Interpretability\, Robustness & Safety\,
+  Fairness & Responsible AI\, Multimedia Learning & Retrieval\nScope sourc
+ es (2026): https://colm.cc/Conferences/2026/CallForPapers\nScope last che
+ cked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260401T115900Z
+DTEND:20260401T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: San Francisco\, California\, USA\nTopics: Natural Language Pr
+ ocessing & LLMs\, Deep Representation Learning\, LLM Agents & Tool Use\, 
+ Information Retrieval & Search\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Third annual e
+ dition\, Hilton Union Square. Ongoing conference with new-paper submissio
+ ns closed\; October 9 workshops included. Size is an editorial estimate.\
+ nScope: Language-model foundations and methods: training and architecture
+ \, data and scaling\, inference and generation\, evaluation\, reasoning\,
+  retrieval augmentation\, and tool-using language agents. Alignment\, int
+ erpretability\, and multimodal language models are meaningful extensions.
+  A central language-model contribution distinguishes the conference from 
+ generic AI applications.\nAdditional topics: Learning Theory & Statistica
+ l Foundations\, Explainability & Interpretability\, Robustness & Safety\,
+  Fairness & Responsible AI\, Multimedia Learning & Retrieval\nScope sourc
+ es (2026): https://colm.cc/Conferences/2026/CallForPapers\nScope last che
+ cked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:neurips-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260505T115900Z
@@ -449,25 +503,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -480,25 +534,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -719,6 +773,33 @@ URL:https://discovery-science.org/
 LOCATION:Mainz\, Germany
 END:VEVENT
 BEGIN:VEVENT
+UID:colm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261010
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Conference
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/\nLocation: San Francisco\, Ca
+ lifornia\, USA\nTopics: Natural Language Processing & LLMs\, Deep Represe
+ ntation Learning\, LLM Agents & Tool Use\, Information Retrieval & Search
+ \nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nLast chec
+ ked date: 2026-10-07\nNotes: Third annual edition\, Hilton Union Square. 
+ Ongoing conference with new-paper submissions closed\; October 9 workshop
+ s included. Size is an editorial estimate.\nScope: Language-model foundat
+ ions and methods: training and architecture\, data and scaling\, inferenc
+ e and generation\, evaluation\, reasoning\, retrieval augmentation\, and 
+ tool-using language agents. Alignment\, interpretability\, and multimodal
+  language models are meaningful extensions. A central language-model cont
+ ribution distinguishes the conference from generic AI applications.\nAddi
+ tional topics: Learning Theory & Statistical Foundations\, Explainability
+  & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, M
+ ultimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Con
+ ferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/
+LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:aistats-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261007T115900Z
@@ -783,25 +864,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -938,25 +1019,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
  Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
- ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
- istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
-  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
- \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
- ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
- roceedings papers and non-archival extended abstracts share the registrat
- ion and final submission cutoffs\, represented as one route. The TMLR pre
- sentation track requires an already published paper\, so it is not a new-
- paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
- stimate.\nScope: Learning on graphs and geometry: graph neural networks\,
-  equivariant models\, graph kernels\, geometric and graph generative mode
- ls\, and statistical theory for structured data. Graph signal processing\
- , causal graph models\, robustness\, and scalable graph-learning infrastr
- ucture are meaningful extensions. A graph or geometric contribution shoul
- d remain central\, even in an application such as language or molecular m
- odeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Si
- gnal Processing\, Robustness & Safety\, ML Systems & Infrastructure\nScop
- e sources (2026): https://logconference.org/cfp/\nScope last checked: 202
- 6-10-07
+ ion Learning\, Graphs & Graph Learning\, Learning Theory & Statistical Fo
+ undations\nSize: M\nSubmission type: Paper-based / non-archival extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: F
+ ifth annual edition\, in person at Northeastern University. Extended Aug 
+ 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceedings
+  papers and non-archival extended abstracts share the registration and fi
+ nal submission cutoffs\, represented as one route. The TMLR presentation 
+ track requires an already published paper\, so it is not a new-paper oppo
+ rtunity. LoG is distinct from LOD/AIS. Size M is an editorial estimate.\n
+ Scope: Learning on graphs and geometry: graph neural networks\, equivaria
+ nt models\, graph kernels\, geometric and graph generative models\, and s
+ tatistical theory for structured data. Graph signal processing\, causal g
+ raph models\, robustness\, and scalable graph-learning infrastructure are
+  meaningful extensions. A graph or geometric contribution should remain c
+ entral\, even in an application such as language or molecular modeling.\n
+ Additional topics: Complex Systems & Network Science\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML Syst
+ ems & Infrastructure\nScope sources (2026): https://logconference.org/cfp
+ /\nScope last checked: 2026-10-07
 URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
@@ -1464,6 +1545,33 @@ DESCRIPTION:Conference title: Symposium on Probabilistic Machine Learning\n
 URL:https://probml.cc/call/
 END:VEVENT
 BEGIN:VEVENT
+UID:colm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270327T115900Z
+DTEND:20270327T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Estimated mandatory abstract deadline (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: To be announced\nTopics: Natural Language Processing & LLMs\,
+  Deep Representation Learning\, LLM Agents & Tool Use\, Information Retri
+ eval & Search\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-07\nNotes: Annual 2024-2026 history suppor
+ ts a provisional 2027 planning row. Exact meeting dates and mandatory abs
+ tract/paper cutoffs are one-year proxies from 2026\; host and portal not 
+ announced. Size is an editorial estimate.\nScope: Language-model foundati
+ ons and methods: training and architecture\, data and scaling\, inference
+  and generation\, evaluation\, reasoning\, retrieval augmentation\, and t
+ ool-using language agents. Alignment\, interpretability\, and multimodal 
+ language models are meaningful extensions. A central language-model contr
+ ibution distinguishes the conference from generic AI applications.\nAddit
+ ional topics: Learning Theory & Statistical Foundations\, Explainability 
+ & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, Mu
+ ltimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:eurogp-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270331
@@ -1491,6 +1599,33 @@ DESCRIPTION:Conference title: European Conference on Genetic Programming\nW
  r.org/2027/eurogp/\nScope last checked: 2026-10-07
 URL:https://www.evostar.org/2027/
 LOCATION:Mainz\, Germany
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270401T115900Z
+DTEND:20270401T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: To be announced\nTopics: Natural Language Processing & LLMs\,
+  Deep Representation Learning\, LLM Agents & Tool Use\, Information Retri
+ eval & Search\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-07\nNotes: Annual 2024-2026 history suppor
+ ts a provisional 2027 planning row. Exact meeting dates and mandatory abs
+ tract/paper cutoffs are one-year proxies from 2026\; host and portal not 
+ announced. Size is an editorial estimate.\nScope: Language-model foundati
+ ons and methods: training and architecture\, data and scaling\, inference
+  and generation\, evaluation\, reasoning\, retrieval augmentation\, and t
+ ool-using language agents. Alignment\, interpretability\, and multimodal 
+ language models are meaningful extensions. A central language-model contr
+ ibution distinguishes the conference from generic AI applications.\nAddit
+ ional topics: Learning Theory & Statistical Foundations\, Explainability 
+ & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, Mu
+ ltimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:l4dc-2027-deadline-late-breaking@scientific-conference-calendar
@@ -2127,6 +2262,34 @@ DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
  explicitly estimated placeholder.
 URL:https://ecai2027.org/
 LOCATION:Athens\, Greece
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271010
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/\nLocation: To be announced\nT
+ opics: Natural Language Processing & LLMs\, Deep Representation Learning\
+ , LLM Agents & Tool Use\, Information Retrieval & Search\nSize: L\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10
+ -07\nNotes: Annual 2024-2026 history supports a provisional 2027 planning
+  row. Exact meeting dates and mandatory abstract/paper cutoffs are one-ye
+ ar proxies from 2026\; host and portal not announced. Size is an editoria
+ l estimate.\nScope: Language-model foundations and methods: training and 
+ architecture\, data and scaling\, inference and generation\, evaluation\,
+  reasoning\, retrieval augmentation\, and tool-using language agents. Ali
+ gnment\, interpretability\, and multimodal language models are meaningful
+  extensions. A central language-model contribution distinguishes the conf
+ erence from generic AI applications.\nAdditional topics: Learning Theory 
+ & Statistical Foundations\, Explainability & Interpretability\, Robustnes
+ s & Safety\, Fairness & Responsible AI\, Multimedia Learning & Retrieval\
+ nScope sources (2026): https://colm.cc/Conferences/2026/CallForPapers\nSc
+ ope last checked: 2026-10-07
+URL:https://colm.cc/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar

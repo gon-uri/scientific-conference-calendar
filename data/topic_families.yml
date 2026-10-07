@@ -1,31 +1,50 @@
 families:
   - id: ml-ai
-    label: ML & AI
+    label: ML & Data Science
     topics:
       - Machine Learning
       - Deep Representation Learning
       - Learning Theory & Statistical Foundations
       - Probabilistic, Causal & Uncertainty ML
-      - Natural Language Processing & LLMs
-      - Reinforcement Learning
       - Federated & Distributed Learning
-      - Human-AI Interaction & Deployment
       - Evolutionary Computation & Optimization
       - ML Systems & Infrastructure
       - Knowledge Representation & Reasoning
-      - Planning & Search
-  - id: data-time-series
-    label: Data & Time Series
-    topics:
       - Data Mining & Data Science
-      - Time Series & Sequential Data
-  - id: signals-vision
-    label: Signals, Vision & Multimedia
+  - id: language-agents-retrieval
+    label: NLP, Agents & Retrieval
     topics:
-      - Signal Processing
+      - Natural Language Processing & LLMs
+      - Autonomous Agents & Multiagent Systems
+      - LLM Agents & Tool Use
+      - Information Retrieval & Search
+      - Recommender Systems
+  - id: signals-vision
+    label: Vision & Multimedia
+    topics:
       - Computer Vision & Pattern Recognition
       - Computer Graphics & Visualization
       - Multimedia Learning & Retrieval
+  - id: rl-control
+    label: RL, Robotics & Control
+    topics:
+      - Reinforcement Learning
+      - Control & Robotics
+      - Planning & Search
+  - id: dynamics-control
+    label: Complex Systems, Time Series & Signals
+    topics:
+      - Nonlinear Dynamics & Chaos
+      - Complex Systems & Network Science
+      - Graphs & Graph Learning
+      - System Identification & Data-driven Dynamics
+      - Time Series & Sequential Data
+      - Signal Processing
+  - id: healthcare
+    label: Healthcare & Biometrics
+    topics:
+      - Healthcare & Clinical AI
+      - Biomedical Imaging
       - Biometrics & Human Sensing
   - id: neuroscience
     label: Neuroscience & Neurotechnology
@@ -35,18 +54,6 @@ families:
       - BCI & Neurotechnology
       - Neuroimaging & Brain Mapping
       - Cognitive Science & Computational Cognition
-  - id: healthcare
-    label: Healthcare & Biomedical AI
-    topics:
-      - Healthcare & Clinical AI
-      - Biomedical Imaging
-  - id: dynamics-control
-    label: Dynamics, Complex Systems & Control
-    topics:
-      - Nonlinear Dynamics & Chaos
-      - Complex Systems & Network Science
-      - Control & Robotics
-      - System Identification & Data-driven Dynamics
   - id: responsible-ai
     label: Responsible & Trustworthy AI
     topics:
@@ -55,6 +62,7 @@ families:
       - Ethics & Governance
       - Privacy-preserving ML
       - Robustness & Safety
+      - Human-AI Interaction & Deployment
 labels:
   Machine Learning: Machine learning
   Deep Representation Learning: Deep learning
@@ -91,3 +99,8 @@ labels:
   Computer Graphics & Visualization: Graphics & visualization
   Multimedia Learning & Retrieval: Multimedia & retrieval
   Biometrics & Human Sensing: Biometrics & human sensing
+  Autonomous Agents & Multiagent Systems: Autonomous & multiagent systems
+  LLM Agents & Tool Use: LLM agents & tool use
+  Information Retrieval & Search: Information retrieval & RAG
+  Recommender Systems: Recommender systems
+  Graphs & Graph Learning: Graphs & graph learning

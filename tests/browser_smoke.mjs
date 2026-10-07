@@ -119,6 +119,12 @@ try {
   assert.notEqual(await page.locator('#tab-deadlines').evaluate(tab => getComputedStyle(tab).backgroundColor), await page.locator('#tab-conferences').evaluate(tab => getComputedStyle(tab).backgroundColor));
   assert((await page.locator('.topic-filter').boundingBox()).width <= 360);
   assert.equal(await page.locator('.topic-filter > legend').innerText(), 'Topics & Subtopics');
+  assert.deepEqual(await page.locator('.topic-family summary label span').allTextContents(), [
+    'ML & Data Science', 'NLP, Agents & Retrieval', 'Vision & Multimedia',
+    'RL, Robotics & Control', 'Complex Systems, Time Series & Signals',
+    'Healthcare & Biometrics', 'Neuroscience & Neurotechnology',
+    'Responsible & Trustworthy AI',
+  ]);
   assert(await page.locator('.topic-family > summary').evaluateAll(summaries => summaries.every(summary => getComputedStyle(summary).display === 'list-item' && summary.title === 'Expand or collapse subtopics')));
   const searchLabel = await page.locator('.search-control .control-label').boundingBox();
   const acceptanceLabel = await page.locator('.filter-group').filter({has: page.locator('[data-filter-group="acceptance"]')}).locator('legend').boundingBox();
@@ -156,6 +162,24 @@ try {
   await toggle.click();
   await filterSummary.click();
   await page.locator('#open-only').check();
+  for (const [date, id, expected] of [
+    ['2026-10-07', 'www-2027', true],
+    ['2026-10-13', 'naacl-2027', false],
+    ['2026-10-13', 'coling-2027', false],
+    ['2026-10-20', 'ecir-2027', true],
+    ['2026-11-03', 'ecir-2027', false],
+    ['2026-12-05', 'rss-2027', false],
+  ]) {
+    await page.evaluate(date => {
+      Date.now = () => Date.parse(`${date}T12:00:00Z`);
+      applyFilters();
+    }, date);
+    assert.equal(await page.locator(`[data-deadline-group][data-edition="${id}"]`).isVisible(), expected, `${id} eligibility on ${date}`);
+  }
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-10-06T12:00:00Z');
+    applyFilters();
+  });
   const opportunities = await page.locator('[data-deadline-group]:visible').evaluateAll(rows => rows.map(r => r.dataset.edition));
   assert(!opportunities.includes('acc-2027'));
   assert(opportunities.includes('ieee-cdc-2027'));
@@ -204,8 +228,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '72 confirmed editions in 61 cities');
-  assert.equal(await page.locator('.city-marker').count(), 61);
+  assert.equal(await page.locator('#map-count').innerText(), '84 confirmed editions in 68 cities');
+  assert.equal(await page.locator('.city-marker').count(), 68);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -246,7 +270,7 @@ try {
   await page.locator('[data-filter-group="ccf"][value="B"]').check();
   const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));
-  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 61);
+  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 68);
   await page.locator('[data-filter-group="icore"][value="Unranked"]').check();
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
   assert(await ccfMatches.evaluateAll(rows => rows.some(row => row.dataset.edition === 'icassp-2027')));
@@ -262,16 +286,21 @@ try {
     ['neuroscience', 'cognitive-science-computational-cognition', 'cogsci-2027'],
     ['ml-ai', 'ml-systems-infrastructure', 'mlsys-2027'],
     ['ml-ai', 'knowledge-representation-reasoning', 'kr-2027'],
-    ['ml-ai', 'planning-search', 'icaps-2027'],
+    ['rl-control', 'planning-search', 'icaps-2027'],
     ['signals-vision', 'computer-graphics-visualization', 'acm-siggraph-2027'],
     ['signals-vision', 'multimedia-learning-retrieval', 'icmr-2027'],
-    ['signals-vision', 'biometrics-human-sensing', 'fg-2027'],
-    ['signals-vision', 'biometrics-human-sensing', 'ijcb-2027'],
+    ['healthcare', 'biometrics-human-sensing', 'fg-2027'],
+    ['healthcare', 'biometrics-human-sensing', 'ijcb-2027'],
+    ['language-agents-retrieval', 'autonomous-agents-multiagent-systems', 'aamas-2027'],
+    ['language-agents-retrieval', 'llm-agents-tool-use', 'colm-2027'],
+    ['language-agents-retrieval', 'information-retrieval-search', 'sigir-2027'],
+    ['language-agents-retrieval', 'recommender-systems', 'recsys-2027'],
+    ['dynamics-control', 'graphs-graph-learning', 'log-2026'],
   ]) {
     const disclosure = page.locator('.topic-family').filter({has: page.locator(`[data-family-toggle="${family}"]`)});
     await disclosure.evaluate(details => details.open = true);
     await page.locator(`[data-topic-family="${family}"][value="${topic}"]`).check();
-    assert(await page.locator(`#upcoming-conferences-body [data-edition="${expected}"]`).isVisible());
+    assert(await page.locator(`#upcoming-conferences-body [data-edition="${expected}"]`).isVisible(), `${topic} must include ${expected}`);
     await page.locator('#clear-filters').click();
     await disclosure.evaluate(details => details.open = false);
   }
@@ -287,9 +316,26 @@ try {
   await page.locator('[data-family-toggle="ml-ai"]').check();
   await page.locator('#topic-match').selectOption('all');
   const intersection = await page.locator('#upcoming-conferences-body [data-conference-row]:visible').evaluateAll(rows => rows.map(r => r.dataset.edition));
-  assert(intersection.includes('l4dc-2027'));
+  assert(intersection.includes('log-2026'));
+  assert(!intersection.includes('l4dc-2027'));
   assert(!intersection.includes('netsci-2027'));
   await page.locator('#clear-filters').click();
+  await page.locator('[data-family-toggle="ml-ai"]').check();
+  assert(!(await page.locator('#upcoming-conferences-body [data-edition="miccai-2027"]').isVisible()));
+  await page.locator('#clear-filters').click();
+  const machineLearning = page.locator('[data-topic-family="ml-ai"][value="deep-representation-learning"]');
+  await machineLearning.evaluate(input => input.closest('details').open = true);
+  await machineLearning.check();
+  assert(await page.locator('#upcoming-conferences-body [data-edition="miccai-2027"]').isVisible());
+  await page.locator('#clear-filters').click();
+  await machineLearning.evaluate(input => input.closest('details').open = false);
+  await page.locator('#time-series-shortcut').check();
+  for (const id of ['itise-2027', 'fmts-neurips-2026', 'recsys-2027']) {
+    assert(await page.locator(`#upcoming-conferences-body [data-edition="${id}"]`).isVisible());
+  }
+  assert(!(await page.locator('#upcoming-conferences-body [data-edition="acl-2027"]').isVisible()));
+  await page.locator('#clear-filters').click();
+  assert(!(await page.locator('#time-series-shortcut').isChecked()));
   await page.locator('#search').fill('no-such-conference-xyz');
   assert.equal(await page.locator('.city-marker').count(), 0);
   assert(await page.locator('#map-empty').isVisible());
@@ -369,6 +415,13 @@ try {
     assert(await page.locator('#open-only').isVisible());
     await filterSummary.click();
     assert(await page.locator('#clear-filters').isVisible());
+    assert(await page.locator('.topic-family summary label span').evaluateAll(labels => labels.every(label => {
+      const range = document.createRange();
+      range.selectNodeContents(label);
+      const rects = [...range.getClientRects()];
+      const family = label.closest('summary').getBoundingClientRect();
+      return rects.length === 1 && rects[0].right <= family.right - 8;
+    })), `Topic family labels must fit on one line at ${width}px`);
     const matchBox = await page.locator('#topic-match').boundingBox();
     const clearBox = await page.locator('#clear-filters').boundingBox();
     assert(Math.abs(matchBox.y + matchBox.height / 2 - clearBox.y - clearBox.height / 2) < 1, `Match and Clear filters must align at ${width}px`);

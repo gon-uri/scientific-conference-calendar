@@ -5,6 +5,31 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Signal Processing
 BEGIN:VEVENT
+UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251025T115900Z
+DTEND:20251025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ts4h-2025-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20251207
@@ -56,6 +81,31 @@ DESCRIPTION:Conference title: European Signal Processing Conference\nWebsit
   checked date: 2026-08-20\nNotes: Official EUSIPCO 2026 pages list Bruges
  \, Aug 31-Sep 4\, and the extended conference-paper deadline.
 URL:https://eusipco2026.org/submissions/
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260316T115900Z
+DTEND:20260316T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Camera-ready deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:icann-2026-deadline-full-paper@scientific-conference-calendar
@@ -174,6 +224,32 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  stract deadline remains an estimate until the submission page is rechecke
  d.
 URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Conference
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/\nLoc
+ ation: Palma de Mallorca\, Spain\nTopics: Natural Language Processing & L
+ LMs\, Data Mining & Data Science\, Signal Processing\nSize: XL\nSubmissio
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Archived full conference window includes workshops\; main sessio
+ ns May 13-15. Resources\, datasets\, annotation and evaluation characteri
+ ze the venue. Size is an editorial estimate.\nScope: Language resources\,
+  annotation\, corpora and datasets\, speech and multimodal resources\, be
+ nchmarking\, and evaluation for human-language technologies. Contribution
+ s often create or analyze reusable resources and methods for linguistic c
+ overage and reliable assessment. The breadth of language applications is 
+ summarized without treating every domain as a defining topic.\nAdditional
+  topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\nSco
+ pe sources (2026): https://lrec2026.info/third-call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://lrec2026.info/
+LOCATION:Palma de Mallorca\, Spain
 END:VEVENT
 BEGIN:VEVENT
 UID:nolta-2026-deadline-full-paper@scientific-conference-calendar
@@ -468,25 +544,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Abstrac
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -532,25 +608,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Paper /
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -872,25 +948,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Camera-
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/cfp/\nLocati
  on: Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Represe
- ntation Learning\, Complex Systems & Network Science\, Learning Theory & 
- Statistical Foundations\nSize: M\nSubmission type: Paper-based / non-arch
- ival extended abstracts\nConfidence: confirmed\nLast checked date: 2026-1
- 0-07\nNotes: Fifth annual edition\, in person at Northeastern University.
-  Extended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 date
- s. Proceedings papers and non-archival extended abstracts share the regis
- tration and final submission cutoffs\, represented as one route. The TMLR
-  presentation track requires an already published paper\, so it is not a 
- new-paper opportunity. LoG is distinct from LOD/AIS. Size M is an editori
- al estimate.\nScope: Learning on graphs and geometry: graph neural networ
- ks\, equivariant models\, graph kernels\, geometric and graph generative 
- models\, and statistical theory for structured data. Graph signal process
- ing\, causal graph models\, robustness\, and scalable graph-learning infr
- astructure are meaningful extensions. A graph or geometric contribution s
- hould remain central\, even in an application such as language or molecul
- ar modeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\
- , Signal Processing\, Robustness & Safety\, ML Systems & Infrastructure\n
- Scope sources (2026): https://logconference.org/cfp/\nScope last checked:
-  2026-10-07
+ ntation Learning\, Graphs & Graph Learning\, Learning Theory & Statistica
+ l Foundations\nSize: M\nSubmission type: Paper-based / non-archival exten
+ ded abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNote
+ s: Fifth annual edition\, in person at Northeastern University. Extended 
+ Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceed
+ ings papers and non-archival extended abstracts share the registration an
+ d final submission cutoffs\, represented as one route. The TMLR presentat
+ ion track requires an already published paper\, so it is not a new-paper 
+ opportunity. LoG is distinct from LOD/AIS. Size M is an editorial estimat
+ e.\nScope: Learning on graphs and geometry: graph neural networks\, equiv
+ ariant models\, graph kernels\, geometric and graph generative models\, a
+ nd statistical theory for structured data. Graph signal processing\, caus
+ al graph models\, robustness\, and scalable graph-learning infrastructure
+  are meaningful extensions. A graph or geometric contribution should rema
+ in central\, even in an application such as language or molecular modelin
+ g.\nAdditional topics: Complex Systems & Network Science\, Probabilistic\
+ , Causal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML 
+ Systems & Infrastructure\nScope sources (2026): https://logconference.org
+ /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
 END:VEVENT
 BEGIN:VEVENT
@@ -1049,25 +1125,25 @@ SUMMARY:[Machine Learning][Deep Representation Learning] LoG 2026 - Confere
 DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  ://logconference.org/\nSource URL: https://logconference.org/\nLocation: 
  Boston\, Massachusetts\, USA\nTopics: Machine Learning\, Deep Representat
- ion Learning\, Complex Systems & Network Science\, Learning Theory & Stat
- istical Foundations\nSize: M\nSubmission type: Paper-based / non-archival
-  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07
- \nNotes: Fifth annual edition\, in person at Northeastern University. Ext
- ended Aug 5/7 deadlines replace the struck-through July 29/Aug 1 dates. P
- roceedings papers and non-archival extended abstracts share the registrat
- ion and final submission cutoffs\, represented as one route. The TMLR pre
- sentation track requires an already published paper\, so it is not a new-
- paper opportunity. LoG is distinct from LOD/AIS. Size M is an editorial e
- stimate.\nScope: Learning on graphs and geometry: graph neural networks\,
-  equivariant models\, graph kernels\, geometric and graph generative mode
- ls\, and statistical theory for structured data. Graph signal processing\
- , causal graph models\, robustness\, and scalable graph-learning infrastr
- ucture are meaningful extensions. A graph or geometric contribution shoul
- d remain central\, even in an application such as language or molecular m
- odeling.\nAdditional topics: Probabilistic\, Causal & Uncertainty ML\, Si
- gnal Processing\, Robustness & Safety\, ML Systems & Infrastructure\nScop
- e sources (2026): https://logconference.org/cfp/\nScope last checked: 202
- 6-10-07
+ ion Learning\, Graphs & Graph Learning\, Learning Theory & Statistical Fo
+ undations\nSize: M\nSubmission type: Paper-based / non-archival extended 
+ abstracts\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: F
+ ifth annual edition\, in person at Northeastern University. Extended Aug 
+ 5/7 deadlines replace the struck-through July 29/Aug 1 dates. Proceedings
+  papers and non-archival extended abstracts share the registration and fi
+ nal submission cutoffs\, represented as one route. The TMLR presentation 
+ track requires an already published paper\, so it is not a new-paper oppo
+ rtunity. LoG is distinct from LOD/AIS. Size M is an editorial estimate.\n
+ Scope: Learning on graphs and geometry: graph neural networks\, equivaria
+ nt models\, graph kernels\, geometric and graph generative models\, and s
+ tatistical theory for structured data. Graph signal processing\, causal g
+ raph models\, robustness\, and scalable graph-learning infrastructure are
+  meaningful extensions. A graph or geometric contribution should remain c
+ entral\, even in an application such as language or molecular modeling.\n
+ Additional topics: Complex Systems & Network Science\, Probabilistic\, Ca
+ usal & Uncertainty ML\, Signal Processing\, Robustness & Safety\, ML Syst
+ ems & Infrastructure\nScope sources (2026): https://logconference.org/cfp
+ /\nScope last checked: 2026-10-07
 URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
@@ -2000,6 +2076,32 @@ URL:https://euvip2026.github.io/
 LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
+UID:lrec-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271025T115900Z
+DTEND:20271025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://lr
+ ec2026.info/third-call-for-papers/\nLocation: To be announced\nTopics: Na
+ tural Language Processing & LLMs\, Data Mining & Data Science\, Signal Pr
+ ocessing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bien
+ nially and is soliciting 2028/2030 hosts. Exact 2028 meeting and submissi
+ on dates are two-year proxies from 2026\, not an invented annual 2027 edi
+ tion. Size is an editorial estimate.\nScope: Language resources\, annotat
+ ion\, corpora and datasets\, speech and multimodal resources\, benchmarki
+ ng\, and evaluation for human-language technologies. Contributions often 
+ create or analyze reusable resources and methods for linguistic coverage 
+ and reliable assessment. The breadth of language applications is summariz
+ ed without treating every domain as a defining topic.\nAdditional topics:
+  Multimedia Learning & Retrieval\, Fairness & Responsible AI\nScope sourc
+ es (2026): https://lrec2026.info/third-call-for-papers/\nScope last check
+ ed: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271110
@@ -2075,6 +2177,33 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  es\, location\, and deadlines require organizer confirmation\; website an
  d source links refer to the prior edition.
 URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://ww
+ w.elra.info/elra-events/lrec/\nLocation: To be announced\nTopics: Natural
+  Language Processing & LLMs\, Data Mining & Data Science\, Signal Process
+ ing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bienniall
+ y and is soliciting 2028/2030 hosts. Exact 2028 meeting and submission da
+ tes are two-year proxies from 2026\, not an invented annual 2027 edition.
+  Size is an editorial estimate.\nScope: Language resources\, annotation\,
+  corpora and datasets\, speech and multimodal resources\, benchmarking\, 
+ and evaluation for human-language technologies. Contributions often creat
+ e or analyze reusable resources and methods for linguistic coverage and r
+ eliable assessment. The breadth of language applications is summarized wi
+ thout treating every domain as a defining topic.\nAdditional topics: Mult
+ imedia Learning & Retrieval\, Fairness & Responsible AI\nScope sources (2
+ 026): https://lrec2026.info/third-call-for-papers/\nScope last checked: 2
+ 026-10-07
+URL:https://www.elra.info/elra-events/lrec/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-conference@scientific-conference-calendar

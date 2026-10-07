@@ -1,5 +1,48 @@
 # Session Log
 
+## 2026-10-07 (eight-topic filters and language/robotics expansion)
+
+- Objective: Implement the approved eight-topic map and all 16 selected series,
+  preserving concise main tags, richer curated scope and deferred candidate memory.
+- Added: ACL, EMNLP, NAACL, COLING, CoNLL, LREC, IJCNLP, SIGIR, ECIR, RecSys,
+  WWW, COLM, ISWC, ICRA, RSS and SMC. Their 22 editions bring the catalog to
+  144 editions / 113 series. Added five focused agent/retrieval/recommender/graph
+  leaves and eight city aliases. Existing CIKM/WSDM received reviewed profiles;
+  profile coverage is 63 / 113 with 50 missing profiles explicitly queued.
+- Taxonomy: eight families and a Time series shortcut; complete curated
+  central identities for every series. Whole-family matching is distinct from
+  broader specific-leaf matching. Four main topics remain visible; additional
+  topics and prose remain curated, not imported from catch-all CFP lists.
+  The long complex-systems label stays one line; topic filters occupy their own
+  row below 1200px with tighter spacing only on very narrow screens.
+- Evidence: direct ICORE/CCF totals are 66/55. Four new track-specific historical
+  rates bring evidence coverage to 34; twelve new rates remain Unknown. Sources
+  and denominator limitations are recorded in nlp_robotics_expansion.md.
+- Dates: SIGIR proposed schedules, SMC proposal dates and unpublished next
+  editions remain estimated. LREC is biennial; NAACL/COLING/IJCNLP do not get
+  automatic annual projections. ARR commitments and RSS invited final papers
+  cannot masquerade as fresh opportunities. ECIR resources are an independent
+  archival route. ICRA PST wording and SMC camera-ready conflicts are flagged.
+- Backlog: all 57 original candidates retained, 42 added and 15 deferred;
+  ICWM remains separate. Respected deferred HCI venues are not called minor.
+- Workbook: synchronized and re-imported 113 exact catalog rows, 40 vocabulary
+  leaves and 63 profiles. Native table names/styles, existing row order,
+  definitions and unrelated catalog values preserved. Rendered catalog,
+  vocabulary and new scope profiles visually checked.
+- Verification: 144 records validate; 68 Python tests pass. Browser smoke passes
+  at 1440/1051/1050/768/390/320px with 76 opportunities on its frozen Oct 6 clock,
+  one central ML/dynamics intersection, and 84 confirmed future editions in 68
+  mapped cities. ARR/RSS/ECIR gates, new leaves, central-versus-method matching,
+  shortcut clearing and single-line labels all pass. Rendered views checked.
+- Calendar preservation: all 187 feeds satisfy CRLF and 75-octet folding.
+  Existing UIDs, timing and non-description properties remain unchanged;
+  599 memberships are added, seven AAMAS evolutionary memberships deliberately
+  removed, and 126 old feeds are byte-identical. Original edition fields are
+  unchanged except AAMAS/LoG main-topic refinements. A second build is identical.
+- Publication target: commit source, workbook, documentation and generated
+  outputs together on main, push gon-uri/venue-radar, then verify the Build and
+  GitHub Pages workflows and the live site before reporting completion.
+
 ## 2026-10-07 (AI, vision, multimedia and biometrics expansion)
 
 - Objective: Add the three selected AI/methodology venues, all remaining

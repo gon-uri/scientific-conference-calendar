@@ -24,6 +24,10 @@ code disagree, update the docs before implementing new work.
 - `data/conference_scopes.yml` holds complementary, sourced series profiles.
   Read `project_docs/conference_scopes.md` before editing them. Keep extra topics
   characteristic and curated; never import an exhaustive CFP topics list.
+- `data/conference_families.yml` assigns every tracked series one to three
+  central identities in the eight-family taxonomy. Broad family filters use
+  these identities; individual subtopics use the curated topic union.
+  Consult `project_docs/topic_audit.md` when adding or retagging a series.
 - `docs/` is reserved for generated GitHub Pages outputs: `index.html` and
   `.ics` feeds.
 - `project_docs/` contains maintained project-state documentation.

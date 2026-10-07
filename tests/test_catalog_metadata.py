@@ -24,7 +24,7 @@ class CatalogMetadataTests(unittest.TestCase):
         cls.cities = load_mapping(CITIES_PATH)
 
     def test_controlled_topics_have_exactly_one_family(self):
-        self.assertEqual(len(self.families['families']), 7)
+        self.assertEqual(len(self.families['families']), 8)
         self.assertEqual(validate_catalog_metadata(self.topics, self.families, self.cities), [])
         duplicate = deepcopy(self.families)
         duplicate['families'][1]['topics'].append(duplicate['families'][0]['topics'][0])

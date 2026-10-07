@@ -33,6 +33,9 @@ CADENCE_YEARS = {
     "ACM MM": 1, "ACM SIGGRAPH": 1, "BMVC": 1, "CVPR": 1,
     "ECCV": 2, "EUVIP": 1, "FG": 1, "ICCV": 2,
     "ICMR": 1, "IJCB": 1, "WACV": 1,
+    "ACL": 1, "EMNLP": 1, "CoNLL": 1, "LREC": 2,
+    "SIGIR": 1, "ECIR": 1, "RecSys": 1, "WWW": 1,
+    "COLM": 1, "ISWC": 1, "ICRA": 1, "RSS": 1, "SMC": 1,
 }
 
 

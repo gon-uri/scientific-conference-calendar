@@ -52,13 +52,14 @@ class VisionAIAdditionTests(unittest.TestCase):
         self.assertEqual(ijcb['datetime'], '2027-04-09T23:59:00-12:00')
         self.assertEqual(ijcb['opens_at'], '2027-03-15T23:59:00-12:00')
 
-    def test_focused_new_leaves_remain_in_seven_families(self):
+    def test_focused_new_leaves_remain_in_eight_families(self):
         families = load_mapping(FAMILIES_PATH)['families']
-        self.assertEqual(len(families), 7)
+        self.assertEqual(len(families), 8)
         by_topic = {topic: family['id'] for family in families for topic in family['topics']}
-        for topic in ['Knowledge Representation & Reasoning', 'Planning & Search']:
-            self.assertEqual(by_topic[topic], 'ml-ai')
-        for topic in ['Computer Graphics & Visualization', 'Multimedia Learning & Retrieval', 'Biometrics & Human Sensing']:
+        self.assertEqual(by_topic['Knowledge Representation & Reasoning'], 'ml-ai')
+        self.assertEqual(by_topic['Planning & Search'], 'rl-control')
+        self.assertEqual(by_topic['Biometrics & Human Sensing'], 'healthcare')
+        for topic in ['Computer Graphics & Visualization', 'Multimedia Learning & Retrieval']:
             self.assertEqual(by_topic[topic], 'signals-vision')
 
     def test_biennial_vision_cadence_and_estimated_next_editions(self):
@@ -120,9 +121,9 @@ class VisionAIAdditionTests(unittest.TestCase):
         payload = catalog_payload()
         self.assertTrue(ADDED <= {row[0] for row in payload['rows']})
         self.assertTrue(ADDED <= {row[0] for row in payload['scopes']})
-        self.assertEqual(len(payload['rows']), 97)
-        self.assertEqual(len(payload['topics']), 35)
-        self.assertEqual(len(payload['scopes']), 45)
+        self.assertEqual(len(payload['rows']), 113)
+        self.assertEqual(len(payload['topics']), 40)
+        self.assertEqual(len(payload['scopes']), 63)
 
 
 if __name__ == '__main__':

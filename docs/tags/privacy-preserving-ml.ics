@@ -242,6 +242,62 @@ URL:https://www.aies-conference.com/2026/
 LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
+UID:www-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Fu
+ ll-paper abstract deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261026T115900Z
+DTEND:20261026T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Fu
+ ll paper submission deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261028T115900Z
@@ -318,6 +374,62 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
  nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261110T115900Z
+DTEND:20261110T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
+ ort-paper abstract deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261117T115900Z
+DTEND:20261117T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
+ ort paper submission deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:acml-2026-conference@scientific-conference-calendar
@@ -430,6 +542,34 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
  /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Re
+ search-track final version deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:icmr-2027-deadline-full-paper@scientific-conference-calendar
@@ -689,6 +829,35 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
  cked: 2026-10-07
 URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Co
+ nference
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
+LOCATION:Dublin\, Ireland
 END:VEVENT
 BEGIN:VEVENT
 UID:icmr-2027-conference@scientific-conference-calendar

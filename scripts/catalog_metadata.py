@@ -5,6 +5,7 @@ import yaml
 from validate import ROOT, parse_date
 
 FAMILIES_PATH = ROOT / 'data' / 'topic_families.yml'
+CONFERENCE_FAMILIES_PATH = ROOT / 'data' / 'conference_families.yml'
 CITIES_PATH = ROOT / 'data' / 'cities.yml'
 
 
@@ -81,3 +82,24 @@ def map_events(conferences: list[dict], cities: dict) -> list[dict]:
             'end': parse_date(item['conference_end']).isoformat(), 'url': item['website'],
         })
     return sorted(events, key=lambda event: (event['start'], event['id']))
+
+
+def validate_conference_families(conferences: list[dict], assignments: dict,
+                                 families: dict, allow_extra: bool = False) -> list[str]:
+    series = {item['series'] for item in conferences
+              if isinstance(item, dict) and isinstance(item.get('series'), str)}
+    family_list = families.get('families')
+    if not isinstance(family_list, list):
+        return ['Central identities require a valid family registry']
+    valid_ids = {family['id'] for family in family_list
+                 if isinstance(family, dict) and isinstance(family.get('id'), str)}
+    errors = []
+    if not allow_extra and set(assignments) - series:
+        errors.append('Central family assignments contain untracked series')
+    for name in sorted(series):
+        values = assignments.get(name)
+        if (not isinstance(values, list) or not 1 <= len(values) <= 3
+                or not all(isinstance(value, str) for value in values)
+                or len(set(values)) != len(values) or set(values) - valid_ids):
+            errors.append(f'{name}: assign one to three distinct valid central families')
+    return errors

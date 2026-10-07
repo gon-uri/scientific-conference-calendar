@@ -5,6 +5,31 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Multimedia Learning & Retrieval
 BEGIN:VEVENT
+UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251025T115900Z
+DTEND:20251025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260226T220000Z
@@ -92,6 +117,31 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
 URL:https://eccv.ecva.net/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260316T115900Z
+DTEND:20260316T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Camera-ready deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260325
@@ -125,6 +175,60 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:colm-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260327T115900Z
+DTEND:20260327T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Mandatory abstract deadline
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: San Francisco\, California\, USA\nTopics: Natural Language Pr
+ ocessing & LLMs\, Deep Representation Learning\, LLM Agents & Tool Use\, 
+ Information Retrieval & Search\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Third annual e
+ dition\, Hilton Union Square. Ongoing conference with new-paper submissio
+ ns closed\; October 9 workshops included. Size is an editorial estimate.\
+ nScope: Language-model foundations and methods: training and architecture
+ \, data and scaling\, inference and generation\, evaluation\, reasoning\,
+  retrieval augmentation\, and tool-using language agents. Alignment\, int
+ erpretability\, and multimodal language models are meaningful extensions.
+  A central language-model contribution distinguishes the conference from 
+ generic AI applications.\nAdditional topics: Learning Theory & Statistica
+ l Foundations\, Explainability & Interpretability\, Robustness & Safety\,
+  Fairness & Responsible AI\, Multimedia Learning & Retrieval\nScope sourc
+ es (2026): https://colm.cc/Conferences/2026/CallForPapers\nScope last che
+ cked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260401T115900Z
+DTEND:20260401T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: San Francisco\, California\, USA\nTopics: Natural Language Pr
+ ocessing & LLMs\, Deep Representation Learning\, LLM Agents & Tool Use\, 
+ Information Retrieval & Search\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Third annual e
+ dition\, Hilton Union Square. Ongoing conference with new-paper submissio
+ ns closed\; October 9 workshops included. Size is an editorial estimate.\
+ nScope: Language-model foundations and methods: training and architecture
+ \, data and scaling\, inference and generation\, evaluation\, reasoning\,
+  retrieval augmentation\, and tool-using language agents. Alignment\, int
+ erpretability\, and multimodal language models are meaningful extensions.
+  A central language-model contribution distinguishes the conference from 
+ generic AI applications.\nAdditional topics: Learning Theory & Statistica
+ l Foundations\, Explainability & Interpretability\, Robustness & Safety\,
+  Fairness & Responsible AI\, Multimedia Learning & Retrieval\nScope sourc
+ es (2026): https://colm.cc/Conferences/2026/CallForPapers\nScope last che
+ cked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260401
@@ -156,6 +260,32 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
  organizer's submission portal.
 URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Conference
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/\nLoc
+ ation: Palma de Mallorca\, Spain\nTopics: Natural Language Processing & L
+ LMs\, Data Mining & Data Science\, Signal Processing\nSize: XL\nSubmissio
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Archived full conference window includes workshops\; main sessio
+ ns May 13-15. Resources\, datasets\, annotation and evaluation characteri
+ ze the venue. Size is an editorial estimate.\nScope: Language resources\,
+  annotation\, corpora and datasets\, speech and multimodal resources\, be
+ nchmarking\, and evaluation for human-language technologies. Contribution
+ s often create or analyze reusable resources and methods for linguistic c
+ overage and reliable assessment. The breadth of language applications is 
+ summarized without treating every domain as a defining topic.\nAdditional
+  topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\nSco
+ pe sources (2026): https://lrec2026.info/third-call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://lrec2026.info/
+LOCATION:Palma de Mallorca\, Spain
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2026-deadline-full-paper@scientific-conference-calendar
@@ -274,6 +404,33 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  ttps://eccv.ecva.net/Conferences/2026/CallForPapers\nScope last checked: 
  2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:conll-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260705
+SUMMARY:[Natural Language Processing & LLMs][Cognitive Science & Computatio
+ nal Cognition] CoNLL 2026 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Computational Natural Language 
+ Learning\nWebsite: https://www.conll.org/2026\nSource URL: https://www.co
+ nll.org/2026\nLocation: San Diego\, California\, USA\nTopics: Natural Lan
+ guage Processing & LLMs\, Cognitive Science & Computational Cognition\, C
+ omputational Neuroscience\, Explainability & Interpretability\nSize: S\nS
+ ubmission type: Paper-based\nConfidence: announced_no_deadlines\nLast che
+ cked date: 2026-10-07\nNotes: Archived meeting dates and focused scientif
+ ic/cognitive NLP scope are confirmed. The current 2026 program no longer 
+ exposes the submission schedule\; no past deadline has been invented. Siz
+ e is an editorial estimate.\nScope: Scientifically\, cognitively\, and li
+ nguistically motivated computational language learning. Characteristic wo
+ rk concerns language acquisition\, psycholinguistics\, grammars and meani
+ ng\, multilinguality\, language and the brain\, and grounded language mod
+ els. This is a focused scientific NLP venue rather than a generic empiric
+ al language-model benchmark conference.\nAdditional topics: Deep Represen
+ tation Learning\, Multimedia Learning & Retrieval\nScope sources (2026): 
+ https://www.conll.org/2026\nScope last checked: 2026-10-07
+URL:https://www.conll.org/2026
+LOCATION:San Diego\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:euvip-2026-deadline-special-session-paper@scientific-conference-calenda
@@ -462,6 +619,36 @@ URL:https://eccv.ecva.net/Conferences/2026/Dates
 LOCATION:Malmo\, Sweden
 END:VEVENT
 BEGIN:VEVENT
+UID:ecir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
+ ull-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
+ n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
+ & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
+  calls confirm paper days but no exact cutoff hour. Full/short abstract g
+ ates are already closed\; replicability and resource papers remain indepe
+ ndent opportunities. Resource papers report original research resources\,
+  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ n retrieval and ranking\, recommendation\, conversational search and RAG\
+ , user information interaction\, system efficiency\, and rigorous evaluat
+ ion. The 2027 call explicitly includes language models and agentic retrie
+ val workflows. Replicability and research-resource papers are distinct ro
+ utes. Fairness and explainability concern information access rather than 
+ generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
+  Deployment\, Explainability & Interpretability\, Fairness & Responsible 
+ AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-full-papers
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260928
@@ -492,6 +679,213 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
  last checked: 2026-10-07
 URL:https://euvip2026.github.io/
 LOCATION:Luxembourg\, Luxembourg
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261010
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2026 - Conference
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/\nLocation: San Francisco\, Ca
+ lifornia\, USA\nTopics: Natural Language Processing & LLMs\, Deep Represe
+ ntation Learning\, LLM Agents & Tool Use\, Information Retrieval & Search
+ \nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\nLast chec
+ ked date: 2026-10-07\nNotes: Third annual edition\, Hilton Union Square. 
+ Ongoing conference with new-paper submissions closed\; October 9 workshop
+ s included. Size is an editorial estimate.\nScope: Language-model foundat
+ ions and methods: training and architecture\, data and scaling\, inferenc
+ e and generation\, evaluation\, reasoning\, retrieval augmentation\, and 
+ tool-using language agents. Alignment\, interpretability\, and multimodal
+  language models are meaningful extensions. A central language-model cont
+ ribution distinguishes the conference from generic AI applications.\nAddi
+ tional topics: Learning Theory & Statistical Foundations\, Explainability
+  & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, M
+ ultimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Con
+ ferences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/
+LOCATION:San Francisco\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - F
+ ull paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-full-papers\nLocation: Southampton\, UK\nTopics: Informatio
+ n Retrieval & Search\, Recommender Systems\, Natural Language Processing 
+ & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nCo
+ nfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specific
+  calls confirm paper days but no exact cutoff hour. Full/short abstract g
+ ates are already closed\; replicability and resource papers remain indepe
+ ndent opportunities. Resource papers report original research resources\,
+  not camera-ready work. Size is an editorial estimate.\nScope: Informatio
+ n retrieval and ranking\, recommendation\, conversational search and RAG\
+ , user information interaction\, system efficiency\, and rigorous evaluat
+ ion. The 2027 call explicitly includes language models and agentic retrie
+ val workflows. Replicability and research-resource papers are distinct ro
+ utes. Fairness and explainability concern information access rather than 
+ generic responsible-AI topics.\nAdditional topics: Human-AI Interaction &
+  Deployment\, Explainability & Interpretability\, Fairness & Responsible 
+ AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.e
+ cir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffic
+ ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
+ organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-full-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - S
+ hort-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
+ on Retrieval & Search\, Recommender Systems\, Natural Language Processing
+  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
+ c calls confirm paper days but no exact cutoff hour. Full/short abstract 
+ gates are already closed\; replicability and resource papers remain indep
+ endent opportunities. Resource papers report original research resources\
+ , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ on retrieval and ranking\, recommendation\, conversational search and RAG
+ \, user information interaction\, system efficiency\, and rigorous evalua
+ tion. The 2027 call explicitly includes language models and agentic retri
+ eval workflows. Replicability and research-resource papers are distinct r
+ outes. Fairness and explainability concern information access rather than
+  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction 
+ & Deployment\, Explainability & Interpretability\, Fairness & Responsible
+  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.
+ ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffi
+ cial deadline day\; exact cutoff hour/timezone is unannounced. Verify the
+  organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-extended-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ eplicability-paper abstract deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
+  Information Retrieval & Search\, Recommender Systems\, Natural Language 
+ Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
+ ck-specific calls confirm paper days but no exact cutoff hour. Full/short
+  abstract gates are already closed\; replicability and resource papers re
+ main independent opportunities. Resource papers report original research 
+ resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+  Information retrieval and ranking\, recommendation\, conversational sear
+ ch and RAG\, user information interaction\, system efficiency\, and rigor
+ ous evaluation. The 2027 call explicitly includes language models and age
+ ntic retrieval workflows. Replicability and research-resource papers are 
+ distinct routes. Fairness and explainability concern information access r
+ ather than generic responsible-AI topics.\nAdditional topics: Human-AI In
+ teraction & Deployment\, Explainability & Interpretability\, Fairness & R
+ esponsible AI\, Multimedia Learning & Retrieval\nScope sources (2027): ht
+ tps://www.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-1
+ 0-07\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - S
+ hort paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-short-papers\nLocation: Southampton\, UK\nTopics: Informati
+ on Retrieval & Search\, Recommender Systems\, Natural Language Processing
+  & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-specifi
+ c calls confirm paper days but no exact cutoff hour. Full/short abstract 
+ gates are already closed\; replicability and resource papers remain indep
+ endent opportunities. Resource papers report original research resources\
+ , not camera-ready work. Size is an editorial estimate.\nScope: Informati
+ on retrieval and ranking\, recommendation\, conversational search and RAG
+ \, user information interaction\, system efficiency\, and rigorous evalua
+ tion. The 2027 call explicitly includes language models and agentic retri
+ eval workflows. Replicability and research-resource papers are distinct r
+ outes. Fairness and explainability concern information access rather than
+  generic responsible-AI topics.\nAdditional topics: Human-AI Interaction 
+ & Deployment\, Explainability & Interpretability\, Fairness & Responsible
+  AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://www.
+ ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nOffi
+ cial deadline day\; exact cutoff hour/timezone is unannounced. Verify the
+  organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-short-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261020
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ eplicability paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-reproducibility-papers\nLocation: Southampton\, UK\nTopics:
+  Information Retrieval & Search\, Recommender Systems\, Natural Language 
+ Processing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Pape
+ r-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Tra
+ ck-specific calls confirm paper days but no exact cutoff hour. Full/short
+  abstract gates are already closed\; replicability and resource papers re
+ main independent opportunities. Resource papers report original research 
+ resources\, not camera-ready work. Size is an editorial estimate.\nScope:
+  Information retrieval and ranking\, recommendation\, conversational sear
+ ch and RAG\, user information interaction\, system efficiency\, and rigor
+ ous evaluation. The 2027 call explicitly includes language models and age
+ ntic retrieval workflows. Replicability and research-resource papers are 
+ distinct routes. Fairness and explainability concern information access r
+ ather than generic responsible-AI topics.\nAdditional topics: Human-AI In
+ teraction & Deployment\, Explainability & Interpretability\, Fairness & R
+ esponsible AI\, Multimedia Learning & Retrieval\nScope sources (2027): ht
+ tps://www.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-1
+ 0-07\nOfficial deadline day\; exact cutoff hour/timezone is unannounced. 
+ Verify the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-reproducibility-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-deadline-resource-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - R
+ esource paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/call-for-resource-papers\nLocation: Southampton\, UK\nTopics: Inform
+ ation Retrieval & Search\, Recommender Systems\, Natural Language Process
+ ing & LLMs\, LLM Agents & Tool Use\nSize: L\nSubmission type: Paper-based
+ \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Track-spec
+ ific calls confirm paper days but no exact cutoff hour. Full/short abstra
+ ct gates are already closed\; replicability and resource papers remain in
+ dependent opportunities. Resource papers report original research resourc
+ es\, not camera-ready work. Size is an editorial estimate.\nScope: Inform
+ ation retrieval and ranking\, recommendation\, conversational search and 
+ RAG\, user information interaction\, system efficiency\, and rigorous eva
+ luation. The 2027 call explicitly includes language models and agentic re
+ trieval workflows. Replicability and research-resource papers are distinc
+ t routes. Fairness and explainability concern information access rather t
+ han generic responsible-AI topics.\nAdditional topics: Human-AI Interacti
+ on & Deployment\, Explainability & Interpretability\, Fairness & Responsi
+ ble AI\, Multimedia Learning & Retrieval\nScope sources (2027): https://w
+ ww.ecir2027.co.uk/call-for-full-papers\nScope last checked: 2026-10-07\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://www.ecir2027.co.uk/call-for-resource-papers
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-camera-ready@scientific-conference-calendar
@@ -703,6 +1097,68 @@ URL:https://wacv.thecvf.com/Conferences/2027
 LOCATION:Lake Buena Vista\, Florida\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:sigir-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270114
+DTEND;VALUE=DATE:20270115
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full-paper abstract deadline (estimated) (cutoff time unannounce
+ d)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270121
+DTEND;VALUE=DATE:20270122
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed full paper submission deadline (estimated) (cutoff time unannoun
+ ced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115959Z
@@ -796,6 +1252,63 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
 URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
+UID:conll-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270315T115900Z
+DTEND:20270315T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Cognitive Science & Computatio
+ nal Cognition] CoNLL 2027 - Estimated direct paper submission deadline (e
+ stimated)
+DESCRIPTION:Conference title: Conference on Computational Natural Language 
+ Learning\nWebsite: https://www.conll.org/\nSource URL: https://www.aclweb
+ .org/portal/content/conll-2025-2nd-call-papers\nLocation: To be announced
+ \nTopics: Natural Language Processing & LLMs\, Cognitive Science & Comput
+ ational Cognition\, Computational Neuroscience\, Explainability & Interpr
+ etability\nSize: S\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-07\nNotes: Annual series. Meeting is a one-yea
+ r proxy from the confirmed 2026 meeting\; paper timing is a two-year prox
+ y from the last retrievable 2025 direct-submission CFP\, not verified 202
+ 6 timing. Host/co-location and submission mechanism require confirmation.
+  Size is an editorial estimate.\nScope: Scientifically\, cognitively\, an
+ d linguistically motivated computational language learning. Characteristi
+ c work concerns language acquisition\, psycholinguistics\, grammars and m
+ eaning\, multilinguality\, language and the brain\, and grounded language
+  models. This is a focused scientific NLP venue rather than a generic emp
+ irical language-model benchmark conference.\nAdditional topics: Deep Repr
+ esentation Learning\, Multimedia Learning & Retrieval\nScope sources (202
+ 6): https://www.conll.org/2026\nScope last checked: 2026-10-07
+URL:https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:ecir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270321
+DTEND;VALUE=DATE:20270326
+SUMMARY:[Information Retrieval & Search][Recommender Systems] ECIR 2027 - C
+ onference
+DESCRIPTION:Conference title: European Conference on Information Retrieval\
+ nWebsite: https://www.ecir2027.co.uk/\nSource URL: https://www.ecir2027.c
+ o.uk/\nLocation: Southampton\, UK\nTopics: Information Retrieval & Search
+ \, Recommender Systems\, Natural Language Processing & LLMs\, LLM Agents 
+ & Tool Use\nSize: L\nSubmission type: Paper-based\nConfidence: confirmed\
+ nLast checked date: 2026-10-07\nNotes: Track-specific calls confirm paper
+  days but no exact cutoff hour. Full/short abstract gates are already clo
+ sed\; replicability and resource papers remain independent opportunities.
+  Resource papers report original research resources\, not camera-ready wo
+ rk. Size is an editorial estimate.\nScope: Information retrieval and rank
+ ing\, recommendation\, conversational search and RAG\, user information i
+ nteraction\, system efficiency\, and rigorous evaluation. The 2027 call e
+ xplicitly includes language models and agentic retrieval workflows. Repli
+ cability and research-resource papers are distinct routes. Fairness and e
+ xplainability concern information access rather than generic responsible-
+ AI topics.\nAdditional topics: Human-AI Interaction & Deployment\, Explai
+ nability & Interpretability\, Fairness & Responsible AI\, Multimedia Lear
+ ning & Retrieval\nScope sources (2027): https://www.ecir2027.co.uk/call-f
+ or-full-papers\nScope last checked: 2026-10-07
+URL:https://www.ecir2027.co.uk/
+LOCATION:Southampton\, UK
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270325
@@ -827,6 +1340,60 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
   day\; exact cutoff hour/timezone is unannounced. Verify the organizer's 
  submission portal.
 URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270327T115900Z
+DTEND:20270327T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Estimated mandatory abstract deadline (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: To be announced\nTopics: Natural Language Processing & LLMs\,
+  Deep Representation Learning\, LLM Agents & Tool Use\, Information Retri
+ eval & Search\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-07\nNotes: Annual 2024-2026 history suppor
+ ts a provisional 2027 planning row. Exact meeting dates and mandatory abs
+ tract/paper cutoffs are one-year proxies from 2026\; host and portal not 
+ announced. Size is an editorial estimate.\nScope: Language-model foundati
+ ons and methods: training and architecture\, data and scaling\, inference
+  and generation\, evaluation\, reasoning\, retrieval augmentation\, and t
+ ool-using language agents. Alignment\, interpretability\, and multimodal 
+ language models are meaningful extensions. A central language-model contr
+ ibution distinguishes the conference from generic AI applications.\nAddit
+ ional topics: Learning Theory & Statistical Foundations\, Explainability 
+ & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, Mu
+ ltimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270401T115900Z
+DTEND:20270401T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/Conferences/2026/CallForPapers
+ \nLocation: To be announced\nTopics: Natural Language Processing & LLMs\,
+  Deep Representation Learning\, LLM Agents & Tool Use\, Information Retri
+ eval & Search\nSize: L\nSubmission type: Paper-based\nConfidence: estimat
+ ed\nLast checked date: 2026-10-07\nNotes: Annual 2024-2026 history suppor
+ ts a provisional 2027 planning row. Exact meeting dates and mandatory abs
+ tract/paper cutoffs are one-year proxies from 2026\; host and portal not 
+ announced. Size is an editorial estimate.\nScope: Language-model foundati
+ ons and methods: training and architecture\, data and scaling\, inference
+  and generation\, evaluation\, reasoning\, retrieval augmentation\, and t
+ ool-using language agents. Alignment\, interpretability\, and multimodal 
+ language models are meaningful extensions. A central language-model contr
+ ibution distinguishes the conference from generic AI applications.\nAddit
+ ional topics: Learning Theory & Statistical Foundations\, Explainability 
+ & Interpretability\, Robustness & Safety\, Fairness & Responsible AI\, Mu
+ ltimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Conf
+ erences/2026/CallForPapers\nScope last checked: 2026-10-07
+URL:https://colm.cc/Conferences/2026/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2027-deadline-full-paper@scientific-conference-calendar
@@ -889,6 +1456,36 @@ DESCRIPTION:Conference title: ACM SIGMM International Conference on Multime
  rivacy-preserving ML\nScope sources (2027): https://www.icmr2027.org/cfc\
  nScope last checked: 2026-10-07
 URL:https://www.icmr2027.org/date
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270430
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Proposed camera-ready deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/pages/submit-full.html\nLocation: San Jos
+ e\, California\, USA\nTopics: Information Retrieval & Search\, Recommende
+ r Systems\, Natural Language Processing & LLMs\, Machine Learning\nSize: 
+ XL\nSubmission type: Paper-based\nConfidence: estimated\nLast checked dat
+ e: 2026-10-07\nNotes: Homepage confirms July 18-24 conference week (title
+  says July 19-24). CFP explicitly labels the deadline table PROPOSED\; re
+ tain estimated deadlines rather than presenting these as finalized cutoff
+ s. Mandatory abstract gate. Size is an editorial estimate.\nScope: Inform
+ ation access\, search and ranking\, query and content understanding\, rec
+ ommendation\, conversational and multimodal retrieval\, and evaluation of
+  retrieval systems. Learning and language models are relevant through an 
+ information-retrieval contribution\, including retrieval-augmented genera
+ tion. The 2027 detailed track pages contain organizer placeholders\; scop
+ e should be rechecked when finalized.\nAdditional topics: Multimedia Lear
+ ning & Retrieval\, Human-AI Interaction & Deployment\, Fairness & Respons
+ ible AI\, ML Systems & Infrastructure\nScope sources (2027): https://sigi
+ r2027.org/pages/submit-full.html\nScope last checked: 2026-10-07\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://sigir2027.org/pages/submit-full.html
 END:VEVENT
 BEGIN:VEVENT
 UID:icmr-2027-conference@scientific-conference-calendar
@@ -982,6 +1579,63 @@ URL:https://cvpr.thecvf.com/Conferences/2027
 LOCATION:Seattle\, Washington\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:conll-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270703
+DTEND;VALUE=DATE:20270705
+SUMMARY:[Natural Language Processing & LLMs][Cognitive Science & Computatio
+ nal Cognition] CoNLL 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Computational Natural Language 
+ Learning\nWebsite: https://www.conll.org/\nSource URL: https://www.conll.
+ org/\nLocation: To be announced\nTopics: Natural Language Processing & LL
+ Ms\, Cognitive Science & Computational Cognition\, Computational Neurosci
+ ence\, Explainability & Interpretability\nSize: S\nSubmission type: Paper
+ -based\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: Annu
+ al series. Meeting is a one-year proxy from the confirmed 2026 meeting\; 
+ paper timing is a two-year proxy from the last retrievable 2025 direct-su
+ bmission CFP\, not verified 2026 timing. Host/co-location and submission 
+ mechanism require confirmation. Size is an editorial estimate.\nScope: Sc
+ ientifically\, cognitively\, and linguistically motivated computational l
+ anguage learning. Characteristic work concerns language acquisition\, psy
+ cholinguistics\, grammars and meaning\, multilinguality\, language and th
+ e brain\, and grounded language models. This is a focused scientific NLP 
+ venue rather than a generic empirical language-model benchmark conference
+ .\nAdditional topics: Deep Representation Learning\, Multimedia Learning 
+ & Retrieval\nScope sources (2026): https://www.conll.org/2026\nScope last
+  checked: 2026-10-07
+URL:https://www.conll.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:sigir-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270718
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Information Retrieval & Search][Recommender Systems] SIGIR 2027 - 
+ Conference
+DESCRIPTION:Conference title: ACM International Conference on Research and 
+ Development in Information Retrieval\nWebsite: https://sigir2027.org/\nSo
+ urce URL: https://sigir2027.org/\nLocation: San Jose\, California\, USA\n
+ Topics: Information Retrieval & Search\, Recommender Systems\, Natural La
+ nguage Processing & LLMs\, Machine Learning\nSize: XL\nSubmission type: P
+ aper-based\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: 
+ Homepage confirms July 18-24 conference week (title says July 19-24). CFP
+  explicitly labels the deadline table PROPOSED\; retain estimated deadlin
+ es rather than presenting these as finalized cutoffs. Mandatory abstract 
+ gate. Size is an editorial estimate.\nScope: Information access\, search 
+ and ranking\, query and content understanding\, recommendation\, conversa
+ tional and multimodal retrieval\, and evaluation of retrieval systems. Le
+ arning and language models are relevant through an information-retrieval 
+ contribution\, including retrieval-augmented generation. The 2027 detaile
+ d track pages contain organizer placeholders\; scope should be rechecked 
+ when finalized.\nAdditional topics: Multimedia Learning & Retrieval\, Hum
+ an-AI Interaction & Deployment\, Fairness & Responsible AI\, ML Systems &
+  Infrastructure\nScope sources (2027): https://sigir2027.org/pages/submit
+ -full.html\nScope last checked: 2026-10-07
+URL:https://sigir2027.org/
+LOCATION:San Jose\, California\, USA
+END:VEVENT
+BEGIN:VEVENT
 UID:euvip-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270928
@@ -1043,6 +1697,60 @@ DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
  m/Conferences/2025/CallForPapers\nScope last checked: 2026-10-07
 URL:https://iccv.thecvf.com/Conferences/2027
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:colm-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271006
+DTEND;VALUE=DATE:20271010
+SUMMARY:[Natural Language Processing & LLMs][Deep Representation Learning] 
+ COLM 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
+ ps://colm.cc/\nSource URL: https://colm.cc/\nLocation: To be announced\nT
+ opics: Natural Language Processing & LLMs\, Deep Representation Learning\
+ , LLM Agents & Tool Use\, Information Retrieval & Search\nSize: L\nSubmis
+ sion type: Paper-based\nConfidence: estimated\nLast checked date: 2026-10
+ -07\nNotes: Annual 2024-2026 history supports a provisional 2027 planning
+  row. Exact meeting dates and mandatory abstract/paper cutoffs are one-ye
+ ar proxies from 2026\; host and portal not announced. Size is an editoria
+ l estimate.\nScope: Language-model foundations and methods: training and 
+ architecture\, data and scaling\, inference and generation\, evaluation\,
+  reasoning\, retrieval augmentation\, and tool-using language agents. Ali
+ gnment\, interpretability\, and multimodal language models are meaningful
+  extensions. A central language-model contribution distinguishes the conf
+ erence from generic AI applications.\nAdditional topics: Learning Theory 
+ & Statistical Foundations\, Explainability & Interpretability\, Robustnes
+ s & Safety\, Fairness & Responsible AI\, Multimedia Learning & Retrieval\
+ nScope sources (2026): https://colm.cc/Conferences/2026/CallForPapers\nSc
+ ope last checked: 2026-10-07
+URL:https://colm.cc/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271025T115900Z
+DTEND:20271025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://lr
+ ec2026.info/third-call-for-papers/\nLocation: To be announced\nTopics: Na
+ tural Language Processing & LLMs\, Data Mining & Data Science\, Signal Pr
+ ocessing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bien
+ nially and is soliciting 2028/2030 hosts. Exact 2028 meeting and submissi
+ on dates are two-year proxies from 2026\, not an invented annual 2027 edi
+ tion. Size is an editorial estimate.\nScope: Language resources\, annotat
+ ion\, corpora and datasets\, speech and multimodal resources\, benchmarki
+ ng\, and evaluation for human-language technologies. Contributions often 
+ create or analyze reusable resources and methods for linguistic coverage 
+ and reliable assessment. The breadth of language applications is summariz
+ ed without treating every domain as a defining topic.\nAdditional topics:
+  Multimedia Learning & Retrieval\, Fairness & Responsible AI\nScope sourc
+ es (2026): https://lrec2026.info/third-call-for-papers/\nScope last check
+ ed: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-mm-2027-conference@scientific-conference-calendar
@@ -1132,6 +1840,33 @@ DESCRIPTION:Conference title: European Conference on Computer Vision\nWebsi
  , Robustness & Safety\nScope sources (2026): https://eccv.ecva.net/Confer
  ences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://eccv.ecva.net/Conferences/2026/Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://ww
+ w.elra.info/elra-events/lrec/\nLocation: To be announced\nTopics: Natural
+  Language Processing & LLMs\, Data Mining & Data Science\, Signal Process
+ ing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bienniall
+ y and is soliciting 2028/2030 hosts. Exact 2028 meeting and submission da
+ tes are two-year proxies from 2026\, not an invented annual 2027 edition.
+  Size is an editorial estimate.\nScope: Language resources\, annotation\,
+  corpora and datasets\, speech and multimodal resources\, benchmarking\, 
+ and evaluation for human-language technologies. Contributions often creat
+ e or analyze reusable resources and methods for linguistic coverage and r
+ eliable assessment. The breadth of language applications is summarized wi
+ thout treating every domain as a defining topic.\nAdditional topics: Mult
+ imedia Learning & Retrieval\, Fairness & Responsible AI\nScope sources (2
+ 026): https://lrec2026.info/third-call-for-papers/\nScope last checked: 2
+ 026-10-07
+URL:https://www.elra.info/elra-events/lrec/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:eccv-2028-conference@scientific-conference-calendar

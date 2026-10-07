@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:SMC 2027 Calendar
+BEGIN:VEVENT
+UID:smc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Estimated regular paper submission deadline (estimated) (cutoff time unan
+ nounced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc2026.org/Important-Dates\nLocation: Ho
+  Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
+ Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
+ ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
+ 10 appears only in the hosting proposal\, so remains provisional\; deadli
+ nes are one-year proxies from 2026. Do not present proposal dates or unan
+ nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
+  Systems science\, cybernetics\, and human-machine systems. Characteristi
+ c ML-facing work includes intelligent and learning-based control\, autono
+ mous systems\, adaptive decision-making\, and human-AI interaction\; brai
+ n-machine interfaces and cognitive systems are meaningful extensions. Its
+  interdisciplinary remit is curated without tagging every industrial appl
+ ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
+  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
+ ognitive Science & Computational Cognition\nScope sources (2026): https:/
+ /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270517
+DTEND;VALUE=DATE:20270518
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Estimated work-in-progress paper deadline (estimated) (cutoff time unanno
+ unced)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc2026.org/Important-Dates\nLocation: Ho
+  Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems & 
+ Network Science\, Machine Learning\, Human-AI Interaction & Deployment\nS
+ ize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast checked
+  date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 7-
+ 10 appears only in the hosting proposal\, so remains provisional\; deadli
+ nes are one-year proxies from 2026. Do not present proposal dates or unan
+ nounced cutoff hours as confirmed. Size is an editorial estimate.\nScope:
+  Systems science\, cybernetics\, and human-machine systems. Characteristi
+ c ML-facing work includes intelligent and learning-based control\, autono
+ mous systems\, adaptive decision-making\, and human-AI interaction\; brai
+ n-machine interfaces and cognitive systems are meaningful extensions. Its
+  interdisciplinary remit is curated without tagging every industrial appl
+ ication as a core specialty.\nAdditional topics: Reinforcement Learning\,
+  System Identification & Data-driven Dynamics\, BCI & Neurotechnology\, C
+ ognitive Science & Computational Cognition\nScope sources (2026): https:/
+ /www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07\nOff
+ icial deadline day\; exact cutoff hour/timezone is unannounced. Verify th
+ e organizer's submission portal.
+URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:smc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271007
+DTEND;VALUE=DATE:20271011
+SUMMARY:[Control & Robotics][Complex Systems & Network Science] SMC 2027 - 
+ Conference (estimated)
+DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
+ n\, and Cybernetics\nWebsite: https://www.ieeesmc.org/conferences/calenda
+ r/\nSource URL: https://www.ieeesmc.org/conferences/calendar/\nLocation: 
+ Ho Chi Minh City\, Vietnam\nTopics: Control & Robotics\, Complex Systems 
+ & Network Science\, Machine Learning\, Human-AI Interaction & Deployment\
+ nSize: L\nSubmission type: Paper-based\nConfidence: estimated\nLast check
+ ed date: 2026-10-07\nNotes: Society confirms the 2027 host city. October 
+ 7-10 appears only in the hosting proposal\, so remains provisional\; dead
+ lines are one-year proxies from 2026. Do not present proposal dates or un
+ announced cutoff hours as confirmed. Size is an editorial estimate.\nScop
+ e: Systems science\, cybernetics\, and human-machine systems. Characteris
+ tic ML-facing work includes intelligent and learning-based control\, auto
+ nomous systems\, adaptive decision-making\, and human-AI interaction\; br
+ ain-machine interfaces and cognitive systems are meaningful extensions. I
+ ts interdisciplinary remit is curated without tagging every industrial ap
+ plication as a core specialty.\nAdditional topics: Reinforcement Learning
+ \, System Identification & Data-driven Dynamics\, BCI & Neurotechnology\,
+  Cognitive Science & Computational Cognition\nScope sources (2026): https
+ ://www.ieeesmc2026.org/call-for-papers\nScope last checked: 2026-10-07
+URL:https://www.ieeesmc.org/conferences/calendar/
+LOCATION:Ho Chi Minh City\, Vietnam
+END:VEVENT
+END:VCALENDAR

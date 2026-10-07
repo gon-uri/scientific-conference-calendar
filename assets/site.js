@@ -9,7 +9,6 @@ function syncTopicParents() {
 
 function venueTopicMatch(row) {
   const selected = [...document.querySelectorAll('[data-topic-family]:checked')];
-  if (!selected.length) return true;
   const families = new Map();
   selected.forEach((input) => {
     const group = families.get(input.dataset.topicFamily) || [];
@@ -17,7 +16,16 @@ function venueTopicMatch(row) {
     families.set(input.dataset.topicFamily, group);
   });
   const topics = row.dataset.topics.split(' ');
-  const matches = [...families.values()].map((group) => group.some((topic) => topics.includes(topic)));
+  const centralFamilies = (row.dataset.families || '').split(' ');
+  const matches = [...families.entries()].map(([family, group]) => {
+    const parent = document.querySelector(`[data-family-toggle="${family}"]`);
+    return parent.checked ? centralFamilies.includes(family)
+      : group.some((topic) => topics.includes(topic));
+  });
+  if (document.querySelector('#time-series-shortcut').checked) {
+    matches.push(topics.includes('time-series-sequential-data'));
+  }
+  if (!matches.length) return true;
   return document.querySelector('#topic-match').value === 'all'
     ? matches.every(Boolean) : matches.some(Boolean);
 }

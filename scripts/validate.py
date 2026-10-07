@@ -49,7 +49,7 @@ SUBMISSION_TYPES = {
     "full_paper", "regular_paper", "short_paper", "workshop_paper",
     "special_session_paper", "abstract", "late_abstract",
     "extended_abstract", "poster",
-    "journal_paper", "discussion_paper",
+    "journal_paper", "discussion_paper", "resource_paper",
 }
 ACCEPTANCE_BANDS = (
     (20, "Very low"),
@@ -493,7 +493,7 @@ def validate_acceptance_rates(
 
 
 def main() -> int:
-    from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, validate_catalog_metadata
+    from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, validate_catalog_metadata, validate_conference_families
     from conference_scopes import load_scopes, validate_scopes
 
     try:
@@ -503,6 +503,7 @@ def main() -> int:
         ccf_rankings = load_ccf_rankings()
         acceptance_rates = load_acceptance_rates()
         families = load_mapping(FAMILIES_PATH)
+        assignments = load_mapping(CONFERENCE_FAMILIES_PATH)
         cities = load_mapping(CITIES_PATH)
         scopes = load_scopes()
     except (OSError, ValueError, yaml.YAMLError) as exc:
@@ -511,6 +512,7 @@ def main() -> int:
 
     errors = validate_conferences(conferences, controlled_topics)
     errors.extend(validate_catalog_metadata(controlled_topics or set(), families, cities))
+    errors.extend(validate_conference_families(conferences, assignments, families))
     errors.extend(validate_icore_rankings(conferences, icore_rankings))
     errors.extend(validate_ccf_rankings(conferences, ccf_rankings))
     errors.extend(validate_acceptance_rates(conferences, acceptance_rates))

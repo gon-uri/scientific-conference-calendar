@@ -3252,7 +3252,7 @@
   topics:
     - Machine Learning
     - Deep Representation Learning
-    - Complex Systems & Network Science
+    - Graphs & Graph Learning
     - Learning Theory & Statistical Foundations
   size: M
   submission_type: Paper-based / non-archival extended abstracts
@@ -3495,7 +3495,7 @@
   topics:
     - Machine Learning
     - Reinforcement Learning
-    - Control & Robotics
+    - Autonomous Agents & Multiagent Systems
     - Human-AI Interaction & Deployment
   size: XL
   submission_type: Paper-based / Blue Sky Ideas short papers
@@ -4453,3 +4453,896 @@
     rounds at 23:59 AoE. Both are already closed despite the future camera-ready
     deadline. Main conference is January 6-8 at Disney Springs; workshops run
     January 4-5. XL is an editorial estimate, not an acceptance-rate proxy.
+
+- id: acl-2027
+  series: ACL
+  year: 2027
+  title: Annual Meeting of the Association for Computational Linguistics
+  short_title: ACL 2027
+  website: https://2027.aclweb.org/
+  cfp_url: https://2027.aclweb.org/calls/main/
+  source_urls:
+  - https://2027.aclweb.org/
+  - https://2027.aclweb.org/calls/main/
+  location: Kyoto, Japan
+  mode: hybrid
+  conference_start: '2027-08-17'
+  conference_end: '2027-08-22'
+  timezone: Asia/Tokyo
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: ARR paper submission deadline
+    datetime: '2027-01-04T23:59:00-12:00'
+    source_url: https://2027.aclweb.org/calls/main/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official site confirms Kyoto, August 17-22 and January 4 ARR cutoff at 23:59 AoE. Main
+    sessions August 20-22; tutorials/workshops earlier. Commitment dates are unannounced. Size
+    is an editorial estimate.
+- id: emnlp-2026
+  series: EMNLP
+  year: 2026
+  title: Conference on Empirical Methods in Natural Language Processing
+  short_title: EMNLP 2026
+  website: https://2026.emnlp.org/
+  cfp_url: https://2026.emnlp.org/calls/main_conference_papers/
+  source_urls:
+  - https://2026.emnlp.org/
+  - https://2026.emnlp.org/calls/main_conference_papers/
+  location: Budapest, Hungary
+  mode: hybrid
+  conference_start: '2026-10-24'
+  conference_end: '2026-10-29'
+  timezone: Europe/Budapest
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: ARR paper submission deadline
+    datetime: '2026-05-25T23:59:00-12:00'
+    source_url: https://2026.emnlp.org/calls/main_conference_papers/
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2026-08-02T23:59:00-12:00'
+    source_url: https://2026.emnlp.org/calls/main_conference_papers/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2026-08-30T23:59:00-12:00'
+    source_url: https://2026.emnlp.org/calls/main_conference_papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: ARR fresh-paper submissions are closed. Commitment is only for reviewed papers and
+    is not a new-paper route. Full conference window includes workshops. Size is an editorial
+    estimate.
+- id: emnlp-2027
+  series: EMNLP
+  year: 2027
+  title: Conference on Empirical Methods in Natural Language Processing
+  short_title: EMNLP 2027
+  website: https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027
+  cfp_url: https://2026.emnlp.org/calls/main_conference_papers/
+  source_urls:
+  - https://www.aclweb.org/portal/content/joint-call-workshops-proposals-2027
+  - https://2026.emnlp.org/calls/main_conference_papers/
+  location: Mexico or Central America; city to be announced
+  mode: hybrid
+  conference_start: '2027-11-01'
+  conference_end: '2027-11-06'
+  timezone: UTC
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated ARR paper submission deadline
+    datetime: '2027-05-25T23:59:00-12:00'
+    source_url: https://2026.emnlp.org/calls/main_conference_papers/
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: ACL announces tentative early November 2027 in Mexico or Central America. November
+    1-6 is a planning placeholder within that window, not published exact dates. Paper timing
+    is a one-year proxy from 2026; do not infer commitment eligibility or portal opening.
+- id: naacl-2027
+  series: NAACL
+  year: 2027
+  title: Conference of the Nations of the Americas Chapter of the Association for Computational
+    Linguistics
+  short_title: NAACL 2027
+  website: https://2027.naacl.org/
+  cfp_url: https://2027.naacl.org/calls/main_conference_papers/
+  source_urls:
+  - https://2027.naacl.org/
+  - https://2027.naacl.org/calls/main_conference_papers/
+  location: San Francisco, California, USA
+  mode: hybrid
+  conference_start: '2027-06-01'
+  conference_end: '2027-06-05'
+  timezone: America/Los_Angeles
+  topics:
+  - Natural Language Processing & LLMs
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  - Deep Representation Learning
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: ARR paper submission deadline
+    datetime: '2026-10-12T23:59:00-12:00'
+    source_url: https://2027.naacl.org/calls/main_conference_papers/
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2026-12-23T23:59:00-12:00'
+    source_url: https://2027.naacl.org/calls/main_conference_papers/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2027-03-03T23:59:00-12:00'
+    source_url: https://2027.naacl.org/calls/main_conference_papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Formerly North American Chapter; retains NAACL acronym. Shares October ARR cycle with
+    COLING, but authors may commit to only one primary venue. Commitment is not a fresh-paper
+    route. Size is an editorial estimate.
+- id: coling-2027
+  series: COLING
+  year: 2027
+  title: International Conference on Computational Linguistics
+  short_title: COLING 2027
+  website: https://2027.coling-iccl.org/
+  cfp_url: https://2027.coling-iccl.org/calls/main_conference_papers/
+  source_urls:
+  - https://2027.coling-iccl.org/
+  - https://2027.coling-iccl.org/calls/main_conference_papers/
+  location: Macau, China
+  mode: hybrid
+  conference_start: '2027-05-09'
+  conference_end: '2027-05-14'
+  timezone: Asia/Macau
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - Knowledge Representation & Reasoning
+  - LLM Agents & Tool Use
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: ARR paper submission deadline
+    datetime: '2026-10-12T23:59:00-12:00'
+    source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
+  - type: commitment
+    label: Commitment of ARR-reviewed papers
+    datetime: '2026-12-23T23:59:00-12:00'
+    source_url: https://2027.coling-iccl.org/calls/main_conference_papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Main in-person window May 9-14; separate virtual sessions May 6-7. Shared ARR cycle
+    with NAACL does not permit dual commitment. Recent COLING cadence is irregular; no automatic
+    annual forecast. Size is an editorial estimate.
+- id: conll-2026
+  series: CoNLL
+  year: 2026
+  title: Conference on Computational Natural Language Learning
+  short_title: CoNLL 2026
+  website: https://www.conll.org/2026
+  cfp_url: https://www.conll.org/2026
+  source_urls:
+  - https://www.conll.org/2026
+  location: San Diego, California, USA
+  mode: in-person
+  conference_start: '2026-07-03'
+  conference_end: '2026-07-04'
+  timezone: America/Los_Angeles
+  topics:
+  - Natural Language Processing & LLMs
+  - Cognitive Science & Computational Cognition
+  - Computational Neuroscience
+  - Explainability & Interpretability
+  size: S
+  submission_type: Paper-based
+  relevance: high
+  deadlines: []
+  last_checked: '2026-10-07'
+  confidence: announced_no_deadlines
+  notes: Archived meeting dates and focused scientific/cognitive NLP scope are confirmed. The
+    current 2026 program no longer exposes the submission schedule; no past deadline has been
+    invented. Size is an editorial estimate.
+- id: conll-2027
+  series: CoNLL
+  year: 2027
+  title: Conference on Computational Natural Language Learning
+  short_title: CoNLL 2027
+  website: https://www.conll.org/
+  cfp_url: https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+  source_urls:
+  - https://www.conll.org/
+  - https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+  - https://www.conll.org/2026
+  - https://www.conll.org/node
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-07-03'
+  conference_end: '2027-07-04'
+  timezone: UTC
+  topics:
+  - Natural Language Processing & LLMs
+  - Cognitive Science & Computational Cognition
+  - Computational Neuroscience
+  - Explainability & Interpretability
+  size: S
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated direct paper submission deadline
+    datetime: '2027-03-14T23:59:00-12:00'
+    source_url: https://www.aclweb.org/portal/content/conll-2025-2nd-call-papers
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: Annual series. Meeting is a one-year proxy from the confirmed 2026 meeting; paper timing
+    is a two-year proxy from the last retrievable 2025 direct-submission CFP, not verified 2026
+    timing. Host/co-location and submission mechanism require confirmation. Size is an editorial
+    estimate.
+- id: lrec-2026
+  series: LREC
+  year: 2026
+  title: Language Resources and Evaluation Conference
+  short_title: LREC 2026
+  website: https://lrec2026.info/
+  cfp_url: https://lrec2026.info/third-call-for-papers/
+  source_urls:
+  - https://lrec2026.info/
+  - https://lrec2026.info/third-call-for-papers/
+  location: Palma de Mallorca, Spain
+  mode: in-person
+  conference_start: '2026-05-11'
+  conference_end: '2026-05-16'
+  timezone: Europe/Madrid
+  topics:
+  - Natural Language Processing & LLMs
+  - Data Mining & Data Science
+  - Signal Processing
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2025-10-24T23:59:00-12:00'
+    source_url: https://lrec2026.info/third-call-for-papers/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2026-03-15T23:59:00-12:00'
+    source_url: https://lrec2026.info/third-call-for-papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Archived full conference window includes workshops; main sessions May 13-15. Resources,
+    datasets, annotation and evaluation characterize the venue. Size is an editorial estimate.
+- id: lrec-2028
+  series: LREC
+  year: 2028
+  title: Language Resources and Evaluation Conference
+  short_title: LREC 2028
+  website: https://www.elra.info/elra-events/lrec/
+  cfp_url: https://lrec2026.info/third-call-for-papers/
+  source_urls:
+  - https://www.elra.info/elra-events/lrec/
+  - https://lrec2026.info/third-call-for-papers/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-05-11'
+  conference_end: '2028-05-16'
+  timezone: UTC
+  topics:
+  - Natural Language Processing & LLMs
+  - Data Mining & Data Science
+  - Signal Processing
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated paper submission deadline
+    datetime: '2027-10-24T23:59:00-12:00'
+    source_url: https://lrec2026.info/third-call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: ELRA explicitly organizes LREC biennially and is soliciting 2028/2030 hosts. Exact
+    2028 meeting and submission dates are two-year proxies from 2026, not an invented annual
+    2027 edition. Size is an editorial estimate.
+- id: ijcnlp-2026
+  series: IJCNLP
+  year: 2026
+  title: Asia-Pacific ACL and International Joint Conference on Natural Language Processing
+  short_title: IJCNLP 2026
+  website: https://2026.aaclnet.org/
+  cfp_url: https://2026.aaclnet.org/calls/main_conference_papers/
+  source_urls:
+  - https://2026.aaclnet.org/
+  - https://2026.aaclnet.org/calls/main_conference_papers/
+  location: Hengqin, China
+  mode: hybrid
+  conference_start: '2026-11-06'
+  conference_end: '2026-11-10'
+  timezone: Asia/Shanghai
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: ARR paper submission deadline
+    datetime: '2026-05-25T23:59:00-12:00'
+    source_url: https://2026.aaclnet.org/calls/main_conference_papers/
+  - type: commitment
+    label: Second-round commitment of reviewed papers
+    datetime: '2026-08-25T23:59:00-12:00'
+    source_url: https://2026.aaclnet.org/calls/main_conference_papers/
+  - type: camera_ready
+    label: Extended camera-ready deadline
+    datetime: '2026-10-02T23:59:00-12:00'
+    source_url: https://2026.aaclnet.org/calls/main_conference_papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Joint AACL-IJCNLP 2026 is one edition under the IJCNLP series, not two conferences.
+    ARR submissions and both commitment rounds are closed. Joint-series recurrence is irregular;
+    do not automatically invent an annual next edition. Size is an editorial estimate.
+- id: sigir-2027
+  series: SIGIR
+  year: 2027
+  title: ACM International Conference on Research and Development in Information Retrieval
+  short_title: SIGIR 2027
+  website: https://sigir2027.org/
+  cfp_url: https://sigir2027.org/pages/submit-full.html
+  source_urls:
+  - https://sigir2027.org/
+  - https://sigir2027.org/pages/submit-full.html
+  location: San Jose, California, USA
+  mode: in-person
+  conference_start: '2027-07-18'
+  conference_end: '2027-07-24'
+  timezone: America/Los_Angeles
+  topics:
+  - Information Retrieval & Search
+  - Recommender Systems
+  - Natural Language Processing & LLMs
+  - Machine Learning
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Proposed full-paper abstract deadline
+    datetime: '2027-01-14T23:59:00-12:00'
+    source_url: https://sigir2027.org/pages/submit-full.html
+    gate_for: full_paper
+    confidence: estimated
+    time_precision: date
+  - type: full_paper
+    label: Proposed full paper submission deadline
+    datetime: '2027-01-21T23:59:00-12:00'
+    source_url: https://sigir2027.org/pages/submit-full.html
+    confidence: estimated
+    time_precision: date
+  - type: camera_ready
+    label: Proposed camera-ready deadline
+    datetime: '2027-04-30T23:59:00-12:00'
+    source_url: https://sigir2027.org/pages/submit-full.html
+    confidence: estimated
+    time_precision: date
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Homepage confirms July 18-24 conference week (title says July 19-24). CFP explicitly
+    labels the deadline table PROPOSED; retain estimated deadlines rather than presenting these
+    as finalized cutoffs. Mandatory abstract gate. Size is an editorial estimate.
+- id: ecir-2027
+  series: ECIR
+  year: 2027
+  title: European Conference on Information Retrieval
+  short_title: ECIR 2027
+  website: https://www.ecir2027.co.uk/
+  cfp_url: https://www.ecir2027.co.uk/call-for-full-papers
+  source_urls:
+  - https://www.ecir2027.co.uk/
+  - https://www.ecir2027.co.uk/call-for-full-papers
+  location: Southampton, UK
+  mode: in-person
+  conference_start: '2027-03-21'
+  conference_end: '2027-03-25'
+  timezone: Europe/London
+  topics:
+  - Information Retrieval & Search
+  - Recommender Systems
+  - Natural Language Processing & LLMs
+  - LLM Agents & Tool Use
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Full-paper abstract deadline
+    datetime: '2026-09-21T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-full-papers
+    gate_for: full_paper
+    time_precision: date
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2026-10-05T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-full-papers
+    time_precision: date
+  - type: late_abstract
+    label: Short-paper abstract deadline
+    datetime: '2026-10-05T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-short-papers
+    gate_for: short_paper
+    time_precision: date
+  - type: short_paper
+    label: Short paper submission deadline
+    datetime: '2026-10-12T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-short-papers
+    time_precision: date
+  - type: extended_abstract
+    label: Replicability-paper abstract deadline
+    datetime: '2026-10-12T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-reproducibility-papers
+    gate_for: regular_paper
+    time_precision: date
+  - type: regular_paper
+    label: Replicability paper submission deadline
+    datetime: '2026-10-19T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-reproducibility-papers
+    time_precision: date
+  - type: resource_paper
+    label: Resource paper submission deadline
+    datetime: '2026-11-02T23:59:00-12:00'
+    source_url: https://www.ecir2027.co.uk/call-for-resource-papers
+    time_precision: date
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Track-specific calls confirm paper days but no exact cutoff hour. Full/short abstract
+    gates are already closed; replicability and resource papers remain independent opportunities.
+    Resource papers report original research resources, not camera-ready work. Size is an editorial
+    estimate.
+- id: recsys-2027
+  series: RecSys
+  year: 2027
+  title: ACM Conference on Recommender Systems
+  short_title: RecSys 2027
+  website: https://recsys.acm.org/recsys27/
+  cfp_url: https://recsys.acm.org/recsys26/call/
+  source_urls:
+  - https://recsys.acm.org/recsys27/
+  - https://recsys.acm.org/recsys26/call/
+  location: Honolulu, Hawaii, USA
+  mode: in-person
+  conference_start: '2027-08-23'
+  conference_end: '2027-08-27'
+  timezone: Pacific/Honolulu
+  topics:
+  - Recommender Systems
+  - Machine Learning
+  - Information Retrieval & Search
+  - Human-AI Interaction & Deployment
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated main-track abstract deadline
+    datetime: '2027-04-14T23:59:00-12:00'
+    source_url: https://recsys.acm.org/recsys26/call/
+    gate_for: full_paper
+    confidence: estimated
+  - type: full_paper
+    label: Estimated main-track paper deadline
+    datetime: '2027-04-21T23:59:00-12:00'
+    source_url: https://recsys.acm.org/recsys26/call/
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: 2027 Hawaii meeting is confirmed. Main-track deadlines are one-year proxies from 2026;
+    long and short papers shared the same abstract gate in that edition. Do not infer a special
+    twentieth-anniversary track for 2027. Size is an editorial estimate.
+- id: www-2027
+  series: WWW
+  year: 2027
+  title: ACM Web Conference (formerly International World Wide Web Conference)
+  short_title: WWW 2027
+  website: https://www2027.thewebconf.org/
+  cfp_url: https://www2027.thewebconf.org/research-track-papers/
+  source_urls:
+  - https://www2027.thewebconf.org/
+  - https://www2027.thewebconf.org/research-track-papers/
+  location: Dublin, Ireland
+  mode: in-person
+  conference_start: '2027-05-10'
+  conference_end: '2027-05-14'
+  timezone: Europe/Dublin
+  topics:
+  - Information Retrieval & Search
+  - Recommender Systems
+  - Graphs & Graph Learning
+  - LLM Agents & Tool Use
+  size: XL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Full-paper abstract deadline
+    datetime: '2026-10-18T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/research-track-papers/
+    gate_for: full_paper
+    open_observed_on: '2026-10-07'
+  - type: full_paper
+    label: Full paper submission deadline
+    datetime: '2026-10-25T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/research-track-papers/
+    open_observed_on: '2026-10-07'
+  - type: late_abstract
+    label: Short-paper abstract deadline
+    datetime: '2026-11-09T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/
+    gate_for: short_paper
+    open_observed_on: '2026-10-07'
+  - type: short_paper
+    label: Short paper submission deadline
+    datetime: '2026-11-16T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/
+    open_observed_on: '2026-10-07'
+  - type: camera_ready
+    label: Research-track final version deadline
+    datetime: '2027-01-31T23:59:00-12:00'
+    source_url: https://www2027.thewebconf.org/research-track-papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official homepage states full and short paper portals are open; separate mandatory
+    abstract gates. Research must substantively address the Web, not merely use a web dataset.
+    Preserve WWW as the stable series alias. Size is an editorial estimate.
+- id: colm-2026
+  series: COLM
+  year: 2026
+  title: Conference on Language Modeling
+  short_title: COLM 2026
+  website: https://colm.cc/
+  cfp_url: https://colm.cc/Conferences/2026/CallForPapers
+  source_urls:
+  - https://colm.cc/
+  - https://colm.cc/Conferences/2026/CallForPapers
+  location: San Francisco, California, USA
+  mode: in-person
+  conference_start: '2026-10-06'
+  conference_end: '2026-10-09'
+  timezone: America/Los_Angeles
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Mandatory abstract deadline
+    datetime: '2026-03-26T23:59:00-12:00'
+    source_url: https://colm.cc/Conferences/2026/CallForPapers
+    gate_for: full_paper
+  - type: full_paper
+    label: Paper submission deadline
+    datetime: '2026-03-31T23:59:00-12:00'
+    source_url: https://colm.cc/Conferences/2026/CallForPapers
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Third annual edition, Hilton Union Square. Ongoing conference with new-paper submissions
+    closed; October 9 workshops included. Size is an editorial estimate.
+- id: colm-2027
+  series: COLM
+  year: 2027
+  title: Conference on Language Modeling
+  short_title: COLM 2027
+  website: https://colm.cc/
+  cfp_url: https://colm.cc/Conferences/2026/CallForPapers
+  source_urls:
+  - https://colm.cc/
+  - https://colm.cc/Conferences/2026/CallForPapers
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-06'
+  conference_end: '2027-10-09'
+  timezone: UTC
+  topics:
+  - Natural Language Processing & LLMs
+  - Deep Representation Learning
+  - LLM Agents & Tool Use
+  - Information Retrieval & Search
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated mandatory abstract deadline
+    datetime: '2027-03-26T23:59:00-12:00'
+    source_url: https://colm.cc/Conferences/2026/CallForPapers
+    gate_for: full_paper
+    confidence: estimated
+  - type: full_paper
+    label: Estimated paper submission deadline
+    datetime: '2027-03-31T23:59:00-12:00'
+    source_url: https://colm.cc/Conferences/2026/CallForPapers
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: Annual 2024-2026 history supports a provisional 2027 planning row. Exact meeting dates
+    and mandatory abstract/paper cutoffs are one-year proxies from 2026; host and portal not
+    announced. Size is an editorial estimate.
+- id: iswc-2026
+  series: ISWC
+  year: 2026
+  title: International Semantic Web Conference
+  short_title: ISWC 2026
+  website: https://iswc2026.semanticweb.org/
+  cfp_url: https://iswc2026.semanticweb.org/importantdates
+  source_urls:
+  - https://iswc2026.semanticweb.org/
+  - https://iswc2026.semanticweb.org/importantdates
+  location: Bari, Italy
+  mode: in-person
+  conference_start: '2026-10-25'
+  conference_end: '2026-10-29'
+  timezone: Europe/Rome
+  topics:
+  - Knowledge Representation & Reasoning
+  - Graphs & Graph Learning
+  - Data Mining & Data Science
+  - Information Retrieval & Search
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Research/resource/in-use abstract deadline
+    datetime: '2026-05-02T23:59:00-12:00'
+    source_url: https://iswc2026.semanticweb.org/importantdates
+    gate_for: full_paper
+  - type: full_paper
+    label: Research/resource/in-use paper deadline
+    datetime: '2026-05-07T23:59:00-12:00'
+    source_url: https://iswc2026.semanticweb.org/importantdates
+  - type: camera_ready
+    label: Research/resource/in-use camera-ready deadline
+    datetime: '2026-08-06T23:59:00-12:00'
+    source_url: https://iswc2026.semanticweb.org/importantdates
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Semantic Web ISWC, not IEEE Symposium on Wearable Computers. Official JavaScript-rendered
+    date table specifies 23:59 AoE; main sessions October 27-29 after workshops/tutorials. Size
+    is an editorial estimate.
+- id: iswc-2027
+  series: ISWC
+  year: 2027
+  title: International Semantic Web Conference
+  short_title: ISWC 2027
+  website: https://swsa.semanticweb.org/conferences/
+  cfp_url: https://iswc2026.semanticweb.org/importantdates
+  source_urls:
+  - https://swsa.semanticweb.org/conferences/
+  - https://iswc2026.semanticweb.org/importantdates
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-10-25'
+  conference_end: '2027-10-29'
+  timezone: UTC
+  topics:
+  - Knowledge Representation & Reasoning
+  - Graphs & Graph Learning
+  - Data Mining & Data Science
+  - Information Retrieval & Search
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated mandatory abstract deadline
+    datetime: '2027-05-02T23:59:00-12:00'
+    source_url: https://iswc2026.semanticweb.org/importantdates
+    gate_for: full_paper
+    confidence: estimated
+  - type: full_paper
+    label: Estimated paper submission deadline
+    datetime: '2027-05-07T23:59:00-12:00'
+    source_url: https://iswc2026.semanticweb.org/importantdates
+    confidence: estimated
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: SWSA confirms an annual 2027 edition in October/November but not exact dates or location.
+    October 25-29 and submission cutoffs are one-year proxies from 2026. Size is an editorial
+    estimate.
+- id: icra-2027
+  series: ICRA
+  year: 2027
+  title: IEEE International Conference on Robotics and Automation
+  short_title: ICRA 2027
+  website: https://2027.ieee-icra.org/
+  cfp_url: https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
+  source_urls:
+  - https://2027.ieee-icra.org/
+  - https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
+  location: Seoul, South Korea
+  mode: in-person
+  conference_start: '2027-05-24'
+  conference_end: '2027-05-28'
+  timezone: Asia/Seoul
+  topics:
+  - Control & Robotics
+  - Reinforcement Learning
+  - Computer Vision & Pattern Recognition
+  - System Identification & Data-driven Dynamics
+  size: XXL
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Extended paper submission deadline
+    datetime: '2026-09-16T23:59:00-08:00'
+    source_url: https://2027.ieee-icra.org/announcements/call-for-papers-submission-deadline-extended/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official September 16 extension notice states new deadline September 16 at 23:59 PST;
+    preserve its literal UTC-8 even though local September civil time is PDT. Fresh-paper submissions
+    are closed. Optional videos and final uploads do not reopen them. Size is an editorial estimate.
+- id: rss-2027
+  series: RSS
+  year: 2027
+  title: 'Robotics: Science and Systems'
+  short_title: RSS 2027
+  website: https://roboticsconference.org/
+  cfp_url: https://roboticsconference.org/information/cfp/
+  source_urls:
+  - https://roboticsconference.org/
+  - https://roboticsconference.org/information/cfp/
+  location: Athens, Greece
+  mode: in-person
+  conference_start: '2027-07-06'
+  conference_end: '2027-07-11'
+  timezone: Europe/Athens
+  topics:
+  - Control & Robotics
+  - Reinforcement Learning
+  - System Identification & Data-driven Dynamics
+  - Computer Vision & Pattern Recognition
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: extended_abstract
+    label: Stage 1 extended abstract submission deadline
+    datetime: '2026-12-04T23:59:00-12:00'
+    source_url: https://roboticsconference.org/information/cfp/
+    gate_for: full_paper
+  - type: full_paper
+    label: Stage 2 final paper deadline (invited authors only)
+    datetime: '2027-04-16T23:59:00-12:00'
+    source_url: https://roboticsconference.org/information/cfp/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2027-05-14T23:59:00-12:00'
+    source_url: https://roboticsconference.org/information/cfp/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: New two-stage 2027 process requires a six-page initial submission by December 4, 2026.
+    Only authors invited after review may submit the April final paper; it is not a fresh-paper
+    route after stage 1 closes. Size is an editorial estimate.
+- id: smc-2026
+  series: SMC
+  year: 2026
+  title: IEEE International Conference on Systems, Man, and Cybernetics
+  short_title: SMC 2026
+  website: https://www.ieeesmc2026.org/
+  cfp_url: https://www.ieeesmc2026.org/Important-Dates
+  source_urls:
+  - https://www.ieeesmc2026.org/
+  - https://www.ieeesmc2026.org/Important-Dates
+  location: Bellevue, Washington, USA
+  mode: hybrid
+  conference_start: '2026-10-04'
+  conference_end: '2026-10-07'
+  timezone: America/Los_Angeles
+  topics:
+  - Control & Robotics
+  - Complex Systems & Network Science
+  - Machine Learning
+  - Human-AI Interaction & Deployment
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Extended regular/special-session paper deadline
+    datetime: '2026-05-03T23:59:00-12:00'
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    time_precision: date
+  - type: short_paper
+    label: Extended work-in-progress/industry paper deadline
+    datetime: '2026-05-17T23:59:00-12:00'
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    time_precision: date
+  - type: extended_abstract
+    label: Two-page abstract submission deadline
+    datetime: '2026-07-12T23:59:00-12:00'
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    time_precision: date
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Organizer date table confirms October 4-7 (society calendar has older October 4-6).
+    Duplicate camera-ready blocks disagree August 2/9, so neither is asserted. Exact paper cutoff
+    hours unannounced. Size is an editorial estimate.
+- id: smc-2027
+  series: SMC
+  year: 2027
+  title: IEEE International Conference on Systems, Man, and Cybernetics
+  short_title: SMC 2027
+  website: https://www.ieeesmc.org/conferences/calendar/
+  cfp_url: https://www.ieeesmc2026.org/Important-Dates
+  source_urls:
+  - https://www.ieeesmc.org/conferences/calendar/
+  - https://www.ieeesmc2026.org/Important-Dates
+  - https://www.ieeesmc.org/wp-content/uploads/2022/10/3.SMC2027-sample.pdf
+  location: Ho Chi Minh City, Vietnam
+  mode: in-person
+  conference_start: '2027-10-07'
+  conference_end: '2027-10-10'
+  timezone: Asia/Ho_Chi_Minh
+  topics:
+  - Control & Robotics
+  - Complex Systems & Network Science
+  - Machine Learning
+  - Human-AI Interaction & Deployment
+  size: L
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated regular paper submission deadline
+    datetime: '2027-05-03T23:59:00-12:00'
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    confidence: estimated
+    time_precision: date
+  - type: short_paper
+    label: Estimated work-in-progress paper deadline
+    datetime: '2027-05-17T23:59:00-12:00'
+    source_url: https://www.ieeesmc2026.org/Important-Dates
+    confidence: estimated
+    time_precision: date
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: Society confirms the 2027 host city. October 7-10 appears only in the hosting proposal,
+    so remains provisional; deadlines are one-year proxies from 2026. Do not present proposal
+    dates or unannounced cutoff hours as confirmed. Size is an editorial estimate.

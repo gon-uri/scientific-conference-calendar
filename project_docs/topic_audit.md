@@ -1,5 +1,43 @@
 # Topic And New-Series Audit
 
+## Current Eight-Family Model
+
+Reviewed: 2026-10-07, after the language/robotics expansion. These counts use
+explicit central series identities, not the presence of any generic method tag.
+There are 113 series, 40 leaves and 63 reviewed profiles; 50 profiles remain queued.
+
+| Family | Central series | Subtopics |
+| --- | --- | --- |
+| ML & Data Science | 41 | Machine learning; deep learning; theory; probabilistic/causal ML; distributed/federated learning; evolutionary optimization; ML systems; reasoning; data mining |
+| NLP, Agents & Retrieval | 19 | NLP/LLMs; autonomous/multiagent systems; LLM agents/tool use; information retrieval/RAG; recommenders |
+| Vision & Multimedia | 16 | Vision/pattern recognition; graphics/visualization; multimedia/retrieval |
+| RL, Robotics & Control | 9 | Reinforcement learning; control/robotics; planning/search |
+| Complex Systems, Time Series & Signals | 19 | Nonlinear dynamics; complex systems/networks; graphs/graph learning; system identification; time series; signals |
+| Healthcare & Biometrics | 12 | Healthcare/clinical AI; biomedical imaging; biometrics/human sensing |
+| Neuroscience & Neurotechnology | 10 | Computational neuroscience; EEG/MEG; BCI; neuroimaging; computational cognition |
+| Responsible & Trustworthy AI | 4 | Fairness/accountability; explainability; ethics/governance; privacy; robustness/safety; human-AI interaction |
+
+Counts overlap: a genuinely cross-field series may have one to three central
+identities. Whole-family selection uses these curated identities; individual
+subtopics match broader source-grounded main/additional tags. For example, MICCAI
+is a healthcare venue, but is discoverable through its deep-learning subtopic;
+L4DC is control/dynamics, not automatically general ML. LoG bridges ML and graphs.
+Graphs belong in the complex-systems family but are distinct from nonlinear dynamics.
+AAMAS's agent tag does not make it an LLM-only venue. Time series has an independent
+shortcut matching the same leaf, including general ML and sequential recommendation.
+Selecting every child activates central-family matching, as selecting the parent does.
+
+Four main tags remain visible. Curated profiles capture actual characteristic
+scope, not enormous incidental CFP inventories. Stable leaf slugs remain intact.
+The long complex-systems label is untruncated and one line, including at 320px.
+README order follows central coverage broadly, while the filter keeps the agreed
+family order. See nlp_robotics_expansion.md for the 16 additions and source caveats.
+
+## Earlier Audit Snapshot
+
+The following records describe the earlier seven-family layout before this
+restructuring. Their dated counts are historical, not the current filter model.
+
 Reviewed 2026-10-06. Topic assignments describe central advertised scope, not
 every paper that could conceivably be accepted. Up to four unique main leaves
 are displayed. Parents are derived; a series may appear in multiple families.

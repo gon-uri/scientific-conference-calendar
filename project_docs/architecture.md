@@ -61,25 +61,35 @@ combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 `page_url` points public rank links and the CCF Rank legend to the official
 release webpage. ICORE Rank links to its conference portal.
 
-`data/topic_families.yml` maps every controlled leaf to exactly one of seven
-families. Edition records store up to four central leaves for display. Curated
-series profiles in `data/conference_scopes.yml` add a concise scope description,
-up to six characteristic additional leaves, official evidence URLs/year, and an
-independent review date. Search, filter attributes, and topic feeds use the
-deduplicated primary/additional union; table labels remain primary-only. Profiles
-join at build time, not during rollover. Missing profiles fall back to the main
-topics and enter the advisory scope queue. See conference_scopes.md for editorial
-limits: a broad CFP inventory is not a mandate to add peripheral topic tags.
-Parent selection
-expands to children; matching is OR within families, with selectable ANY/ALL
-across families. Existing topic feed slugs remain stable.
-There are now 35 leaves, including Evolutionary Computation & Optimization,
-ML Systems & Infrastructure, Knowledge Representation & Reasoning, and
-Planning & Search in ML & AI. Signals, Vision & Multimedia contains focused
-graphics, multimedia-learning/retrieval, and biometrics/human-sensing leaves.
-Cognitive Science & Computational Cognition belongs to neuroscience. The dated,
-noncanonical expansion backlog lives in project_docs/conference_candidates.md;
-its 31 remaining candidates must not be mistaken for published calendar records.
+The taxonomy has eight families and 40 stable controlled leaves. Every leaf
+belongs to one family in `data/topic_families.yml`, which supplies compact labels.
+Every tracked series has one to three curated central identities in
+`data/conference_families.yml`; families are not inferred from generic method tags.
+This prevents all specialist venues using ML from appearing as general ML venues.
+Table rows expose central IDs as `data-families` independently of `data-topics`.
+
+A whole-family checkbox matches central identities. Selecting individual
+subtopics matches the deduplicated primary/additional union, using OR within
+each family. Selecting every child is equivalent to selecting its parent and
+switches to central identity matching. Selected groups combine with ANY/ALL;
+the Time series shortcut adds the same controlled leaf as another group.
+Clearing filters resets both the shortcut and the tree. No selection means
+no topic restriction. Both tabs and the map share these rules.
+
+Four primary leaves remain visible; optional series profiles in
+`data/conference_scopes.yml` add up to six characteristic leaves, concise scope
+prose, official evidence URLs/year and an independent review date. Search uses
+scope prose, leaf labels and central family names. Topic feeds remain leaf-union
+based, not family-identity based; stable slugs and existing UIDs are preserved.
+Missing profiles fall back to primary leaves and enter the advisory queue.
+Current coverage is 63 of 113 series; see conference_scopes.md for editorial limits.
+
+The eight families separate NLP/agents/retrieval and RL/robotics/control,
+retain neuroscience and responsible AI, place biometrics with healthcare,
+and group graphs, complex systems, time series and signals together. The long
+dynamics label stays on one line with compact small-screen spacing; below
+1200px the topic tree occupies its own grid row. The dated backlog has 15
+remaining original candidates, not published calendar records.
 
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.
@@ -119,6 +129,9 @@ triennial series.
 flowchart TD
   A["data/conferences.yml"] --> V["scripts/validate.py"]
   B["data/topics.yml"] --> V
+  TF["data/topic_families.yml"] --> V
+  CF["data/conference_families.yml"] --> V
+  CF --> S
   C["data/metadata.yml"] --> S["scripts/build_site.py"]
   R["data/icore_rankings.yml"] --> V
   R --> S
@@ -154,6 +167,8 @@ data/
   ccf_rankings.yml                sourced CCF 2026 series ranks
   acceptance_rates.yml            sourced historical acceptance rates
   conference_scopes.yml           curated sourced series-level scope profiles
+  topic_families.yml              eight families, leaf membership and display labels
+  conference_families.yml         curated central identities for every series
   core_conferences_normalized_tags.xlsx  synchronized catalog-reference workbook
 scripts/
   validate.py                     schema and consistency checks
@@ -194,6 +209,8 @@ AGENTS.md                         lightweight agent onboarding instructions
 
 - `data/conferences.yml` owns conference facts and confidence levels.
 - `data/topics.yml` owns allowed topic labels.
+- `data/topic_families.yml` owns the eight-family hierarchy and compact labels.
+- `data/conference_families.yml` owns complete central series identities.
 - `data/icore_rankings.yml` owns the optional ICORE 2026 series-level mapping and official portal provenance.
 - `data/ccf_rankings.yml` owns direct CCF 2026 catalog matches, PDF-page provenance, and a separately validated official navigation webpage.
 - `data/acceptance_rates.yml` owns historical rate evidence, edition, and track.
@@ -243,8 +260,8 @@ The project currently uses procedural Python functions and built-in data structu
 - Agent handoff interface: Future coding sessions should start with `AGENTS.md`, then read all files in `project_docs/` before making modifications.
 - Topic taxonomy: Primary and additional topics must match `data/topics.yml`.
   Primary topics are limited to four and additional topics to six; a profile
-  need not fill either count. Search/filter/feed matching uses their union,
-  while display labels remain limited to the edition's primary topics.
+  need not fill either count. Individual subtopics and leaf feeds use the union;
+  whole-family filters use central identities. Display stays primary-only.
 - Calendar UID interface: UIDs derive from conference `id` plus event type, for example `neurips-2026-deadline-full-paper@scientific-conference-calendar`.
 - Generated site interface: The HTML uses data attributes such as `data-filter-row`, `data-topics`, `data-size`, `data-icore`, `data-ccf`, `data-acceptance`, and serialized deadline details for client-side filtering and status evaluation. Missing ranks match the corresponding Unranked option; workshops do not inherit scores. The next chronological milestone includes conference start. An opportunities filter retains open, upcoming, and estimated submission routes, excluding closed ones. Future conferences are sorted by start date; ongoing/past editions appear separately. Estimated dates never become confirmed-open solely from a future timestamp.
 

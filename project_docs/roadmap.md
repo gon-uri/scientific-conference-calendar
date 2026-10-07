@@ -5,7 +5,7 @@ Last synchronized: 2026-10-07
 ## Venue Radar Redesign
 
 - Completed: refined calendar/radar identity, simple README, MIT/CC BY licensing,
-  author/social links, five normalized sizes, seven hierarchical topic families,
+  author/social links, five normalized sizes, eight hierarchical topic families,
   offline city map plus conference tables, eight new conference series, and
   synchronized catalog workbook with repeatable maintenance tooling.
 - Completed community setup: Giscus prerequisites verified through its official
@@ -35,8 +35,11 @@ Last synchronized: 2026-10-07
   including both dedicated biometrics venues FG/IJCB. Five additional leaves
   distinguish reasoning, planning, graphics, multimedia, and biometrics;
   recurrence and source limitations are documented in vision_ai_expansion.md.
+- Completed: the 13 language/retrieval/web selections plus ICRA, RSS and SMC,
+  with five focused new leaves, eight-topic filters, central family identities,
+  and a Time series shortcut. Evidence is in nlp_robotics_expansion.md.
 - Backlog: [conference_candidates.md](conference_candidates.md) preserves all
-  57 originally missing series: 26 added and 31 still untracked, plus future-only
+  57 originally missing series: 42 added and 15 still untracked, plus future-only
   ICWM separately. Further additions require approval and official-source review.
 
 ### Baseline Static Calendar
@@ -57,7 +60,7 @@ Last synchronized: 2026-10-07
 
 ### Topic Coverage
 
-- Goal: Maintain seven broad families and central subtopics covering ML/AI, data/time series, signals/vision/multimedia/biometrics, neuroscience/neurotechnology, healthcare/biomedical AI, dynamics/complex systems/control, and responsible/trustworthy AI.
+- Goal: Maintain eight broad families: ML & Data Science; NLP, Agents & Retrieval; Vision & Multimedia; RL, Robotics & Control; Complex Systems, Time Series & Signals; Healthcare & Biometrics; Neuroscience & Neurotechnology; Responsible & Trustworthy AI. Central identities keep generic ML methods from overwhelming specialist searches; individual subtopics retain broader sourced scope matching.
 - Priority: Medium
 - Dependencies: `data/topics.yml`, validation, per-topic ICS generation.
 - Estimated complexity: Low
@@ -70,8 +73,8 @@ Last synchronized: 2026-10-07
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions, a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 45 of 97 series, including all 26 AI Deadlines additions.
-- Remaining work: curate the 52 missing profiles from official sources and
+- Current coverage: 63 of 113 series, including all 42 AI Deadlines additions.
+- Remaining work: curate the 50 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).
 

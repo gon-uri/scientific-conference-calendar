@@ -345,3 +345,47 @@ Last synchronized: 2026-10-07
   45 / 97, and the original backlog 31 untracked candidates. Evidence and monthly
   follow-ups are maintained in vision_ai_expansion.md. This is targeted expansion,
   not a claim of a complete refresh of every previously tracked edition.
+
+## ADR-030: Separate Eight Central Families From Specific Scope Matching
+
+- Date: 2026-10-07
+- Context: The user wants eight intuitive topics, preserving healthcare,
+  neuroscience, complex systems/time series and responsible AI while adding
+  established language, agents, retrieval and robotics communities. Generic
+  ML tags should not flood broad-family searches with every specialist venue.
+- Decision: Keep 40 stable leaves in eight families. Store one to three central
+  identities for every series in conference_families.yml, validated for complete
+  coverage. Whole-family selection matches those identities. Partial child
+  selections match the curated primary/additional union, OR within a family
+  and ANY/ALL across selected groups. Selecting all children is equivalent to
+  selecting the parent. The Time series shortcut contributes that leaf as
+  another selected group; Clear filters resets it too.
+- Editorial structure: NLP/agents/retrieval and RL/robotics/control are separate;
+  biometrics belongs with healthcare. Graphs, nonlinear dynamics, complex
+  systems, time series and signals share the complex-systems family. Human-AI
+  interaction sits with responsible AI. Keep four visible main tags and up to
+  six genuinely characteristic extra tags, not blanket CFP inventories.
+- Consequences: Specific deep-learning searches can find MICCAI without
+  labeling it a general ML venue. LoG is centrally ML and graph/complex systems;
+  L4DC is centrally control/dynamics. Existing leaf feeds remain union-based;
+  family filters intentionally need not equal the union of all leaf feeds.
+  Preserve full one-line family labels via layout and narrow-screen spacing.
+
+## ADR-031: Preserve Eligibility, Provisional Dates And Irregular Recurrence
+
+- Date: 2026-10-07
+- Decision: Add the approved 13 language/retrieval/web series plus ICRA, RSS
+  and SMC. Keep stable WWW and IJCNLP aliases; ISWC is Semantic Web, never
+  Wearable Computers. ARR commitment deadlines are non-submission milestones.
+  RSS's six-page stage 1 gates invited stage 2. ECIR resource papers get their
+  own archival submission type, independent of the other abstract gates.
+- Evidence: SIGIR explicitly labels its future deadlines PROPOSED, so confirmed
+  meeting dates do not promote those deadlines to confirmed. SMC's proposal-
+  only dates stay estimated; conflicting 2026 camera-ready blocks are omitted.
+  Preserve literal ICRA PST and flag the civil-time discrepancy for review.
+  LREC is biennial; NAACL/COLING/IJCNLP remain outside automatic annual rollover.
+- Consequences: 113 series / 144 editions; 63 reviewed profiles; 66 ICORE,
+  55 CCF and 34 acceptance mappings. Twelve new rates remain Unknown. The original
+  57-candidate gap is now 42 added / 15 deferred, with ICWM separate. Deferred
+  does not mean all venues are minor. Sources, workbook, tests and publication
+  documentation remain synchronized; event UIDs and old date fields are stable.

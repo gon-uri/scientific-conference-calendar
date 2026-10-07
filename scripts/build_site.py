@@ -8,7 +8,7 @@ from pathlib import Path
 from typing import Any
 
 import yaml
-from catalog_metadata import CITIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata
+from catalog_metadata import CITIES_PATH, CONFERENCE_FAMILIES_PATH, FAMILIES_PATH, load_mapping, map_events, validate_catalog_metadata, validate_conference_families
 from conference_scopes import SCOPES_PATH, all_topics, load_scopes, validate_scopes, with_scopes
 
 from validate import (
@@ -38,6 +38,7 @@ DOCS_DIR = ROOT / "docs"
 METADATA_PATH = ROOT / "data" / "metadata.yml"
 ASSETS_DIR = ROOT / "assets"
 TOPIC_CATALOG = load_mapping(FAMILIES_PATH)
+CONFERENCE_FAMILIES = load_mapping(CONFERENCE_FAMILIES_PATH)
 TIME_ESTIMATE_TOOLTIP = (
     "Official day; exact hour/timezone unannounced. "
     "Countdown uses a provisional calendar time."
@@ -137,7 +138,8 @@ def _search_text(conference: dict[str, Any], extra: list[str] | None = None) -> 
         conference.get("submission_type", ""),
         " ".join(topics),
         " ".join(TOPIC_CATALOG["labels"].get(topic, topic) for topic in topics),
-        " ".join(family["label"] for family in TOPIC_CATALOG["families"] if set(family["topics"]) & set(topics)),
+        " ".join(family["label"] for family in TOPIC_CATALOG["families"]
+                 if family["id"] in CONFERENCE_FAMILIES.get(conference["series"], [])),
         conference.get("scope", {}).get("scope_summary", ""),
     ]
     if extra:
@@ -271,6 +273,7 @@ def _filter_attributes(
     return (
         f'data-filter-row data-edition="{_attr(conference["id"])}" data-search="{_attr(search_text)}" '
         f'data-topics="{_attr(_topic_slugs(all_topics(conference)))}" '
+        f'data-families="{_attr(" ".join(CONFERENCE_FAMILIES.get(conference["series"], [])))}" '
         f'data-size="{_attr(_value_slug(conference.get("size", "")))}" '
         f'data-icore="{_attr(icore.get(conference["series"], {}).get("rank", "Unranked"))}" '
         f'data-ccf="{_attr(ccf.get(conference["series"], {}).get("rank", "Unranked"))}" '
@@ -496,11 +499,14 @@ def _topic_filter() -> str:
         )
         families.append(
             f'<details class="topic-family"><summary title="Expand or collapse subtopics"><label class="check-option">'
-            f'<input type="checkbox" data-family-toggle="{_attr(family["id"])}">'
+            f'<input type="checkbox" data-family-toggle="{_attr(family["id"])}" '
+            f'title="{_attr("Central conference focus: " + family["label"])}">'
             f'<span>{escape(family["label"])}</span></label></summary>'
             f'<div class="check-list">{children}</div></details>'
         )
-    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend><div class="topic-tree">' + ''.join(families) + '</div></fieldset>'
+    shortcut = ('<label class="check-option topic-shortcut"><input id="time-series-shortcut" '
+                'type="checkbox"><span>Time series</span></label>')
+    return '<fieldset class="topic-filter"><legend>Topics &amp; Subtopics</legend>' + shortcut + '<div class="topic-tree">' + ''.join(families) + '</div></fieldset>'
 
 
 def build_site(
@@ -519,6 +525,8 @@ def build_site(
     errors = validate_conferences(conferences, load_controlled_topics())
     cities = load_mapping(CITIES_PATH)
     errors.extend(validate_catalog_metadata(load_controlled_topics() or set(), TOPIC_CATALOG, cities))
+    errors.extend(validate_conference_families(conferences, CONFERENCE_FAMILIES, TOPIC_CATALOG,
+                                              allow_extra=data_path != DATA_PATH))
     errors.extend(validate_icore_rankings(conferences, icore_data))
     errors.extend(validate_ccf_rankings(conferences, ccf_data))
     errors.extend(validate_acceptance_rates(conferences, acceptance_data))
@@ -1179,7 +1187,7 @@ def build_site(
     <header>
       <div class="brand-copy">
         <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
-        <p class="subhead">Scientific conferences in ML &amp; AI, data science, vision, multimedia &amp; biometrics, signal processing, biomedical AI, complex systems, control and neuroscience.</p>
+        <p class="subhead">Scientific conferences in ML &amp; data science, NLP, agents &amp; retrieval, complex systems, time series &amp; signals, vision &amp; multimedia, healthcare &amp; biometrics, neuroscience, robotics &amp; control, and responsible AI.</p>
       </div>
       <div class="calendar-action">
         <span class="calendar-caption">Download calendar</span>
@@ -1584,11 +1592,13 @@ def build_site(
       applyFilters();
     }}));
     document.querySelector("#topic-match").addEventListener("change", applyFilters);
+    document.querySelector("#time-series-shortcut").addEventListener("change", applyFilters);
     openOnly.addEventListener("change", applyFilters);
     clearFilters.addEventListener("click", () => {{
       search.value = "";
       filters.forEach((input) => {{ input.checked = false; }});
       openOnly.checked = false;
+      document.querySelector("#time-series-shortcut").checked = false;
       document.querySelector("#topic-match").value = "any";
       applyFilters();
       search.focus();

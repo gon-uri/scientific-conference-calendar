@@ -2,6 +2,20 @@ release: "ICORE2026"
 checked_on: "2026-10-07"
 source_url: "https://portal.core.edu.au/conf-ranks/?search=&by=all&source=ICORE2026&sort=atitle&page=1&do=Export"
 rankings:
+  "ACL": {rank: "A*", portal_id: 196}
+  "EMNLP": {rank: "A*", portal_id: 448}
+  "NAACL": {rank: "A", portal_id: 1648}
+  "COLING": {rank: "B", portal_id: 949}
+  "CoNLL": {rank: "B", portal_id: 371}
+  "LREC": {rank: "B", portal_id: 2092}
+  "IJCNLP": {rank: "B", portal_id: 1317}
+  "SIGIR": {rank: "A*", portal_id: 29}
+  "ECIR": {rank: "A", portal_id: 483}
+  "RecSys": {rank: "A", portal_id: 28}
+  "WWW": {rank: "A*", portal_id: 1548}
+  "ISWC": {rank: "A", portal_id: 1338}
+  "ICRA": {rank: "A*", portal_id: 2051}
+  "SMC": {rank: "B", portal_id: 611}
   "AAAI": {rank: "A*", portal_id: 1629}
   "AAMAS": {rank: "A", portal_id: 922}
   "ACML": {rank: "C", portal_id: 2174}

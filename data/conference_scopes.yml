@@ -453,6 +453,7 @@ AutoML:
 
 LoG:
   additional_topics:
+    - Complex Systems & Network Science
     - Probabilistic, Causal & Uncertainty ML
     - Signal Processing
     - Robustness & Safety
@@ -541,7 +542,7 @@ AAMAS:
   additional_topics:
     - Deep Representation Learning
     - Probabilistic, Causal & Uncertainty ML
-    - Evolutionary Computation & Optimization
+    - Control & Robotics
     - Complex Systems & Network Science
     - Ethics & Governance
     - Explainability & Interpretability
@@ -773,3 +774,261 @@ AIES:
     - https://www.aies-conference.com/2026/call-for-papers/
   scope_last_checked: '2026-10-07'
   source_year: 2026
+
+ACL:
+  additional_topics:
+  - Cognitive Science & Computational Cognition
+  - Explainability & Interpretability
+  - Fairness & Responsible AI
+  - Human-AI Interaction & Deployment
+  - Knowledge Representation & Reasoning
+  scope_summary: 'Computational linguistics and language processing: language modeling, linguistic
+    structure, multilinguality and translation, generation, dialogue, resources, and evaluation.
+    Language-grounded agent and retrieval work is relevant. The 2027 theme examines homogenization
+    and knowledge collapse in LLMs. A language contribution remains central; general medical
+    or robotics applications do not make this a specialist venue.'
+  scope_source_urls:
+  - https://2027.aclweb.org/calls/main/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+EMNLP:
+  additional_topics:
+  - Explainability & Interpretability
+  - Fairness & Responsible AI
+  - Robustness & Safety
+  - Human-AI Interaction & Deployment
+  scope_summary: Empirical methods for language modeling and NLP, including generation, information
+    extraction, multilinguality, dialogue, retrieval, and model evaluation. Interpretability,
+    bias, and safety matter within language systems. Curated coverage emphasizes language methods
+    and evidence rather than every application listed in the CFP.
+  scope_source_urls:
+  - https://2026.emnlp.org/calls/main_conference_papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+NAACL:
+  additional_topics:
+  - Autonomous Agents & Multiagent Systems
+  - Cognitive Science & Computational Cognition
+  - Fairness & Responsible AI
+  - Robustness & Safety
+  - Human-AI Interaction & Deployment
+  scope_summary: Language technologies and computational linguistics across the Americas community,
+    covering multilingual and low-resource NLP, language models, dialogue, retrieval, evaluation,
+    and linguistic analysis. The 2027 theme concerns language as a medium for agentic communication,
+    not merely running multiple models. General application domains are not standalone specialist
+    tags.
+  scope_source_urls:
+  - https://2027.naacl.org/calls/main_conference_papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+COLING:
+  additional_topics:
+  - Information Retrieval & Search
+  - Cognitive Science & Computational Cognition
+  - Explainability & Interpretability
+  - Fairness & Responsible AI
+  scope_summary: Computational linguistics and language processing spanning linguistic theory,
+    multilinguality, semantics and structured prediction, language models, dialogue, and empirical
+    evaluation. Agentic language systems and knowledge-grounded NLP are relevant; the defining
+    contribution should concern language, not a peripheral application domain.
+  scope_source_urls:
+  - https://2027.coling-iccl.org/calls/main_conference_papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+CoNLL:
+  additional_topics:
+  - Deep Representation Learning
+  - Multimedia Learning & Retrieval
+  scope_summary: Scientifically, cognitively, and linguistically motivated computational language
+    learning. Characteristic work concerns language acquisition, psycholinguistics, grammars
+    and meaning, multilinguality, language and the brain, and grounded language models. This
+    is a focused scientific NLP venue rather than a generic empirical language-model benchmark
+    conference.
+  scope_source_urls:
+  - https://www.conll.org/2026
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+LREC:
+  additional_topics:
+  - Multimedia Learning & Retrieval
+  - Fairness & Responsible AI
+  scope_summary: Language resources, annotation, corpora and datasets, speech and multimodal
+    resources, benchmarking, and evaluation for human-language technologies. Contributions often
+    create or analyze reusable resources and methods for linguistic coverage and reliable assessment.
+    The breadth of language applications is summarized without treating every domain as a defining
+    topic.
+  scope_source_urls:
+  - https://lrec2026.info/third-call-for-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+IJCNLP:
+  additional_topics:
+  - Cognitive Science & Computational Cognition
+  - Explainability & Interpretability
+  - Fairness & Responsible AI
+  - Human-AI Interaction & Deployment
+  scope_summary: Computational linguistics and natural-language technologies in the Asia-Pacific
+    community, including multilingual and low-resource NLP, language modeling, generation, dialogue,
+    structured prediction, and evaluation. The 2026 edition is jointly organized as AACL-IJCNLP.
+    Alias identity is preserved without inheriting the separate ACL conference ranking.
+  scope_source_urls:
+  - https://2026.aaclnet.org/calls/main_conference_papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+SIGIR:
+  additional_topics:
+  - Multimedia Learning & Retrieval
+  - Human-AI Interaction & Deployment
+  - Fairness & Responsible AI
+  - ML Systems & Infrastructure
+  scope_summary: Information access, search and ranking, query and content understanding, recommendation,
+    conversational and multimodal retrieval, and evaluation of retrieval systems. Learning and
+    language models are relevant through an information-retrieval contribution, including retrieval-augmented
+    generation. The 2027 detailed track pages contain organizer placeholders; scope should be
+    rechecked when finalized.
+  scope_source_urls:
+  - https://sigir2027.org/pages/submit-full.html
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+ECIR:
+  additional_topics:
+  - Human-AI Interaction & Deployment
+  - Explainability & Interpretability
+  - Fairness & Responsible AI
+  - Multimedia Learning & Retrieval
+  scope_summary: Information retrieval and ranking, recommendation, conversational search and
+    RAG, user information interaction, system efficiency, and rigorous evaluation. The 2027
+    call explicitly includes language models and agentic retrieval workflows. Replicability
+    and research-resource papers are distinct routes. Fairness and explainability concern information
+    access rather than generic responsible-AI topics.
+  scope_source_urls:
+  - https://www.ecir2027.co.uk/call-for-full-papers
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+RecSys:
+  additional_topics:
+  - Time Series & Sequential Data
+  - Natural Language Processing & LLMs
+  - Fairness & Responsible AI
+  - Explainability & Interpretability
+  scope_summary: 'Recommendation and personalization: user-item modeling, collaborative and
+    content-based methods, sequential and conversational recommendation, evaluation, and deployed
+    recommendation systems. Human and economic impacts matter alongside algorithms. Sequential
+    data is relevant specifically through recommendation behavior; this is not a general forecasting
+    conference.'
+  scope_source_urls:
+  - https://recsys.acm.org/recsys26/call/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+WWW:
+  additional_topics:
+  - Knowledge Representation & Reasoning
+  - Data Mining & Data Science
+  - Fairness & Responsible AI
+  - Privacy-preserving ML
+  - Ethics & Governance
+  scope_summary: Research on the Web as infrastructure and a socio-technical ecosystem. Characteristic
+    ML-facing tracks include search and recommendation, retrieval-augmented and agentic information
+    access, graph learning, and semantic knowledge. Responsible Web and privacy research are
+    substantive strands. Merely using a web dataset or API is explicitly insufficient topical
+    relevance.
+  scope_source_urls:
+  - https://www2027.thewebconf.org/research-track-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+COLM:
+  additional_topics:
+  - Learning Theory & Statistical Foundations
+  - Explainability & Interpretability
+  - Robustness & Safety
+  - Fairness & Responsible AI
+  - Multimedia Learning & Retrieval
+  scope_summary: 'Language-model foundations and methods: training and architecture, data and
+    scaling, inference and generation, evaluation, reasoning, retrieval augmentation, and tool-using
+    language agents. Alignment, interpretability, and multimodal language models are meaningful
+    extensions. A central language-model contribution distinguishes the conference from generic
+    AI applications.'
+  scope_source_urls:
+  - https://colm.cc/Conferences/2026/CallForPapers
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+ISWC:
+  additional_topics:
+  - Machine Learning
+  - Explainability & Interpretability
+  scope_summary: 'Semantic Web and linked-data research: ontologies, knowledge graphs, representation
+    and reasoning, semantic integration, querying, and knowledge-supported AI. Graph learning
+    is relevant through semantic data and knowledge structures; this is not the IEEE wearable-computing
+    symposium with the same acronym.'
+  scope_source_urls:
+  - https://iswc2026.semanticweb.org/calls/research
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+ICRA:
+  additional_topics:
+  - Planning & Search
+  - Deep Representation Learning
+  - Human-AI Interaction & Deployment
+  - Robustness & Safety
+  scope_summary: Robotics and automation across perception, motion and manipulation, planning
+    and control, human-robot interaction, and autonomous systems. Learning-based robotics, reinforcement
+    and imitation learning, and data-driven models are relevant when they advance physical robotic
+    capability. Generic ML with no robotics connection is not the core remit.
+  scope_source_urls:
+  - https://2027.ieee-icra.org/contribute/call-for-icra-2027-papers-now-accepting-submissions/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+RSS:
+  additional_topics:
+  - Planning & Search
+  - Deep Representation Learning
+  - Probabilistic, Causal & Uncertainty ML
+  - Robustness & Safety
+  scope_summary: Focused robotics research linking perception, learning, planning, control,
+    manipulation, and robot-system science. Reinforcement and imitation learning, model-based
+    behavior, and reliable autonomous systems are characteristic intersections. The 2027 review
+    process emphasizes a scientifically developed robotic hypothesis through gated initial and
+    invited final submissions.
+  scope_source_urls:
+  - https://roboticsconference.org/information/cfp/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+SMC:
+  additional_topics:
+  - Reinforcement Learning
+  - System Identification & Data-driven Dynamics
+  - BCI & Neurotechnology
+  - Cognitive Science & Computational Cognition
+  scope_summary: Systems science, cybernetics, and human-machine systems. Characteristic ML-facing
+    work includes intelligent and learning-based control, autonomous systems, adaptive decision-making,
+    and human-AI interaction; brain-machine interfaces and cognitive systems are meaningful
+    extensions. Its interdisciplinary remit is curated without tagging every industrial application
+    as a core specialty.
+  scope_source_urls:
+  - https://www.ieeesmc2026.org/call-for-papers
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+CIKM:
+  additional_topics: [Information Retrieval & Search, Recommender Systems, Knowledge Representation & Reasoning, Graphs & Graph Learning, LLM Agents & Tool Use]
+  scope_summary: >-
+    Information retrieval, knowledge management, data mining and database systems,
+    with a strong focus on effective information access and knowledge at scale.
+    The 2026 organizer description emphasizes AI for information access, knowledge
+    representation, personalization and evaluation. Agentic and graph methods are
+    relevant through these information and knowledge problems.
+  scope_source_urls: [https://cikm2026.diag.uniroma1.it/]
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+WSDM:
+  additional_topics: [Information Retrieval & Search, Recommender Systems, Graphs & Graph Learning, LLM Agents & Tool Use, Natural Language Processing & LLMs]
+  scope_summary: >-
+    Web search, ranking, recommendation and mining of web and social data.
+    Characteristic extensions include large-scale graph analysis, conversational
+    retrieval, foundation-model and agentic web systems, and fairness and privacy
+    in information access. The broad emerging-applications inventory is not
+    treated as evidence that WSDM is a specialist healthcare or climate venue.
+  scope_source_urls: [https://www.wsdm-conference.org/2027/cffp.html]
+  scope_last_checked: '2026-10-07'
+  source_year: 2027

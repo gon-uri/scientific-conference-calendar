@@ -3,9 +3,10 @@
 # [Open Venue Radar](https://gon-uri.github.io/venue-radar/)
 
 **Venue Radar** is a scientific conference calendar for finding the next place
-to share your research. It tracks conferences in machine learning and AI, data
-science and time series, signal processing, vision, multimedia and biometrics,
-responsible AI, biomedical AI, complex systems and control, and neuroscience.
+to share your research. It tracks conferences in machine learning and data
+science; language, agents and retrieval; complex systems, time series and
+signals; vision and multimedia; healthcare and biometrics; neuroscience;
+robotics and control; and responsible AI.
 
 Browse submission opportunities, conference dates and locations, rankings,
 and historical acceptance rates. Uncertain dates are clearly marked as estimates.

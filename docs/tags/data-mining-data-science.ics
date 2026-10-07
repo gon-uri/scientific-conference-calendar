@@ -5,6 +5,31 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Data Mining & Data Science
 BEGIN:VEVENT
+UID:lrec-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20251025T115900Z
+DTEND:20251025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Paper submission deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ida-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20251122T115959Z
@@ -144,6 +169,31 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
+UID:lrec-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260316T115900Z
+DTEND:20260316T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Camera-ready deadline
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/third
+ -call-for-papers/\nLocation: Palma de Mallorca\, Spain\nTopics: Natural L
+ anguage Processing & LLMs\, Data Mining & Data Science\, Signal Processin
+ g\nSize: XL\nSubmission type: Paper-based\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-07\nNotes: Archived full conference window includes w
+ orkshops\; main sessions May 13-15. Resources\, datasets\, annotation and
+  evaluation characterize the venue. Size is an editorial estimate.\nScope
+ : Language resources\, annotation\, corpora and datasets\, speech and mul
+ timodal resources\, benchmarking\, and evaluation for human-language tech
+ nologies. Contributions often create or analyze reusable resources and me
+ thods for linguistic coverage and reliable assessment. The breadth of lan
+ guage applications is summarized without treating every domain as a defin
+ ing topic.\nAdditional topics: Multimedia Learning & Retrieval\, Fairness
+  & Responsible AI\nScope sources (2026): https://lrec2026.info/third-call
+ -for-papers/\nScope last checked: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260325
@@ -262,6 +312,82 @@ URL:https://ida2026.org/
 LOCATION:Leiden\, Netherlands
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260503T115900Z
+DTEND:20260503T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use abstract deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260508T115900Z
+DTEND:20260508T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use paper deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260511
+DTEND;VALUE=DATE:20260517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2026 - Conference
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://lrec2026.info/\nSource URL: https://lrec2026.info/\nLoc
+ ation: Palma de Mallorca\, Spain\nTopics: Natural Language Processing & L
+ LMs\, Data Mining & Data Science\, Signal Processing\nSize: XL\nSubmissio
+ n type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-07
+ \nNotes: Archived full conference window includes workshops\; main sessio
+ ns May 13-15. Resources\, datasets\, annotation and evaluation characteri
+ ze the venue. Size is an editorial estimate.\nScope: Language resources\,
+  annotation\, corpora and datasets\, speech and multimodal resources\, be
+ nchmarking\, and evaluation for human-language technologies. Contribution
+ s often create or analyze reusable resources and methods for linguistic c
+ overage and reliable assessment. The breadth of language applications is 
+ summarized without treating every domain as a defining topic.\nAdditional
+  topics: Multimedia Learning & Retrieval\, Fairness & Responsible AI\nSco
+ pe sources (2026): https://lrec2026.info/third-call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://lrec2026.info/
+LOCATION:Palma de Mallorca\, Spain
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-icmla-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260516T065900Z
@@ -313,7 +439,16 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
@@ -330,7 +465,16 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
 END:VEVENT
 BEGIN:VEVENT
@@ -638,6 +782,31 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
 URL:https://2026.acmmm.org/site/important-dates.html
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260807T115900Z
+DTEND:20260807T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Research/resource/in-use camera-ready deadline
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/importantdates\nLocation: Bari\, Italy\nTopics: Knowledge Repre
+ sentation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data Scie
+ nce\, Information Retrieval & Search\nSize: M\nSubmission type: Paper-bas
+ ed\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Semantic
+  Web ISWC\, not IEEE Symposium on Wearable Computers. Official JavaScript
+ -rendered date table specifies 23:59 AoE\; main sessions October 27-29 af
+ ter workshops/tutorials. Size is an editorial estimate.\nScope: Semantic 
+ Web and linked-data research: ontologies\, knowledge graphs\, representat
+ ion and reasoning\, semantic integration\, querying\, and knowledge-suppo
+ rted AI. Graph learning is relevant through semantic data and knowledge s
+ tructures\; this is not the IEEE wearable-computing symposium with the sa
+ me acronym.\nAdditional topics: Machine Learning\, Explainability & Inter
+ pretability\nScope sources (2026): https://iswc2026.semanticweb.org/calls
+ /research\nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260809
@@ -703,7 +872,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
  otes: Official WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstr
- act/paper deadlines.
+ act/paper deadlines.\nScope: Web search\, ranking\, recommendation and mi
+ ning of web and social data. Characteristic extensions include large-scal
+ e graph analysis\, conversational retrieval\, foundation-model and agenti
+ c web systems\, and fairness and privacy in information access. The broad
+  emerging-applications inventory is not treated as evidence that WSDM is 
+ a specialist healthcare or climate venue.\nAdditional topics: Information
+  Retrieval & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM
+  Agents & Tool Use\, Natural Language Processing & LLMs\nScope sources (2
+ 027): https://www.wsdm-conference.org/2027/cffp.html\nScope last checked:
+  2026-10-07
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -773,7 +951,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  Responsible AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nN
  otes: Official WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstr
- act/paper deadlines.
+ act/paper deadlines.\nScope: Web search\, ranking\, recommendation and mi
+ ning of web and social data. Characteristic extensions include large-scal
+ e graph analysis\, conversational retrieval\, foundation-model and agenti
+ c web systems\, and fairness and privacy in information access. The broad
+  emerging-applications inventory is not treated as evidence that WSDM is 
+ a specialist healthcare or climate venue.\nAdditional topics: Information
+  Retrieval & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM
+  Agents & Tool Use\, Natural Language Processing & LLMs\nScope sources (2
+ 027): https://www.wsdm-conference.org/2027/cffp.html\nScope last checked:
+  2026-10-07
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
@@ -950,6 +1137,88 @@ URL:https://ccs26.cssociety.org/
 LOCATION:Binghamton\, New York\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:www-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261019T115900Z
+DTEND:20261019T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Fu
+ ll-paper abstract deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261025
+DTEND;VALUE=DATE:20261030
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2026 - Conference
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://iswc2026.semanticweb.org/\nSource URL: https://iswc2026.semant
+ icweb.org/\nLocation: Bari\, Italy\nTopics: Knowledge Representation & Re
+ asoning\, Graphs & Graph Learning\, Data Mining & Data Science\, Informat
+ ion Retrieval & Search\nSize: M\nSubmission type: Paper-based\nConfidence
+ : confirmed\nLast checked date: 2026-10-07\nNotes: Semantic Web ISWC\, no
+ t IEEE Symposium on Wearable Computers. Official JavaScript-rendered date
+  table specifies 23:59 AoE\; main sessions October 27-29 after workshops/
+ tutorials. Size is an editorial estimate.\nScope: Semantic Web and linked
+ -data research: ontologies\, knowledge graphs\, representation and reason
+ ing\, semantic integration\, querying\, and knowledge-supported AI. Graph
+  learning is relevant through semantic data and knowledge structures\; th
+ is is not the IEEE wearable-computing symposium with the same acronym.\nA
+ dditional topics: Machine Learning\, Explainability & Interpretability\nS
+ cope sources (2026): https://iswc2026.semanticweb.org/calls/research\nSco
+ pe last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/
+LOCATION:Bari\, Italy
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261026T115900Z
+DTEND:20261026T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Fu
+ ll paper submission deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:cikm-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261107
@@ -963,7 +1232,16 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  essing & LLMs\, Human-AI Interaction & Deployment\nSize: XL\nSubmission t
  ype: Paper-based\nConfidence: confirmed\nLast checked date: 2026-08-31\nN
  otes: Official CIKM 2026 materials confirm Rome\, Nov 7-11\, and the May 
- 16 abstract and May 23 full-paper deadlines.
+ 16 abstract and May 23 full-paper deadlines.\nScope: Information retrieva
+ l\, knowledge management\, data mining and database systems\, with a stro
+ ng focus on effective information access and knowledge at scale. The 2026
+  organizer description emphasizes AI for information access\, knowledge r
+ epresentation\, personalization and evaluation. Agentic and graph methods
+  are relevant through these information and knowledge problems.\nAddition
+ al topics: Information Retrieval & Search\, Recommender Systems\, Knowled
+ ge Representation & Reasoning\, Graphs & Graph Learning\, LLM Agents & To
+ ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
+ ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
 LOCATION:Rome\, Italy
 END:VEVENT
@@ -997,6 +1275,34 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  cmmm.org/\nScope last checked: 2026-10-07
 URL:https://2026.acmmm.org/
 LOCATION:Rio de Janeiro\, Brazil
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261110T115900Z
+DTEND:20261110T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
+ ort-paper abstract deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:icdm-2026-conference@scientific-conference-calendar
@@ -1050,6 +1356,34 @@ DESCRIPTION:Conference title: IEEE International Conference on Big Data\nWe
  4-17\, the Aug 21 full-paper deadline\, and the Nov 14 camera-ready deadl
  ine.
 URL:https://bigdataieee.org/BigData2026/important-dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261117T115900Z
+DTEND:20261117T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Sh
+ ort paper submission deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
 END:VEVENT
 BEGIN:VEVENT
 UID:ideal-2026-conference@scientific-conference-calendar
@@ -1266,6 +1600,34 @@ DESCRIPTION:Conference title: International Conference on Time Series and F
 URL:https://itise.ugr.es/index.html
 END:VEVENT
 BEGIN:VEVENT
+UID:www-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270201T115900Z
+DTEND:20270201T125900Z
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Re
+ search-track final version deadline
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/research-track-papers/\nLocation: D
+ ublin\, Ireland\nTopics: Information Retrieval & Search\, Recommender Sys
+ tems\, Graphs & Graph Learning\, LLM Agents & Tool Use\nSize: XL\nSubmiss
+ ion type: Paper-based\nConfidence: confirmed\nLast checked date: 2026-10-
+ 07\nNotes: Official homepage states full and short paper portals are open
+ \; separate mandatory abstract gates. Research must substantively address
+  the Web\, not merely use a web dataset. Preserve WWW as the stable serie
+ s alias. Size is an editorial estimate.\nScope: Research on the Web as in
+ frastructure and a socio-technical ecosystem. Characteristic ML-facing tr
+ acks include search and recommendation\, retrieval-augmented and agentic 
+ information access\, graph learning\, and semantic knowledge. Responsible
+  Web and privacy research are substantive strands. Merely using a web dat
+ aset or API is explicitly insufficient topical relevance.\nAdditional top
+ ics: Knowledge Representation & Reasoning\, Data Mining & Data Science\, 
+ Fairness & Responsible AI\, Privacy-preserving ML\, Ethics & Governance\n
+ Scope sources (2027): https://www2027.thewebconf.org/research-track-paper
+ s/\nScope last checked: 2026-10-07
+URL:https://www2027.thewebconf.org/research-track-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:icmr-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115959Z
@@ -1364,7 +1726,16 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  le AI\, Human-AI Interaction & Deployment\nSize: L\nSubmission type: Pape
  r-based\nConfidence: confirmed\nLast checked date: 2026-08-20\nNotes: Off
  icial WSDM 2027 pages list Hong Kong\, Feb 15-19\, and the abstract/paper
-  deadlines.
+  deadlines.\nScope: Web search\, ranking\, recommendation and mining of w
+ eb and social data. Characteristic extensions include large-scale graph a
+ nalysis\, conversational retrieval\, foundation-model and agentic web sys
+ tems\, and fairness and privacy in information access. The broad emerging
+ -applications inventory is not treated as evidence that WSDM is a special
+ ist healthcare or climate venue.\nAdditional topics: Information Retrieva
+ l & Search\, Recommender Systems\, Graphs & Graph Learning\, LLM Agents &
+  Tool Use\, Natural Language Processing & LLMs\nScope sources (2027): htt
+ ps://www.wsdm-conference.org/2027/cffp.html\nScope last checked: 2026-10-
+ 07
 URL:https://www.wsdm-conference.org/2027/
 LOCATION:Hong Kong\, China
 END:VEVENT
@@ -1572,6 +1943,85 @@ DESCRIPTION:Conference title: Conference on Complex Systems\nWebsite: https
  CCS\; no inherited security-conference rank. Size is an editorial categor
  y.
 URL:https://ccs26.cssociety.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270503T115900Z
+DTEND:20270503T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Estimated mandatory abstract deadline (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://iswc202
+ 6.semanticweb.org/importantdates\nLocation: To be announced\nTopics: Know
+ ledge Representation & Reasoning\, Graphs & Graph Learning\, Data Mining 
+ & Data Science\, Information Retrieval & Search\nSize: M\nSubmission type
+ : Paper-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNote
+ s: SWSA confirms an annual 2027 edition in October/November but not exact
+  dates or location. October 25-29 and submission cutoffs are one-year pro
+ xies from 2026. Size is an editorial estimate.\nScope: Semantic Web and l
+ inked-data research: ontologies\, knowledge graphs\, representation and r
+ easoning\, semantic integration\, querying\, and knowledge-supported AI. 
+ Graph learning is relevant through semantic data and knowledge structures
+ \; this is not the IEEE wearable-computing symposium with the same acrony
+ m.\nAdditional topics: Machine Learning\, Explainability & Interpretabili
+ ty\nScope sources (2026): https://iswc2026.semanticweb.org/calls/research
+ \nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
+UID:iswc-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270508T115900Z
+DTEND:20270508T125900Z
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://iswc202
+ 6.semanticweb.org/importantdates\nLocation: To be announced\nTopics: Know
+ ledge Representation & Reasoning\, Graphs & Graph Learning\, Data Mining 
+ & Data Science\, Information Retrieval & Search\nSize: M\nSubmission type
+ : Paper-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNote
+ s: SWSA confirms an annual 2027 edition in October/November but not exact
+  dates or location. October 25-29 and submission cutoffs are one-year pro
+ xies from 2026. Size is an editorial estimate.\nScope: Semantic Web and l
+ inked-data research: ontologies\, knowledge graphs\, representation and r
+ easoning\, semantic integration\, querying\, and knowledge-supported AI. 
+ Graph learning is relevant through semantic data and knowledge structures
+ \; this is not the IEEE wearable-computing symposium with the same acrony
+ m.\nAdditional topics: Machine Learning\, Explainability & Interpretabili
+ ty\nScope sources (2026): https://iswc2026.semanticweb.org/calls/research
+ \nScope last checked: 2026-10-07
+URL:https://iswc2026.semanticweb.org/importantdates
+END:VEVENT
+BEGIN:VEVENT
+UID:www-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270510
+DTEND;VALUE=DATE:20270515
+SUMMARY:[Information Retrieval & Search][Recommender Systems] WWW 2027 - Co
+ nference
+DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
+ rld Wide Web Conference)\nWebsite: https://www2027.thewebconf.org/\nSourc
+ e URL: https://www2027.thewebconf.org/\nLocation: Dublin\, Ireland\nTopic
+ s: Information Retrieval & Search\, Recommender Systems\, Graphs & Graph 
+ Learning\, LLM Agents & Tool Use\nSize: XL\nSubmission type: Paper-based\
+ nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official ho
+ mepage states full and short paper portals are open\; separate mandatory 
+ abstract gates. Research must substantively address the Web\, not merely 
+ use a web dataset. Preserve WWW as the stable series alias. Size is an ed
+ itorial estimate.\nScope: Research on the Web as infrastructure and a soc
+ io-technical ecosystem. Characteristic ML-facing tracks include search an
+ d recommendation\, retrieval-augmented and agentic information access\, g
+ raph learning\, and semantic knowledge. Responsible Web and privacy resea
+ rch are substantive strands. Merely using a web dataset or API is explici
+ tly insufficient topical relevance.\nAdditional topics: Knowledge Represe
+ ntation & Reasoning\, Data Mining & Data Science\, Fairness & Responsible
+  AI\, Privacy-preserving ML\, Ethics & Governance\nScope sources (2027): 
+ https://www2027.thewebconf.org/research-track-papers/\nScope last checked
+ : 2026-10-07
+URL:https://www2027.thewebconf.org/
+LOCATION:Dublin\, Ireland
 END:VEVENT
 BEGIN:VEVENT
 UID:netsci-2027-conference@scientific-conference-calendar
@@ -1785,6 +2235,58 @@ URL:https://ais2026.icas.events/
 LOCATION:TBD
 END:VEVENT
 BEGIN:VEVENT
+UID:iswc-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271025
+DTEND;VALUE=DATE:20271030
+SUMMARY:[Knowledge Representation & Reasoning][Graphs & Graph Learning] ISW
+ C 2027 - Conference (estimated)
+DESCRIPTION:Conference title: International Semantic Web Conference\nWebsit
+ e: https://swsa.semanticweb.org/conferences/\nSource URL: https://swsa.se
+ manticweb.org/conferences/\nLocation: To be announced\nTopics: Knowledge 
+ Representation & Reasoning\, Graphs & Graph Learning\, Data Mining & Data
+  Science\, Information Retrieval & Search\nSize: M\nSubmission type: Pape
+ r-based\nConfidence: estimated\nLast checked date: 2026-10-07\nNotes: SWS
+ A confirms an annual 2027 edition in October/November but not exact dates
+  or location. October 25-29 and submission cutoffs are one-year proxies f
+ rom 2026. Size is an editorial estimate.\nScope: Semantic Web and linked-
+ data research: ontologies\, knowledge graphs\, representation and reasoni
+ ng\, semantic integration\, querying\, and knowledge-supported AI. Graph 
+ learning is relevant through semantic data and knowledge structures\; thi
+ s is not the IEEE wearable-computing symposium with the same acronym.\nAd
+ ditional topics: Machine Learning\, Explainability & Interpretability\nSc
+ ope sources (2026): https://iswc2026.semanticweb.org/calls/research\nScop
+ e last checked: 2026-10-07
+URL:https://swsa.semanticweb.org/conferences/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20271025T115900Z
+DTEND:20271025T125900Z
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Estimated paper submission deadline (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://lr
+ ec2026.info/third-call-for-papers/\nLocation: To be announced\nTopics: Na
+ tural Language Processing & LLMs\, Data Mining & Data Science\, Signal Pr
+ ocessing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\n
+ Last checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bien
+ nially and is soliciting 2028/2030 hosts. Exact 2028 meeting and submissi
+ on dates are two-year proxies from 2026\, not an invented annual 2027 edi
+ tion. Size is an editorial estimate.\nScope: Language resources\, annotat
+ ion\, corpora and datasets\, speech and multimodal resources\, benchmarki
+ ng\, and evaluation for human-language technologies. Contributions often 
+ create or analyze reusable resources and methods for linguistic coverage 
+ and reliable assessment. The breadth of language applications is summariz
+ ed without treating every domain as a defining topic.\nAdditional topics:
+  Multimedia Learning & Retrieval\, Fairness & Responsible AI\nScope sourc
+ es (2026): https://lrec2026.info/third-call-for-papers/\nScope last check
+ ed: 2026-10-07
+URL:https://lrec2026.info/third-call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-mm-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271110
@@ -1814,5 +2316,32 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ope last checked: 2026-10-07
 URL:https://www.acmmm.org/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:lrec-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280511
+DTEND;VALUE=DATE:20280517
+SUMMARY:[Natural Language Processing & LLMs][Data Mining & Data Science] LR
+ EC 2028 - Conference (estimated)
+DESCRIPTION:Conference title: Language Resources and Evaluation Conference\
+ nWebsite: https://www.elra.info/elra-events/lrec/\nSource URL: https://ww
+ w.elra.info/elra-events/lrec/\nLocation: To be announced\nTopics: Natural
+  Language Processing & LLMs\, Data Mining & Data Science\, Signal Process
+ ing\nSize: XL\nSubmission type: Paper-based\nConfidence: estimated\nLast 
+ checked date: 2026-10-07\nNotes: ELRA explicitly organizes LREC bienniall
+ y and is soliciting 2028/2030 hosts. Exact 2028 meeting and submission da
+ tes are two-year proxies from 2026\, not an invented annual 2027 edition.
+  Size is an editorial estimate.\nScope: Language resources\, annotation\,
+  corpora and datasets\, speech and multimodal resources\, benchmarking\, 
+ and evaluation for human-language technologies. Contributions often creat
+ e or analyze reusable resources and methods for linguistic coverage and r
+ eliable assessment. The breadth of language applications is summarized wi
+ thout treating every domain as a defining topic.\nAdditional topics: Mult
+ imedia Learning & Retrieval\, Fairness & Responsible AI\nScope sources (2
+ 026): https://lrec2026.info/third-call-for-papers/\nScope last checked: 2
+ 026-10-07
+URL:https://www.elra.info/elra-events/lrec/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

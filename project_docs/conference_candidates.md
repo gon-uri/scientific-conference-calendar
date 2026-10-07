@@ -5,8 +5,8 @@ Audit date: 2026-10-07. Source: [AI Deadlines, all requested subjects](http://ai
 ## Scope And Counts
 
 The original comparison found **57 untracked series in total**, not 57 in
-addition to the 11 initially selected venues. Those 11 and a second batch of
-15 are now tracked, leaving **31 untracked candidates**. All 57 are preserved
+addition to the 11 initially selected venues. Those 11, a second batch of
+15, and a third batch of 16 are now tracked, leaving **15 deferred candidates**. All 57 are preserved
 below, split by their status.
 ICWM is a separate future-only candidate and is not part of that total.
 
@@ -106,11 +106,13 @@ This batch adds 18 edition records and 15 independently sourced scope profiles.
 See [vision_ai_expansion.md](vision_ai_expansion.md) for relevance, rankings,
 acceptance evidence, recurrence, and unresolved-source checks.
 
-## Untracked Candidates (31)
+### Third Batch: Language, Agents, Retrieval And Robotics
 
-### Natural Language Processing (11)
+User-approved on 2026-10-07: the 13 language/retrieval/web selections plus
+ICRA, RSS and SMC. ISWC means Semantic Web, not Wearable Computers. The current
+NAACL name is Nations of the Americas; its historical snapshot alias is kept below.
 
-| Series | Full Name And Official Link | Visible Editions |
+| Series | Full Name And Official Link | Visible Editions In Original Snapshot |
 | --- | --- | --- |
 | ACL | [Annual Meeting of the Association for Computational Linguistics](https://2027.aclweb.org/) | 2025, 2026, 2027 |
 | COLING | [International Conference on Computational Linguistics](https://2027.coling-iccl.org/) | 2025, 2027 |
@@ -118,28 +120,42 @@ acceptance evidence, recurrence, and unresolved-source checks.
 | CoNLL | [Conference on Computational Natural Language Learning](https://www.conll.org/) | 2025, 2026 |
 | EMNLP | [Conference on Empirical Methods in Natural Language Processing](https://2026.emnlp.org/) | 2025, 2026 |
 | IJCNLP | [International Joint Conference on Natural Language Processing](https://2026.aaclnet.org/) | 2025, 2026 |
-| LDK | [Language, Data and Knowledge Conference](https://2025.ldk-conf.org) | 2025 |
 | LREC | [Language Resources and Evaluation Conference](https://lrec2026.info) | 2026 |
 | NAACL | [Annual Conference of the North American Chapter of the Association for Computational Linguistics](https://2027.naacl.org/) | 2025, 2027 |
-| NLPCC | [CCF International Conference on Natural Language Processing and Chinese Computing](http://tcci.ccf.org.cn/conference/2026/) | 2025, 2026 |
-| RANLP | [Recent Advances in Natural Language Processing](https://ranlp.org/ranlp2025/) | 2025 |
-
-### Robotics (2)
-
-| Series | Full Name And Official Link | Visible Editions |
-| --- | --- | --- |
 | ICRA | [IEEE International Conference on Robotics and Automation](https://2027.ieee-icra.org/) | 2025, 2026, 2027 |
 | RSS | [Robotics Science and Systems](https://roboticsconference.org/) | 2025, 2026, 2027 |
-
-### Retrieval, Web And Recommenders (5)
-
-| Series | Full Name And Official Link | Visible Editions |
-| --- | --- | --- |
 | ECIR | [European Conference on Information Retrieval](https://ecir2027.co.uk/) | 2025, 2026, 2027 |
-| ICWSM | [International AAAI Conference on Web and Social Media](https://www.icwsm.org/2027/) | 2025, 2026, 2027 |
 | RecSys | [ACM Conference on Recommender Systems](https://recsys.acm.org/recsys27/) | 2025, 2026, 2027 |
 | SIGIR | [International Conference on Research and Development in Information Retrieval](https://sigir2027.org/) | 2025, 2026, 2027 |
 | WWW | [International World Wide Web Conference (The Web Conference)](https://www2027.thewebconf.org/) | 2025, 2026, 2027 |
+| ISWC | [International Semantic Web Conference](https://iswc2026.semanticweb.org/) | 2025, 2026 |
+| SMC | [IEEE International Conference on Systems, Man, and Cybernetics](https://www.ieeesmc2026.org/) | 2025, 2026 |
+
+This batch adds 22 edition records and 16 curated series profiles. Existing
+CIKM and WSDM also gain reviewed profiles. The eight-family restructuring
+separates central field identities from specific method/subtopic matching.
+See [nlp_robotics_expansion.md](nlp_robotics_expansion.md) for official schedule,
+recurrence, eligibility gates, rank/rate evidence, and unresolved-source checks.
+
+## Deferred Candidates (15)
+
+These are retained for possible later additions, not judged uniformly minor.
+Several HCI venues are major community conferences; their deferral reflects
+this calendar's current research focus. Inclusion still requires approval.
+
+### Natural Language Processing (3)
+
+| Series | Full Name And Official Link | Visible Editions |
+| --- | --- | --- |
+| LDK | [Language, Data and Knowledge Conference](https://2025.ldk-conf.org) | 2025 |
+| NLPCC | [CCF International Conference on Natural Language Processing and Chinese Computing](http://tcci.ccf.org.cn/conference/2026/) | 2025, 2026 |
+| RANLP | [Recent Advances in Natural Language Processing](https://ranlp.org/ranlp2025/) | 2025 |
+
+### Web And Social Media (1)
+
+| Series | Full Name And Official Link | Visible Editions |
+| --- | --- | --- |
+| ICWSM | [International AAAI Conference on Web and Social Media](https://www.icwsm.org/2027/) | 2025, 2026, 2027 |
 
 ### Human-Computer Interaction (5)
 
@@ -151,13 +167,12 @@ acceptance evidence, recurrence, and unresolved-source checks.
 | IUI | [ACM Conference on Intelligent User Interfaces](https://iui.hosting.acm.org/2027/) | 2025, 2026, 2027 |
 | UIST | [ACM Symposium on User Interface Software and Technology](https://uist.acm.org/2026/) | 2025, 2026 |
 
-### Reasoning, Planning And Knowledge (4)
+### Reasoning And Knowledge (3)
 
 | Series | Full Name And Official Link | Visible Editions |
 | --- | --- | --- |
 | CADE | [Conference on Automated Deduction](https://fscd-cade.science.ru.nl/) | 2025, 2027 |
 | IJCAR | [International Joint Conference on Automated Reasoning](https://www.floc26.org/ijcar) | 2026 |
-| ISWC | [International Semantic Web Conference](https://iswc2026.semanticweb.org/) | 2025, 2026 |
 | RuleML+RR | [International Joint Conference on Rules and Reasoning](https://2026.declarativeai.net/ruleml-rr) | 2025, 2026 |
 
 ### Speech (1)
@@ -166,13 +181,12 @@ acceptance evidence, recurrence, and unresolved-source checks.
 | --- | --- | --- |
 | SLT | [IEEE Spoken Language Technology Workshop](https://attend.ieee.org/slt-2026/) | 2026 |
 
-### Other Agents, Evolution And Applications (3)
+### Other Agents And Applications (2)
 
 | Series | Full Name And Official Link | Visible Editions |
 | --- | --- | --- |
 | DAI | [International Conference on Distributed Artificial Intelligence](https://www.adai.ai/dai/2026/index.html) | 2025, 2026 |
 | ICAIF | [International Conference on AI in Finance](https://icaif2026.org/index.html) | 2026 |
-| SMC | [IEEE International Conference on Systems, Man, and Cybernetics](https://www.ieeesmc2026.org/) | 2025, 2026 |
 
 ## Future-Only Candidate
 
