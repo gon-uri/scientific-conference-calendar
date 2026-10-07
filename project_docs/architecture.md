@@ -73,11 +73,13 @@ limits: a broad CFP inventory is not a mandate to add peripheral topic tags.
 Parent selection
 expands to children; matching is OR within families, with selectable ANY/ALL
 across families. Existing topic feed slugs remain stable.
-There are now 30 leaves, including Evolutionary Computation & Optimization
-and ML Systems & Infrastructure in ML & AI, and Cognitive Science &
-Computational Cognition in Neuroscience & Neurotechnology. The dated,
+There are now 35 leaves, including Evolutionary Computation & Optimization,
+ML Systems & Infrastructure, Knowledge Representation & Reasoning, and
+Planning & Search in ML & AI. Signals, Vision & Multimedia contains focused
+graphics, multimedia-learning/retrieval, and biometrics/human-sensing leaves.
+Cognitive Science & Computational Cognition belongs to neuroscience. The dated,
 noncanonical expansion backlog lives in project_docs/conference_candidates.md;
-its 46 candidates must not be mistaken for published calendar records.
+its 31 remaining candidates must not be mistaken for published calendar records.
 
 Giscus is an optional, lazily loaded external client backed by public GitHub
 Discussions, not a project backend. It requires a one-time owner app install.

@@ -34,3 +34,15 @@ rankings:
   "SDM": {rank: "B", page: 36}
   "UAI": {rank: "B", page: 58}
   "WSDM": {rank: "B", page: 36}
+  "3DV": {rank: "C", page: 49}
+  "ACM MM": {rank: "A", page: 47}
+  "ACM SIGGRAPH": {rank: "A", page: 47}
+  "BMVC": {rank: "C", page: 59}
+  "CVPR": {rank: "A", page: 57}
+  "ECCV": {rank: "B", page: 58}
+  "FG": {rank: "C", page: 59}
+  "ICAPS": {rank: "B", page: 58}
+  "ICCV": {rank: "A", page: 57}
+  "ICMR": {rank: "B", page: 48}
+  "IJCB": {rank: "C", page: 60}
+  "KR": {rank: "B", page: 58}

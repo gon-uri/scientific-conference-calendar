@@ -3706,3 +3706,750 @@
     The Feb 16 update is not a fresh submission route. XL reflects the official
     description of more than 2,000 annual attendees; the ICORE rank and historical
     acceptance fields describe the main conference, not its demonstration track.
+
+# AI, vision, multimedia, graphics, and biometrics additions reviewed 2026-10-07.
+- id: eurogp-2027
+  series: EuroGP
+  year: 2027
+  title: European Conference on Genetic Programming
+  short_title: EuroGP 2027
+  website: https://www.evostar.org/2027/eurogp/
+  cfp_url: https://www.evostar.org/2027/submit-paper/
+  source_urls:
+    - https://www.evostar.org/2027/
+    - https://www.evostar.org/2027/important-dates/
+  location: Mainz, Germany
+  mode: hybrid
+  conference_start: '2027-03-31'
+  conference_end: '2027-04-02'
+  timezone: Europe/Berlin
+  topics: [Evolutionary Computation & Optimization, Machine Learning, Explainability & Interpretability]
+  size: S
+  submission_type: Paper-based / Springer LNCS
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Genetic programming paper submission deadline
+      datetime: '2026-11-01T23:59:00-12:00'
+      time_precision: date
+      source_url: https://www.evostar.org/2027/important-dates/
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2027-01-24T23:59:00-12:00'
+      time_precision: date
+      source_url: https://www.evostar.org/2027/important-dates/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official EvoStar pages confirm Mainz, March 31-April 2, in hybrid mode.
+    Published deadline days have no exact cutoff hour or timezone; AoE timestamps
+    are provisional and calendars use all-day events. The shared EvoStar
+    late-breaking-abstract date is not yet a verified EuroGP-specific paper route.
+    S is an editorial size estimate for EuroGP, not the whole EvoStar event.
+
+- id: kr-2027
+  series: KR
+  year: 2027
+  title: International Conference on Principles of Knowledge Representation and Reasoning
+  short_title: KR 2027
+  website: https://kr.org/
+  cfp_url: https://kr.org/KR2026/call_main_track.html
+  source_urls:
+    - https://kr.org/
+    - https://kr.org/KR2026/
+    - https://kr.org/KR2026/call_main_track.html
+  location: Buenos Aires, Argentina
+  mode: in-person
+  conference_start: '2027-07-20'
+  conference_end: '2027-07-23'
+  timezone: America/Argentina/Buenos_Aires
+  topics: [Knowledge Representation & Reasoning, Explainability & Interpretability]
+  size: M
+  submission_type: Paper-based / formal and symbolic AI
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Main-track abstract registration deadline
+      datetime: '2027-02-08T23:59:00-12:00'
+      gate_for: full_paper
+      confidence: estimated
+      source_url: https://kr.org/KR2026/call_main_track.html
+    - type: full_paper
+      label: Main-track paper submission deadline
+      datetime: '2027-02-13T23:59:00-12:00'
+      confidence: estimated
+      source_url: https://kr.org/KR2026/call_main_track.html
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: KR Inc. announces Buenos Aires for its 2027 edition, but no exact
+    meeting or submission dates were found. July meeting dates and February
+    submission deadlines are annual proxies from KR 2026, not organizer
+    announcements. The 2026 ML and Explanation track informs the scope profile
+    but is not assumed to be a confirmed 2027 track. M is an editorial estimate.
+
+- id: icaps-2027
+  series: ICAPS
+  year: 2027
+  title: International Conference on Automated Planning and Scheduling
+  short_title: ICAPS 2027
+  website: https://icaps27.icaps-conference.org/
+  cfp_url: https://icaps27.icaps-conference.org/calls/cfp/
+  source_urls:
+    - https://icaps27.icaps-conference.org/calls/cfp/
+    - https://icaps26.icaps-conference.org/
+  location: Columbia, South Carolina, USA
+  mode: in-person
+  conference_start: '2027-06-27'
+  conference_end: '2027-07-02'
+  timezone: America/New_York
+  topics: [Planning & Search, Knowledge Representation & Reasoning, Machine Learning, Control & Robotics]
+  size: M
+  submission_type: Long and short papers / automated planning
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Paper abstract registration deadline
+      datetime: '2026-12-07T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://icaps27.icaps-conference.org/calls/cfp/
+    - type: full_paper
+      label: Long and short paper submission deadline
+      datetime: '2026-12-14T23:59:00-12:00'
+      source_url: https://icaps27.icaps-conference.org/calls/cfp/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official CFP confirms the meeting and 23:59 UTC-12 abstract/paper
+    deadlines. Learning and foundation-model papers require a substantive
+    planning or scheduling contribution; reinforcement learning alone is
+    explicitly outside the main-track scope. M is an editorial size estimate.
+
+- id: 3dv-2027
+  series: 3DV
+  year: 2027
+  title: International Conference on 3D Vision
+  short_title: 3DV 2027
+  website: https://3dvconf.github.io/2027/
+  cfp_url: https://3dvconf.github.io/2027/author-guidelines/
+  source_urls:
+    - https://3dvconf.github.io/2027/
+    - https://3dvconf.github.io/2027/author-guidelines/
+  location: Thessaloniki, Greece
+  mode: in-person
+  conference_start: '2027-04-06'
+  conference_end: '2027-04-09'
+  timezone: Europe/Athens
+  topics: [Computer Vision & Pattern Recognition, Computer Graphics & Visualization, Signal Processing]
+  size: M
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract registration deadline
+      datetime: '2026-08-28T23:59:00-12:00'
+      source_url: https://3dvconf.github.io/2027/
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2026-08-28T23:59:00-12:00'
+      source_url: https://3dvconf.github.io/2027/
+    - type: supplementary
+      label: Supplementary material deadline
+      datetime: '2026-09-02T23:59:00-12:00'
+      source_url: https://3dvconf.github.io/2027/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: The official site confirms Thessaloniki and identical abstract/paper
+    cutoffs at 23:59 AoE. Its archive documents recent annual editions. CCF has
+    a direct 3DV entry, but no direct ICORE2026 rank was found. M is an editorial
+    size estimate, not measured attendance.
+
+- id: acm-mm-2026
+  series: ACM MM
+  year: 2026
+  title: ACM International Conference on Multimedia
+  short_title: ACM MM 2026
+  website: https://2026.acmmm.org/
+  cfp_url: https://2026.acmmm.org/site/topics.html
+  source_urls:
+    - https://2026.acmmm.org/
+    - https://2026.acmmm.org/site/important-dates.html
+    - https://www.acmmm.org/
+  location: Rio de Janeiro, Brazil
+  mode: in-person
+  conference_start: '2026-11-10'
+  conference_end: '2026-11-14'
+  timezone: America/Sao_Paulo
+  topics: [Multimedia Learning & Retrieval, Computer Vision & Pattern Recognition, Deep Representation Learning, Signal Processing]
+  size: XL
+  submission_type: Paper-based / multimedia research
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Main-track contribution registration deadline
+      datetime: '2026-03-25T23:59:00-12:00'
+      time_precision: date
+      gate_for: full_paper
+      source_url: https://2026.acmmm.org/site/important-dates.html
+    - type: full_paper
+      label: Main-track paper submission deadline
+      datetime: '2026-04-01T23:59:00-12:00'
+      time_precision: date
+      source_url: https://2026.acmmm.org/site/important-dates.html
+    - type: workshop_paper
+      label: Workshop paper submission deadline
+      datetime: '2026-07-16T23:59:00-12:00'
+      time_precision: date
+      source_url: https://2026.acmmm.org/site/important-dates.html
+    - type: camera_ready
+      label: Main-track camera-ready deadline
+      datetime: '2026-08-06T23:59:00-12:00'
+      time_precision: date
+      source_url: https://2026.acmmm.org/site/important-dates.html
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official 2026 pages confirm Rio and deadline days. The retrieved
+    important-dates page has no cutoff hour or timezone, so the stored AoE
+    timestamps are provisional. Main, BNI, and dataset tracks share March/April
+    deadlines; workshop papers have their own route. XL is an editorial estimate.
+
+- id: acm-mm-2027
+  series: ACM MM
+  year: 2027
+  title: ACM International Conference on Multimedia
+  short_title: ACM MM 2027
+  website: https://www.acmmm.org/
+  cfp_url: https://2026.acmmm.org/site/topics.html
+  source_urls:
+    - https://www.acmmm.org/
+    - https://2026.acmmm.org/site/important-dates.html
+  location: Hong Kong, China
+  mode: in-person
+  conference_start: '2027-11-10'
+  conference_end: '2027-11-14'
+  timezone: Asia/Hong_Kong
+  topics: [Multimedia Learning & Retrieval, Computer Vision & Pattern Recognition, Deep Representation Learning, Signal Processing]
+  size: XL
+  submission_type: Paper-based / multimedia research
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Main-track contribution registration deadline
+      datetime: '2027-03-25T23:59:00-12:00'
+      time_precision: date
+      gate_for: full_paper
+      confidence: estimated
+      source_url: https://2026.acmmm.org/site/important-dates.html
+    - type: full_paper
+      label: Main-track paper submission deadline
+      datetime: '2027-04-01T23:59:00-12:00'
+      time_precision: date
+      confidence: estimated
+      source_url: https://2026.acmmm.org/site/important-dates.html
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: The steering committee announces Hong Kong for 2027 with dates TBA.
+    Meeting and main-paper timing are annual proxies from 2026, not official
+    2027 dates. The location is announced, but the estimated meeting is excluded
+    from the confirmed-conference map. XL is an editorial size estimate.
+
+- id: acm-siggraph-2027
+  series: ACM SIGGRAPH
+  year: 2027
+  title: ACM SIGGRAPH Annual Conference
+  short_title: ACM SIGGRAPH 2027
+  website: https://s2027.siggraph.org/
+  cfp_url: https://s2026.siggraph.org/program/technical-papers/
+  source_urls:
+    - https://www.siggraph.org/siggraph-events/conferences/
+    - https://blog.siggraph.org/2025/01/inspiration-innovation-and-ice-cream-kristy-pron-to-lead-siggraph-2027.html/
+    - https://s2026.siggraph.org/program/technical-papers/
+  location: Anaheim, California, USA
+  mode: in-person
+  conference_start: '2027-08-08'
+  conference_end: '2027-08-12'
+  timezone: America/Los_Angeles
+  topics: [Computer Graphics & Visualization, Machine Learning, Computer Vision & Pattern Recognition]
+  size: XXL
+  submission_type: Technical papers / conference and ACM TOG tracks
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Technical-paper submission form deadline
+      datetime: '2027-01-15T22:00:00+00:00'
+      gate_for: full_paper
+      confidence: estimated
+      source_url: https://s2026.siggraph.org/program/technical-papers/
+    - type: full_paper
+      label: Technical-paper and checksum deadline
+      datetime: '2027-01-22T22:00:00+00:00'
+      confidence: estimated
+      source_url: https://s2026.siggraph.org/program/technical-papers/
+    - type: paper_update
+      label: Upload deadline for previously submitted checksums
+      datetime: '2027-01-23T22:00:00+00:00'
+      confidence: estimated
+      source_url: https://s2026.siggraph.org/program/technical-papers/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: ACM SIGGRAPH confirms Anaheim, August 8-12, 2027. The technical-paper
+    schedule remains an annual proxy from the 2026 CFP's explicit 22:00 UTC
+    cutoffs. The later file upload is not a new paper route. This is SIGGRAPH,
+    not SIGGRAPH Asia; ranks refer to the conference series, not the TOG journal.
+    XXL is an editorial estimate for the overall conference and exhibition.
+
+- id: bmvc-2026
+  series: BMVC
+  year: 2026
+  title: British Machine Vision Conference
+  short_title: BMVC 2026
+  website: https://bmvc2026.bmva.org/
+  cfp_url: https://bmvc2026.bmva.org/calls/call-for-papers/
+  source_urls:
+    - https://bmvc2026.bmva.org/
+    - https://bmvc2026.bmva.org/dates/
+  location: Lancaster, United Kingdom
+  mode: in-person
+  conference_start: '2026-11-23'
+  conference_end: '2026-11-26'
+  timezone: Europe/London
+  topics: [Computer Vision & Pattern Recognition, Machine Learning, Deep Representation Learning]
+  size: L
+  submission_type: Paper-based / BMVA proceedings
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract registration deadline
+      datetime: '2026-05-22T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://bmvc2026.bmva.org/dates/
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2026-05-29T23:59:00-12:00'
+      source_url: https://bmvc2026.bmva.org/dates/
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2026-08-28T23:59:00-12:00'
+      source_url: https://bmvc2026.bmva.org/dates/
+    - type: presentation_material
+      label: Accepted-paper poster and video upload deadline
+      datetime: '2026-10-30T23:59:00-12:00'
+      source_url: https://bmvc2026.bmva.org/dates/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official BMVA pages confirm Lancaster and 23:59 AoE deadlines. The
+    October poster/video upload is for accepted papers, not a fresh poster
+    submission. L is an editorial size estimate.
+
+- id: cvpr-2027
+  series: CVPR
+  year: 2027
+  title: IEEE/CVF Conference on Computer Vision and Pattern Recognition
+  short_title: CVPR 2027
+  website: https://cvpr.thecvf.com/Conferences/2027
+  cfp_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  source_urls:
+    - https://cvpr.thecvf.com/Conferences/2027
+    - https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    - https://www.thecvf.com/?page_id=100
+  location: Seattle, Washington, USA
+  mode: in-person
+  conference_start: '2027-06-20'
+  conference_end: '2027-06-25'
+  timezone: America/Los_Angeles
+  topics: [Computer Vision & Pattern Recognition, Deep Representation Learning, Machine Learning]
+  size: XXL
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Abstract and paper registration deadline
+      datetime: '2026-11-10T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2026-11-16T23:59:00-12:00'
+      source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+    - type: supplementary
+      label: Supplementary material deadline
+      datetime: '2026-11-23T23:59:00-12:00'
+      source_url: https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official 2027 homepage and CFP confirm Seattle and AoE submission
+    dates. Mandatory registration gates paper submission. XXL is supported by
+    the organizer's description of more than 10,000 annual attendees. Historical
+    acceptance statistics refer to the main technical program, not workshops.
+
+- id: eccv-2026
+  series: ECCV
+  year: 2026
+  title: European Conference on Computer Vision
+  short_title: ECCV 2026
+  website: https://eccv.ecva.net/Conferences/2026
+  cfp_url: https://eccv.ecva.net/Conferences/2026/CallForPapers
+  source_urls:
+    - https://eccv.ecva.net/Conferences/2026/Dates
+    - https://www.thecvf.com/?page_id=100
+  location: Malmo, Sweden
+  mode: in-person
+  conference_start: '2026-09-08'
+  conference_end: '2026-09-12'
+  timezone: Europe/Stockholm
+  topics: [Computer Vision & Pattern Recognition, Deep Representation Learning, Machine Learning]
+  size: XXL
+  submission_type: Paper-based / Springer proceedings
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Paper registration deadline
+      datetime: '2026-02-26T22:00:00+00:00'
+      gate_for: full_paper
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2026-03-05T22:00:00+00:00'
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+    - type: supplementary
+      label: Supplementary material deadline
+      datetime: '2026-03-12T22:00:00+00:00'
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2026-06-30T23:59:00-12:00'
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Completed 2026 edition retained for the archive. Official dates use
+    23:00 CET for registration/papers (22:00 UTC), but camera-ready is AoE.
+    ECCV is biennial in even years. XXL is supported by the 2024 organizers'
+    report of 6,705 participants.
+
+- id: eccv-2028
+  series: ECCV
+  year: 2028
+  title: European Conference on Computer Vision
+  short_title: ECCV 2028
+  website: https://eccv.ecva.net/
+  cfp_url: https://eccv.ecva.net/Conferences/2026/CallForPapers
+  source_urls:
+    - https://eccv.ecva.net/Conferences/2026/Dates
+    - https://www.thecvf.com/?page_id=100
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-09-08'
+  conference_end: '2028-09-12'
+  timezone: Europe/Stockholm
+  topics: [Computer Vision & Pattern Recognition, Deep Representation Learning, Machine Learning]
+  size: XXL
+  submission_type: Paper-based / Springer proceedings
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Paper registration deadline
+      datetime: '2028-02-26T22:00:00+00:00'
+      gate_for: full_paper
+      confidence: estimated
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2028-03-05T22:00:00+00:00'
+      confidence: estimated
+      source_url: https://eccv.ecva.net/Conferences/2026/Dates
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: No official 2028 schedule or location was found. Meeting and main-paper
+    dates are two-year proxies from ECCV 2026; no annual 2027 edition is invented.
+    The source links and timezone refer to the prior edition, not a confirmed
+    2028 host. Only the next paper route is projected, not every ancillary event.
+
+- id: euvip-2026
+  series: EUVIP
+  year: 2026
+  title: European Conference on Visual Information Processing
+  short_title: EUVIP 2026
+  website: https://euvip2026.github.io/
+  cfp_url: https://euvip2026.github.io/C4P.pdf
+  source_urls:
+    - https://euvip2026.github.io/
+    - https://euvip2026.github.io/calls/
+    - https://www.euvip2025.org/
+  location: Luxembourg, Luxembourg
+  mode: in-person
+  conference_start: '2026-09-28'
+  conference_end: '2026-10-01'
+  timezone: Europe/Luxembourg
+  topics: [Signal Processing, Computer Vision & Pattern Recognition, Machine Learning, Deep Representation Learning]
+  size: S
+  submission_type: Regular and special-session papers
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Extended regular paper submission deadline
+      datetime: '2026-06-15T23:59:00-12:00'
+      source_url: https://euvip2026.github.io/
+    - type: special_session_paper
+      label: Extended special-session paper submission deadline
+      datetime: '2026-07-07T23:59:00-12:00'
+      source_url: https://euvip2026.github.io/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Completed 2026 edition retained for the archive. Latest organizer
+    announcements supersede the original CFP deadlines, confirming June 15
+    for regular papers and July 7 for special sessions, both 23:59 AoE.
+    Recent 2024-2026 editions support an annual planning cadence. S is an
+    editorial estimate; no ICORE or CCF rank is borrowed from related venues.
+
+- id: euvip-2027
+  series: EUVIP
+  year: 2027
+  title: European Conference on Visual Information Processing
+  short_title: EUVIP 2027
+  website: https://euvip2026.github.io/
+  cfp_url: https://euvip2026.github.io/C4P.pdf
+  source_urls:
+    - https://euvip2026.github.io/
+    - https://www.euvip2025.org/
+    - https://www.euvip2024.org/
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-09-28'
+  conference_end: '2027-10-01'
+  timezone: Europe/Luxembourg
+  topics: [Signal Processing, Computer Vision & Pattern Recognition, Machine Learning, Deep Representation Learning]
+  size: S
+  submission_type: Paper-based / visual information processing
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Regular paper submission deadline
+      datetime: '2027-06-15T23:59:00-12:00'
+      confidence: estimated
+      source_url: https://euvip2026.github.io/
+  last_checked: '2026-10-07'
+  confidence: estimated
+  notes: No organizer-confirmed 2027 edition was found. Meeting and paper timing
+    are annual planning proxies from 2026's final extended deadline. The next
+    first deadline may be earlier; do not treat a prior extension as guaranteed.
+    Website and timezone belong to the previous edition; location is unannounced.
+
+- id: fg-2027
+  series: FG
+  year: 2027
+  title: IEEE International Conference on Automatic Face and Gesture Recognition
+  short_title: FG 2027
+  website: https://fg2027.ieee-biometrics.org/
+  cfp_url: https://fg2027.ieee-biometrics.org/call-for-papers/
+  source_urls:
+    - https://fg2027.ieee-biometrics.org/dates/
+    - https://fg2027.ieee-biometrics.org/call-for-papers/
+    - https://ieee-biometrics.org/conferences/flagship/fg/
+  location: Marrakesh, Morocco
+  mode: in-person
+  conference_start: '2027-04-26'
+  conference_end: '2027-04-30'
+  timezone: Africa/Casablanca
+  topics: [Biometrics & Human Sensing, Computer Vision & Pattern Recognition, Deep Representation Learning, Machine Learning]
+  size: M
+  submission_type: Long and short papers / face, gesture, and body recognition
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Extended main and special-session abstract deadline
+      datetime: '2026-10-23T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://fg2027.ieee-biometrics.org/dates/
+    - type: full_paper
+      label: Extended main and special-session paper deadline
+      datetime: '2026-10-30T23:59:00-12:00'
+      source_url: https://fg2027.ieee-biometrics.org/dates/
+    - type: workshop
+      label: Workshop and tutorial proposal deadline
+      datetime: '2026-10-20T23:59:00-12:00'
+      source_url: https://fg2027.ieee-biometrics.org/dates/
+    - type: workshop_paper
+      label: Workshop paper submission deadline
+      datetime: '2027-01-11T23:59:00-12:00'
+      source_url: https://fg2027.ieee-biometrics.org/dates/
+    - type: camera_ready
+      label: Main conference camera-ready deadline
+      datetime: '2027-01-26T23:59:00-12:00'
+      source_url: https://fg2027.ieee-biometrics.org/dates/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official CFP and dates page updated October 5 extend the abstract and
+    paper deadlines to October 23 and 30, replacing October 9 and 16. Cutoffs
+    are AoE. Full event includes April 26/30 workshops; main sessions are
+    April 27-29. CMT opening is announced for September 25 without an exact
+    hour; no portal-open observation is fabricated. M is an editorial estimate.
+
+- id: iccv-2027
+  series: ICCV
+  year: 2027
+  title: IEEE/CVF International Conference on Computer Vision
+  short_title: ICCV 2027
+  website: https://iccv.thecvf.com/Conferences/2027
+  cfp_url: https://iccv.thecvf.com/Conferences/2025/CallForPapers
+  source_urls:
+    - https://iccv.thecvf.com/Conferences/2027
+    - https://iccv.thecvf.com/Conferences/2027/Dates
+    - https://iccv.thecvf.com/Conferences/2025/CallForPapers
+    - https://www.thecvf.com/?page_id=100
+  location: Hong Kong, China
+  mode: in-person
+  conference_start: '2027-10-02'
+  conference_end: '2027-10-08'
+  timezone: Asia/Hong_Kong
+  topics: [Computer Vision & Pattern Recognition, Deep Representation Learning, Machine Learning]
+  size: XXL
+  submission_type: Paper-based / OpenReview
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Paper registration deadline
+      datetime: '2027-03-03T23:59:00-10:00'
+      gate_for: full_paper
+      confidence: estimated
+      source_url: https://iccv.thecvf.com/Conferences/2025/CallForPapers
+    - type: full_paper
+      label: Paper submission deadline
+      datetime: '2027-03-07T23:59:00-10:00'
+      confidence: estimated
+      source_url: https://iccv.thecvf.com/Conferences/2025/CallForPapers
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: The 2027 homepage explicitly announces October 2-8 at the Hong Kong
+    Convention and Exhibition Centre. Its Dates page conflicts with a generic
+    October 19-23 placeholder and blank venue; the named-venue homepage takes
+    precedence pending organizer reconciliation. Paper deadlines are biennial
+    proxies from 2025's explicit 23:59 Hawaii time, not confirmed 2027 dates.
+    XXL is an editorial estimate for the overall flagship event.
+
+- id: icmr-2027
+  series: ICMR
+  year: 2027
+  title: ACM SIGMM International Conference on Multimedia Retrieval
+  short_title: ICMR 2027
+  website: https://www.icmr2027.org/
+  cfp_url: https://www.icmr2027.org/cfc
+  source_urls:
+    - https://www.icmr2027.org/date
+    - https://www.icmr2027.org/cfc
+  location: Singapore
+  mode: in-person
+  conference_start: '2027-06-07'
+  conference_end: '2027-06-10'
+  timezone: Asia/Singapore
+  topics: [Multimedia Learning & Retrieval, Computer Vision & Pattern Recognition, Machine Learning, Deep Representation Learning]
+  size: M
+  submission_type: Full and short papers / multimedia retrieval
+  relevance: high
+  deadlines:
+    - type: workshop
+      label: Workshop proposal deadline
+      datetime: '2026-12-15T23:59:59-12:00'
+      source_url: https://www.icmr2027.org/date
+    - type: full_paper
+      label: Regular full and short paper submission deadline
+      datetime: '2027-01-31T23:59:59-12:00'
+      source_url: https://www.icmr2027.org/date
+    - type: camera_ready
+      label: Camera-ready and author registration deadline
+      datetime: '2027-04-10T23:59:59-12:00'
+      source_url: https://www.icmr2027.org/date
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official dates explicitly use 23:59:59 AoE and confirm Singapore,
+    June 7-10. Full/short and Brave New Ideas papers share January 31; separate
+    reproducibility/demo dates are not generalized to unrestricted main papers.
+    The regular-paper submission portal is not yet announced. M is an
+    editorial size estimate.
+
+- id: ijcb-2027
+  series: IJCB
+  year: 2027
+  title: IEEE/IAPR International Joint Conference on Biometrics
+  short_title: IJCB 2027
+  website: https://ijcb2027.ieee-biometrics.org/
+  cfp_url: https://ijcb2027.ieee-biometrics.org/call-for-papers/
+  source_urls:
+    - https://ijcb2027.ieee-biometrics.org/important-dates/
+    - https://ijcb2027.ieee-biometrics.org/call-for-papers/
+    - https://ieee-biometrics.org/conferences/flagship/ijcb/
+  location: Foz do Iguacu, Brazil
+  mode: in-person
+  conference_start: '2027-09-13'
+  conference_end: '2027-09-17'
+  timezone: America/Sao_Paulo
+  topics: [Biometrics & Human Sensing, Computer Vision & Pattern Recognition, Deep Representation Learning, Privacy-preserving ML]
+  size: M
+  submission_type: Paper-based / biometrics and identity science
+  relevance: high
+  deadlines:
+    - type: full_paper
+      label: Full paper submission deadline
+      datetime: '2027-04-09T23:59:00-12:00'
+      opens_at: '2027-03-15T23:59:00-12:00'
+      source_url: https://ijcb2027.ieee-biometrics.org/call-for-papers/
+    - type: supplementary
+      label: Supplementary material deadline
+      datetime: '2027-04-16T23:59:00-12:00'
+      source_url: https://ijcb2027.ieee-biometrics.org/call-for-papers/
+    - type: camera_ready
+      label: Camera-ready and author registration deadline
+      datetime: '2027-08-02T23:59:00-12:00'
+      source_url: https://ijcb2027.ieee-biometrics.org/important-dates/
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official 2027 CFP confirms Foz do Iguacu, September 13-17, March 15
+    submission opening, and April 9 paper cutoff; its date table specifies
+    23:59 AoE for all dates. IJCB combines BTAS and ICB; do not create duplicate
+    rows or inherit a distinct predecessor's rankings. M is an editorial estimate.
+
+- id: wacv-2027
+  series: WACV
+  year: 2027
+  title: IEEE/CVF Winter Conference on Applications of Computer Vision
+  short_title: WACV 2027
+  website: https://wacv.thecvf.com/Conferences/2027
+  cfp_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  source_urls:
+    - https://wacv.thecvf.com/Conferences/2027
+    - https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    - https://www.thecvf.com/?page_id=100
+  location: Lake Buena Vista, Florida, USA
+  mode: in-person
+  conference_start: '2027-01-06'
+  conference_end: '2027-01-08'
+  timezone: America/New_York
+  topics: [Computer Vision & Pattern Recognition, Machine Learning, Deep Representation Learning]
+  size: XL
+  submission_type: Paper-based / two independent submission rounds
+  relevance: high
+  deadlines:
+    - type: abstract
+      label: Round 1 new-paper enrollment deadline
+      datetime: '2026-06-19T23:59:00-12:00'
+      gate_for: full_paper
+      source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    - type: full_paper
+      label: Round 1 paper submission deadline
+      datetime: '2026-06-26T23:59:00-12:00'
+      source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    - type: late_abstract
+      label: Round 2 new-paper enrollment deadline
+      datetime: '2026-08-21T23:59:00-12:00'
+      gate_for: regular_paper
+      source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    - type: regular_paper
+      label: Round 2 paper submission deadline
+      datetime: '2026-08-28T23:59:00-12:00'
+      source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+    - type: camera_ready
+      label: Camera-ready deadline
+      datetime: '2026-11-02T23:59:00-12:00'
+      source_url: https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  last_checked: '2026-10-07'
+  confidence: confirmed
+  notes: Official CFP confirms separate enrollment gates for both new-paper
+    rounds at 23:59 AoE. Both are already closed despite the future camera-ready
+    deadline. Main conference is January 6-8 at Disney Springs; workshops run
+    January 4-5. XL is an editorial estimate, not an acceptance-rate proxy.

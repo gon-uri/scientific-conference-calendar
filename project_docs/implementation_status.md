@@ -40,14 +40,18 @@ Last synchronized: 2026-10-07
   actual-font previews in project_docs/typography_proposal.md. Implementation
   embeds its native 400-weight WOFF2 face for the title only, with optical
   logo/text alignment and no external font request. Body/table fonts stay unchanged.
-- Catalog: 104 edition records across 82 series; 30 controlled subtopics. Added
+- Catalog: 122 edition records across 97 series; 35 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
   The 11 approved AI Deadlines additions are AutoML, LoG, CoRL, GECCO, SaTML,
   ProbML, AAMAS, MLSys, CogSci, ICIP, and Interspeech. Three focused new leaves
   cover evolutionary computation, cognition, and ML systems. The full original
-  57-series gap is preserved in conference_candidates.md: 11 added, 46 remain
+  57-series gap is preserved in conference_candidates.md: 26 added, 31 remain
   untracked, with future-only ICWM separate and the missing 2024 history noted.
+  The second batch adds EuroGP, KR, ICAPS, all 12 Vision/Imaging/Multimedia
+  candidates, and therefore both dedicated biometrics candidates (FG, IJCB).
+  Five focused leaves cover reasoning, planning, graphics, multimedia, and
+  biometrics. Evidence and review priorities are in vision_ai_expansion.md.
 - Community: structured conference-request form, star/X links, author profile,
   and live Giscus comments. The official configuration checker confirms the
   repository/app/Discussions prerequisites, and the live widget renders correctly.
@@ -64,7 +68,7 @@ Last synchronized: 2026-10-07
 ### Curated Conference Scope Profiles
 
 - Current status: Completed tooling; initial reviewed coverage.
-- Coverage: 30 of 82 series, including all 11 recent AI Deadlines additions.
+- Coverage: 45 of 97 series, including all 26 AI Deadlines additions.
   The 52 remaining profiles are explicitly queued, not filled with guesses.
 - Brief description: `data/conference_scopes.yml` stores zero to six curated
   additional topics, a detailed scope summary, official evidence URLs/year,
@@ -88,7 +92,7 @@ Last synchronized: 2026-10-07
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is canonical, with 104 editions across 82 series. Cadence-based estimates are distinguished from official meeting dates and deadline evidence. Joint editions and renamed series preserve their stable identities. All 11 new AI Deadlines additions have official source links, explicit annual cadence, central subtopics, size notes, and independent submission routes where required. Subjective Difficulty remains removed.
+- Brief description: `data/conferences.yml` is canonical, with 122 editions across 97 series. Cadence-based estimates are distinguished from official meeting dates and deadline evidence. Joint editions and renamed series preserve their stable identities. All 26 AI Deadlines additions have official source links, explicit recurrence, central subtopics, size notes, and independent submission routes where required. ECCV and ICCV are biennial; WACV's two rounds have independent gates. Subjective Difficulty remains removed.
 - Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/core_conferences_normalized_tags.xlsx`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
@@ -97,7 +101,7 @@ Last synchronized: 2026-10-07
 ### ICORE Rankings
 
 - Current status: Completed
-- Brief description: `data/icore_rankings.yml` holds 39 verified ICORE 2026 A*/A/B/C ranks at the conference-series level, with official portal IDs and export provenance. New direct matches are AAMAS, GECCO, Interspeech, CogSci, and ICIP; CoRL is explicitly Unranked in the portal. Unlisted venues, satellite workshops, and the joint IJCAI-ECAI record intentionally have no inferred rank; standalone IJCAI and ECAI 2027 have their direct mappings. The synchronized workbook carries the rank and its direct ICORE source link.
+- Brief description: `data/icore_rankings.yml` holds 52 verified ICORE 2026 A*/A/B/C ranks at the conference-series level, with official portal IDs and export provenance. The second batch has 13 direct matches; 3DV and EUVIP have no ICORE entry. CoRL is explicitly Unranked in the portal. Unlisted venues, satellite workshops, and the joint IJCAI-ECAI record intentionally have no inferred rank; standalone IJCAI and ECAI 2027 have their direct mappings. The synchronized workbook carries the rank and its direct ICORE source link.
 - Files modified: `data/icore_rankings.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`, `tests/test_icore.py`
 - Tests implemented: Rank schema and workshop exclusion in validation; targeted rendering and validation tests in `tests/test_icore.py`.
 - Remaining work: Re-audit against the next ICORE release when published.
@@ -106,7 +110,7 @@ Last synchronized: 2026-10-07
 ### CCF Rankings And Historical Acceptance
 
 - Current status: Completed for sourced coverage
-- Brief description: `data/ccf_rankings.yml` maps 31 directly matched main-track series to the official CCF 2026 seventh-edition catalog, including new AAMAS, CogSci, GECCO, and ICIP matches. ICASSP adds coverage beyond ICORE, and IJCAI/ECAI retain separate B mappings. PDF-page evidence remains stored, while `page_url` supplies the official webpage for public navigation and is validated separately. `data/acceptance_rates.yml` now covers 25 series with historical percentages or source-grounded qualitative-only estimates, adding AutoML 2024, LoG 2023, and AAMAS 2026 evidence; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
+- Brief description: `data/ccf_rankings.yml` maps 43 directly matched main-track series to the official CCF 2026 seventh-edition catalog. ICASSP and 3DV add coverage beyond ICORE; IJCAI/ECAI retain separate B mappings. PDF-page evidence remains stored, while `page_url` supplies the official webpage for public navigation and is validated separately. `data/acceptance_rates.yml` covers 30 series with historical percentages or source-grounded qualitative-only estimates, adding CVPR, ECCV, ICAPS, ICCV, and WACV evidence; the site derives five bands and shows Unknown where evidence is absent. The catalog workbook mirrors the rankings, bands, historical percentages, tracks, and source links.
 - Files modified: `data/ccf_rankings.yml`, `data/acceptance_rates.yml`, `data/core_conferences_normalized_tags.xlsx`, `scripts/validate.py`, `scripts/build_site.py`
 - Tests implemented: Mapping/schema checks in validation and rendering tests; workbook sample inspection and visual preview.
 - Remaining work: Add reliable rate evidence as organizers publish statistics; revisit rankings only on new releases.
@@ -135,14 +139,14 @@ Last synchronized: 2026-10-07
 - Current status: Completed
 - Brief description: Generates standalone Venue Radar HTML with an expandable, chronologically ordered milestone table and a Conferences tab with an offline city-grouped map. Submission opportunities include open, future, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options, inline Search, and Clear filters live in the Filters & search disclosure, initially collapsed on every viewport; resizing does not reset its state. Show only submission opportunities sits outside, immediately beside the desktop tabs, and wraps below on mobile. Topic families use native disclosure arrows and plus/minus cues. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences; the aggregate calendar action is at the header's right edge. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 50 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech track transitions, and curated scope matching without expanding table labels.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 62 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines 30 leaves; `data/topic_families.yml` assigns each to exactly one of seven families and supplies compact display labels. Parents are derived, not stored per edition. Display retains up to four central leaves; filter/search/feed matching also uses curated additional leaves in scope profiles. `data/cities.yml` supplies explicit location aliases and approximate city-center coordinates, including eight new cities. The workbook mirrors 82 catalog series and 30 reviewed scope profiles in separate sheets.
+- Brief description: `data/topics.yml` defines 35 leaves; `data/topic_families.yml` assigns each to exactly one of seven families and supplies compact display labels. Signals, Vision & Multimedia now explicitly covers graphics, multimedia retrieval, and biometrics. Parents are derived, not stored per edition. Display retains up to four central leaves; filter/search/feed matching also uses curated additional leaves in scope profiles. `data/cities.yml` supplies explicit location aliases and approximate city-center coordinates, including ten cities in the second batch. The workbook mirrors 97 catalog series and 45 reviewed scope profiles in separate sheets.
 - Files modified: `data/topics.yml`, `data/topic_families.yml`, `data/cities.yml`, `scripts/catalog_metadata.py`, `scripts/export_catalog.py`, `scripts/sync_workbook.mjs`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.

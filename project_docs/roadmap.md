@@ -31,8 +31,12 @@ Last synchronized: 2026-10-07
 
 - Completed: the 11 approved additions (AutoML, LoG, CoRL, GECCO, SaTML, ProbML,
   AAMAS, MLSys, CogSci, ICIP, Interspeech), including three focused new subtopics.
+- Completed: EuroGP, KR, ICAPS and all 12 vision/imaging/multimedia candidates,
+  including both dedicated biometrics venues FG/IJCB. Five additional leaves
+  distinguish reasoning, planning, graphics, multimedia, and biometrics;
+  recurrence and source limitations are documented in vision_ai_expansion.md.
 - Backlog: [conference_candidates.md](conference_candidates.md) preserves all
-  57 originally missing series: 11 added and 46 still untracked, plus future-only
+  57 originally missing series: 26 added and 31 still untracked, plus future-only
   ICWM separately. Further additions require approval and official-source review.
 
 ### Baseline Static Calendar
@@ -53,7 +57,7 @@ Last synchronized: 2026-10-07
 
 ### Topic Coverage
 
-- Goal: Maintain seven broad families and central subtopics covering ML/AI, data/time series, signals/vision, neuroscience/neurotechnology, healthcare/biomedical AI, dynamics/complex systems/control, and responsible/trustworthy AI.
+- Goal: Maintain seven broad families and central subtopics covering ML/AI, data/time series, signals/vision/multimedia/biometrics, neuroscience/neurotechnology, healthcare/biomedical AI, dynamics/complex systems/control, and responsible/trustworthy AI.
 - Priority: Medium
 - Dependencies: `data/topics.yml`, validation, per-topic ICS generation.
 - Estimated complexity: Low
@@ -66,7 +70,7 @@ Last synchronized: 2026-10-07
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions, a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Initial coverage: 30 of 82 series, including all 11 recent additions.
+- Current coverage: 45 of 97 series, including all 26 AI Deadlines additions.
 - Remaining work: curate the 52 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).

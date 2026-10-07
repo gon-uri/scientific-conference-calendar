@@ -99,9 +99,15 @@ It holds zero to six characteristic additional leaves, useful scope prose,
 official URLs, evidence year, and a scope review date. A huge CFP list should
 be reduced to defining areas, not copied wholesale. Tables keep four main tags;
 search, filters, map matching, and topic feeds use the curated union. Missing
-profiles fall back to main topics and enter the review queue. Initial coverage
-is 30 of 82 series; 52 remain to review. See `conference_scopes.md` for the
+profiles fall back to main topics and enter the review queue. Current coverage
+is 45 of 97 series; 52 remain to review. See `conference_scopes.md` for the
 schema, editorial examples, evidence limitations, and monthly procedure.
+
+The AI/vision/multimedia expansion has a focused evidence and follow-up list in
+`vision_ai_expansion.md`. Check FG's final extensions, IJCB's published opening,
+ICCV's conflicting meeting pages, and unpublished KR/SIGGRAPH/ACM MM dates.
+ECCV/ICCV project by two years; recent EUVIP/FG/IJCB editions use annual cadence.
+Do not add separate BTAS/ICB rows while they are incorporated into IJCB.
 
 Only S, M, L, XL, XXL are allowed, displayed in that order. Prior mixed labels
 were mapped S/M to M, M/L to L, and L/XL to XL. Size remains a qualitative

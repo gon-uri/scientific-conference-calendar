@@ -561,7 +561,7 @@ def build_site(
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Venue Radar | Scientific Conference Calendar</title>
-  <meta name="description" content="Scientific conference deadlines and locations for machine learning, data science, neuroscience, signals, biomedical AI, dynamics and control.">
+  <meta name="description" content="Scientific conference deadlines and locations for machine learning, data science, vision, multimedia, biometrics, signals, biomedical AI, dynamics, control and neuroscience.">
   <link rel="icon" href="{logo}">
   <style>
     :root {{
@@ -1179,7 +1179,7 @@ def build_site(
     <header>
       <div class="brand-copy">
         <div class="brand-line"><img class="brand-mark" src="{logo}" alt="" width="82" height="82"><h1>Venue Radar</h1></div>
-        <p class="subhead">Scientific conferences in ML &amp; AI, data science, neuroscience, signal processing, biomedical AI, complex systems and control.</p>
+        <p class="subhead">Scientific conferences in ML &amp; AI, data science, vision, multimedia &amp; biometrics, signal processing, biomedical AI, complex systems, control and neuroscience.</p>
       </div>
       <div class="calendar-action">
         <span class="calendar-caption">Download calendar</span>

@@ -4,8 +4,8 @@ Reviewed: 2026-10-07
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Initial coverage is 30 of 82 series, including all
-11 recent AI Deadlines additions. The other 52 are explicitly queued for review;
+by exact conference series. Current coverage is 45 of 97 series, including all
+26 AI Deadlines additions. The other 52 are explicitly queued for review;
 an absent profile is not replaced by guessed information.
 
 ## Data Ownership

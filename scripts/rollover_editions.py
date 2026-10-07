@@ -29,6 +29,10 @@ CADENCE_YEARS = {
     "AutoML": 1, "LoG": 1, "CoRL": 1, "GECCO": 1, "SaTML": 1,
     "ProbML": 1, "AAMAS": 1, "MLSys": 1, "CogSci": 1,
     "ICIP": 1, "Interspeech": 1,
+    "EuroGP": 1, "KR": 1, "ICAPS": 1, "3DV": 1,
+    "ACM MM": 1, "ACM SIGGRAPH": 1, "BMVC": 1, "CVPR": 1,
+    "ECCV": 2, "EUVIP": 1, "FG": 1, "ICCV": 2,
+    "ICMR": 1, "IJCB": 1, "WACV": 1,
 }
 
 

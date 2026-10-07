@@ -50,10 +50,19 @@ const newDefinitions = {
   'Evolutionary Computation & Optimization': 'Evolutionary algorithms, genetic programming, neuroevolution, and population-based optimization.',
   'Cognitive Science & Computational Cognition': 'Computational models of cognition, learning, perception, language, and reasoning.',
   'ML Systems & Infrastructure': 'Systems for ML and ML for systems, including training, inference, compilers, hardware, and serving.',
+  'Knowledge Representation & Reasoning': 'Formal and symbolic representations of knowledge, logic, automated inference, and reasoning in AI.',
+  'Planning & Search': 'Automated planning, scheduling, heuristic search, constraint solving, and sequential decision-making.',
+  'Computer Graphics & Visualization': 'Rendering, geometry, animation, visual simulation, and visualization, including learning-based methods.',
+  'Multimedia Learning & Retrieval': 'Learning from multiple media, multimodal fusion, content understanding, indexing, search, and retrieval.',
+  'Biometrics & Human Sensing': 'Biometric identity, face and gesture recognition, body motion, behavioral sensing, and biometric evaluation.',
 };
 const topicByName = new Map(payload.topics.map((topic) => [topic.tag, topic]));
 const topicOrder = payload.topics.map((topic) => topic.tag);
-const vocabulary = topicOrder.map((tag) => [tag, `${definitions.get(tag) || newDefinitions[tag]} Family: ${topicByName.get(tag).family}.`]);
+const vocabulary = topicOrder.map((tag) => {
+  const definition = definitions.get(tag) || newDefinitions[tag];
+  if (!definition) throw Error(`Missing vocabulary definition for ${tag}`);
+  return [tag, `${definition} Family: ${topicByName.get(tag).family}.`];
+});
 vocab.getRange(`A2:B${previous.length + 1}`).values = vocabulary.slice(0, previous.length);
 if (vocabulary.length > previous.length) {
   vocab.tables.items[0].rows.add(null, vocabulary.slice(previous.length));

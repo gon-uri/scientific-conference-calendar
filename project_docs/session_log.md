@@ -1,5 +1,54 @@
 # Session Log
 
+## 2026-10-07 (AI, vision, multimedia and biometrics expansion)
+
+- Objective: Add the three selected AI/methodology venues, all remaining
+  Vision, Imaging and Multimedia candidates, and every dedicated biometrics
+  venue in the 46-entry backlog. FG and IJCB satisfy the last request within
+  the same batch; BTAS/ICB are not duplicated as separate IJCB predecessors.
+- Added: EuroGP, KR, ICAPS, 3DV, ACM MM, ACM SIGGRAPH, BMVC, CVPR, ECCV,
+  EUVIP, FG, ICCV, ICMR, IJCB, and WACV. There are 18 new edition records,
+  bringing the catalog to 122 editions / 97 series. The original AI Deadlines
+  gap now has 26 tracked and 31 untracked series; ICWM remains separate.
+- Evidence: official meeting and CFP pages, direct ICORE2026 entries,
+  the CCF 2026 seventh edition, and track-specific organizer acceptance
+  statistics. Mapping totals are 52 ICORE, 43 CCF, and 30 acceptance series.
+  Ten additions remain Unknown for acceptance; ranks do not imply rates.
+  Size approximations are labeled as editorial unless attendance is sourced.
+- Dates and routes: FG's Oct 5 extension is reflected in its Oct 23/30
+  abstract/paper cutoffs; IJCB's Mar 15 opening and Apr 9 paper deadline are
+  confirmed. WACV rounds retain independent abstract prerequisites. Poster
+  assets, checksum uploads, supplementary files, and camera-ready deadlines
+  do not become fresh paper routes. Missing precise deadline hours stay
+  date-only. The ICCV official-page conflict is documented for reconciliation.
+- Estimates: ECCV and ICCV retain biennial cadence; other additions follow
+  their reviewed annual pattern. Completed ECCV/EUVIP editions are archived
+  alongside next-edition estimates. KR and ACM MM announced hosts do not
+  confirm their estimated meeting dates, so those editions stay off the map.
+  No unverified portal-open observation is fabricated.
+- Discovery: five focused leaves bring the vocabulary to 35 within the same
+  seven families. Biometrics & Human Sensing identifies FG and IJCB and
+  relevant broader vision scopes. Detailed profiles now cover 45 / 97 series;
+  the original 52 missing profiles remain queued. Tables still show at most
+  four main topics. Ten city aliases and the concise site description were
+  updated for the expanded coverage.
+- Preservation: all 104 old edition records, 30 old profiles, and existing
+  rank/acceptance mappings remain exactly unchanged. The re-imported workbook
+  contains 97 exact catalog rows, 35 leaves, and 45 exact profiles; original
+  catalog values, original definitions, and native table names/styles survive.
+  Workbook previews were visually checked, including the biometrics profile.
+- Verification: 122 records validate; 62 Python tests and the full build pass.
+  Browser checks cover both tabs, new subtopics, biometrics, WACV transitions,
+  map eligibility, and overflow at 1440/1051/1050/768/390/320px. All 160 feeds
+  satisfy CRLF/folding checks. Against the prior commit, every existing event
+  property in 137 feeds is unchanged; 501 memberships are added and 118 feeds
+  remain byte-identical.
+- Maintenance and publication: vision_ai_expansion.md records official
+  sources, relevance distinctions, caveats, and prioritized monthly checks.
+  Candidate memory, topic audit, architecture, status, roadmap, maintenance,
+  and ADR-029 are synchronized. Source, workbook, tests, documentation, and
+  generated HTML/ICS are prepared together for the existing main/docs release.
+
 ## 2026-10-07 (curated detailed conference scopes)
 
 - Objective: Preserve richer topic/scope metadata without expanding the four

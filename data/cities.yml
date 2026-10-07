@@ -73,3 +73,13 @@ bellevue: {label: 'Bellevue, USA', lat: 47.610, lon: -122.201, locations: ['Bell
 hanoi: {label: 'Hanoi, Vietnam', lat: 21.028, lon: 105.834, locations: ['Hanoi, Vietnam']}
 bilbao: {label: 'Bilbao, Spain', lat: 43.263, lon: -2.935, locations: ['Bilbao, Spain']}
 sao-paulo: {label: 'Sao Paulo, Brazil', lat: -23.551, lon: -46.633, locations: ['Sao Paulo, Brazil']}
+columbia: {label: 'Columbia, South Carolina, USA', lat: 34.001, lon: -81.035, locations: ['Columbia, South Carolina, USA']}
+thessaloniki: {label: 'Thessaloniki, Greece', lat: 40.640, lon: 22.944, locations: ['Thessaloniki, Greece']}
+rio-de-janeiro: {label: 'Rio de Janeiro, Brazil', lat: -22.907, lon: -43.173, locations: ['Rio de Janeiro, Brazil']}
+anaheim: {label: 'Anaheim, USA', lat: 33.836, lon: -117.914, locations: ['Anaheim, California, USA']}
+lancaster: {label: 'Lancaster, UK', lat: 54.047, lon: -2.800, locations: ['Lancaster, United Kingdom']}
+marrakesh: {label: 'Marrakesh, Morocco', lat: 31.630, lon: -7.982, locations: ['Marrakesh, Morocco']}
+foz-do-iguacu: {label: 'Foz do Iguacu, Brazil', lat: -25.547, lon: -54.588, locations: ['Foz do Iguacu, Brazil']}
+lake-buena-vista: {label: 'Lake Buena Vista, USA', lat: 28.394, lon: -81.539, locations: ['Lake Buena Vista, Florida, USA']}
+luxembourg: {label: 'Luxembourg, Luxembourg', lat: 49.612, lon: 6.132, locations: ['Luxembourg, Luxembourg']}
+buenos-aires: {label: 'Buenos Aires, Argentina', lat: -34.604, lon: -58.382, locations: ['Buenos Aires, Argentina']}

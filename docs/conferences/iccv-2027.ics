@@ -1,0 +1,103 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICCV 2027 Calendar
+BEGIN:VEVENT
+UID:iccv-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270304T095900Z
+DTEND:20270304T105900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Deep Representation Learnin
+ g] ICCV 2027 - Paper registration deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
+  Vision\nWebsite: https://iccv.thecvf.com/Conferences/2027\nSource URL: h
+ ttps://iccv.thecvf.com/Conferences/2025/CallForPapers\nLocation: Hong Kon
+ g\, China\nTopics: Computer Vision & Pattern Recognition\, Deep Represent
+ ation Learning\, Machine Learning\nSize: XXL\nSubmission type: Paper-base
+ d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-07\nNot
+ es: The 2027 homepage explicitly announces October 2-8 at the Hong Kong C
+ onvention and Exhibition Centre. Its Dates page conflicts with a generic 
+ October 19-23 placeholder and blank venue\; the named-venue homepage take
+ s precedence pending organizer reconciliation. Paper deadlines are bienni
+ al proxies from 2025's explicit 23:59 Hawaii time\, not confirmed 2027 da
+ tes. XXL is an editorial estimate for the overall flagship event.\nScope:
+  Broad computer vision\, from geometry and computational imaging to visua
+ l learning\, recognition\, segmentation\, generation\, and video understa
+ nding. Vision-language and multimodal methods\, visual graphics\, face/bo
+ dy/gesture analysis\, and reliable perception are substantial strands. It
+  is a biennial flagship\, not a general AI applications conference. The c
+ urrent scope is grounded in its 2025 CFP because the 2027 call is not yet
+  published.\nAdditional topics: Computer Graphics & Visualization\, Multi
+ media Learning & Retrieval\, Natural Language Processing & LLMs\, Biometr
+ ics & Human Sensing\, Robustness & Safety\nScope sources (2025): https://
+ iccv.thecvf.com/Conferences/2025/CallForPapers\nScope last checked: 2026-
+ 10-07
+URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccv-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270308T095900Z
+DTEND:20270308T105900Z
+SUMMARY:[Computer Vision & Pattern Recognition][Deep Representation Learnin
+ g] ICCV 2027 - Paper submission deadline (estimated)
+DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
+  Vision\nWebsite: https://iccv.thecvf.com/Conferences/2027\nSource URL: h
+ ttps://iccv.thecvf.com/Conferences/2025/CallForPapers\nLocation: Hong Kon
+ g\, China\nTopics: Computer Vision & Pattern Recognition\, Deep Represent
+ ation Learning\, Machine Learning\nSize: XXL\nSubmission type: Paper-base
+ d / OpenReview\nConfidence: estimated\nLast checked date: 2026-10-07\nNot
+ es: The 2027 homepage explicitly announces October 2-8 at the Hong Kong C
+ onvention and Exhibition Centre. Its Dates page conflicts with a generic 
+ October 19-23 placeholder and blank venue\; the named-venue homepage take
+ s precedence pending organizer reconciliation. Paper deadlines are bienni
+ al proxies from 2025's explicit 23:59 Hawaii time\, not confirmed 2027 da
+ tes. XXL is an editorial estimate for the overall flagship event.\nScope:
+  Broad computer vision\, from geometry and computational imaging to visua
+ l learning\, recognition\, segmentation\, generation\, and video understa
+ nding. Vision-language and multimodal methods\, visual graphics\, face/bo
+ dy/gesture analysis\, and reliable perception are substantial strands. It
+  is a biennial flagship\, not a general AI applications conference. The c
+ urrent scope is grounded in its 2025 CFP because the 2027 call is not yet
+  published.\nAdditional topics: Computer Graphics & Visualization\, Multi
+ media Learning & Retrieval\, Natural Language Processing & LLMs\, Biometr
+ ics & Human Sensing\, Robustness & Safety\nScope sources (2025): https://
+ iccv.thecvf.com/Conferences/2025/CallForPapers\nScope last checked: 2026-
+ 10-07
+URL:https://iccv.thecvf.com/Conferences/2025/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:iccv-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271002
+DTEND;VALUE=DATE:20271009
+SUMMARY:[Computer Vision & Pattern Recognition][Deep Representation Learnin
+ g] ICCV 2027 - Conference
+DESCRIPTION:Conference title: IEEE/CVF International Conference on Computer
+  Vision\nWebsite: https://iccv.thecvf.com/Conferences/2027\nSource URL: h
+ ttps://iccv.thecvf.com/Conferences/2027\nLocation: Hong Kong\, China\nTop
+ ics: Computer Vision & Pattern Recognition\, Deep Representation Learning
+ \, Machine Learning\nSize: XXL\nSubmission type: Paper-based / OpenReview
+ \nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: The 2027 h
+ omepage explicitly announces October 2-8 at the Hong Kong Convention and 
+ Exhibition Centre. Its Dates page conflicts with a generic October 19-23 
+ placeholder and blank venue\; the named-venue homepage takes precedence p
+ ending organizer reconciliation. Paper deadlines are biennial proxies fro
+ m 2025's explicit 23:59 Hawaii time\, not confirmed 2027 dates. XXL is an
+  editorial estimate for the overall flagship event.\nScope: Broad compute
+ r vision\, from geometry and computational imaging to visual learning\, r
+ ecognition\, segmentation\, generation\, and video understanding. Vision-
+ language and multimodal methods\, visual graphics\, face/body/gesture ana
+ lysis\, and reliable perception are substantial strands. It is a biennial
+  flagship\, not a general AI applications conference. The current scope i
+ s grounded in its 2025 CFP because the 2027 call is not yet published.\nA
+ dditional topics: Computer Graphics & Visualization\, Multimedia Learning
+  & Retrieval\, Natural Language Processing & LLMs\, Biometrics & Human Se
+ nsing\, Robustness & Safety\nScope sources (2025): https://iccv.thecvf.co
+ m/Conferences/2025/CallForPapers\nScope last checked: 2026-10-07
+URL:https://iccv.thecvf.com/Conferences/2027
+LOCATION:Hong Kong\, China
+END:VEVENT
+END:VCALENDAR

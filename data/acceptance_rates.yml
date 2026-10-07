@@ -2,6 +2,34 @@ checked_on: "2026-10-07"
 # Percentages describe the named historical track, not the chance of acceptance
 # at the next edition. Leave a series absent when evidence is insufficient.
 rates:
+  "CVPR":
+    percent: 25.41
+    year: 2026
+    track: "Main technical program (4,089 presentations of 16,092 submissions in the official program release)"
+    source_url: "https://cvpr.thecvf.com/Conferences/2026/News/Technical_Program"
+  "ECCV":
+    percent: 27.8
+    year: 2024
+    track: "Main papers (2,387 accepted of 8,585 valid submissions); calculated from organizer counts"
+    source_url: "https://eccv.ecva.net/media/eccv-2024/Slides/2822.pdf"
+  "ICAPS":
+    percent: 25.0
+    approximate: true
+    year: 2024
+    track: "Main papers; council minutes report rounded 25% (82 accepted of 335 submitted)"
+    source_url: "https://www.icaps-conference.org/wp-content/uploads/2025/12/MinutesICAPS2024CouncilMeeting_v2.pdf"
+  "ICCV":
+    percent: 24.0
+    approximate: true
+    year: 2025
+    track: "Main papers; chairs' rounded rate (2,701 accepted of 11,239 valid submissions)"
+    source_url: "https://media.eventhosts.cc/Conferences/ICCV2025/iccv25_main_program.pdf"
+  "WACV":
+    percent: 33.0
+    approximate: true
+    year: 2026
+    track: "Main papers across both rounds; chairs' rounded rate (832 accepted of 2,550 submissions)"
+    source_url: "https://media.eventhosts.cc/Conferences/WACV2026/wacv_2026_program_v18_Digital.pdf"
   "AutoML":
     percent: 42.0
     approximate: true

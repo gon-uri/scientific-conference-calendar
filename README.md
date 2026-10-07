@@ -4,8 +4,8 @@
 
 **Venue Radar** is a scientific conference calendar for finding the next place
 to share your research. It tracks conferences in machine learning and AI, data
-science and time series, responsible AI, signal processing and vision,
-biomedical AI, neuroscience, and complex systems and control.
+science and time series, signal processing, vision, multimedia and biometrics,
+responsible AI, biomedical AI, complex systems and control, and neuroscience.
 
 Browse submission opportunities, conference dates and locations, rankings,
 and historical acceptance rates. Uncertain dates are clearly marked as estimates.

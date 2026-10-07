@@ -164,7 +164,18 @@ try {
   assert(opportunities.includes('automl-2027'));
   assert(opportunities.includes('probml-2027'));
   assert(opportunities.includes('mlsys-2027'));
-  for (const id of ['corl-2026', 'log-2026', 'satml-2027']) assert(!opportunities.includes(id));
+  for (const id of ['corl-2026', 'log-2026', 'satml-2027', 'wacv-2027', 'bmvc-2026', '3dv-2027', 'acm-mm-2026']) assert(!opportunities.includes(id));
+  for (const id of ['eurogp-2027', 'kr-2027', 'icaps-2027', 'cvpr-2027', 'eccv-2028', 'euvip-2027', 'fg-2027', 'iccv-2027', 'icmr-2027', 'ijcb-2027', 'acm-mm-2027']) assert(opportunities.includes(id));
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-07-01T12:00:00Z');
+    applyFilters();
+  });
+  assert(await page.locator('[data-deadline-group][data-edition="wacv-2027"]').isVisible(), 'WACV round 2 survives the closed first round');
+  await page.evaluate(() => {
+    Date.now = () => Date.parse('2026-08-23T12:00:00Z');
+    applyFilters();
+  });
+  assert(!(await page.locator('[data-deadline-group][data-edition="wacv-2027"]').isVisible()), 'WACV round 2 enrollment gates its later paper cutoff');
   await page.evaluate(() => {
     Date.now = () => Date.parse('2026-10-11T12:00:00Z');
     applyFilters();
@@ -193,8 +204,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '60 confirmed editions in 51 cities');
-  assert.equal(await page.locator('.city-marker').count(), 51);
+  assert.equal(await page.locator('#map-count').innerText(), '72 confirmed editions in 61 cities');
+  assert.equal(await page.locator('.city-marker').count(), 61);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -235,7 +246,7 @@ try {
   await page.locator('[data-filter-group="ccf"][value="B"]').check();
   const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));
-  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 51);
+  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 61);
   await page.locator('[data-filter-group="icore"][value="Unranked"]').check();
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
   assert(await ccfMatches.evaluateAll(rows => rows.some(row => row.dataset.edition === 'icassp-2027')));
@@ -250,6 +261,12 @@ try {
     ['ml-ai', 'evolutionary-computation-optimization', 'gecco-2027'],
     ['neuroscience', 'cognitive-science-computational-cognition', 'cogsci-2027'],
     ['ml-ai', 'ml-systems-infrastructure', 'mlsys-2027'],
+    ['ml-ai', 'knowledge-representation-reasoning', 'kr-2027'],
+    ['ml-ai', 'planning-search', 'icaps-2027'],
+    ['signals-vision', 'computer-graphics-visualization', 'acm-siggraph-2027'],
+    ['signals-vision', 'multimedia-learning-retrieval', 'icmr-2027'],
+    ['signals-vision', 'biometrics-human-sensing', 'fg-2027'],
+    ['signals-vision', 'biometrics-human-sensing', 'ijcb-2027'],
   ]) {
     const disclosure = page.locator('.topic-family').filter({has: page.locator(`[data-family-toggle="${family}"]`)});
     await disclosure.evaluate(details => details.open = true);

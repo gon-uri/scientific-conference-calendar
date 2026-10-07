@@ -450,6 +450,70 @@ DESCRIPTION:Conference title: Conference of the European Chapter of the Ass
 URL:https://2027.eacl.org/calls/papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:fg-2027-deadline-workshop@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261021T115900Z
+DTEND:20261021T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Workshop and tutorial proposal deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261024T115900Z
+DTEND:20261024T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Extended main and special-session abstract deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:acm-facct-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261028T115900Z
@@ -473,6 +537,38 @@ DESCRIPTION:Conference title: ACM Conference on Fairness\, Accountability\,
  loyment\, Robustness & Safety\nScope sources (2026): https://facctconfere
  nce.org/2026/cfp.html\nScope last checked: 2026-10-07
 URL:https://facctconference.org/2027/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261031T115900Z
+DTEND:20261031T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Extended main and special-session paper deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:acm-facct-2027-deadline-full-paper@scientific-conference-calendar
@@ -590,6 +686,38 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
 URL:https://2027.ijcai.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:fg-2027-deadline-workshop-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270112T115900Z
+DTEND:20270112T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Workshop paper submission deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270112T115900Z
@@ -634,6 +762,38 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
  /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270127T115900Z
+DTEND:20270127T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Main conference camera-ready deadline
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
 END:VEVENT
 BEGIN:VEVENT
 UID:colt-2027-deadline-full-paper@scientific-conference-calendar
@@ -780,6 +940,38 @@ DESCRIPTION:Conference title: Conference on Health\, Inference\, and Learni
 URL:https://chil.ahli.cc/
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcb-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270410T115900Z
+DTEND:20270410T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Full paper submission deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/call-for-papers/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ecai-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270414
@@ -797,6 +989,71 @@ DESCRIPTION:Conference title: European Conference on Artificial Intelligenc
  explicitly estimated placeholder.\nOfficial deadline day\; exact cutoff h
  our/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://ecai2027.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-deadline-supplementary@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270417T115900Z
+DTEND:20270417T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Supplementary material deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/call-for-papers/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:fg-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270426
+DTEND;VALUE=DATE:20270501
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  FG 2027 - Conference
+DESCRIPTION:Conference title: IEEE International Conference on Automatic Fa
+ ce and Gesture Recognition\nWebsite: https://fg2027.ieee-biometrics.org/\
+ nSource URL: https://fg2027.ieee-biometrics.org/dates/\nLocation: Marrake
+ sh\, Morocco\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Machine Learning\nSize: 
+ M\nSubmission type: Long and short papers / face\, gesture\, and body rec
+ ognition\nConfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Of
+ ficial CFP and dates page updated October 5 extend the abstract and paper
+  deadlines to October 23 and 30\, replacing October 9 and 16. Cutoffs are
+  AoE. Full event includes April 26/30 workshops\; main sessions are April
+  27-29. CMT opening is announced for September 25 without an exact hour\;
+  no portal-open observation is fabricated. M is an editorial estimate.\nS
+ cope: Face\, gesture\, body movement\, and human behavior from images and
+  video\, including detection\, tracking\, recognition\, facial expression
+  and affect\, pose and action analysis\, and soft biometrics. Characteris
+ tic methods include advanced visual learning\, generative modeling and ne
+ ural rendering\, multimodal fusion\, and evaluation across demographic an
+ d acquisition conditions. Bias\, interpretability\, and robust recognitio
+ n are directly tied to human sensing rather than generic application tags
+ .\nAdditional topics: Robustness & Safety\, Fairness & Responsible AI\, C
+ omputer Graphics & Visualization\, Explainability & Interpretability\nSco
+ pe sources (2027): https://fg2027.ieee-biometrics.org/call-for-papers/\nS
+ cope last checked: 2026-10-07
+URL:https://fg2027.ieee-biometrics.org/dates/
+LOCATION:Marrakesh\, Morocco
 END:VEVENT
 BEGIN:VEVENT
 UID:satml-2027-conference@scientific-conference-calendar
@@ -953,6 +1210,38 @@ URL:https://learningtheory.org/colt2027/
 LOCATION:Tokyo\, Japan
 END:VEVENT
 BEGIN:VEVENT
+UID:ijcb-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270803T115900Z
+DTEND:20270803T125900Z
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Camera-ready and author registration deadline
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/important-dates/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+END:VEVENT
+BEGIN:VEVENT
 UID:ijcai-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270807
@@ -970,6 +1259,39 @@ DESCRIPTION:Conference title: International Joint Conference on Artificial
  icated as a main conference.
 URL:https://2027.ijcai.org/
 LOCATION:Kyoto\, Japan
+END:VEVENT
+BEGIN:VEVENT
+UID:ijcb-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270913
+DTEND;VALUE=DATE:20270918
+SUMMARY:[Biometrics & Human Sensing][Computer Vision & Pattern Recognition]
+  IJCB 2027 - Conference
+DESCRIPTION:Conference title: IEEE/IAPR International Joint Conference on B
+ iometrics\nWebsite: https://ijcb2027.ieee-biometrics.org/\nSource URL: ht
+ tps://ijcb2027.ieee-biometrics.org/important-dates/\nLocation: Foz do Igu
+ acu\, Brazil\nTopics: Biometrics & Human Sensing\, Computer Vision & Patt
+ ern Recognition\, Deep Representation Learning\, Privacy-preserving ML\nS
+ ize: M\nSubmission type: Paper-based / biometrics and identity science\nC
+ onfidence: confirmed\nLast checked date: 2026-10-07\nNotes: Official 2027
+  CFP confirms Foz do Iguacu\, September 13-17\, March 15 submission openi
+ ng\, and April 9 paper cutoff\; its date table specifies 23:59 AoE for al
+ l dates. IJCB combines BTAS and ICB\; do not create duplicate rows or inh
+ erit a distinct predecessor's rankings. M is an editorial estimate.\nScop
+ e: Biometrics and identity science across face\, fingerprint\, iris\, voi
+ ce\, gait\, and behavioral modalities. Defining concerns include recognit
+ ion and verification\, multimodal fusion\, presentation-attack and deepfa
+ ke detection\, biometric template security\, privacy\, demographic fairne
+ ss\, and rigorous benchmarking. Learned representations and foundation mo
+ dels are important methods\; federated learning belongs here through secu
+ re biometric systems. Healthcare\, banking\, and robotics are application
+ s\, not blanket scope tags.\nAdditional topics: Machine Learning\, Robust
+ ness & Safety\, Fairness & Responsible AI\, Explainability & Interpretabi
+ lity\, Federated & Distributed Learning\, Signal Processing\nScope source
+ s (2027): https://ijcb2027.ieee-biometrics.org/call-for-papers/\nScope la
+ st checked: 2026-10-07
+URL:https://ijcb2027.ieee-biometrics.org/important-dates/
+LOCATION:Foz do Iguacu\, Brazil
 END:VEVENT
 BEGIN:VEVENT
 UID:ecai-2027-conference@scientific-conference-calendar

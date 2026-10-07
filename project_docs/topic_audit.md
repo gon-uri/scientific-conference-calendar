@@ -4,17 +4,25 @@ Reviewed 2026-10-06. Topic assignments describe central advertised scope, not
 every paper that could conceivably be accepted. Up to four unique main leaves
 are displayed. Parents are derived; a series may appear in multiple families.
 
-2026-10-07 extension: 30 of 82 series now have curated detailed profiles in
+2026-10-07 extension: 45 of 97 series now have curated detailed profiles in
 `data/conference_scopes.yml`, with at most six characteristic additional leaves
 and sourced prose. Filter/search/feed matching uses their union; display remains
 main-only. The 52 missing profiles are queued, not guessed. See
 [conference_scopes.md](conference_scopes.md). The historical counts below are
 main-topic coverage, not expanded profile matching counts.
 
-Current coverage by distinct series (not mutually exclusive): ML & AI 62;
-Data & Time Series 35; Responsible & Trustworthy AI 18; Signals & Vision 16;
-Healthcare & Biomedical AI 13; Neuroscience & Neurotechnology 12;
-Dynamics, Complex Systems & Control 9. README subject order follows these counts.
+Current main-topic coverage by distinct series, using each latest edition
+(not mutually exclusive): ML & AI 86; Data & Time Series 35;
+Signals, Vision & Multimedia 30; Responsible & Trustworthy AI 22;
+Healthcare & Biomedical AI 14; Dynamics, Complex Systems & Control 14;
+Neuroscience & Neurotechnology 13. README subject order follows these counts.
+
+The second AI Deadlines batch adds five leaves: Knowledge Representation &
+Reasoning and Planning & Search (ML & AI), plus Computer Graphics & Visualization,
+Multimedia Learning & Retrieval, and Biometrics & Human Sensing (signals/vision).
+FG/IJCB are directly filterable as dedicated biometrics venues; broad vision
+venues match the additional leaf only when their sourced scope has a substantial
+human/biometric-analysis strand. See vision_ai_expansion.md for evidence.
 
 ## Responsible And Trustworthy AI
 

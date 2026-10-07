@@ -3,6 +3,271 @@
 # list is valid for a focused venue; never add tags just to reach a target count.
 # source_year identifies the evidence edition, not every edition using a profile.
 
+EuroGP:
+  additional_topics:
+    - Learning Theory & Statistical Foundations
+    - Deep Representation Learning
+  scope_summary: >-
+    Genetic programming and evolutionary program synthesis, including symbolic
+    regression, program representations and operators, surrogate-assisted search,
+    multi-objective evolution, and interpretable learned programs. Evolutionary
+    machine learning, AutoML pipelines, and neuroevolution connect this focused
+    methodological community to ML. Application domains do not define its tags.
+  scope_source_urls:
+    - https://www.evostar.org/2027/eurogp/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+KR:
+  additional_topics:
+    - Machine Learning
+    - Probabilistic, Causal & Uncertainty ML
+    - Planning & Search
+  scope_summary: >-
+    Formal and symbolic AI centered on representing knowledge and drawing
+    justified conclusions: knowledge bases, description and non-classical
+    logics, ontologies, non-monotonic reasoning, argumentation, belief revision,
+    and reasoning about actions. Learning, uncertainty, and explanations matter
+    when grounded in knowledge representation or reasoning. The last published
+    CFP includes a KR Meets Machine Learning and Explanation track; this is not
+    a general-purpose ML conference or a confirmed promise of that 2027 track.
+  scope_source_urls:
+    - https://kr.org/KR2026/call_main_track.html
+    - https://kr.org/KR2026/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+ICAPS:
+  additional_topics:
+    - Probabilistic, Causal & Uncertainty ML
+  scope_summary: >-
+    Automated planning and scheduling, heuristic search, constraint-based
+    reasoning, temporal and hierarchical planning, and planning under uncertainty.
+    Learning and foundation models fit when they substantially advance planning
+    or scheduling, including model acquisition and search guidance. The main CFP
+    explicitly excludes reinforcement-learning papers without a substantive
+    planning contribution; general reward-based learning is not a blanket tag.
+  scope_source_urls:
+    - https://icaps27.icaps-conference.org/calls/cfp/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+3DV:
+  additional_topics: []
+  scope_summary: >-
+    Three-dimensional computer vision and graphics, especially sensing,
+    geometric modeling and representations, reconstruction, analysis, rendering,
+    and visualization. It is a focused venue for recovering and understanding
+    3D structure rather than all of computer vision. Papers combine geometric,
+    imaging, and computational methods; unrelated applications and every
+    possible ML technique are not added as separate scope tags.
+  scope_source_urls:
+    - https://3dvconf.github.io/2027/
+    - https://3dvconf.github.io/2027/author-guidelines/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+ACM MM:
+  additional_topics:
+    - Machine Learning
+    - Natural Language Processing & LLMs
+    - Human-AI Interaction & Deployment
+    - Data Mining & Data Science
+    - Explainability & Interpretability
+  scope_summary: >-
+    Multimedia understanding, learning, generation, and retrieval across image,
+    video, audio, language, and other modalities. Characteristic work includes
+    multimodal fusion, generative and foundation models, scalable indexing and
+    search, cross-modal alignment, and human-centered multimedia experiences.
+    The 2026 steering-committee scope also emphasizes explainability. Healthcare,
+    education, and entertainment are applications, not blanket topical identities.
+  scope_source_urls:
+    - https://2026.acmmm.org/site/topics.html
+    - https://2026.acmmm.org/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+ACM SIGGRAPH:
+  additional_topics:
+    - Deep Representation Learning
+    - Human-AI Interaction & Deployment
+  scope_summary: >-
+    Computer graphics and interactive techniques, centered on rendering,
+    geometric modeling, animation, physical simulation, imaging, visualization,
+    and immersive visual experiences. Generative AI and machine learning are
+    relevant when they advance visual computing, such as neural rendering and
+    learned animation. Technical papers use integrated conference and ACM TOG
+    journal tracks; this profile does not describe SIGGRAPH Asia or all of AI.
+  scope_source_urls:
+    - https://s2026.siggraph.org/program/technical-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+BMVC:
+  additional_topics:
+    - Signal Processing
+  scope_summary: >-
+    Computer vision, image processing, and visual pattern recognition, including
+    visual learning, recognition and segmentation, reconstruction, motion and
+    video analysis, and evaluation of vision methods. The single-track BMVA
+    conference combines methodological and applied vision research. It is an
+    established broad vision venue, not a specialist biomedical-imaging meeting.
+  scope_source_urls:
+    - https://bmvc2026.bmva.org/calls/call-for-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+CVPR:
+  additional_topics:
+    - Computer Graphics & Visualization
+    - Multimedia Learning & Retrieval
+    - Natural Language Processing & LLMs
+    - Biometrics & Human Sensing
+    - Robustness & Safety
+  scope_summary: >-
+    Broad computer vision and pattern recognition: visual representations,
+    recognition and segmentation, 3D reconstruction, computational imaging,
+    image and video generation, motion and tracking, and vision-language
+    learning. Graphics, multimodal learning, human face/body understanding, and
+    reliable vision are substantial recurring research areas. Peripheral
+    application fields are not tagged merely because a long CFP mentions them.
+  scope_source_urls:
+    - https://cvpr.thecvf.com/Conferences/2027/CallForPapers
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+ECCV:
+  additional_topics:
+    - Computer Graphics & Visualization
+    - Multimedia Learning & Retrieval
+    - Natural Language Processing & LLMs
+    - Biometrics & Human Sensing
+    - Robustness & Safety
+  scope_summary: >-
+    Broad research in visual perception, representation learning, recognition,
+    segmentation, 3D geometry and reconstruction, computational imaging, and
+    image/video synthesis. Vision-language models, multimodal understanding,
+    human motion and appearance, and robust visual systems extend this core.
+    ECCV is the biennial European flagship for computer vision; the scope uses
+    the actual published 2026 CFP, not an invented 2028 call.
+  scope_source_urls:
+    - https://eccv.ecva.net/Conferences/2026/CallForPapers
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+EUVIP:
+  additional_topics:
+    - Multimedia Learning & Retrieval
+    - Computer Graphics & Visualization
+    - Biometrics & Human Sensing
+    - Robustness & Safety
+  scope_summary: >-
+    Visual information processing across image, video, 3D, and unconventional
+    sensing modalities. Its defining areas are computational imaging,
+    restoration and enhancement, coding, recognition, multimodal fusion, and
+    subjective/objective quality assessment. Rendering and visualizing data,
+    human/biometric analysis, and robust evaluation are recurring strands.
+    An extensive applications list is not treated as equal coverage of every
+    application domain or every responsible-AI subtopic.
+  scope_source_urls:
+    - https://euvip2026.github.io/C4P.pdf
+    - https://euvip2026.github.io/calls/
+  scope_last_checked: '2026-10-07'
+  source_year: 2026
+
+FG:
+  additional_topics:
+    - Robustness & Safety
+    - Fairness & Responsible AI
+    - Computer Graphics & Visualization
+    - Explainability & Interpretability
+  scope_summary: >-
+    Face, gesture, body movement, and human behavior from images and video,
+    including detection, tracking, recognition, facial expression and affect,
+    pose and action analysis, and soft biometrics. Characteristic methods include
+    advanced visual learning, generative modeling and neural rendering, multimodal
+    fusion, and evaluation across demographic and acquisition conditions.
+    Bias, interpretability, and robust recognition are directly tied to human
+    sensing rather than generic application tags.
+  scope_source_urls:
+    - https://fg2027.ieee-biometrics.org/call-for-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+ICCV:
+  additional_topics:
+    - Computer Graphics & Visualization
+    - Multimedia Learning & Retrieval
+    - Natural Language Processing & LLMs
+    - Biometrics & Human Sensing
+    - Robustness & Safety
+  scope_summary: >-
+    Broad computer vision, from geometry and computational imaging to visual
+    learning, recognition, segmentation, generation, and video understanding.
+    Vision-language and multimodal methods, visual graphics, face/body/gesture
+    analysis, and reliable perception are substantial strands. It is a biennial
+    flagship, not a general AI applications conference. The current scope is
+    grounded in its 2025 CFP because the 2027 call is not yet published.
+  scope_source_urls:
+    - https://iccv.thecvf.com/Conferences/2025/CallForPapers
+  scope_last_checked: '2026-10-07'
+  source_year: 2025
+
+ICMR:
+  additional_topics:
+    - Data Mining & Data Science
+    - Natural Language Processing & LLMs
+    - Privacy-preserving ML
+  scope_summary: >-
+    Search and retrieval of multimedia and multimodal content. Characteristic
+    work studies indexing, content understanding, query representations,
+    cross-modal matching, relevance feedback, recommendation, and evaluation,
+    with deep learning and multimodal models as important methods. Privacy-aware
+    retrieval and knowledge discovery extend this core. The long applications
+    list is not used to characterize ICMR as a medicine, finance, or travel venue.
+  scope_source_urls:
+    - https://www.icmr2027.org/cfc
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+IJCB:
+  additional_topics:
+    - Machine Learning
+    - Robustness & Safety
+    - Fairness & Responsible AI
+    - Explainability & Interpretability
+    - Federated & Distributed Learning
+    - Signal Processing
+  scope_summary: >-
+    Biometrics and identity science across face, fingerprint, iris, voice,
+    gait, and behavioral modalities. Defining concerns include recognition and
+    verification, multimodal fusion, presentation-attack and deepfake detection,
+    biometric template security, privacy, demographic fairness, and rigorous
+    benchmarking. Learned representations and foundation models are important
+    methods; federated learning belongs here through secure biometric systems.
+    Healthcare, banking, and robotics are applications, not blanket scope tags.
+  scope_source_urls:
+    - https://ijcb2027.ieee-biometrics.org/call-for-papers/
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
+WACV:
+  additional_topics:
+    - Signal Processing
+    - Biometrics & Human Sensing
+    - Multimedia Learning & Retrieval
+  scope_summary: >-
+    Applied computer vision and visual learning, with an emphasis on practical
+    recognition, detection, segmentation, image/video analysis, 3D perception,
+    and deployable visual systems. Human analysis and multimodal visual methods
+    are established areas. Compared with the flagship trio, WACV particularly
+    welcomes meaningful application-driven contributions supported by sound
+    evaluation; its two submission rounds are routes, not different fields.
+  scope_source_urls:
+    - https://wacv.thecvf.com/Conferences/2027/CallForPapers
+  scope_last_checked: '2026-10-07'
+  source_year: 2027
+
 NeurIPS:
   additional_topics:
     - Learning Theory & Statistical Foundations

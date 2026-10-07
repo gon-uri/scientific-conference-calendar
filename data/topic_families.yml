@@ -12,16 +12,21 @@ families:
       - Human-AI Interaction & Deployment
       - Evolutionary Computation & Optimization
       - ML Systems & Infrastructure
+      - Knowledge Representation & Reasoning
+      - Planning & Search
   - id: data-time-series
     label: Data & Time Series
     topics:
       - Data Mining & Data Science
       - Time Series & Sequential Data
   - id: signals-vision
-    label: Signals & Vision
+    label: Signals, Vision & Multimedia
     topics:
       - Signal Processing
       - Computer Vision & Pattern Recognition
+      - Computer Graphics & Visualization
+      - Multimedia Learning & Retrieval
+      - Biometrics & Human Sensing
   - id: neuroscience
     label: Neuroscience & Neurotechnology
     topics:
@@ -81,3 +86,8 @@ labels:
   Evolutionary Computation & Optimization: Evolutionary computation
   Cognitive Science & Computational Cognition: Cognitive science
   ML Systems & Infrastructure: ML systems & infrastructure
+  Knowledge Representation & Reasoning: Knowledge & reasoning
+  Planning & Search: Planning & search
+  Computer Graphics & Visualization: Graphics & visualization
+  Multimedia Learning & Retrieval: Multimedia & retrieval
+  Biometrics & Human Sensing: Biometrics & human sensing

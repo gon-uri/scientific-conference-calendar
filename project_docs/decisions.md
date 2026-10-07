@@ -320,3 +320,28 @@ Last synchronized: 2026-10-07
 - Consequences: richer discovery without a wider table or a backend. Profiles
   describe series using dated sources, not exact historical-edition CFPs.
   Monthly source checks remain necessary, particularly when a new CFP appears.
+
+## ADR-029: Distinguish AI, Multimedia And Biometrics Communities
+
+- Date: 2026-10-07
+- Context: The user approved EuroGP/KR/ICAPS, broadened vision additions to all
+  vision/imaging/multimedia candidates, and requested all dedicated biometrics
+  candidates from the original remaining 46.
+- Decision: Add 15 series and 18 editions with independently curated profiles.
+  FG and IJCB already cover the two dedicated biometrics candidates; do not
+  count them twice or split IJCB into incorporated BTAS/ICB predecessor rows.
+  Extend the existing seven families with five focused leaves for reasoning,
+  planning, graphics, multimedia retrieval, and biometric/human sensing. Tables
+  still display at most four primary leaves; curated detail drives discovery.
+- Evidence: Keep direct ICORE/CCF matches independent; 3DV has CCF-only coverage.
+  Preserve Unknown for ten unsourced acceptance rates. ECCV/ICCV are biennial;
+  other additions follow documented recent annual recurrence. Store estimates
+  independently from confirmed hosts/meetings and keep date-only cutoffs honest.
+  The named-venue ICCV homepage takes precedence over conflicting generic
+  Dates text, with an explicit reconciliation task. WACV's two new-paper rounds
+  have separate enrollment gates; camera-ready/checksum/presentation uploads
+  cannot open a new submission route.
+- Consequences: The catalog is 97 series / 122 editions, detailed profiles
+  45 / 97, and the original backlog 31 untracked candidates. Evidence and monthly
+  follow-ups are maintained in vision_ai_expansion.md. This is targeted expansion,
+  not a claim of a complete refresh of every previously tracked edition.
