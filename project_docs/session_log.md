@@ -30,6 +30,9 @@
   feeds pass CRLF/folding/UID checks; every event in the 187 previous feeds and
   all 144 previous records are unchanged. Non-ICS diff whitespace checks pass;
   legitimate folded ICS content spaces are preserved.
+- Publication: 8b351a3 pushed to main. Build 37794093622 and Pages 37794090302
+  passed. Live HTML and all 28 aggregate/new-edition/new-topic feeds match the
+  tested local output; the full live browser suite passed at all six widths.
 
 ## 2026-10-07 (mobile card hierarchy refinement)
 

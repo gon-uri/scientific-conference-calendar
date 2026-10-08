@@ -116,9 +116,11 @@ Last synchronized: 2026-10-08
   and value checks, plus desktop/mobile browser interaction and overflow checks.
   The current catalog expansion passes all 81 Python tests and full browser
   smoke at six widths. All 187 prior feeds retain identical existing events;
-  repeated builds are byte-identical. Publication verification follows the
-  documented main/docs workflow. The earlier catalog release d869465 also
-  verified all 30 aggregate/new-series/new-topic feeds.
+  repeated builds are byte-identical. Release 8b351a3 is published: Build
+  37794093622 and Pages 37794090302 passed, live HTML and all 28 aggregate/new
+  feeds match the local output, and full live browser smoke passes at six
+  widths. The earlier catalog release d869465 also verified all 30
+  aggregate/new-series/new-topic feeds.
 
 ## Feature Checklist
 
