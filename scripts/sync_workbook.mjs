@@ -60,6 +60,9 @@ const newDefinitions = {
   'Information Retrieval & Search': 'Search, ranking, information access, conversational retrieval, and retrieval-augmented generation.',
   'Recommender Systems': 'Personalization, recommendation models, user-item interaction, and recommendation evaluation.',
   'Graphs & Graph Learning': 'Graph mining, graph representation learning, graph neural networks, and learning on structured networks.',
+  'Artificial Life & Adaptive Systems': 'Artificial life, emergence, adaptive behavior, embodied intelligence, and living or life-like systems.',
+  'Neuromorphic & Brain-inspired Computing': 'Brain-inspired computation, spiking neural networks, neuromorphic hardware, and neural computing systems.',
+  'Systems & Experimental Neuroscience': 'Experimental and systems neuroscience, neural populations, circuits, behavior, and neural coding.',
 };
 const topicByName = new Map(payload.topics.map((topic) => [topic.tag, topic]));
 const topicOrder = payload.topics.map((topic) => topic.tag);

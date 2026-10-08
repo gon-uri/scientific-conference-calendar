@@ -1,5 +1,36 @@
 # Session Log
 
+## 2026-10-08 (complex systems and neuroscience expansion)
+
+- Objective: Add the approved 16 series, including AREADNE, SfN and all five
+  regional Dynamics Days branches, without changing the eight topic families
+  or how the website presents abstract-only opportunities.
+- Implemented: 22 sourced edition records, 16 curated scope profiles and central
+  family assignments, three focused subtopics and confirmed city identities.
+  The catalog now contains 166 editions across 129 series, 43 subtopics and
+  79 scope profiles. Canonical YAML and all three workbook tables agree.
+- Evidence: Confirmed meeting dates do not confer certainty on proxy submission
+  dates; estimates and date-only cutoff precision stay explicit. Biennial
+  AREADNE/SAB and regional Dynamics Days recurrence are respected. NODYCON,
+  Dynamics Days Asia-Pacific and Dynamics Days CAC have no reliable next
+  edition announcement and remain in the existing monthly review queue.
+  ICCN's conflicting dates are provisional and excluded from the confirmed map.
+- Publication formats: dynamics_neuroscience_expansion.md distinguishes full
+  papers, abstract books, archived abstracts and selected journal publication.
+  Abstract-only routes use the existing milestone labels and submission status;
+  no publication badge, column, filter or new status was added. Renderer,
+  JavaScript, CSS, README and the eight family names/order are unchanged.
+  No unsupported ICORE/CCF ranks or acceptance percentages were invented.
+- Verification: 166 records validate; all 81 Python tests and full browser smoke
+  pass at 1440/1051/1050/768/390/320px, including all 26 submission-route fixtures,
+  mobile disclosures and the new abstract/estimate/archive/scope/map scenarios.
+  Desktop/mobile and workbook previews were inspected. Re-import confirms
+  129 catalog rows, 43 vocabulary rows and 79 profiles, with original values
+  and native tables preserved. Repeated builds are byte-identical. All 212
+  feeds pass CRLF/folding/UID checks; every event in the 187 previous feeds and
+  all 144 previous records are unchanged. Non-ICS diff whitespace checks pass;
+  legitimate folded ICS content spaces are preserved.
+
 ## 2026-10-07 (mobile card hierarchy refinement)
 
 - Objective: Make expansion controls quieter, field labels easier to read,

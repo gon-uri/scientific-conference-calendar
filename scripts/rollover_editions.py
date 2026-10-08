@@ -36,6 +36,10 @@ CADENCE_YEARS = {
     "ACL": 1, "EMNLP": 1, "CoNLL": 1, "LREC": 2,
     "SIGIR": 1, "ECIR": 1, "RecSys": 1, "WWW": 1,
     "COLM": 1, "ISWC": 1, "ICRA": 1, "RSS": 1, "SMC": 1,
+    "COMPLEX NETWORKS": 1, "CompleNet": 1, "ALIFE": 1, "NICE": 1,
+    "SAB": 2, "BCI Winter": 1, "IEEE BioCAS": 1, "AREADNE": 2,
+    "SfN Neuroscience": 1, "Dynamics Days Europe": 1,
+    "Dynamics Days US": 1, "Dynamics Days LAC": 2,
 }
 
 

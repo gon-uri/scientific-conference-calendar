@@ -5,6 +5,68 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Scientific Conferences: Graphs & Graph Learning
 BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-minisymposium-proposal@scientific-co
+ nference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Extended minisymposium proposal deadline (cutoff
+  time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Contributed talk/poster abstract submission dead
+ line (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:iswc-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260503T115900Z
@@ -105,6 +167,35 @@ DESCRIPTION:Conference title: ACM International Conference on Information a
  ol Use\nScope sources (2026): https://cikm2026.diag.uniroma1.it/\nScope l
  ast checked: 2026-10-07
 URL:https://cikm2026.diag.uniroma1.it/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/\nLocation: L
+ isbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & 
+ Network Science\, Time Series & Sequential Data\, System Identification &
+  Data-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical annual me
+ eting. Contributions are talk/poster abstracts collected in a book of abs
+ tracts\, not standard full-paper proceedings. Minisymposium organization 
+ is a separate non-contribution milestone. Abstract submitters had to comp
+ lete fee payment by May 29. Exact cutoff hours were unannounced. Size is 
+ an editorial estimate.\nScope: Theory and applications of nonlinear dynam
+ ics: chaos\, bifurcations\, synchronization\, pattern formation\, complex
+  networks\, stochastic dynamics and time-series analysis. ML and neurodyn
+ amics are characteristic interdisciplinary extensions. Contributed talks 
+ and posters use abstracts\, while minisymposium proposals are organizer a
+ ctivity.\nAdditional topics: Machine Learning\, Computational Neuroscienc
+ e\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026): h
+ ttps://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked: 2
+ 026-10-08
+URL:https://dde-2026.sci-meet.net/
+LOCATION:Lisbon\, Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:log-2026-deadline-abstract@scientific-conference-calendar
@@ -246,6 +337,154 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
 URL:https://www.wsdm-conference.org/2027/cffp.html
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2026-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Extended abstract submission deadline (independent rout
+ e)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Extended full-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-camera-ready@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2026 - Extended contributed abstract submission deadline (
+ cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://fisica.ufpr.br/DDaysLAC2026/index.html\nSource URL: ht
+ tps://fisica.ufpr.br/DDaysLAC2026/index.html\nLocation: Curitiba\, Brazil
+ \nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\
+ , Time Series & Sequential Data\, Computational Neuroscience\nSize: M\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Latest organizer cutoff is October 10. Biennial meetin
+ g resumed in 2024 after the pandemic gap. Contributions are talk/poster a
+ bstracts\; no current full-paper proceedings commitment verified. Exact c
+ utoff hour is unannounced. Size is an editorial estimate.\nScope: Nonline
+ ar and complex systems across disciplines\, including chaos\, synchroniza
+ tion\, networks\, time series\, neurodynamics and learning-based modeling
+ . The Latin American and Caribbean meeting supports contributed scientifi
+ c talks and posters through abstracts\, with an explicit interest in cros
+ s-disciplinary nonlinear science.\nAdditional topics: Machine Learning\, 
+ Graphs & Graph Learning\, Control & Robotics\nScope sources (2026): https
+ ://fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-registration@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Author registration deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261016T115900Z
@@ -275,6 +514,88 @@ DESCRIPTION:Conference title: Learning on Graphs Conference\nWebsite: https
  Systems & Infrastructure\nScope sources (2026): https://logconference.org
  /cfp/\nScope last checked: 2026-10-07
 URL:https://logconference.org/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Extended abstract submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Long-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Short-paper submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:www-2027-deadline-abstract@scientific-conference-calendar
@@ -474,6 +795,90 @@ URL:https://logconference.org/
 LOCATION:Boston\, Massachusetts\, USA
 END:VEVENT
 BEGIN:VEVENT
+UID:complenet-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08\nOfficial deadline day\; exact cutoff hour/timezone is unannounced.
+  Verify the organizer's submission portal.
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261202
+DTEND;VALUE=DATE:20261205
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/\nLocation: Granada\, Spain\nTopics: Comple
+ x Systems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamic
+ s & Chaos\, Data Mining & Data Science\nSize: L\nSubmission type: Paper-b
+ ased + extended abstracts\nConfidence: confirmed\nLast checked date: 2026
+ -10-08\nNotes: Main conference December 2-4\; tutorials December 1. Full 
+ papers appear in Springer Studies in Computational Intelligence\; extende
+ d abstracts in a separate abstract book. Abstracts are an independent con
+ tribution\, not a prerequisite for full papers. Production cutoff hours a
+ re unannounced. Size is an editorial estimate.\nScope: Structure\, infere
+ nce and dynamics of complex networks\, including community structure\, mu
+ ltilayer and temporal networks\, spreading processes\, graph learning and
+  network neuroscience. Network methods\, rather than a broad inventory of
+  every application\, characterize the meeting. Full papers and extended a
+ bstracts have separate publication outcomes.\nAdditional topics: Time Ser
+ ies & Sequential Data\, Machine Learning\, Computational Neuroscience\nSc
+ ope sources (2026): https://complexnetworks.org/submission/\nScope last c
+ hecked: 2026-10-08
+URL:https://complexnetworks.org/
+LOCATION:Granada\, Spain
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://fisica.ufpr.br/DDaysLAC2026/index.html\nSource URL: ht
+ tps://fisica.ufpr.br/DDaysLAC2026/index.html\nLocation: Curitiba\, Brazil
+ \nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\
+ , Time Series & Sequential Data\, Computational Neuroscience\nSize: M\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Latest organizer cutoff is October 10. Biennial meetin
+ g resumed in 2024 after the pandemic gap. Contributions are talk/poster a
+ bstracts\; no current full-paper proceedings commitment verified. Exact c
+ utoff hour is unannounced. Size is an editorial estimate.\nScope: Nonline
+ ar and complex systems across disciplines\, including chaos\, synchroniza
+ tion\, networks\, time series\, neurodynamics and learning-based modeling
+ . The Latin American and Caribbean meeting supports contributed scientifi
+ c talks and posters through abstracts\, with an explicit interest in cros
+ s-disciplinary nonlinear science.\nAdditional topics: Machine Learning\, 
+ Graphs & Graph Learning\, Control & Robotics\nScope sources (2026): https
+ ://fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+LOCATION:Curitiba\, Brazil
+END:VEVENT
+BEGIN:VEVENT
 UID:www-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270201T115900Z
@@ -527,6 +932,62 @@ DESCRIPTION:Conference title: ACM International Conference on Web Search an
  07
 URL:https://www.wsdm-conference.org/2027/
 LOCATION:Hong Kong\, China
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270309
+DTEND;VALUE=DATE:20270313
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/\nLocation: Rochester\, New York\, USA\nTopics: Complex Systems & 
+ Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & Chaos\, 
+ Computational Neuroscience\nSize: M\nSubmission type: Full/short papers +
+  extended abstracts\nConfidence: confirmed\nLast checked date: 2026-10-08
+ \nNotes: University of Rochester host. Reviewed long and short papers app
+ ear in Springer Complexity\; the abstract-only route does not produce a p
+ roceedings paper. All three routes share the AoE deadline\, with no manda
+ tory abstract-registration gate. Size is an editorial estimate.\nScope: N
+ etwork science across mathematical\, biological\, technological and socia
+ l systems\, with characteristic interests in network dynamics\, community
+  structure\, temporal and multilayer networks\, network neuroscience and 
+ learning on networks. Long and short reviewed papers are distinct from ab
+ stract-only presentations.\nAdditional topics: Time Series & Sequential D
+ ata\, Data Mining & Data Science\, Machine Learning\nScope sources (2027)
+ : https://complenet.github.io/cfp.html\nScope last checked: 2026-10-08
+URL:https://complenet.github.io/
+LOCATION:Rochester\, New York\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Estimated contributed talk/poster abstract submi
+ ssion deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://dde-2026.sci-meet.net/important-date
+ s\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Comple
+ x Systems & Network Science\, Time Series & Sequential Data\, System Iden
+ tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
+ ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
+ ced next annual edition. Meeting dates and the contributed abstract deadl
+ ine are one-year proxies from 2026\, with no assumed host location. Size 
+ is an editorial estimate.\nScope: Theory and applications of nonlinear dy
+ namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
+ lex networks\, stochastic dynamics and time-series analysis. ML and neuro
+ dynamics are characteristic interdisciplinary extensions. Contributed tal
+ ks and posters use abstracts\, while minisymposium proposals are organize
+ r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
+ ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
+ : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
+ : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:iswc-2027-deadline-abstract@scientific-conference-calendar
@@ -606,6 +1067,32 @@ DESCRIPTION:Conference title: ACM Web Conference (formerly International Wo
  : 2026-10-07
 URL:https://www2027.thewebconf.org/
 LOCATION:Dublin\, Ireland
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://www.dynamicsdays.org/\nLocation: To 
+ be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\, Time Series & Sequential Data\, System Identification & Dat
+ a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
+ estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
+ edition. Meeting dates and the contributed abstract deadline are one-year
+  proxies from 2026\, with no assumed host location. Size is an editorial 
+ estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
+ bifurcations\, synchronization\, pattern formation\, complex networks\, s
+ tochastic dynamics and time-series analysis. ML and neurodynamics are cha
+ racteristic interdisciplinary extensions. Contributed talks and posters u
+ se abstracts\, while minisymposium proposals are organizer activity.\nAdd
+ itional topics: Machine Learning\, Computational Neuroscience\, Control &
+  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
+ 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+URL:https://www.dynamicsdays.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:iswc-2027-conference@scientific-conference-calendar

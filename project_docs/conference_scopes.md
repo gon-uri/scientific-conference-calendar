@@ -1,12 +1,15 @@
 # Curated Conference Scopes
 
-Reviewed: 2026-10-07
+Reviewed: 2026-10-08
 
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
-by exact conference series. Current coverage is 63 of 113 series, including all
-42 AI Deadlines additions plus CIKM/WSDM. The other 50 are explicitly queued for review;
+by exact conference series. Current coverage is 79 of 129 series, including all
+42 AI Deadlines additions, CIKM/WSDM and the 16 complex-systems/neuroscience additions. The other 50 are explicitly queued for review;
 an absent profile is not replaced by guessed information.
+
+The new batch's publication formats and abstract-only caveats are documented in
+`dynamics_neuroscience_expansion.md`; no new public column or behavior is added.
 
 ## Data Ownership
 

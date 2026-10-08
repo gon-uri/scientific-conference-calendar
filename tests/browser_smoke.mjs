@@ -5,6 +5,7 @@ import {pathToFileURL} from 'node:url';
 import {chromium} from 'playwright';
 import {checkSubmissionBehavior} from './submission_behavior.mjs';
 import {checkMobileCards} from './mobile_cards.mjs';
+import {checkDynamicsNeuroscience} from './dynamics_neuroscience.mjs';
 
 // Painted bounds avoid mistaking font line-box centering for optical alignment.
 async function visibleCenter(locator) {
@@ -84,7 +85,7 @@ try {
   await checkMobileCards(page, url, output);
   await page.locator('#filter-details > summary').click();
   assert(await page.locator('#open-only').isChecked(), 'Submission options must be selected on first load');
-  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 76);
+  assert.equal(await page.locator('[data-deadline-group]:visible').count(), 87);
   assert(await page.locator('[data-deadline-group]:visible').evaluateAll(rows =>
     rows.every(row => ['open', 'scheduled', 'opportunity', 'estimated'].includes(stateByRow.get(row).kind))));
   const repository = 'https://github.com/gon-uri/venue-radar';
@@ -306,8 +307,8 @@ try {
 
   await page.locator('#tab-conferences').click();
   assert(!(await page.locator('#open-only').isVisible()));
-  assert.equal(await page.locator('#map-count').innerText(), '84 confirmed editions in 68 cities');
-  assert.equal(await page.locator('.city-marker').count(), 68);
+  assert.equal(await page.locator('#map-count').innerText(), '96 confirmed editions in 80 cities');
+  assert.equal(await page.locator('.city-marker').count(), 80);
   assert.equal(await page.locator('#panel-conferences [data-submission-status]').count(), 0);
   await page.locator('#conference-map').scrollIntoViewIfNeeded();
   const montreal = page.locator('.city-marker[title^="Montreal"]');
@@ -348,7 +349,7 @@ try {
   await page.locator('[data-filter-group="ccf"][value="B"]').check();
   const ccfMatches = page.locator('#upcoming-conferences-body [data-conference-row]:visible');
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B')));
-  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 68);
+  assert((await page.locator('.city-marker').count()) > 0 && (await page.locator('.city-marker').count()) < 80);
   await page.locator('[data-filter-group="icore"][value="Unranked"]').check();
   assert(await ccfMatches.evaluateAll(rows => rows.length > 0 && rows.every(row => row.dataset.ccf === 'B' && row.dataset.icore === 'Unranked')));
   assert(await ccfMatches.evaluateAll(rows => rows.some(row => row.dataset.edition === 'icassp-2027')));
@@ -575,6 +576,7 @@ try {
     await filterSummary.click();
     await page.locator('#tab-conferences').click();
   }
+  await checkDynamicsNeuroscience(page);
   assert.deepEqual(fontRequests, [], 'The title font must not require a network request');
   assert.deepEqual(errors, []);
   console.log(`Browser smoke passed: ${opportunities.length} opportunities, ${intersection.length} cross-family matches; ${widths.join('/')}px.`);

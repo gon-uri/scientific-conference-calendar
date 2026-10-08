@@ -1,0 +1,62 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Dynamics Days Europe 2027 Calendar
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Estimated contributed talk/poster abstract submi
+ ssion deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://dde-2026.sci-meet.net/important-date
+ s\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Comple
+ x Systems & Network Science\, Time Series & Sequential Data\, System Iden
+ tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
+ ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
+ ced next annual edition. Meeting dates and the contributed abstract deadl
+ ine are one-year proxies from 2026\, with no assumed host location. Size 
+ is an editorial estimate.\nScope: Theory and applications of nonlinear dy
+ namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
+ lex networks\, stochastic dynamics and time-series analysis. ML and neuro
+ dynamics are characteristic interdisciplinary extensions. Contributed tal
+ ks and posters use abstracts\, while minisymposium proposals are organize
+ r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
+ ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
+ : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
+ : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://www.dynamicsdays.org/\nLocation: To 
+ be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\, Time Series & Sequential Data\, System Identification & Dat
+ a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
+ estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
+ edition. Meeting dates and the contributed abstract deadline are one-year
+  proxies from 2026\, with no assumed host location. Size is an editorial 
+ estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
+ bifurcations\, synchronization\, pattern formation\, complex networks\, s
+ tochastic dynamics and time-series analysis. ML and neurodynamics are cha
+ racteristic interdisciplinary extensions. Contributed talks and posters u
+ se abstracts\, while minisymposium proposals are organizer activity.\nAdd
+ itional topics: Machine Learning\, Computational Neuroscience\, Control &
+  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
+ 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+URL:https://www.dynamicsdays.org/
+LOCATION:To be announced
+END:VEVENT
+END:VCALENDAR

@@ -124,7 +124,7 @@ official URLs, evidence year, and a scope review date. A huge CFP list should
 be reduced to defining areas, not copied wholesale. Tables keep four main tags;
 search, individual subtopic filters, map matching, and topic feeds use the curated union. Missing
 profiles fall back to main topics and enter the review queue. Current coverage
-is 63 of 113 series; 50 remain to review. See `conference_scopes.md` for the
+is 79 of 129 series; 50 remain to review. See `conference_scopes.md` for the
 schema, editorial examples, evidence limitations, and monthly procedure.
 
 The AI/vision/multimedia expansion has a focused evidence and follow-up list in
@@ -132,6 +132,15 @@ The AI/vision/multimedia expansion has a focused evidence and follow-up list in
 ICCV's conflicting meeting pages, and unpublished KR/SIGGRAPH/ACM MM dates.
 ECCV/ICCV project by two years; recent EUVIP/FG/IJCB editions use annual cadence.
 Do not add separate BTAS/ICB rows while they are incorporated into IJCB.
+
+The complex-systems/neuroscience batch is audited in
+`dynamics_neuroscience_expansion.md`. Keep abstract-only and archival-paper
+formats distinct in notes/docs, using the existing abstract milestone types
+without adding public UI. Prioritize ICCN's conflicting dates, unannounced
+ALIFE/BCI/SfN 2027 calls and BioCAS's full-paper route. NODYCON, Dynamics Days
+Asia-Pacific and Dynamics Days CAC stay in the next-edition review queue;
+their uncertain recurrence is not an annual auto-projection. AREADNE/SAB/LAC
+are biennial, while Europe/US retain their independent annual cycles.
 
 Only S, M, L, XL, XXL are allowed, displayed in that order. Prior mixed labels
 were mapped S/M to M, M/L to L, and L/XL to XL. Size remains a qualitative

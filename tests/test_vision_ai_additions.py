@@ -121,9 +121,9 @@ class VisionAIAdditionTests(unittest.TestCase):
         payload = catalog_payload()
         self.assertTrue(ADDED <= {row[0] for row in payload['rows']})
         self.assertTrue(ADDED <= {row[0] for row in payload['scopes']})
-        self.assertEqual(len(payload['rows']), 113)
-        self.assertEqual(len(payload['topics']), 40)
-        self.assertEqual(len(payload['scopes']), 63)
+        self.assertEqual(len(payload['rows']), 129)
+        self.assertEqual(len(payload['topics']), 43)
+        self.assertEqual(len(payload['scopes']), 79)
 
 
 if __name__ == '__main__':

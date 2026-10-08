@@ -1,6 +1,6 @@
 # Roadmap
 
-Last synchronized: 2026-10-07
+Last synchronized: 2026-10-08
 
 ## Venue Radar Redesign
 
@@ -92,10 +92,22 @@ Last synchronized: 2026-10-07
 - Completed: sourced profile schema, primary/additional matching in search,
   filters and topic feeds, scope evidence in calendar descriptions, a separate
   workbook sheet, and a missing/stale/prior-edition review queue.
-- Current coverage: 63 of 113 series, including all 42 AI Deadlines additions.
+- Current coverage: 79 of 129 series, including all 42 AI Deadlines additions
+  and all 16 complex-systems/neuroscience additions.
 - Remaining work: curate the 50 missing profiles from official sources and
   review existing profiles about monthly. Prior-edition evidence stays dated.
 - Guidance: [conference_scopes.md](conference_scopes.md).
+
+### Complex Systems And Neuroscience Expansion
+
+- Completed: 16 approved series, 22 sourced edition records, scope profiles,
+  central identities, three focused leaves and confirmed-city aliases.
+- Preserve: all eight family names/order and the existing website's layout,
+  status behavior and abstract submission indications.
+- Ongoing: compare estimated calls with official CFPs monthly; resolve ICCN's
+  date conflict and the unannounced NODYCON/DDAP/DDCAC next editions. Preserve
+  publication/abstract-only distinctions without adding a public UI feature.
+- Guidance: [dynamics_neuroscience_expansion.md](dynamics_neuroscience_expansion.md).
 
 ### Website Usability
 

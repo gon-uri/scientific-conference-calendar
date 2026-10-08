@@ -13,7 +13,7 @@ salt-lake-city: {label: 'Salt Lake City, USA', lat: 40.761, lon: -111.891, locat
 new-delhi: {label: 'New Delhi, India', lat: 28.614, lon: 77.209, locations: ['New Delhi, India']}
 baltimore: {label: 'Baltimore, USA', lat: 39.290, lon: -76.612, locations: ['Baltimore, Maryland, USA']}
 seattle: {label: 'Seattle, USA', lat: 47.606, lon: -122.332, locations: ['Seattle, Washington, USA']}
-san-diego: {label: 'San Diego, USA', lat: 32.716, lon: -117.161, locations: ['San Diego, California, USA']}
+san-diego: {label: 'San Diego, USA', lat: 32.716, lon: -117.161, locations: ['San Diego, California, USA', 'La Jolla, California, USA']}
 strasbourg: {label: 'Strasbourg, France', lat: 48.573, lon: 7.752, locations: ['Strasbourg, France']}
 taipei: {label: 'Taipei, Taiwan', lat: 25.033, lon: 121.565, locations: ['Taipei, Taiwan']}
 lausanne: {label: 'Lausanne, Switzerland', lat: 46.519, lon: 6.633, locations: ['Lausanne, Switzerland']}
@@ -68,6 +68,21 @@ lisbon: {label: 'Lisbon, Portugal', lat: 38.722, lon: -9.139, locations: ['Lisbo
 boston: {label: 'Boston, USA', lat: 42.360, lon: -71.059, locations: ['Boston, Massachusetts, USA']}
 austin: {label: 'Austin, USA', lat: 30.267, lon: -97.743, locations: ['Austin, Texas, USA']}
 krakow: {label: 'Krakow, Poland', lat: 50.064, lon: 19.945, locations: ['Krakow, Poland']}
+granada: {label: 'Granada, Spain', lat: 37.177, lon: -3.599, locations: ['Granada, Spain']}
+rochester-new-york: {label: 'Rochester, New York, USA', lat: 43.157, lon: -77.609, locations: ['Rochester, New York, USA']}
+prague: {label: 'Prague, Czech Republic', lat: 50.075, lon: 14.438, locations: ['Prague, Czech Republic']}
+waterloo: {label: 'Waterloo, Canada', lat: 43.464, lon: -80.520, locations: ['Waterloo, Ontario, Canada']}
+brighton: {label: 'Brighton, UK', lat: 50.823, lon: -0.137, locations: ['Brighton, United Kingdom']}
+berlin: {label: 'Berlin, Germany', lat: 52.520, lon: 13.405, locations: ['Berlin, Germany']}
+jeongseon: {label: 'Jeongseon, South Korea', lat: 37.380, lon: 128.660, locations: ['Jeongseon, South Korea']}
+incheon: {label: 'Incheon, South Korea', lat: 37.456, lon: 126.705, locations: ['Incheon, South Korea']}
+oslo: {label: 'Oslo, Norway', lat: 59.914, lon: 10.752, locations: ['Oslo, Norway']}
+osaka: {label: 'Osaka, Japan', lat: 34.694, lon: 135.502, locations: ['Osaka, Japan']}
+milos: {label: 'Milos, Greece', lat: 36.727, lon: 24.431, locations: ['Milos, Greece']}
+washington-dc: {label: 'Washington, DC, USA', lat: 38.907, lon: -77.037, locations: ['Washington, DC, USA']}
+chicago: {label: 'Chicago, USA', lat: 41.878, lon: -87.630, locations: ['Chicago, Illinois, USA']}
+curitiba: {label: 'Curitiba, Brazil', lat: -25.429, lon: -49.273, locations: ['Curitiba, Brazil']}
+astana: {label: 'Astana, Kazakhstan', lat: 51.169, lon: 71.449, locations: ['Astana, Kazakhstan']}
 reykjavik: {label: 'Reykjavik, Iceland', lat: 64.147, lon: -21.943, locations: ['Reykjavik, Iceland']}
 bellevue: {label: 'Bellevue, USA', lat: 47.610, lon: -122.201, locations: ['Bellevue, Washington, USA']}
 hanoi: {label: 'Hanoi, Vietnam', lat: 21.028, lon: 105.834, locations: ['Hanoi, Vietnam']}

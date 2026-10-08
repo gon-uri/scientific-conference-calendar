@@ -59,6 +59,62 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
 URL:https://mm.scimeeting.cn/en/web/index/31426
 END:VEVENT
 BEGIN:VEVENT
+UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260610T210000Z
+DTEND:20260610T220000Z
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2026 - Regular research abstract submission deadline
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings/neuroscience-2026\nSource URL: https://
+ www.sfn.org/cfa\nLocation: Washington\, DC\, USA\nTopics: Systems & Exper
+ imental Neuroscience\, Computational Neuroscience\, Cognitive Science & C
+ omputational Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmiss
+ ion type: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-08\nNotes: Annual broad neuroscience meeting. Research abstracts are a
+ rchived\, not peer-reviewed full-paper proceedings. Late-breaking submiss
+ ions opened September 8 and were capped at 2\,500\, so could close early.
+  Membership and presenter requirements apply. The late-breaking cutoff ho
+ ur was not verified. Size is an editorial estimate.\nScope: Broad neurosc
+ ience annual meeting spanning molecular and cellular neuroscience\, neura
+ l circuits\, systems and behavioral neuroscience\, cognition\, developmen
+ t and disease. Computational neuroscience\, neuroimaging and neurotechnol
+ ogy are relevant parts of this broad remit\, not its exclusive identity. 
+ Research abstracts are presented and archived\; they are not standard ful
+ l-paper conference proceedings.\nAdditional topics: EEG/MEG & Neural Sign
+ als\, BCI & Neurotechnology\nScope sources (2026): https://www.sfn.org/cf
+ a\, https://www.sfn.org/meetings\nScope last checked: 2026-10-08
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2026 
+ - Research paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2026.ieee-biocas.org/2026/\nSource URL: https://2026
+ .ieee-biocas.org/2026/pages_submission/call_for_papers.vm\nLocation: Inch
+ eon\, South Korea\nTopics: Healthcare & Clinical AI\, BCI & Neurotechnolo
+ gy\, Signal Processing\, Neuromorphic & Brain-inspired Computing\nSize: M
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-10-08\nNotes: Main conference October 8-10\; adjacent workshops are
+  October 7 and 11. Reviewed accepted papers appear in IEEE proceedings. E
+ xact submission cutoff hour is unannounced. Size is an editorial estimate
+ .\nScope: Biomedical circuits\, integrated systems and medical devices sp
+ anning biosignal acquisition and processing\, neural interfaces\, implant
+ s\, bioelectronics and low-power or on-device biomedical computation. Bra
+ in-inspired hardware and machine learning are relevant when tied to biome
+ dical engineering\, rather than as generic algorithms.\nAdditional topics
+ : EEG/MEG & Neural Signals\, Machine Learning\, ML Systems & Infrastructu
+ re\nScope sources (2026): https://2026.ieee-biocas.org/2026/pages_submiss
+ ion/call_for_papers.vm\, https://2027.ieee-biocas.org/\nScope last checke
+ d: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unan
+ nounced. Verify the organizer's submission portal.
+URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+END:VEVENT
+BEGIN:VEVENT
 UID:bernstein-conference-2026-deadline-abstract@scientific-conference-calen
  dar
 DTSTAMP:19700101T000000Z
@@ -117,6 +173,38 @@ URL:https://mm.scimeeting.cn/en/web/index/31426
 LOCATION:Beijing\, China
 END:VEVENT
 BEGIN:VEVENT
+UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2026 - Late-breaking research abstract submission deadlin
+ e (cutoff time unannounced)
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings/neuroscience-2026\nSource URL: https://
+ www.sfn.org/cfa\nLocation: Washington\, DC\, USA\nTopics: Systems & Exper
+ imental Neuroscience\, Computational Neuroscience\, Cognitive Science & C
+ omputational Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmiss
+ ion type: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-08\nNotes: Annual broad neuroscience meeting. Research abstracts are a
+ rchived\, not peer-reviewed full-paper proceedings. Late-breaking submiss
+ ions opened September 8 and were capped at 2\,500\, so could close early.
+  Membership and presenter requirements apply. The late-breaking cutoff ho
+ ur was not verified. Size is an editorial estimate.\nScope: Broad neurosc
+ ience annual meeting spanning molecular and cellular neuroscience\, neura
+ l circuits\, systems and behavioral neuroscience\, cognition\, developmen
+ t and disease. Computational neuroscience\, neuroimaging and neurotechnol
+ ogy are relevant parts of this broad remit\, not its exclusive identity. 
+ Research abstracts are presented and archived\; they are not standard ful
+ l-paper conference proceedings.\nAdditional topics: EEG/MEG & Neural Sign
+ als\, BCI & Neurotechnology\nScope sources (2026): https://www.sfn.org/cf
+ a\, https://www.sfn.org/meetings\nScope last checked: 2026-10-08\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
 UID:bernstein-conference-2026-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260928
@@ -136,6 +224,33 @@ URL:https://bernstein-network.de/en/bernstein-conference/
 LOCATION:Frankfurt am Main\, Germany
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-biocas-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261011
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2026 
+ - Conference
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2026.ieee-biocas.org/2026/\nSource URL: https://2026
+ .ieee-biocas.org/2026/\nLocation: Incheon\, South Korea\nTopics: Healthca
+ re & Clinical AI\, BCI & Neurotechnology\, Signal Processing\, Neuromorph
+ ic & Brain-inspired Computing\nSize: M\nSubmission type: Paper-based\nCon
+ fidence: confirmed\nLast checked date: 2026-10-08\nNotes: Main conference
+  October 8-10\; adjacent workshops are October 7 and 11. Reviewed accepte
+ d papers appear in IEEE proceedings. Exact submission cutoff hour is unan
+ nounced. Size is an editorial estimate.\nScope: Biomedical circuits\, int
+ egrated systems and medical devices spanning biosignal acquisition and pr
+ ocessing\, neural interfaces\, implants\, bioelectronics and low-power or
+  on-device biomedical computation. Brain-inspired hardware and machine le
+ arning are relevant when tied to biomedical engineering\, rather than as 
+ generic algorithms.\nAdditional topics: EEG/MEG & Neural Signals\, Machin
+ e Learning\, ML Systems & Infrastructure\nScope sources (2026): https://2
+ 026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm\, https://20
+ 27.ieee-biocas.org/\nScope last checked: 2026-10-08
+URL:https://2026.ieee-biocas.org/2026/
+LOCATION:Incheon\, South Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261019T115900Z
@@ -151,6 +266,68 @@ DESCRIPTION:Conference title: Computational and Systems Neuroscience\nWebsi
  COSYNE 2027 pages confirm Montreal\, Mar 11-16\, and the Oct 18 abstract 
  submission deadline. The abstract submission link was live on Oct 6.
 URL:https://www.cosyne.org/abstracts-submission
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261119
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2026 - Conference
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings/neuroscience-2026\nSource URL: https://
+ www.sfn.org/meetings/neuroscience-2026\nLocation: Washington\, DC\, USA\n
+ Topics: Systems & Experimental Neuroscience\, Computational Neuroscience\
+ , Cognitive Science & Computational Cognition\, Neuroimaging & Brain Mapp
+ ing\nSize: XXL\nSubmission type: Abstract-based\nConfidence: confirmed\nL
+ ast checked date: 2026-10-08\nNotes: Annual broad neuroscience meeting. R
+ esearch abstracts are archived\, not peer-reviewed full-paper proceedings
+ . Late-breaking submissions opened September 8 and were capped at 2\,500\
+ , so could close early. Membership and presenter requirements apply. The 
+ late-breaking cutoff hour was not verified. Size is an editorial estimate
+ .\nScope: Broad neuroscience annual meeting spanning molecular and cellul
+ ar neuroscience\, neural circuits\, systems and behavioral neuroscience\,
+  cognition\, development and disease. Computational neuroscience\, neuroi
+ maging and neurotechnology are relevant parts of this broad remit\, not i
+ ts exclusive identity. Research abstracts are presented and archived\; th
+ ey are not standard full-paper conference proceedings.\nAdditional topics
+ : EEG/MEG & Neural Signals\, BCI & Neurotechnology\nScope sources (2026):
+  https://www.sfn.org/cfa\, https://www.sfn.org/meetings\nScope last check
+ ed: 2026-10-08
+URL:https://www.sfn.org/meetings/neuroscience-2026
+LOCATION:Washington\, DC\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Estimated paper submission deadline (estimated) (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2026/authorinstructions.php\nLocation: Jeong
+ seon\, South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Machine Learning\nSize: M\nSubmission type: Pap
+ er-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Co
+ -organizer confirms February 22-24\, 2027 at High1 Resort\, Jeongseon. Th
+ e 2027 deadline is unannounced\; December 15 is a one-year proxy from the
+  final 2026 author instructions and CFP\, which supersede an older Octobe
+ r date. Prior six-page papers use IEEE proceedings subject to IEEE qualit
+ y review\; the 2027 publication details await the final CFP. The exact cu
+ toff hour is unknown. Size is an editorial estimate.\nScope: Brain-comput
+ er interfaces\, neural signal decoding\, multimodal brain measurements\, 
+ neurofeedback and adaptive interfaces. Machine learning is central to bio
+ signal classification and decoding\; neurorehabilitation and interaction 
+ with real or virtual environments are characteristic applications. IEEE-s
+ tyle reviewed research papers are the established publication route.\nAdd
+ itional topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\n
+ Scope sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\
+ , https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last ch
+ ecked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is 
+ unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2026/authorinstructions.php
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
@@ -210,6 +387,36 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
 URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:bci-winter-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270222
+DTEND;VALUE=DATE:20270225
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Conference
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2027/\nLocation: Jeongseon\, South Korea\nTo
+ pics: BCI & Neurotechnology\, EEG/MEG & Neural Signals\, Signal Processin
+ g\, Machine Learning\nSize: M\nSubmission type: Paper-based\nConfidence: 
+ confirmed\nLast checked date: 2026-10-08\nNotes: Co-organizer confirms Fe
+ bruary 22-24\, 2027 at High1 Resort\, Jeongseon. The 2027 deadline is una
+ nnounced\; December 15 is a one-year proxy from the final 2026 author ins
+ tructions and CFP\, which supersede an older October date. Prior six-page
+  papers use IEEE proceedings subject to IEEE quality review\; the 2027 pu
+ blication details await the final CFP. The exact cutoff hour is unknown. 
+ Size is an editorial estimate.\nScope: Brain-computer interfaces\, neural
+  signal decoding\, multimodal brain measurements\, neurofeedback and adap
+ tive interfaces. Machine learning is central to biosignal classification 
+ and decoding\; neurorehabilitation and interaction with real or virtual e
+ nvironments are characteristic applications. IEEE-style reviewed research
+  papers are the established publication route.\nAdditional topics: Health
+ care & Clinical AI\, Neuroimaging & Brain Mapping\nScope sources (2027): 
+ https://brain.korea.ac.kr/bci2027/callforpaper.php\, https://brain.korea.
+ ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last checked: 2026-10-08
+URL:https://brain.korea.ac.kr/bci2027/
+LOCATION:Jeongseon\, South Korea
+END:VEVENT
+BEGIN:VEVENT
 UID:cosyne-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270311
@@ -267,6 +474,36 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
 URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2027 
+ - Abstract submission deadline (IEEE society calendar) (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2027.ieee-biocas.org/\nSource URL: https://sscs.ieee
+ .org/conferences/upcoming-conferences/\nLocation: Oslo\, Norway\nTopics: 
+ Healthcare & Clinical AI\, BCI & Neurotechnology\, Signal Processing\, Ne
+ uromorphic & Brain-inspired Computing\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Officia
+ l 2027 host confirms Oslo and October 14-16. IEEE SSCS lists May 7 as Abs
+ tract Submission Date\; it is retained with that exact action\, not relab
+ eled as a paper deadline or made a mandatory paper gate. The final 2027 C
+ FP\, full-paper deadline and cutoff hour still require review. Size is an
+  editorial estimate.\nScope: Biomedical circuits\, integrated systems and
+  medical devices spanning biosignal acquisition and processing\, neural i
+ nterfaces\, implants\, bioelectronics and low-power or on-device biomedic
+ al computation. Brain-inspired hardware and machine learning are relevant
+  when tied to biomedical engineering\, rather than as generic algorithms.
+ \nAdditional topics: EEG/MEG & Neural Signals\, Machine Learning\, ML Sys
+ tems & Infrastructure\nScope sources (2026): https://2026.ieee-biocas.org
+ /2026/pages_submission/call_for_papers.vm\, https://2027.ieee-biocas.org/
+ \nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff ho
+ ur/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://sscs.ieee.org/conferences/upcoming-conferences/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-ner-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270525T065900Z
@@ -304,6 +541,34 @@ DESCRIPTION:Conference title: International Brain-Computer Interface Meetin
  e Jan 15\, 2027.
 URL:https://bcisociety.org/bci-meeting/
 LOCATION:Sibenik\, Croatia
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270610T210000Z
+DTEND:20270610T220000Z
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2027 - Estimated regular research abstract submission dea
+ dline (estimated)
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings\nSource URL: https://www.sfn.org/cfa\nL
+ ocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Neurosc
+ ience\, Computational Neuroscience\, Cognitive Science & Computational Co
+ gnition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: Abstr
+ act-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: S
+ fN confirms the Chicago meeting dates. The regular abstract deadline is a
+  one-year proxy from 2026\, not a published 2027 call. No opening date\, 
+ late-breaking capacity or proceedings-paper route is assumed. Size is an 
+ editorial estimate.\nScope: Broad neuroscience annual meeting spanning mo
+ lecular and cellular neuroscience\, neural circuits\, systems and behavio
+ ral neuroscience\, cognition\, development and disease. Computational neu
+ roscience\, neuroimaging and neurotechnology are relevant parts of this b
+ road remit\, not its exclusive identity. Research abstracts are presented
+  and archived\; they are not standard full-paper conference proceedings.\
+ nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotechnology\nSco
+ pe sources (2026): https://www.sfn.org/cfa\, https://www.sfn.org/meetings
+ \nScope last checked: 2026-10-08
+URL:https://www.sfn.org/cfa
 END:VEVENT
 BEGIN:VEVENT
 UID:ohbm-2027-conference@scientific-conference-calendar
@@ -401,6 +666,63 @@ DESCRIPTION:Conference title: Bernstein Conference\nWebsite: https://bernst
 URL:https://bernstein-network.de/bernstein-conference/bernstein-conference-
  2027/
 LOCATION:Lausanne\, Switzerland
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271014
+DTEND;VALUE=DATE:20271017
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2027 
+ - Conference
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2027.ieee-biocas.org/\nSource URL: https://2027.ieee
+ -biocas.org/\nLocation: Oslo\, Norway\nTopics: Healthcare & Clinical AI\,
+  BCI & Neurotechnology\, Signal Processing\, Neuromorphic & Brain-inspire
+ d Computing\nSize: M\nSubmission type: Paper-based\nConfidence: confirmed
+ \nLast checked date: 2026-10-08\nNotes: Official 2027 host confirms Oslo 
+ and October 14-16. IEEE SSCS lists May 7 as Abstract Submission Date\; it
+  is retained with that exact action\, not relabeled as a paper deadline o
+ r made a mandatory paper gate. The final 2027 CFP\, full-paper deadline a
+ nd cutoff hour still require review. Size is an editorial estimate.\nScop
+ e: Biomedical circuits\, integrated systems and medical devices spanning 
+ biosignal acquisition and processing\, neural interfaces\, implants\, bio
+ electronics and low-power or on-device biomedical computation. Brain-insp
+ ired hardware and machine learning are relevant when tied to biomedical e
+ ngineering\, rather than as generic algorithms.\nAdditional topics: EEG/M
+ EG & Neural Signals\, Machine Learning\, ML Systems & Infrastructure\nSco
+ pe sources (2026): https://2026.ieee-biocas.org/2026/pages_submission/cal
+ l_for_papers.vm\, https://2027.ieee-biocas.org/\nScope last checked: 2026
+ -10-08
+URL:https://2027.ieee-biocas.org/
+LOCATION:Oslo\, Norway
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20271023
+DTEND;VALUE=DATE:20271028
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2027 - Conference
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings\nSource URL: https://www.sfn.org/meetin
+ gs\nLocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Ne
+ uroscience\, Computational Neuroscience\, Cognitive Science & Computation
+ al Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: 
+ Abstract-based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNot
+ es: SfN confirms the Chicago meeting dates. The regular abstract deadline
+  is a one-year proxy from 2026\, not a published 2027 call. No opening da
+ te\, late-breaking capacity or proceedings-paper route is assumed. Size i
+ s an editorial estimate.\nScope: Broad neuroscience annual meeting spanni
+ ng molecular and cellular neuroscience\, neural circuits\, systems and be
+ havioral neuroscience\, cognition\, development and disease. Computationa
+ l neuroscience\, neuroimaging and neurotechnology are relevant parts of t
+ his broad remit\, not its exclusive identity. Research abstracts are pres
+ ented and archived\; they are not standard full-paper conference proceedi
+ ngs.\nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotechnology
+ \nScope sources (2026): https://www.sfn.org/cfa\, https://www.sfn.org/mee
+ tings\nScope last checked: 2026-10-08
+URL:https://www.sfn.org/meetings
+LOCATION:Chicago\, Illinois\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:biomag-2028-deadline-abstract@scientific-conference-calendar

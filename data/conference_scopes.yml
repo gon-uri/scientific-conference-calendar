@@ -1032,3 +1032,207 @@ WSDM:
   scope_source_urls: [https://www.wsdm-conference.org/2027/cffp.html]
   scope_last_checked: '2026-10-07'
   source_year: 2027
+
+COMPLEX NETWORKS:
+  additional_topics:
+  - Time Series & Sequential Data
+  - Machine Learning
+  - Computational Neuroscience
+  scope_summary: Structure, inference and dynamics of complex networks, including community structure,
+    multilayer and temporal networks, spreading processes, graph learning and network neuroscience. Network
+    methods, rather than a broad inventory of every application, characterize the meeting. Full papers
+    and extended abstracts have separate publication outcomes.
+  scope_source_urls:
+  - https://complexnetworks.org/submission/
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+CompleNet:
+  additional_topics:
+  - Time Series & Sequential Data
+  - Data Mining & Data Science
+  - Machine Learning
+  scope_summary: Network science across mathematical, biological, technological and social systems, with
+    characteristic interests in network dynamics, community structure, temporal and multilayer networks,
+    network neuroscience and learning on networks. Long and short reviewed papers are distinct from abstract-only
+    presentations.
+  scope_source_urls:
+  - https://complenet.github.io/cfp.html
+  scope_last_checked: '2026-10-08'
+  source_year: 2027
+ALIFE:
+  additional_topics:
+  - Autonomous Agents & Multiagent Systems
+  - Control & Robotics
+  - Machine Learning
+  scope_summary: Artificial life and life-like processes in computational, robotic and biological systems.
+    Central questions concern emergence, evolution, adaptation, embodied intelligence and cognition. Relevant
+    ML work studies adaptive agents, evolutionary learning and computational models of living systems;
+    it is not a general-purpose AI conference.
+  scope_source_urls:
+  - https://2026.alife.org/call-for-papers/
+  - https://alife.org/conference/alife-2027/
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+NODYCON:
+  additional_topics:
+  - Time Series & Sequential Data
+  - Machine Learning
+  scope_summary: 'Nonlinear dynamics in engineering and physical systems: bifurcations, chaos, vibrations,
+    synchronization, nonlinear control, system identification and data-driven dynamical modeling. Machine
+    learning is relevant through discovering, forecasting or controlling dynamics. Publication is edition-specific:
+    past Springer volumes do not imply that every later meeting has standard proceedings.'
+  scope_source_urls:
+  - https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi/conferenza/nodycon-2026
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+NICE:
+  additional_topics:
+  - ML Systems & Infrastructure
+  - Deep Representation Learning
+  - Control & Robotics
+  scope_summary: Neuromorphic and brain-inspired computing at the intersection of neuroscience, algorithms
+    and hardware. Characteristic work includes spiking neural networks, learning in neural systems, event-driven
+    computation, neuromorphic processors and embodied applications. Research papers and late-breaking
+    abstracts are different contribution routes.
+  scope_source_urls:
+  - https://easychair.org/cfp/nice2027
+  scope_last_checked: '2026-10-08'
+  source_year: 2027
+SAB:
+  additional_topics:
+  - Machine Learning
+  - Reinforcement Learning
+  - Autonomous Agents & Multiagent Systems
+  scope_summary: Understanding adaptive behavior through biological and artificial agents, including embodied
+    cognition, neural and computational models, robotics, learning, evolution and collective behavior.
+    The biennial ISAB meeting combines archival proceedings papers with deliberately non-archival contributions
+    and poster abstracts.
+  scope_source_urls:
+  - https://sab-conference.org/call-for-contributions/
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+BCI Winter:
+  additional_topics:
+  - Healthcare & Clinical AI
+  - Neuroimaging & Brain Mapping
+  scope_summary: Brain-computer interfaces, neural signal decoding, multimodal brain measurements, neurofeedback
+    and adaptive interfaces. Machine learning is central to biosignal classification and decoding; neurorehabilitation
+    and interaction with real or virtual environments are characteristic applications. IEEE-style reviewed
+    research papers are the established publication route.
+  scope_source_urls:
+  - https://brain.korea.ac.kr/bci2027/callforpaper.php
+  - https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf
+  scope_last_checked: '2026-10-08'
+  source_year: 2027
+IEEE BioCAS:
+  additional_topics:
+  - EEG/MEG & Neural Signals
+  - Machine Learning
+  - ML Systems & Infrastructure
+  scope_summary: Biomedical circuits, integrated systems and medical devices spanning biosignal acquisition
+    and processing, neural interfaces, implants, bioelectronics and low-power or on-device biomedical
+    computation. Brain-inspired hardware and machine learning are relevant when tied to biomedical engineering,
+    rather than as generic algorithms.
+  scope_source_urls:
+  - https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+  - https://2027.ieee-biocas.org/
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+ICCN:
+  additional_topics:
+  - Systems & Experimental Neuroscience
+  scope_summary: Cognitive neurodynamics and the relation between neural dynamics, computation, cognition
+    and behavior. The meeting connects theoretical and computational neuroscience with nonlinear dynamics
+    and complex neural systems. Current submission and publication details require organizer confirmation;
+    historical edited proceedings are not a guarantee for 2026.
+  scope_source_urls:
+  - https://iccn2026.jp/
+  - https://link.springer.com/book/10.1007/978-981-16-0317-4
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+AREADNE:
+  additional_topics:
+  - Cognitive Science & Computational Cognition
+  scope_summary: Encoding and decoding of neural ensembles, with emphasis on systems neuroscience, neural
+    population recordings, neural representations, computation and links to behavior. It is a focused
+    experimental/computational neuroscience meeting rather than a general neuroscience congress. Contributions
+    are reviewed abstracts for talks and posters; its proceedings book is a collection of abstracts.
+  scope_source_urls:
+  - https://areadne.org/
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+SfN Neuroscience:
+  additional_topics:
+  - EEG/MEG & Neural Signals
+  - BCI & Neurotechnology
+  scope_summary: Broad neuroscience annual meeting spanning molecular and cellular neuroscience, neural
+    circuits, systems and behavioral neuroscience, cognition, development and disease. Computational neuroscience,
+    neuroimaging and neurotechnology are relevant parts of this broad remit, not its exclusive identity.
+    Research abstracts are presented and archived; they are not standard full-paper conference proceedings.
+  scope_source_urls:
+  - https://www.sfn.org/cfa
+  - https://www.sfn.org/meetings
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+Dynamics Days Europe:
+  additional_topics:
+  - Machine Learning
+  - Computational Neuroscience
+  - Control & Robotics
+  - Graphs & Graph Learning
+  scope_summary: 'Theory and applications of nonlinear dynamics: chaos, bifurcations, synchronization,
+    pattern formation, complex networks, stochastic dynamics and time-series analysis. ML and neurodynamics
+    are characteristic interdisciplinary extensions. Contributed talks and posters use abstracts, while
+    minisymposium proposals are organizer activity.'
+  scope_source_urls:
+  - https://dde-2026.sci-meet.net/abstract-submission-2
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+Dynamics Days US:
+  additional_topics:
+  - Computational Neuroscience
+  - Time Series & Sequential Data
+  scope_summary: Single-track nonlinear science meeting on chaos, dynamical systems and their interdisciplinary
+    applications. Contributed abstract selection and poster discussion connect mathematical methods with
+    physical, biological and neural systems. It is an abstract-based meeting, not a routine archival full-paper
+    proceedings venue.
+  scope_source_urls:
+  - https://www.ddays.org/2027/
+  - https://www.ddays.org/2027/abstract-submission/
+  scope_last_checked: '2026-10-08'
+  source_year: 2027
+Dynamics Days LAC:
+  additional_topics:
+  - Machine Learning
+  - Graphs & Graph Learning
+  - Control & Robotics
+  scope_summary: Nonlinear and complex systems across disciplines, including chaos, synchronization, networks,
+    time series, neurodynamics and learning-based modeling. The Latin American and Caribbean meeting supports
+    contributed scientific talks and posters through abstracts, with an explicit interest in cross-disciplinary
+    nonlinear science.
+  scope_source_urls:
+  - https://fisica.ufpr.br/DDaysLAC2026/page1.html
+  scope_last_checked: '2026-10-08'
+  source_year: 2026
+Dynamics Days Asia-Pacific:
+  additional_topics:
+  - Machine Learning
+  scope_summary: Nonlinear dynamics and nonequilibrium complex systems, including chaos, collective behavior,
+    statistical physics and dynamics of learning. The latest verified meeting was linked to a broader
+    Yukawa Institute workshop; its invited-talk format should not be mistaken for a verified open full-paper
+    call.
+  scope_source_urls:
+  - https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/
+  - https://dynamicsdays.info/ap/
+  scope_last_checked: '2026-10-08'
+  source_year: 2024
+Dynamics Days CAC:
+  additional_topics: []
+  scope_summary: Fundamental nonlinear science and complex-system physics, including chaos, collective
+    dynamics, statistical physics and biological systems. The Central Asian and Caucasian meeting promotes
+    collaboration across nonlinear science and its physical applications. Its oral/poster submission form
+    uses paper terminology, but the official date table specifies abstract submissions.
+  scope_source_urls:
+  - https://physics-congress.kz/dynamics_days
+  scope_last_checked: '2026-10-08'
+  source_year: 2026

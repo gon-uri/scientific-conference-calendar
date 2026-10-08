@@ -1,0 +1,37 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Venue Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:ICCN 2026 Calendar
+BEGIN:VEVENT
+UID:iccn-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261026
+SUMMARY:[Computational Neuroscience][Cognitive Science & Computational Cogn
+ ition] ICCN 2026 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Cognitive Neurody
+ namics\nWebsite: https://iccn2026.jp/\nSource URL: https://iccn2026.jp/\n
+ Location: Osaka\, Japan\nTopics: Computational Neuroscience\, Cognitive S
+ cience & Computational Cognition\, Nonlinear Dynamics & Chaos\, Complex S
+ ystems & Network Science\nSize: M\nSubmission type: Abstract-based\; publ
+ ication unconfirmed\nConfidence: estimated\nLast checked date: 2026-10-08
+ \nNotes: The organizer page body lists October 22-25\, while its metadata
+  says October 27-30\, and the live domain was unreachable on review. Date
+ s remain provisional pending organizer confirmation. No submission deadli
+ ne or current proceedings promise was verified. Earlier editions have Spr
+ inger edited proceedings\; do not confuse this series with clinical neuro
+ physiology congresses also abbreviated ICCN. Size is an editorial estimat
+ e.\nScope: Cognitive neurodynamics and the relation between neural dynami
+ cs\, computation\, cognition and behavior. The meeting connects theoretic
+ al and computational neuroscience with nonlinear dynamics and complex neu
+ ral systems. Current submission and publication details require organizer
+  confirmation\; historical edited proceedings are not a guarantee for 202
+ 6.\nAdditional topics: Systems & Experimental Neuroscience\nScope sources
+  (2026): https://iccn2026.jp/\, https://link.springer.com/book/10.1007/97
+ 8-981-16-0317-4\nScope last checked: 2026-10-08
+URL:https://iccn2026.jp/
+LOCATION:Osaka\, Japan
+END:VEVENT
+END:VCALENDAR

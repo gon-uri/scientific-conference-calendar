@@ -35,6 +35,9 @@ font request, body/table fonts stay unchanged, and visible logo/title pixel
 centers align across single-line and narrow-mobile wrapped titles.
 It intentionally does not test Giscus authentication or create comments.
 Update catalog-specific expected IDs/counts when the catalog changes.
+The imported dynamics_neuroscience.mjs suite verifies the added abstract routes,
+estimated versus unannounced submissions, archival placement, characteristic
+scope searches and the Rochester, New York versus Michigan city distinction.
 Scope scenarios check summary-only searches and additional-topic filtering in
 both tabs and the map, while confirming tables still show only primary tags.
 The imported submission_behavior.mjs suite checks real AAMAS/MLSys transitions
@@ -58,6 +61,7 @@ pointing to the configured dependency directory avoids adding app dependencies:
 mkdir -p /tmp/venue-radar-tools
 ln -s "$NODE_DEPENDENCIES" /tmp/venue-radar-tools/node_modules
 cp tests/browser_smoke.mjs tests/submission_behavior.mjs tests/mobile_cards.mjs /tmp/venue-radar-tools/
+cp tests/dynamics_neuroscience.mjs /tmp/venue-radar-tools/
 CHROME_BIN="$CHROME_BIN" SCREENSHOT_DIR=/tmp/venue-radar-previews "$NODE_BIN" /tmp/venue-radar-tools/browser_smoke.mjs "file://$PWD/docs/index.html"
 ```
 

@@ -1,6 +1,6 @@
 # Implementation Status
 
-Last synchronized: 2026-10-07
+Last synchronized: 2026-10-08
 
 ## Repository Rename
 
@@ -81,7 +81,7 @@ Last synchronized: 2026-10-07
   and alternatives are in site_copy.md; no copy decision remains pending.
   The X draft now explicitly names ML, AI and neuroscience, with the rest of
   the approved sharing text and website link unchanged.
-- Catalog: 144 edition records across 113 series; 40 controlled subtopics. Added
+- Catalog: 166 edition records across 129 series; 43 controlled subtopics. Added
   L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA, SIAM DS, CCS, and NetSci from official
   sources. Unpublished submission dates remain explicitly estimated.
   The 11 approved AI Deadlines additions are AutoML, LoG, CoRL, GECCO, SaTML,
@@ -97,7 +97,11 @@ Last synchronized: 2026-10-07
   ECIR, RecSys, WWW, COLM, ISWC, ICRA, RSS and SMC (22 editions). Reviewed scope
   profiles also cover existing CIKM/WSDM. See nlp_robotics_expansion.md for
   provisional dates, ARR/RSS gates, recurrence exceptions, and monthly priorities.
-  The public build contains 187 ICS feeds; old UIDs and timing remain stable.
+  The fourth batch adds 16 complex-systems/neuroscience series (22 editions),
+  including all five regional Dynamics Days branches, AREADNE and SfN.
+  Publication/abstract-only caveats are documented without changing the public
+  layout or submission semantics. See dynamics_neuroscience_expansion.md.
+  The public build contains 212 ICS feeds; old UIDs and timing remain stable.
 - Community: structured conference-request form, star/X links, author profile,
   and live Giscus comments. The official configuration checker confirms the
   repository/app/Discussions prerequisites, and the live widget renders correctly.
@@ -110,16 +114,19 @@ Last synchronized: 2026-10-07
   tables. Detailed commands live in project_docs, not README.
 - Verification: data validation, Python tests, full build, workbook rendering
   and value checks, plus desktop/mobile browser interaction and overflow checks.
-  Release c4e2194 is published: GitHub Build and Pages passed, live HTML matched
-  the verified build and live browser checks passed at six widths. The earlier
-  catalog release d869465 also verified all 30 aggregate/new-series/new-topic feeds.
+  The current catalog expansion passes all 81 Python tests and full browser
+  smoke at six widths. All 187 prior feeds retain identical existing events;
+  repeated builds are byte-identical. Publication verification follows the
+  documented main/docs workflow. The earlier catalog release d869465 also
+  verified all 30 aggregate/new-series/new-topic feeds.
 
 ## Feature Checklist
 
 ### Curated Conference Scope Profiles
 
 - Current status: Completed tooling; initial reviewed coverage.
-- Coverage: 63 of 113 series, including all 42 AI Deadlines additions.
+- Coverage: 79 of 129 series, including all 42 AI Deadlines additions and
+  the 16 complex-systems/neuroscience additions.
   The 50 remaining profiles are explicitly queued, not filled with guesses.
 - Brief description: `data/conference_scopes.yml` stores zero to six curated
   additional topics, a detailed scope summary, official evidence URLs/year,
@@ -144,7 +151,7 @@ Last synchronized: 2026-10-07
 ### Conference Data Source
 
 - Current status: Completed
-- Brief description: `data/conferences.yml` is canonical, with 144 editions across 113 series. Cadence-based estimates are distinguished from official meeting dates and deadline evidence. Joint editions and renamed series preserve their stable identities. All 42 AI Deadlines additions have official source links, explicit recurrence, central subtopics, size notes, and independent submission routes where required. ECCV and ICCV are biennial; WACV's two rounds have independent gates. Subjective Difficulty remains removed.
+- Brief description: `data/conferences.yml` is canonical, with 166 editions across 129 series. Cadence-based estimates are distinguished from official meeting dates and deadline evidence. Joint editions and renamed series preserve their stable identities. All 42 AI Deadlines additions have official source links, explicit recurrence, central subtopics, size notes, and independent submission routes where required. ECCV and ICCV are biennial; WACV's two rounds have independent gates. Subjective Difficulty remains removed.
 - Files modified: `data/conferences.yml`, `data/metadata.yml`, `data/core_conferences_normalized_tags.xlsx`
 - Tests implemented: Covered by `scripts/validate.py` and the GitHub Actions build workflow.
 - Remaining work: Continue adding and refreshing conferences as organizers publish dates.
@@ -191,7 +198,7 @@ Last synchronized: 2026-10-07
 - Current status: Completed
 - Brief description: Generates standalone Venue Radar HTML with an expandable, submission-action-ordered milestone table (chronological schedule fallback for closed/unannounced rows) and a Conferences & Map tab with an offline city-grouped map. Submission opportunities include open, scheduled, confirmed opening-unverified, and estimated routes but not post-acceptance-only steps. Shared hierarchical topics, search, sizes, independent ICORE/CCF ranks, and acceptance filters affect both tables and the map. Metadata options and inline Search live in Filters & search, initially expanded on desktop and collapsed on mobile; Clear filters remains aligned with its heading and always visible. Show submission options only starts checked, sits beside the tabs and wraps below on mobile. The topic tree fits eight collapsed families and uses native disclosure arrows and plus/minus cues; the duplicate Time series shortcut is removed, not the subtopic. Mobile cards show their first three fields and independently reveal the rest through More info / Less info; desktop tables stay complete. Confirmed future cities appear on the map; estimates stay in the table and past editions are separate. Per-row ICS downloads remain only in Conferences & Map; aggregate download, X sharing and repository-star links are grouped at the header's right edge. A white radar-only SVG supplies the favicon. Tabs clearly contrast the selected and selectable views.
 - Files modified: `scripts/build_site.py`, `docs/index.html`
-- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 73 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels. Current polish checks default opportunity membership, collapsed clearing/focus, heading alignment, all-eight-family visibility, internal expanded scrolling, retained Time series matching, semibold conference names/inherited size/cell bounds, header action order/top alignment, caption placement, map/author wording, README attribution links and favicon pixels at 32px. mobile_cards.mjs adds 760/761px boundary checks, independent disclosure/keyboard behavior, resize/filter/tab persistence, nested milestones, archived cards and a no-JavaScript fallback.
+- Tests implemented: `python scripts/build_all.py`; generated as part of CI. The 81 Python tests and browser smoke script cover renamed repository navigation, stable Giscus mapping and calendar UID namespace, relative download paths, embedded branding/font/licensing, README banner placement, ranking metadata/links, independent CCF filtering, disclosure containment, inline Search alignment, enlarged opportunities controls outside the collapsed panel, open abstract/paper statuses without decorative dots, time-estimate placement and milestone transitions, navigation, map interactions, optical brand alignment, and overflow at 1440/1051/1050/768/390/320px. The additions also cover annual/biennial rollover, sourced confidence, all-day deadlines, new subtopic filtering, AAMAS/MLSys/Interspeech/WACV track transitions, current FG/IJCB evidence, and curated scope matching without expanding table labels. Current polish checks default opportunity membership, collapsed clearing/focus, heading alignment, all-eight-family visibility, internal expanded scrolling, retained Time series matching, semibold conference names/inherited size/cell bounds, header action order/top alignment, caption placement, map/author wording, README attribution links and favicon pixels at 32px. mobile_cards.mjs adds 760/761px boundary checks, independent disclosure/keyboard behavior, resize/filter/tab persistence, nested milestones, archived cards and a no-JavaScript fallback.
 - Remaining work: Keep desktop/mobile interaction coverage current and moderate community requests through GitHub.
 - Known issues: Giscus requires GitHub sign-in and the optional external service. No screenshot-baseline comparison is currently enforced in CI.
 - Submission regression checks: `tests/submission_behavior.mjs`, called by the
@@ -202,7 +209,7 @@ Last synchronized: 2026-10-07
 ### Topic Taxonomy and Metadata
 
 - Current status: Completed
-- Brief description: `data/topics.yml` defines 40 leaves within eight families. `data/conference_families.yml` assigns every series one to three central family IDs, separately from generic method tags. Family selection uses these identities; individual subtopics, including Time series, use the curated primary/additional union. Dynamics includes complex systems, graphs, time series and signals; control is separate, and biometrics sits with healthcare. The long dynamics label remains one line. Tables retain four main topics. The workbook mirrors 113 catalog series, 40 leaves and 63 scope profiles.
+- Brief description: `data/topics.yml` defines 43 leaves within eight unchanged families. `data/conference_families.yml` assigns every series one to three central family IDs, separately from generic method tags. Family selection uses these identities; individual subtopics, including Time series, use the curated primary/additional union. Dynamics includes complex systems, graphs, time series and signals; control is separate, and biometrics sits with healthcare. The long dynamics label remains one line. Tables retain four main topics. The workbook mirrors 129 catalog series, 43 leaves and 79 scope profiles. Three added leaves cover artificial life, neuromorphic computing and systems/experimental neuroscience.
 - Files modified: `data/topics.yml`, `data/topic_families.yml`, `data/cities.yml`, `scripts/catalog_metadata.py`, `scripts/export_catalog.py`, `scripts/sync_workbook.mjs`, `scripts/build_site.py`
 - Tests implemented: Topic membership is checked by `scripts/validate.py`.
 - Remaining work: Expand the taxonomy only when needed for real conference coverage.

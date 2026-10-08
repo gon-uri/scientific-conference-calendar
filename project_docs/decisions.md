@@ -514,3 +514,30 @@ Last synchronized: 2026-10-07
   44px control, still above WCAG 2.2 AA's 24px target-size minimum:
   https://www.w3.org/WAI/WCAG22/Understanding/target-size-minimum.html.
   Apply the same refinement to both tabs and archived cards, never desktop.
+
+## ADR-036: Respect Abstract-Based Venues Without Changing The Interface
+
+- Date: 2026-10-08
+- Context: Add 16 respected complex-systems/neuroscience series, including all
+  five regional Dynamics Days branches, AREADNE and SfN. Some publish papers,
+  some accept only abstracts, and historical proceedings are not promises for
+  the current edition. The user explicitly wants the existing website intact.
+- Decision: Record publication formats and caveats in edition metadata and
+  dynamics_neuroscience_expansion.md. Reuse existing abstract contribution
+  types, milestone labels and submission statuses. Add no publication UI,
+  status type, CSS or behavior change. Preserve all eight family IDs/names/order;
+  add only three characteristic leaves for artificial life, neuromorphic
+  computing and systems/experimental neuroscience.
+- Evidence: Meeting and deadline confidence stay independent. Confirmed host
+  dates do not confirm a proxy CFP. Date-only cutoffs remain all-day events.
+  Independent abstract tracks do not gate full papers. NODYCON's presented-work
+  journal manuscript step is not a fresh conference submission. A preliminary
+  IEEE BioCAS abstract date is not renamed as a paper deadline or a gate.
+- Recurrence: SAB/AREADNE/LAC use verified biennial cadence; Europe/US and other
+  verified annual series use annual cadence. No automatic projection for
+  NODYCON's changed cadence, irregular CAC, missing-next-edition DDAP or ICCN's
+  unresolved date conflict. The maintenance queue preserves these gaps.
+- Consequences: Sixteen series/22 editions and profiles are added; old records,
+  UIDs and public semantics remain stable. The workbook and generated feeds
+  mirror canonical YAML. Missing ranks/rates stay unknown, not inferred from
+  loosely matching acronyms or abstract acceptance.

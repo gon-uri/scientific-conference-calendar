@@ -57,7 +57,7 @@ export async function checkMobileCards(page, url, output) {
 
     const deadlines = page.locator('[data-deadline-group]:visible');
     const first = page.locator('[data-deadline-group][data-edition="ifac-sysid-2027"]');
-    const other = deadlines.nth(1);
+    const other = page.locator('[data-deadline-group]:visible:not([data-edition="ifac-sysid-2027"])').first();
     assert.equal(await deadlines.locator('.mobile-detail:visible').count(), 0);
     await checkDisclosure(first, ['Conference', 'Submission status', 'Time left']);
     const collapsedHeight = (await first.boundingBox()).height;

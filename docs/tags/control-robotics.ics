@@ -25,6 +25,131 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2026.ieeecss.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-minisymposium-proposal@scientific-co
+ nference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Extended minisymposium proposal deadline (cutoff
+  time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260413T115900Z
+DTEND:20260413T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2026 - Extended full-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://2026.alife.org/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Waterloo\, Ontario\, Canada\nTopics: Artificial L
+ ife & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary
+  Computation & Optimization\, Cognitive Science & Computational Cognition
+ \nSize: L\nSubmission type: Full papers + non-archival abstracts\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical baseline
+ . Reviewed full papers appear in MIT Press open-access proceedings\; pres
+ entation summaries and late-breaking abstracts are non-archival. The Apri
+ l date was an extension of the original March 30 cutoff. Size is an edito
+ rial estimate.\nScope: Artificial life and life-like processes in computa
+ tional\, robotic and biological systems. Central questions concern emerge
+ nce\, evolution\, adaptation\, embodied intelligence and cognition. Relev
+ ant ML work studies adaptive agents\, evolutionary learning and computati
+ onal models of living systems\; it is not a general-purpose AI conference
+ .\nAdditional topics: Autonomous Agents & Multiagent Systems\, Control & 
+ Robotics\, Machine Learning\nScope sources (2026): https://2026.alife.org
+ /call-for-papers/\, https://alife.org/conference/alife-2027/\nScope last 
+ checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Contributed talk/poster abstract submission dead
+ line (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
+ time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260503
@@ -52,6 +177,60 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
  e is unannounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T065900Z
+DTEND:20260516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Poster abstract submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T065900Z
+DTEND:20260516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Peer-reviewed proceedings paper submission deadline
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2026-deadline-short-paper@scientific-conference-calendar
@@ -171,6 +350,70 @@ DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
 URL:https://openreview.net/group?id=robot-learning.org/CoRL/2026/Conference
 END:VEVENT
 BEGIN:VEVENT
+UID:sab-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Full-length manuscript deadline for presented work
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260712
@@ -198,6 +441,93 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
  e is unannounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Camera-ready proceedings paper deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/\nLocation: L
+ isbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & 
+ Network Science\, Time Series & Sequential Data\, System Identification &
+  Data-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical annual me
+ eting. Contributions are talk/poster abstracts collected in a book of abs
+ tracts\, not standard full-paper proceedings. Minisymposium organization 
+ is a separate non-contribution milestone. Abstract submitters had to comp
+ lete fee payment by May 29. Exact cutoff hours were unannounced. Size is 
+ an editorial estimate.\nScope: Theory and applications of nonlinear dynam
+ ics: chaos\, bifurcations\, synchronization\, pattern formation\, complex
+  networks\, stochastic dynamics and time-series analysis. ML and neurodyn
+ amics are characteristic interdisciplinary extensions. Contributed talks 
+ and posters use abstracts\, while minisymposium proposals are organizer a
+ ctivity.\nAdditional topics: Machine Learning\, Computational Neuroscienc
+ e\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026): h
+ ttps://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked: 2
+ 026-10-08
+URL:https://dde-2026.sci-meet.net/
+LOCATION:Lisbon\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2026-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260721T115900Z
+DTEND:20260721T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2026 - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://2026.alife.org/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Waterloo\, Ontario\, Canada\nTopics: Artificial L
+ ife & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary
+  Computation & Optimization\, Cognitive Science & Computational Cognition
+ \nSize: L\nSubmission type: Full papers + non-archival abstracts\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical baseline
+ . Reviewed full papers appear in MIT Press open-access proceedings\; pres
+ entation summaries and late-breaking abstracts are non-archival. The Apri
+ l date was an extension of the original March 30 cutoff. Size is an edito
+ rial estimate.\nScope: Artificial life and life-like processes in computa
+ tional\, robotic and biological systems. Central questions concern emerge
+ nce\, evolution\, adaptation\, embodied intelligence and cognition. Relev
+ ant ML work studies adaptive agents\, evolutionary learning and computati
+ onal models of living systems\; it is not a general-purpose AI conference
+ .\nAdditional topics: Autonomous Agents & Multiagent Systems\, Control & 
+ Robotics\, Machine Learning\nScope sources (2026): https://2026.alife.org
+ /call-for-papers/\, https://alife.org/conference/alife-2027/\nScope last 
+ checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-ssci-2027-deadline-full-paper@scientific-conference-calendar
@@ -244,6 +574,35 @@ DESCRIPTION:Conference title: International Symposium on Nonlinear Theory a
  026-10-07\nOfficial deadline day\; exact cutoff hour/timezone is unannoun
  ced. Verify the organizer's submission portal.
 URL:https://nolta2026.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260817
+DTEND;VALUE=DATE:20260822
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://2026.alife.org/\nSource URL: https://2026.alife.org/\nLo
+ cation: Waterloo\, Ontario\, Canada\nTopics: Artificial Life & Adaptive S
+ ystems\, Complex Systems & Network Science\, Evolutionary Computation & O
+ ptimization\, Cognitive Science & Computational Cognition\nSize: L\nSubmi
+ ssion type: Full papers + non-archival abstracts\nConfidence: confirmed\n
+ Last checked date: 2026-10-08\nNotes: Historical baseline. Reviewed full 
+ papers appear in MIT Press open-access proceedings\; presentation summari
+ es and late-breaking abstracts are non-archival. The April date was an ex
+ tension of the original March 30 cutoff. Size is an editorial estimate.\n
+ Scope: Artificial life and life-like processes in computational\, robotic
+  and biological systems. Central questions concern emergence\, evolution\
+ , adaptation\, embodied intelligence and cognition. Relevant ML work stud
+ ies adaptive agents\, evolutionary learning and computational models of l
+ iving systems\; it is not a general-purpose AI conference.\nAdditional to
+ pics: Autonomous Agents & Multiagent Systems\, Control & Robotics\, Machi
+ ne Learning\nScope sources (2026): https://2026.alife.org/call-for-papers
+ /\, https://alife.org/conference/alife-2027/\nScope last checked: 2026-10
+ -08
+URL:https://2026.alife.org/
+LOCATION:Waterloo\, Ontario\, Canada
 END:VEVENT
 BEGIN:VEVENT
 UID:icra-2027-deadline-full-paper@scientific-conference-calendar
@@ -294,6 +653,38 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
   submission portal.
 URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260924
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Conference
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + selected journal papers\nConfidence: confir
+ med\nLast checked date: 2026-10-08\nNotes: Historical 2026 meeting. Selec
+ ted presented papers may be considered for Nonlinear Dynamics after addit
+ ional journal review\; that manuscript step is not a fresh conference sub
+ mission. Prior editions have Springer proceedings\, but no blanket 2026 p
+ roceedings promise is asserted. The 2025-to-2026 change breaks the earlie
+ r biennial cadence\; the next edition is unannounced. Cutoff hours are un
+ announced. Size is an editorial estimate.\nScope: Nonlinear dynamics in e
+ ngineering and physical systems: bifurcations\, chaos\, vibrations\, sync
+ hronization\, nonlinear control\, system identification and data-driven d
+ ynamical modeling. Machine learning is relevant through discovering\, for
+ ecasting or controlling dynamics. Publication is edition-specific: past S
+ pringer volumes do not imply that every later meeting has standard procee
+ dings.\nAdditional topics: Time Series & Sequential Data\, Machine Learni
+ ng\nScope sources (2026): https://www.sisco-scienzadellecostruzioni.org/i
+ ndex.php/eventi/prossimi-eventi/conferenza/nodycon-2026\nScope last check
+ ed: 2026-10-08
+URL:https://nodycon2026.app.earendelplatform.com/
+LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-abstract@scientific-conference-calendar
@@ -415,6 +806,35 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-lac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2026 - Extended contributed abstract submission deadline (
+ cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://fisica.ufpr.br/DDaysLAC2026/index.html\nSource URL: ht
+ tps://fisica.ufpr.br/DDaysLAC2026/index.html\nLocation: Curitiba\, Brazil
+ \nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\
+ , Time Series & Sequential Data\, Computational Neuroscience\nSize: M\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Latest organizer cutoff is October 10. Biennial meetin
+ g resumed in 2024 after the pandemic gap. Contributions are talk/poster a
+ bstracts\; no current full-paper proceedings commitment verified. Exact c
+ utoff hour is unannounced. Size is an editorial estimate.\nScope: Nonline
+ ar and complex systems across disciplines\, including chaos\, synchroniza
+ tion\, networks\, time series\, neurodynamics and learning-based modeling
+ . The Latin American and Caribbean meeting supports contributed scientifi
+ c talks and posters through abstracts\, with an explicit interest in cros
+ s-disciplinary nonlinear science.\nAdditional topics: Machine Learning\, 
+ Graphs & Graph Learning\, Control & Robotics\nScope sources (2026): https
+ ://fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-journal-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20261011
@@ -493,6 +913,34 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
  . Verify the organizer's submission portal.
 URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261019
+DTEND;VALUE=DATE:20261023
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Conference
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/\nLocation: Berlin\, Germany\nTopics: Artificial Life
+  & Adaptive Systems\, Computational Neuroscience\, Cognitive Science & Co
+ mputational Cognition\, Control & Robotics\nSize: M\nSubmission type: Rev
+ iewed papers + non-archival contributions\nConfidence: confirmed\nLast ch
+ ecked date: 2026-10-08\nNotes: Biennial ISAB conference. Reviewed track-1
+  papers appear in Springer LNAI\; the other tracks include non-archival p
+ apers\, poster abstracts and position papers. The stated submission cutof
+ f is Pacific Time\, not AoE\; May 15 uses daylight time. Size is an edito
+ rial estimate.\nScope: Understanding adaptive behavior through biological
+  and artificial agents\, including embodied cognition\, neural and comput
+ ational models\, robotics\, learning\, evolution and collective behavior.
+  The biennial ISAB meeting combines archival proceedings papers with deli
+ berately non-archival contributions and poster abstracts.\nAdditional top
+ ics: Machine Learning\, Reinforcement Learning\, Autonomous Agents & Mult
+ iagent Systems\nScope sources (2026): https://sab-conference.org/call-for
+ -contributions/\nScope last checked: 2026-10-08
+URL:https://sab-conference.org/
+LOCATION:Berlin\, Germany
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-2027-deadline-tutorial-proposal@scientific-conference-calendar
@@ -608,6 +1056,34 @@ DESCRIPTION:Conference title: Conference on Robot Learning\nWebsite: https:
  ast checked: 2026-10-07
 URL:https://www.corl.org/
 LOCATION:Austin\, Texas\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular research paper submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
 END:VEVENT
 BEGIN:VEVENT
 UID:aamas-2027-deadline-short-paper@scientific-conference-calendar
@@ -728,6 +1204,33 @@ DESCRIPTION:Conference title: Robotics: Science and Systems\nWebsite: https
 URL:https://roboticsconference.org/information/cfp/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-lac-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261206
+DTEND;VALUE=DATE:20261212
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://fisica.ufpr.br/DDaysLAC2026/index.html\nSource URL: ht
+ tps://fisica.ufpr.br/DDaysLAC2026/index.html\nLocation: Curitiba\, Brazil
+ \nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\
+ , Time Series & Sequential Data\, Computational Neuroscience\nSize: M\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Latest organizer cutoff is October 10. Biennial meetin
+ g resumed in 2024 after the pandemic gap. Contributions are talk/poster a
+ bstracts\; no current full-paper proceedings commitment verified. Exact c
+ utoff hour is unannounced. Size is an editorial estimate.\nScope: Nonline
+ ar and complex systems across disciplines\, including chaos\, synchroniza
+ tion\, networks\, time series\, neurodynamics and learning-based modeling
+ . The Latin American and Caribbean meeting supports contributed scientifi
+ c talks and posters through abstracts\, with an explicit interest in cros
+ s-disciplinary nonlinear science.\nAdditional topics: Machine Learning\, 
+ Graphs & Graph Learning\, Control & Robotics\nScope sources (2026): https
+ ://fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+LOCATION:Curitiba\, Brazil
+END:VEVENT
+BEGIN:VEVENT
 UID:icaps-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261208T115900Z
@@ -801,6 +1304,36 @@ DESCRIPTION:Conference title: International Conference on Automated Plannin
  : Probabilistic\, Causal & Uncertainty ML\nScope sources (2027): https://
  icaps27.icaps-conference.org/calls/cfp/\nScope last checked: 2026-10-07
 URL:https://icaps27.icaps-conference.org/calls/cfp/
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular paper acceptance notification (cutoff time unannou
+ nced)
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezo
+ ne is unannounced. Verify the organizer's submission portal.
+URL:https://easychair.org/cfp/nice2027
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
@@ -967,6 +1500,34 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
 URL:https://acc2027.a2c2.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:nice-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-deadline-blue-sky-camera-ready@scientific-conference-calenda
  r
 DTSTAMP:19700101T000000Z
@@ -1053,6 +1614,34 @@ DESCRIPTION:Conference title: IFAC Symposium on System Identification\nWebs
 URL:https://conferences.ifac-control.org/sysid2027/participate/
 END:VEVENT
 BEGIN:VEVENT
+UID:nice-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270310T115900Z
+DTEND:20270310T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Camera-ready research paper deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
 UID:acc-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270312
@@ -1093,6 +1682,34 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:alife-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270331T115900Z
+DTEND:20270331T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2027 - Estimated full-paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://alife.vscht.cz/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Prague\, Czech Republic\nTopics: Artificial Life 
+ & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary Com
+ putation & Optimization\, Cognitive Science & Computational Cognition\nSi
+ ze: L\nSubmission type: Full papers + non-archival abstracts\nConfidence:
+  estimated\nLast checked date: 2026-10-08\nNotes: Organizer confirms July
+  19-23 in Prague\, but the 2027 call is not announced. The full-paper cut
+ off is a one-year proxy from the original 2026 March 30 deadline\, not it
+ s extension. No late-breaking abstract date is copied because the meeting
+  has moved earlier. Size is an editorial estimate.\nScope: Artificial lif
+ e and life-like processes in computational\, robotic and biological syste
+ ms. Central questions concern emergence\, evolution\, adaptation\, embodi
+ ed intelligence and cognition. Relevant ML work studies adaptive agents\,
+  evolutionary learning and computational models of living systems\; it is
+  not a general-purpose AI conference.\nAdditional topics: Autonomous Agen
+ ts & Multiagent Systems\, Control & Robotics\, Machine Learning\nScope so
+ urces (2026): https://2026.alife.org/call-for-papers/\, https://alife.org
+ /conference/alife-2027/\nScope last checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270331
@@ -1111,6 +1728,35 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
  ission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270409
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Conference
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ni
+ ceworkshop.org/nice-2027/\nLocation: Brighton\, United Kingdom\nTopics: N
+ euromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mac
+ hine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research
+  papers + late-breaking abstracts\nConfidence: confirmed\nLast checked da
+ te: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Ap
+ ril 9. Accepted proceedings research papers are published through IEEE\; 
+ late-breaking abstracts are non-archival\, and some poster contributions 
+ may not enter the proceedings. Neither a scheduled opening nor a live sub
+ mission portal has been verified. Size is an editorial estimate.\nScope: 
+ Neuromorphic and brain-inspired computing at the intersection of neurosci
+ ence\, algorithms and hardware. Characteristic work includes spiking neur
+ al networks\, learning in neural systems\, event-driven computation\, neu
+ romorphic processors and embodied applications. Research papers and late-
+ breaking abstracts are different contribution routes.\nAdditional topics:
+  ML Systems & Infrastructure\, Deep Representation Learning\, Control & R
+ obotics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope 
+ last checked: 2026-10-08
+URL:https://niceworkshop.org/nice-2027/
+LOCATION:Brighton\, United Kingdom
 END:VEVENT
 BEGIN:VEVENT
 UID:l4dc-2027-deadline-late-breaking@scientific-conference-calendar
@@ -1194,6 +1840,35 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
  ome\nScope last checked: 2026-10-07\nOfficial deadline day\; exact cutoff
   hour/timezone is unannounced. Verify the organizer's submission portal.
 URL:https://l4dc2027.control.ee.ethz.ch/home
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Estimated contributed talk/poster abstract submi
+ ssion deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://dde-2026.sci-meet.net/important-date
+ s\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Comple
+ x Systems & Network Science\, Time Series & Sequential Data\, System Iden
+ tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
+ ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
+ ced next annual edition. Meeting dates and the contributed abstract deadl
+ ine are one-year proxies from 2026\, with no assumed host location. Size 
+ is an editorial estimate.\nScope: Theory and applications of nonlinear dy
+ namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
+ lex networks\, stochastic dynamics and time-series analysis. ML and neuro
+ dynamics are characteristic interdisciplinary extensions. Contributed tal
+ ks and posters use abstracts\, while minisymposium proposals are organize
+ r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
+ ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
+ : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
+ : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
@@ -1519,6 +2194,61 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
 END:VEVENT
 BEGIN:VEVENT
+UID:alife-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270724
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2027 - Conference
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://alife.vscht.cz/\nSource URL: https://alife.vscht.cz/\nLo
+ cation: Prague\, Czech Republic\nTopics: Artificial Life & Adaptive Syste
+ ms\, Complex Systems & Network Science\, Evolutionary Computation & Optim
+ ization\, Cognitive Science & Computational Cognition\nSize: L\nSubmissio
+ n type: Full papers + non-archival abstracts\nConfidence: confirmed\nLast
+  checked date: 2026-10-08\nNotes: Organizer confirms July 19-23 in Prague
+ \, but the 2027 call is not announced. The full-paper cutoff is a one-yea
+ r proxy from the original 2026 March 30 deadline\, not its extension. No 
+ late-breaking abstract date is copied because the meeting has moved earli
+ er. Size is an editorial estimate.\nScope: Artificial life and life-like 
+ processes in computational\, robotic and biological systems. Central ques
+ tions concern emergence\, evolution\, adaptation\, embodied intelligence 
+ and cognition. Relevant ML work studies adaptive agents\, evolutionary le
+ arning and computational models of living systems\; it is not a general-p
+ urpose AI conference.\nAdditional topics: Autonomous Agents & Multiagent 
+ Systems\, Control & Robotics\, Machine Learning\nScope sources (2026): ht
+ tps://2026.alife.org/call-for-papers/\, https://alife.org/conference/alif
+ e-2027/\nScope last checked: 2026-10-08
+URL:https://alife.vscht.cz/
+LOCATION:Prague\, Czech Republic
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://www.dynamicsdays.org/\nLocation: To 
+ be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\, Time Series & Sequential Data\, System Identification & Dat
+ a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
+ estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
+ edition. Meeting dates and the contributed abstract deadline are one-year
+  proxies from 2026\, with no assumed host location. Size is an editorial 
+ estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
+ bifurcations\, synchronization\, pattern formation\, complex networks\, s
+ tochastic dynamics and time-series analysis. ML and neurodynamics are cha
+ racteristic interdisciplinary extensions. Contributed talks and posters u
+ se abstracts\, while minisymposium proposals are organizer activity.\nAdd
+ itional topics: Machine Learning\, Computational Neuroscience\, Control &
+  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
+ 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+URL:https://www.dynamicsdays.org/
+LOCATION:To be announced
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20271007
@@ -1565,5 +2295,84 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  e is an editorial category.
 URL:https://cdc2027.ieeecss.org/
 LOCATION:Lisbon\, Portugal
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2028 - Estimated poster abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: To be announced\nT
+ opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
+ Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
+ \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
+ ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
+ nnial edition\; meeting dates and deadlines are two-year proxies from 202
+ 6\, and no host location is assumed. Size is an editorial estimate.\nScop
+ e: Understanding adaptive behavior through biological and artificial agen
+ ts\, including embodied cognition\, neural and computational models\, rob
+ otics\, learning\, evolution and collective behavior. The biennial ISAB m
+ eeting combines archival proceedings papers with deliberately non-archiva
+ l contributions and poster abstracts.\nAdditional topics: Machine Learnin
+ g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
+ e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
+ pe last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2028 - Estimated proceedings paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: To be announced\nT
+ opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
+ Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
+ \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
+ ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
+ nnial edition\; meeting dates and deadlines are two-year proxies from 202
+ 6\, and no host location is assumed. Size is an editorial estimate.\nScop
+ e: Understanding adaptive behavior through biological and artificial agen
+ ts\, including embodied cognition\, neural and computational models\, rob
+ otics\, learning\, evolution and collective behavior. The biennial ISAB m
+ eeting combines archival proceedings papers with deliberately non-archiva
+ l contributions and poster abstracts.\nAdditional topics: Machine Learnin
+ g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
+ e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
+ pe last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20281019
+DTEND;VALUE=DATE:20281023
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2028 - Conference (estimated)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/\nLocation: To be announced\nTopics: Artificial Life 
+ & Adaptive Systems\, Computational Neuroscience\, Cognitive Science & Com
+ putational Cognition\, Control & Robotics\nSize: M\nSubmission type: Revi
+ ewed papers + non-archival contributions\nConfidence: estimated\nLast che
+ cked date: 2026-10-08\nNotes: Unannounced next biennial edition\; meeting
+  dates and deadlines are two-year proxies from 2026\, and no host locatio
+ n is assumed. Size is an editorial estimate.\nScope: Understanding adapti
+ ve behavior through biological and artificial agents\, including embodied
+  cognition\, neural and computational models\, robotics\, learning\, evol
+ ution and collective behavior. The biennial ISAB meeting combines archiva
+ l proceedings papers with deliberately non-archival contributions and pos
+ ter abstracts.\nAdditional topics: Machine Learning\, Reinforcement Learn
+ ing\, Autonomous Agents & Multiagent Systems\nScope sources (2026): https
+ ://sab-conference.org/call-for-contributions/\nScope last checked: 2026-1
+ 0-08
+URL:https://sab-conference.org/
+LOCATION:To be announced
 END:VEVENT
 END:VCALENDAR

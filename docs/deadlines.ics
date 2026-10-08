@@ -217,6 +217,34 @@ DESCRIPTION:Conference title: International Conference on Machine Learning\
 URL:https://icml.cc/Conferences/2026/Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:areadne-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260130
+DTEND;VALUE=DATE:20260131
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] A
+ READNE 2026 - Contributed talk/poster abstract submission deadline (cutof
+ f time unannounced)
+DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
+  Neural Ensembles\nWebsite: https://areadne.org/\nSource URL: https://are
+ adne.org/\nLocation: Milos\, Greece\nTopics: Systems & Experimental Neuro
+ science\, Computational Neuroscience\, BCI & Neurotechnology\nSize: S\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Historical biennial meeting. June 23 is the welcome re
+ ception\; scientific sessions follow. Proceedings are an abstract book\, 
+ not archival full papers. Abstracts opened January 12\, 2026\; exact open
+ ing and cutoff hours were not announced. Size is an editorial estimate.\n
+ Scope: Encoding and decoding of neural ensembles\, with emphasis on syste
+ ms neuroscience\, neural population recordings\, neural representations\,
+  computation and links to behavior. It is a focused experimental/computat
+ ional neuroscience meeting rather than a general neuroscience congress. C
+ ontributions are reviewed abstracts for talks and posters\; its proceedin
+ gs book is a collection of abstracts.\nAdditional topics: Cognitive Scien
+ ce & Computational Cognition\nScope sources (2026): https://areadne.org/\
+ nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://areadne.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:kdd-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260202T115900Z
@@ -563,6 +591,33 @@ DESCRIPTION:Conference title: European Conference on Machine Learning and P
 URL:https://ecmlpkdd.org/2026/submissions-research-track/
 END:VEVENT
 BEGIN:VEVENT
+UID:areadne-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260306
+DTEND;VALUE=DATE:20260307
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] A
+ READNE 2026 - Abstract acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
+  Neural Ensembles\nWebsite: https://areadne.org/\nSource URL: https://are
+ adne.org/\nLocation: Milos\, Greece\nTopics: Systems & Experimental Neuro
+ science\, Computational Neuroscience\, BCI & Neurotechnology\nSize: S\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Historical biennial meeting. June 23 is the welcome re
+ ception\; scientific sessions follow. Proceedings are an abstract book\, 
+ not archival full papers. Abstracts opened January 12\, 2026\; exact open
+ ing and cutoff hours were not announced. Size is an editorial estimate.\n
+ Scope: Encoding and decoding of neural ensembles\, with emphasis on syste
+ ms neuroscience\, neural population recordings\, neural representations\,
+  computation and links to behavior. It is a focused experimental/computat
+ ional neuroscience meeting rather than a general neuroscience congress. C
+ ontributions are reviewed abstracts for talks and posters\; its proceedin
+ gs book is a collection of abstracts.\nAdditional topics: Cognitive Scien
+ ce & Computational Cognition\nScope sources (2026): https://areadne.org/\
+ nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hou
+ r/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://areadne.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2026-deadline-supplementary@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260312T220000Z
@@ -858,6 +913,37 @@ DESCRIPTION:Conference title: Conference on Cognitive Computational Neurosc
 URL:https://2026.ccneuro.org/dates-and-deadlines/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-minisymposium-proposal@scientific-co
+ nference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Extended minisymposium proposal deadline (cutoff
+  time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:sdm-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260411T115900Z
@@ -873,6 +959,63 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
  confirmed\nLast checked date: 2026-08-20\nNotes: Official SIAM SDM26 page
   lists event details and submission deadlines.
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260413T115900Z
+DTEND:20260413T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2026 - Extended full-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://2026.alife.org/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Waterloo\, Ontario\, Canada\nTopics: Artificial L
+ ife & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary
+  Computation & Optimization\, Cognitive Science & Computational Cognition
+ \nSize: L\nSubmission type: Full papers + non-archival abstracts\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical baseline
+ . Reviewed full papers appear in MIT Press open-access proceedings\; pres
+ entation summaries and late-breaking abstracts are non-archival. The Apri
+ l date was an extension of the original March 30 cutoff. Size is an edito
+ rial estimate.\nScope: Artificial life and life-like processes in computa
+ tional\, robotic and biological systems. Central questions concern emerge
+ nce\, evolution\, adaptation\, embodied intelligence and cognition. Relev
+ ant ML work studies adaptive agents\, evolutionary learning and computati
+ onal models of living systems\; it is not a general-purpose AI conference
+ .\nAdditional topics: Autonomous Agents & Multiagent Systems\, Control & 
+ Robotics\, Machine Learning\nScope sources (2026): https://2026.alife.org
+ /call-for-papers/\, https://alife.org/conference/alife-2027/\nScope last 
+ checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-cac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260415
+DTEND;VALUE=DATE:20260416
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days CAC 2026 - Contributed oral/poster abstract submission deadlin
+ e (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Central Asia and the Caucasus\n
+ Website: https://physics-congress.kz/dynamics_days\nSource URL: https://p
+ hysics-congress.kz/dynamics_days\nLocation: Astana\, Kazakhstan\nTopics: 
+ Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-08\nNotes: Historical 10th edition. Although the form says pape
+ r/article\, its date table explicitly identifies an abstract submission d
+ eadline for oral/poster presentations. No archival full-paper proceedings
+  verified. Recurrence is irregular (the organizer says almost annually)\;
+  do not assume a fixed next-year edition. Exact cutoff hours are unannoun
+ ced. Size is an editorial estimate.\nScope: Fundamental nonlinear science
+  and complex-system physics\, including chaos\, collective dynamics\, sta
+ tistical physics and biological systems. The Central Asian and Caucasian 
+ meeting promotes collaboration across nonlinear science and its physical 
+ applications. Its oral/poster submission form uses paper terminology\, bu
+ t the official date table specifies abstract submissions.\nAdditional top
+ ics: \nScope sources (2026): https://physics-congress.kz/dynamics_days\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://physics-congress.kz/dynamics_days
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-embc-2026-deadline-poster@scientific-conference-calendar
@@ -950,6 +1093,67 @@ DESCRIPTION:Conference title: SIAM International Conference on Data Mining\
 URL:https://www.siam.org/conferences-events/siam-conferences/sdm26/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-cac-2026-deadline-notification@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260425
+DTEND;VALUE=DATE:20260426
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days CAC 2026 - Abstract acceptance notification (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: Dynamics Days Central Asia and the Caucasus\n
+ Website: https://physics-congress.kz/dynamics_days\nSource URL: https://p
+ hysics-congress.kz/dynamics_days\nLocation: Astana\, Kazakhstan\nTopics: 
+ Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-08\nNotes: Historical 10th edition. Although the form says pape
+ r/article\, its date table explicitly identifies an abstract submission d
+ eadline for oral/poster presentations. No archival full-paper proceedings
+  verified. Recurrence is irregular (the organizer says almost annually)\;
+  do not assume a fixed next-year edition. Exact cutoff hours are unannoun
+ ced. Size is an editorial estimate.\nScope: Fundamental nonlinear science
+  and complex-system physics\, including chaos\, collective dynamics\, sta
+ tistical physics and biological systems. The Central Asian and Caucasian 
+ meeting promotes collaboration across nonlinear science and its physical 
+ applications. Its oral/poster submission form uses paper terminology\, bu
+ t the official date table specifies abstract submissions.\nAdditional top
+ ics: \nScope sources (2026): https://physics-congress.kz/dynamics_days\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://physics-congress.kz/dynamics_days
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Contributed talk/poster abstract submission dead
+ line (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:biomag-2026-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260501T115900Z
@@ -966,6 +1170,41 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  stract deadline remains an estimate until the submission page is rechecke
  d.
 URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
+ time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:iswc-2026-deadline-abstract@scientific-conference-calendar
@@ -1142,6 +1381,60 @@ DESCRIPTION:Conference title: IEEE International Conference on Machine Lear
  2026 CFP lists Rochester\, Oct 5-7\, and the main-conference paper deadli
  ne.
 URL:https://www.icmla-conference.org/icmla26/callforpapers.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T065900Z
+DTEND:20260516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Poster abstract submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260516T065900Z
+DTEND:20260516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Peer-reviewed proceedings paper submission deadline
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
 UID:ccs-2026-deadline-abstract@scientific-conference-calendar
@@ -1598,6 +1891,34 @@ DESCRIPTION:Conference title: IEEE International Conference on Data Science
 URL:https://dsaa-2026.vercel.app/key-dates
 END:VEVENT
 BEGIN:VEVENT
+UID:sfn-neuroscience-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260610T210000Z
+DTEND:20260610T220000Z
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2026 - Regular research abstract submission deadline
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings/neuroscience-2026\nSource URL: https://
+ www.sfn.org/cfa\nLocation: Washington\, DC\, USA\nTopics: Systems & Exper
+ imental Neuroscience\, Computational Neuroscience\, Cognitive Science & C
+ omputational Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmiss
+ ion type: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-08\nNotes: Annual broad neuroscience meeting. Research abstracts are a
+ rchived\, not peer-reviewed full-paper proceedings. Late-breaking submiss
+ ions opened September 8 and were capped at 2\,500\, so could close early.
+  Membership and presenter requirements apply. The late-breaking cutoff ho
+ ur was not verified. Size is an editorial estimate.\nScope: Broad neurosc
+ ience annual meeting spanning molecular and cellular neuroscience\, neura
+ l circuits\, systems and behavioral neuroscience\, cognition\, developmen
+ t and disease. Computational neuroscience\, neuroimaging and neurotechnol
+ ogy are relevant parts of this broad remit\, not its exclusive identity. 
+ Research abstracts are presented and archived\; they are not standard ful
+ l-paper conference proceedings.\nAdditional topics: EEG/MEG & Neural Sign
+ als\, BCI & Neurotechnology\nScope sources (2026): https://www.sfn.org/cf
+ a\, https://www.sfn.org/meetings\nScope last checked: 2026-10-08
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
 UID:aaltd-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260613T065900Z
@@ -1671,6 +1992,35 @@ DESCRIPTION:Conference title: European Conference on Visual Information Pro
 URL:https://euvip2026.github.io/
 END:VEVENT
 BEGIN:VEVENT
+UID:sab-2026-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260619
+DTEND;VALUE=DATE:20260620
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
 UID:wacv-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260620T115900Z
@@ -1717,6 +2067,34 @@ DESCRIPTION:Conference title: Artificial Intelligence Symposium (formerly L
  xtended Aug 18 second-batch countdown. The prior lod-2026 ID is retained 
  for stable calendar subscriptions.
 URL:https://ais2026.icas.events/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2026-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260626
+DTEND;VALUE=DATE:20260627
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2026 
+ - Research paper submission deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2026.ieee-biocas.org/2026/\nSource URL: https://2026
+ .ieee-biocas.org/2026/pages_submission/call_for_papers.vm\nLocation: Inch
+ eon\, South Korea\nTopics: Healthcare & Clinical AI\, BCI & Neurotechnolo
+ gy\, Signal Processing\, Neuromorphic & Brain-inspired Computing\nSize: M
+ \nSubmission type: Paper-based\nConfidence: confirmed\nLast checked date:
+  2026-10-08\nNotes: Main conference October 8-10\; adjacent workshops are
+  October 7 and 11. Reviewed accepted papers appear in IEEE proceedings. E
+ xact submission cutoff hour is unannounced. Size is an editorial estimate
+ .\nScope: Biomedical circuits\, integrated systems and medical devices sp
+ anning biosignal acquisition and processing\, neural interfaces\, implant
+ s\, bioelectronics and low-power or on-device biomedical computation. Bra
+ in-inspired hardware and machine learning are relevant when tied to biome
+ dical engineering\, rather than as generic algorithms.\nAdditional topics
+ : EEG/MEG & Neural Signals\, Machine Learning\, ML Systems & Infrastructu
+ re\nScope sources (2026): https://2026.ieee-biocas.org/2026/pages_submiss
+ ion/call_for_papers.vm\, https://2027.ieee-biocas.org/\nScope last checke
+ d: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unan
+ nounced. Verify the organizer's submission portal.
+URL:https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
 END:VEVENT
 BEGIN:VEVENT
 UID:wacv-2027-deadline-full-paper@scientific-conference-calendar
@@ -1812,6 +2190,41 @@ DESCRIPTION:Conference title: International Conference on Intelligent Data
  hecked date: 2026-08-31\nNotes: Official IDEAL 2026 pages confirm Manches
  ter\, Nov 19-21\, and the Jul 1 paper-submission deadline.
 URL:https://www.ideal2026.org/calls/key-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Full-length manuscript deadline for presented work
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:ieee-bhi-2026-deadline-regular-paper@scientific-conference-calendar
@@ -1994,6 +2407,64 @@ DESCRIPTION:Conference title: ACM International Conference on Multimedia\nW
  ial deadline day\; exact cutoff hour/timezone is unannounced. Verify the 
  organizer's submission portal.
 URL:https://2026.acmmm.org/site/important-dates.html
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2026-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260717
+DTEND;VALUE=DATE:20260718
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2026 - Camera-ready proceedings paper deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: Berlin\, Germany\n
+ Topics: Artificial Life & Adaptive Systems\, Computational Neuroscience\,
+  Cognitive Science & Computational Cognition\, Control & Robotics\nSize: 
+ M\nSubmission type: Reviewed papers + non-archival contributions\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Biennial ISAB confe
+ rence. Reviewed track-1 papers appear in Springer LNAI\; the other tracks
+  include non-archival papers\, poster abstracts and position papers. The 
+ stated submission cutoff is Pacific Time\, not AoE\; May 15 uses daylight
+  time. Size is an editorial estimate.\nScope: Understanding adaptive beha
+ vior through biological and artificial agents\, including embodied cognit
+ ion\, neural and computational models\, robotics\, learning\, evolution a
+ nd collective behavior. The biennial ISAB meeting combines archival proce
+ edings papers with deliberately non-archival contributions and poster abs
+ tracts.\nAdditional topics: Machine Learning\, Reinforcement Learning\, A
+ utonomous Agents & Multiagent Systems\nScope sources (2026): https://sab-
+ conference.org/call-for-contributions/\nScope last checked: 2026-10-08\nO
+ fficial deadline day\; exact cutoff hour/timezone is unannounced. Verify 
+ the organizer's submission portal.
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2026-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260721T115900Z
+DTEND:20260721T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2026 - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://2026.alife.org/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Waterloo\, Ontario\, Canada\nTopics: Artificial L
+ ife & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary
+  Computation & Optimization\, Cognitive Science & Computational Cognition
+ \nSize: L\nSubmission type: Full papers + non-archival abstracts\nConfide
+ nce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical baseline
+ . Reviewed full papers appear in MIT Press open-access proceedings\; pres
+ entation summaries and late-breaking abstracts are non-archival. The Apri
+ l date was an extension of the original March 30 cutoff. Size is an edito
+ rial estimate.\nScope: Artificial life and life-like processes in computa
+ tional\, robotic and biological systems. Central questions concern emerge
+ nce\, evolution\, adaptation\, embodied intelligence and cognition. Relev
+ ant ML work studies adaptive agents\, evolutionary learning and computati
+ onal models of living systems\; it is not a general-purpose AI conference
+ .\nAdditional topics: Autonomous Agents & Multiagent Systems\, Control & 
+ Robotics\, Machine Learning\nScope sources (2026): https://2026.alife.org
+ /call-for-papers/\, https://alife.org/conference/alife-2027/\nScope last 
+ checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:aaai-2027-deadline-abstract@scientific-conference-calendar
@@ -2681,6 +3152,97 @@ DESCRIPTION:Conference title: Machine Learning for Health Symposium\nWebsit
 URL:https://ml4h.ahli.cc/submit/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2026-deadline-extended-abstract@scientific-conference-
+ calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Extended abstract submission deadline (independent rout
+ e)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:complex-networks-2026-deadline-full-paper@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20260914T115900Z
+DTEND:20260914T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Extended full-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:sfn-neuroscience-2026-deadline-late-abstract@scientific-conference-cale
+ ndar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2026 - Late-breaking research abstract submission deadlin
+ e (cutoff time unannounced)
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings/neuroscience-2026\nSource URL: https://
+ www.sfn.org/cfa\nLocation: Washington\, DC\, USA\nTopics: Systems & Exper
+ imental Neuroscience\, Computational Neuroscience\, Cognitive Science & C
+ omputational Cognition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmiss
+ ion type: Abstract-based\nConfidence: confirmed\nLast checked date: 2026-
+ 10-08\nNotes: Annual broad neuroscience meeting. Research abstracts are a
+ rchived\, not peer-reviewed full-paper proceedings. Late-breaking submiss
+ ions opened September 8 and were capped at 2\,500\, so could close early.
+  Membership and presenter requirements apply. The late-breaking cutoff ho
+ ur was not verified. Size is an editorial estimate.\nScope: Broad neurosc
+ ience annual meeting spanning molecular and cellular neuroscience\, neura
+ l circuits\, systems and behavioral neuroscience\, cognition\, developmen
+ t and disease. Computational neuroscience\, neuroimaging and neurotechnol
+ ogy are relevant parts of this broad remit\, not its exclusive identity. 
+ Research abstracts are presented and archived\; they are not standard ful
+ l-paper conference proceedings.\nAdditional topics: EEG/MEG & Neural Sign
+ als\, BCI & Neurotechnology\nScope sources (2026): https://www.sfn.org/cf
+ a\, https://www.sfn.org/meetings\nScope last checked: 2026-10-08\nOfficia
+ l deadline day\; exact cutoff hour/timezone is unannounced. Verify the or
+ ganizer's submission portal.
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20260916T115900Z
@@ -3177,6 +3739,65 @@ DESCRIPTION:Conference title: International Conference on Autonomous Agents
 URL:https://warwick.ac.uk/fac/sci/dcs/aamas2027/calls/call-for-main-track/
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2026-deadline-camera-ready@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Camera-ready deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-lac-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261010
+DTEND;VALUE=DATE:20261011
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days LAC 2026 - Extended contributed abstract submission deadline (
+ cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Latin America and the Caribbean
+ \nWebsite: https://fisica.ufpr.br/DDaysLAC2026/index.html\nSource URL: ht
+ tps://fisica.ufpr.br/DDaysLAC2026/index.html\nLocation: Curitiba\, Brazil
+ \nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Network Science\
+ , Time Series & Sequential Data\, Computational Neuroscience\nSize: M\nSu
+ bmission type: Abstract-based\nConfidence: confirmed\nLast checked date: 
+ 2026-10-08\nNotes: Latest organizer cutoff is October 10. Biennial meetin
+ g resumed in 2024 after the pandemic gap. Contributions are talk/poster a
+ bstracts\; no current full-paper proceedings commitment verified. Exact c
+ utoff hour is unannounced. Size is an editorial estimate.\nScope: Nonline
+ ar and complex systems across disciplines\, including chaos\, synchroniza
+ tion\, networks\, time series\, neurodynamics and learning-based modeling
+ . The Latin American and Caribbean meeting supports contributed scientifi
+ c talks and posters through abstracts\, with an explicit interest in cros
+ s-disciplinary nonlinear science.\nAdditional topics: Machine Learning\, 
+ Graphs & Graph Learning\, Control & Robotics\nScope sources (2026): https
+ ://fisica.ufpr.br/DDaysLAC2026/page1.html\nScope last checked: 2026-10-08
+ \nOfficial deadline day\; exact cutoff hour/timezone is unannounced. Veri
+ fy the organizer's submission portal.
+URL:https://fisica.ufpr.br/DDaysLAC2026/index.html
+END:VEVENT
+BEGIN:VEVENT
 UID:eacl-2027-deadline-commitment@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261012T115900Z
@@ -3380,6 +4001,36 @@ DESCRIPTION:Conference title: Conference of the Nations of the Americas Cha
 URL:https://2027.naacl.org/calls/main_conference_papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:complex-networks-2026-deadline-registration@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] COMPLE
+ X NETWORKS 2026 - Author registration deadline (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks 
+ and Their Applications\nWebsite: https://complexnetworks.org/\nSource URL
+ : https://complexnetworks.org/submission/\nLocation: Granada\, Spain\nTop
+ ics: Complex Systems & Network Science\, Graphs & Graph Learning\, Nonlin
+ ear Dynamics & Chaos\, Data Mining & Data Science\nSize: L\nSubmission ty
+ pe: Paper-based + extended abstracts\nConfidence: confirmed\nLast checked
+  date: 2026-10-08\nNotes: Main conference December 2-4\; tutorials Decemb
+ er 1. Full papers appear in Springer Studies in Computational Intelligenc
+ e\; extended abstracts in a separate abstract book. Abstracts are an inde
+ pendent contribution\, not a prerequisite for full papers. Production cut
+ off hours are unannounced. Size is an editorial estimate.\nScope: Structu
+ re\, inference and dynamics of complex networks\, including community str
+ ucture\, multilayer and temporal networks\, spreading processes\, graph l
+ earning and network neuroscience. Network methods\, rather than a broad i
+ nventory of every application\, characterize the meeting. Full papers and
+  extended abstracts have separate publication outcomes.\nAdditional topic
+ s: Time Series & Sequential Data\, Machine Learning\, Computational Neuro
+ science\nScope sources (2026): https://complexnetworks.org/submission/\nS
+ cope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/
+ timezone is unannounced. Verify the organizer's submission portal.
+URL:https://complexnetworks.org/submission/
+END:VEVENT
+BEGIN:VEVENT
 UID:log-2026-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261016T115900Z
@@ -3429,6 +4080,88 @@ DESCRIPTION:Conference title: American Control Conference\nWebsite: https:/
  egory.\nOfficial deadline day\; exact cutoff hour/timezone is unannounced
  . Verify the organizer's submission portal.
 URL:https://acc2027.a2c2.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-extended-abstract@scientific-conference-calenda
+ r
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Extended abstract submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Long-paper submission deadline
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
+UID:complenet-2027-deadline-short-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261018T115900Z
+DTEND:20261018T125900Z
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Short-paper submission deadline (independent route)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08
+URL:https://complenet.github.io/cfp.html
 END:VEVENT
 BEGIN:VEVENT
 UID:cosyne-2027-deadline-abstract@scientific-conference-calendar
@@ -4020,6 +4753,34 @@ DESCRIPTION:Conference title: IEEE/CVF Conference on Computer Vision and Pa
 URL:https://cvpr.thecvf.com/Conferences/2027/CallForPapers
 END:VEVENT
 BEGIN:VEVENT
+UID:nice-2027-deadline-regular-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20261112T115900Z
+DTEND:20261112T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular research paper submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
 UID:aamas-2027-deadline-short-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261113T115900Z
@@ -4177,6 +4938,34 @@ DESCRIPTION:Conference title: European Symposium on Artificial Neural Netwo
 URL:https://www.esann.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:complenet-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261120
+DTEND;VALUE=DATE:20261121
+SUMMARY:[Complex Systems & Network Science][Graphs & Graph Learning] Comple
+ Net 2027 - Acceptance notification (cutoff time unannounced)
+DESCRIPTION:Conference title: International Conference on Complex Networks\
+ nWebsite: https://complenet.github.io/\nSource URL: https://complenet.git
+ hub.io/cfp.html\nLocation: Rochester\, New York\, USA\nTopics: Complex Sy
+ stems & Network Science\, Graphs & Graph Learning\, Nonlinear Dynamics & 
+ Chaos\, Computational Neuroscience\nSize: M\nSubmission type: Full/short 
+ papers + extended abstracts\nConfidence: confirmed\nLast checked date: 20
+ 26-10-08\nNotes: University of Rochester host. Reviewed long and short pa
+ pers appear in Springer Complexity\; the abstract-only route does not pro
+ duce a proceedings paper. All three routes share the AoE deadline\, with 
+ no mandatory abstract-registration gate. Size is an editorial estimate.\n
+ Scope: Network science across mathematical\, biological\, technological a
+ nd social systems\, with characteristic interests in network dynamics\, c
+ ommunity structure\, temporal and multilayer networks\, network neuroscie
+ nce and learning on networks. Long and short reviewed papers are distinct
+  from abstract-only presentations.\nAdditional topics: Time Series & Sequ
+ ential Data\, Data Mining & Data Science\, Machine Learning\nScope source
+ s (2027): https://complenet.github.io/cfp.html\nScope last checked: 2026-
+ 10-08\nOfficial deadline day\; exact cutoff hour/timezone is unannounced.
+  Verify the organizer's submission portal.
+URL:https://complenet.github.io/cfp.html
+END:VEVENT
+BEGIN:VEVENT
 UID:pakdd-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261121T115900Z
@@ -4212,6 +5001,36 @@ DESCRIPTION:Conference title: International Symposium on Intelligent Data A
  nal calendar placeholder. Submission dates are estimates preserving the 2
  026 CFP lead time and weekday\; verify against the 2027 CFP.
 URL:https://ida2026.org/regular-paper-track/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Contributed talk/poster abstract submission deadline
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/abstract-submission/\nL
+ ocation: La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\
+ , Complex Systems & Network Science\, System Identification & Data-driven
+  Dynamics\nSize: M\nSubmission type: Abstract-based\nConfidence: confirme
+ d\nLast checked date: 2026-10-08\nNotes: Official banner confirms January
+  4-6 at Scripps Seaside Forum. A selection of abstracts becomes single-tr
+ ack talks\; poster contributions are also expected. No archival full-pape
+ r proceedings verified. The November 22 deadline falls in 2026\, before t
+ he January 2027 meeting\; exact cutoff hour is unannounced. Size is an ed
+ itorial estimate.\nScope: Single-track nonlinear science meeting on chaos
+ \, dynamical systems and their interdisciplinary applications. Contribute
+ d abstract selection and poster discussion connect mathematical methods w
+ ith physical\, biological and neural systems. It is an abstract-based mee
+ ting\, not a routine archival full-paper proceedings venue.\nAdditional t
+ opics: Computational Neuroscience\, Time Series & Sequential Data\nScope 
+ sources (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/
+ abstract-submission/\nScope last checked: 2026-10-08\nOfficial deadline d
+ ay\; exact cutoff hour/timezone is unannounced. Verify the organizer's su
+ bmission portal.
+URL:https://www.ddays.org/2027/abstract-submission/
 END:VEVENT
 BEGIN:VEVENT
 UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
@@ -4308,6 +5127,37 @@ DESCRIPTION:Conference title: Medical Imaging with Deep Learning\nWebsite:
   (2026): https://2026.midl.io/call-for-papers\nScope last checked: 2026-1
  0-07
 URL:https://2027.midl.io/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-registration@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Early registration deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/registration/\nLocation
+ : La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\, Compl
+ ex Systems & Network Science\, System Identification & Data-driven Dynami
+ cs\nSize: M\nSubmission type: Abstract-based\nConfidence: confirmed\nLast
+  checked date: 2026-10-08\nNotes: Official banner confirms January 4-6 at
+  Scripps Seaside Forum. A selection of abstracts becomes single-track tal
+ ks\; poster contributions are also expected. No archival full-paper proce
+ edings verified. The November 22 deadline falls in 2026\, before the Janu
+ ary 2027 meeting\; exact cutoff hour is unannounced. Size is an editorial
+  estimate.\nScope: Single-track nonlinear science meeting on chaos\, dyna
+ mical systems and their interdisciplinary applications. Contributed abstr
+ act selection and poster discussion connect mathematical methods with phy
+ sical\, biological and neural systems. It is an abstract-based meeting\, 
+ not a routine archival full-paper proceedings venue.\nAdditional topics: 
+ Computational Neuroscience\, Time Series & Sequential Data\nScope sources
+  (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/abstrac
+ t-submission/\nScope last checked: 2026-10-08\nOfficial deadline day\; ex
+ act cutoff hour/timezone is unannounced. Verify the organizer's submissio
+ n portal.
+URL:https://www.ddays.org/2027/registration/
 END:VEVENT
 BEGIN:VEVENT
 UID:midl-2027-deadline-full-paper@scientific-conference-calendar
@@ -4436,6 +5286,38 @@ DESCRIPTION:Conference title: International Conference on Automated Plannin
 URL:https://icaps27.icaps-conference.org/calls/cfp/
 END:VEVENT
 BEGIN:VEVENT
+UID:bci-winter-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261215
+DTEND;VALUE=DATE:20261216
+SUMMARY:[BCI & Neurotechnology][EEG/MEG & Neural Signals] BCI Winter 2027 -
+  Estimated paper submission deadline (estimated) (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: International Winter Conference on Brain-Comp
+ uter Interface\nWebsite: https://brain.korea.ac.kr/bci2027/\nSource URL: 
+ https://brain.korea.ac.kr/bci2026/authorinstructions.php\nLocation: Jeong
+ seon\, South Korea\nTopics: BCI & Neurotechnology\, EEG/MEG & Neural Sign
+ als\, Signal Processing\, Machine Learning\nSize: M\nSubmission type: Pap
+ er-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Co
+ -organizer confirms February 22-24\, 2027 at High1 Resort\, Jeongseon. Th
+ e 2027 deadline is unannounced\; December 15 is a one-year proxy from the
+  final 2026 author instructions and CFP\, which supersede an older Octobe
+ r date. Prior six-page papers use IEEE proceedings subject to IEEE qualit
+ y review\; the 2027 publication details await the final CFP. The exact cu
+ toff hour is unknown. Size is an editorial estimate.\nScope: Brain-comput
+ er interfaces\, neural signal decoding\, multimodal brain measurements\, 
+ neurofeedback and adaptive interfaces. Machine learning is central to bio
+ signal classification and decoding\; neurorehabilitation and interaction 
+ with real or virtual environments are characteristic applications. IEEE-s
+ tyle reviewed research papers are the established publication route.\nAdd
+ itional topics: Healthcare & Clinical AI\, Neuroimaging & Brain Mapping\n
+ Scope sources (2027): https://brain.korea.ac.kr/bci2027/callforpaper.php\
+ , https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf\nScope last ch
+ ecked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is 
+ unannounced. Verify the organizer's submission portal.
+URL:https://brain.korea.ac.kr/bci2026/authorinstructions.php
+END:VEVENT
+BEGIN:VEVENT
 UID:ohbm-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261216T115900Z
@@ -4509,6 +5391,36 @@ DESCRIPTION:Conference title: IEEE Conference on Secure and Trustworthy Mac
  ng\, ML Systems & Infrastructure\nScope sources (2027): https://satml.org
  /call-for-papers/\nScope last checked: 2026-10-07
 URL:https://satml.org/call-for-papers/
+END:VEVENT
+BEGIN:VEVENT
+UID:nice-2027-deadline-notification@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261220
+DTEND;VALUE=DATE:20261221
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Regular paper acceptance notification (cutoff time unannou
+ nced)
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezo
+ ne is unannounced. Verify the organizer's submission portal.
+URL:https://easychair.org/cfp/nice2027
 END:VEVENT
 BEGIN:VEVENT
 UID:coling-2027-deadline-commitment@scientific-conference-calendar
@@ -5423,6 +6335,34 @@ DESCRIPTION:Conference title: ACM SIGKDD Conference on Knowledge Discovery
 URL:https://kdd2026.kdd.org/research-track-call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
+UID:nice-2027-deadline-late-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270202T115900Z
+DTEND:20270202T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Late-breaking abstract submission deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
 UID:cogsci-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270203T115900Z
@@ -6059,6 +6999,34 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
+UID:nice-2027-deadline-camera-ready@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270310T115900Z
+DTEND:20270310T125900Z
+SUMMARY:[Neuromorphic & Brain-inspired Computing][Computational Neuroscienc
+ e] NICE 2027 - Camera-ready research paper deadline
+DESCRIPTION:Conference title: Neuro Inspired Computational Elements Confere
+ nce\nWebsite: https://niceworkshop.org/nice-2027/\nSource URL: https://ea
+ sychair.org/cfp/nice2027\nLocation: Brighton\, United Kingdom\nTopics: Ne
+ uromorphic & Brain-inspired Computing\, Computational Neuroscience\, Mach
+ ine Learning\, BCI & Neurotechnology\nSize: M\nSubmission type: Research 
+ papers + late-breaking abstracts\nConfidence: confirmed\nLast checked dat
+ e: 2026-10-08\nNotes: Main conference April 6-8\; dedicated tutorials Apr
+ il 9. Accepted proceedings research papers are published through IEEE\; l
+ ate-breaking abstracts are non-archival\, and some poster contributions m
+ ay not enter the proceedings. Neither a scheduled opening nor a live subm
+ ission portal has been verified. Size is an editorial estimate.\nScope: N
+ euromorphic and brain-inspired computing at the intersection of neuroscie
+ nce\, algorithms and hardware. Characteristic work includes spiking neura
+ l networks\, learning in neural systems\, event-driven computation\, neur
+ omorphic processors and embodied applications. Research papers and late-b
+ reaking abstracts are different contribution routes.\nAdditional topics: 
+ ML Systems & Infrastructure\, Deep Representation Learning\, Control & Ro
+ botics\nScope sources (2027): https://easychair.org/cfp/nice2027\nScope l
+ ast checked: 2026-10-08
+URL:https://easychair.org/cfp/nice2027
+END:VEVENT
+BEGIN:VEVENT
 UID:acc-2027-deadline-camera-ready@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270312
@@ -6387,6 +7355,34 @@ DESCRIPTION:Conference title: Conference on Language Modeling\nWebsite: htt
  ltimedia Learning & Retrieval\nScope sources (2026): https://colm.cc/Conf
  erences/2026/CallForPapers\nScope last checked: 2026-10-07
 URL:https://colm.cc/Conferences/2026/CallForPapers
+END:VEVENT
+BEGIN:VEVENT
+UID:alife-2027-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270331T115900Z
+DTEND:20270331T125900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Complex Systems & Network Scie
+ nce] ALIFE 2027 - Estimated full-paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Artificial Life\n
+ Website: https://alife.vscht.cz/\nSource URL: https://2026.alife.org/call
+ -for-papers/\nLocation: Prague\, Czech Republic\nTopics: Artificial Life 
+ & Adaptive Systems\, Complex Systems & Network Science\, Evolutionary Com
+ putation & Optimization\, Cognitive Science & Computational Cognition\nSi
+ ze: L\nSubmission type: Full papers + non-archival abstracts\nConfidence:
+  estimated\nLast checked date: 2026-10-08\nNotes: Organizer confirms July
+  19-23 in Prague\, but the 2027 call is not announced. The full-paper cut
+ off is a one-year proxy from the original 2026 March 30 deadline\, not it
+ s extension. No late-breaking abstract date is copied because the meeting
+  has moved earlier. Size is an editorial estimate.\nScope: Artificial lif
+ e and life-like processes in computational\, robotic and biological syste
+ ms. Central questions concern emergence\, evolution\, adaptation\, embodi
+ ed intelligence and cognition. Relevant ML work studies adaptive agents\,
+  evolutionary learning and computational models of living systems\; it is
+  not a general-purpose AI conference.\nAdditional topics: Autonomous Agen
+ ts & Multiagent Systems\, Control & Robotics\, Machine Learning\nScope so
+ urces (2026): https://2026.alife.org/call-for-papers/\, https://alife.org
+ /conference/alife-2027/\nScope last checked: 2026-10-08
+URL:https://2026.alife.org/call-for-papers/
 END:VEVENT
 BEGIN:VEVENT
 UID:colm-2027-deadline-full-paper@scientific-conference-calendar
@@ -6858,6 +7854,35 @@ DESCRIPTION:Conference title: IEEE Engineering in Medicine and Biology Conf
 URL:https://embc.embs.org/2027/important-dates/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Estimated contributed talk/poster abstract submi
+ ssion deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://dde-2026.sci-meet.net/important-date
+ s\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Comple
+ x Systems & Network Science\, Time Series & Sequential Data\, System Iden
+ tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
+ ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
+ ced next annual edition. Meeting dates and the contributed abstract deadl
+ ine are one-year proxies from 2026\, with no assumed host location. Size 
+ is an editorial estimate.\nScope: Theory and applications of nonlinear dy
+ namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
+ lex networks\, stochastic dynamics and time-series analysis. ML and neuro
+ dynamics are characteristic interdisciplinary extensions. Contributed tal
+ ks and posters use abstracts\, while minisymposium proposals are organize
+ r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
+ ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
+ : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
+ : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270430
@@ -7006,6 +8031,36 @@ DESCRIPTION:Conference title: Conference on Learning Theory\nWebsite: https
  rces (2026): https://learningtheory.org/colt2026/cfp.html\nScope last che
  cked: 2026-10-07
 URL:https://learningtheory.org/colt2027/
+END:VEVENT
+BEGIN:VEVENT
+UID:ieee-biocas-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270507
+DTEND;VALUE=DATE:20270508
+SUMMARY:[Healthcare & Clinical AI][BCI & Neurotechnology] IEEE BioCAS 2027 
+ - Abstract submission deadline (IEEE society calendar) (cutoff time unann
+ ounced)
+DESCRIPTION:Conference title: IEEE Biomedical Circuits and Systems Conferen
+ ce\nWebsite: https://2027.ieee-biocas.org/\nSource URL: https://sscs.ieee
+ .org/conferences/upcoming-conferences/\nLocation: Oslo\, Norway\nTopics: 
+ Healthcare & Clinical AI\, BCI & Neurotechnology\, Signal Processing\, Ne
+ uromorphic & Brain-inspired Computing\nSize: M\nSubmission type: Paper-ba
+ sed\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Officia
+ l 2027 host confirms Oslo and October 14-16. IEEE SSCS lists May 7 as Abs
+ tract Submission Date\; it is retained with that exact action\, not relab
+ eled as a paper deadline or made a mandatory paper gate. The final 2027 C
+ FP\, full-paper deadline and cutoff hour still require review. Size is an
+  editorial estimate.\nScope: Biomedical circuits\, integrated systems and
+  medical devices spanning biosignal acquisition and processing\, neural i
+ nterfaces\, implants\, bioelectronics and low-power or on-device biomedic
+ al computation. Brain-inspired hardware and machine learning are relevant
+  when tied to biomedical engineering\, rather than as generic algorithms.
+ \nAdditional topics: EEG/MEG & Neural Signals\, Machine Learning\, ML Sys
+ tems & Infrastructure\nScope sources (2026): https://2026.ieee-biocas.org
+ /2026/pages_submission/call_for_papers.vm\, https://2027.ieee-biocas.org/
+ \nScope last checked: 2026-10-08\nOfficial deadline day\; exact cutoff ho
+ ur/timezone is unannounced. Verify the organizer's submission portal.
+URL:https://sscs.ieee.org/conferences/upcoming-conferences/
 END:VEVENT
 BEGIN:VEVENT
 UID:iswc-2027-deadline-full-paper@scientific-conference-calendar
@@ -7266,6 +8321,34 @@ DESCRIPTION:Conference title: Annual Conference of the International Speech
 URL:https://interspeech2027.org/calls/call_show_and_tell/
 END:VEVENT
 BEGIN:VEVENT
+UID:sfn-neuroscience-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20270610T210000Z
+DTEND:20270610T220000Z
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] S
+ fN Neuroscience 2027 - Estimated regular research abstract submission dea
+ dline (estimated)
+DESCRIPTION:Conference title: Society for Neuroscience Annual Meeting\nWebs
+ ite: https://www.sfn.org/meetings\nSource URL: https://www.sfn.org/cfa\nL
+ ocation: Chicago\, Illinois\, USA\nTopics: Systems & Experimental Neurosc
+ ience\, Computational Neuroscience\, Cognitive Science & Computational Co
+ gnition\, Neuroimaging & Brain Mapping\nSize: XXL\nSubmission type: Abstr
+ act-based\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: S
+ fN confirms the Chicago meeting dates. The regular abstract deadline is a
+  one-year proxy from 2026\, not a published 2027 call. No opening date\, 
+ late-breaking capacity or proceedings-paper route is assumed. Size is an 
+ editorial estimate.\nScope: Broad neuroscience annual meeting spanning mo
+ lecular and cellular neuroscience\, neural circuits\, systems and behavio
+ ral neuroscience\, cognition\, development and disease. Computational neu
+ roscience\, neuroimaging and neurotechnology are relevant parts of this b
+ road remit\, not its exclusive identity. Research abstracts are presented
+  and archived\; they are not standard full-paper conference proceedings.\
+ nAdditional topics: EEG/MEG & Neural Signals\, BCI & Neurotechnology\nSco
+ pe sources (2026): https://www.sfn.org/cfa\, https://www.sfn.org/meetings
+ \nScope last checked: 2026-10-08
+URL:https://www.sfn.org/cfa
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-mlsp-2027-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20270613T115900Z
@@ -7522,6 +8605,34 @@ DESCRIPTION:Conference title: International Conference on Pattern Recogniti
 URL:https://icpr2026.org/files/flyerCallFP.pdf
 END:VEVENT
 BEGIN:VEVENT
+UID:areadne-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20280130
+DTEND;VALUE=DATE:20280131
+SUMMARY:[Systems & Experimental Neuroscience][Computational Neuroscience] A
+ READNE 2028 - Estimated contributed abstract submission deadline (estimat
+ ed) (cutoff time unannounced)
+DESCRIPTION:Conference title: AREADNE: Research in Encoding and Decoding of
+  Neural Ensembles\nWebsite: https://areadne.org/\nSource URL: https://are
+ adne.org/\nLocation: To be announced\nTopics: Systems & Experimental Neur
+ oscience\, Computational Neuroscience\, BCI & Neurotechnology\nSize: S\nS
+ ubmission type: Abstract-based\nConfidence: estimated\nLast checked date:
+  2026-10-08\nNotes: Unannounced next biennial edition. Dates are two-year
+  proxies from 2026\; location is not assumed. The contribution is an abst
+ ract\, not an archival paper\, and the cutoff hour is unannounced. Size i
+ s an editorial estimate.\nScope: Encoding and decoding of neural ensemble
+ s\, with emphasis on systems neuroscience\, neural population recordings\
+ , neural representations\, computation and links to behavior. It is a foc
+ used experimental/computational neuroscience meeting rather than a genera
+ l neuroscience congress. Contributions are reviewed abstracts for talks a
+ nd posters\; its proceedings book is a collection of abstracts.\nAddition
+ al topics: Cognitive Science & Computational Cognition\nScope sources (20
+ 26): https://areadne.org/\nScope last checked: 2026-10-08\nOfficial deadl
+ ine day\; exact cutoff hour/timezone is unannounced. Verify the organizer
+ 's submission portal.
+URL:https://areadne.org/
+END:VEVENT
+BEGIN:VEVENT
 UID:eccv-2028-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20280226T220000Z
@@ -7596,6 +8707,58 @@ DESCRIPTION:Conference title: International Conference on Biomagnetism\nWeb
  es\, location\, and deadlines require organizer confirmation\; website an
  d source links refer to the prior edition.
 URL:https://mm.scimeeting.cn/en/web/index/31426
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2028 - Estimated poster abstract submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: To be announced\nT
+ opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
+ Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
+ \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
+ ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
+ nnial edition\; meeting dates and deadlines are two-year proxies from 202
+ 6\, and no host location is assumed. Size is an editorial estimate.\nScop
+ e: Understanding adaptive behavior through biological and artificial agen
+ ts\, including embodied cognition\, neural and computational models\, rob
+ otics\, learning\, evolution and collective behavior. The biennial ISAB m
+ eeting combines archival proceedings papers with deliberately non-archiva
+ l contributions and poster abstracts.\nAdditional topics: Machine Learnin
+ g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
+ e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
+ pe last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
+END:VEVENT
+BEGIN:VEVENT
+UID:sab-2028-deadline-full-paper@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART:20280516T065900Z
+DTEND:20280516T075900Z
+SUMMARY:[Artificial Life & Adaptive Systems][Computational Neuroscience] SA
+ B 2028 - Estimated proceedings paper submission deadline (estimated)
+DESCRIPTION:Conference title: International Conference on Simulation of Ada
+ ptive Behavior\nWebsite: https://sab-conference.org/\nSource URL: https:/
+ /sab-conference.org/call-for-contributions/\nLocation: To be announced\nT
+ opics: Artificial Life & Adaptive Systems\, Computational Neuroscience\, 
+ Cognitive Science & Computational Cognition\, Control & Robotics\nSize: M
+ \nSubmission type: Reviewed papers + non-archival contributions\nConfiden
+ ce: estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next bie
+ nnial edition\; meeting dates and deadlines are two-year proxies from 202
+ 6\, and no host location is assumed. Size is an editorial estimate.\nScop
+ e: Understanding adaptive behavior through biological and artificial agen
+ ts\, including embodied cognition\, neural and computational models\, rob
+ otics\, learning\, evolution and collective behavior. The biennial ISAB m
+ eeting combines archival proceedings papers with deliberately non-archiva
+ l contributions and poster abstracts.\nAdditional topics: Machine Learnin
+ g\, Reinforcement Learning\, Autonomous Agents & Multiagent Systems\nScop
+ e sources (2026): https://sab-conference.org/call-for-contributions/\nSco
+ pe last checked: 2026-10-08
+URL:https://sab-conference.org/call-for-contributions/
 END:VEVENT
 BEGIN:VEVENT
 UID:s-sspr-2028-deadline-full-paper@scientific-conference-calendar

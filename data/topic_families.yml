@@ -40,6 +40,7 @@ families:
       - System Identification & Data-driven Dynamics
       - Time Series & Sequential Data
       - Signal Processing
+      - Artificial Life & Adaptive Systems
   - id: healthcare
     label: Healthcare & Biometrics
     topics:
@@ -54,6 +55,8 @@ families:
       - BCI & Neurotechnology
       - Neuroimaging & Brain Mapping
       - Cognitive Science & Computational Cognition
+      - Neuromorphic & Brain-inspired Computing
+      - Systems & Experimental Neuroscience
   - id: responsible-ai
     label: Responsible & Trustworthy AI
     topics:
@@ -104,3 +107,6 @@ labels:
   Information Retrieval & Search: Information retrieval & RAG
   Recommender Systems: Recommender systems
   Graphs & Graph Learning: Graphs & graph learning
+  Artificial Life & Adaptive Systems: Artificial life & adaptive systems
+  Neuromorphic & Brain-inspired Computing: Neuromorphic & brain-inspired computing
+  Systems & Experimental Neuroscience: Systems & experimental neuroscience

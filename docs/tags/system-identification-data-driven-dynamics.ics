@@ -26,6 +26,103 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
 URL:https://cdc2026.ieeecss.org/
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-minisymposium-proposal@scientific-co
+ nference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260405
+DTEND;VALUE=DATE:20260406
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Extended minisymposium proposal deadline (cutoff
+  time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260427
+DTEND;VALUE=DATE:20260428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Contributed talk/poster abstract submission dead
+ line (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/important-dat
+ es\nLocation: Lisbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Com
+ plex Systems & Network Science\, Time Series & Sequential Data\, System I
+ dentification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-
+ based\nConfidence: confirmed\nLast checked date: 2026-10-08\nNotes: Histo
+ rical annual meeting. Contributions are talk/poster abstracts collected i
+ n a book of abstracts\, not standard full-paper proceedings. Minisymposiu
+ m organization is a separate non-contribution milestone. Abstract submitt
+ ers had to complete fee payment by May 29. Exact cutoff hours were unanno
+ unced. Size is an editorial estimate.\nScope: Theory and applications of 
+ nonlinear dynamics: chaos\, bifurcations\, synchronization\, pattern form
+ ation\, complex networks\, stochastic dynamics and time-series analysis. 
+ ML and neurodynamics are characteristic interdisciplinary extensions. Con
+ tributed talks and posters use abstracts\, while minisymposium proposals 
+ are organizer activity.\nAdditional topics: Machine Learning\, Computatio
+ nal Neuroscience\, Control & Robotics\, Graphs & Graph Learning\nScope so
+ urces (2026): https://dde-2026.sci-meet.net/abstract-submission-2\nScope 
+ last checked: 2026-10-08\nOfficial deadline day\; exact cutoff hour/timez
+ one is unannounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260501
+DTEND;VALUE=DATE:20260502
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Presentation abstract submission deadline (cutoff 
+ time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2026-deadline-full-paper@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260503
@@ -85,6 +182,41 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
 URL:https://www.ieeesmc2026.org/Important-Dates
 END:VEVENT
 BEGIN:VEVENT
+UID:nodycon-2026-deadline-journal-manuscript@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260703
+DTEND;VALUE=DATE:20260704
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Full-length manuscript deadline for presented work
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi
+ /conferenza/nodycon-2026\nLocation: Rome\, Italy\nTopics: Nonlinear Dynam
+ ics & Chaos\, System Identification & Data-driven Dynamics\, Control & Ro
+ botics\, Complex Systems & Network Science\nSize: L\nSubmission type: Abs
+ tract-based + selected journal papers\nConfidence: confirmed\nLast checke
+ d date: 2026-10-08\nNotes: Historical 2026 meeting. Selected presented pa
+ pers may be considered for Nonlinear Dynamics after additional journal re
+ view\; that manuscript step is not a fresh conference submission. Prior e
+ ditions have Springer proceedings\, but no blanket 2026 proceedings promi
+ se is asserted. The 2025-to-2026 change breaks the earlier biennial caden
+ ce\; the next edition is unannounced. Cutoff hours are unannounced. Size 
+ is an editorial estimate.\nScope: Nonlinear dynamics in engineering and p
+ hysical systems: bifurcations\, chaos\, vibrations\, synchronization\, no
+ nlinear control\, system identification and data-driven dynamical modelin
+ g. Machine learning is relevant through discovering\, forecasting or cont
+ rolling dynamics. Publication is edition-specific: past Springer volumes 
+ do not imply that every later meeting has standard proceedings.\nAddition
+ al topics: Time Series & Sequential Data\, Machine Learning\nScope source
+ s (2026): https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/
+ prossimi-eventi/conferenza/nodycon-2026\nScope last checked: 2026-10-08\n
+ Official deadline day\; exact cutoff hour/timezone is unannounced. Verify
+  the organizer's submission portal.
+URL:https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi
+ -eventi/conferenza/nodycon-2026
+END:VEVENT
+BEGIN:VEVENT
 UID:smc-2026-deadline-extended-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20260712
@@ -112,6 +244,35 @@ DESCRIPTION:Conference title: IEEE International Conference on Systems\, Ma
  st checked: 2026-10-07\nOfficial deadline day\; exact cutoff hour/timezon
  e is unannounced. Verify the organizer's submission portal.
 URL:https://www.ieeesmc2026.org/Important-Dates
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260719
+DTEND;VALUE=DATE:20260725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2026 - Conference
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://dde-20
+ 26.sci-meet.net/\nSource URL: https://dde-2026.sci-meet.net/\nLocation: L
+ isbon\, Portugal\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & 
+ Network Science\, Time Series & Sequential Data\, System Identification &
+  Data-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfiden
+ ce: confirmed\nLast checked date: 2026-10-08\nNotes: Historical annual me
+ eting. Contributions are talk/poster abstracts collected in a book of abs
+ tracts\, not standard full-paper proceedings. Minisymposium organization 
+ is a separate non-contribution milestone. Abstract submitters had to comp
+ lete fee payment by May 29. Exact cutoff hours were unannounced. Size is 
+ an editorial estimate.\nScope: Theory and applications of nonlinear dynam
+ ics: chaos\, bifurcations\, synchronization\, pattern formation\, complex
+  networks\, stochastic dynamics and time-series analysis. ML and neurodyn
+ amics are characteristic interdisciplinary extensions. Contributed talks 
+ and posters use abstracts\, while minisymposium proposals are organizer a
+ ctivity.\nAdditional topics: Machine Learning\, Computational Neuroscienc
+ e\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026): h
+ ttps://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked: 2
+ 026-10-08
+URL:https://dde-2026.sci-meet.net/
+LOCATION:Lisbon\, Portugal
 END:VEVENT
 BEGIN:VEVENT
 UID:fmts-neurips-2026-deadline-short-paper@scientific-conference-calendar
@@ -189,6 +350,38 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  e day\; exact cutoff hour/timezone is unannounced. Verify the organizer's
   submission portal.
 URL:https://cdc2026.ieeecss.org/
+END:VEVENT
+BEGIN:VEVENT
+UID:nodycon-2026-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20260920
+DTEND;VALUE=DATE:20260924
+SUMMARY:[Nonlinear Dynamics & Chaos][System Identification & Data-driven Dy
+ namics] NODYCON 2026 - Conference
+DESCRIPTION:Conference title: International Nonlinear Dynamics Conference\n
+ Website: https://nodycon2026.app.earendelplatform.com/\nSource URL: https
+ ://nodycon2026.app.earendelplatform.com/\nLocation: Rome\, Italy\nTopics:
+  Nonlinear Dynamics & Chaos\, System Identification & Data-driven Dynamic
+ s\, Control & Robotics\, Complex Systems & Network Science\nSize: L\nSubm
+ ission type: Abstract-based + selected journal papers\nConfidence: confir
+ med\nLast checked date: 2026-10-08\nNotes: Historical 2026 meeting. Selec
+ ted presented papers may be considered for Nonlinear Dynamics after addit
+ ional journal review\; that manuscript step is not a fresh conference sub
+ mission. Prior editions have Springer proceedings\, but no blanket 2026 p
+ roceedings promise is asserted. The 2025-to-2026 change breaks the earlie
+ r biennial cadence\; the next edition is unannounced. Cutoff hours are un
+ announced. Size is an editorial estimate.\nScope: Nonlinear dynamics in e
+ ngineering and physical systems: bifurcations\, chaos\, vibrations\, sync
+ hronization\, nonlinear control\, system identification and data-driven d
+ ynamical modeling. Machine learning is relevant through discovering\, for
+ ecasting or controlling dynamics. Publication is edition-specific: past S
+ pringer volumes do not imply that every later meeting has standard procee
+ dings.\nAdditional topics: Time Series & Sequential Data\, Machine Learni
+ ng\nScope sources (2026): https://www.sisco-scienzadellecostruzioni.org/i
+ ndex.php/eventi/prossimi-eventi/conferenza/nodycon-2026\nScope last check
+ ed: 2026-10-08
+URL:https://nodycon2026.app.earendelplatform.com/
+LOCATION:Rome\, Italy
 END:VEVENT
 BEGIN:VEVENT
 UID:acc-2027-deadline-full-paper@scientific-conference-calendar
@@ -388,6 +581,36 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-abstract@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261122
+DTEND;VALUE=DATE:20261123
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Contributed talk/poster abstract submission deadline
+  (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/abstract-submission/\nL
+ ocation: La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\
+ , Complex Systems & Network Science\, System Identification & Data-driven
+  Dynamics\nSize: M\nSubmission type: Abstract-based\nConfidence: confirme
+ d\nLast checked date: 2026-10-08\nNotes: Official banner confirms January
+  4-6 at Scripps Seaside Forum. A selection of abstracts becomes single-tr
+ ack talks\; poster contributions are also expected. No archival full-pape
+ r proceedings verified. The November 22 deadline falls in 2026\, before t
+ he January 2027 meeting\; exact cutoff hour is unannounced. Size is an ed
+ itorial estimate.\nScope: Single-track nonlinear science meeting on chaos
+ \, dynamical systems and their interdisciplinary applications. Contribute
+ d abstract selection and poster discussion connect mathematical methods w
+ ith physical\, biological and neural systems. It is an abstract-based mee
+ ting\, not a routine archival full-paper proceedings venue.\nAdditional t
+ opics: Computational Neuroscience\, Time Series & Sequential Data\nScope 
+ sources (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/
+ abstract-submission/\nScope last checked: 2026-10-08\nOfficial deadline d
+ ay\; exact cutoff hour/timezone is unannounced. Verify the organizer's su
+ bmission portal.
+URL:https://www.ddays.org/2027/abstract-submission/
+END:VEVENT
+BEGIN:VEVENT
 UID:siam-ds-2027-deadline-abstract@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART:20261124T045900Z
@@ -407,6 +630,37 @@ DESCRIPTION:Conference title: SIAM Conference on Applications of Dynamical
   category.
 URL:https://www.siam.org/conferences-events/siam-conferences/ds27/submissio
  ns/
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-deadline-registration@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Early registration deadline (cutoff time unannounced
+ )
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/registration/\nLocation
+ : La Jolla\, California\, USA\nTopics: Nonlinear Dynamics & Chaos\, Compl
+ ex Systems & Network Science\, System Identification & Data-driven Dynami
+ cs\nSize: M\nSubmission type: Abstract-based\nConfidence: confirmed\nLast
+  checked date: 2026-10-08\nNotes: Official banner confirms January 4-6 at
+  Scripps Seaside Forum. A selection of abstracts becomes single-track tal
+ ks\; poster contributions are also expected. No archival full-paper proce
+ edings verified. The November 22 deadline falls in 2026\, before the Janu
+ ary 2027 meeting\; exact cutoff hour is unannounced. Size is an editorial
+  estimate.\nScope: Single-track nonlinear science meeting on chaos\, dyna
+ mical systems and their interdisciplinary applications. Contributed abstr
+ act selection and poster discussion connect mathematical methods with phy
+ sical\, biological and neural systems. It is an abstract-based meeting\, 
+ not a routine archival full-paper proceedings venue.\nAdditional topics: 
+ Computational Neuroscience\, Time Series & Sequential Data\nScope sources
+  (2027): https://www.ddays.org/2027/\, https://www.ddays.org/2027/abstrac
+ t-submission/\nScope last checked: 2026-10-08\nOfficial deadline day\; ex
+ act cutoff hour/timezone is unannounced. Verify the organizer's submissio
+ n portal.
+URL:https://www.ddays.org/2027/registration/
 END:VEVENT
 BEGIN:VEVENT
 UID:rss-2027-deadline-extended-abstract@scientific-conference-calendar
@@ -481,6 +735,34 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  stimated end-of-day AoE. Size is an editorial category.
 URL:https://cdc2026.ieeecss.org/
 LOCATION:Honolulu\, Hawaii\, USA
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-us-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270104
+DTEND;VALUE=DATE:20270107
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days US 2027 - Conference
+DESCRIPTION:Conference title: Dynamics Days US\nWebsite: https://www.ddays.
+ org/2027/\nSource URL: https://www.ddays.org/2027/\nLocation: La Jolla\, 
+ California\, USA\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & 
+ Network Science\, System Identification & Data-driven Dynamics\nSize: M\n
+ Submission type: Abstract-based\nConfidence: confirmed\nLast checked date
+ : 2026-10-08\nNotes: Official banner confirms January 4-6 at Scripps Seas
+ ide Forum. A selection of abstracts becomes single-track talks\; poster c
+ ontributions are also expected. No archival full-paper proceedings verifi
+ ed. The November 22 deadline falls in 2026\, before the January 2027 meet
+ ing\; exact cutoff hour is unannounced. Size is an editorial estimate.\nS
+ cope: Single-track nonlinear science meeting on chaos\, dynamical systems
+  and their interdisciplinary applications. Contributed abstract selection
+  and poster discussion connect mathematical methods with physical\, biolo
+ gical and neural systems. It is an abstract-based meeting\, not a routine
+  archival full-paper proceedings venue.\nAdditional topics: Computational
+  Neuroscience\, Time Series & Sequential Data\nScope sources (2027): http
+ s://www.ddays.org/2027/\, https://www.ddays.org/2027/abstract-submission/
+ \nScope last checked: 2026-10-08
+URL:https://www.ddays.org/2027/
+LOCATION:La Jolla\, California\, USA
 END:VEVENT
 BEGIN:VEVENT
 UID:ifac-sysid-2027-deadline-discussion-paper@scientific-conference-calenda
@@ -784,6 +1066,35 @@ DESCRIPTION:Conference title: Learning for Dynamics and Control\nWebsite: h
 URL:https://l4dc2027.control.ee.ethz.ch/home
 END:VEVENT
 BEGIN:VEVENT
+UID:dynamics-days-europe-2027-deadline-abstract@scientific-conference-calen
+ dar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Estimated contributed talk/poster abstract submi
+ ssion deadline (estimated) (cutoff time unannounced)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://dde-2026.sci-meet.net/important-date
+ s\nLocation: To be announced\nTopics: Nonlinear Dynamics & Chaos\, Comple
+ x Systems & Network Science\, Time Series & Sequential Data\, System Iden
+ tification & Data-driven Dynamics\nSize: L\nSubmission type: Abstract-bas
+ ed\nConfidence: estimated\nLast checked date: 2026-10-08\nNotes: Unannoun
+ ced next annual edition. Meeting dates and the contributed abstract deadl
+ ine are one-year proxies from 2026\, with no assumed host location. Size 
+ is an editorial estimate.\nScope: Theory and applications of nonlinear dy
+ namics: chaos\, bifurcations\, synchronization\, pattern formation\, comp
+ lex networks\, stochastic dynamics and time-series analysis. ML and neuro
+ dynamics are characteristic interdisciplinary extensions. Contributed tal
+ ks and posters use abstracts\, while minisymposium proposals are organize
+ r activity.\nAdditional topics: Machine Learning\, Computational Neurosci
+ ence\, Control & Robotics\, Graphs & Graph Learning\nScope sources (2026)
+ : https://dde-2026.sci-meet.net/abstract-submission-2\nScope last checked
+ : 2026-10-08\nOfficial deadline day\; exact cutoff hour/timezone is unann
+ ounced. Verify the organizer's submission portal.
+URL:https://dde-2026.sci-meet.net/important-dates
+END:VEVENT
+BEGIN:VEVENT
 UID:ieee-cdc-2027-deadline-workshop@scientific-conference-calendar
 DTSTAMP:19700101T000000Z
 DTSTART;VALUE=DATE:20270430
@@ -1061,6 +1372,32 @@ DESCRIPTION:Conference title: IEEE Conference on Decision and Control\nWebs
  \; exact cutoff hour/timezone is unannounced. Verify the organizer's subm
  ission portal.
 URL:https://cdc2027.ieeecss.org/authors/call-for-papers
+END:VEVENT
+BEGIN:VEVENT
+UID:dynamics-days-europe-2027-conference@scientific-conference-calendar
+DTSTAMP:19700101T000000Z
+DTSTART;VALUE=DATE:20270719
+DTEND;VALUE=DATE:20270725
+SUMMARY:[Nonlinear Dynamics & Chaos][Complex Systems & Network Science] Dyn
+ amics Days Europe 2027 - Conference (estimated)
+DESCRIPTION:Conference title: Dynamics Days Europe\nWebsite: https://www.dy
+ namicsdays.org/\nSource URL: https://www.dynamicsdays.org/\nLocation: To 
+ be announced\nTopics: Nonlinear Dynamics & Chaos\, Complex Systems & Netw
+ ork Science\, Time Series & Sequential Data\, System Identification & Dat
+ a-driven Dynamics\nSize: L\nSubmission type: Abstract-based\nConfidence: 
+ estimated\nLast checked date: 2026-10-08\nNotes: Unannounced next annual 
+ edition. Meeting dates and the contributed abstract deadline are one-year
+  proxies from 2026\, with no assumed host location. Size is an editorial 
+ estimate.\nScope: Theory and applications of nonlinear dynamics: chaos\, 
+ bifurcations\, synchronization\, pattern formation\, complex networks\, s
+ tochastic dynamics and time-series analysis. ML and neurodynamics are cha
+ racteristic interdisciplinary extensions. Contributed talks and posters u
+ se abstracts\, while minisymposium proposals are organizer activity.\nAdd
+ itional topics: Machine Learning\, Computational Neuroscience\, Control &
+  Robotics\, Graphs & Graph Learning\nScope sources (2026): https://dde-20
+ 26.sci-meet.net/abstract-submission-2\nScope last checked: 2026-10-08
+URL:https://www.dynamicsdays.org/
+LOCATION:To be announced
 END:VEVENT
 BEGIN:VEVENT
 UID:smc-2027-conference@scientific-conference-calendar

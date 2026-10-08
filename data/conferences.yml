@@ -5346,3 +5346,848 @@
   notes: Society confirms the 2027 host city. October 7-10 appears only in the hosting proposal,
     so remains provisional; deadlines are one-year proxies from 2026. Do not present proposal
     dates or unannounced cutoff hours as confirmed. Size is an editorial estimate.
+
+# Complex systems and neuroscience additions reviewed 2026-10-08.
+- id: complex-networks-2026
+  series: COMPLEX NETWORKS
+  year: 2026
+  title: International Conference on Complex Networks and Their Applications
+  short_title: COMPLEX NETWORKS 2026
+  website: https://complexnetworks.org/
+  cfp_url: https://complexnetworks.org/submission/
+  source_urls:
+  - https://complexnetworks.org/
+  - https://complexnetworks.org/submission/
+  - https://cssociety.org/events/
+  location: Granada, Spain
+  mode: in-person
+  conference_start: '2026-12-02'
+  conference_end: '2026-12-04'
+  timezone: Europe/Madrid
+  topics:
+  - Complex Systems & Network Science
+  - Graphs & Graph Learning
+  - Nonlinear Dynamics & Chaos
+  - Data Mining & Data Science
+  size: L
+  submission_type: Paper-based + extended abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Extended full-paper submission deadline
+    datetime: '2026-09-13T23:59:00-12:00'
+    source_url: https://complexnetworks.org/submission/
+  - type: extended_abstract
+    label: Extended abstract submission deadline (independent route)
+    datetime: '2026-09-13T23:59:00-12:00'
+    source_url: https://complexnetworks.org/submission/
+  - type: camera_ready
+    label: Camera-ready deadline
+    datetime: '2026-10-08T23:59:00-12:00'
+    source_url: https://complexnetworks.org/submission/
+    time_precision: date
+  - type: registration
+    label: Author registration deadline
+    datetime: '2026-10-15T23:59:00-12:00'
+    source_url: https://complexnetworks.org/submission/
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Main conference December 2-4; tutorials December 1. Full papers appear in Springer Studies in
+    Computational Intelligence; extended abstracts in a separate abstract book. Abstracts are an independent
+    contribution, not a prerequisite for full papers. Production cutoff hours are unannounced. Size is
+    an editorial estimate.
+- id: complenet-2027
+  series: CompleNet
+  year: 2027
+  title: International Conference on Complex Networks
+  short_title: CompleNet 2027
+  website: https://complenet.github.io/
+  cfp_url: https://complenet.github.io/cfp.html
+  source_urls:
+  - https://complenet.github.io/
+  - https://complenet.github.io/cfp.html
+  location: Rochester, New York, USA
+  mode: in-person
+  conference_start: '2027-03-09'
+  conference_end: '2027-03-12'
+  timezone: America/New_York
+  topics:
+  - Complex Systems & Network Science
+  - Graphs & Graph Learning
+  - Nonlinear Dynamics & Chaos
+  - Computational Neuroscience
+  size: M
+  submission_type: Full/short papers + extended abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Long-paper submission deadline
+    datetime: '2026-10-17T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+  - type: short_paper
+    label: Short-paper submission deadline (independent route)
+    datetime: '2026-10-17T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+  - type: extended_abstract
+    label: Extended abstract submission deadline (independent route)
+    datetime: '2026-10-17T23:59:00-12:00'
+    source_url: https://complenet.github.io/cfp.html
+  - type: notification
+    label: Acceptance notification
+    datetime: '2026-11-20T23:59:00-05:00'
+    source_url: https://complenet.github.io/cfp.html
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: University of Rochester host. Reviewed long and short papers appear in Springer Complexity; the
+    abstract-only route does not produce a proceedings paper. All three routes share the AoE deadline,
+    with no mandatory abstract-registration gate. Size is an editorial estimate.
+- id: alife-2026
+  series: ALIFE
+  year: 2026
+  title: International Conference on Artificial Life
+  short_title: ALIFE 2026
+  website: https://2026.alife.org/
+  cfp_url: https://2026.alife.org/call-for-papers/
+  source_urls:
+  - https://2026.alife.org/
+  - https://2026.alife.org/call-for-papers/
+  location: Waterloo, Ontario, Canada
+  mode: in-person
+  conference_start: '2026-08-17'
+  conference_end: '2026-08-21'
+  timezone: America/Toronto
+  topics:
+  - Artificial Life & Adaptive Systems
+  - Complex Systems & Network Science
+  - Evolutionary Computation & Optimization
+  - Cognitive Science & Computational Cognition
+  size: L
+  submission_type: Full papers + non-archival abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Extended full-paper submission deadline
+    datetime: '2026-04-12T23:59:00-12:00'
+    source_url: https://2026.alife.org/call-for-papers/
+  - type: late_abstract
+    label: Late-breaking abstract submission deadline
+    datetime: '2026-07-20T23:59:00-12:00'
+    source_url: https://2026.alife.org/call-for-papers/
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Historical baseline. Reviewed full papers appear in MIT Press open-access proceedings; presentation
+    summaries and late-breaking abstracts are non-archival. The April date was an extension of the original
+    March 30 cutoff. Size is an editorial estimate.
+- id: alife-2027
+  series: ALIFE
+  year: 2027
+  title: International Conference on Artificial Life
+  short_title: ALIFE 2027
+  website: https://alife.vscht.cz/
+  cfp_url: https://alife.org/conference/alife-2027/
+  source_urls:
+  - https://alife.vscht.cz/
+  - https://alife.org/conference/alife-2027/
+  - https://2026.alife.org/call-for-papers/
+  location: Prague, Czech Republic
+  mode: in-person
+  conference_start: '2027-07-19'
+  conference_end: '2027-07-23'
+  timezone: Europe/Prague
+  topics:
+  - Artificial Life & Adaptive Systems
+  - Complex Systems & Network Science
+  - Evolutionary Computation & Optimization
+  - Cognitive Science & Computational Cognition
+  size: L
+  submission_type: Full papers + non-archival abstracts
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated full-paper submission deadline
+    datetime: '2027-03-30T23:59:00-12:00'
+    source_url: https://2026.alife.org/call-for-papers/
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Organizer confirms July 19-23 in Prague, but the 2027 call is not announced. The full-paper cutoff
+    is a one-year proxy from the original 2026 March 30 deadline, not its extension. No late-breaking
+    abstract date is copied because the meeting has moved earlier. Size is an editorial estimate.
+- id: nodycon-2026
+  series: NODYCON
+  year: 2026
+  title: International Nonlinear Dynamics Conference
+  short_title: NODYCON 2026
+  website: https://nodycon2026.app.earendelplatform.com/
+  cfp_url: https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi/conferenza/nodycon-2026
+  source_urls:
+  - https://nodycon2026.app.earendelplatform.com/
+  - https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi/conferenza/nodycon-2026
+  - https://link.springer.com/book/9783032165350
+  location: Rome, Italy
+  mode: hybrid
+  conference_start: '2026-09-20'
+  conference_end: '2026-09-23'
+  timezone: Europe/Rome
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - System Identification & Data-driven Dynamics
+  - Control & Robotics
+  - Complex Systems & Network Science
+  size: L
+  submission_type: Abstract-based + selected journal papers
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Presentation abstract submission deadline
+    datetime: '2026-05-01T23:59:00+02:00'
+    source_url: https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi/conferenza/nodycon-2026
+    time_precision: date
+  - type: journal_manuscript
+    label: Full-length manuscript deadline for presented work
+    datetime: '2026-07-03T23:59:00+02:00'
+    source_url: https://www.sisco-scienzadellecostruzioni.org/index.php/eventi/prossimi-eventi/conferenza/nodycon-2026
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Historical 2026 meeting. Selected presented papers may be considered for Nonlinear Dynamics after
+    additional journal review; that manuscript step is not a fresh conference submission. Prior editions
+    have Springer proceedings, but no blanket 2026 proceedings promise is asserted. The 2025-to-2026 change
+    breaks the earlier biennial cadence; the next edition is unannounced. Cutoff hours are unannounced.
+    Size is an editorial estimate.
+- id: nice-2027
+  series: NICE
+  year: 2027
+  title: Neuro Inspired Computational Elements Conference
+  short_title: NICE 2027
+  website: https://niceworkshop.org/nice-2027/
+  cfp_url: https://easychair.org/cfp/nice2027
+  source_urls:
+  - https://niceworkshop.org/nice-2027/
+  - https://easychair.org/cfp/nice2027
+  location: Brighton, United Kingdom
+  mode: in-person
+  conference_start: '2027-04-06'
+  conference_end: '2027-04-08'
+  timezone: Europe/London
+  topics:
+  - Neuromorphic & Brain-inspired Computing
+  - Computational Neuroscience
+  - Machine Learning
+  - BCI & Neurotechnology
+  size: M
+  submission_type: Research papers + late-breaking abstracts
+  relevance: high
+  deadlines:
+  - type: regular_paper
+    label: Regular research paper submission deadline
+    datetime: '2026-11-11T23:59:00-12:00'
+    source_url: https://easychair.org/cfp/nice2027
+  - type: late_abstract
+    label: Late-breaking abstract submission deadline
+    datetime: '2027-02-01T23:59:00-12:00'
+    source_url: https://easychair.org/cfp/nice2027
+  - type: notification
+    label: Regular paper acceptance notification
+    datetime: '2026-12-20T23:59:00-12:00'
+    source_url: https://easychair.org/cfp/nice2027
+    time_precision: date
+  - type: camera_ready
+    label: Camera-ready research paper deadline
+    datetime: '2027-03-09T23:59:00-12:00'
+    source_url: https://easychair.org/cfp/nice2027
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Main conference April 6-8; dedicated tutorials April 9. Accepted proceedings research papers
+    are published through IEEE; late-breaking abstracts are non-archival, and some poster contributions
+    may not enter the proceedings. Neither a scheduled opening nor a live submission portal has been verified.
+    Size is an editorial estimate.
+- id: sab-2026
+  series: SAB
+  year: 2026
+  title: International Conference on Simulation of Adaptive Behavior
+  short_title: SAB 2026
+  website: https://sab-conference.org/
+  cfp_url: https://sab-conference.org/call-for-contributions/
+  source_urls:
+  - https://sab-conference.org/
+  - https://sab-conference.org/call-for-contributions/
+  location: Berlin, Germany
+  mode: in-person
+  conference_start: '2026-10-19'
+  conference_end: '2026-10-22'
+  timezone: Europe/Berlin
+  topics:
+  - Artificial Life & Adaptive Systems
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  - Control & Robotics
+  size: M
+  submission_type: Reviewed papers + non-archival contributions
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Peer-reviewed proceedings paper submission deadline
+    datetime: '2026-05-15T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+  - type: abstract
+    label: Poster abstract submission deadline (independent route)
+    datetime: '2026-05-15T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+  - type: notification
+    label: Acceptance notification
+    datetime: '2026-06-19T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+    time_precision: date
+  - type: camera_ready
+    label: Camera-ready proceedings paper deadline
+    datetime: '2026-07-17T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Biennial ISAB conference. Reviewed track-1 papers appear in Springer LNAI; the other tracks include
+    non-archival papers, poster abstracts and position papers. The stated submission cutoff is Pacific
+    Time, not AoE; May 15 uses daylight time. Size is an editorial estimate.
+- id: sab-2028
+  series: SAB
+  year: 2028
+  title: International Conference on Simulation of Adaptive Behavior
+  short_title: SAB 2028
+  website: https://sab-conference.org/
+  cfp_url: https://sab-conference.org/call-for-contributions/
+  source_urls:
+  - https://sab-conference.org/
+  - https://sab-conference.org/call-for-contributions/
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-10-19'
+  conference_end: '2028-10-22'
+  timezone: Etc/UTC
+  topics:
+  - Artificial Life & Adaptive Systems
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  - Control & Robotics
+  size: M
+  submission_type: Reviewed papers + non-archival contributions
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated proceedings paper submission deadline
+    datetime: '2028-05-15T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+    confidence: estimated
+  - type: abstract
+    label: Estimated poster abstract submission deadline
+    datetime: '2028-05-15T23:59:00-07:00'
+    source_url: https://sab-conference.org/call-for-contributions/
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: estimated
+  notes: Unannounced next biennial edition; meeting dates and deadlines are two-year proxies from 2026,
+    and no host location is assumed. Size is an editorial estimate.
+- id: bci-winter-2027
+  series: BCI Winter
+  year: 2027
+  title: International Winter Conference on Brain-Computer Interface
+  short_title: BCI Winter 2027
+  website: https://brain.korea.ac.kr/bci2027/
+  cfp_url: https://brainedusociety.kr/
+  source_urls:
+  - https://brain.korea.ac.kr/bci2027/
+  - https://brainedusociety.kr/
+  - https://brain.korea.ac.kr/bci2027/callforpaper.php
+  - https://brain.korea.ac.kr/bci2026/authorinstructions.php
+  - https://brain.korea.ac.kr/bci2026/assets/CFP_BCI2026.pdf
+  location: Jeongseon, South Korea
+  mode: in-person
+  conference_start: '2027-02-22'
+  conference_end: '2027-02-24'
+  timezone: Asia/Seoul
+  topics:
+  - BCI & Neurotechnology
+  - EEG/MEG & Neural Signals
+  - Signal Processing
+  - Machine Learning
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Estimated paper submission deadline
+    datetime: '2026-12-15T23:59:00+09:00'
+    source_url: https://brain.korea.ac.kr/bci2026/authorinstructions.php
+    time_precision: date
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Co-organizer confirms February 22-24, 2027 at High1 Resort, Jeongseon. The 2027 deadline is unannounced;
+    December 15 is a one-year proxy from the final 2026 author instructions and CFP, which supersede an
+    older October date. Prior six-page papers use IEEE proceedings subject to IEEE quality review; the
+    2027 publication details await the final CFP. The exact cutoff hour is unknown. Size is an editorial
+    estimate.
+- id: ieee-biocas-2026
+  series: IEEE BioCAS
+  year: 2026
+  title: IEEE Biomedical Circuits and Systems Conference
+  short_title: IEEE BioCAS 2026
+  website: https://2026.ieee-biocas.org/2026/
+  cfp_url: https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+  source_urls:
+  - https://2026.ieee-biocas.org/2026/
+  - https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+  - https://2026.ieee-biocas.org/2026/pages_authors/instructions.vm
+  location: Incheon, South Korea
+  mode: in-person
+  conference_start: '2026-10-08'
+  conference_end: '2026-10-10'
+  timezone: Asia/Seoul
+  topics:
+  - Healthcare & Clinical AI
+  - BCI & Neurotechnology
+  - Signal Processing
+  - Neuromorphic & Brain-inspired Computing
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: full_paper
+    label: Research paper submission deadline
+    datetime: '2026-06-26T23:59:00+09:00'
+    source_url: https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Main conference October 8-10; adjacent workshops are October 7 and 11. Reviewed accepted papers
+    appear in IEEE proceedings. Exact submission cutoff hour is unannounced. Size is an editorial estimate.
+- id: ieee-biocas-2027
+  series: IEEE BioCAS
+  year: 2027
+  title: IEEE Biomedical Circuits and Systems Conference
+  short_title: IEEE BioCAS 2027
+  website: https://2027.ieee-biocas.org/
+  cfp_url: https://sscs.ieee.org/conferences/upcoming-conferences/
+  source_urls:
+  - https://2027.ieee-biocas.org/
+  - https://sscs.ieee.org/conferences/upcoming-conferences/
+  - https://2026.ieee-biocas.org/2026/pages_submission/call_for_papers.vm
+  location: Oslo, Norway
+  mode: in-person
+  conference_start: '2027-10-14'
+  conference_end: '2027-10-16'
+  timezone: Europe/Oslo
+  topics:
+  - Healthcare & Clinical AI
+  - BCI & Neurotechnology
+  - Signal Processing
+  - Neuromorphic & Brain-inspired Computing
+  size: M
+  submission_type: Paper-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Abstract submission deadline (IEEE society calendar)
+    datetime: '2027-05-07T23:59:00+02:00'
+    source_url: https://sscs.ieee.org/conferences/upcoming-conferences/
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Official 2027 host confirms Oslo and October 14-16. IEEE SSCS lists May 7 as Abstract Submission
+    Date; it is retained with that exact action, not relabeled as a paper deadline or made a mandatory
+    paper gate. The final 2027 CFP, full-paper deadline and cutoff hour still require review. Size is
+    an editorial estimate.
+- id: iccn-2026
+  series: ICCN
+  year: 2026
+  title: International Conference on Cognitive Neurodynamics
+  short_title: ICCN 2026
+  website: https://iccn2026.jp/
+  cfp_url: https://iccn2026.jp/
+  source_urls:
+  - https://iccn2026.jp/
+  - https://link.springer.com/book/10.1007/978-981-16-0317-4
+  location: Osaka, Japan
+  mode: in-person
+  conference_start: '2026-10-22'
+  conference_end: '2026-10-25'
+  timezone: Asia/Tokyo
+  topics:
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  size: M
+  submission_type: Abstract-based; publication unconfirmed
+  relevance: high
+  deadlines: []
+  last_checked: '2026-10-08'
+  confidence: estimated
+  notes: The organizer page body lists October 22-25, while its metadata says October 27-30, and the live
+    domain was unreachable on review. Dates remain provisional pending organizer confirmation. No submission
+    deadline or current proceedings promise was verified. Earlier editions have Springer edited proceedings;
+    do not confuse this series with clinical neurophysiology congresses also abbreviated ICCN. Size is
+    an editorial estimate.
+- id: areadne-2026
+  series: AREADNE
+  year: 2026
+  title: 'AREADNE: Research in Encoding and Decoding of Neural Ensembles'
+  short_title: AREADNE 2026
+  website: https://areadne.org/
+  cfp_url: https://areadne.org/
+  source_urls:
+  - https://areadne.org/
+  location: Milos, Greece
+  mode: in-person
+  conference_start: '2026-06-23'
+  conference_end: '2026-06-27'
+  timezone: Europe/Athens
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  - BCI & Neurotechnology
+  size: S
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Contributed talk/poster abstract submission deadline
+    datetime: '2026-01-30T23:59:00+02:00'
+    source_url: https://areadne.org/
+    time_precision: date
+  - type: notification
+    label: Abstract acceptance notification
+    datetime: '2026-03-06T23:59:00+02:00'
+    source_url: https://areadne.org/
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Historical biennial meeting. June 23 is the welcome reception; scientific sessions follow. Proceedings
+    are an abstract book, not archival full papers. Abstracts opened January 12, 2026; exact opening and
+    cutoff hours were not announced. Size is an editorial estimate.
+- id: areadne-2028
+  series: AREADNE
+  year: 2028
+  title: 'AREADNE: Research in Encoding and Decoding of Neural Ensembles'
+  short_title: AREADNE 2028
+  website: https://areadne.org/
+  cfp_url: https://areadne.org/
+  source_urls:
+  - https://areadne.org/
+  - https://areadne.org/archive.html
+  location: To be announced
+  mode: in-person
+  conference_start: '2028-06-23'
+  conference_end: '2028-06-27'
+  timezone: Etc/UTC
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  - BCI & Neurotechnology
+  size: S
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated contributed abstract submission deadline
+    datetime: '2028-01-30T23:59:00+02:00'
+    source_url: https://areadne.org/
+    time_precision: date
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: estimated
+  notes: Unannounced next biennial edition. Dates are two-year proxies from 2026; location is not assumed.
+    The contribution is an abstract, not an archival paper, and the cutoff hour is unannounced. Size is
+    an editorial estimate.
+- id: sfn-neuroscience-2026
+  series: SfN Neuroscience
+  year: 2026
+  title: Society for Neuroscience Annual Meeting
+  short_title: SfN Neuroscience 2026
+  website: https://www.sfn.org/meetings/neuroscience-2026
+  cfp_url: https://www.sfn.org/cfa
+  source_urls:
+  - https://www.sfn.org/meetings/neuroscience-2026
+  - https://www.sfn.org/cfa
+  - https://www.sfn.org/meetings
+  location: Washington, DC, USA
+  mode: in-person
+  conference_start: '2026-11-14'
+  conference_end: '2026-11-18'
+  timezone: America/New_York
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  - Neuroimaging & Brain Mapping
+  size: XXL
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Regular research abstract submission deadline
+    datetime: '2026-06-10T17:00:00-04:00'
+    source_url: https://www.sfn.org/cfa
+  - type: late_abstract
+    label: Late-breaking research abstract submission deadline
+    datetime: '2026-09-15T23:59:00-04:00'
+    source_url: https://www.sfn.org/cfa
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Annual broad neuroscience meeting. Research abstracts are archived, not peer-reviewed full-paper
+    proceedings. Late-breaking submissions opened September 8 and were capped at 2,500, so could close
+    early. Membership and presenter requirements apply. The late-breaking cutoff hour was not verified.
+    Size is an editorial estimate.
+- id: sfn-neuroscience-2027
+  series: SfN Neuroscience
+  year: 2027
+  title: Society for Neuroscience Annual Meeting
+  short_title: SfN Neuroscience 2027
+  website: https://www.sfn.org/meetings
+  cfp_url: https://www.sfn.org/cfa
+  source_urls:
+  - https://www.sfn.org/meetings
+  - https://www.sfn.org/cfa
+  location: Chicago, Illinois, USA
+  mode: in-person
+  conference_start: '2027-10-23'
+  conference_end: '2027-10-27'
+  timezone: America/Chicago
+  topics:
+  - Systems & Experimental Neuroscience
+  - Computational Neuroscience
+  - Cognitive Science & Computational Cognition
+  - Neuroimaging & Brain Mapping
+  size: XXL
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated regular research abstract submission deadline
+    datetime: '2027-06-10T17:00:00-04:00'
+    source_url: https://www.sfn.org/cfa
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: SfN confirms the Chicago meeting dates. The regular abstract deadline is a one-year proxy from
+    2026, not a published 2027 call. No opening date, late-breaking capacity or proceedings-paper route
+    is assumed. Size is an editorial estimate.
+- id: dynamics-days-europe-2026
+  series: Dynamics Days Europe
+  year: 2026
+  title: Dynamics Days Europe
+  short_title: Dynamics Days Europe 2026
+  website: https://dde-2026.sci-meet.net/
+  cfp_url: https://dde-2026.sci-meet.net/important-dates
+  source_urls:
+  - https://dde-2026.sci-meet.net/
+  - https://dde-2026.sci-meet.net/important-dates
+  - https://dde-2026.sci-meet.net/abstract-submission-2
+  location: Lisbon, Portugal
+  mode: in-person
+  conference_start: '2026-07-19'
+  conference_end: '2026-07-24'
+  timezone: Europe/Lisbon
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - Time Series & Sequential Data
+  - System Identification & Data-driven Dynamics
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Contributed talk/poster abstract submission deadline
+    datetime: '2026-04-27T23:59:00+01:00'
+    source_url: https://dde-2026.sci-meet.net/important-dates
+    time_precision: date
+  - type: minisymposium_proposal
+    label: Extended minisymposium proposal deadline
+    datetime: '2026-04-05T23:59:00+01:00'
+    source_url: https://dde-2026.sci-meet.net/important-dates
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Historical annual meeting. Contributions are talk/poster abstracts collected in a book of abstracts,
+    not standard full-paper proceedings. Minisymposium organization is a separate non-contribution milestone.
+    Abstract submitters had to complete fee payment by May 29. Exact cutoff hours were unannounced. Size
+    is an editorial estimate.
+- id: dynamics-days-europe-2027
+  series: Dynamics Days Europe
+  year: 2027
+  title: Dynamics Days Europe
+  short_title: Dynamics Days Europe 2027
+  website: https://www.dynamicsdays.org/
+  cfp_url: https://dde-2026.sci-meet.net/important-dates
+  source_urls:
+  - https://www.dynamicsdays.org/
+  - https://dde-2026.sci-meet.net/important-dates
+  - https://dde-2026.sci-meet.net/abstract-submission-2
+  location: To be announced
+  mode: in-person
+  conference_start: '2027-07-19'
+  conference_end: '2027-07-24'
+  timezone: Etc/UTC
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - Time Series & Sequential Data
+  - System Identification & Data-driven Dynamics
+  size: L
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Estimated contributed talk/poster abstract submission deadline
+    datetime: '2027-04-27T23:59:00+01:00'
+    source_url: https://dde-2026.sci-meet.net/important-dates
+    time_precision: date
+    confidence: estimated
+  last_checked: '2026-10-08'
+  confidence: estimated
+  notes: Unannounced next annual edition. Meeting dates and the contributed abstract deadline are one-year
+    proxies from 2026, with no assumed host location. Size is an editorial estimate.
+- id: dynamics-days-us-2027
+  series: Dynamics Days US
+  year: 2027
+  title: Dynamics Days US
+  short_title: Dynamics Days US 2027
+  website: https://www.ddays.org/2027/
+  cfp_url: https://www.ddays.org/2027/abstract-submission/
+  source_urls:
+  - https://www.ddays.org/2027/
+  - https://www.ddays.org/2027/abstract-submission/
+  - https://www.ddays.org/2027/registration/
+  location: La Jolla, California, USA
+  mode: in-person
+  conference_start: '2027-01-04'
+  conference_end: '2027-01-06'
+  timezone: America/Los_Angeles
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - System Identification & Data-driven Dynamics
+  size: M
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Contributed talk/poster abstract submission deadline
+    datetime: '2026-11-22T23:59:00-08:00'
+    source_url: https://www.ddays.org/2027/abstract-submission/
+    time_precision: date
+  - type: registration
+    label: Early registration deadline
+    datetime: '2026-12-01T23:59:00-08:00'
+    source_url: https://www.ddays.org/2027/registration/
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Official banner confirms January 4-6 at Scripps Seaside Forum. A selection of abstracts becomes
+    single-track talks; poster contributions are also expected. No archival full-paper proceedings verified.
+    The November 22 deadline falls in 2026, before the January 2027 meeting; exact cutoff hour is unannounced.
+    Size is an editorial estimate.
+- id: dynamics-days-lac-2026
+  series: Dynamics Days LAC
+  year: 2026
+  title: Dynamics Days Latin America and the Caribbean
+  short_title: Dynamics Days LAC 2026
+  website: https://fisica.ufpr.br/DDaysLAC2026/index.html
+  cfp_url: https://fisica.ufpr.br/DDaysLAC2026/index.html
+  source_urls:
+  - https://fisica.ufpr.br/DDaysLAC2026/index.html
+  - https://fisica.ufpr.br/DDaysLAC2026/page1.html
+  location: Curitiba, Brazil
+  mode: in-person
+  conference_start: '2026-12-06'
+  conference_end: '2026-12-11'
+  timezone: America/Sao_Paulo
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  - Time Series & Sequential Data
+  - Computational Neuroscience
+  size: M
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Extended contributed abstract submission deadline
+    datetime: '2026-10-10T23:59:00-03:00'
+    source_url: https://fisica.ufpr.br/DDaysLAC2026/index.html
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Latest organizer cutoff is October 10. Biennial meeting resumed in 2024 after the pandemic gap.
+    Contributions are talk/poster abstracts; no current full-paper proceedings commitment verified. Exact
+    cutoff hour is unannounced. Size is an editorial estimate.
+- id: dynamics-days-asia-pacific-2024
+  series: Dynamics Days Asia-Pacific
+  year: 2024
+  title: Dynamics Days Asia-Pacific
+  short_title: Dynamics Days Asia-Pacific 2024
+  website: https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/
+  cfp_url: https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/
+  source_urls:
+  - https://www2.yukawa.kyoto-u.ac.jp/~frontier24/DDAP13/
+  - https://dynamicsdays.info/ap/
+  location: Kyoto, Japan
+  mode: in-person
+  conference_start: '2024-07-01'
+  conference_end: '2024-07-05'
+  timezone: Asia/Tokyo
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  size: M
+  submission_type: Talks/abstracts; next call unannounced
+  relevance: high
+  deadlines: []
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Latest officially verified edition is DDAP13/YKIS 2024, part of a longer institute workshop.
+    No subsequent edition or reliable contribution cutoff was found. Historical biennial timing is not
+    projected across a missing 2026 announcement. No full-paper proceedings promise is asserted; monthly
+    review must look for the next call. Size is an editorial estimate.
+- id: dynamics-days-cac-2026
+  series: Dynamics Days CAC
+  year: 2026
+  title: Dynamics Days Central Asia and the Caucasus
+  short_title: Dynamics Days CAC 2026
+  website: https://physics-congress.kz/dynamics_days
+  cfp_url: https://physics-congress.kz/dynamics_days
+  source_urls:
+  - https://physics-congress.kz/dynamics_days
+  - https://dynamicsdays.info/ca/index.html
+  location: Astana, Kazakhstan
+  mode: in-person
+  conference_start: '2026-05-25'
+  conference_end: '2026-05-28'
+  timezone: Asia/Almaty
+  topics:
+  - Nonlinear Dynamics & Chaos
+  - Complex Systems & Network Science
+  size: M
+  submission_type: Abstract-based
+  relevance: high
+  deadlines:
+  - type: abstract
+    label: Contributed oral/poster abstract submission deadline
+    datetime: '2026-04-15T23:59:00+05:00'
+    source_url: https://physics-congress.kz/dynamics_days
+    time_precision: date
+  - type: notification
+    label: Abstract acceptance notification
+    datetime: '2026-04-25T23:59:00+05:00'
+    source_url: https://physics-congress.kz/dynamics_days
+    time_precision: date
+  last_checked: '2026-10-08'
+  confidence: confirmed
+  notes: Historical 10th edition. Although the form says paper/article, its date table explicitly identifies
+    an abstract submission deadline for oral/poster presentations. No archival full-paper proceedings
+    verified. Recurrence is irregular (the organizer says almost annually); do not assume a fixed next-year
+    edition. Exact cutoff hours are unannounced. Size is an editorial estimate.

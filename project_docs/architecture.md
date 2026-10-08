@@ -95,7 +95,7 @@ combine with AND. CCF's `source_url` and page numbers retain PDF evidence;
 `page_url` points public rank links and the CCF Rank legend to the official
 release webpage. ICORE Rank links to its conference portal.
 
-The taxonomy has eight families and 40 stable controlled leaves. Every leaf
+The taxonomy has eight families and 43 stable controlled leaves. Every leaf
 belongs to one family in `data/topic_families.yml`, which supplies compact labels.
 Every tracked series has one to three curated central identities in
 `data/conference_families.yml`; families are not inferred from generic method tags.
@@ -115,7 +115,11 @@ prose, official evidence URLs/year and an independent review date. Search uses
 scope prose, leaf labels and central family names. Topic feeds remain leaf-union
 based, not family-identity based; stable slugs and existing UIDs are preserved.
 Missing profiles fall back to primary leaves and enter the advisory queue.
-Current coverage is 63 of 113 series; see conference_scopes.md for editorial limits.
+Current coverage is 79 of 129 series; see conference_scopes.md for editorial limits.
+Publication/abstract-only caveats remain edition metadata and project documents,
+not new UI. The 2026-10-08 expansion adds data and three leaves without changing
+site layout, styling, status logic or the eight-family scheme; see
+dynamics_neuroscience_expansion.md and ADR-036.
 
 The eight families separate NLP/agents/retrieval and RL/robotics/control,
 retain neuroscience and responsible AI, place biometrics with healthcare,
