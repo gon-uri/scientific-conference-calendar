@@ -1,120 +1,160 @@
 # Development And Publication
 
-The public app is static. Python builds committed HTML/ICS; GitHub Pages serves
-the main branch's docs directory. No backend, secret, database, paid hosting,
-or OpenAI API is needed. README is intentionally nontechnical.
+Reviewed: 2026-10-08. Run commands from the repository root. See
+[the documentation index](README.md) for data ownership and task guides.
+The public README remains nontechnical. This project needs no dev server,
+backend, npm app build, secret, paid hosting or OpenAI API.
 
-## Required Build
+## Required Setup And Checks
 
-```sh
-python -m pip install -r requirements.txt
-python scripts/validate.py
-python -m unittest discover -s tests -v
-python scripts/build_all.py
-```
-
-Open docs/index.html directly for local preview; no development server is
-required. Asset sources live in assets and are embedded by build_site.py.
-Do not edit generated HTML or ICS manually. Commit source and generated output
-together; inspect git diff and preserve deterministic UID keys.
-
-## Optional Browser Smoke
-
-tests/browser_smoke.mjs uses Playwright and a fixed 2026-10-06 reference date.
-It checks opportunity filtering outside the collapsed panel, inline Search
-alignment, topic disclosure cues, family intersection, map grouping, keyboard
-and hover popups, empty results, milestone expansion, and six viewport widths
-(including both sides of the 1050px filter-grid breakpoint).
-It also checks default-selected opportunity membership, always-visible heading-
-aligned clearing without opening the panel, eight collapsed families without
-scrolling, internal expanded scrolling and retained Time series leaf matching.
-Header sharing/star links are inspected but never used to post or star; favicon
-decoding/pixels are checked at 32px and optional 16/32/64px previews are rendered.
-Brand checks confirm the embedded Audiowide face is loaded without a network
-font request, body/table fonts stay unchanged, and visible logo/title pixel
-centers align across single-line and narrow-mobile wrapped titles.
-It intentionally does not test Giscus authentication or create comments.
-Update catalog-specific expected IDs/counts when the catalog changes.
-The imported dynamics_neuroscience.mjs suite verifies the added abstract routes,
-estimated versus unannounced submissions, archival placement, characteristic
-scope searches and the Rochester, New York versus Michigan city distinction.
-Scope scenarios check summary-only searches and additional-topic filtering in
-both tabs and the map, while confirming tables still show only primary tags.
-The imported submission_behavior.mjs suite checks real AAMAS/MLSys transitions
-and focused route fixtures: unknown versus scheduled opening, mandatory gates,
-estimated evidence, actual contributions versus organizer/production steps,
-matching countdown/summary and chronological closed-row placement.
-The imported mobile_cards.mjs suite checks compact first-three-field cards in
-both tabs, independent expansion, compact 36px full-width controls, 13px labels,
-tinted headers, card outlines/spacing, desktop isolation, keyboard/focus, nested
-milestones, filter/tab/resize persistence, archived editions and no-JavaScript
-fallbacks. Fresh loads verify desktop-expanded/mobile-collapsed filter defaults,
-including the 760/761px boundary; resizing never resets a user's disclosure state.
-
-Use the configured bundled Node/dependency runtime when available, discovered
-through the Codex workspace-dependencies tool. Alternatively supply a local
-Playwright installation. CHROME_BIN can select an existing Chrome executable;
-SCREENSHOT_DIR enables screenshots. A temporary tool directory with node_modules
-pointing to the configured dependency directory avoids adding app dependencies:
+Use an available Python 3 runtime with PyYAML; CI uses Python 3.12. A local
+virtual environment is optional and keeps dependencies isolated:
 
 ```sh
-mkdir -p /tmp/venue-radar-tools
-ln -s "$NODE_DEPENDENCIES" /tmp/venue-radar-tools/node_modules
-cp tests/browser_smoke.mjs tests/submission_behavior.mjs tests/mobile_cards.mjs /tmp/venue-radar-tools/
-cp tests/dynamics_neuroscience.mjs /tmp/venue-radar-tools/
-CHROME_BIN="$CHROME_BIN" SCREENSHOT_DIR=/tmp/venue-radar-previews "$NODE_BIN" /tmp/venue-radar-tools/browser_smoke.mjs "file://$PWD/docs/index.html"
+python3 -m venv .venv
+source .venv/bin/activate
+python3 -m pip install -r requirements.txt
 ```
 
-Set the runtime variables to actual discovered paths. Use a URL-encoded file
-URL if the checkout path contains spaces. The normal Python CI does not require
-Playwright; browser checks are a separate maintainer step for interface changes.
-
-## Optional Branding Assets
-
-The logo palette and README banner are generated from maintained assets.
-The original generation and assets/branding/venue-radar-source.png are immutable
-references; do not recolor an already recolored/resized output. The recolor
-script uses Sharp and verifies the four RGB colors and unchanged foreground
-alpha/position. Banner rendering uses Playwright with the real Audiowide font.
-Both libraries are optional maintainer dependencies, not website dependencies.
-
-With the same temporary dependency directory prepared above:
+Do not reinstall dependencies unnecessarily if the configured environment
+already has them. Standard verification is:
 
 ```sh
-cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs /tmp/venue-radar-tools/
-"$NODE_BIN" /tmp/venue-radar-tools/recolor_logo.mjs "$PWD"
-CHROME_BIN="$CHROME_BIN" "$NODE_BIN" /tmp/venue-radar-tools/build_readme_banner.mjs "$PWD"
-python scripts/build_all.py
+python3 scripts/validate.py
+python3 -m unittest discover -s tests -v
+python3 scripts/build_all.py
 ```
 
-Inspect the logo, banner, and desktop/mobile page before committing the assets
-and regenerated HTML together. Calendar data/feeds do not change for this work.
+Run standalone validation even though the build also validates: it explicitly
+checks all family/city/series registries. CI runs all three steps; it does not
+commit regenerated files or independently confirm organizer facts.
 
-## Optional Workbook Synchronization
+Open `docs/index.html` directly for preview. Builders embed local assets;
+no development server is required. Never manually edit generated HTML/ICS.
+Source plus generated output belong in the same data/UI release.
 
-The checked-in workbook is a review mirror, not a second source of truth.
-The editing helper uses the configured @oai/artifact-tool runtime. Follow the
-spreadsheet skill's import/render/inspect workflow when using Codex. With the
-same temporary dependency directory prepared above:
+## Browser Verification
+
+Use browser smoke when adding conferences changes route/filter/map data or
+when editing public UI. Inspect representative desktop and mobile screenshots.
+Documentation-only edits can use unit/link/example checks and prove all public
+artifacts unchanged without repeating an unrelated browser run.
+
+`tests/browser_smoke.mjs` imports the submission, mobile-card and expansion
+suites. It freezes a reference date and checks desktop/mobile at
+1440/1051/1050/768/390/320px, route/countdown/gate transitions, independent card
+expansion, filters/scope matching, maps, branding, accessibility and overflow.
+Catalog-specific expected counts/IDs need review after additions; derive them
+from built data at the frozen date. Do not weaken semantics to satisfy old counts.
+It blocks Giscus requests and never signs in, comments, posts on X or stars.
+
+Browser checks need optional Playwright and an existing compatible browser.
+In Codex, discover the configured Node/dependency paths through the workspace-
+dependencies tool; otherwise use an isolated local maintainer installation.
+Set `NODE_BIN` to the executable, `NODE_DEPENDENCIES` to its module directory
+containing Playwright, and `CHROME_BIN` to an existing Chrome executable when
+Playwright's default browser is unavailable. Do not add app dependencies merely
+for this QA step.
 
 ```sh
-python scripts/export_catalog.py --output /tmp/venue-radar-catalog.json
-cp scripts/sync_workbook.mjs /tmp/venue-radar-tools/sync_workbook.mjs
-"$NODE_BIN" /tmp/venue-radar-tools/sync_workbook.mjs "$PWD/data/core_conferences_normalized_tags.xlsx" /tmp/venue-radar-catalog.json /tmp/venue-radar-workbook-preview
+TOOLS_DIR="$(mktemp -d "${TMPDIR:-/tmp}/venue-radar-tools.XXXXXX")"
+ln -s "$NODE_DEPENDENCIES" "$TOOLS_DIR/node_modules"
+cp tests/*.mjs "$TOOLS_DIR/"
+CHROME_BIN="$CHROME_BIN" SCREENSHOT_DIR="$TOOLS_DIR/previews" "$NODE_BIN" "$TOOLS_DIR/browser_smoke.mjs"
 ```
 
-Inspect catalog, vocabulary, and scope previews, error output, and re-imported
-values before committing.
-The helper preserves existing series order and native table formatting, appends
-new series, and refuses unexplained removals. It updates latest-edition source
-links, ranks, rates, vocabulary, and the separate Conference Scope sheet from
-YAML; do not manually infer missing
-ratings. Optional runtime dependencies are not required to view/build the site.
+With no URL argument, the runner correctly builds a file URL from the current
+checkout, including paths with spaces. To verify a published site, supply
+`https://gon-uri.github.io/venue-radar/` as its final argument. Report unavailable
+browser tooling rather than claiming checks ran. Keep helper imports together.
 
-## Publish
+## Workbook Synchronization
 
-Update affected project_docs, run validation/tests/build, review the diff, commit,
-and push the main branch. Verify the Build workflow, Pages deployment, and live
-page. The existing monthly review automation is editorial; it does not justify
-publishing unverified scraped dates. Giscus needs its owner-installed GitHub app
-and public Discussions; see data_maintenance.md for setup.
+The workbook is a review mirror, not a second database. Synchronize when
+exported latest-edition fields, ranks/rates, topics or scope profiles change.
+A correction to dates alone may not alter its mirrored columns. No workbook
+rewrite is needed for documentation-only work.
+
+The maintained helper uses optional `@oai/artifact-tool`, not a required Python
+or browser dependency. It must be available in `NODE_DEPENDENCIES`. Reuse the
+isolated `TOOLS_DIR` above, or prepare a fresh one with that module symlink.
+In Codex, follow the spreadsheet skill's import/render/inspect workflow.
+
+```sh
+python3 scripts/export_catalog.py --output "$TOOLS_DIR/catalog.json"
+cp scripts/sync_workbook.mjs "$TOOLS_DIR/"
+"$NODE_BIN" "$TOOLS_DIR/sync_workbook.mjs" "$PWD/data/core_conferences_normalized_tags.xlsx" "$TOOLS_DIR/catalog.json" "$TOOLS_DIR/workbook-previews"
+```
+
+The exporter chooses the maximum edition year per exact series. The helper
+preserves existing series order/native table formatting and definitions,
+appends new series, synchronizes Catalog/Tag Vocabulary/Conference Scope,
+refuses unexplained removals, checks values/formula errors and renders previews.
+Add definitions for approved new leaves to its definition map as needed.
+CCF's workbook source column retains PDF/page evidence; public rank links use
+the separate webpage. This difference is intentional.
+
+Inspect all three sheets for wrapping/clipping, numeric percentage/date formats
+and preserved tables. Re-import the exported XLSX and compare catalog,
+vocabulary and scope values/counts with the JSON/YAML, including new rows.
+A successful export alone is not enough. If optional tooling is unavailable,
+keep YAML authoritative and report the unsynchronized mirror; do not silently
+replace the workbook or import old spreadsheet values into YAML.
+
+## Branding Tools
+
+Brand changes require their own approved scope. The logo and README banner are
+derived from immutable sources under `assets/branding/`; do not recolor an
+already recolored/resized output. Sharp verifies the four RGB colors and
+unchanged foreground geometry/alpha; Playwright renders the real Audiowide font.
+Both are optional maintainer dependencies, not runtime requirements.
+
+With the same isolated runtime:
+
+```sh
+cp scripts/recolor_logo.mjs scripts/build_readme_banner.mjs "$TOOLS_DIR/"
+"$NODE_BIN" "$TOOLS_DIR/recolor_logo.mjs" "$PWD"
+CHROME_BIN="$CHROME_BIN" "$NODE_BIN" "$TOOLS_DIR/build_readme_banner.mjs" "$PWD"
+python3 scripts/build_all.py
+```
+
+Inspect logo, banner, licensing notices and desktop/mobile results. Do not
+regenerate artwork during a conference-data or documentation-only update.
+
+## Publication Checklist
+
+1. Review the diff and preserve unrelated local work. Check official evidence,
+   metadata review dates and companion-file completeness. Update dataset
+   `last_updated` **before** generation for reviewed data changes; do not change
+   it merely because a build or documentation edit happened.
+2. Synchronize mirrored fields as applicable. Run standalone validation, all
+   Python tests and the full build; perform affected browser/visual checks.
+   Rebuild twice if needed to confirm deterministic output.
+3. Review generated HTML/feed links, estimated versus confirmed labels,
+   gated countdowns, archive/map placement and existing UID stability.
+   Source changes without rebuilt committed output are not a published update.
+4. Check non-ICS whitespace with the following command. ICS intentionally uses
+   CRLF and folded content spaces; separately inspect its line folding, event
+   UIDs and timing instead of trimming whitespace mechanically:
+
+   ```sh
+   git diff --check -- . ':!docs/*.ics' ':!docs/conferences/*.ics' ':!docs/tags/*.ics'
+   ```
+
+5. Update affected current guides, dated evidence and the newest session entry;
+   add an ADR only for a meaningful new decision. Keep public README simple.
+   Documentation-only work should leave `data/`, `assets/`, `scripts/`, `docs/`
+   and the public README byte-identical; new documentation tests are acceptable.
+6. When publication is requested, commit source/data/output/docs together and
+   push the intended branch. Current Pages deployment is `main/docs`; changing
+   that configuration is not part of a routine update.
+7. Verify both GitHub Build and Pages, then compare live HTML and representative
+   aggregate/topic/edition feeds with the tested files. Run affected live
+   browser checks when appropriate. A successful push alone is not proof of a
+   deployed page. Record workflow IDs/results and any unresolved limitations;
+   a docs-only verification note can be a follow-up commit with no artifact changes.
+
+Giscus authentication/posting is deliberately outside smoke tests. Owner setup
+and rename safeguards are in [project services](data_maintenance.md#project-services).
+The monthly maintenance process is editorial, never authorization to publish
+unverified scraped dates or silently mutate the repository on a schedule.

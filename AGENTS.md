@@ -1,26 +1,42 @@
 # AGENTS.md
 
-This is the lightweight entrypoint for coding agents. The detailed source of
-truth lives in the repository, not in chat history.
+Venue Radar is a static conference calendar. The "database" is versioned YAML,
+not a server or SQL database. Recover project state from this repository, not
+chat history. Start with [the documentation index](project_docs/README.md).
 
 ## Before Making Changes
 
-Read these files first:
+Read these files before changing anything:
 
-- `project_docs/implementation_status.md`
-- `project_docs/roadmap.md`
-- `project_docs/architecture.md`
-- `project_docs/decisions.md`
-- `project_docs/session_log.md`
+- [Current status](project_docs/implementation_status.md)
+- [Roadmap](project_docs/roadmap.md)
+- [Architecture and file ownership](project_docs/architecture.md)
+- [Decisions](project_docs/decisions.md), respecting later superseding decisions
+- [Session log](project_docs/session_log.md), starting with the newest entries
 
 Then reconstruct the current project state from the repository. If the docs and
 code disagree, update the docs before implementing new work.
+
+## Choose The Workflow
+
+- Update dates or review missing information:
+  [data maintenance](project_docs/data_maintenance.md).
+- Add a series or edition:
+  [conference-addition checklist](project_docs/adding_conferences.md).
+- Check fields, confidence, gates and supported deadline types:
+  [data schema](project_docs/data_schema.md).
+- Change topics/profiles: [topic audit](project_docs/topic_audit.md) and
+  [scope curation](project_docs/conference_scopes.md).
+- Build, inspect, synchronize the workbook or publish:
+  [development](project_docs/development.md).
 
 ## Project Constraints
 
 - The calendar is intentionally static: no backend server, database, paid
   hosting, or OpenAI API dependency.
 - `data/conferences.yml` is the canonical conference data source.
+- The XLSX workbook is a review mirror, never an independent source of truth.
+  Series-keyed ranks, rates, families and scopes must use exact `series` names.
 - `data/conference_scopes.yml` holds complementary, sourced series profiles.
   Read `project_docs/conference_scopes.md` before editing them. Keep extra topics
   characteristic and curated; never import an exhaustive CFP topics list.
@@ -35,33 +51,47 @@ code disagree, update the docs before implementing new work.
   comparison and untracked candidate backlog. Consult it before expanding the
   catalog; candidates are not approved additions or confirmed calendar data.
 - Use `estimated` for inferred or placeholder dates. Do not make uncertain data
-  look confirmed.
+  look confirmed. Meeting dates, deadline confidence, cutoff precision and
+  portal-opening evidence are different facts; see the schema guide.
+- Only supported submission types enable new-contribution opportunities.
+  Arbitrary custom types may validate but are schedule-only. Mandatory gates
+  must use `gate_for`; organizer proposals and production steps are not submissions.
+- Preserve the eight agreed topic families and public submission semantics.
+  Abstract-only publication caveats belong in notes/docs, not a new UI feature.
 - Calendar event UIDs must be deterministic and stable. Never use random values
-  for calendar UIDs.
+  for calendar UIDs. Preserve published edition IDs, deadline types, topic slugs,
+  and the historical `scientific-conference-calendar` UID namespace.
+- Do not edit generated files by hand, stamp unreviewed sources as fresh, or
+  publish candidate-backlog entries without approval and official-source review.
 
 ## Local Commands
 
 Install dependencies:
 
 ```bash
-pip install -r requirements.txt
+python3 -m pip install -r requirements.txt
 ```
 
 Validate data:
 
 ```bash
-python scripts/validate.py
+python3 scripts/validate.py
+python3 -m unittest discover -s tests -v
 ```
 
 Build all generated outputs:
 
 ```bash
-python scripts/build_all.py
+python3 scripts/build_all.py
 ```
 
 ## After Changes
 
 - Update affected files in `project_docs/`.
 - Record important technical decisions in `project_docs/decisions.md`.
-- Append a session entry to `project_docs/session_log.md`.
+- Add a dated session entry at the top of `project_docs/session_log.md`.
+- Verify source changes and generated outputs together; include browser checks
+  for affected data/UI behavior and workbook checks when the mirror changes.
+- Follow the development guide's publication checklist when publishing is
+  requested; record checks actually performed and any remaining limitations.
 - Keep changes small and reviewable.

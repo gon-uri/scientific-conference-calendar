@@ -1,5 +1,9 @@
 # Topic And New-Series Audit
 
+Use [adding conferences](adding_conferences.md) for the complete addition
+procedure and [conference scopes](conference_scopes.md) for extra-topic curation.
+The current model below takes precedence over the explicitly historical audit.
+
 ## Current Eight-Family Model
 
 Reviewed: 2026-10-08, after the complex-systems/neuroscience expansion. These counts use
@@ -54,7 +58,7 @@ main-only. The 52 missing profiles are queued, not guessed. See
 [conference_scopes.md](conference_scopes.md). The historical counts below are
 main-topic coverage, not expanded profile matching counts.
 
-Current main-topic coverage by distinct series, using each latest edition
+Historical main-topic coverage by distinct series, using each latest edition
 (not mutually exclusive): ML & AI 86; Data & Time Series 35;
 Signals, Vision & Multimedia 30; Responsible & Trustworthy AI 22;
 Healthcare & Biomedical AI 14; Dynamics, Complex Systems & Control 14;

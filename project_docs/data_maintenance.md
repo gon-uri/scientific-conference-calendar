@@ -1,226 +1,153 @@
 # Data Maintenance
 
-Last synchronized: 2026-10-07
+Last synchronized: 2026-10-08.
 
-## Monthly Edition Review
+Use this guide to refresh tracked information. For a new series/edition use
+[adding conferences](adding_conferences.md); for fields and submission semantics
+use [data schema](data_schema.md). [Development](development.md) owns build,
+workbook, browser and publication commands. The database is canonical YAML;
+the website never refreshes organizer information automatically.
 
-Run `python scripts/maintenance_report.py --max-age-days 30`. The edition
-queue lists provisional upcoming events, unannounced deadlines, old source
-checks, and series whose most recent tracked edition has passed. Each row
-includes a source page to start the review. The separate acceptance queue
-lists series with no sourced rate or a rate more than two edition years old.
-The scope queue lists missing profiles, stale scope reviews, and profiles based
-on an earlier edition. Scope review dates are independent of calendar/rate
-review dates; never refresh them without checking the actual scope sources.
-The report is advisory; it never scrapes, silently overwrites, or promotes a
-date to confirmed. Review projected dates against current official pages about
-once a month, even when a conference has an apparently plausible estimate.
+## Monthly Refresh Checklist
 
-Run `python scripts/rollover_editions.py --as-of YYYY-MM-DD` to preview
-missing next editions for explicitly supported recurring series. Annual,
-biennial, and IFAC SYSID's triennial patterns are configured separately. After
-checking the series cadence and current organizer pages, run the same command
-with `--write` to add any still-missing records. The command is idempotent:
-existing edition IDs are never replaced. It projects the prior edition's
-meeting and submission timing by cadence, marks all projected dates estimated,
-sets location to unannounced, and does not carry over observed portal-open status.
-Other series require individual editorial review; a missing edition is not
-automatically proof of an annual recurrence.
+1. Check the working tree and current project state. Run the read-only report
+   from the repository root; use an explicit review date when reproducibility
+   or the execution host's timezone matters:
 
-For each edition, check the organizer's official dates/CFP page and update
-`data/conferences.yml`: date, time zone, location, milestones, source URLs,
-`last_checked`, confidence, and a short note explaining uncertainty. Preserve
-the edition `id` and deadline `type` when correcting a date so subscribed
-calendar UIDs stay stable. Add `gate_for: "full_paper"` (or another exact
-deadline type) when an earlier abstract/registration deadline is mandatory
-for that paper route. A past gate closes that route even if the paper date
-is still ahead. Workshop proposals, camera-ready files, commitments, and
-supplementary materials are not new-paper opportunities. A workshop *paper*
-deadline is an opportunity. If a new edition is not officially announced,
-do not invent a confirmed date; use `estimated` with a source and note, or
-leave the missing deadline absent.
+   ```sh
+   python3 scripts/maintenance_report.py --as-of YYYY-MM-DD --max-age-days 30
+   ```
 
-Use edition-level `confidence` for meeting dates and deadline-level
-`confidence: "estimated"` when only a submission date is inferred. Set
-`opens_at` only when a source publishes an opening time. Use
-`open_observed_on: "YYYY-MM-DD"` only after checking a live submission portal;
-review it again as part of the next monthly pass. For confirmed routes, a
-published future opening produces Scheduled submission; an opening that has
-occurred or an observed live portal produces Open. A confirmed future deadline
-without opening evidence produces Submission opportunity, not a claim that
-submissions are open or have not opened yet. These three states are green.
-Estimated route timing or eligibility stays yellow as Submission opportunity
-(estimated), even if a projected opening has passed. Closed to new submissions
-is red; Deadline unannounced is grey.
+   Replace `YYYY-MM-DD` with the actual review date. Omitting `--as-of` uses
+   the host's current date, which is not necessarily the user's local date.
+2. Review the edition, acceptance and scope queues using official sources.
+   Check current CFP/date pages even when a plausible proxy already exists.
+   Recheck final extensions, cutoff zones, mandatory gates, opening evidence,
+   meeting/location changes and production steps. An aggregator is discovery
+   evidence, not a substitute for the official edition's instructions.
+3. Correct the owning YAML file, preserving published edition IDs, deadline
+   types and series keys. Record direct evidence and uncertainty notes. Change
+   confirmed/estimated flags per fact, not with a blanket confidence promotion.
+4. Update `last_checked` only for edition sources actually reviewed; separately
+   update `scope_last_checked` after scope review and rank/rate `checked_on`
+   after reviewing that evidence. A failed fetch is not proof the old facts are
+   still correct; record the failed attempt/conflict in notes and retain uncertainty.
+   Do not bulk-stamp untouched records as fresh.
+5. Set `data/metadata.yml`'s `last_updated` to the dataset-review date **before**
+   rebuilding. This describes the published dataset review, not a claim that
+   every tracked source was checked that day. Documentation-only changes do
+   not advance it.
+6. Synchronize the XLSX mirror if exported latest-series fields, vocabulary,
+   profiles, ranks or rates changed. Validate/test/build, inspect the affected
+   public behavior/feeds and update project documentation. Follow
+   [development's release checklist](development.md#publication-checklist)
+   when publishing is requested.
 
-Show submission options only starts checked and includes all four eligible
-states, but excludes closed and unannounced routes. Visitors can uncheck it;
-Clear filters also removes this restriction, even with the panel collapsed.
-The checkbox is deadlines-only and never restricts the Conferences map/table.
-Relevance means an event enables a new
-research contribution: paper, abstract, poster, resource, journal-linked and
-actual workshop-paper submissions qualify; organizer proposals and production
-steps do not. Do not remove those other milestones from the expanded schedule.
+### What The Queues Do And Do Not Prove
 
-Time left and the collapsed Next milestone target the same earliest required
-action on an eligible route: its mandatory abstract/registration gate first,
-otherwise its contribution deadline. Opening dates never drive this countdown.
-A passed mandatory gate closes the route for fresh submissions even before its
-paper deadline. Closed rows say Closed in Time left and retain the next schedule
-milestone for chronological placement and details; unannounced rows show no
-submission countdown. Conference start remains a schedule milestone; after that
-date an edition moves to the separate ongoing/past table. For each estimate
-replaced by an official date, update the source URL, `last_checked`, confidence, and notes,
-then inspect the generated site and feeds before publishing.
+- Edition queue: provisional/estimated upcoming records, stale reviews, empty
+  deadline lists and latest past editions with no tracked successor. The
+  special joint IJCAI-ECAI series does not demand a same-name successor.
+- Acceptance queue: missing sourced evidence or evidence more than two years
+  old. It does not infer a rate or selectivity band.
+- Scope queue: missing/stale profiles and profiles based on an earlier edition;
+  an edition review does not silently refresh scope evidence.
+- These are advisory checks, not scrapers. They do not validate URL reachability,
+  resolve conflicting official pages, detect every missing submission in a
+  nonempty schedule-only list, or verify historical statistics. Review those
+  cases editorially and never claim that an empty queue proves data accuracy.
 
-When the official deadline day is known but its cutoff hour/timezone is not,
-set `time_precision: date`. Keep an explicitly provisional end-of-day datetime
-for ordering and note the assumption; the website marks the time estimate and
-the ICS feed emits an all-day event. Do not mark the known day estimated merely
-because the hour is unknown. Confirm and remove the date-only precision flag
-when the organizer supplies the exact cutoff. If an opening day lacks an hour,
-record the day with a note about its provisional midnight time; the portal
-still requires source evidence before claiming it is open.
+## Estimates And Next Editions
 
-Conference proposal deadlines and restricted invited/tutorial paper routes are
-not general submission opportunities. Use descriptive, non-actionable types
-for them. SIAM DS, CCS, and NetSci presentation abstracts are not automatically
-archival full-paper publications. L4DC's unannounced late-breaking eligibility
-does not yet count as an unrestricted route.
+Preview supported recurrence without changing files:
 
-## Topics, Sizes, And Map Locations
+```sh
+python3 scripts/rollover_editions.py --as-of YYYY-MM-DD
+```
 
-The AI Deadlines comparison and expansion backlog live in
-`project_docs/conference_candidates.md`. It preserves 57 originally missing
-series, split into 42 added and 15 deferred candidates, plus
-future-only ICWM. It is discovery material, not a second data source.
-When approving a candidate, check names/aliases before creating a new series;
-AutoML/AUTOMLCONF, LoG/LOG, and SaTML/SATML are the same series, while LoG and
-LOD/AIS are different. Confirm the recurrence before configuring rollover.
+The helper considers each series' latest tracked edition only after it has
+ended. `CADENCE_YEARS` is an explicit allowlist, not a recurrence guesser:
+annual, biennial and IFAC SYSID's triennial patterns are configured separately.
+It skips already tracked next editions, advances by that cadence, and accounts
+for leap-day shifts. Irregular/joint/workshop series require individual review.
 
-For the 2026-10-07 additions, prioritize AutoML/ProbML 2027 announcements,
-GECCO/CogSci 2027 submission schedules, ICIP/Interspeech exact main-paper
-cutoffs, and MLSys's inconsistent homepage/CFP time conversion. AAMAS Blue Sky
-Ideas has an independent abstract gate; do not let its opportunity imply the
-main track accepts unregistered papers. Its author-registration date appears
-only in a note and is not verified opening evidence: do not promote it to
-`opens_at` without checking the actual submission step. Do not infer rates from
-accepted-only lists or substitute a historical ICORE/CORE rank for the current release.
+Only after checking cadence and official sources, append reviewed drafts with:
 
-Assign up to four unique, central leaves from `data/topics.yml`. Prefer the
-organizer's core CFP/scope over incidental applications; do not force four.
-Every leaf must have one family and one compact label in `data/topic_families.yml`.
-Assign every series one to three central identities in `data/conference_families.yml`;
-never duplicate family IDs in edition records or infer them from a generic ML tag.
-Whole-family selection uses those identities. Individual subtopics and Time series
-use the primary/additional union. Keep stable keys/feed slugs. Federated learning
-belongs to ML & Data Science; it does not itself prove privacy or ethics coverage.
-Responsible & Trustworthy AI remains a dedicated family, including human-AI interaction.
-See `topic_audit.md` for source examples and current family coverage.
+```sh
+python3 scripts/rollover_editions.py --as-of YYYY-MM-DD --write
+```
 
-For richer discovery, curate `data/conference_scopes.yml` by exact series.
-It holds zero to six characteristic additional leaves, useful scope prose,
-official URLs, evidence year, and a scope review date. A huge CFP list should
-be reduced to defining areas, not copied wholesale. Tables keep four main tags;
-search, individual subtopic filters, map matching, and topic feeds use the curated union. Missing
-profiles fall back to main topics and enter the review queue. Current coverage
-is 79 of 129 series; 50 remain to review. See `conference_scopes.md` for the
-schema, editorial examples, evidence limitations, and monthly procedure.
+Important: `--write` appends **all** candidates in the preview, not a selected
+series, and writes canonical YAML. It never overwrites an existing edition ID.
+If only a subset is approved, add those reviewed records manually instead.
+Inspect the diff immediately, validate it and do not publish untouched drafts.
 
-The AI/vision/multimedia expansion has a focused evidence and follow-up list in
-`vision_ai_expansion.md`. Check FG's final extensions, IJCB's published opening,
-ICCV's conflicting meeting pages, and unpublished KR/SIGGRAPH/ACM MM dates.
-ECCV/ICCV project by two years; recent EUVIP/FG/IJCB editions use annual cadence.
-Do not add separate BTAS/ICB rows while they are incorporated into IJCB.
+The helper copies prior fields/milestones, shifts timing, marks estimates,
+sets location unannounced, removes `open_observed_on`, and may shift prior
+`opens_at`. That shifted opening is a proxy, not observed or confirmed evidence.
+Review/remove unsupported opening/track/publication assumptions, extensions,
+timezones and obsolete milestones; replace prior-edition links where a current
+call exists. Its automatic review date is not a substitute for actual review.
+Shared scope/rank/family mappings are not duplicated into the edition.
 
-The complex-systems/neuroscience batch is audited in
-`dynamics_neuroscience_expansion.md`. Keep abstract-only and archival-paper
-formats distinct in notes/docs, using the existing abstract milestone types
-without adding public UI. Prioritize ICCN's conflicting dates, unannounced
-ALIFE/BCI/SfN 2027 calls and BioCAS's full-paper route. NODYCON, Dynamics Days
-Asia-Pacific and Dynamics Days CAC stay in the next-edition review queue;
-their uncertain recurrence is not an annual auto-projection. AREADNE/SAB/LAC
-are biennial, while Europe/US retain their independent annual cycles.
+A defensible proxy can remain useful with estimated confidence. If recurrence
+or next-edition timing cannot be supported, keep the latest historical edition
+and its review item instead of inventing future dates or an annual pattern.
 
-Only S, M, L, XL, XXL are allowed, displayed in that order. Prior mixed labels
-were mapped S/M to M, M/L to L, and L/XL to XL. Size remains a qualitative
-scale, not an attendance claim; revise it only with a documented basis.
+## Deadline And Opening Review
 
-For a newly confirmed city, add approximate center coordinates and the exact
-`location` string as an alias in `data/cities.yml`. Do not geocode ambiguous
-strings, guess an unannounced venue, or claim venue-precise coordinates. The
-map includes confirmed/announced meeting dates in mapped cities, in-person or
-hybrid, whose start is still in the future. Estimated dates remain in the
-table; past/ongoing meetings are separate. Search/topic/rank/rate/size filters
-also filter map markers. The submission-opportunities checkbox is deadlines
-only, so it cannot hide meetings from the map.
+Follow [the field and status contract](data_schema.md#milestone-fields).
+Meeting confidence, individual deadline certainty, cutoff precision and portal
+opening evidence are independent. In particular:
 
-The language/robotics evidence checklist is in `nlp_robotics_expansion.md`.
-Recheck SIGIR's PROPOSED deadlines before confirming them; seek 2027 CFPs for
-EMNLP, CoNLL, COLM, ISWC, RecSys and SMC. LREC rolls over by two years.
-NAACL, COLING and IJCNLP have irregular/joint cadence and are deliberately not
-in the automatic rollover map. ARR commitment is not a fresh-paper deadline.
-RSS stage 1 gates its invited stage 2; ECIR's resource-paper route is independent.
-SMC proposal dates do not establish confirmed 2027 meeting dates. Do not
-silently choose a camera-ready date from conflicting organizer blocks.
+- A confirmed meeting can have an estimated paper deadline or no known call.
+- A known deadline day with an unknown hour uses `time_precision: date`; it is
+  not an inferred day. Document the provisional ordering timestamp.
+- A day-only opening stays in notes until an exact published time or live
+  portal can be verified. Do not manufacture midnight `opens_at`.
+- Mandatory abstract/registration gates close fresh submission routes when
+  they pass. Independent abstracts do not gate unrelated papers.
+- Open/Scheduled/Submission opportunity are evidenced green states; unknown
+  opening is the honest Submission opportunity fallback, not an Open claim.
+- Workshop proposals, commitments, revisions and camera-ready dates remain
+  schedule details, not fresh research-contribution countdowns.
+- Abstract books/archives are not full-paper proceedings. Keep format caveats
+  in labels, descriptive metadata and project notes; current UI stays intact.
 
-## Catalog Workbook
+## Topics, Profiles And Locations
 
-YAML is authoritative; never import spreadsheet edits silently into it.
-`scripts/export_catalog.py --output catalog.json` exports each series' latest
-edition and current ranks/rates/topics, plus series scope profiles.
-`scripts/sync_workbook.mjs` accepts the
-workbook, JSON, and preview directory. It preserves native tables, existing row
-order/styles, numeric percentages, and vocabulary definitions, appends new
-series, validates values, checks formula errors, and renders the catalog,
-vocabulary, and separate Conference Scope sheet. The main catalog keeps its
-four display topics; scope review dates are native formatted Excel dates.
-It refuses unexplained series removal. See development.md for the optional
-artifact-tool runtime. Re-import the saved file after editing to verify row
-counts and values. No Node or spreadsheet library is needed to build the site.
-New submission-type descriptions wrap within their cells, and vocabulary
-previews follow the current row count as the controlled taxonomy grows.
+Use [topic audit](topic_audit.md) and [scope curation](conference_scopes.md).
+Keep the eight agreed families and stable leaf slugs. Whole-family filters use
+central series identities, not any incidental ML method; individual leaves
+use the curated primary/additional union. Main tags cap at four, extras at six;
+these are limits, not targets. Never import an exhaustive CFP inventory.
 
-## Community Setup
+Only confirmed cities get exact `location` aliases and approximate centers in
+`data/cities.yml`. Distinguish homonymous cities; do not guess hosts, silently
+geocode ambiguous strings or claim venue-level accuracy. Future confirmed/
+announced non-online meetings appear on the map; estimates and ongoing/past
+meetings do not. The submission-options filter is deadlines-only.
 
-Discussions are enabled for `gon-uri/venue-radar`. Giscus's official API
-reconfirmed repository access and category IDs after the rename on 2026-10-07;
-the live widget was originally verified on 2026-10-06. For a new fork, its owner must install
-[Giscus](https://github.com/apps/giscus) for that repository only.
-The embedded client uses its verified repository ID, Announcements category,
-and the stable specific term `Venue Radar community`. Verify the rendered
-widget on the live page after installation. GitHub sign-in is required to
-comment. A direct Discussions link and structured conference-request issue
-form are always available even if the optional widget cannot load.
+The workbook is a review mirror of each series' latest edition, not a second
+source to import silently. Its three tables are catalog, vocabulary and scopes.
+Date-only/meeting dates are not separate workbook columns; a date-only correction
+may leave mirrored values unchanged. Follow [workbook synchronization](development.md#workbook-synchronization)
+for export, native-table preservation, visual/error checks and re-import.
 
-## Repository Rename
+## Ranking And Acceptance Evidence
 
-The current repository is https://github.com/gon-uri/venue-radar and the website
-is https://gon-uri.github.io/venue-radar/. The local Git remote must use the
-current repository URL. Pages continues publishing main/docs.
+Match exact main-track series to the configured official releases. Never
+borrow a rank from a parent workshop venue, joint edition, homonymous acronym
+or old ranking list. Missing mappings show a dash/Unranked filter state, not C.
+Keep CCF PDF/page provenance separate from the public navigation webpage.
 
-After a future rename, update README, attribution, site navigation, Giscus's
-repository name, and corresponding regression checks before rebuilding. Keep
-existing Giscus IDs/mapping and the published calendar UID namespace unchanged.
-Calendar download paths are relative; subscribers using an old absolute feed
-URL must change its base to the new Pages URL. Do not mass-replace the historical
-UID namespace, which is not a navigable URL. Verify GitHub's Pages configuration,
-the live comment widget, and representative aggregate/topic/edition downloads.
+Re-audit ranks when the publisher changes its list; a new release also requires
+updating the validator's release rules, metadata, links, tests and mirror.
+A review-date edit alone does not migrate a ranking release.
 
-## Rankings And Acceptance
-
-ICORE 2026 ranks live in `data/icore_rankings.yml`; CCF 2026 ranks live in
-`data/ccf_rankings.yml`. Match an exact main-track conference series against
-the official release. Do not transfer a rank to a satellite workshop or the
-joint IJCAI-ECAI edition. A missing mapping is displayed as a dash, not C.
-Re-audit the maps only when the corresponding publisher releases a new list.
-
-Record a historical acceptance rate in `data/acceptance_rates.yml` only when
-the organizer or proceedings supplies a defensible numerator/denominator or
-published percentage. Keep the edition year, population/track, direct source
-URL, and `approximate: true` for rough published counts. A single
-track-specific historical rate is not a forecast for the next edition.
-The website derives five qualitative bands from the percentage:
+Historical acceptance evidence must retain year, actual track/population,
+source and any approximation. Abstract acceptance is not full-paper selectivity.
+The numerical bands, implemented in `validate.acceptance_band`, are:
 
 | Band | Historical rate |
 | --- | --- |
@@ -230,24 +157,49 @@ The website derives five qualitative bands from the percentage:
 | High | 40% to under 60% |
 | Very high | 60% or above |
 
-If reliable evidence is absent, leave the series out and let the site show
-Unknown. A qualitative-only estimate may be added when official historical
-statistics or proceedings support a defensible band but not a current-edition
-percentage; label it `(estimated)` and keep the direct source. Do not convert
-the former subjective Difficulty label or rank into a rate.
+A sourced qualitative-only entry needs `band` and `basis` and displays
+`(estimated)`. Otherwise leave the series absent/Unknown. Do not derive rates
+from rankings, the retired Difficulty field, reputation or accepted-only lists.
 
-## Publish
+## Evidence Follow-Ups
 
-1. Synchronize the catalog workbook in `data/` when series ranks, rates,
-   tags, or scope profiles change. YAML remains canonical.
-2. Run `python scripts/validate.py`, `python -m unittest discover -s tests -v`,
-   and `python scripts/build_all.py`.
-3. Inspect the changed HTML and ICS outputs, especially the status of gated
-   deadlines, confidence labels, links, and stable UIDs. For interface work,
-   check desktop and mobile in a browser.
-4. Update `data/metadata.yml` when the published dataset has been reviewed,
-   update relevant `project_docs/` files, commit the generated `docs/`
-   outputs with their source changes, and push.
+Consult the dated records rather than maintaining a second competing list:
 
-The public site is static. It never fetches organizer pages at runtime; every
-published fact must be reviewed and committed.
+- [Candidate backlog](conference_candidates.md): approval/aliases and deferred
+  venues; candidates are not confirmed calendar data.
+- [AI/vision expansion](vision_ai_expansion.md): FG/IJCB extensions/openings,
+  conflicting ICCV dates, biennial editions and rate limitations.
+- [Language/robotics expansion](nlp_robotics_expansion.md): ARR versus commitments,
+  RSS gates, proposed SIGIR/SMC dates and irregular NAACL/COLING/IJCNLP cadence.
+- [Complex-systems/neuroscience expansion](dynamics_neuroscience_expansion.md):
+  abstract-only evidence, ICCN conflicts, BioCAS route and unannounced regional calls.
+
+These are dated review priorities. Recheck against current sources; do not
+interpret an older phrase such as "upcoming" or "closed" as today's live status.
+
+## Project Services
+
+### Community Setup
+
+Giscus is optional public GitHub Discussions integration. The owner of a fork
+must enable Discussions, install the [Giscus app](https://github.com/apps/giscus)
+for that repository, choose a category and verify the rendered live widget.
+The maintained configuration lives in `assets/site.js`. It uses repository ID
+`R_kgDOTQKmZg`, Announcements ID `DIC_kwDOTQKmZs4DHLTi`, and specific mapping term
+`Venue Radar community` for this repository. Preserve that mapping during
+routine edits; changing it can create a new comment thread. GitHub sign-in is
+required. The direct Discussions link and request form work independently.
+Existing setup was verified in the dated session records, not rechecked by a build.
+
+### Repository Rename
+
+Current repository: https://github.com/gon-uri/venue-radar
+Current Pages site: https://gon-uri.github.io/venue-radar/
+
+A future rename requires updating public links, Giscus's repository name,
+regression expectations and Git origin, then checking Pages configuration/live
+comments/downloads. Preserve Giscus IDs/mapping and the historical
+`scientific-conference-calendar` UID namespace. Download paths remain relative;
+subscribers must update obsolete absolute feed URLs. A repository redirect
+is not a Pages/feed redirect. Use the release checklist, not a blind global
+replacement of every historical namespace or dated evidence record.

@@ -2,6 +2,13 @@
 
 Date: 2026-10-06
 
+Historical design/evidence record, with later approved refinements retained.
+Older catalog counts, repository choices and derived-family descriptions below
+are dated snapshots, not current instructions. Use [current status](implementation_status.md),
+[architecture](architecture.md) and ADR-026/030 for the renamed repository and
+eight central-family model. Do not regenerate an unselected logo or undo later
+UI refinements merely because they appear in this proposal.
+
 ## Status
 
 Approved and implemented as Venue Radar. Option 2 was refined into a bespoke
@@ -14,7 +21,8 @@ confirmed by the official checker and the published comments widget renders.
 
 ## Resolved Choices
 
-- Selected public name: Venue Radar. Keep the existing repository name and URL.
+- Selected public name: Venue Radar. The original choice kept the repository
+  URL; the later user-requested rename is recorded in ADR-026.
 - Selected logo: option 2, the calendar with a radar inside, regenerated and
   refined after the user's sector-sweep feedback. It remains text-free.
 - Second tab: a world map and date-sorted conference table; no submission status
@@ -26,8 +34,9 @@ confirmed by the official checker and the published comments widget renders.
 - Add all eight proposed series: L4DC, IFAC SYSID, IEEE CDC, ACC, NOLTA,
   SIAM DS, CCS, and NetSci. Clearly distinguish paper routes from presentation
   abstract routes, and respect each series' recurrence.
-- Hierarchical topics: broad families, automatically derived from up to four
-  accurate central subtopics per conference. Do not force four tags.
+- Original hierarchical topics: broad families derived from up to four central
+  subtopics. Central series identities superseded that parent-matching model
+  in ADR-030; do not force four main tags.
 - Author: Gonzalo Uribarri, Assistant Professor at the Department of Computer
   and Systems Sciences, Stockholm University (wording requested by the author).
 - GitHub: https://github.com/gon-uri
@@ -60,7 +69,7 @@ confirmed by the official checker and the published comments widget renders.
 
 ## Responsible AI Coverage Review
 
-The current 63-series catalog contains 13 series tagged Fairness & Responsible AI
+The then-current 63-series catalog contained 13 series tagged Fairness & Responsible AI
 and 10 tagged Explainability & Interpretability, with 21 distinct series in their
 union. These existing tags are not evidence that all 21 specialize in the area.
 
@@ -94,8 +103,10 @@ Mode: reference-image edit, built-in image generation, transparent background.
 Source: the selected calendar/radar candidate, refined twice; the final edit
 replaced the thin ray with a filled sector after the user's explicit feedback.
 Original generation: `assets/venue-radar-original.png`. The pre-recolor 256px
-source is `assets/branding/venue-radar-source.png`; the active header/favicon
-asset is `assets/venue-radar.png`. No vector reconstruction or SVG tracing was used.
+source is `assets/branding/venue-radar-source.png`; the active header
+asset is `assets/venue-radar.png`. The later radar-only favicon is maintained
+separately in `assets/favicon.svg`. No vector reconstruction or SVG tracing
+was used for the PNG logo.
 
 Original Generation Prompt (2026-10-06):
 

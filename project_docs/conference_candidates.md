@@ -196,6 +196,9 @@ excluded from the 57-series retrospective gap and remains untracked.
 
 ## Using This Backlog
 
+Follow [adding conferences](adding_conferences.md) for the complete multi-file
+procedure; this backlog is only dated discovery and approval-status evidence.
+
 Do not auto-import these candidates or their scraped deadlines. An addition
 requires user approval, identity/alias checks, current official-source review,
 up to four central subtopics, an explicitly sourced recurrence pattern, and

@@ -2,10 +2,15 @@
 
 Reviewed: 2026-10-08
 
+This guide owns profile curation. See [adding conferences](adding_conferences.md)
+for the multi-file checklist, [data schema](data_schema.md) for edition/deadline
+fields, and [development](development.md#workbook-synchronization) for mirror checks.
+
 The table's up-to-four main topics are a compact description, not an exhaustive
 list. `data/conference_scopes.yml` adds a more detailed, source-grounded profile
 by exact conference series. Current coverage is 79 of 129 series, including all
-42 AI Deadlines additions, CIKM/WSDM and the 16 complex-systems/neuroscience additions. The other 50 are explicitly queued for review;
+42 AI Deadlines additions, CIKM/WSDM and the 16 complex-systems/neuroscience
+additions. The other 50 are explicitly queued for review;
 an absent profile is not replaced by guessed information.
 
 The new batch's publication formats and abstract-only caveats are documented in
@@ -30,6 +35,25 @@ describes a series using dated evidence; it is not a claim that every historical
 edition had an identical CFP. Recheck edition-specific changes and special
 themes during monthly maintenance. Primary/additional overlap across editions
 is allowed and deduplicated when matching; additional lists themselves are unique.
+
+### Profile Shape
+
+This fictional companion to the addition guide's example illustrates the exact
+five fields. It is not a real conference profile and must not enter the catalog:
+
+```yaml
+Example Conference:
+  additional_topics:
+  - Learning Theory & Statistical Foundations
+  scope_summary: General machine-learning methods with a characteristic learning-theory strand. Fictional schema example, not a suitability claim.
+  scope_source_urls:
+  - https://example.org/conference/2027/scope/
+  scope_last_checked: '2026-10-08'
+  source_year: 2027
+```
+
+All five fields are required; `additional_topics: []` is valid. Do not invent
+extra profile keys or refresh its evidence year without reviewing a new source.
 
 ## Editorial Rules
 

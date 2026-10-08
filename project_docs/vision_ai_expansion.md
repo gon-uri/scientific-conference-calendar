@@ -5,6 +5,11 @@ AI Deadlines batch, not a new candidate recommendation or an exhaustive review
 of the older catalog. Canonical dates live in `data/conferences.yml`; the
 workbook and HTML/ICS outputs are synchronized mirrors.
 
+The counts and seven-family layout below are historical batch snapshots.
+Use [implementation status](implementation_status.md) and [topic audit](topic_audit.md)
+for the current catalog/eight-family model, and
+[adding conferences](adding_conferences.md) for the maintained procedure.
+
 ## Approved Scope And Relevance
 
 Added 15 series: EuroGP, KR, ICAPS, and all 12 original Vision, Imaging and
@@ -34,7 +39,7 @@ in the remaining 46 and are included, not counted again. Total catalog:
   venues. ICAPS explicitly requires a planning/scheduling contribution and
   excludes reinforcement learning alone.
 
-## Current Timing Evidence
+## Timing Evidence At Review
 
 | Series | Organizer Evidence | Meeting / Submission Treatment |
 | --- | --- | --- |

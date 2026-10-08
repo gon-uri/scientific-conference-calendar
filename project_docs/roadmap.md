@@ -2,11 +2,15 @@
 
 Last synchronized: 2026-10-08
 
+Current implementation is summarized in [implementation status](implementation_status.md).
+Use [the documentation index](README.md) for procedures; the completed milestones
+below are history, not instructions to reimplement old designs.
+
 ## Venue Radar Redesign
 
 - Completed: refined calendar/radar identity, simple README, MIT/CC BY licensing,
   author/social links, five normalized sizes, eight hierarchical topic families,
-  offline city map plus conference tables, eight new conference series, and
+  offline city map plus conference tables, the initial eight dynamics/control series, and
   synchronized catalog workbook with repeatable maintenance tooling.
 - Completed community setup: Giscus prerequisites verified through its official
   checker; the live comments widget, Discussions, and request form are ready.
@@ -165,6 +169,10 @@ Last synchronized: 2026-10-08
 
 - Goal: Make the repository self-documenting for future Codex sessions without relying on conversation history.
 - Priority: High
-- Dependencies: `project_docs/implementation_status.md`, `project_docs/roadmap.md`, `project_docs/architecture.md`, `project_docs/decisions.md`, `project_docs/session_log.md`
+- Dependencies: AGENTS.md, the documentation index, current status/architecture,
+  field reference, addition/maintenance/development guides, ADRs and session log.
 - Estimated complexity: Low
 - Completion status: Completed
+- Completed onboarding audit: task-based navigation, complete addition checklist,
+  schema examples, current-versus-historical separation and link/example regressions.
+  Keep these guides synchronized as schema or workflow changes.

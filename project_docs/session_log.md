@@ -1,5 +1,33 @@
 # Session Log
 
+## 2026-10-08 (agent onboarding and documentation audit)
+
+- Objective: Make project organization, conference additions and recurring
+  database maintenance clear to a new agent without relying on chat history.
+- Audit: Checked all project guides against source ownership, validators,
+  builder/client behavior, exporter, rollover and review-report commands.
+  Existing guidance was largely present but mixed current state with history,
+  repeated UI detail and lacked a complete addition checklist/field reference.
+- Implemented: Task-based documentation index; new data schema and conference-
+  addition guides with fictional validated examples; concise AGENTS routing;
+  current-state/architecture summaries; clearer maintenance and development
+  checklists. Marked old proposal/batch counts and superseded matching choices
+  as historical. Preserved all source evidence and prior session/ADR history.
+- Clarifications: Exact series joins, all companion files, required/optional
+  fields, supported versus schedule-only types, mandatory gates, unknown
+  opening times, independent meeting/deadline/time confidence, publication
+  formats, stable UIDs, review dates, and dataset metadata before generation.
+  Rollover is an explicit all-candidate append operation, not a scraper or
+  verified opening source. Optional QA dependencies do not change static hosting.
+- Regression coverage: Six documentation tests resolve local links/anchors,
+  verify index/agent routing, compare required fields/type vocabulary to code,
+  and validate fictional edition/family/scope examples without adding them.
+- Verification: 166 records validate; all 87 Python tests pass; full rebuild
+  leaves all data, workbook, assets, scripts, public README and generated HTML/
+  212 feeds unchanged. Rollover dry run reports zero candidates and writes
+  nothing. Whitespace checks pass. No browser rerun or external source refresh
+  was needed for this documentation-only change; prior live checks remain dated.
+
 ## 2026-10-08 (complex systems and neuroscience expansion)
 
 - Objective: Add the approved 16 series, including AREADNE, SfN and all five

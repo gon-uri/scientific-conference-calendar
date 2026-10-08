@@ -5,6 +5,11 @@ the catalog to 166 editions across 129 series. All 16 have curated, sourced
 scope profiles and explicit central family identities. The existing eight
 family IDs, names, order and all previous leaf labels are unchanged.
 
+This is the dated batch evidence record. Future agents should use
+[implementation status](implementation_status.md) for current totals,
+[adding conferences](adding_conferences.md) for additions and
+[data maintenance](data_maintenance.md) for source refreshes.
+
 ## Publication Formats
 
 Abstract-based meetings are deliberately included when they are respected

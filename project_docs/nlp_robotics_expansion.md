@@ -2,10 +2,14 @@
 
 Reviewed: 2026-10-07. Approved additions: ACL, EMNLP, NAACL, COLING, CoNLL,
 LREC, IJCNLP, SIGIR, ECIR, RecSys, WWW, COLM, ISWC, ICRA, RSS and SMC.
-These 16 series add 22 edition records. The catalog is now 113 series and
+These 16 series added 22 edition records. The resulting batch snapshot was 113 series and
 144 editions, with 40 subtopics, 63 reviewed profiles, and 187 calendar feeds.
 This was targeted expansion and taxonomy review, not a date refresh of every
 previously tracked edition. Existing edition dates and event UIDs are preserved.
+
+Counts and timing statements here are dated evidence, not current live status.
+Use [implementation status](implementation_status.md) for present catalog totals
+and [adding conferences](adding_conferences.md) for the maintained procedure.
 
 ## Official Evidence And Limitations
 

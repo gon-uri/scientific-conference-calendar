@@ -3,6 +3,11 @@
 Prepared: 2026-10-07
 Status: Audiowide (option 8) selected by the user for the public title.
 
+This is a design record. The Selected Implementation section describes the
+adopted face; recommendations in the two option rounds are historical, not
+instructions to replace it. Use [development](development.md#branding-tools)
+for maintained regeneration commands.
+
 ## Approved Sizing Changes
 
 - Desktop title: 36px to 42px (+16.7%); logo: 76px to 82px (+7.9%).
@@ -85,7 +90,8 @@ Browser checks verify the loaded embedded font, unchanged body/table fonts,
 and fit across all six responsive test widths.
 
 Preview font binaries and scratch renderers are in
-`/private/tmp/venue-radar-typography/`, not in public site assets. Both sets of
+`/private/tmp/venue-radar-typography/` during the original review, not in public
+site assets. That scratch directory is not a durable dependency. Both sets of
 five faces were checked as successfully loaded before their PNGs were captured.
 The PNGs are design-review artifacts, not part of docs/index.html. Only the
 selected Audiowide font is included in public runtime assets.

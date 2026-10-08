@@ -1,6 +1,27 @@
 # Architecture Decision Records
 
-Last synchronized: 2026-10-07
+Last synchronized: 2026-10-08
+
+This is a dated decision history, not the current operating manual. Later
+explicit refinements take precedence. Current rules live in
+[architecture](architecture.md), [data schema](data_schema.md) and the
+[task guides](README.md); older catalog counts remain historical snapshots.
+
+## Current Decision Map
+
+| Area | Active decisions and refinements |
+| --- | --- |
+| Static architecture, YAML ownership, committed outputs | ADR-001/002/003/005/007 |
+| Stable identities, joint editions, renames | ADR-004/009/019/026 |
+| Agent handbook and documentation ownership | ADR-006/008/037 |
+| Reviewed evidence, date-only precision, conservative recurrence | ADR-011/015/017/024/031/036 |
+| Direct ranks and historical rates | ADR-012/014/018/025 |
+| Eight central families and curated leaves/scopes | ADR-028/030/036; ADR-020's earlier seven-family matching is superseded |
+| Submission action/status/countdown/ordering | ADR-032 refines ADR-013 and supersedes the relevant parts of ADR-016 |
+| Offline confirmed-city map | ADR-021; tab naming refined by ADR-034 |
+| Brand, licensing, copy and community | ADR-022/023/026/034 |
+| Filters and default opportunities | ADR-025/033; responsive defaults refined by ADR-035 |
+| Mobile cards and visual hierarchy | ADR-035 and its approved 36px refinement |
 
 ## ADR-001: Keep the Project Static
 
@@ -161,6 +182,8 @@ Last synchronized: 2026-10-07
 ## ADR-020: Derive Seven Topic Families From Central Subtopics
 
 - Date: 2026-10-06
+- Status: Family count and parent matching superseded by ADR-030; stable leaves
+  and curated display-topic limits remain. Do not implement the old model.
 - Context: Added dynamics/control venues and responsible-AI coverage made a flat
   topic list harder to scan, while overly broad tags obscured conference scope.
 - Decision: Store up to four central leaves per edition. A validated registry
@@ -541,3 +564,27 @@ Last synchronized: 2026-10-07
   UIDs and public semantics remain stable. The workbook and generated feeds
   mirror canonical YAML. Missing ranks/rates stay unknown, not inferred from
   loosely matching acronyms or abstract acceptance.
+
+## ADR-037: Separate Current Guides From Historical Project Memory
+
+- Date: 2026-10-08
+- Context: A new agent had to reconstruct a conference update from lengthy
+  status, architecture, maintenance and history files. No complete addition
+  checklist or field guide explained the cross-file requirements and traps.
+- Decision: Keep AGENTS.md lightweight and add a documentation index, an
+  edition/deadline schema reference and a conference-addition checklist.
+  Shorten status to the current snapshot and architecture to file/code ownership
+  and stable contracts. Data maintenance owns refresh procedure; development
+  owns executable verification/workbook/publication commands. Link to detail.
+- History: Preserve dated ADRs, source audits, proposals and session entries;
+  clearly distinguish them from current requirements. New session entries go
+  at the top in reverse chronological order. Label superseded decisions.
+- Authoring corrections: Do not fabricate a midnight opens_at from a day-only
+  opening announcement. Run standalone registry validation as well as the
+  build. Update dataset review metadata before generation, not after it.
+  Rollover writes estimates only after review and can shift old opening metadata;
+  its output is not fresh evidence. Arbitrary custom milestone types are
+  schedule-only, even if validation accepts them.
+- Consequences: Documentation-only work must preserve conference YAML, XLSX,
+  website sources, artwork, public copy and generated output. Documentation
+  tests check local links, guide coverage and executable schema examples.
